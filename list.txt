@@ -1,4 +1,4 @@
-#EXTM3U
+央视,#genre#
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb/CCTV/HD/1HD.png" tvg-name=,CCTV1
 http://150.138.8.143:80/00/SNM/CHANNEL00000311/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb/CCTV/HD/2HD.png" tvg-name=,CCTV2
@@ -31,6 +31,8 @@ http://150.138.8.143:80/00/SNM/CHANNEL00000345/index.m3u8
 http://150.138.8.143:80/00/SNM/CHANNEL00000323/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb/CCTV/HD/15HD.png" tvg-name=,CCTV15
 http://150.138.8.143:80/00/SNM/CHANNEL00000346/index.m3u8
+
+卫视,#genre#
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb/ws/shandong.png" tvg-name=,山东卫视
 http://150.138.8.143/00/SNM/CHANNEL10000301/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb/sheng/sdshenghuo.png" tvg-name=,山东生活
