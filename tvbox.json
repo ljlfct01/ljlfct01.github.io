@@ -7,13 +7,13 @@
         {
             "name": "live",
             "type": 0,
-            "url": "/live.txt",
+            "url": "./lib/live.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
             {
       "name": "FMM🌏IPV6",
       "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "url": "https://ljlfct01.github.io/live.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
