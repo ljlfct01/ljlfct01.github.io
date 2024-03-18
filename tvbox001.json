@@ -45,36 +45,50 @@
       "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
     },
     {
-      "key": "优酷",
-      "name": "🐼2KHDR┃官源-1",
+      "key": "csp_Auete",
+      "name": "📚拾光┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/youku.js"
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
     },
     {
-      "key": "芒果",
-      "name": "🐼2KHDR┃官源-2",
+      "key": "云播影视",
+      "name": "📚拾光┃云播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/mangguo.js"
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/4708/js/云播.js"
     },
     {
-      "key": "爱奇异",
-      "name": "🐼2KHDR┃官源-3",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/aiqiyi.js"
+     "key": "卧龙资源",
+      "name": "拾光┃卧龙",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "国产剧",
+        "香港剧",
+        "恐怖片",
+        "动作片"
     },
     {
-      "key": "腾讯",
-      "name": "🐼2KHDR┃官源-4",
+      "key": "亮亮",
+      "name": "拾光┃小亮",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/tengxun.js"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt;md5;bb155c3f0133bbce4756ad52003f5968",
+      "api": "csp_AppYsV2",
+      "ext": "http://xiutan.shiyifacai.com/zuoan/api.php/app/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
       "key": "Czsapp",
-      "name": "🐼2KHDR┃秒播-A",
+      "name": "拾光┃厂长2K",
       "type": 3,
       "api": "csp_Czsapp",
       "playerType": 2,
@@ -84,33 +98,32 @@
       "ext": "https://www.czzy88.com/"
     },
     {
-      "key": "南瓜",
-      "name": "🐼2KHDR┃秒播-B",
-      "type": 3,
-      "api": "csp_NanGua",
-      "playerType": 2,
+      "key": "不鑫影院",
+            "name": "拾光┃鑫鑫",
+            "type": 1,
+            "api": "http://vipcom.xn--654a.cc/api.php/provide/vod/",
+            "playUrl": "json:http://json.xn--654a.cc/home/api?type=ys&uid=1323246&key=dfiopqzEHJKNOPSTY5&url=",
+            "searchable": 1,
+            "quickSearch": 1
+    },
+    {
+      "key": "暴風",
+      "name": "拾光┃暴风2K",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
-      "key": "csp_Nmys",
-      "name": "🐼2KHDR┃秒播-C",
+       "key": "csp_XYQHiker_奇趣影院",
+      "name": "拾光┃奇趣",
       "type": 3,
-      "api": "csp_Nmys",
+      "api": "csp_XYQHiker",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "./lib/nmys.json"
-    },
-    {
-      "key": "csp_Bttoo",
-      "name": "🐼2KHDR┃秒播-D",
-      "type": 3,
-      "api": "csp_Bttwoo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "filterable": 1,
+      "ext": "https://d.kstore.space/download/4708/js/奇趣影视.json",
+      "jar": "https://d.kstore.space/download/4708/lib/xyq723.jar"
     },
     {
       "key": "drpy_js_荐片",
