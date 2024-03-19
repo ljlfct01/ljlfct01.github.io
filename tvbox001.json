@@ -24,13 +24,11 @@
       "filterable": 1
     },
     {
-      "key": "Live2Vod2",
-      "name": "🔥码上看直播",
+      "key": "直播转点播1",
+      "name": "📡电视直播",
       "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./sites/码上/remote_live.json"
+      "api": "http://itvbox.cc/tvbox/云星日记/sh/js/直播转点播.js",
+      "ext": "http://itvbox.cc/tvbox/云星日记/sh/js/直播.txt"
     },
     {
       "key": "csp_Dm84",
@@ -328,15 +326,15 @@
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
     },
     {
-      "key": "77",
-      "name": "码上👓饭-👒七七┃秒播",
+      "key": "csp_Kunyu77",
+      "name": "👒酷云七七",
       "type": 3,
       "api": "csp_Kunyu77",
-      "timeout": 15,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
+      "jar": "https://gitee.com/wuyougouwu/tvsource/raw/master/jar/77.jar;md5;A0C72C940A5E8E19E425F437D48942F2",
+      "filterable": 1
     },
     {
       "key": "白嫖",
