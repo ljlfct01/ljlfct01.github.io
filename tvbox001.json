@@ -30,6 +30,28 @@
       "api": "http://itvbox.cc/tvbox/云星日记/sh/js/直播转点播.js",
       "ext": "http://itvbox.cc/tvbox/云星日记/sh/js/直播.txt"
     },
+     {
+      "key": "csp_WoGG",
+      "name": "玩偶💖影视4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "https://ghss.lan2wan.top/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "token": "CandyMuj",
+        "filter": "https://notabug.org/dongchenys/pt/raw/json/json/wogg.json"
+      }
+    },
+     {
+      "key": "荐片",
+      "name": "荐片🎬蓝光",
+      "type": 3,
+      "api": "https://notabug.org/dongchenys/pt/raw/json/js/drpy.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://notabug.org/dongchenys/pt/raw/json/js/jianpian.js"
+    },
     {
       "key": "drpy_js_腾云驾雾",
       "name": "🐧腾讯视频",
