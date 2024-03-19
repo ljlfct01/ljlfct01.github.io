@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider_20240315-140034.tms;md5;1515683e622fe44ae34c3f857be1c8e4",
+  "spider": "./ljlfct01.github.io/tvbox.jar",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -12,16 +12,242 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
-    ],
+  ],
   "sites": [
     {
       "key": "Douban",
-      "name": "🌞老三影视💢v20240315-132",
+      "name": "🌞稳定版时光机💢v20240315-132",
       "type": 3,
-      "api": "tvbox001.json",
+      "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1
+    },
+    {
+      "key": "Live2Vod2",
+      "name": "🔥码上看直播",
+      "type": 3,
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./sites/码上/remote_live.json"
+    },
+    {
+      "key": "csp_Dm84",
+      "name": "🔥码上看巴士",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "dr_码上看荐片",
+      "name": "🔥码上看荐片",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/荐片.js"
+    },
+    {
+      "key": "dr_码上看低端",
+      "name": "🔥码上看低端",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/低端影视.js"
+    },
+    {
+      "key": "xml_火狐",
+      "name": "🔥码上看火狐",
+      "type": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 0.8
+      },
+      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "悬疑片",
+        "犯罪片",
+        "奇幻片",
+        "记录片",
+        "动画片",
+        "内地剧",
+        "香港剧",
+        "台湾剧",
+        "日剧",
+        "韩剧",
+        "欧美剧",
+        "马泰剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫"
+      ]
+    },
+    {
+      "key": "dr_码上看369",
+      "name": "🔥码上看369",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/369影视.js"
+    },
+    {
+      "key": "dr_码上看尘落",
+      "name": "🔥码上看尘落",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./sites/码上/尘落影视.js"
+    },
+    {
+      "key": "dr_码上看NY",
+      "name": "🔥码上看NY",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/NY影院.js"
+    },
+    {
+      "key": "dr_码上看中国人",
+      "name": "🔥码上看中国人",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/中国人.js"
+    },
+    {
+      "key": "dr_码上看18哈",
+      "name": "🔥码上看18哈",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/18哈.js"
+    },
+    {
+      "key": "dr_码上看乐鱼",
+      "name": "🔥码上看乐鱼",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/乐鱼.js"
+    },
+    {
+      "key": "dr_码上看大师兄",
+      "name": "🔥码上看大师兄",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/大师兄.js"
+    },
+    {
+      "key": "dr_码上看动漫",
+      "name": "🔥码上看动漫",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./sites/码上/哔哩影视.js"
+    },
+    {
+      "key": "dr_码上看NYA",
+      "name": "🔥码上看NYA",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/NyaFun.js"
+    },
+    {
+      "key": "dr_码上看白白",
+      "name": "🔥码上看白白",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/素白白.js"
+    },
+    {
+      "key": "dr_码上看农民",
+      "name": "🔥码上看农民",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/农民影视.js"
+    },
+    {
+      "key": "dr_码上看网飞",
+      "name": "🔥码上看网飞",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/网飞.TV.js"
+    },
+    {
+      "key": "dr_码上看Auete",
+      "name": "🔥码上看Auete",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/Auete.js"
+    },
+    {
+      "key": "🔥插兜的干货仓库",
+      "name": "🔥插兜的干货仓库",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "玩偶",
@@ -35,53 +261,16 @@
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
     },
     {
-       "key": "csp_Nmys",
-      "name": "📚拾光┃NM2K",
+      "key": "YGP",
+      "name": "码上👓饭-🚀叨观荐影┃新片",
       "type": 3,
-      "api": "csp_Nmys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
+      "api": "csp_YGP",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
     },
     {
-      "key": "csp_Auete",
-      "name": "📚拾光┃影视",
-      "type": 3,
-      "api": "csp_Auete",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
-    },
-    {
-      "key": "暴風",
-      "name": "拾光┃暴风2K",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-     },
-     {
-       "key": "csp_XYQHiker_奇趣影院",
-      "name": "拾光┃奇趣",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://d.kstore.space/download/4708/js/奇趣影视.json",
-      "jar": "https://d.kstore.space/download/4708/lib/xyq723.jar"
-     },
-     {
-      "key": "drpy_js_荐片",
-      "name": "🎖荐片｜影视",
-      "type": 3,
-      "api": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/drpy2.min.js",
-      "ext": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/荐片.js",
-      "playerType": "1"
-     },
-     {
       "key": "短剧",
       "name": "码上👓饭-🌈上头┃短剧",
       "type": 3,
@@ -90,8 +279,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "酷看",
       "name": "码上👓饭-💡酷看┃秒播",
       "type": 3,
@@ -101,8 +290,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "原创",
       "name": "码上👓饭-☀原创┃无广",
       "type": 3,
@@ -112,8 +301,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "Xinsj",
       "name": "码上👓饭-👓视觉┃直连",
       "type": 3,
@@ -124,8 +313,8 @@
       "changeable": 1,
       "ext": "https://www.80yy3.com/",
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "厂长",
       "name": "码上👓饭-📔厂长┃无广",
       "type": 3,
@@ -137,8 +326,8 @@
       "changeable": 1,
       "ext": "https://www.czzy77.com/",
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "77",
       "name": "码上👓饭-👒七七┃秒播",
       "type": 3,
@@ -148,8 +337,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "白嫖",
       "name": "码上👓饭-👻白飘┃无广",
       "type": 3,
@@ -159,8 +348,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "DiDuan",
       "name": "码上👓饭-⏮️低端┃外剧",
       "type": 3,
@@ -170,8 +359,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "南瓜",
       "name": "码上👓饭-🎃南瓜┃App",
       "type": 3,
@@ -192,8 +381,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-     },
-     {
+    },
+    {
       "key": "毛驴",
       "name": "码上👓饭-🍓毛驴┃直连",
       "type": 3,
@@ -204,8 +393,8 @@
       "changeable": 1,
       "ext": "https://www.maolvys.com/",
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9"
-     },
-     {
+    },
+    {
       "key": "萌米",
       "name": "码上👓饭-👀萌米┃App",
       "type": 3,
