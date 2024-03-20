@@ -21,20 +21,7 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
     },
-    {
-      "key": "💕玩偶💕",
-      "name": "🎖玩偶｜纯净",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
-        "filter": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/wogg.json",
-        "danmu": false
-    }
-    },
+   
     {
       "key": "玩偶弹幕版",
       "name": "🎖玩偶｜4K",
@@ -55,32 +42,6 @@
       "api": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/drpy2.min.js",
       "ext": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/荐片.js",
       "playerType": "1"
-    },
-    {
-      "jar": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/jar/danmu.jar",
-      "key": "csp_OK荐片",
-      "name": "🎖荐片|无弹幕",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": false
-    }
-    },
-    {
-      "jar": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/jar/danmu.jar",
-      "key": "ok荐片弹幕版",
-      "name": "🎖荐片｜弹幕版",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-    }
     },
     {
       "key": "4khdr_ali",
