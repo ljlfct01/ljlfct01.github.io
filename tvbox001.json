@@ -22,13 +22,12 @@
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
     },
     {
-      "key": "YGP",
-      "name": "🚀叨观荐影┃新片",
+      "key": "drpy_js_荐片",
+      "name": "🎖荐片｜影视",
       "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
+      "api": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/drpy2.min.js",
+      "ext": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/荐片.js",
+      "playerType": "1"
     },
     {
       "key": "短剧",
