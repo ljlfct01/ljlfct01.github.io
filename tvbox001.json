@@ -1,13 +1,13 @@
 {
   "sites": [
-    {
-      "key": "Douban",
-      "name": "🌞稳定版时光机💢v20240315-132",
+     {
+      "key": "meowtv_dbtj",
+      "name": "豆瓣┃推荐",
       "type": 3,
-      "api": "csp_Douban",
+      "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1
+      "filterable": 0
     },
     {
       "key": "meowtv_ngys",
@@ -1439,6 +1439,15 @@
       "type": 0,
       "playerType": 1,
       "url": "./list.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "猎狼",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://52.lltv8.cn/TVBox/tv/wztv.php",
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
