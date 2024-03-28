@@ -1435,10 +1435,19 @@
   ],
 "lives": [ 
     {
-      "name": "电视+1",
+      "name": "我的电视",
       "type": 0,
       "playerType": 1,
-      "url": "https://live.tv.cloudns.be/fmm_ipv6.txt",
+      "url": "./tvbox.jar",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "电视+2",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://live.tv.cloudns.be/tv520.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
