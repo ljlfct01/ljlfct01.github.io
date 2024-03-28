@@ -16,7 +16,6 @@ CCTV13,http://150.138.8.143:80/00/SNM/CHANNEL00000345/index.m3u8
 CCTV14,http://150.138.8.143:80/00/SNM/CHANNEL00000323/index.m3u8
 CCTV15,http://150.138.8.143:80/00/SNM/CHANNEL00000346/index.m3u8
 CCTV17,http://150.138.8.143:80/00/SNM/CHANNEL00000303/index.m3u8
-梨园频道,http://150.138.8.143:80/00/SNM/CHANNEL00000656/index.m3u8
 
 CCTV1,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226231/index.m3u8
 CCTV1,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8
@@ -39,13 +38,6 @@ CCTV14,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32212261
 CCTV15,http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000265014/1.m3u8
 CCTV16,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 CCTV17,http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000265015/1.m3u8
-CHC家庭影院,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
-CHC高清电影,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
-CHC动作电影,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
-CCTV风云音乐,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226953/index.m3u8
-CCTV怀旧剧场,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226972/index.m3u8
-CCTV兵器科技,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226975/index.m3u8
-CCTV风云足球,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226984/index.m3u8
 
 CCTV1,http://222.174.140.242:9901/tsfile/live/0002_1.m3u8
 CCTV2,http://222.174.140.242:9901/tsfile/live/0003_1.m3u8
@@ -156,8 +148,6 @@ CCTV-16,https://cdn2.jdshipin.com/api/bst2.php?id=cctv16hd8m/8000000
 CCTV-17,https://cdn2.jdshipin.com/api/bst2.php?id=cctv17hd8m/8000000
 CCTV-4K,https://cdn2.jdshipin.com/api/bst2.php?id=cctv4k/15000000
 CCTV16-4K,https://cdn2.jdshipin.com/api/bst2.php?id=cctv16hd4k/15000000
-CETV-1,https://cdn2.jdshipin.com/api/bst2.php?id=zgjy1t8m/8000000
-CETV-4,https://cdn2.jdshipin.com/api/bst2.php?id=zgjy4hd8m/8000000
 
 CCTV1,http://zteres.sn.chinamobile.com:6060/000000001000/6000000001000029752/1.m3u8?channel-id=wasusyt&Contentid=6000000001000029752&livemode=1&stbId=3
 CCTV2,http://zteres.sn.chinamobile.com:6060/000000001000/1000000001000023315/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=3
@@ -178,6 +168,13 @@ CCTV14,http://zteres.sn.chinamobile.com:6060/000000001000/6000000001000013647/1.
 CCTV15,http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000265014/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265014&livemode=1&stbId=3
 CCTV16,http://zteres.sn.chinamobile.com:6060/000000001000/5000000008000023254/1.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
 CCTV17,http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000265015/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265015&livemode=1&stbId=3
+CCTV风云音乐,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226953/index.m3u8
+CCTV怀旧剧场,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226972/index.m3u8
+CCTV兵器科技,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226975/index.m3u8
+CCTV风云足球,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226984/index.m3u8
+CETV-1,https://cdn2.jdshipin.com/api/bst2.php?id=zgjy1t8m/8000000
+CETV-4,https://cdn2.jdshipin.com/api/bst2.php?id=zgjy4hd8m/8000000
+
 卫视,#genre#
 浙江卫视,http://150.138.8.143/00/SNM/CHANNEL00000305/index.m3u8
 四川卫视,http://150.138.8.143/00/SNM/CHANNEL00000348/index.m3u8
@@ -186,18 +183,6 @@ CCTV17,http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000265015/1.
 天津卫视,http://150.138.8.143/00/SNM/CHANNEL00000327/index.m3u8
 山西卫视,http://150.138.8.143/00/SNM/CHANNEL00000032/index.m3u8
 山东卫视,http://150.138.8.143/00/SNM/CHANNEL10000301/index.m3u8
-山东生活,http://150.138.8.143/00/SNM/CHANNEL00000336/index.m3u8
-山东综艺,http://150.138.8.143/00/SNM/CHANNEL00000338/index.m3u8
-山东体育,http://150.138.8.143:80/00/SNM/CHANNEL00000400/index.m3u8
-山东公共,http://150.138.8.143/00/SNM/CHANNEL00000314/index.m3u8
-山东齐鲁,http://150.138.8.143/00/SNM/CHANNEL10000313/index.m3u8 
-山东农科,http://150.138.8.143/00/SNM/CHANNEL00000339/index.m3u8
-山东少儿,http://150.138.8.143/00/SNM/CHANNEL00000340/index.m3u8
-山东教育,http://150.138.8.143/00/SNM/CHANNEL00000331/index.m3u8
-山东新闻,http://150.138.8.143:80/00/SNM/CHANNEL00000314/index.m3u8
-济宁鲁中,http://150.138.8.143:80/00/SNM/CHANNEL00000244/index.m3u8
-济宁公共,http://150.138.8.143:80/00/SNM/CHANNEL00000241/index.m3u8
-济宁综合,http://150.138.8.143:80/00/SNM/CHANNEL00000240/index.m3u8
 东南卫视,http://150.138.8.143/00/SNM/CHANNEL00000310/index.m3u8
 河南卫视,http://150.138.8.143/00/SNM/CHANNEL00000358/index.m3u8
 陕西卫视,http://150.138.8.143/00/SNM/CHANNEL00000029/index.m3u8
@@ -281,13 +266,6 @@ CCTV17,http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000265015/1.
 重庆卫视,http://222.174.140.242:9901/tsfile/live/0142_1.m3u8
 黑龙江卫视,http://222.174.140.242:9901/tsfile/live/0143_1.m3u8
 山东卫视,http://222.174.140.242:9901/tsfile/live/0131_1.m3u8
-山东生活,http://222.174.140.242:9901/tsfile/live/1003_1.m3u8
-山东新闻,http://222.174.140.242:9901/tsfile/live/1005_1.m3u8
-山东综艺,http://222.174.140.242:9901/tsfile/live/1004_1.m3u8
-山东休闲,http://222.174.140.242:9901/tsfile/live/1002_1.m3u8
-山东文旅,http://222.174.140.242:9901/tsfile/live/1001_1.m3u8
-山东齐鲁,http://222.174.140.242:9901/tsfile/live/1000_1.m3u8
-金鹰卡通,http://222.174.140.242:9901/tsfile/live/1006_1.m3u8
 
 重庆卫视,http://221.1.210.106:8053/tsfile/live/0142_1.m3u8
 河南卫视,http://221.1.210.106:8053/tsfile/live/0139_1.m3u8
@@ -319,9 +297,7 @@ CCTV17,http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000265015/1.
 广西卫视,http://58.19.182.187:9901/tsfile/live/0113_1.m3u8
 云南卫视,http://58.19.182.187:9901/tsfile/live/0119_1.m3u8
 广东卫视,http://58.19.182.187:9901/tsfile/live/0125_1.m3u8
-CHC动作电影,http://58.19.182.187:9901/tsfile/live/1009_1.m3u8
-CHC家庭影院,http://58.19.182.187:9901/tsfile/live/1010_1.m3u8
-CHC高清电影,http://58.19.182.187:9901/tsfile/live/1011_1.m3u8
+
 
 北京卫视,http://116.128.243.121:9901/tsfile/live/0122_1.m3u8
 天津卫视,http://116.128.243.121:9901/tsfile/live/0135_1.m3u8
@@ -330,8 +306,6 @@ CHC高清电影,http://58.19.182.187:9901/tsfile/live/1011_1.m3u8
 海南卫视,http://116.128.243.121:9901/tsfile/live/0114_1.m3u8
 安徽卫视,http://116.128.243.121:9901/tsfile/live/0130_1.m3u8
 湖南卫视,http://116.128.243.121:9901/tsfile/live/0128_1.m3u8
-湖南电影,http://116.128.243.121:9901/tsfile/live/1003_1.m3u8
-湖南电视剧,http://116.128.243.121:9901/tsfile/live/1004_1.m3u8
 江苏卫视,http://116.128.243.121:9901/tsfile/live/0127_1.m3u8
 广东卫视,http://116.128.243.121:9901/tsfile/live/0125_1.m3u8
 深圳卫视,http://116.128.243.121:9901/tsfile/live/0126_1.m3u8
@@ -353,8 +327,6 @@ CHC高清电影,http://58.19.182.187:9901/tsfile/live/1011_1.m3u8
 海南卫视,http://116.128.243.121:9901/tsfile/live/0114_1.m3u8
 安徽卫视,http://116.128.243.121:9901/tsfile/live/0130_1.m3u8
 湖南卫视,http://124.165.251.82:9999/tsfile/live/0128_1.m3u8
-湖南电影,http://116.128.243.121:9901/tsfile/live/1003_1.m3u8
-湖南电视剧,http://116.128.243.121:9901/tsfile/live/1004_1.m3u8
 江苏卫视,http://124.165.251.82:9999/tsfile/live/0127_1.m3u8
 广东卫视,http://124.165.251.82:9999/tsfile/live/0125_1.m3u8
 广西卫视,http://124.165.251.82:9999/tsfile/live/0113_1.m3u8
@@ -403,15 +375,9 @@ CHC高清电影,http://58.19.182.187:9901/tsfile/live/1011_1.m3u8
 海南卫视,https://cdn2.jdshipin.com/api/bst2.php?id=hainanwshd8m/8000000
 海峡卫视,https://cdn2.jdshipin.com/api/bst2.php?id=hxwshd4m/4000000
 黑龙江卫视 ,https://cdn2.jdshipin.com/api/bst2.php?id=hljwshd8m/8000000
-欢笑剧场4K,https://cdn2.jdshipin.com/api/bst2.php?id=hxjc4k/15000000
-欢笑剧场,https://cdn2.jdshipin.com/api/bst2.php?id=hxjc8m/8000000
-劲爆体育,https://cdn2.jdshipin.com/api/bst2.php?id=jbtyhd8m/8000000
-五星体育,https://cdn2.jdshipin.com/api/bst2.php?id=wxtyhd8m/8000000
-茶频道,https://cdn2.jdshipin.com/api/bst2.php?id=cpdhdavs8m/8000000
-金鹰纪实,https://cdn2.jdshipin.com/api/bst2.php?id=jyjs8m/8000000
-BesTV ,https://cdn2.jdshipin.com/api/bst2.php?id=xqjx8m/8000000
-新视觉 ,https://cdn2.jdshipin.com/api/bst2.php?id=xsjhd8m/8000000
-东方影视,https://cdn2.jdshipin.com/api/bst2.php?id=dfyshd8m/8000000
+
+
+
 
 北京卫视,http://zteres.sn.chinamobile.com:6060/000000001000/6000000001000020451/1.m3u8?channel-id=wasusyt&Contentid=6000000001000020451&livemode=1&stbId=3
 东方卫视,http://zteres.sn.chinamobile.com:6060/000000001000/2000000002000000056/1.m3u8?channel-id=hnbblive&Contentid=2000000002000000056&livemode=1&stbId=3
@@ -454,10 +420,53 @@ BesTV ,https://cdn2.jdshipin.com/api/bst2.php?id=xqjx8m/8000000
 兵团卫视,http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000266005/1.m3u8?channel-id=ystenlive&Contentid=1000000005000266005&livemode=1&stbId=3
 第一财经,http://zteres.sn.chinamobile.com:6060/000000001000/5000000010000027146/1.m3u8?channel-id=bestzb&Contentid=5000000010000027146&livemode=1&stbId=3
 东方财经,http://zteres.sn.chinamobile.com:6060/000000001000/5000000007000010003/1.m3u8?channel-id=bestzb&Contentid=5000000007000010003&livemode=1&stbId=3
-五星体育,http://zteres.sn.chinamobile.com:6060/000000001000/2000000002000000007/1.m3u8?channel-id=hnbblive&Contentid=2000000002000000007&livemode=1&stbId=3
+
+影视,#genre#
+梨园频道,http://150.138.8.143:80/00/SNM/CHANNEL00000656/index.m3u8
+CHC家庭影院,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
+CHC高清电影,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
+CHC动作电影,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
+CHC动作电影,http://58.19.182.187:9901/tsfile/live/1009_1.m3u8
+CHC家庭影院,http://58.19.182.187:9901/tsfile/live/1010_1.m3u8
+CHC高清电影,http://58.19.182.187:9901/tsfile/live/1011_1.m3u8
+湖南电影,http://116.128.243.121:9901/tsfile/live/1003_1.m3u8
+湖南电视剧,http://116.128.243.121:9901/tsfile/live/1004_1.m3u8
+欢笑剧场4K,https://cdn2.jdshipin.com/api/bst2.php?id=hxjc4k/15000000
+BesTV ,https://cdn2.jdshipin.com/api/bst2.php?id=xqjx8m/8000000
+新视觉 ,https://cdn2.jdshipin.com/api/bst2.php?id=xsjhd8m/8000000
+东方影视,https://cdn2.jdshipin.com/api/bst2.php?id=dfyshd8m/8000000
+
+地方,#genre#
+山东生活,http://150.138.8.143/00/SNM/CHANNEL00000336/index.m3u8
+山东综艺,http://150.138.8.143/00/SNM/CHANNEL00000338/index.m3u8
+山东体育,http://150.138.8.143:80/00/SNM/CHANNEL00000400/index.m3u8
+山东公共,http://150.138.8.143/00/SNM/CHANNEL00000314/index.m3u8
+山东齐鲁,http://150.138.8.143/00/SNM/CHANNEL10000313/index.m3u8 
+山东农科,http://150.138.8.143/00/SNM/CHANNEL00000339/index.m3u8
+山东少儿,http://150.138.8.143/00/SNM/CHANNEL00000340/index.m3u8
+山东教育,http://150.138.8.143/00/SNM/CHANNEL00000331/index.m3u8
+山东新闻,http://150.138.8.143:80/00/SNM/CHANNEL00000314/index.m3u8
+济宁鲁中,http://150.138.8.143:80/00/SNM/CHANNEL00000244/index.m3u8
+济宁公共,http://150.138.8.143:80/00/SNM/CHANNEL00000241/index.m3u8
+济宁综合,http://150.138.8.143:80/00/SNM/CHANNEL00000240/index.m3u
+山东生活,http://222.174.140.242:9901/tsfile/live/1003_1.m3u8
+山东新闻,http://222.174.140.242:9901/tsfile/live/1005_1.m3u8
+山东综艺,http://222.174.140.242:9901/tsfile/live/1004_1.m3u8
+山东休闲,http://222.174.140.242:9901/tsfile/live/1002_1.m3u8
+山东文旅,http://222.174.140.242:9901/tsfile/live/1001_1.m3u8
+山东齐鲁,http://222.174.140.242:9901/tsfile/live/1000_1.m3u8
+
+体育,#genre#
+CCTV5,http://150.138.8.143:80/00/SNM/CHANNEL00000360/index.m3u8
+CCTV5+,http://150.138.8.143:80/00/SNM/CHANNEL00000316/index.m3u8
+CCTV5,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
+CCTV5+,http://39.134.18.196/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226221/index.m3u8
+劲爆体育,https://cdn2.jdshipin.com/api/bst2.php?id=jbtyhd8m/8000000
+五星体育,https://cdn2.jdshipin.com/api/bst2.php?id=wxtyhd8m/8000000
+
+少儿,#genre#
 哈哈炫动,http://zteres.sn.chinamobile.com:6060/000000001000/5000000005000031641/1.m3u8?channel-id=bestzb&Contentid=5000000005000031641&livemode=1&stbId=3
 嘉佳卡通,http://zteres.sn.chinamobile.com:6060/000000001000/1000000002000025964/1.m3u8?channel-id=ystenlive&Contentid=1000000002000025964&livemode=1&stbId=3
 卡酷少儿,http://zteres.sn.chinamobile.com:6060/000000001000/7851974109718180595/1.m3u8?channel-id=bestzb&Contentid=7851974109718180595&livemode=1&stbId=3
 金鹰卡通,http://zteres.sn.chinamobile.com:6060/000000001000/5000000006000040024/1.m3u8?channel-id=bestzb&Contentid=5000000006000040024&livemode=1&stbId=3
 优漫卡通,http://zteres.sn.chinamobile.com:6060/000000001000/1000000002000010063/1.m3u8?channel-id=ystenlive&Contentid=1000000002000010063&livemode=1&stbId=3
-
