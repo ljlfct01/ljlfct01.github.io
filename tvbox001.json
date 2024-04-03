@@ -34,14 +34,44 @@
         "danmu": false
       }
     },
-    {
-      "key": "cps_阿里",
-      "name": "影视⑤",
+     {
+      "key": "csp_xml_爱坤",
+      "name": "🎦爱坤┃2K",
       "type": 1,
-      "api": "https://cms.alyzy.xyz/api.php/provide/vod/",
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
       "searchable": 1,
-      "playUrl": "https://player.emofun.cn/player/ec.php?code=xy&if=1&url=",
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filterable": 1,
+      "playurl": "json:https://www.ikdmjx.com/?url=",
+      "categories": [
+        "动作片",
+        "大陆剧",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "动漫电影",
+        "欧美剧",
+        "港澳剧",
+        "韩剧",
+        "台湾剧",
+        "日剧",
+        "海外剧",
+        "泰剧",
+        "体育",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
     },
     {
       "key": "xml_火狐",
