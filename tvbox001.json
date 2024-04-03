@@ -34,7 +34,15 @@
         "danmu": false
       }
     },
-   
+    {
+      "key": "cps_阿里",
+      "name": "影视⑤",
+      "type": 1,
+      "api": "https://cms.alyzy.xyz/api.php/provide/vod/",
+      "searchable": 1,
+      "playUrl": "https://player.emofun.cn/player/ec.php?code=xy&if=1&url=",
+      "quickSearch": 1
+    },
     {
       "key": "xml_火狐",
       "name": "🏠2K┃火狐",
