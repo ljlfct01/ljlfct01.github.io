@@ -95,15 +95,48 @@
       "ext": "http://yingszj.xn--654a.cc/api.php/app/"
     },
     {
-      "key": "新6V",
-      "name": "🧲新6V磁力┃慎用",
-      "type": 3,
-      "api": "csp_SixV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://www.xb6v.com/"
-    }
+      "key":"酷看",
+      "name":"👑酷看影视👑",
+      "type":3,
+      "api":"csp_Kkys",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "jar":"https://cloud.lxweb.cn/f/8bXJF1/kkys.jar"
+      },
+      {
+   "key": "短剧侠",
+   "name": "👑爱短剧侠👑",
+   "type": 3,
+   "searchable":1,"filterable":1,
+ "quickSearch":1,"playerType":1,
+   "api": "csp_XBPQ",
+   "ext":{
+    "站名": "短剧侠",
+    "主页url": "https://www.duanjuxia.cn/",
+    "分类": "快手$21#抖音$22#都市$23#古装$24#重生$25#逆袭$26#虐恋$27#萌宝$28#言情$29#穿越$30#战神$31#神医$32#赘婿$33#甜宠$34#其他$35",
+    "搜索url": "https://www.duanjuxia.cn/index.php/vod/search.html?wd={wd}",
+    "分类url": "https://www.duanjuxia.cn/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/year/{year}/page/{catePg}.html"
+}
+},
+  {
+    "key":"kyB",
+    "name":"👑快影秒播👑",
+    "style":{"type":"rect","ratio":0.85},
+    "type":1,
+    "api":"http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/?ac=list",
+    "playUrl": "json:https://stray.serv00.net/ky.php?url=",
+    "searchable":1,
+    "quickSearch":1,
+     "categories": [
+            "短剧",
+            "电视剧",
+            "电影",
+            "动漫",
+            "综艺"
+      ]
+  }
  ],
   "parses": [
     {
