@@ -9,15 +9,16 @@
       "quickSearch": 0,
       "filterable": 0
     },
-   {
-      "key": "玩偶",
-      "name": "👽玩偶哥哥┃4K弹幕",
+    {
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "👲┃玩偶┃影视",
+      "api": "csp_Wogg",
       "type": 3,
-      "api": "csp_WoGG",
       "searchable": 1,
-      "quickSearch": 1,
+      "playerType": 2,
+      "timeout": 30,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
      {
       "key": "zycj_天天",
