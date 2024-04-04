@@ -10,15 +10,20 @@
       "filterable": 0
     },
      {
-      "key": "csp_WoGG",
-      "name": "🧸┃玩偶",
-      "type": 3,
-      "api": "csp_WoGG",
-      "jar": "\thttps://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06",
+      "key": "zycj_天天",
+      "name": "📅┃天天",
+      "type": 1,
       "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.json+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
+      "changeable": 1,
+      "api": "https://api.1080zyku.com/inc/apijson.php",
+      "playUrl": "",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "韩国剧",
+        "欧美剧",
+        "大陆综艺"
+      ]
     },
    {
       "key": "南瓜",
