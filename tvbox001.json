@@ -10,15 +10,14 @@
       "filterable": 0
     },
     {
-      "key": "csp_Panda_玩偶哥哥",
-      "name": "👲┃玩偶┃影视",
-      "api": "csp_Wogg",
+      "key": "csp_WoGG",
+      "name": "阿里 ┃ 玩偶[4K]",
       "type": 3,
+      "api": "csp_WoGG",
       "searchable": 1,
-      "playerType": 2,
-      "timeout": 30,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$http://tvfan.xxooo.cf/"
     },
      {
       "key": "zycj_天天",
