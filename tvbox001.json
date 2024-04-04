@@ -95,23 +95,15 @@
       "ext": "http://yingszj.xn--654a.cc/api.php/app/"
     },
        {
-      "key": "茶狐",
-      "name": "👑茶狐影视👑",
+      "key": "贱贱",
+      "name": "🐭贱贱┃p2p",
       "type": 3,
       "searchable": 1,
-      "changeable": 0,
       "quickSearch": 1,
-      "playerType": "2",
-      "api": "csp_XBPQ",
-      "ext": {
-        "嗅探词": "v3.toutiaovod.com#v3-dy-o.zjcdn#.m3u8#/tos/#.mp4",
-        "请求头": "手机#Referer$https://www.cupfox1.cc",
-        "分类url": "https://cupfox1.cc/show/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-        "标题": "movie-title txtHide\"*>&&</div",
-        "副标题": "豆瓣评分+div class=\"movie-rating cor4\">&&</div>",
-        "分类": "电影$1#剧集$2#动漫$4#综艺$4",
-        "搜索模式": "0"
-      }
+      "changeable": 1,
+      "playerType": "1",
+      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+      "ext": "https://agit.ai/fantaiying/dr_py/raw/branch/main/js/荐片.js"
     },
     {
       "key":"酷看",
