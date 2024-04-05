@@ -1,21 +1,83 @@
 {
-  "spider": "",
-  "sites": [
-    {
-      "key": "T4-IKTV",
-      "name": "IKTV",
-      "type": 4,
-      "api": "https://catbox.n13.club/iktv.php"
-    }
-  ],
+ 
   "lives": [
-    {
-      "name": "live.ipv6",
+     {
+      "name": "我的电视",
       "type": 0,
-      "url": "https://catbox.n13.club/jk/live",
       "playerType": 1,
+      "url": "aHR0cHM6Ly9samxmY3QwMS5naXRodWIuaW8vbGlzdC50eHQ=",
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "电视+2",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://live.tv.cloudns.be/tv520.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "空格tv",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://d.kstore.space/download/7805/空格TV禁止倒卖.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "春盈天下",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://wds.ecsxs.com/230864.json",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+   {
+      "name": "挺好",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://ztha.top/TVBox/tv/thtv.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "七星",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://七星.xyz/log.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+   {
+      "name": "星火",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://agit.ai/dlee2008/gitcode-ygbh/raw/branch/master/hzzb.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "猫tv",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://d.kstore.space/download/2883/20240210.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "影视",
+      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
