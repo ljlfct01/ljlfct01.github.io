@@ -787,6 +787,15 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "月光宝盒",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://agit.ai/dlee2008/gitcode-ygbh/raw/branch/master/hzzb.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "猫tv",
       "type": 0,
       "playerType": 1,
