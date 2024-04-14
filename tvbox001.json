@@ -209,263 +209,109 @@
       "ext": "https://agit.ai/fantaiying/dr_py/raw/branch/main/js/荐片.js"
     },
       {
-      "key": "三六零弹幕",
-      "name": "弹幕｜三六零",
+      "key": "drpy_js_荐片",
+      "name": "荐片 | 影视[js]",
       "type": 3,
-      "api": "csp_Sp360",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"
     },
     {
-      "key": "南瓜弹幕",
-      "name": "弹幕｜南瓜",
+      "key": "drpy_js_爱看机器人",
+      "name": "爱看 | 机器[js]",
       "type": 3,
-      "api": "csp_Nangua",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/ikanbot2.js"
     },
     {
-      "key": "酷看弹幕",
-      "name": "弹幕｜酷看",
+      "key": "csp_WoGG",
+      "name": "阿里 ┃ 玩偶[4K]",
       "type": 3,
-      "api": "csp_Kkys",
+      "api": "csp_WoGG",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$http://tvfan.xxooo.cf/"
     },
     {
-      "key": "厂长弹幕",
-      "name": "弹幕｜厂长",
-      "type": 3,
-      "api": "csp_Czzy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "机器人弹幕",
-      "name": "弹幕｜机器人",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "白嫖弹幕",
-      "name": "弹幕｜白嫖",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "天天弹幕",
-      "name": "弹幕｜天天",
-      "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "荐片弹幕",
-      "name": "弹幕｜荐片",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "哔嘀弹幕",
-      "name": "弹幕｜哔嘀",
-      "type": 3,
-      "api": "csp_Bdys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "不太灵弹幕",
-      "name": "弹幕｜不太灵",
-      "type": 3,
-      "api": "csp_Bt0",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "玩偶弹幕",
-      "name": "弹幕｜玩偶",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "site": "https://www.wogg.xyz",
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "搜索弹幕",
-      "name": "弹幕｜搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
-    },
-    {
-      "key": "七夜弹幕",
-      "name": "弹幕｜七夜",
+      "key": "csp_阿里七夜",
+      "name": "阿里 ┃ 七夜[4K]",
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
     {
-      "key": "云云弹幕",
-      "name": "弹幕｜云云",
+      "key": "csp_TuGou",
+      "name": "阿里 ┃ 土狗[4K]",
       "type": 3,
-      "api": "csp_Upys",
+      "api": "csp_TuGou",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
     {
-      "key": "云搜弹幕",
-      "name": "弹幕｜云搜",
+      "key": "PanSearch",
+      "name": "阿里 ┃ PanS[4K]",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
+    {
+      "key": "Upyunso",
+      "name": "阿里 ┃ 云搜[4K]",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
     {
-      "key": "盘搜弹幕",
-      "name": "弹幕｜盘搜",
+      "key": "Alips",
+      "name": "阿里 ┃ 盘搜[4K]",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
     {
-      "key": "易搜弹幕",
-      "name": "弹幕｜易搜",
+      "key": "Zhaozy",
+      "name": "阿里 ┃ 找片[4K]",
       "type": 3,
-      "api": "csp_YiSo",
+      "api": "csp_Zhaozy",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true,
-        "cookie": "satoken=5f91a828-2198-4630-ac41-da5a217c01d7"
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$自己去注册$$$qq112233"
     },
     {
-      "key": "云盘弹幕",
-      "name": "弹幕｜云盘",
+      "key": "drpy_js_我的哔哩",
+      "name": "B站 | 合集[js]",
       "type": 3,
-      "api": "csp_Yunpan4k",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/我的哔哩.js"
     },
     {
-      "key": "小纸条弹幕",
-      "name": "弹幕｜小纸条",
+      "key": "AList",
+      "name": "网盘 | Alist[jar]",
       "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      },
-      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+      "api": "csp_AList",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
+    },
+    {
+      "key": "drpy_js_Alist",
+      "name": "网盘 | Alist[js]",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/alist.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/txt/json/alist.json"
     },
     {
       "key":"酷看",
