@@ -208,6 +208,265 @@
       "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
       "ext": "https://agit.ai/fantaiying/dr_py/raw/branch/main/js/荐片.js"
     },
+      {
+      "key": "三六零弹幕",
+      "name": "弹幕｜三六零",
+      "type": 3,
+      "api": "csp_Sp360",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "南瓜弹幕",
+      "name": "弹幕｜南瓜",
+      "type": 3,
+      "api": "csp_Nangua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "酷看弹幕",
+      "name": "弹幕｜酷看",
+      "type": 3,
+      "api": "csp_Kkys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "厂长弹幕",
+      "name": "弹幕｜厂长",
+      "type": 3,
+      "api": "csp_Czzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "机器人弹幕",
+      "name": "弹幕｜机器人",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "白嫖弹幕",
+      "name": "弹幕｜白嫖",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "天天弹幕",
+      "name": "弹幕｜天天",
+      "type": 3,
+      "api": "csp_TianTian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "荐片弹幕",
+      "name": "弹幕｜荐片",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "哔嘀弹幕",
+      "name": "弹幕｜哔嘀",
+      "type": 3,
+      "api": "csp_Bdys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "不太灵弹幕",
+      "name": "弹幕｜不太灵",
+      "type": 3,
+      "api": "csp_Bt0",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "玩偶弹幕",
+      "name": "弹幕｜玩偶",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "site": "https://www.wogg.xyz",
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "搜索弹幕",
+      "name": "弹幕｜搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "七夜弹幕",
+      "name": "弹幕｜七夜",
+      "type": 3,
+      "api": "csp_Dovx",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "云云弹幕",
+      "name": "弹幕｜云云",
+      "type": 3,
+      "api": "csp_Upys",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "云搜弹幕",
+      "name": "弹幕｜云搜",
+      "type": 3,
+      "api": "csp_UpYun",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "盘搜弹幕",
+      "name": "弹幕｜盘搜",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "易搜弹幕",
+      "name": "弹幕｜易搜",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true,
+        "cookie": "satoken=5f91a828-2198-4630-ac41-da5a217c01d7"
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "云盘弹幕",
+      "name": "弹幕｜云盘",
+      "type": 3,
+      "api": "csp_Yunpan4k",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
+    {
+      "key": "小纸条弹幕",
+      "name": "弹幕｜小纸条",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      },
+      "jar": "./danmu.jar;md5;158912c940bc4c3fa877dec5d163d3af"
+    },
     {
       "key":"酷看",
       "name":"👑酷看影视👑",
