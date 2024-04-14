@@ -236,7 +236,64 @@
         "4K电视剧"
       ]
     },
- 
+    {
+      "key": "玩偶弹幕版3",
+      "name": "网盘丨扫丨码",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "file://TV/ali_token.txt",
+        "wogg": true,
+        "danmu": true
+      },
+      "timeout": 30
+    },
+    {
+      "key": "miaociyuan",
+      "name": "云盘丨小土豆",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "https://jin.xn--kwra9540c.love/BBZ2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://pan.shangui.cc/f/lD5yUk/jinge.js"
+    },
+    {
+      "key": "miaoc444iyuan",
+      "name": "云盘丨玩你妹",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "https://jin.xn--kwra9540c.love/BBZ2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://pan.shangui.cc/f/GBQauz/wanwo.js"
+    },
+    {
+      "key": "miaociyuan1",
+      "name": "云盘丨玩偶哥",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "https://jin.xn--kwra9540c.love/BBZ2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://pan.shangui.cc/f/BwPzIp/wanou.js"
+    },
+    {
+      "key": "AList111",
+      "name": "锦哥丨云丨盘",
+      "type": 3,
+      "api": "csp_AListBox",
+      "jar": "https://8.xn--kwra9540c.love/jar/雅雅",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://8.xn--kwra9540c.love/shuju/neizhi/Y雅雅#八宝周在线"
+    },
     {
       "key": "drpy_js_我的哔哩",
       "name": "B站 | 合集[js]",
