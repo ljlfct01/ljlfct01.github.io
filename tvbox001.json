@@ -222,12 +222,19 @@
       "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
       "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/ikanbot2.js"
     },
-    {
-      "key": "drpy_4khd",
-      "name": "🛅4khd┃慎用",
-      "type": 3,
-      "api": "https://agit.ai/qi169/wog/raw/branch/master/libs/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/wog/raw/branch/master/js/4khdr.js"
+     {
+      "key": "木雨4K",
+      "name": "木雨4K ",
+      "type": 1,
+      "api": "http://mywlkj.ddns.net:867/api.php/provide/vod/",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "4K电影厅",
+        "4K电视剧"
+      ]
     },
  
     {
