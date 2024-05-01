@@ -790,7 +790,8 @@
       "url": "aHR0cHM6Ly9samxmY3QwMS5naXRodWIuaW8vbGlzdC50eHQ=",
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "timeout": 10
     },
      {
       "name": "龙tv",
