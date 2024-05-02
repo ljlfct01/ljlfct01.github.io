@@ -1,31 +1,16 @@
 {
-  "spider": "https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt",
-  "wallpaper": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/壁纸/蓝.jpg",
-  "warningText": "失眠的夜：愿日子如熹光，温暖又明亮，你我都赤忱，欣喜在望。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
+ 
+ 
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🐱豆瓣热播-失眠的夜",
+      "name": "🐱老三影视",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
       "changeable": 1
     },
-    {
-      "key": "push_agent",
-      "name": "🌤更新时间-4月28日",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "ext": {
-        "token": "file://TV/ali_token.txt",
-        "cookie": "file://TV/quark_cookie.txt",
-        "danmu": true
-      },
-      "timeout": 15
-    },
+   
     {
       "key": "配置中心",
       "name": "🪪阿里夸克-配置中心",
