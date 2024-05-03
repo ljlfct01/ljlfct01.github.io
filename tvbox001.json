@@ -10,7 +10,22 @@
       "api": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/drpy2.min.js",
       "ext": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/douban.js"
     },
-     
+      {
+      "key": "doudouxie",
+      "name": "🐋玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "http://我不是.摸鱼儿.top/盗用私募/jar/danmu.php",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "wogg": true,
+        "danmu": true
+      },
+      "timeout": 30
+    },
     {
       "key": "玩偶",
       "name": "😺清清-4K",
