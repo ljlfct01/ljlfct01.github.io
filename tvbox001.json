@@ -26,6 +26,79 @@
       },
       "timeout": 30
     },
+       {
+      "key": "土豆弹幕",
+      "name": "🥔玩偶土豆┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "http://我不是.摸鱼儿.top/盗用私募/jar/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "https://tudou.lvdoui.top",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "玩偶表哥",
+      "name": "🤣玩偶表哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "http://我不是.摸鱼儿.top/盗用私募/jar/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "https://wobge.run.goorm.io/",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "多多弹幕",
+      "name": "😁多多弹幕┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "http://我不是.摸鱼儿.top/盗用私募/jar/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "https://tv.yydsys.top/",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "多多玩偶",
+      "name": "😊玩偶多多┃4K纯净",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "http://我不是.摸鱼儿.top/盗用私募/jar/xpbq.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://我不是.摸鱼儿.top/盗用私募/api/玩偶多多.php"
+    },
+    {
+      "key": "天天开心",
+      "name": "😆天天开心┃4K纯净",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "http://我不是.摸鱼儿.top/盗用私募/jar/xpbq.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://我不是.摸鱼儿.top/盗用私募/api/天天开心.php"
+    },
     {
       "key": "玩偶",
       "name": "😺清清-4K",
