@@ -819,7 +819,15 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-    
+     {
+      "name": "码点小干货",
+      "type": 0,
+      "url": "http://mdxgh.tpddns.cn:9999/new/mdlive.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "live.fan",
       "type": 0,
