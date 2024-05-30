@@ -691,11 +691,34 @@
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
   "lives": [
     {
-      "name": "live",
-      "type": 0,
-      "url": "https://www.huichunniao.cn/xh/lib/live.txt",
-      "playerType": 1
-    },
+      "group": "中央频道",
+      "channels": [
+        {
+          "name": "CCTV1综合",
+          "urls": [
+            "http://tvpull.dxhmt.cn/tv/11081-2.m3u8",
+            "http://zy.otioi.cn/live/live.php?token=TNWgKfIu&id=cctv1",
+            "http://124.128.73.58:9901/tsfile/live/0001_1.m3u8",
+            "http://dp.sxtv.top:88/2b/migu.php?id=cctv1",
+            "http://zy.otioi.cn/live/cqyx.php?token=Xaeu2RIs&id=cctv1",
+            "http://tvbox.netsite.cc/proxy/753065176/753065176.m3u8",
+            "https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8",
+            "http://loc.sportsontheweb.net/yfy.php?id=cctv1",
+            "http://www.furymax.top:85/rtp/239.254.96.96:8550",
+            "http://www.hiliu.myds.me:8088/rtp/239.254.96.96:8550",
+            "http://nas.hssvm.com:8888/udp/225.1.1.120:5002",
+            "http://120.7.86.49:808/hls/1/index.m3u8",
+            "http://120.7.86.108:808/hls/1/index.m3u8",
+            "http://36.248.223.25/sx.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022576802.m3u8",
+            "http://36.49.52.39:8800/rtp/239.37.0.178:5540",
+            "http://121.24.98.114:8090/hls/9/index.m3u8",
+            "http://219.135.208.218:8083/tsfile/live/0001_1.m3u8",
+            "http://111.160.17.2:59901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0",
+            "http://183.196.25.171:808/hls/1/index.m3u8",
+            "https://live.metshop.top/yy/1382745117",
+            "http://110.19.98.120:808/hls/101/index.m3u8"
+          ]
+        },
     {
       "name": "XIUTAN",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
