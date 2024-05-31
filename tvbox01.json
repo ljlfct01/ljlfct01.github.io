@@ -6,7 +6,7 @@
 {"key":"豆豆","name":"🌺【老三影视】💑","type":3,"api":"csp_DouDou","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"YGP","name":"👉预告┃新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 
-//==============下米=====================================
+
 		{
 			"key": "saohuo",
 			"name": "1080P┃骚火",
@@ -95,8 +95,7 @@
 				"搜索数组": "<li class=\"active clearfix&&</li"
 			}
 		},
-	//============上米======================================	
-//============中国======================================
+
 
     {
       "key": "素白白",
@@ -402,7 +401,7 @@
         "欧美综艺"
       ]
     },
- //=============中国========================================   
+
 	{
 			"key": "索尼资源",
 			"name": "索尼┃资源",
@@ -447,7 +446,6 @@
 			"quickSearch": 1
 		},
 
-//============下春======================================
 
         {
 
@@ -647,8 +645,7 @@
 
       ]
 
-    },
-//============上春======================================
+    }
 
        {
             "key": "热播库",
@@ -821,7 +818,7 @@
 {"key":"芒", "name":"👉春盈┃芒芒", "type":3, "api":"http://a.nxog.top/m/js/nxog.js", "jar": "http://www.wya6.cn/tz/wyog.php", "ext":"http://a.nxog.top/m/js/mm.js" },
 { "key": "drpy_js_优酷", "name": "👉春盈┃优酷", "type": 3, "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js", "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js" },
 { "key":"爱", "name":"👉春盈┃爱爱", "type":3, "api":"http://a.nxog.top/m/js/nxog.js", "jar": "http://www.wya6.cn/tz/wyog.php", "ext":"http://a.nxog.top/m/js/aa.js" },
-//=========================================================
+
 		{
 			"key": "暴风",
 			"name": "👉春盈┃暴风",
@@ -843,7 +840,7 @@
 			"categories": ["国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "国产剧", "韩国剧", "日本剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "台湾剧", "香港剧", "欧美剧", "短剧", "记录片", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "体育", "足球", "篮球", "网球", "斯落克"]
 		},
 
-//====================结束========================================
+
 
 {"key":"酷奇","name":"🎤酷奇┃MV","type": 3,"api":"https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/drpy2.min.js","ext":"https://152.32.170.60/fantaiying/dr_py/raw/branch/main/js/酷奇MV.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"MTV","name":"🎧明星┃MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/MTV.json"},
@@ -974,7 +971,7 @@
             "api": "空白",
             "ext": "空白"
         }],
-//=========解析嗅探====================================================
+
 "parses":[
 {"name":"超解析","type":3,"url":"Demo"},
 {"name":"超嗅探","type":3,"url":"Web"},
@@ -1032,7 +1029,7 @@
 
 {"name":"夜幕嗅探","type":0,"url":"https://www.yemu.xyz/?url="}],
 
-//=========去guanggao=================================
+
 "rules":[
 {"name":"kk","hosts":["kuaikan"],"regex":["5","20.123","20.167","#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-KEY:METHOD((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"]},
 {"name":"yqk","hosts":["yqk"],"regex":["18.4","15.1666","#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-OUT((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-IN"]},
@@ -1182,7 +1179,7 @@
     }
   ],
 
-//=========直播=================================
+
   "lives": [
     {
            "name": "🌺春盈天下🌺",
