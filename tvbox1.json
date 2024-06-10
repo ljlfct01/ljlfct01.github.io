@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "全接口智能过滤广告",
+      "name": "老三影视",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -680,22 +680,31 @@
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
   "lives": [
     {
-      "name": "live",
+     "name": "IPTV1",
       "type": 0,
-      "url": "https://www.huichunniao.cn/xh/lib/live.txt",
-      "playerType": 1
+      "ua": "okhttp/3.15", 
+      "playerType": 1,    
+      "url": "./list1.txt",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "XIUTAN",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+      "name": "IPTV2",
       "type": 0,
-      "url": "https://xhdwc.tk/xiutan.m3u"
+      "ua": "okhttp/3.15", 
+      "playerType": 1,    
+      "url": "./list2.txt",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "IPV6",
+     "name": "IPTV3",
       "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1
+      "ua": "okhttp/3.15", 
+      "playerType": 1,    
+      "url": "./list3.txt",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     }
   ]
 }
