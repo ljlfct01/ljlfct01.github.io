@@ -15,6 +15,22 @@
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+	 {
+      "name": "直播",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://gitlab.com/guot55/bh/-/raw/main/lib/zb.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+	 {
+      "name": "直播",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://gitlab.com/guot55/bh/-/raw/main/lib/zb.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "group": "redirect",
       "channels": [
