@@ -1,5 +1,6 @@
 {
   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1719316733539/fan.txt;md5;39536019b1427f62b535f028d161d43a",
+   "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/pg.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -11,6 +12,25 @@
       "quickSearch": 0,
       "filterable": 0
     },
+      {
+            "key": "Youtube",
+            "name": "Youtube",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/youtube.json",
+                "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+                "proxy": "proxy",
+                "codecs": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
     {
       "key": "玩偶",
       "name": "👽玩偶哥哥┃4K弹幕",
