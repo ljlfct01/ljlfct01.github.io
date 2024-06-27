@@ -12,10 +12,203 @@
         }
     ],
     "sites": [
-      
+        {
+            "key": "豆瓣",
+            "name": "豆瓣",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1,
+            "indexs": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/douban.json"
+        },
+        {
+            "key": "网盘配置",
+            "name": "网盘及彈幕配置",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json"
+        },
+        {
+            "key": "Local",
+            "name": "本地",
+            "type": 3,
+            "api": "csp_Local"
+        },
+        {
+            "key": "PushShare",
+            "name": "我的资源分享",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/pushshare.txt$$$db$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "AliShare",
+            "name": "阿里云盘影视分享",
+            "type": 3,
+            "api": "csp_AliShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/alishare.txt$$$db$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "QuarkShare",
+            "name": "夸克云盘分享",
+            "type": 3,
+            "api": "csp_QuarkShare",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/quarkshare.txt",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "ThunderShare",
+            "name": "迅雷云盘分享",
+            "type": 3,
+            "api": "csp_ThunderShare",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/thundershare.txt",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "PikPakShare",
+            "name": "PikPak分享",
+            "type": 3,
+            "api": "csp_PikPakShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/pikpakclass.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/pikpakclass.json.txt.gz",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "SambaShare",
+            "name": "Samba分享",
+            "type": 3,
+            "api": "csp_SambaShare",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/sambashare.txt"
+        },
+        {
+            "key": "Wogg",
+            "name": "玩偶哥哥|网盘",
+            "type": 3,
+            "api": "csp_Wogg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://wogg.link/$$$proxy$$$1$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/wogg.json"
+        },
+        {
+            "key": "yydsys",
+            "name": "玩你老哥|网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/wogg.json"
+        },
+        {
+            "key": "omii",
+            "name": "奥秘影视|网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://vip.omii.top/$$$proxy$$$1$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/wogg.json"
+        },
+        {
+            "key": "Hdhive",
+            "name": "影巢|网盘",
+            "type": 3,
+            "api": "csp_Hdhive",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$proxy$$$1"
+        },
+        {
+            "key": "Wo4k",
+            "name": "玩偶4K|磁力",
+            "type": 3,
+            "api": "csp_Wo4k",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/wogg.json"
+        },
+        {
+            "key": "Wobg",
+            "name": "玩偶表哥|网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/wogg.json"
+        },
+        {
+            "key": "Libvio",
+            "name": "LIBVIO|网盘",
+            "type": 3,
+            "api": "csp_Libvio",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.libvio.fun/$$$null"
+        },
         {
             "key": "Youtube",
-            "name": "老三影视",
+            "name": "Youtube",
             "type": 3,
             "api": "csp_Youtube",
             "searchable": 1,
@@ -31,10 +224,528 @@
                 "type": "rect",
                 "ratio": 1.5
             }
+        },
+        {
+            "key": "Yinfans",
+            "name": "音范丝|磁力",
+            "type": 3,
+            "api": "csp_Gaoqing",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"
+        },
+        {
+            "key": "Bt0",
+            "name": "不太灵|磁力",
+            "type": 3,
+            "api": "csp_Bt0",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$null$$$proxy$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "新6V",
+            "name": "新6V|网盘",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
+        },
+        {
+            "key": "csp_XYQHiker_电影港",
+            "name": "电影港|4K",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://gitee.com/nil2058/mytv/raw/main/jar/XYQ磁力包.jar;md5;f91ba72d2516a995da86b7321440c653",
+            "ext": "https://jihulab.com/nil20581/theshy/-/raw/main/json/%E7%94%B5%E5%BD%B1%E6%B8%AF%E7%A3%81%E5%8A%9B.json"
+        },
+        {
+            "key": "csp_XYQHikerAL_4KHDR",
+            "name": "HDR4K",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://gitee.com/nil2058/mytv/raw/main/jar/XYQ磁力包.jar;md5;f91ba72d2516a995da86b7321440c653",
+            "ext": "https://gitee.com/nil2058/mytv/raw/main/json/4KHDR.json"
+        },
+        {
+            "key": "小白",
+            "name": "小白磁力|XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/XBPQ.jar",
+            "ext": {
+                "主页url": "https://www.xbw20.com/",
+                "编码": "gb2312",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "class=\"time\">&&</label",
+                "分类url": "https://www.xbw20.com/search.asp?page={catePg}&searchword={area}&searchtype=2[https://www.xbw20.com/vod/{cateId}.html]",
+                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",
+                "起始页": 2,
+                "倒序": 1,
+                "播放数组": "迅雷下载</div>&&</div>",
+                "播放列表": "<a&&</a >"
+            }
+        },
+        {
+            "key": "狸云",
+            "name": "狸云",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/XBPQ.jar",
+            "ext": {
+                "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
+                "数组": "class=\"post-item&&class=\"entry-title&&</article> ",
+                "图片": "data-bg=\"&&\">",
+                "播放链接": "<td><a href= \"&&\">[包含:magnet]",
+                "播放标题": ">&&</a >",
+                "线路标题": "font-weight: bold;\">&&</td>",
+                "分类": "蓝光-4k-电影$蓝光-4k-电影#精选剧集$精选剧集",
+                "分类url": "https://www.lysvc.cc/archives/category/%e5%bd%b1%e8%a7%86%e8%b5%84%e6%ba%90/{cateId}/page/{catePg}"
+            }
+        },
+        {
+            "key": "SeedHub",
+            "name": "SeedHub|磁",
+            "type": 3,
+            "api": "csp_SeedHub",
+            "changeable": 1,
+            "timeout": 60
+        },
+        {
+            "key": "BT天堂",
+            "name": "BT天堂|磁力|XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/bttt.json",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/XBPQ.jar"
+        },
+        {
+            "key": "4KHDR",
+            "name": "4KHDR|网盘",
+            "type": 3,
+            "api": "csp_FourKHDR",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/4khdr.txt$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "美剧迷",
+            "name": "美剧迷|网盘",
+            "type": 3,
+            "api": "csp_Meijumi",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 120,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"
+        },
+        {
+            "key": "Xpanpan",
+            "name": "小盘盘|网盘",
+            "type": 3,
+            "api": "csp_Xpanpan",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://xpanpan.site$$$proxy$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "Gaoqing",
+            "name": "中国高清网|网盘",
+            "type": 3,
+            "api": "csp_Gaoqing",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"
+        },
+        {
+            "key": "ddys",
+            "name": "低端影视|网盘",
+            "type": 3,
+            "api": "csp_Ddys",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://ddys.pro/$$$proxy$$$1$$$"
+        },
+        {
+            "key": "Xinshijue",
+            "name": "新视觉|网盘",
+            "type": 3,
+            "api": "csp_Xinshijue",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/wogg.json"
+        },
+        {
+            "key": "团长资源",
+            "name": "团长资源|网盘",
+            "type": 3,
+            "api": "csp_TZFile",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$proxy$$$1"
+        },
+        {
+            "key": "Moli",
+            "name": "HDmoli|网盘",
+            "type": 3,
+            "api": "csp_Moli",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/moli.json"
+        },
+        {
+            "key": "Ppxzy",
+            "name": "皮皮虾|网盘",
+            "type": 3,
+            "api": "csp_Ppxzy",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://ppxzy.ink$$$proxy$$$1"
+        },
+        {
+            "key": "校长影视",
+            "name": "校长影视|网盘",
+            "type": 3,
+            "api": "csp_XiaoZhang",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://xzyshd.com$$$proxy$$$1"
+        },
+        {
+            "key": "JustLive",
+            "name": "JustLive",
+            "type": 3,
+            "api": "csp_JustLive",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "drpy_js_酷吧",
+            "name": "酷吧[js]|磁",
+            "type": 3,
+            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/drpy2.min.js",
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/js/kuba.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 60
+        },
+        {
+            "key": "BLSGod",
+            "name": "BLSGod|磁",
+            "type": 3,
+            "api": "csp_BLSGod",
+            "changeable": 1,
+            "timeout": 60
+        },
+        {
+            "key": "Xunlei8",
+            "name": "Xunlei8|磁",
+            "type": 3,
+            "api": "csp_Xunlei8",
+            "changeable": 1,
+            "timeout": 60
+        },
+        {
+            "key": "櫻花",
+            "name": "櫻花",
+            "type": 3,
+            "api": "csp_Ying",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "異界",
+            "name": "異界",
+            "type": 3,
+            "api": "csp_Ysj",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "Bdys_spider",
+            "name": "哔滴┃磁力",
+            "api": "csp_Bdys01",
+            "type": 3,
+            "filterable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "https://www.yjys.me/$$$null$$$1"
+        },
+        {
+            "key": "YunPan",
+            "name": "云盘资源|网盘",
+            "type": 3,
+            "api": "csp_YunPan",
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$null$$$proxy$$$1"
+        },
+        {
+            "key": "YingSo",
+            "name": "影搜|网盘搜索",
+            "type": 3,
+            "api": "csp_YingSo",
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json"
+        },
+        {
+            "key": "混合盘",
+            "name": "混合盘|网盘搜索",
+            "type": 3,
+            "api": "csp_HunHePan",
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "88Pan",
+            "name": "88网盘|网盘搜索",
+            "type": 3,
+            "api": "csp_EightEight",
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://662688.xyz$$$",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "PanSearch",
+            "name": "PanSearch|网盘搜索",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json"
+        },
+        {
+            "key": "盘友圈",
+            "name": "盘友圈|网盘搜索",
+            "type": 3,
+            "api": "csp_Panyq",
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$site$$$proxy"
+        },
+        {
+            "key": "易搜",
+            "name": "易搜|网盘搜索",
+            "type": 3,
+            "api": "csp_YiSo",
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/yiso.txt",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "秒搜",
+            "name": "秒搜|网盘搜索",
+            "type": 3,
+            "api": "csp_MiaoSou",
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "Funletu",
+            "name": "趣盘搜|夸克搜索",
+            "type": 3,
+            "api": "csp_Funletu",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "QuarkPanso",
+            "name": "夸克盘搜|夸克搜索",
+            "type": 3,
+            "api": "csp_QuarkPanso",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "Panta",
+            "name": "盘Ta|网盘",
+            "type": 3,
+            "api": "csp_Panta",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "DaPanSo",
+            "name": "大盘搜|网盘搜索",
+            "type": 3,
+            "api": "csp_DaPanSo",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://dapanso.com$$$proxy$$$1"
+        },
+        {
+            "key": "PikaSo",
+            "name": "皮卡搜|网盘搜索",
+            "type": 3,
+            "api": "csp_PikaSo",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.pikaso.top/$$$null",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "Qianfan",
+            "name": "千帆|网盘搜索",
+            "type": 3,
+            "api": "csp_Qianfan",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/qianfan.txt$$$1"
+        },
+        {
+            "key": "YunSo",
+            "name": "小云搜索|网盘搜索",
+            "type": 3,
+            "api": "csp_YunSo",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "YunPanOne",
+            "name": "云盘One|网盘搜索",
+            "type": 3,
+            "api": "csp_YunPanOne",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json$$$null$$$proxy$$$1"
+        },
+        {
+            "key": "drpy_js_愛盤搜",
+            "name": "爱盘搜[js]|夸",
+            "type": 3,
+            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/drpy2.min.js",
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/js/aipanso.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "drpy_js_MP4US",
+            "name": "MP4电影[js]|磁",
+            "type": 3,
+            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/drpy2.min.js",
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/js/mp4us.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 60
+        },
+        {
+            "key": "UP云搜",
+            "name": "阿里|UP云搜",
+            "type": 3,
+            "api": "csp_UpYun",
+            "timeout": 30,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/tokenm.json",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
         }
-       
-       
-        
     ],
     "doh": [
         {
