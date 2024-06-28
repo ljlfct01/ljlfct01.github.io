@@ -1,5 +1,5 @@
 {
-   
+    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/pg.jar",
     "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1719316733539/fan.txt;md5;39536019b1427f62b535f028d161d43a",
   
    "wallpaper": "https://深色壁纸.xxooo.cf/",
@@ -49,14 +49,66 @@
       }
     },
     {
-      "key": "YGP",
-      "name": "🚀叨观荐影┃新片",
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
+            "key": "csp_XYQHiker_电影港",
+            "name": "电影港|4K",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://gitee.com/nil2058/mytv/raw/main/jar/XYQ磁力包.jar;md5;f91ba72d2516a995da86b7321440c653",
+            "ext": "https://jihulab.com/nil20581/theshy/-/raw/main/json/%E7%94%B5%E5%BD%B1%E6%B8%AF%E7%A3%81%E5%8A%9B.json"
+        },
+        {
+            "key": "csp_XYQHikerAL_4KHDR",
+            "name": "HDR4K",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://gitee.com/nil2058/mytv/raw/main/jar/XYQ磁力包.jar;md5;f91ba72d2516a995da86b7321440c653",
+            "ext": "https://gitee.com/nil2058/mytv/raw/main/json/4KHDR.json"
+        },
+        {
+            "key": "小白",
+            "name": "小白磁力|XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/XBPQ.jar",
+            "ext": {
+                "主页url": "https://www.xbw20.com/",
+                "编码": "gb2312",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "class=\"time\">&&</label",
+                "分类url": "https://www.xbw20.com/search.asp?page={catePg}&searchword={area}&searchtype=2[https://www.xbw20.com/vod/{cateId}.html]",
+                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",
+                "起始页": 2,
+                "倒序": 1,
+                "播放数组": "迅雷下载</div>&&</div>",
+                "播放列表": "<a&&</a >"
+            }
+        },
+        {
+            "key": "狸云",
+            "name": "狸云",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/1663736404a/whywhy/main/lib/XBPQ.jar",
+            "ext": {
+                "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
+                "数组": "class=\"post-item&&class=\"entry-title&&</article> ",
+                "图片": "data-bg=\"&&\">",
+                "播放链接": "<td><a href= \"&&\">[包含:magnet]",
+                "播放标题": ">&&</a >",
+                "线路标题": "font-weight: bold;\">&&</td>",
+                "分类": "蓝光-4k-电影$蓝光-4k-电影#精选剧集$精选剧集",
+                "分类url": "https://www.lysvc.cc/archives/category/%e5%bd%b1%e8%a7%86%e8%b5%84%e6%ba%90/{cateId}/page/{catePg}"
+            }
+        },
     {
       "key": "短剧",
       "name": "🌈上头┃短剧",
