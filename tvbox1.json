@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "csp_DouDou",
-      "name": "🔍豆瓣┃本接口免费-🈲贩卖",
+      "name": "🔍老三影视",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -27,17 +27,7 @@
         "链接": "href=\"&&\""
       }
     },
-    {
-        "key": "hipy_js_lf",
-      "name": "lf直播转点播",
-      "type": 3,
-      "api": "https://ghproxy.net/https://raw.githubusercontent.com/haifeng2777/TVBox3/main/js/lf_live_min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/haifeng2777/TVBox3/main/json/%E8%B7%AF%E9%A3%9E%E7%82%B9%E6%92%AD.json"
-    },
+   
     {
       "key": "测试",
       "name": "🛝测试┃采集",
