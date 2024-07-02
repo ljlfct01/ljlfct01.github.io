@@ -63,60 +63,7 @@
         "体育"
       ]
     },
-    {
-      "key": "飞刀",
-      "name": "飞刀┃采集",
-      "type": 1,
-      "api": "http://iycms.feidaozy.com/api.php/provide/vod/?",
-      "playUrl": "https://www.kuaikanys.net/jiexi/jiekou-1/?url=",
-      "playerType": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "冒险片",
-        "剧情片",
-        "动作片",
-        "动画电影",
-        "同性片",
-        "喜剧片",
-        "奇幻片",
-        "欧美剧",
-        "日剧",
-        "韩剧",
-        "国产剧",
-        "恐怖片",
-        "悬疑片",
-        "惊悚片",
-        "战争片",
-        "歌舞片",
-        "灾难片",
-        "爱情片",
-        "犯罪片",
-        "科幻片",
-        "经典片",
-        "网络电影",
-        "泰剧",
-        "港剧",
-        "台剧",
-        "新马剧",
-        "其他剧",
-        "欧美综艺",
-        "日本综艺",
-        "韩国综艺",
-        "国产综艺",
-        "新马泰综艺",
-        "港台综艺",
-        "其他综艺",
-        "欧美动漫",
-        "日本动漫",
-        "韩国动漫",
-        "国产动漫",
-        "新马泰动漫",
-        "港台动漫",
-        "其他动漫",
-        "纪录片"
-      ]
-    },
+   
     {
       "key": "乐视资源",
       "name": "乐视〓采集",
@@ -227,22 +174,7 @@
         "国产电影"
       ]
     },
-    {
-      "key": "玩偶",
-      "name": "👽玩偶哥哥┃4K弹幕",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "aliToken": "tvfan/token.txt",
-        "quarkCookie": "tvfan/cookie.txt",
-        "from": "4k|auto|fhd",
-        "siteUrl": "https://www.wogg.link/",
-        "danMu": "弹"
-      }
-    },
+   
   
     {
       "key": "贱贱",
@@ -255,24 +187,7 @@
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
     },
-    {
-      "key": " ❤环亚资源 ",
-      "name": "❤环亚资源1",
-      "type": 0,
-      "api": "http://wmcj8.com/inc/sapi.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "♥️环亚资源2",
-      "name": "♥️环亚资源2",
-      "type": 0,
-      "api": "http://wmcj8.com/inc/sapi.php?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+   
     {
       "key": "❤老鸭资源",
       "name": "❤老鸭资源",
