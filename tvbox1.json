@@ -29,54 +29,7 @@
         "danMu": "弹"
       }
     },
-     {
-      "key": "晴天",
-      "name": "💢晴天",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://www.qinttv.com/qtyy/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-        "搜索url": "https://www.qinttv.com/qtcz.html;post;wd={wd}&submit=",
-        "分类": "电影$dianying#电视剧$dianshiju#动漫$dongmna#综艺$zongyi"
-      }
-    },
-     {
-      "key": "网飞",
-      "name": "💕网飞猫┃4K",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "csp_XBPQ",
-      "ext": {
-        "作者": "爱家",
-        "站名": "网飞影视",
-        "主页url": "https://www.ncat3.com:51111/",
-        "简介": "<p>&&</p>",
-        "导演": "导演:</div>&&</div>",
-        "主演": "演员:</div>&&</div>",
-        "影片状态": "备注:</div>&&</div>",
-        "影片类型": "detail-tags fs-margin-top fs-margin-bottom\"&&</div>",
-        "数组": "module-item\">&&/span>",
-        "标题": "title=\"&&\"",
-        "副标题": "<span>&&<",
-        "图片": "data-original=\"&&\"",
-        "链接": "href=\"&&\"",
-        "搜索url": "/search?os=pc&k={wd}",
-        "搜索数组": "search-result-list fs-margin-section\">&&search-result-item-main\">",
-        "搜索标题": "title=\"&&\"",
-        "搜索副标题": "网飞",
-        "搜索图片": "src=\"&&\"",
-        "搜索链接": "href=\"&&\"",
-        "线路数组": "<span class=\"source-item-label\"&&/span>[排序:独家>独家1>独家2>独家3>蓝光1>蓝光2>蓝光2-1>蓝光2-2>蓝光3>蓝光8>蓝光7>FF线路>XL线路>HN线路>SB线路][不包含:YH线路]",
-        "线路标题": ">&&<",
-        "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}-{area}-{lang}-{year}-{by}-{catePg}.html;;ak",
-        "分类": "短剧$6#电影$1#电视剧$2#综艺$4#动漫$3"
-      }
-    },
+     
     {
       "key": "360",
       "name": "🛝360┃秒播┃采集",
