@@ -12,7 +12,20 @@
       "quickSearch": 0,
       "filterable": 0
     },
- 
+ {
+            "key": "业余采集A",
+            "name": "业余云自营 ",
+            "type": 1,
+            "api": "http://ys.540734621.xyz/api.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "短剧",
+                "4K电影"
+            ]
+        },
      {
       "key": "csp_WoGG",
       "name": "👽玩偶哥哥",
