@@ -5,16 +5,73 @@
  
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
-       {
-      "key": "豆豆",
-      "name": "💕老三┃影视💕",
+      {
+        "key": "豆瓣",  
+      "name": "💕老三影视💕",
       "type": 3,
       "api": "csp_DouDou",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720443281334/fan.txt;md5;1f219c086d40a58a296fbc3b262e7b7d",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
+                },
+                {"key":"奇乐科技","name":"奇乐科技|7.9更新",
+                "type":3,"api":"csp_XBPQ",
+                 "jar": "https://git.acwing.com/qlkj2024/qlkj/-/raw/master/jar/spider.jar",
+                 "playerType":2,"searchable":0,
+                 "ext":{"首页":"正在热映",
+                 "图片代理":"",
+                 "分类url":"https://movie.douban.com/{cateId}/;;aRC",
+                 "分类":"预告片：公众号【奇乐技术网】$cinema/later#正在热映$cinema/nowplaying",
+                 "数组":"class=\"item mod &&</ul>||正在热映--class=\"list-item&&</ul>",
+                 "图片":"src=\"&&\"","标题":"\"intro\">&&</a>",
+                 "链接":"href=\"&&\"",
+                 "副标题":"data-score=\"&&\"+class=\"release-date\">&&</li>",
+                 "播放数组":"<li class=\"video&&</li>",
+                 "播放列表":"<a&&</a>",
+                 "播放标题":"alt=\"&&\"",
+                 "播放链接":"https://m.douban.com+href=\"&&\""}},
+
+    {
+      "key": "一青叶我_开心玩偶",
+      "name": "开心🍹臻享4K",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://git.acwing.com/qlkj2024/qlkj/-/raw/master/json/kaixin.json"
     },
-   
+{
+      "key": "csp_XYQHikerAL_土豆",
+      "name": "土豆🥔臻享4K",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://git.acwing.com/qlkj2024/qlkj/-/raw/master/json/tudou.json"
+    },
+{
+      "key": "csp_XYQHikerAL_玩偶哥哥",
+      "name": "玩偶🍺臻享4K",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://git.acwing.com/qlkj2024/qlkj/-/raw/master/json/woggzx.json"
+    },
+      {
+      "key": "csp_XYQHikerAL_多多",
+      "name": "多多🥳臻享4K",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://git.acwing.com/qlkj2024/qlkj/-/raw/master/json/duoduo.json"
+    },
  {
             "key": "业余采集A",
             "name": "💕老三┃业余云自营💕 ",
