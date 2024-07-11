@@ -3,8 +3,8 @@
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://mirror.ghproxy.com/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/main/list.m3u8
 
-#EXTINF:-1 tvg-name="CCTV 1" tvg-logo="https://yang-1989.eu.org/logo/CCTV1.png" group-title="央视IPv4",CCTV 1 综合
-http://150.138.8.143:80/00/SNM/CHANNEL00000311/index.m3u8
+#EXTINF:-1 tvg-name="CCTV 1" tvg-logo="https://resources.yangshipin.cn/assets/oms/image/202306/d57905b93540bd15f0c48230dbbbff7ee0d645ff539e38866e2d15c8b9f7dfcd.png?imageMogr2/format/webp" group-title="央视IPv4",CCTV 1 综合
+http://gouwu.pthv.gitv.tv:91/live/CCTV1hd-8M/live.m3u8
 #EXTINF:-1 tvg-id="A102" tvg-name="CCTV2" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV2.png" group-title="央视IPv4",CCTV-2 财经
 http://150.138.8.143:80/00/SNM/CHANNEL00000317/index.m3u8
 #EXTINF:-1 tvg-id="A103" tvg-name="CCTV3" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV3.png" group-title="央视IPv4",CCTV-3 综艺
