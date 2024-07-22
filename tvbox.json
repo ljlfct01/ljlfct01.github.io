@@ -1,384 +1,172 @@
 {
-
-  
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1719686854241/fan.txt;md5;5640a8ad5bd5face5679bd8d6d73d44a",
- 
-  "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "sites": [
-      {
-        "key": "豆瓣",  
-      "name": "💕老三┃豆瓣💕",
-      "type": 3,
-      "api": "csp_DouDou",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720443281334/fan.txt;md5;1f219c086d40a58a296fbc3b262e7b7d",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-                },
-
-    
-    
-{"key":"豪华资源","name":"💕老三┃豪华2K💕","type":1,"api":"https://hhzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"categories":["内地剧","香港剧","欧美剧","韩剧","日剧","马泰剧","台湾剧","动画片","中国动漫","日本动漫","欧美动漫","剧情片","战争片","动作片","科幻片","记录片","爱情片","喜剧片","灾难片","悬疑片","犯罪片","伦理片","大陆综艺","日韩综艺","港台综艺","欧美综艺"]},
-
-{"key":"csp_xml_ikun","name":"💕老三┃ikun影视💕","type":1,"api":"https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json","searchable":1,"playUrl":"https://www.ikdmjx.com/?url=","quickSearch":1,"filterable":1,"playerType":2,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","国产剧","欧美剧","犯罪片","惊悚片","古装片","灾难片","历史片","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","其他片","悬疑片","奇幻片","动画片","国产动漫","日韩动漫","欧美动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
-
-{"key":"主力源","name":"💕老三┃索尼影视💕","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","playUrl":"","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","纪录片","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","动画片","港台动漫","海外动漫","演唱会","体育赛事","篮球","足球","预告片","斯诺克","影视解说"]},
-
-
-
-{"key":"jszy","name":"💕老三┃极速采集💕","type":1,"api":"https://jszyapi.com/api.php/provide/vod/from/jsm3u8","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"categories":["动作片","爱情片","喜剧片","科幻片","恐怖片","剧情片","战争片","记录片","灾难片","悬疑片","犯罪片","奇幻片","动画片","中国动漫","日本动漫","欧美动漫","内地剧","欧美剧","香港剧","台湾剧","韩剧","日剧","马泰剧","伦理片","体育赛事","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
-
-
-
-{"key":"高清资源网","name":"️💕老三┃1080采集💕","type":1,"api":"https://api.1080zyku.com/inc/apijson.php","playUrl":"https://vip.zykbf.com/?url=","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","国产剧","欧美剧","日本剧","泰国剧","韩国剧","台湾剧","香港剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","倫理片","福利"]},
-{"key":"360","name":"💕老三┃360采集💕","type":1,"api":"https://360zy.com/api.php/provide/vod?","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","古装片","悬疑片","犯罪片","灾难片","国产剧","香港剧","韩国剧","欧美剧","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","欧美动漫","日韩动漫","现代都市","脑洞悬疑","年代穿越","古装仙侠","女频恋爱","成长逆袭","反转爽剧"]},
-
-{"key":"飞速","name":"️💕老三┃飞速采集💕","type":1,"api":"https://www.feisuzyapi.com/api.php/provide/vod/","playUrl":"https://yun.ckmov.com/?url=","playUrl":"","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","国产剧","综艺"]},
-{"key":"天空","name":"️💕老三┃天空采集💕","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","playUrl":"https://yun.ckmov.com/?url=","playUrl":"","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","直播","短片","国产剧","综艺","影片库","动漫"]},
-
-{"key":"卧龙","name":"️💕老三┃卧龙采集💕","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","playUrl":"https://yun.ckmov.com/?url=","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","电影解说","足球","篮球","国产剧","综艺","影片库","动漫"]},
-
-{"key":"csp_xml_红牛","name":"💕老三┃红牛采集💕","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","纪录片","动漫电影","国产剧","欧美剧","犯罪片","港澳剧","韩剧","泰剧","台湾剧","日剧","海外剧","其他片","悬疑片","奇幻片","动画片","体育赛事","国产动漫","日本动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
-
-{"key":"csp_xml_优质","name":"💕老三┃1080采集💕","type":1,"api":"https://api.1080zyku.com/inc/api_mac10.php?ac=list","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","动画片","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
-{"key":"淘片资源","name":"💕老三┃淘片采集💕","type":1,"api":"https://taopianapi.com/cjapi/mc/vod/json.html","searchable":1,"quickSearch":1},
-{"key":"非凡","name":"️💕老三┃非凡采集💕","type":1,"api":"http://cj.ffzyapi.com/api.php/provide/vod/","playUrl":"https://yun.ckmov.com/?url=","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","直播","短片","国产剧","综艺","影片库","动漫"]},
-{"key":"csp_xml-天空资源","name":"💕老三┃天空资源2💕","type":1,"api":"https://m3u8.tiankongapi.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1},
-{"key":"csp_xml-飞速资源","name":"💕老三┃飞速资源2💕","type":1,"api":"https://m3u8.feisuzyapi.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1},
-{"key":"csp_xml-飞速资源2","name":"💕老三┃飞速资源1💕","type":1,"api":"http://fszy1.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1},
-{"key":"老张实验","name":"💕老三┃老张实验💕","type":1,"api":"http://zhangqun66.serv00.net/158.php","searchable":1,"changeable":1,"categories":["电影","连续剧","大陆综艺","国产动漫","日韩动漫","NBA","爽文短剧","年代穿越","成长逆袭"]},
-
-{"key":"subo","name":"💕老三┃[速博]💕","type": 1,"playUrl":"","searchable":1,"quickSearch":1,"api":"https://subocaiji.com/api.php/provide/vod/at/json"},
-
-{"key": "量子资源","name":"💕老三┃量子资源💕","api": "http://cj.lziapi.com/api.php/provide/vod/","type":1,"playUrl":"","searchable":1,"quickSearch":1},
-{ "key": "非凡资源","name":"💕老三┃非凡资源💕","api": "http://www.ffzy.tv/api.php/provide/vod/","type":1,"playUrl":"","searchable":1,"quickSearch":1},
-
-
-{ "key": "飞速资源","name":"💕老三┃飞速资源💕","api": "https://www.feisuzyapi.com/api.php/provide/vod/","type":1,"playUrl":"","searchable":1,"quickSearch":1},
-
-
-{ "key": "红牛资源","name":"💕老三┃红牛资源💕","api": "https://www.hongniuzy2.com/api.php/provide/vod/","type":1,"playUrl":"","searchable":1,"quickSearch":1},     
-{ "key": "老虎资源","name":"💕老三┃老虎资源💕","api": "https://www.huyaapi.com/api.php/provide/vod/","type":1,"playUrl":"","searchable":1,"quickSearch":1},
-{"key":"阿里影视","name":"💕老三┃阿里影视💕","api": "http://aliys.cn:90/api.php/provide/vod/","type":1,"playUrl":"","searchable":1,"quickSearch":1},
-
-{"key":"金鹰资源","name":"💕老三┃金鹰资源💕","api": "https://jyzyapi.com/provide/vod/","type":1,"playUrl":"","searchable":1,"quickSearch":1},
-
-
-{ "key": "八戒资源",      "name": "💕老三┃八戒💕", "type": 1, "api": "http://cj.bajiecaiji.com/inc/apijson_vod.php", "playUrl": "", "searchable": 1,"quickSearch": 1    },  
-
-     
- 
-     {
-      "key": "csp_WoGG",
-      "name": "💕老三┃玩偶哥哥💕",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
-        "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
-        "from": "4k|auto|fhd",
-        "siteUrl": "https://www.wogg.link/",
-        "danMu": "弹"
-      }
+  "urls": [
+           {
+      "url": "https://gitee.com/tvkj/tw/raw/main/svip.json",
+      "name": "馃殌澶╁井褰辫VIP绾筐煔€"
     },
-     
-    {
-      "key": "360",
-      "name": "💕老三┃秒播采集💕",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod?",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "欧美动漫",
-        "日韩动漫",
-        "爽文短剧",
-        "体育",
-        "NBA",
-        "足球",
-        "篮球"
-      ]
+        {
+      "url": "https://gitee.com/tvkj/fl/raw/main/svip.json",
+      "name": "馃殌椋為緳褰辫"
+    },
+        {
+      "url": "https://gitlab.com/tvtg/qx/-/raw/main/svip.json",
+      "name": "馃殌涓冩槦绮鹃€�"
+    },
+           {
+      "url": "https://gitee.com/tvkj/shaoer/raw/master/%E5%B0%91%E5%84%BF.json",
+      "name": "馃殌灏戝効棰戦亾"
     },
        {
-      "key": "火狐",
-      "name": "💕老三┃茶杯狐💕",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "categories": [
-        "内地剧",
-        "动作片",
-        "科幻片",
-        "战争片",
-        "喜剧片",
-        "爱情片",
-        "恐怖片",
-        "犯罪片",
-        "剧情片",
-        "冒险片",
-        "记录片",
-        "韩剧",
-        "香港剧",
-        "台湾剧",
-        "欧美剧",
-        "日剧",
-        "马泰剧",
-        "体育赛事",
-        "综艺",
-        "动画片",
-        "中国动漫",
-        "日本动漫",
-        "欧美动漫",
-        "伦理片"
-      ]
+      "url": "https://gitlab.com/tvtg/pg/-/raw/main/api.json",
+      "name": "馃殌灏忕背绾胯矾"
     },
-   
-    {
-      "key": "测试",
-      "name": "💕老三┃采集💕",
-      "type": 1,
-      "api": "http://43.242.202.173:60/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "短剧",
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
-        "体育"
-      ]
+         {
+      "url": "http://楗お纭�.com/tv",
+      "name": "馃殌楗‖涓撶嚎"
     },
-   
-    {
-      "key": "乐视资源",
-      "name": "💕老三┃乐视采集💕",
-      "type": 1,
-      "api": " https://leshiapi.com/api.php/provide/vod/at/json/",
-      "playerType": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "恐怖片",
-        "爱情片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "欧美剧",
-        "犯罪片",
-        "香港剧",
-        "悬疑片",
-        "奇幻片",
-        "动画片",
-        "国产动漫",
-        "大陆综艺"
-      ]
+         {
+            "url": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json",
+            "name": "馃殌PG绾胯矾"
+        }, 
+            {
+      "url": "https://pastebin.com/raw/5NHaxyGR",
+      "name": "馃殌閬撻暱绾胯矾"
+    },
+            {
+      "url": "https://gitlab.com/tvtg/wex/-/raw/main/api.json",
+      "name": "馃殌鐜嬩簩灏忕嚎"
+    },
+            {
+      "url": "https://gitee.com/xmbjmjk/omg/raw/master/omg.json",
+      "name": "馃殌鎷惧厜涓撶嚎"
+    },
+            {
+      "url": "http://ttkx.live:55/澶╁ぉ寮€蹇�",
+      "name": "馃殌澶╁ぉ寮€蹇�"
+    }, 
+            {
+      "url": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/main.json",
+      "name": "馃殌鎻掑厹绾胯矾"
     },
     {
-      "key": "360*",
-      "name": "💕老三┃360采集💕",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "爽文短剧",
-        "现代都市",
-        "年代穿越",
-        "古装仙侠",
-        "女频恋爱",
-        "成长逆袭",
-        "伦理片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "NBA",
-        "惊悚片",
-        "家庭篇",
-        "古装片",
-        "历史片",
-        "悬疑片",
-        "犯罪片",
-        "灾难片",
-        "纪录片",
-        "短片",
-        "动画片",
-        "台湾剧",
-        "日本剧",
-        "大陆综艺",
-        "国产动漫",
-        "日韩动漫",
-        "西部片"
-      ]
+      "url": "http://鎴戜笉鏄�.鎽搁奔鍎�.top",
+      "name": "馃殌鎽搁奔绾胯矾"
+    },
+        {
+      "url": "https://gitee.com/hyxuan_admin/xnf/raw/master/xnf.json",
+      "name": "馃殌鐜畤杞╃嚎"
+    },
+        {
+      "url": "https://gitee.com/heng546199810/hxvip8/raw/master/hxvip3.txt",
+      "name": "馃殌鎭掓槦绾胯矾"
+    },
+        {
+      "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json",
+      "name": "馃殌D浣瓟鏀�"
+    },
+        {
+      "url": "http://74.120.175.78/JK/XYQTVBox/dj.json",
+      "name": "馃殌鐭墽鍚堥泦"
+    },
+        {
+      "url": "http://ttkx.live:55/澶╁ぉ寮€蹇�",
+      "name": "馃殌澶╁ぉ寮€蹇�"
+    }, 
+        {
+      "url": "https://cn.kstore.space/download/2863/01.txt",
+      "name": "馃殌娼囨磼绌洪棿"
     },
     {
-      "key": "业余1",
-      "name": "💕老三┃业余采集💕",
-      "type": 1,
-      "api": "https://yyff.540734621.xyz/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "短剧",
-        "电影",
-        "电视剧",
-        "动漫",
-        "纪录片",
-        "综艺",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "剧情片",
-        "科幻片",
-        "战争片",
-        "恐怖片",
-        "国产剧",
-        "欧美剧",
-        "日韩剧",
-        "港台剧",
-        "国内综艺",
-        "欧美综艺",
-        "海外剧",
-        "国内动漫",
-        "欧美动漫",
-        "日韩动漫",
-        "热播短剧",
-        "日韩综艺",
-        "音乐",
-        "体育",
-        "国产电影"
-      ]
-    },
-   
-  
-    {
-      "key": "贱贱",
-      "name": "💕老三┃贱贱P2P💕",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
-    }
-   
-  
-    ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141"
-      ]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40"
-      ]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112"
-      ]
-    }
-  ],
-  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
-  "lives": [
-    {
-      "name": "live1",
-     "type": 0,
-      "url": "https://2883.kstore.space/%E2%91%A0%E7%8C%ABTV%E7%BA%BF%E8%B7%AF",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-
+      "url": "http://www.wya6.cn/tv/yc.json",
+      "name": "馃殌鏃犳剰浜戠嚎"
+    },  
      {
-      "name": "live2",
-     "type": 0,
-      "url": "https://wzsvip.github.io/ipv4.txt",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+            "url": "https://100km.top/0",
+            "name": "馃殌Ray绾胯矾"
+        },	
+    {
+      "url": "https://tv.xn--yhqu5zs87a.top",
+      "name": "馃殌鑿滃Ξ涓濈嚎"
     },
- {
-      "name": "live3",
-     "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+      "name": "馃殌棣欓泤鎯呯嚎"
+    },
+    {
+      "url": "http://120.24.204.74:1888/?explorer/share/file&hash=1277MMs1UITPwRkFSiUwxvFZU1UGQqfXHMnKQHeMcexYxjtYy9tydrVYUbsNkOItAw&name=/鏄ョ泩澶╀笅鏂皔y.css",
+      "name": "馃殌鏄ョ泩澶╀笅"
+    },
+    {
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "name": "馃殌鍗楅绾胯矾"
+    },
+    {
+      "url": "https://szyyds.cn/tv/x.json",
+      "name": "馃殌灏忛┈绾胯矾"
+    },
+    {
+      "url": "http://鑲ョ尗.com",
+      "name": "馃殌鑲ョ尗绾胯矾"
+    },
+        {
+      "url": "http://dp.sxtv.top:88/img",
+      "name": "馃殌绁炰粰绾胯矾"
+    },
+    {
+      "url": "https://agit.ai/66666/mao/raw/branch/master/00/000.m3u8",
+      "name": "馃殌鍒嗕韩鑰�"
+    },
+        {
+      "url": "https://notabug.org/qizhen15800/My9394/raw/master/%e4%b8%8d%e8%89%af%e5%b8%85.json",
+      "name": "馃殌涓嶈壇甯呯嚎"
+    },
+    {
+      "url": "http://jin.閿﹀摜鍝�.love",
+      "name": "馃殌涓€鍗佺嚎璺�"
+    },
+        {
+      "url": "https://szyyds.cn/tv/x.json",
+      "name": "馃殌灏忛┈绾胯矾"
+    },
+    {
+      "url": "https://cn.kstore.space/download/2863/01.txt",
+      "name": "馃殌娼囨磼绾胯矾"
+    },
+    {
+      "url": "http://tvkj888.cn/DC/ysc/tvkj/svip.json",
+      "name": "馃殌杩愯緭杞ip"
+    },
+    {
+      "url": "http://svip.weixine.net:88/uploads/itvbox/svip.json",
+      "name": "馃殌浜戞槦鏃ヨ"
+    },
+        {
+      "url": "http://sinopacifichk.com/box/56.txt",
+      "name": "馃殌澶钩娲嬬嚎"
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "name": "馃殌楂樺ぉ娴佷簯"
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "name": "馃殌淇婁浆绾胯矾"
+    },
+    {
+      "url": "http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2",
+      "name": "馃殌璁存瓕涓撶嚎"
+    },
+    {
+      "url": "http://sinopacifichk.com/box/56.txt",
+      "name": "馃殌涓囪揪褰辫"
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/yydfjk.json",
+      "name": "馃殌涓氫綑鎵撳彂"
+    },
+    {
+      "url": "http://74.120.175.78/JK/XYQTVBox/dj.json",
+      "name": "馃殌鐭墽澶у叏"
     }
-  
   ]
 }
