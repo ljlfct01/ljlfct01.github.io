@@ -1,21 +1,559 @@
 {
-  "urls": [
-           {
-      "url": "https://notabug.org/liuyun/H--2024/raw/master/%e9%ad%94%e7%9b%92.json",
-      "name": "魔盒.json"
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718877700936/fan.txt;md5;b4518597b341123213f6208fbfab7c1b",
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "sites": [
+    {
+      "key": "豆豆",
+      "name": "🌠┣老三┫影视",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     },
-        {
-      "url": "https://notabug.org/liuyun/H--2024/raw/master/%e9%87%87%e9%9b%86.json",
-      "name": "采集.json"
+   {
+    "key": "华为吧资源",
+    "name": "🌠┣老三┣华为┫采集",
+    "type": 1,
+    "api": "https://hw8.live/api.php/provide/vod/",
+    "playurl": "https://dp.hw8.live/player/?url="
+},
+{
+    "key": "优质资源",
+    "name": "🌠┣老三┣优质┫采集",
+    "type": 0,
+    "api": "https://api.1080zyku.com/inc/ldg_api.php",
+    "playurl": "https://vip.zykbf.com/?url="
+},
+{
+    "key": "鸭鸭资源",
+    "name": "🌠┣老三┣鸭鸭┫采集",
+    "type": 1,
+    "api": "https://yayazy2.com/api.php/provide/vod/",  
+    "playurl": "https://jx.yayazy.cc/m3u8/?url="
+},
+{
+    "key": "牛牛资源",
+    "name": "🌠┣老三┣牛牛┫采集",
+    "type": 1,
+    "api": "https://niuniuzy6.com/api.php/provide/vod/",
+    "playurl": "https://jiexi.niuniuzy.org/m3u8/?url="
+},
+{
+    "key": "黑木耳资源",
+    "name": "🌠┣老三┣木耳┫采集",
+    "type": 1,
+    "api": "https://heimuer.tv/api.php/provide/vod/",
+    "playurl": "https://player.heimuer.tv/index.html?url=",
+    "categories": ["国产剧","古装","虐恋","逆袭","神豪","重生","复仇","穿越","甜宠","强者"]
+},
+{
+    "key": "豪华资源",
+    "name": "🌠┣老三┣土豪┫采集",
+    "type": 1,
+    "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+    "playurl": "https://hhjiexi.com/play/?url=",
+    "categories": [ ]
+},
+{
+    "key": "新浪资源",
+    "name": "🌠┣老三┣新浪┫采集",
+    "type": 1,
+    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/",
+    "playurl": "https://www.xinlangjiexi.com/m3u8/?url="
+},
+{
+    "key": "闪电资源",
+    "name": "🌠┣老三┣闪电┫采集",
+    "type": 1,
+    "api": "https://shandianzy.com/api.php/provide/vod/",
+    "playurl": "https://www.shankubf.com/m3u8/?url="
+},
+{
+    "key": "U酷资源",
+    "name": "🌠┣U酷┫采集",
+    "type": 1,
+    "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+    "playurl": "https://api.ukubf.com/m3u8/?url="
+},
+{
+     "key": "飞刀资源",
+    "name": "🌠┣老三┣飞刀┫采集",
+    "type": 1,
+    "api": " http://www.feidaozy.com/api.php/provide/vod?",
+    "playurl": "http://www.feidaozy.com/?url="
+},
+{
+    "key": "360资源",
+    "name": "🌠┣老三┣卫视┫采集",
+    "type": 1,
+    "api": "https://360zy.com/api.php/provide/vod",
+    "playUrl": "https://bofang.360jiexi.com/?url="
+},
+{
+    "key": "快看采集",
+    "name": "️🌠┣老三┣快看┫采集",
+    "type": 1,
+    "api": "https://kuaikan-api.com/api.php/provide/vod/?ac=list",
+    "playurl": "https://kkzyplayer.com/player/?url="
+},
+{
+    "key": "最大资源",
+    "name": "🌠┣老三┣最大┫采集",
+    "type": 1,
+    "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8",
+    "playurl": "https://jx.zuidplay.com/m3u8Player/?url="
+},
+{
+    "key": "csp_xml_ikun",
+    "name": "🌠┣老三┣爱坤┫采集",
+    "type": 1,
+    "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+    "playurl": "https://www.ikdmjx.com/?url="
+},
+{
+    "key": "乐视",
+    "name": "🌠┣老三┣乐视┫采集",
+    "type": 1,
+    "api": "https://leshiapi.com/api.php/provide/vod/at/json/",
+    "playurl": "https://leshivideoplayurl.com/?url="
+},
+{
+    "key": "虎牙资源",
+    "name": "🌠┣老三┣虎牙┫采集",
+    "type": 1,
+    "api": "https://www.huyaapi.com/api.php/provide/vod/at/json",
+    "playurl": "https://huyajx.com/play?url="
+},
+{
+    "key": "红牛资源",
+    "name": "🌠┣老三┣红牛┫采集",
+    "type": 1,
+    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+    "playurl": "https://www.hnjiexi.com/m3u8/?url="
+},
+{
+    "key": "快车资源",
+    "name": "🌠┣老三┣快车┫采集",
+    "type": 1,
+    "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
+    "playurl": "https://jiexi.kczyapi.com/m3u8/?url="
+},
+{
+    "key": "索尼资源",
+    "name": "🌠┣老三┣索尼┫采集",
+    "type": 1,
+    "api": "https://suoniapi.com/api.php/provide/vod/",
+    "playurl": "https://www.snplayer.com/?url="
+},
+{
+    "key": "非凡资源",
+    "name": "🌠┣老三┣非凡┫采集",
+    "type": 1,
+    "api": "http://ffzy1.tv/api.php/provide/vod/",
+    "playurl": "https://svip.ffzyplay.com/?url="
+},
+{
+    "key": "量子资源",
+    "name": "🌠┣老三┣量子┫采集",
+    "type": 1,
+    "api": "http://23.224.183.18/api.php/provide/vod/",
+    "playurl": "https://lziplayer.com/?url="
+},
+{
+    "key": "卧龙资源",
+    "name": "🌠┣老三┣卧龙┫采集",
+    "type": 1,
+    "api": "https://wolongzyw.com/api.php/provide/vod/",
+    "playurl": "https://jx.wolongm3u8.com:65/m3u8.php?url="
+},
+{
+    "key": "暴风资源",
+    "name": "🌠┣老三┣暴风┫采集",
+    "type": 1,
+    "api": "https://bfzyapi.com/api.php/provide/vod/",
+    "playurl": "https://vip.vipuuvip.com/?url="
+},
+{
+    "key": "速播资源",
+    "name": "🌠┣老三┣速播┫采集",
+    "type": 1,
+    "api": "https://subocaiji.com/api.php/provide/vod",
+    "playurl": "https://subojiexi.com/play/?url="
+},
+{
+    "key": "光速资源",
+    "name": "🌠┣老三┣光速┫采集",
+    "type": 1,
+    "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
+    "playurl": "https://www.gszyv.com/m3u8/?url="
+},
+{
+    "key": "极速资源",
+    "name": "🌠┣老三┣极速┫采集",
+    "type": 1,
+    "api": "http://www.jisuziyuan.com/api.php/provide/vod/",
+    "playurl": "https://jisjiexi.com/play/?url="
+},
+{
+    "key": "无尽资源",
+    "name": "🌠┣老三┣无尽┫采集",
+    "type": 1,
+    "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
+    "playurl": "https://jx.wujinkk.com/dplayer/?url="
+},
+
+{
+    "key": "奇虎资源",
+    "name": "🌠┣老三┣奇虎┫采集",
+    "type": 1,
+    "api": "https://caiji.qhzyapi.com/api.php/provide/vod/?ac=list",
+    "playurl": "https://jiexi.qhzyapi.com/dp/?url="
+},
+{
+    "key": "天空资源",
+    "name": "🌠┣老三┣天空┫采集",
+    "type": 1,
+    "api": "https://api.tiankongapi.com/api.php/provide/vod/?ac=list",
+    "playurl": "https://jx.huishij.com/yun/?url="
+},
+{
+    "key": "鱼乐资源",
+    "name": "🌠┣老三┣鱼乐┫采集",
+    "type": 1,
+    "api": "https://ylzy13.com/api.php/provide/vod/",
+    "playurl": "https://jx.ylzy.me/dplayer/?url="
+},
+   {"key": "白菜影视","name": "🌠┣老三┣白菜┫视频","type": 3,"api": "csp_AppYsV2","ext": "http://www.4kgod6.club/api.php/app/"},
+  {"key": "猫咪影视","name": "🌠┣老三┣猫咪┫视频","type": 1,"api": "http://zy.xiaomaomi.cc/api.php/provide/vod"},
+  {"key": "九零影视","name": "🌠┣老三┣九零┫影视","type": 1,"api": "https://oknnews.com/api.php/provide/vod/"},
+  {"key": "影图影视","name": "🌠┣老三┣影图┫影视","type": 1,"api": "https://cj.vodimg.top/api.php/provide/vod/"},
+  {"key": "策驰影视","name": "🌠┣老三┣老三┣策驰┫视频","type": 1,"api": "https://www.39kan.com/api.php/provide/vod/"},
+  {"key": "努努影视","name": "🌠┣老三┣老三┣努努┫影视","type": 1,"api": "https://www.nuuub.com/api.php/provide/vod/"},
+  {"key": "星星影视","name": "🌠┣老三┣星星┫影视","type": 1,"api": "http://vip.smzj6.vip/api.php/provide/vod/"},
+  {"key": "全影影视","name": "🌠┣老三┣全影┫影视","type": 1,"api": "http://tv.52ddw.com/api.php/provide/vod/"},
+  {"key": "农民资源","name": "🌠┣老三┣农民┫影视","type": 1,"api": "https://www.xncnews.com/api.php/provide/vod/"},
+  {"key": "追风资源","name": "🌠┣老三┣追风┫影视","type": 1,"api": "http://www.zfsp.cc/api.php/provide/vod/"},
+  {"key": "芘芣资源","name": "🌠┣老三┣芘芣┫影视","type": 1,"api": "https://www.bilfun.cc/api.php/provide/vod/"},
+  {"key": "福星资源","name": "🌠┣老三┣福星┫影视","type": 1,"api": "https://www.voflix.vip/api.php/provide/vod/"},
+  {"key": "五一资源","name": "🌠┣老三┣五一┫影视","type": 1,"api": "http://www.51zhuiju.cc/api.php/provide/vod/"},
+  {"key": "六六资源","name": "🌠┣老三┣六六┫影视","type": 1,"api": "https://www.666bo.top/api.php/provide/vod/"},
+  {"key": "追剧资源","name": "🌠┣老三┣看剧┫影视","type": 1,"api": "https://www.zhuijuju.net/api.php/provide/vod/"},
+  {"key": "阿里资源","name": "🌠┣老三┣阿里┫影视","type": 1,"api": "https://alivod.com/api.php/provide/vod/"},
+  {"key": "一舟影院","name": "🌠┣老三┣一舟┫影视","type": 1,"api": "http://www.mandao.site/api.php/provide/vod/"},
+  {"key": "天堂影院","name": "🌠┣老三┣天堂┫影视","type": 1,"api": "http://www.qoordgc.com/api.php/provide/vod/"},
+  {"key": "嗨米资源","name": "🌠┣老三┣嗨米┫影视","type": 1,"api": "https://www.himi.cc/api.php/provide/vod/"},
+  {"key": "无忧资源","name": "🌠┣老三┣无忧┫影视","type": 1,"api": "https://www.wyvod.com/api.php/provide/vod/"},   
+  {"key": "柠檬资源","name": "🌠┣老三┣柠檬┫影视","type": 1,"api": "https://www.nmnm.cc/api.php/provide/vod/"},
+  {"key": "三八资源","name": "🌠┣老三┣三八┫影视","type": 1,"api": "https://vod38.com/api.php/provide/vod/"},
+  {"key": "淘片采集","name": "🌠┣老三┣淘片┫采集","type": 1,"api": "https://taopianapi.com/cjapi/mc/vod/json.html"},
+  {"key": "飞速资源","name": "🌠┣老三┣飞速┫采集","type": 1,"api": "https://feisuzy.com/api.php/provide/vod/"},
+  {"key": "沐沐","name": "🌠┣老三┣沐沐┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://nnystv.cn/api.php/app/"},
+  {"key": "龙门","name": "🌠┣老三┣龙门┫APP","type": 3,"api": "csp_AppYsV2","ext": "http://movie.iqinu.com/api.php/v1.vod"},
+  {"key": "星球","name": "🌠┣老三┣星球┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.netfly.tv/api.php/app/"},
+  {"key": "奈飞","name": "🌠┣老三┣鸭飞┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://yanetflix.me/api.php/app/"},
+  {"key": "剧兔","name": "🌠┣老三┣剧兔┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.zjtu.one/api.php/app/"},
+  {"key": "河狸","name": "🌠┣老三┣河狸┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.heli888.cc/api.php/app/"},
+  {"key": "皮虾","name": "🌠┣老三┣皮虾┫APP","type": 3,"api": "csp_AppYsV2","ext": "http://aikun.tv/api.php/app/"},
+  {"key": "神马","name": "🌠┣老三┣神马┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.shenmaysk.com/api.php/app/"},
+  {"key": "小马","name": "🌠┣老三┣小马┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://mas.szyyds.cn/api.php/app/"},
+  {"key": "老蟹","name": "🌠┣老三┣老蟹┫APP","type": 3,"api": "csp_AppYsV2","ext": "http://www.ajj001.top/api.php/app/"},
+  {"key": "柠檬","name": "🌠┣老三┣柠檬┫APP","type": 3,"api": "csp_AppYsV2","ext": "http://mf.songshu.cyou/api.php/app/"},
+  {"key": "星易","name": "🌠┣老三┣星影┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.xingyiying.com/api.php/v1.vod"},
+  {"key": "迪影","name": "🌠┣老三┣爱迪┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://adys.tv/xgapp.php/v1/"},
+  {"key": "视站","name": "🌠┣老三┣影库┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://xn--p3t583cbin.top/api.php/app/"},
+  {"key": "银河","name": "🌠┣老三┣银河┫APP","type": 3,"api": "csp_AppYsV2","ext": "http://134.175.219.46/mogai_api.php/v1.vod"},
+  {"key": "美剧","name": "🌠┣老三┣美剧┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.69mj.com/xgapp.php/v2/"},
+  {"key": "大米","name": "🌠┣老三┣大米┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://damifi.com/api.php/app/"},
+  {"key": "思古","name": "🌠┣老三┣思古┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://siguyy.cn/api.php/app/"},
+  {"key": "零刻","name": "🌠┣老三┣零刻┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://ys.51bro.cn/mogai_api.php/v1.vod"},
+  {"key": "千神","name": "🌠┣老三┣千神┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.56aq.com/api.php/app/"},
+  {"key": "西瓜","name": "🌠┣老三┣西瓜┫APP","type": 3,"api": "csp_AppYsV2","ext": "http://4k.953365.cn:8090/xgapp.php/v2/"},
+  {"key": "雨晴","name": "🌠┣老三┣晴天┫App","type": 3,"api": "csp_AppYsV2","ext": "http://43.154.162.194/ruifenglb_api.php/v1.vod"},
+  {"key": "少泽","name": "🌠┣老三┣少泽┫App","type": 3,"api": "csp_AppYsV2","ext": "https://yk.shaozeyy.com/api.php/app/"},
+  {"key": "酷我","name": "🌠┣老三┣酷我┫App","type": 3,"api": "csp_AppYsV2","ext": "http://www.kuloo.xyz/ruifenglb_api.php/v1.vod"},
+  {"key": "嘛艺","name": "🌠┣老三┣嘛艺┫App","type": 3,"api": "csp_AppYsV2","ext": "http://122.228.84.103:5822/api.php/app/"},
+  {"key": "看剧","name": "🌠┣老三┣爱看┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.ikanju.cc/mogai_api.php/v1.vod"},
+  {"key": "金蝉","name": "🌠┣老三┣金蝉┫影视","type": 1,"api": "https://www.jcys.bf/api.php/provide/vod/","searchable": 1,"quickSearch": 1},
+  {"key": "剧狗","name": "🌠┣老三┣剧狗┫影视","type": 1,"api": "https://www.youmuz.cn/api.php/provide/vod/","searchable": 1,"quickSearch": 1},
+  {"key": "秒播","name": "🌠┣老三┣秒播┫影视","type": 1,"api": "https://www.nvxvn.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1},
+  {"key": "小宝","name": "🌠┣老三┣小宝┫影视","type": 1,"api": "http://www.xiaobao168.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1},
+  {"key": "何以","name": "🌠┣老三┣何以┫直连","type": 1,"api": "https://www.heyik.cn/api.php/provide/vod/","searchable": 1,"quickSearch": 1},
+  {"key": "北川","name": "🌠┣老三┣北川┫APP","type": 3,"api": "csp_AppYsV2","ext": "https://www.bczhuiju.com/api.php/v1.vod"},
+    {
+      "key": "米搜",
+      "name": "🌠┣老三米搜┃搜索",
+      "type": 3,
+      "api": "csp_MIPanSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "pan": "quark",
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
-        {
-      "url": "https://notabug.org/liuyun/H--2024/raw/master/%e7%9f%ad%e5%89%a7.json",
-      "name": "短剧.json"
+    {
+      "key": "夸搜",
+      "name": "🌠┣老三夸搜┃搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "pan": "quark",
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
-           {
-      "url": "https://notabug.org/liuyun/H--2024/raw/master/%e6%95%99%e8%82%b2.json",
-      "name": "教育.json"
+    {
+      "key": "YiSo",
+      "name": "🌠┣老三易搜┃搜索",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "aliToken": "tvfan/token.txt",
+        "from": "4k|auto|fhd"
+      }
+    },
+    {
+      "key": "PanSou",
+      "name": "🌠┣老三盘搜┃搜索",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "aliToken": "tvfan/token.txt",
+        "from": "4k|auto|fhd"
+      }
+    },
+    {
+      "key": "UpYun",
+      "name": "🌠┣老三Up搜┃搜索",
+      "type": 3,
+      "api": "csp_UpYun",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "aliToken": "tvfan/token.txt",
+        "from": "4k|auto|fhd"
+      }
+    },
+    {
+      "key": "PanSearch",
+      "name": "🌠┣老三盘Se┃搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "aliToken": "tvfan/token.txt",
+        "from": "4k|auto|fhd"
+      }
+    },
+    {
+      "key": "push_agent",
+      "name": "🌠┣老三手机┃推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": {
+        "aliToken": "tvfan/token.txt",
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
+    },
+    {
+      "key": "Bili",
+      "name": "🌠┣老三┃哔哔┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json"
+    },
+    {
+      "key": "Biliych",
+      "name": "🌠┣老三┃明星┃演唱会",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/biliych.json"
+    },
+    {
+      "key": "dr_兔小贝",
+      "name": "🌠┣老三┃儿童┃启蒙",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "少儿教育",
+      "name": "🌠┣老三┃少儿┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"
+    },
+    {
+      "key": "小学课堂",
+      "name": "🌠┣老三┃小学┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json"
+    },
+    {
+      "key": "初中课堂",
+      "name": "🌠┣老三┃初中┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json"
+    },
+    {
+      "key": "高中教育",
+      "name": "🌠┣老三┃高中┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json"
+    },
+    {
+      "key": "Nbys",
+      "name": "🌠┣老三┃泥巴┃飞",
+      "type": 3,
+      "api": "csp_NiNi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "fan",
+      "name": "导航 www.饭太硬.com",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
     }
-      
+  
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://www.huichunniao.cn/xh/lib/live.txt",
+      "playerType": 1
+    },
+    {
+      "name": "XIUTAN",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+      "type": 0,
+      "url": "https://xhdwc.tk/xiutan.m3u"
+    },
+    {
+      "name": "IPV6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1
+    }
   ]
 }
