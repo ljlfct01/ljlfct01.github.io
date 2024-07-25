@@ -558,8 +558,18 @@
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
 
-    {
+     {
       "name": "live2",
+     "type": 0,
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/main/list.%E5%A4%96",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+
+    {
+      "name": "live3",
       "type": 0,
       "url": "https://tv.iill.top/m3u/Gather",
       "playerType": 1,
