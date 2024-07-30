@@ -145,7 +145,18 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-
+  - {name:  🇹🇼1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇹🇼2, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵2, server: japan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵4, server: japan-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵5, server: japan-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷1, server: south-korea.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷2, server: south-korea-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷3, server: south-korea-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬1, server: singapore.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬5, server: singapore-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬6, server: singapore-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬7, server: singapore-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
  
 
 proxy-groups:
@@ -161,9 +172,7 @@ proxy-groups:
       - 日本1
       - 日本2
       - 日本3
-
       - 香港1
-
       - 香港2
       - 香港4
       - 美国1
@@ -173,6 +182,18 @@ proxy-groups:
       - 美国5
       - 美国6
       - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵2
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
 
 
   - name: ♻️ 自动选择
@@ -188,9 +209,7 @@ proxy-groups:
       - 日本1
       - 日本2
       - 日本3
-
       - 香港1
-
       - 香港2
       - 香港4
       - 美国1
@@ -200,6 +219,18 @@ proxy-groups:
       - 美国5
       - 美国6
       - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵2
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
 
 
   - name: 🌍 国外媒体
@@ -215,9 +246,7 @@ proxy-groups:
       - 日本1
       - 日本2
       - 日本3
-
       - 香港1
-
       - 香港2
       - 香港4
       - 美国1
@@ -227,6 +256,18 @@ proxy-groups:
       - 美国5
       - 美国6
       - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵2
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
 
 
   - name: 📲 电报信息
@@ -241,7 +282,6 @@ proxy-groups:
       - 日本1
       - 日本2
       - 日本3
-   
       - 香港1
       - 香港2
       - 香港4
@@ -252,6 +292,18 @@ proxy-groups:
       - 美国5
       - 美国6
       - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵2
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
 
 
   - name: Ⓜ️ 微软服务
@@ -266,9 +318,7 @@ proxy-groups:
       - 日本1
       - 日本2
       - 日本3
-
       - 香港1
-
       - 香港2
       - 香港4
       - 美国1
@@ -278,6 +328,18 @@ proxy-groups:
       - 美国5
       - 美国6
       - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵2
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
 
 
   - name: 🍎 苹果服务
@@ -292,9 +354,7 @@ proxy-groups:
       - 日本1
       - 日本2
       - 日本3
-
       - 香港1
-
       - 香港2
       - 香港4
       - 美国1
@@ -304,6 +364,18 @@ proxy-groups:
       - 美国5
       - 美国6
       - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵2
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
 
 
   - name: 🎯 全球直连
@@ -335,9 +407,7 @@ proxy-groups:
       - 日本1
       - 日本2
       - 日本3
-
       - 香港1
-
       - 香港2
       - 香港4
       - 美国1
@@ -347,6 +417,18 @@ proxy-groups:
       - 美国5
       - 美国6
       - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵2
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
 
 
 rules:
