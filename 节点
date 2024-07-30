@@ -65,3 +65,161 @@ proxies:
   - {name: 广东省 移动 18, server: dd99e6d3-3da1-18b7-533f-fbbe92bdd9a8.ss03.net, port: 22403, type: ss, cipher: chacha20-ietf-poly1305, password: c1bbfd05-1d32-4b9b-9feb-79eb5ad3645d}
   - {name: 🇺🇲 美国 惠普公司, server: 15.223.105.183, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
   - {name: 🇺🇲 美国 CloudFlare节点 21, server: 172.64.167.35, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, servername: ip2.1457230.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+
+
+  - {name:  🇹🇼1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇹🇼2, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵2, server: japan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵4, server: japan-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵5, server: japan-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷1, server: south-korea.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷2, server: south-korea-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷3, server: south-korea-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬1, server: singapore.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬5, server: singapore-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬6, server: singapore-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬7, server: singapore-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+
+
+ - name: 台湾1
+    server: tw1-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 台湾2
+    server: tw2-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 台湾3
+    server: tw3-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 台湾4
+    type: http
+    server: twmoon1.fccloud.xyz
+    port: 1443
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+    tls: true
+  - name: 日本1
+    server: jpgmo101-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 日本2
+    server: jpgmo102-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 日本3
+    type: http
+    server: jsct.maikrapps.xyz
+    port: 563
+    username: 0061006e006f006e0079006d006f00750073005f00620031003500640037006100360036
+    password: undefined
+    tls: true
+    skip-cert-verify: false
+
+
+
+  - name: 香港1
+    server: hkretmp1-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+
+
+  - name: 香港2
+    server: hkretmp2-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 香港4
+    server: hk500.fccloud.xyz
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国1
+    server: usport1-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国2
+    server: uscera50-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国3
+    server: uscera3.fccloud.xyz
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国4
+    server: us_kurun_2.mkir.xyz
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: liul08762
+    password: 6651d87867ba1cb136ba9911e8952786
+  - name: 美国5
+    server: usport1.fccloud.xyz
+    port: 1443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国6
+    server: ustx003.fccloud.xyz
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国7
+    server: uscera20-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+
+
