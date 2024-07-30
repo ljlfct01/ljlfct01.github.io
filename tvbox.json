@@ -3,14 +3,12 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "豆豆",
-      "name": "🌠┣老三┫影视",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+    "key": "js-豆瓣",
+    "name": "🌠┣老三┣豆瓣┫推荐",
+    "type": 3,
+    "api": "https://git.acwing.com/999/tvbox/-/raw/main/TV/dy2.js",
+    "ext": "https://git.acwing.com/999/tvbox/-/raw/main/TV/douban.js"
+},
    {
     "key": "华为吧资源",
     "name": "🌠┣老三┣华为┫采集",
