@@ -2,12 +2,29 @@
   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718877700936/fan.txt;md5;b4518597b341123213f6208fbfab7c1b",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
-    {
-    "key": "js-豆瓣",
-    "name": "🌠┣老三┣豆瓣┫推荐",
-    "type": 1,
-    "api": "https://git.acwing.com/999/tvbox/-/raw/main/TV/dy2.js",
-    "ext": "https://git.acwing.com/999/tvbox/-/raw/main/TV/douban.js"
+   {
+    "key":"t9-荐片",
+    "name":"🎆┣荐片┫影视",
+    "type":4,
+    "api":"https://catbox.n13.club/t9/jianpian.php"
+},
+{
+    "key":"t9-极光",
+    "name":"🎆┣极光┫影视",
+    "type":4,
+    "api":"https://catbox.n13.club/t9/jiguang.php"
+},
+{
+    "key":"t9-采集",
+    "name":"🎆┣采集┫影视",
+    "type":4,
+    "api":"https://catbox.n13.club/t9/caiji.php"
+},
+{
+    "key":"t9-黑狐",
+    "name":"🎆┣黑狐┫影视",
+    "type":4,
+    "api":"https://catbox.n13.club/t9/heihu.php"
 },
    {
     "key": "华为吧资源",
