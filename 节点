@@ -1,8 +1,4 @@
-port: 7890
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
+
 proxies:
   - {name: 广东省 移动, server: 3b810d31-ea04-5bc0-b986-ff4cfd42ecd0.ss03.net, port: 22373, type: ss, cipher: chacha20-ietf-poly1305, password: c1bbfd05-1d32-4b9b-9feb-79eb5ad3645d}
   - {name: 广东省 移动 2, server: dd99e6d3-3da1-18b7-533f-fbbe92bdd9a8.ss03.net, port: 12374, type: ss, cipher: chacha20-ietf-poly1305, password: c1bbfd05-1d32-4b9b-9feb-79eb5ad3645d}
