@@ -114,16 +114,16 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国4
-    server: us_kurun_2.mkir.xyz
+    server: ustt3-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
     skip-cert-verify: false
-    username: liul08762
-    password: 6651d87867ba1cb136ba9911e8952786
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国5
     server: usport1.fccloud.xyz
-    port: 1443
+    port: 443
     type: http
     tls: true
     skip-cert-verify: false
@@ -138,7 +138,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国7
-    server: uscera20-cdn-route.couldflare-cdn.com
+    server: ustt1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
