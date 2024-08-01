@@ -31,8 +31,8 @@ proxies:
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 台湾4
     type: http
-    server: twmoon1.fccloud.xyz
-    port: 1443
+    server: tw4-cdn-route.couldflare-cdn.com
+    port: 443
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
     tls: true
@@ -147,16 +147,30 @@ proxies:
     password: exaxgqkKkd0TAMrCxeonWg==
   - {name:  🇹🇼1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇹🇼2, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵1, server: japan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇯🇵2, server: japan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵3, server: japan-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇯🇵4, server: japan-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇯🇵5, server: japan-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵6, server: japan-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵7, server: japan-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇰🇷1, server: south-korea.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇰🇷2, server: south-korea-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇰🇷3, server: south-korea-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇸🇬1, server: singapore.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬2, server: singapore-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬3, server: singapore-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬4, server: singapore-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇸🇬5, server: singapore-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇸🇬6, server: singapore-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇸🇬7, server: singapore-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk1, server: hong-kong.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk2, server: hong-kong-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk3, server: hong-kong-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk4, server: hong-kong-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk5, server: hong-kong-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk6, server: hong-kong-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+
 
 
   - {name: 🇺🇲 美国 CloudFlare节点, server: 104.19.123.11, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
@@ -231,16 +245,29 @@ proxy-groups:
       - 美国7
       - 🇹🇼1
       - 🇹🇼2
+      - 🇯🇵1
       - 🇯🇵2
+      - 🇯🇵3
       - 🇯🇵4
       - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
       - 🇰🇷1
       - 🇰🇷2
       - 🇰🇷3
       - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
       - 🇸🇬5
       - 🇸🇬6
       - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
 
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 戴维逊大学
@@ -313,16 +340,30 @@ proxy-groups:
       - 美国7
       - 🇹🇼1
       - 🇹🇼2
+      - 🇯🇵1
       - 🇯🇵2
+      - 🇯🇵3
       - 🇯🇵4
       - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
       - 🇰🇷1
       - 🇰🇷2
       - 🇰🇷3
       - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
       - 🇸🇬5
       - 🇸🇬6
       - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
+
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 戴维逊大学
       - 🇺🇲 美国 CloudFlare节点 2
@@ -394,16 +435,30 @@ proxy-groups:
       - 美国7
       - 🇹🇼1
       - 🇹🇼2
+      - 🇯🇵1
       - 🇯🇵2
+      - 🇯🇵3
       - 🇯🇵4
       - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
       - 🇰🇷1
       - 🇰🇷2
       - 🇰🇷3
       - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
       - 🇸🇬5
       - 🇸🇬6
       - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
+
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 戴维逊大学
       - 🇺🇲 美国 CloudFlare节点 2
@@ -474,16 +529,30 @@ proxy-groups:
       - 美国7
       - 🇹🇼1
       - 🇹🇼2
+      - 🇯🇵1
       - 🇯🇵2
+      - 🇯🇵3
       - 🇯🇵4
       - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
       - 🇰🇷1
       - 🇰🇷2
       - 🇰🇷3
       - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
       - 🇸🇬5
       - 🇸🇬6
       - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
+
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 戴维逊大学
       - 🇺🇲 美国 CloudFlare节点 2
@@ -554,16 +623,30 @@ proxy-groups:
       - 美国7
       - 🇹🇼1
       - 🇹🇼2
+      - 🇯🇵1
       - 🇯🇵2
+      - 🇯🇵3
       - 🇯🇵4
       - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
       - 🇰🇷1
       - 🇰🇷2
       - 🇰🇷3
       - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
       - 🇸🇬5
       - 🇸🇬6
       - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
+
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 戴维逊大学
       - 🇺🇲 美国 CloudFlare节点 2
@@ -634,16 +717,30 @@ proxy-groups:
       - 美国7
       - 🇹🇼1
       - 🇹🇼2
+      - 🇯🇵1
       - 🇯🇵2
+      - 🇯🇵3
       - 🇯🇵4
       - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
       - 🇰🇷1
       - 🇰🇷2
       - 🇰🇷3
       - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
       - 🇸🇬5
       - 🇸🇬6
       - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
+
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 戴维逊大学
       - 🇺🇲 美国 CloudFlare节点 2
@@ -731,16 +828,30 @@ proxy-groups:
       - 美国7
       - 🇹🇼1
       - 🇹🇼2
+      - 🇯🇵1
       - 🇯🇵2
+      - 🇯🇵3
       - 🇯🇵4
       - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
       - 🇰🇷1
       - 🇰🇷2
       - 🇰🇷3
       - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
       - 🇸🇬5
       - 🇸🇬6
       - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
+
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 戴维逊大学
       - 🇺🇲 美国 CloudFlare节点 2
