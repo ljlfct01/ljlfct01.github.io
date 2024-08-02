@@ -64,7 +64,7 @@ proxies:
 
 
   - name: 香港1
-    server: hkretmp1-cdn-route.couldflare-cdn.com
+    server: hkre1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -74,7 +74,7 @@ proxies:
 
 
   - name: 香港2
-    server: hkretmp2-cdn-route.couldflare-cdn.com
+    server: hkre3-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
