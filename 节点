@@ -14,7 +14,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 台湾2
-    server: https://twmoon1-cdn-route.couldflare-cdn.com
+    server: twmoon1-cdn-route.couldflare-cdn.com
     port: 1443
     type: http
     tls: true
@@ -54,7 +54,7 @@ proxies:
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 日本3
     type: http
-    server: https://jp104-cdn-route.couldflare-cdn.com
+    server: jp104-cdn-route.couldflare-cdn.com
     port: 443
     username: 0061006e006f006e0079006d006f00750073005f00620031003500640037006100360036
     password: undefined
@@ -106,7 +106,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国3
-    server: https://ustx004-cdn-route.couldflare-cdn.com
+    server: ustx004-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
