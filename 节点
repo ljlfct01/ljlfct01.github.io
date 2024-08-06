@@ -157,8 +157,32 @@ proxies:
     username: 1723491684@487039
     password: 03d83b5d7ab8f3cfaeebdbf903d093b0
 
+- name: 无忧行美国3
+    server: 0ee0d7e3-shwps0-shwyxt-afsv.la126.3ud3.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: 1723491684@487039
+    password: 03d83b5d7ab8f3cfaeebdbf903d093b0
 
+- name: 无忧行德国
+    server: 26714d7d-shwps0-shwyxt-afsv.de.3ud3.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: 1723491684@487039
+    password: 03d83b5d7ab8f3cfaeebdbf903d093b0
 
+- name: 无忧行德国1
+    server: a5dc200f-shwps0-shwyxt-afsv.gd.3ud3.com
+    port: 1687
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: 1723491684@487039
+    password: 03d83b5d7ab8f3cfaeebdbf903d093b0
 
 
   - {name:  🇹🇼1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
