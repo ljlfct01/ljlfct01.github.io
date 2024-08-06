@@ -81,14 +81,7 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-  - name: 香港4
-    server: 8d5594b8-shwps0-shwyxt-afsv.la.3ud3.com
-    port: 443
-    type: http
-    tls: true
-    skip-cert-verify: false
-    username: 1723491684@487039
-    password: 03d83b5d7ab8f3cfaeebdbf903d093b0
+  
   - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
     port: 443
@@ -145,6 +138,29 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
+
+  - name: 无忧行美国1
+    server: 8d5594b8-shwps0-shwyxt-afsv.la.3ud3.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: 1723491684@487039
+    password: 03d83b5d7ab8f3cfaeebdbf903d093b0
+
+  - name: 无忧行美国2
+    server: a1bd069c-shwps0-shwyxt-afsv.183176.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: 1723491684@487039
+    password: 03d83b5d7ab8f3cfaeebdbf903d093b0
+
+
+
+
+
   - {name:  🇹🇼1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇹🇼2, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇯🇵1, server: japan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
