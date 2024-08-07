@@ -22,8 +22,8 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 台湾3
-    server: tw3-cdn-route.couldflare-cdn.com
-    port: 443
+    server: d6176b12-shykg0-shwyxt-afsv.183176.com
+    port: 1687
     type: http
     tls: true
     skip-cert-verify: false
@@ -141,6 +141,33 @@ proxies:
 
   - name: 美国8
     server: 8d5594b8-shwps0-shwyxt-afsv.la.3ud3.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+
+- name: 美国9
+    server: 243b4c34-shykg0-shwyxt-afsv.la126.3ud3.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+
+- name: 美国10
+    server: d6176b12-shykg0-shwyxt-afsv.183176.com
+    port: 4743
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+
+- name: 德国
+    server: 25f96b62-shykg0-shwyxt-afsv.de.3ud3.com
     port: 443
     type: http
     tls: true
