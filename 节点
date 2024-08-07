@@ -139,7 +139,14 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
 
-
+  - name: 美国8
+    server: 8d5594b8-shwps0-shwyxt-afsv.la.3ud3.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
 
 
   - {name:  🇹🇼1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
