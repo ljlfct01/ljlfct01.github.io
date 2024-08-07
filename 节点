@@ -71,8 +71,6 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-
-
   - name: 香港2
     server: hkre3-cdn-route.couldflare-cdn.com
     port: 443
@@ -166,7 +164,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
 
- - name: 德国
+  - name: 德国
     server: 25f96b62-shykg0-shwyxt-afsv.de.3ud3.com
     port: 443
     type: http
