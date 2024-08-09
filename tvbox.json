@@ -587,8 +587,65 @@
       "ua": "okhttp/3.15",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    } 
+    }, 
 
-  
+   {
+      "name": "live2",
+     "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+
+     {
+      "name": "live3",
+     "type": 0,
+      "url": "https://tv.iill.top/m3u/MyTV",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+
+    {
+      "name": "live4",
+     "type": 0,
+      "url": "https://tv.iill.top/m3u/Sport",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+
+     {
+      "name": "live5",
+     "type": 0,
+      "url": "http://ttkx.live:55/lib/kx2024.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+
+ {
+      "name": "live6",
+     "type": 0,
+      "url": "https://wzsvip.github.io/ipv4.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+     {
+      "name": "18",
+     "type": 0,
+      "url": "https://tv.iill.top/m3u/Adult",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    }
   ]
 }
