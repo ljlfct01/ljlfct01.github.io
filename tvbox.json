@@ -1149,30 +1149,48 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "IPV6",
+      "name": "自用1",
       "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "url": "https://tv.iill.top/m3u/Gather",
       "playerType": 1,
       "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "epg": "https://epg.iill.top/epg",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "测试1",
+      "name": "自用2",
       "type": 0,
-      "url": "http://woniuxs.free.nf/live.txt",
+      "url": "https://tv.iill.top/m3u/Live",
       "playerType": 1,
       "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "epg": "https://epg.iill.top/epg",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "测试2",
+      "name": "自用3",
       "type": 0,
-      "url": "https://pan.shangui.cc/f/eMj4FQ/xiaokaitv.txt",
+      "url": "https://tv.iill.top/m3u/Sport",
       "playerType": 1,
       "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "epg": "https://epg.iill.top/epg",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "自用4",
+      "type": 0,
+      "url": "https://2883.kstore.space/%E2%91%A0%E7%8C%ABTV%E7%BA%BF%E8%B7%AF",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.iill.top/epg",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "私用",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Adult",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.iill.top/epg",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ]
