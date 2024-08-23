@@ -38,7 +38,7 @@ http://buffaloft.ignorelist.com:8888/rtp/239.3.1.184:8001$HD北京联通
 http://150.138.8.143:80/00/SNM/CHANNEL00000303/index.m3u8
 
 
-#EXTINF:-1 tvg-name="香港卫视" tvg-logo="https://epg.112114.xyz/logo/香港卫视.png" group-title="•卫视「电信」",香港卫视
+#EXTINF:-1 tvg-name="香港卫视" tvg-logo="https://epg.112114.xyz/logo/{name}.png" group-title="•卫视「电信」",香港卫视
 https://test.zapi.us.kg/?id=hks
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://epg.iill.top/logo/安徽卫视.png" group-title="•卫视「电信」",安徽卫视
 http://150.138.8.143/00/SNM/CHANNEL00000328/index.m3u8
