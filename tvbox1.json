@@ -5,7 +5,7 @@
     {
       "name": "自用1",
       "type": 0,
-      "url": "https://abszm.todemo.xyz/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/main/list.m3u8",
+      "url": "",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -14,7 +14,7 @@
      {
       "name": "自用2",
       "type": 0,
-      "url": "https://abszm.todemo.xyz/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/main/list.%E8%87%AA%E7%94%A8",
+      "url": "",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
@@ -22,6 +22,26 @@
     }
   ],
   "sites": [
+
+
+    {
+      "key": "①",
+      "name": "猫TV直播",
+      "type": 3,
+      "api": "http://rihou.cc:567/sdtv.js",
+      "ext": "http://rihou.cc:567/sdtv.txt",
+      "jar": "http://rihou.cc:567/sdtv.jar"
+    },
+    {
+      "key": "②",
+      "name": "春盈线路",
+      "type": 3,
+      "api": "http://rihou.cc:567/sdtv.js",
+      "ext": "http://rihou.cc:567/1/sdtv2.txt",
+      "jar": "http://rihou.cc:567/sdtv.jar"
+    },
+
+    
     {
       "key": "南瓜",
       "name": "乐影视💞南瓜影视",
