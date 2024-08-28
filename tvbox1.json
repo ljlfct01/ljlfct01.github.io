@@ -627,18 +627,11 @@
      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
-    {
-      "name": "1.有人維護",
-      "boot": false,
-      "pass": true,
-      "url": "https://t4.doube.eu.org/smt.txt",
-      "logo": "https://live.fanmingming.com/tv/{name}.png",
-      "playerType": 1,
-      "header": {
-        "CLIENT-IP": "127.0.0.1",
-        "X-FORWARDED-FOR": "127.0.0.1"
-      }
+     {
+      "name": "IPV6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1
     }
-    {
-  
+  ]
 }
