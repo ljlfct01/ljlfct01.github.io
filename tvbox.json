@@ -11,6 +11,101 @@
       "quickSearch": 0,
       "filterable": 0
     },
+
+ {
+            "ext": "eyJhcGkiOiJodHRwOi8vemd4d2NoYW8udG9wOjQ1NjciLCJ0b2tlbiI6InR2Ym94MzIxIn0=",
+            "filterable": 1,
+            "quickSearch": 1,
+            "name": "\uD83E\uDD43小雅┃影库",
+            "changeable": 0,
+            "jar": "http://zgxwchao.top:4567/spring.jar",
+            "api": "csp_XiaoYa",
+            "type": 3,
+            "key": "csp_XiaoYa",
+            "searchable": 1
+        },
+        {
+            "ext": "eyJhcGkiOiJodHRwOi8vemd4d2NoYW8udG9wOjQ1NjciLCJ0b2tlbiI6InR2Ym94MzIxIn0=",
+            "filterable": 1,
+            "quickSearch": 1,
+            "name": "AList",
+            "changeable": 0,
+            "jar": "http://zgxwchao.top:4567/spring.jar",
+            "api": "csp_AList",
+            "type": 3,
+            "key": "csp_AList",
+            "searchable": 1
+        },
+        {
+            "ext": "eyJhcGkiOiJodHRwOi8vemd4d2NoYW8udG9wOjQ1NjciLCJ0b2tlbiI6InR2Ym94MzIxIn0=",
+            "filterable": 1,
+            "quickSearch": 1,
+            "name": "BiliBili",
+            "changeable": 0,
+            "jar": "http://zgxwchao.top:4567/spring.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "api": "csp_BiliBili",
+            "type": 3,
+            "key": "csp_BiliBili",
+            "searchable": 1
+        },
+        {
+            "ext": "eyJhcGkiOiJodHRwOi8vemd4d2NoYW8udG9wOjQ1NjciLCJ0b2tlbiI6InR2Ym94MzIxIn0=",
+            "filterable": 1,
+            "quickSearch": 1,
+            "playerType": 2,
+            "name": "YouTube",
+            "changeable": 0,
+            "jar": "http://zgxwchao.top:4567/spring.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "api": "csp_Youtube",
+            "type": 3,
+            "key": "csp_Youtube",
+            "searchable": 1
+        },
+        {
+            "key": "app_面肥",
+            "name": "🎉面肥┃采集",
+            "type": 1,
+            "api": "http://zgxwchao.top:9966/api.php/provide/vod",
+            "searchable": 1,
+            "playerType": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "app_宫壹",
+            "name": "🎉宫壹┃采集",
+            "type": 1,
+            "playerType": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "api": "http://zgxwchao.top:9966/api.php/provide/vod",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "港台剧",
+                "日韩剧",
+                "欧美剧",
+                "综艺",
+                "动漫"
+            ]
+        },
+
+    
     {
       "key": "玩偶",
       "name": "👽老三影视｜玩偶哥哥┃4K弹幕",
