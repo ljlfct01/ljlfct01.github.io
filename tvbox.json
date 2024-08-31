@@ -647,5 +647,14 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     }
+
+     {
+      "name": "live4",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
   ]
 }
