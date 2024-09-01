@@ -12,18 +12,22 @@
       "filterable": 0
     },
 
- {
-            "ext": "eyJhcGkiOiJodHRwOi8vemd4d2NoYW8udG9wOjQ1NjciLCJ0b2tlbiI6InR2Ym94MzIxIn0=",
-            "filterable": 1,
-            "quickSearch": 1,
-            "name": "\uD83E\uDD43小雅┃影库",
-            "changeable": 0,
-            "jar": "http://zgxwchao.top:4567/spring.jar",
-            "api": "csp_XiaoYa",
-            "type": 3,
-            "key": "csp_XiaoYa",
-            "searchable": 1
-        },
+  {
+      "key": "至臻4K网盘",
+      "name": "⚡至臻4K",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "file://TV/ali_token.txt",
+        "cookie": "file://TV/quark_cookie.txt",
+        "uc_cookie": "file://TV/uc_cookie.txt",
+        "site": "http://mpanso.com/",
+        "danmu": true
+      }
+    },
         {
             "ext": "eyJhcGkiOiJodHRwOi8vemd4d2NoYW8udG9wOjQ1NjciLCJ0b2tlbiI6InR2Ym94MzIxIn0=",
             "filterable": 1,
