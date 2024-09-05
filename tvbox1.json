@@ -2,14 +2,46 @@
   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1721554716065/fan.txt;md5;71d846866f2ceb9666ba114e5963983f",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
+     {
+      "key": "暴风采集",
+      "name": "🍇西夏影视🍇",
+      "type": 1,
+      "api": "https://app.bfzyapi.com/api.php/provide/vod/",
+      "playUrl": "",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "动作片",
+        "科幻片",
+        "剧情片",
+        "喜剧片",
+        "爱情片",
+        "恐怖片",
+        "战争片",
+        "香港剧",
+        "台湾剧",
+        "日本剧",
+        "欧美剧",
+        "泰国剧",
+        "日本动漫",
+        "综艺频道",
+        "大陆综艺",
+        "港台综艺",
+        "日本综艺",
+        "新马泰综艺",
+        "纪录片"
+      ]
+    },
     {
-      "key": "豆豆",
-      "name": "🌈老三｜影视",
+      "key": "360_spider",
+      "name": "🔰360影视",
+      "api": "csp_SP360",
       "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "playUrl": "https://jx.m3u8.tv/jiexi/?url=",
+      "jar": "https://cloud.lxweb.cn/f/QE28u1/Hk.jar"
     },
     {
       "key": "玩偶",
