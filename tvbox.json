@@ -1,684 +1,257 @@
+//感谢欧歌大佬,【西夏影视】Q总群731631267（2千人满了）,Q1群851572037（可加）//仅供学习,请勿商用,如有冒犯,请告知删除🙏🙏🙏//
 {
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1721554716065/fan.txt;md5;71d846866f2ceb9666ba114e5963983f",
-  "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "sites": [
+  "urls": [
+     {
+    "name":"🍺西夏影视🍺",
+    "url":
+"https://2912.kstore.space/0506.json"},
     {
-      "key": "豆豆",
-      "name": "🌈老三｜影视",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+            "url": "https://bzgz.club/down.php/4bbc096e60094154e2fb496e5ccb8fea.json
+",
+            "name": "🐹抖音热播线路"
+        },
+{
+      "name": "🍎鼎盛原小苹果",
+      "url": "http://61.183.41.92:588/%E5%BD%B1%E8%A7%86/%E9%BC%8E%E7%9B%9BMAX.json"
     },
-    {
-      "key": "玩偶",
-      "name": "👽老三｜玩偶哥哥┃4K弹幕",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.net/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "YGP",
-      "name": "🚀老三｜叨观荐影┃新片",
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "短剧",
-      "name": "🌈老三｜上头┃短剧",
-      "type": 3,
-      "api": "csp_Djtt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "酷看",
-      "name": "💡老三｜酷看┃秒播",
-      "type": 3,
-      "api": "csp_Kkys",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Lib",
-      "name": "🌟老三｜立播┃秒播",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "专线",
-      "name": "🚝老三｜专线┃秒播",
-      "type": 3,
-      "api": "csp_Zx4k",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "小点",
-      "name": "💥老三｜小点┃多线",
-      "type": 3,
-      "api": "csp_Appxdys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "原创",
-      "name": "☀老三｜原创┃不卡",
-      "type": 3,
-      "api": "csp_YCyz",
-      "timeout": 15,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "苹果",
-      "name": "🍎老三｜苹果┃不卡",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "厂长",
-      "name": "📔老三｜厂长┃不卡",
-      "type": 3,
-      "api": "csp_NewCz",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czys.pro/"
-    },
-    {
-      "key": "文采",
-      "name": "💮老三｜文采┃秒播",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "蛋蛋",
-      "name": "🍓老三｜蛋蛋┃多线",
-      "type": 3,
-      "api": "csp_Cddys",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "zxzj",
-      "name": "🍊老三｜在线┃外剧",
-      "type": 3,
-      "api": "csp_Zxzj",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.zxzjhd.com/"
-    },
-    {
-      "key": "低端",
-      "name": "⏮️老三｜低端┃外剧",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "贱贱",
-      "name": "🐭老三｜贱贱┃P2P",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
-    },
-    {
-      "key": "可可",
-      "name": "👻老三｜可可┃多线",
-      "type": 3,
-      "api": "csp_Kekys",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "热播",
-      "name": "📺老三｜热播┃多线",
-      "type": 3,
-      "api": "csp_AppTT",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-    },
-    {
-      "key": "萌米",
-      "name": "👀老三｜萌米┃多线",
-      "type": 3,
-      "api": "csp_AppTT",
-      "timeout": 15,
-      "playerType": 1,
-      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-    },
-    {
-      "key": "南瓜",
-      "name": "🎃老三｜南瓜┃多线",
-      "type": 3,
-      "api": "csp_NanGua",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Auete",
-      "name": "🏝老三｜奥特┃无广",
-      "type": 3,
-      "api": "csp_Auete",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://auete.pro/"
-    },
-    {
-      "key": "新6V",
-      "name": "🧲老三｜新6V┃磁力",
-      "type": 3,
-      "api": "csp_SixV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://www.xb6v.com/"
-    },
-    {
-      "key": "Dm84",
-      "name": "🚌老三｜巴士┃动漫",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Ysj",
-      "name": "🎀老三｜异界┃动漫",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Anime1",
-      "name": "🐾老三｜日本┃动漫",
-      "type": 3,
-      "api": "csp_Anime1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "88js",
-      "name": "⚽老三｜ 88┃看球",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/88看球.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "Jrsjs",
-      "name": "⚽老三｜ Jrs┃球迷",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jrk.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "企鹅xp",
-      "name": "🐧老三｜鹅鹅┃体育",
-      "type": 3,
-      "api": "csp_XPath",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/企鹅直播.json"
-    },
-    {
-      "key": "酷奇",
-      "name": "🎤老三｜酷奇┃MV",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/酷奇MV.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "MTV",
-      "name": "🎧老三｜明星┃MV",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
-    },
-    {
-      "key": "csp_Yj1211",
-      "name": "📽️老三｜网红┃直播",
-      "type": 3,
-      "api": "csp_Yj1211",
-      "playerType": "1",
-      "searchable": 0,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "虎牙直播js",
-      "name": "🐯老三｜虎牙┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.755
-      },
-      "playerType": "1",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "斗鱼js",
-      "name": "🐟老三｜斗鱼┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.755
-      },
-      "playerType": "1",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "聚短视频js",
-      "name": "📽️老三｜聚短┃视频",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "有声小说js",
-      "name": "🎧老三｜有声┃小说",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/有声小说吧.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "Aid",
-      "name": "🚑老三｜急救┃教学",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      }
-    },
-    {
-      "key": "米搜",
-      "name": "🦋老三｜米搜┃搜索",
-      "type": 3,
-      "api": "csp_MIPanSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "夸搜",
-      "name": "🐌老三｜夸搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "pan": "quark",
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "YiSo",
-      "name": "😹老三｜易搜┃搜索",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "PanSou",
-      "name": "🦊老三｜盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "UpYun",
-      "name": "😻老三｜Up搜┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "PanSearch",
-      "name": "🙀老三｜盘Se┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "push_agent",
-      "name": "🛴老三｜手机┃推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "Bili",
-      "name": "🅱老三｜哔哔┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json"
-    },
-    {
-      "key": "Biliych",
-      "name": "🅱老三｜明星┃演唱会",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/biliych.json"
-    },
-    {
-      "key": "dr_兔小贝",
-      "name": "📚老三｜儿童┃启蒙",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "少儿教育",
-      "name": "📚老三｜少儿┃教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"
-    },
-    {
-      "key": "小学课堂",
-      "name": "📚老三｜小学┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json"
-    },
-    {
-      "key": "初中课堂",
-      "name": "📚老三｜初中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json"
-    },
-    {
-      "key": "高中教育",
-      "name": "📚老三｜高中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json"
-    },
-    {
-      "key": "fan",
-      "name": "导航 m.n13.club",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
-    }
+    {"url": "http://xn--esc-mf3g9f.v.nxog.top/m/333.php?ou=公众号欧歌app&mz=index&jar=index&321231231&b=欧歌esc",                           "name": "🎤欧歌专线" }, 
+  {"url": "http://我不是.摸鱼儿.top","name": "🐠摸鱼" }, 
+   {"url": "https://毒盒.com/tv","name": "👾毒盒影视" }, 
+   {"url": "https://gitee.com/nianxinxz/miao/raw/master/tvbox.json",                           "name": "🎬新喵影视念心" }, 
+{"url": "https://gitlab.com/mfkdy/vip/-/raw/main/duanju.json",                           "name": "🎬X影视短剧" }, 
+ {"url": "https://jihulab.com/mengzhu2/ysc/-/raw/main/YSC.json",                           "name": "🎬影视仓box" }, 
   
-  ],
-  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
-  "lives": [
-{
-      "name": "老三｜TV",
-      "type": 0,
-      "url": "https://abszm.todemo.xyz/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/main/list.%E8%87%AA%E7%94%A8",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
+     {"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json","name": "🏇超牛线路" }, 
+  {"url": "http://tvbox.王二小放牛娃.top","name": "🐂王二小" }, 
+   {
+      "name": "🍑满大线路",
+      "url":
+"https://vip.123pan.cn/1823165373/cally/cally.json"
+    },
+ {
+      "url": "https://raw.gitcode.com/xiaoqi719/yingshi/raw/main/android.json
+",
+      "name": "🦅小齐多线路"
+    },
+    {
+      "url": "http://www.wya6.cn/tv/yc.php",
+      "name": "🎸无意云多线路"
+    },
+    {
+      "url": "http://www.饭太硬.com/tv/",
+      "name": "🚀饭硬专线"
+    },
+    {
+      "url": "https://gh.con.sh/https://raw.githubusercontent.com/T00700/TVBoxSE/master/FongMi.json",
+      "name": "🚀畅梦线路"
+    },
+    {
+      "url": "https://pastebin.com/raw/5NHaxyGR",
+      "name": "🚀道长线路"
+    },
+    {
+      "url": "http://xhww.fun:63/小米/DEMO.json",
+      "name": "🚀小米线路"
+    },
+    {
+      "url": "http://tt.iitvba.com/vip/tv.json",
+      "name": "🚀VIP0316线路"
+    },  
+    {
+      "url": "https://tvbox.meitufu.com/TVBox/tv.json",
+      "name": "🚀太阳线路"
+    },
+     
+    {
+      "url": "https://jihulab.com/yw88075/tvbox/-/raw/main/dr/js.json",
+      "name": "🚀心魔在线"
     },
 
- {
-      "name": "猫TV线路",
-      "type": 0,
-      "url": "https://2883.kstore.space/%E2%91%A0%E7%8C%ABTV%E7%BA%BF%E8%B7%AF",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
+    {
+      "url": "http://74.120.175.78/JK/XYQTVBox/dj.json",
+      "name": "🚀短剧大全"
     },
     {
-      "name": "YanG-1989｜电视",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
+      "url": "https://raw.liucn.cc/box/m.json",
+      "name": "🚀网友线路"
     },
     {
-      "name": "YanG-1989｜直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Live",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
+   "url":"https://tv.youdu.fan:666/PG/",
+      "name":"🍅PG线路"
+      
     },
     {
-      "name": "YanG-1989｜MyTV",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/MyTV",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
+      "url": "https://d.kstore.space/download/6509/A/B/C/D/E/F/G/H/I/J/SSSSS.json
+",
+      "name": "🚀看剧线路"
+    },
+   
+    {
+      "url": "http://v3bp.tvbox.cam ",
+      "name": "🚀白嫖线路"
+    },
+    
+    {
+      "url": 
+"http://肥猫.live/",
+      "name": "🚀肥猫线路"
+    },
+   
+    {
+      "url": "http://wl.iptv8.top/wl/a/1706858379.json",
+      "name": "🚀西夏精选"
+    },
+    
+    {
+      "url": "https://qixing.myhkw.com/tianwei/svip.json",
+      "name": "🚀天微科技"
     },
     {
-      "name": "YanG-1989｜体育",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Sport",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
+      "url": "http://qrh.yimkj.cn/ym/壹梦.json",
+      "name": "🚀壹梦专线"
+    },
+   
+    {
+      "url": "http://tvkj.top/DC/ysc/tvkj/svip.json",
+      "name": "🚀运输车vip"
     },
     {
-      "name": "YanG-1989｜神秘",
-      "type": 0,
-      "url": "",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+      "url": "http://itvbox.cc/tvbox/云星日记/1.m3u8",
+      "name": "🚀云星日记"
+    },
+   {
+      "url": "http://home.jundie.top:81/top98.json",
+      "name": "🚀俊佬线路"
+    },
+ 
+    {
+      "url": "http://sinopacifichk.com/box/56.txt",
+      "name": "🚀万达影视"
     },
     {
-      "name": "IPV6",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1
+      "url":
+"https://gitee.com/zhaodehe/qlkj/raw/master/ys.json",
+      "name":"🛰奇乐科技"
+    },
+
+    {
+      "url": "https://gitee.com/heng546199810/hxvip8/raw/master/hxvip3.txt",
+      "name": "🌺恒星影视"
+    },
+    {
+      "url": "http://饭太硬.top/tv",
+      "name": "🏆饭硬专线"
+    },
+    {
+      "url": "http://我不是.肥猫.live/接口禁止贩卖",
+      "name": "🏆肥猫线路"
+    },
+    {
+      "url": "http://rihou.cc:88/荷城茶秀",
+      "name": "🎸荷城茶秀"
+    },
+    {
+      "url": "http://xhww.fun:63/小米/DEMO.json",
+      "name": "🏆小米线路"
+    },
+    {
+      "url": "https://tvkj.top/DC/ysc/tvkj/svip.json",
+      "name": "🎸运输车vip"
+    },
+    {
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "name": "🎸香雅情线"
+    },
+    {
+      "url": "https://d.kstore.space/download/6768/精选接口.json",
+      "name": "🏆老团长线路"
+    },
+    {
+      "url": "https://jihulab.com/yw88075/tvbox/-/raw/main/dr/js.json",
+      "name": "🏆心魔在线"
+    },
+    {
+      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+      "name": "🏆南风线路"
+    },
+    {
+      "url": "http://ztym520.top/ys.json",
+      "name": "🏆叶视线路"
+    },
+    {
+      "url": "http://itvbox.cc/tvbox/云星日记/1.m3u8",
+      "name": "🏆星云日记"
+    },
+    {
+      "url": "http://pandown.pro/tvbox/tvbox.json",
+      "name": "🏆巧技线"
+    },
+    {
+      "url": "https://jihulab.com/blank7355005/box/-/raw/main/0.json",
+      "name": "🏆小盒酷玩"
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "name": "🏆俊佬线路"
+    },
+ 
+    {
+      "url": "https://pastebin.com/raw/5NHaxyGR",
+      "name": "🏆道长线路"
+    },
+    {
+      "url": "http://vip.ohphp.com/APP/mys/tv.json",
+      "name": "🎳我爱线路"
+    },
+    {"url":
+"http://cdn.qiaoji8.com/tvbox.json",
+     "name":"🎸99推荐"
+    },
+  
+    {
+      "url":
+      "https://qu.ax/MMOx.json",
+    "name":"🧙‍♂️群友线路"
+    },
+    {
+      "url": "https://tvbox.cainisi.cf",
+      "name": "🎳菜妮丝线"
+    },
+    {
+      "url": "https://la.kstore.space/download/2863/01.txt",
+      "name": "🎸潇洒线路"
+    },
+    {
+      "url": "http://8.210.232.168/xc.json",
+      "name": "🎸玉玉线路"
+    },
+    {
+      "url": "https://szyyds.cn/tv/x.json",
+      "name": "🎸小马线路"
+    },
+    {
+      "url": "https://agit.ai/hu/hcr/raw/branch/master/py3.txt",
+      "name": "🎸PY最新"
+    },
+    {
+      "url": "https://agit.ai/ystvy/yydsy/raw/branch/master/sub/ati.json",
+      "name": "🎸YSTV线路"
+    },
+    {
+      "url": "https://agit.ai/kvymin/TVBox/raw/branch/master/Pandora.json",
+      "name": "🎸kvymin线路"
+    },
+    {
+      "url": "https://agit.ai/n/b/raw/branch/a/b/c.json",
+      "name": "🚀abc线路"
+    },
+      {
+      "name": "💚酷玩影视",
+      "url": "https://gh.con.sh/https://raw.githubusercontent.com/xnftv/xnf/main/hyxuan.json"
+    },
+    {
+      "url": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/yueer.json",
+      "name": "🎸月月线路"
     }
   ]
 }
