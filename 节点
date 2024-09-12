@@ -17,8 +17,8 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 台湾3
-    server: d6176b12-shykg0-shwyxt-afsv.183176.com
-    port: 1687
+    server: tw4-cdn-route.couldflare-cdn.com
+    port: 443
     type: http
     tls: true
     skip-cert-verify: false
@@ -64,7 +64,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 香港2
-    server: hkre3-cdn-route.couldflare-cdn.com
+    server: hkcera3-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -80,7 +80,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国2
-    server: uscera50-cdn-route.couldflare-cdn.com
+    server: us4-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -88,7 +88,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国3
-    server: ustx004-cdn-route.couldflare-cdn.com
+    server: uscera1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
