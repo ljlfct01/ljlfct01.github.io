@@ -1,684 +1,515 @@
 {
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1721554716065/fan.txt;md5;71d846866f2ceb9666ba114e5963983f",
-  "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "sites": [
-    {
-      "key": "豆豆",
-      "name": "🌈老三｜影视",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "玩偶",
-      "name": "👽老三｜玩偶哥哥┃4K弹幕",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.net/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "YGP",
-      "name": "🚀老三｜叨观荐影┃新片",
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "短剧",
-      "name": "🌈老三｜上头┃短剧",
-      "type": 3,
-      "api": "csp_Djtt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "酷看",
-      "name": "💡老三｜酷看┃秒播",
-      "type": 3,
-      "api": "csp_Kkys",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Lib",
-      "name": "🌟老三｜立播┃秒播",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "专线",
-      "name": "🚝老三｜专线┃秒播",
-      "type": 3,
-      "api": "csp_Zx4k",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "小点",
-      "name": "💥老三｜小点┃多线",
-      "type": 3,
-      "api": "csp_Appxdys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "原创",
-      "name": "☀老三｜原创┃不卡",
-      "type": 3,
-      "api": "csp_YCyz",
-      "timeout": 15,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "苹果",
-      "name": "🍎老三｜苹果┃不卡",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "厂长",
-      "name": "📔老三｜厂长┃不卡",
-      "type": 3,
-      "api": "csp_NewCz",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czys.pro/"
-    },
-    {
-      "key": "文采",
-      "name": "💮老三｜文采┃秒播",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "蛋蛋",
-      "name": "🍓老三｜蛋蛋┃多线",
-      "type": 3,
-      "api": "csp_Cddys",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "zxzj",
-      "name": "🍊老三｜在线┃外剧",
-      "type": 3,
-      "api": "csp_Zxzj",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.zxzjhd.com/"
-    },
-    {
-      "key": "低端",
-      "name": "⏮️老三｜低端┃外剧",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "贱贱",
-      "name": "🐭老三｜贱贱┃P2P",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
-    },
-    {
-      "key": "可可",
-      "name": "👻老三｜可可┃多线",
-      "type": 3,
-      "api": "csp_Kekys",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "热播",
-      "name": "📺老三｜热播┃多线",
-      "type": 3,
-      "api": "csp_AppTT",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-    },
-    {
-      "key": "萌米",
-      "name": "👀老三｜萌米┃多线",
-      "type": 3,
-      "api": "csp_AppTT",
-      "timeout": 15,
-      "playerType": 1,
-      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-    },
-    {
-      "key": "南瓜",
-      "name": "🎃老三｜南瓜┃多线",
-      "type": 3,
-      "api": "csp_NanGua",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Auete",
-      "name": "🏝老三｜奥特┃无广",
-      "type": 3,
-      "api": "csp_Auete",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://auete.pro/"
-    },
-    {
-      "key": "新6V",
-      "name": "🧲老三｜新6V┃磁力",
-      "type": 3,
-      "api": "csp_SixV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://www.xb6v.com/"
-    },
-    {
-      "key": "Dm84",
-      "name": "🚌老三｜巴士┃动漫",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Ysj",
-      "name": "🎀老三｜异界┃动漫",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Anime1",
-      "name": "🐾老三｜日本┃动漫",
-      "type": 3,
-      "api": "csp_Anime1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "88js",
-      "name": "⚽老三｜ 88┃看球",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/88看球.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "Jrsjs",
-      "name": "⚽老三｜ Jrs┃球迷",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jrk.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "企鹅xp",
-      "name": "🐧老三｜鹅鹅┃体育",
-      "type": 3,
-      "api": "csp_XPath",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/企鹅直播.json"
-    },
-    {
-      "key": "酷奇",
-      "name": "🎤老三｜酷奇┃MV",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/酷奇MV.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "MTV",
-      "name": "🎧老三｜明星┃MV",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
-    },
-    {
-      "key": "csp_Yj1211",
-      "name": "📽️老三｜网红┃直播",
-      "type": 3,
-      "api": "csp_Yj1211",
-      "playerType": "1",
-      "searchable": 0,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "虎牙直播js",
-      "name": "🐯老三｜虎牙┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.755
-      },
-      "playerType": "1",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "斗鱼js",
-      "name": "🐟老三｜斗鱼┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.755
-      },
-      "playerType": "1",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "聚短视频js",
-      "name": "📽️老三｜聚短┃视频",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "有声小说js",
-      "name": "🎧老三｜有声┃小说",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/有声小说吧.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "Aid",
-      "name": "🚑老三｜急救┃教学",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      }
-    },
-    {
-      "key": "米搜",
-      "name": "🦋老三｜米搜┃搜索",
-      "type": 3,
-      "api": "csp_MIPanSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "夸搜",
-      "name": "🐌老三｜夸搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "pan": "quark",
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "YiSo",
-      "name": "😹老三｜易搜┃搜索",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "PanSou",
-      "name": "🦊老三｜盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "UpYun",
-      "name": "😻老三｜Up搜┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "PanSearch",
-      "name": "🙀老三｜盘Se┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "push_agent",
-      "name": "🛴老三｜手机┃推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "Bili",
-      "name": "🅱老三｜哔哔┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json"
-    },
-    {
-      "key": "Biliych",
-      "name": "🅱老三｜明星┃演唱会",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/biliych.json"
-    },
-    {
-      "key": "dr_兔小贝",
-      "name": "📚老三｜儿童┃启蒙",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "少儿教育",
-      "name": "📚老三｜少儿┃教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"
-    },
-    {
-      "key": "小学课堂",
-      "name": "📚老三｜小学┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json"
-    },
-    {
-      "key": "初中课堂",
-      "name": "📚老三｜初中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json"
-    },
-    {
-      "key": "高中教育",
-      "name": "📚老三｜高中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json"
-    },
-    {
-      "key": "fan",
-      "name": "导航 m.n13.club",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
-    }
-  
-  ],
-  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
-  "lives": [
-{
-      "name": "老三｜TV",
-      "type": 0,
-      "url": "https://abszm.todemo.xyz/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/main/list.%E8%87%AA%E7%94%A8",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
-    },
+    "sites": [
+        {
+            "key": "🍑遥遥领先🍑_dbsx",
+            "name": "豆瓣🌞圣贤",
+            "type": 3,
+            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "http://47.242.63.189:1322/app/lib/douban.js"
+        },
+        {
+            "key": "🍑遥遥领先🍑_Ifxz",
+            "name": "路飞🌞行者",
+            "type": 3,
+            "api": "https://gitee.com/zizuzile/TV/raw/master/DQ/168.js",
+            "searchable": 1,
+            "changeable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://igdux.top/~lf-live-txt"
+        },
+        {
+            "key": "🍑遥遥领先🍑_xmzz",
+            "name": "盘古🌏开天",
+            "type": 3,
+            "api": "csp_Duopan",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722929715494/0806xm.jar;md5;8f613ce3a83ee9428695d97a84c8bd48",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://mihdr.top",
+                    "http://mpanso.com"
+                ]
+            }
+        },
+        
+       
+       
+        {
+            "key": "🍑遥遥领先🍑_6vcl",
+            "name": "伯虎🤴风流",
+            "type": 3,
+            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "https://igdux.top/~6vcl"
+        },
+        {
+            "key": "🍑遥遥领先🍑_jpcl",
+            "name": "枝山👨‍🦰倜傥",
+            "type": 3,
+            "api": "csp_JianPian",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://api2.rinhome.com"
+        },
+     
+        {
+            "key": "🍑遥遥领先🍑_mtcl",
+            "name": "祯卿🤵临风",
+            "type": 3,
+            "api": "csp_MeijuTT",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+       
+        {
+            "key": "🍑遥遥领先🍑_txsp2",
+            "name": "昭君👩‍💼落雁",
+            "type": 3,
+            "api": "http://47.242.63.189:1322/app/lib/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "https://igdux.top/~tengxun_2"
+        },
+      
+       
 
- {
-      "name": "猫TV线路",
-      "type": 0,
-      "url": "https://2883.kstore.space/%E2%91%A0%E7%8C%ABTV%E7%BA%BF%E8%B7%AF",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
-    },
-    {
-      "name": "YanG-1989｜电视",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
-    },
-    {
-      "name": "YanG-1989｜直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Live",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
-    },
-    {
-      "name": "YanG-1989｜MyTV",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/MyTV",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
-    },
-    {
-      "name": "YanG-1989｜体育",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Sport",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
-    },
-    {
-      "name": "YanG-1989｜神秘",
-      "type": 0,
-      "url": "",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "IPV6",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1
-    }
-  ]
+
+        {
+            "key": "🍑遥遥领先🍑_sbys",
+            "name": "朱雀🦚凌光",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://tx.xihauche.cn/api.php/app/"
+        },
+
+      
+       
+        {
+            "key": "🍑遥遥领先🍑_shys",
+            "name": "梼杌😡颛顼",
+            "type": 3,
+            "api": "csp_Wexsaohuo",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "🍑遥遥领先🍑_bttwo",
+            "name": "饕餮😤缙云",
+            "type": 3,
+            "api": "csp_Wexbttwo",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "🍑遥遥领先🍑_ykrx",
+            "name": "持国👹天王",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://igdux.top/~XBPQ-jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$Dart/2.14 (dart:io)",
+                "编码": "UTF-8",
+                "图片代理": "0",
+                "过滤词": "",
+                "直接播放": "0",
+                "播放请求头": "User-Agent$okhttp/4.12.0#Referer$https://kuaizi.cc",
+                "主页url": "http://27.159.67.238:89/api.php/app/index_video",
+                "首页": "40",
+                "起始页": "1",
+                "分类url": "http://27.159.67.238:89/api.php/app/video?tid={cateId}&class={class}&area={area}&year={year}&limit=18&pg={catePg};;mr",
+                "分类": "虚无电影&虚无剧集&虚无动漫&虚无动画&虚无综艺&虚无纪录片",
+                "分类值": "32&33&36&35&34&37",
+                "数组": "{&&}",
+                "图片": "vod_pic\":\"&&\"",
+                "标题": "vod_name\":\"&&\"",
+                "副标题": "vod_remarks\":\"&&\"",
+                "链接": "http://27.159.67.238:89/api.php/app/video_detail?id=+vod_id\":&&,",
+                "线路二次截取": "vod_url_with_player\":\\[{&&}\\][替换:\"code\":\">>\"code\":\"题]",
+                "线路数组": "\"code\":\"&&,[替换:4k>>虚无🙏至尊#JZTV>>虚无🙏太尊#qq>>虚无🙏天尊#qiyi>>虚无🙏玄尊#youku>>虚无🙏灵尊#mgtv>>虚无🙏圣尊#bilibili>>虚无🙏仙尊#hw8>>虚无🙏鼎尊]",
+                "线路标题": "题&&\"[排序:虚无🙏至尊>虚无🙏太尊>虚无🙏天尊>虚无🙏玄尊>虚无🙏灵尊>虚无🙏圣尊>虚无🙏仙尊>虚无🙏鼎尊]",
+                "播放二次截取": "vod_url_with_player\":\\[{&&}\\]",
+                "播放数组": "url\":&&,[替换:\">>接表题#$>>题接#\\#>>接表表题]",
+                "播放列表": "表&&表",
+                "播放标题": "题&&题",
+                "播放链接": "urlDecode(接&&接)",
+                "解析": "https://jx.xmflv.com/?url=",
+                "倒序": "0",
+                "影片类型": "vod_class\":\"&&\"",
+                "影片年代": "vod_year\":\"&&\"",
+                "影片地区": "vod_area\":\"&&\"",
+                "导演": "vod_director\":\"&&\"",
+                "主演": "vod_actor\":\"&&\"",
+                "简介": "vod_content\":\"&&\"",
+                "搜索url": "http://27.159.67.238:89/api.php/app/search?text={wd}",
+                "搜索模式": "1",
+                "搜索二次截取": "list\":\\[&&\\]",
+                "搜索数组": "{&&type\"",
+                "搜索图片": "vod_pic\":\"&&\"",
+                "搜索标题": "vod_name\":\"&&\"",
+                "搜索副标题": "vod_remarks\":\"&&\"",
+                "搜索链接": "http://27.159.67.238:89/api.php/app/video_detail?id=+vod_id\":&&,",
+                "筛选": "1",
+                "类型": "",
+                "类型值": "",
+                "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&恐怖&悬疑&惊悚&经典&青春&文艺&古装&历史&运动&农村&儿童&网络电影&其他||爱情&恐怖&动作&科幻&灾难&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&恐怖&悬疑&惊悚&经典&自然&动物&记录&探险&科学&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影||冒险&战斗&搞笑&经典&科幻&玄幻&魔幻&武侠&恋爱&推理&日常&校园&悬疑&真人&历史.竞技&其他||游戏&脱口秀&音乐&情感&生活&职场&真人秀&搞笑&公益&艺术&访谈&益智&体育&少儿&时尚&人物&其他||儿歌&益智&手工&玩具&搞笑&英语&早教&动画&教学&国学&冒险&交通工具&魔幻&动物&探索&其他||都市&古装&重生&逆袭&虐恋&萌宝&言情&穿越&战神&神医&赘婿&甜宠&其他||番剧&电影&电视剧",
+                "剧情值": "*",
+                "地区": "大陆&内地&香港&台湾&美国&韩国&日本&泰国&印度&英国&法国&加拿大&西班牙&俄罗斯&新加坡&马来西亚&其他||大陆&内地&香港&台湾&美国&韩国&日本&泰国&印度&英国&法国&加拿大&西班牙&俄罗斯&新加坡&马来西亚&其他||中国大陆&港台&日韩&欧美&其他||中国大陆&港台&日韩&欧美&其他||中国大陆&港台&日韩&欧美&新加坡&其他||空||空",
+                "地区值": "*",
+                "年份": "2024&2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010&2009&2008&2007&2006&2005&2004&2002&2001&2000&1999&1998&1997&1996&1995&1994&1993&1992&1991&1990&1989&1988&1987&1986&1985&1984&1983&1982&1981&1980&1979&1978&1977&1976&1975&1974&1973&1972&1971&1970&1969&1968&1967&1966&1965&1964&1963&1961&1960&1959&1958&1957&1956&1955&1954&1953&1952&1951&1950||2024&2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010&2009&2008&2007&2006&2005&2004&2002&2001&2000&1999&1998&1997&1996&1995&1994&1993&1992&1991&1990&1989&1988&1987&1986&1985&1984&1983&1982&1981&1980&1979&1978&1977&1976&1975&1974&1973&1972&1971&1970&1969&1968&1967&1966&1965&1964&1963&1961&1960&1959&1958&1957&1956&1955&1954&1953&1952&1951&1950||2024&2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010&2009&2008&2007&2006&2005&2004&2003&2002&2001&2000||2024&2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010&2009&2008&2007&2006&2005&2004&2003&2002&2001&2000||2024&2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010&2009&2008&2007&2006&2005&2004&2003&2002&2001&2000||2024&2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010&2009&2008&2007&2006&2005&2004&2003&2002&2001&2000||空",
+                "年份值": "*",
+                "语言": "",
+                "语言值": "",
+                "排序": "",
+                "排序值": ""
+            }
+        },
+
+      
+        {
+            "key": "🍑遥遥领先🍑_qwyy",
+            "name": "多闻👹天王",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "线路标题": "虚无🙏至尊",
+                "分类url": "https://www.pcmp4.com/vt/{cateId}/area/{area}/class/{class}/lang/{lang}/year/{year}/page/{catePg}.html",
+                "分类": "虚无电影$1#虚无剧集$2#虚无动漫$4#虚无综艺$3"
+            }
+        },
+
+
+
+
+
+
+
+
+        {
+            "key": "🍑遥遥领先🍑_hme",
+            "name": "路发🙏🏻至尊",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "头部集合": "User-Agent$Mozilla/5.0 (iPad; CPU OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1#authority$heimuer.tv#referer$https://heimuer.tv/",
+                "分类": "国产剧&欧美剧&港剧&台剧&韩剧&日剧&泰剧&喜剧片&爱情片&恐怖片&战争片&科幻片&动作片&冒险片&奇幻片&惊悚片&国产综艺&港台综艺&韩国综艺&日本综艺&欧美综艺&欧美动漫&日本动漫&国产动漫&古装短剧&虐恋短剧&逆袭短剧&神豪短剧&重生短剧&甜宠短剧&其他短剧",
+                "分类值": "13&30&14&29&15&16&28&10&23&12&34&25&7&8&11&21&38&39&40&41&42&57&58&60&45&46&47&49&50&53&56",
+                "分类url": "https://heimuer.tv/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}",
+                "数组二次截取": "list\":[&&]",
+                "数组": "{&&}",
+                "图片": "vod_pic\"*\"&&\"",
+                "标题": "vod_name\"*\"&&\"",
+                "副标题": "vod_remarks\"*\"&&\"",
+                "链接": "https://heimuer.tv/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+                "搜索url": "https://heimuer.tv/api.php/provide/vod/?ac=detail&wd={wd}",
+                "搜索模式": "1",
+                "搜索二次截取": "list\":[&&]",
+                "搜索数组": "{&&}",
+                "搜索图片": "vod_pic\"*\"&&\"",
+                "搜索标题": "vod_name\"*\"&&\"",
+                "搜索副标题": "vod_remarks\"*\"&&\"",
+                "搜索链接": "https://heimuer.tv/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+                "影片类型": "vod_class\"*\"&&\"",
+                "导演": "vod_director\"*\"&&\"",
+                "主演": "vod_actor\"*\"&&\"",
+                "简介": "vod_content\"*\"&&\"",
+                "线路二次截取": "\"list\":[&&]",
+                "线路数组": "\"vod_play_from\":&&,",
+                "线路标题": "虚无🙏🏻至尊+☘\"&&\"",
+                "播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
+                "播放二次截取": "",
+                "播放列表": "表&&表",
+                "播放标题": "题&&题",
+                "播放链接": "链&&链+?sku=OWY3ZDA4ZjVjYzY3YmRhYjM5NTUwYzEyZWRjNjUyZWM1NjQ2ZGRjYTVhMGVkM2Nh&p=1&sign=9a69d1563936ead3677623722660c4d9",
+                "播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Referer$https://heimuer.tv/#Cookie$PHPSESSID=t9a0fl2ngh4t175j3995v2669d",
+                "嗅探词": ".m3u8#.mp4#video_mp4#feiyunNB.mp4#.mp4#cdn.123pan.cn#huoshanvod.com"
+            }
+        },
+        {
+            "key": "🍑遥遥领先🍑_wencai",
+            "name": "子凯🙏🏻至尊",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "主页url": "https://api.zeqaht.com/",
+                "滤词": "",
+                "直接播放": "0",
+                "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 12; TAS-AL00 Build/HUAWEITAS-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36#Referer$https://m.cfkj86.com/",
+                "首页": "1",
+                "分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg};;rc",
+                "分类": "电影&电视剧&动漫&综艺",
+                "分类值": "22&14&75&69",
+                "二次截取": "list\":\\[&&\\]",
+                "数组": "{&&}[不包含:伦理剧]",
+                "图片": "vod_pic\":\"&&\"",
+                "标题": "vod_name\":\"&&\"",
+                "副标题": "vod_remarks\":\"&&\"+_+vod_pubdate\":\"&&\"",
+                "链接": "https://m.cfkj86.com/detail/+vod_id\":&&,",
+                "线路二次截取": "",
+                "线路数组": "span class=\"label\">&&/span>",
+                "线路标题": "虚无🙏🏻至尊",
+                "播放数组": "episodeList\":\\[&&\\][替换:nid\":>>nid\":/1/]",
+                "播放列表": "{&&}",
+                "播放标题": "name\":\"&&\"",
+                "播放链接前缀": "https://m.cfkj86.com/vod/play/+data\":{\"vodId\":&&,",
+                "播放链接": "nid\":&&,",
+                "倒序": "0",
+                "跳转解析": "",
+                "跳转播放链接": "",
+                "影片类型": "</h1>&&</div>",
+                "导演": "导演：&&</a>",
+                "主演": "主演：&&</a>",
+                "简介": "虚无至尊+</label>&&</div>",
+                "搜索url": "/api.php/provide/vod/?ac=detail&wd={wd}&pg={pg}",
+                "搜索模式": "1",
+                "搜索二次截取": "list\":\\[&&\\]",
+                "搜索数组": "{&&}[不包含:伦理]",
+                "搜索图片": "vod_pic\":\"&&\"",
+                "搜索标题": "vod_name\":\"&&\"",
+                "搜索副标题": "vod_remarks\":\"&&\"",
+                "搜索链接": "https://m.cfkj86.com/detail/+vod_id\":&&,",
+                "筛选": "1",
+                "类型": "喜剧$22#动作$23#战争$25#爱情$26#悬疑$27#武侠$28#科幻$30#冒险$31#警匪$32#动画$33#惊悚$34#犯罪$35#恐怖$36#剧情$37#历史$38#纪录$39#传记$40#歌舞$41||国产剧$14#欧美剧$15#港台剧$16#日韩剧$62#其他剧$68||国产动漫$75#日韩动漫$76#欧美动漫$77#港台动漫$78#其他动漫$80||国产综艺$69#港台综艺$70#日韩综艺$72#欧美综艺$73#其他综艺$74"
+            }
+        },
+
+
+        {
+            "key": "🍑遥遥领先🍑_ngys",
+            "name": "巨物🙏🏻至尊",
+            "type": 3,
+            "api": "csp_WexNgys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "🍑遥遥领先🍑_nmys",
+            "name": "智能🙏🏻至尊",
+            "type": 3,
+            "api": "csp_WexNmys",
+            "searchable": 1,
+            "changeable": 1
+        },
+
+
+        {
+            "key": "🍑遥遥领先🍑_sbb",
+            "name": "妖妖🙏🏻至尊",
+            "type": 3,
+            "api": "csp_Subaibai",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "🍑遥遥领先🍑_KeKe",
+            "name": "蛋蛋🙏🏻至尊",
+            "type": 3,
+            "api": "csp_Keke",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+
+        {
+            "key": "🍑遥遥领先🍑_Kkyd",
+            "name": "永恒🙏🏻至尊",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "🍑遥遥领先🍑_ttys",
+            "name": "流年🙏🏻影视",
+            "type": 3,
+            "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "🍑遥遥领先🍑_spk",
+            "name": "香甜🙏🏻至尊",
+            "type": 3,
+            "api": "csp_WebVidHub",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://vidhub1.cc"
+        },
+        {
+            "key": "🍑遥遥领先🍑_zxzj",
+            "name": "神秘🙏🏻至尊",
+            "type": 3,
+            "api": "csp_Wexzxzj",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "🍑遥遥领先🍑_Ddys",
+            "name": "神隐🙏🏻至尊",
+            "type": 3,
+            "api": "csp_Ddys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        }
+
+
+    ],
+    "parses": [
+        {
+            "name": "🍑遥遥领先🍑",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "🍑唯我独尊🍑",
+            "type": 1,
+            "url": "http://122.228.85.203:7979/api/?key=03d5e4fa7a22dd93e2795dbdfc35c685&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "企鹅",
+                    "IQiYi",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "YouKu",
+                    "优酷",
+                    "sohu",
+                    "SoHu",
+                    "搜狐",
+                    "letv",
+                    "LeShi",
+                    "乐视",
+                    "imgo",
+                    "mgtv",
+                    "MangGuo",
+                    "芒果",
+                    "SMD",
+                    "YuMi",
+                    "luanzi",
+                    "AliS",
+                    "dxzy",
+                    "bilibili",
+                    "QEYSS",
+                    "xigua",
+                    "西瓜视频",
+                    "腾讯视频",
+                    "奇艺视频",
+                    "优酷视频",
+                    "芒果视频",
+                    "乐视视频"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/3.12.11"
+                }
+            }
+        },
+        {
+            "name": "🍑一马当先🍑",
+            "type": 1,
+            "url": "https://ldhz.li0580.com//api/jsonindex.php/?key=aeiwBUFhXzruM4poio&url=",
+            "ext": {
+                "flag": [
+                    "qq"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.1.0"
+                }
+            }
+        },
+        {
+            "name": "🍑十八至尊🍑",
+            "type": 1,
+            "url": "http://qq4k.jingyang.design/api/?key=AydpYbSBnYJBG7Y4AJ&url=",
+            "ext": {
+                "flag": [
+                    "qq"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.1.0"
+                }
+            }
+        },
+        {
+            "name": "🍑天下无敌🍑",
+            "type": 1,
+            "url": "http://llyh.xn--yi7aa.top/api/?key=95a4435353abc49f622ffad255563f4d&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        }
+    ],
+    "lives": [
+        {
+            "name": "至尊🙏直播",
+            "type": 0,
+            "url": "https://jihulab.com/ss3234741/sj/-/raw/main/lib/live.txt",
+            "playerType": 1,
+            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+        }
+    ],
+    "spider": "https://gitee.com/iitvbox/jar/raw/master/欧歌/ou.jar",
+    "wallpaper": "http://tool.teyonds.com/api"
 }
