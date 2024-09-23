@@ -1,7 +1,17 @@
 {
   "lives": [
     {
-      "name": "LIVE",
+      "name": "LIVE1",
+      "type": 0,
+      "url": "./list.自用",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
+
+ {
+      "name": "LIVE2",
       "type": 0,
       "url": "./list.m3u8",
       "playerType": 1,
