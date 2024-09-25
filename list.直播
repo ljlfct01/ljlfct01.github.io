@@ -10,6 +10,15 @@
       "logo": "https://epg.iill.top/logo/{name}.png"
     },
 
+ {
+      "name": "LIVE2",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/zhzebe/TV/refs/heads/main/IPV4_a.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
 
      {
       "name": "开心线路",
