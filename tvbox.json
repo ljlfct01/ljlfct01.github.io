@@ -619,6 +619,16 @@
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
     },
+
+    {
+      "name": "LITV",
+      "type": 0,
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/zhzebe/TV/refs/heads/main/IPV4_a.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
     {
       "name": "YanG-1989｜电视",
       "type": 0,
