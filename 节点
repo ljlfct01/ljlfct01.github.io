@@ -71,6 +71,16 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
+
+  - name: 香港3
+    server: qdct.1polnt7acres.shop
+    port: 563
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+
   - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
     port: 443
