@@ -1,5 +1,5 @@
 {
-  "spider": "https://notabug.org/bestpvp/source/raw/master/stage/custom_spider_20241019.tms;md5;806274c3d65e528bd6479b5a81e04514",
+ 
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
