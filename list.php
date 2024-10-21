@@ -60,12 +60,12 @@
       "key": "🚀 荐片 | JS",
       "name": "🚀 荐片 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/jianpian.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/jianpian.js"
     },
     {
       "key": "💓 旋风 | JAR",
@@ -171,8 +171,8 @@
       "key": "⚽ 球迷 | JS",
       "name": "⚽ 球迷 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/jrk.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/jrk.js",
       "style": {
         "type": "list"
       },
@@ -184,8 +184,8 @@
       "key": "⚽ 310看球 | JS",
       "name": "⚽ 310看球 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/310.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/310.js",
       "style": {
         "type": "list"
       },
@@ -202,7 +202,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/duan8.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/duan8.json"
     },
     {
       "key": "🚀 短剧驿站 | XBPQ",
@@ -213,7 +213,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/duan1.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/duan1.json"
     },
     {
       "key": "🚀 火狐 | T4",
@@ -265,7 +265,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/hh.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/hh.json"
     },
     {
       "key": "🚀 美柏 | XBPQ",
@@ -276,7 +276,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/mb.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/mb.json"
     },
     {
       "key": "🚀 Vid | XBPQ",
@@ -287,7 +287,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/vid.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/vid.json"
     },
     {
       "key": "🚀 卫总 | XBPQ",
@@ -298,7 +298,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/wz.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/wz.json"
     },
     {
       "key": "🚀 皮皮 | XBPQ",
@@ -309,7 +309,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/pp.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/pp.json"
     },
     {
       "key": "🚀 可可 | XBPQ",
@@ -320,7 +320,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/kk.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/kk.json"
     },
     {
       "key": "🚀 9527 | XBPQ",
@@ -331,7 +331,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/9527.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/9527.json"
     },
     {
       "key": "🚀 七猫 | XBPQ",
@@ -342,7 +342,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/7m.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/7m.json"
     },
     {
       "key": "🚀 FREEOK | XBPQ",
@@ -353,7 +353,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/freeok.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/freeok.json"
     },
     {
       "key": "🚀 低端 | XBPQ",
@@ -364,7 +364,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/ddys.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/ddys.json"
     },
     {
       "key": "🚀 农民 | XBPQ",
@@ -375,7 +375,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/nmys.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/nmys.json"
     },
     {
       "key": "🚀 白白 | XBPQ",
@@ -386,7 +386,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/sbb.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/sbb.json"
     },
     {
       "key": "🚀 白嫖 | XBPQ",
@@ -397,7 +397,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/baipiao.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/baipiao.json"
     },
     {
       "key": "🚀 CT | XBPQ",
@@ -408,7 +408,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/ct.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/ct.json"
     },
     {
       "key": "🚀 大中国 | XBPQ",
@@ -419,7 +419,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/dzg.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/dzg.json"
     },
     {
       "key": "🚀 雪儿 | XBPQ",
@@ -430,7 +430,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/xr.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/xr.json"
     },
     {
       "key": "🚀 七味 | XBPQ",
@@ -441,7 +441,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/7w.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/7w.json"
     },
     {
       "key": "🚀 星辰 | XBPQ",
@@ -452,7 +452,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/7w.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/7w.json"
     },
     {
       "key": "🚀 文才 | XBPQ",
@@ -463,7 +463,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/wc.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/wc.json"
     },
     {
       "key": "🚀 文才 | XBPQ",
@@ -474,7 +474,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/wc.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/wc.json"
     },
     {
       "key": "🚀 立波 | XBPQ",
@@ -485,7 +485,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/lb.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/lb.json"
     },
     {
       "key": "🚀 视觉 | XBPQ",
@@ -496,7 +496,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/sj.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/sj.json"
     },
     {
       "key": "🚀 威士 | XBPQ",
@@ -507,7 +507,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/ws.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/ws.json"
     },
     {
       "key": "🚀 机器 | XBPQ",
@@ -518,7 +518,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/jq.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/jq.json"
     },
     {
       "key": "🚀 老王 | XBPQ",
@@ -529,7 +529,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/lw.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/lw.json"
     },
     {
       "key": "🚀 酒吧 | XBPQ",
@@ -540,7 +540,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/98.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/98.json"
     },
     {
       "key": "🚀 TVB | XBPQ",
@@ -551,7 +551,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/tvb.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/tvb.json"
     },
     {
       "key": "🚀 疯狗 | XBPQ",
@@ -562,7 +562,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/fg.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/fg.json"
     },
     {
       "key": "🚀 BP | XBPQ",
@@ -573,7 +573,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/bp.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/bp.json"
     },
     {
       "key": "🚀 影映 | XBPQ",
@@ -584,7 +584,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/yy.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/yy.json"
     },
     {
       "key": "🚀 8号 | XBPQ",
@@ -595,7 +595,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/no8.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/no8.json"
     },
     {
       "key": "🧸 巴士 | JAR",
@@ -637,169 +637,162 @@
       "key": "🚀 影探 | JS",
       "name": "🚀 影探 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/yingtan.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/yingtan.js"
     },
     {
       "key": "🚀 低端 | JS",
       "name": "🚀 低端 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/ddys.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/ddys.js"
     },
     {
       "key": "🚀 369 | JS",
       "name": "🚀 369 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/369ys.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/369ys.js"
     },
     {
       "key": "🚀 尘落 | JS",
       "name": "🚀 尘落 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/clys.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/clys.js"
     },
     {
       "key": "🚀 NY | JS",
       "name": "🚀 NY | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/nyyy.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/nyyy.js"
     },
     {
       "key": "🚀 中国人 | JS",
       "name": "🚀 中国人 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/zgr.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/zgr.js"
     },
     {
       "key": "🚀 18哈 | JS",
       "name": "🚀 18哈 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/18ha.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/18ha.js"
     },
     {
       "key": "🚀 乐鱼 | JS",
       "name": "🚀 乐鱼 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/leyu.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/leyu.js"
     },
     {
       "key": "🚀 大师兄 | JS",
       "name": "🚀 大师兄 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/dsx.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/dsx.js"
     },
     {
       "key": "🧸 动漫 | JS",
       "name": "🧸 动漫 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./sites/码上/blys.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/blys.js"
     },
     {
       "key": "🚀 NYA | JS",
       "name": "🚀 NYA | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/NyaFun.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/NyaFun.js"
     },
     {
       "key": "🚀 白白 | JS",
       "name": "🚀 白白 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/sbb.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/sbb.js"
     },
     {
       "key": "🚀 农民 | JS",
       "name": "🚀 农民 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/nmys.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/nmys.js"
     },
     {
       "key": "🚀 网飞 | JS",
       "name": "🚀 网飞 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/wftv.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/wftv.js"
     },
     {
       "key": "🧸 Auete | JS",
       "name": "🧸 Auete | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/Auete.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/Auete.js"
     },
-    {
-      "key": "公众号: 插兜的干货仓库",
-      "name": "公众号: 插兜的干货仓库",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0
-    },
+    
     {
       "key": "config",
       "name": "肥猫->🐼┃配置┃中心",
