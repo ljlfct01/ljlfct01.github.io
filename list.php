@@ -16,6 +16,16 @@
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
+
+ {
+      "key": "豆豆",
+      "name": "豆瓣推荐┃肖玉nota ys",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
    
     {
       "key": "📺 电视直播 | JAR",
