@@ -7,7 +7,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "响应政府号召, 加强行业自律,时光机数据源从23年11月21日起不提供直播服务。",
+      "url": "https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%87%AA%E7%94%A8",
       "playerType": 1,
       "ua": "okhttp/3.12.13",
       "epg": "",
