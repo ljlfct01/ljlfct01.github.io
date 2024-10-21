@@ -158,8 +158,8 @@
       "key": "⚽ 88看球 | JS",
       "name": "⚽ 88看球 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/88.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/88.js",
       "style": {
         "type": "list"
       },
