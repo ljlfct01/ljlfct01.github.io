@@ -59,12 +59,12 @@
       "key": "🚀 荐片 | JS",
       "name": "🚀 荐片 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/sites/码上/merge.min.js",
       "searchable": 1,
       "playerType": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/jianpian.js"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/sites/码上/jianpian.js"
     },
     {
       "key": "💓 旋风 | JAR",
