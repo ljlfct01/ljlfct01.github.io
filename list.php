@@ -1,7 +1,7 @@
 {
   "spider": "https://notabug.org/wdy/a/src/main/jar/Yoursmile.jar",
 
-  "wallpaper": "",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
     {
