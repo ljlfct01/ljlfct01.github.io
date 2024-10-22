@@ -52,7 +52,7 @@
       "key": "🚛 厂长 | DEX",
       "name": "🚛 厂长 | DEX",
       "type": 3,
-      "api": "csp_Czsapp",
+      "api": "https://notabug.org/bestpvp/source/raw/master/stage/custom_spider_20241019.tms;md5;806274c3d65e528bd6479b5a81e04514",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
