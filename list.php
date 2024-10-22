@@ -26,8 +26,8 @@
       "jar": "http://1.95.79.193/PandaQ241006.jar;md5;4352ec15dbd1601f601249f831c2e87c"
     },
   {
-      "key": "🚀 火狐 | T4",
-      "name": "🚀 火狐 | T4",
+      "key": "肥猫->🖍︎┃火狐 | T4",
+      "name": "肥猫->🖍︎┃ 火狐 | T4",
       "type": 1,
       "style": {
         "type": "rect",
@@ -483,45 +483,7 @@
       "jar": "http://1.95.79.193/PandaQ241006.jar;md5;4352ec15dbd1601f601249f831c2e87c",
       "searchable": 0
     },
-   {
-      "key": "⚽ 88看球 | JS",
-      "name": "⚽ 88看球 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/88.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "⚽ 球迷 | JS",
-      "name": "⚽ 球迷 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/jrk.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "⚽ 310看球 | JS",
-      "name": "⚽ 310看球 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/310.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
+ 
     {
       "key": "儿童",
       "name": "肥猫->📚┃儿童┃启蒙",
