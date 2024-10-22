@@ -151,212 +151,25 @@
 
 
 
-    {
-      "key": "🚀 8号 | XBPQ",
-      "name": "🚀 8号 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/no8.json"
-    },
-    {
-      "key": "🧸 巴士 | JAR",
-      "name": "🧸 巴士 | JAR",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-     {
-      "key": "🚀 荐片 | JAR",
-      "name": "🚀 荐片 | JAR",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "🧸 异界 | JAR",
-      "name": "🧸 异界 | JAR",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "🧸 樱花 | JAR",
-      "name": "🧸 樱花 | JAR",
-      "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "🚀 影探 | JS",
-      "name": "🚀 影探 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/yingtan.js"
-    },
-    {
-      "key": "🚀 低端 | JS",
-      "name": "🚀 低端 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/ddys.js"
-    },
-    {
-      "key": "🚀 369 | JS",
-      "name": "🚀 369 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/369ys.js"
-    },
-    {
-      "key": "🚀 尘落 | JS",
-      "name": "🚀 尘落 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/clys.js"
-    },
-    {
-      "key": "🚀 NY | JS",
-      "name": "🚀 NY | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/nyyy.js"
-    },
-    {
-      "key": "🚀 中国人 | JS",
-      "name": "🚀 中国人 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/zgr.js"
-    },
-    {
-      "key": "🚀 18哈 | JS",
-      "name": "🚀 18哈 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/18ha.js"
-    },
-    {
-      "key": "🚀 乐鱼 | JS",
-      "name": "🚀 乐鱼 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/leyu.js"
-    },
-    {
-      "key": "🚀 大师兄 | JS",
-      "name": "🚀 大师兄 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/dsx.js"
-    },
-    {
-      "key": "🧸 动漫 | JS",
-      "name": "🧸 动漫 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/blys.js"
-    },
-    {
-      "key": "🚀 NYA | JS",
-      "name": "🚀 NYA | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/NyaFun.js"
-    },
-    {
-      "key": "🚀 白白 | JS",
-      "name": "🚀 白白 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/sbb.js"
-    },
-    {
-      "key": "🚀 农民 | JS",
-      "name": "🚀 农民 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/nmys.js"
-    },
-    {
-      "key": "🚀 网飞 | JS",
-      "name": "🚀 网飞 | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/wftv.js"
-    },
-    {
-      "key": "🧸 Auete | JS",
-      "name": "🧸 Auete | JS",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/Auete.js"
-    },
+
+ 
+ 
+
+ 
+ 
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+ 
+
     
     {
       "key": "config",
