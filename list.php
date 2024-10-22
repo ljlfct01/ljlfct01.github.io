@@ -134,215 +134,23 @@
   
 
 
-    {
-      "key": "🚀 白白 | XBPQ",
-      "name": "🚀 白白 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/sbb.json"
-    },
-    {
-      "key": "🚀 白嫖 | XBPQ",
-      "name": "🚀 白嫖 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/baipiao.json"
-    },
-    {
-      "key": "🚀 CT | XBPQ",
-      "name": "🚀 CT | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/ct.json"
-    },
-    {
-      "key": "🚀 大中国 | XBPQ",
-      "name": "🚀 大中国 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/dzg.json"
-    },
-    {
-      "key": "🚀 雪儿 | XBPQ",
-      "name": "🚀 雪儿 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/xr.json"
-    },
-    {
-      "key": "🚀 七味 | XBPQ",
-      "name": "🚀 七味 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/7w.json"
-    },
-    {
-      "key": "🚀 星辰 | XBPQ",
-      "name": "🚀 星辰 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/7w.json"
-    },
-    {
-      "key": "🚀 文才 | XBPQ",
-      "name": "🚀 文才 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/wc.json"
-    },
-    {
-      "key": "🚀 文才 | XBPQ",
-      "name": "🚀 文才 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/wc.json"
-    },
-    {
-      "key": "🚀 立波 | XBPQ",
-      "name": "🚀 立波 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/lb.json"
-    },
-    {
-      "key": "🚀 视觉 | XBPQ",
-      "name": "🚀 视觉 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/sj.json"
-    },
-    {
-      "key": "🚀 威士 | XBPQ",
-      "name": "🚀 威士 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/ws.json"
-    },
-    {
-      "key": "🚀 机器 | XBPQ",
-      "name": "🚀 机器 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/jq.json"
-    },
-    {
-      "key": "🚀 老王 | XBPQ",
-      "name": "🚀 老王 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/lw.json"
-    },
-    {
-      "key": "🚀 酒吧 | XBPQ",
-      "name": "🚀 酒吧 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/98.json"
-    },
-    {
-      "key": "🚀 TVB | XBPQ",
-      "name": "🚀 TVB | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/tvb.json"
-    },
-    {
-      "key": "🚀 疯狗 | XBPQ",
-      "name": "🚀 疯狗 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/fg.json"
-    },
-    {
-      "key": "🚀 BP | XBPQ",
-      "name": "🚀 BP | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/bp.json"
-    },
-    {
-      "key": "🚀 影映 | XBPQ",
-      "name": "🚀 影映 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/yy.json"
-    },
+ 
+
+
+ 
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+
+
     {
       "key": "🚀 8号 | XBPQ",
       "name": "🚀 8号 | XBPQ",
