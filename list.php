@@ -18,25 +18,9 @@
   "ads": [],
   "sites": [
 
-   {
-      "key": "码上时光机",
-      "name": "🌞稳定版时光机💢v20241019-120",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
-    },
+ 
    
-   {
-      "key": "📺 电视直播 | JAR",
-      "name": "📺 电视直播 | JAR",
-      "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/remote_live.json"
-    },
+ 
     {
       "key": "🚀 荐片 | JS",
       "name": "🚀 荐片 | JS",
@@ -48,114 +32,15 @@
       "filterable": 1,
       "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/jianpian.js"
     },
- {
-      "key": "🚛 厂长 | DEX",
-      "name": "🚛 厂长 | DEX",
-      "type": 3,
-      "api": "https://notabug.org/bestpvp/source/raw/master/stage/custom_spider_20241019.tms;md5;806274c3d65e528bd6479b5a81e04514",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://czzy.top/"
-    },
-    {
-      "key": "🚛 金牌 | DEX",
-      "name": "🚛 金牌 | DEX",
-      "type": 3,
-      "api": "csp_Jpyy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {}
-    },
+
+  
    
-    {
-      "key": "💓 旋风 | JAR",
-      "name": "💓 旋风 | JAR",
-      "type": 3,
-      "api": "csp_XuanFeng",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": {
-        "pure": false
-      }
-    },
-    {
-      "key": "💥 天堂 | JAR",
-      "name": "💥 天堂 | JAR",
-      "type": 3,
-      "api": "csp_TvDy",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "https://tvdy4.com"
-      }
-    },
-    {
-      "key": "💥 云播 | JAR",
-      "name": "💥 云播 | JAR",
-      "type": 3,
-      "api": "csp_HkTv",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "http://www.tvyb03.com"
-      }
-    },
-    {
-      "key": "🍀 RARBT | JAR",
-      "name": "🍀 RARBT | JAR",
-      "type": 3,
-      "api": "csp_Rarbt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "http://www.rarbt.live",
-        "jxToken": "tm://tm/jxToken.txt",
-        "enableJX": false
-      }
-    },
-    {
-      "key": "🧲 电影港 | JAR",
-      "name": "🧲 电影港 | JAR",
-      "type": 3,
-      "api": "csp_DyGang",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "🧲 迅雷吧 | JAR",
-      "name": "🧲 迅雷吧 | JAR",
-      "type": 3,
-      "api": "csp_Xunlei8",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "🧲 6V | JAR",
-      "name": "🧲 6V | JAR",
-      "type": 3,
-      "api": "csp_SixV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.66ss.org/"
-    },
-    {
-      "key": "⚽ 看球 | JAR",
-      "name": "⚽ 看球 | JAR",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
+   
+ 
+   
+
+ 
+  
  
      {
       "key": "⚽ 88看球 | JS",
