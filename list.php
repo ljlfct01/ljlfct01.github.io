@@ -81,28 +81,8 @@
       "quickSearch": 0,
       "changeable": 0
     },
-    {
-      "key": "🚀 短剧吧 | XBPQ",
-      "name": "🚀 短剧吧 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/duan8.json"
-    },
-    {
-      "key": "🚀 短剧驿站 | XBPQ",
-      "name": "🚀 短剧驿站 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/duan1.json"
-    },
+   
+ 
     {
       "key": "🚀 火狐 | T4",
       "name": "🚀 火狐 | T4",
@@ -144,127 +124,16 @@
         "欧美动漫"
       ]
     },
-    {
-      "key": "🚀 虎虎 | XBPQ",
-      "name": "🚀 虎虎 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/hh.json"
-    },
-    {
-      "key": "🚀 美柏 | XBPQ",
-      "name": "🚀 美柏 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/mb.json"
-    },
-    {
-      "key": "🚀 Vid | XBPQ",
-      "name": "🚀 Vid | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/vid.json"
-    },
-    {
-      "key": "🚀 卫总 | XBPQ",
-      "name": "🚀 卫总 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/wz.json"
-    },
-    {
-      "key": "🚀 皮皮 | XBPQ",
-      "name": "🚀 皮皮 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/pp.json"
-    },
-    {
-      "key": "🚀 可可 | XBPQ",
-      "name": "🚀 可可 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/kk.json"
-    },
-    {
-      "key": "🚀 9527 | XBPQ",
-      "name": "🚀 9527 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/9527.json"
-    },
-    {
-      "key": "🚀 七猫 | XBPQ",
-      "name": "🚀 七猫 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/7m.json"
-    },
-    {
-      "key": "🚀 FREEOK | XBPQ",
-      "name": "🚀 FREEOK | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/freeok.json"
-    },
-    {
-      "key": "🚀 低端 | XBPQ",
-      "name": "🚀 低端 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/ddys.json"
-    },
-    {
-      "key": "🚀 农民 | XBPQ",
-      "name": "🚀 农民 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/nmys.json"
-    },
+  
+   
+  
+ 
+ 
+  
+
+  
+
+
     {
       "key": "🚀 白白 | XBPQ",
       "name": "🚀 白白 | XBPQ",
