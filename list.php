@@ -1,7 +1,7 @@
 {
-  "spider": "https://notabug.org/wdy/a/src/main/jar/Yoursmile.jar",
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729544948101/fan.txt;md5;280cd3d4d397dce21bf99a30c7ca91f2",
 
-  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
     {
@@ -18,12 +18,14 @@
   "ads": [],
   "sites": [
 
- {
-      "key": "js豆瓣",
-      "name": "🔍豆瓣推荐",
+  {
+      "key": "豆豆",
+      "name": "备用公众号【叨观荐影】",
       "type": 3,
-      "api": "./js/drpy.min.js",
-      "ext": "./json/豆瓣.js"
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "config",
