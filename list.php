@@ -28,7 +28,15 @@
       "filterable": 1
     },
    
-  
+   {
+      "key": "📺 电视直播 | JAR",
+      "name": "📺 电视直播 | JAR",
+      "type": 3,
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./sites/码上/remote_live.json"
+    },
     {
       "key": "🚀 荐片 | JS",
       "name": "🚀 荐片 | JS",
