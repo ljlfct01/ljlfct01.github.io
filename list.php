@@ -25,7 +25,7 @@
       "api": "csp_Live2Vod",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./sites/码上/remote_live.json"
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/remote_live.json"
     },
     {
       "key": "config",
