@@ -18,15 +18,7 @@
   "ads": [],
   "sites": [
 
-  {
-      "key": "码上时光机",
-      "name": "🌞稳定版时光机💢v20241019-120",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
-    },
+ 
     {
       "key": "config",
       "name": "肥猫->🐼┃配置┃中心",
