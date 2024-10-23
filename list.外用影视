@@ -6,6 +6,24 @@
   "ads": [],
   "sites": [
 
+ {
+      "key": "码上时光机",
+      "name": "🌞稳定版时光机💢",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+   {
+      "key": "📺 电视直播 | JAR",
+      "name": "📺 电视直播 | JAR",
+      "type": 3,
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://notabug.org/bestpvp/source/raw/master/stage/sites/码上/remote_live.json"
+    },
     {
       "key": "豆豆",
       "name": "🍎豆瓣",
