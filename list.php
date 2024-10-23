@@ -18,7 +18,15 @@
   "ads": [],
   "sites": [
 
- 
+   {
+      "key": "📺 电视直播 | JAR",
+      "name": "📺 电视直播 | JAR",
+      "type": 3,
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./sites/码上/remote_live.json"
+    },
     {
       "key": "config",
       "name": "肥猫->🐼┃配置┃中心",
