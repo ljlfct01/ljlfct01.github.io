@@ -5,15 +5,7 @@
 "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
-    {
-      "key": "豆豆",
-      "name": "🍎有朋友需要买电视盒子吗？",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+ 
  {
       "key": "码上时光机",
       "name": "🌞稳定版时光机💢v20241019-120",
@@ -22,6 +14,16 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1
+    },
+
+ {
+      "key": "豆豆",
+      "name": "🍎有朋友需要买电视盒子吗？",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "玩偶",
