@@ -19,14 +19,15 @@
   "sites": [
 
   
-   {
-      "key": "📺 电视直播 | JAR",
-      "name": "📺 电视直播 | JAR",
+      {
+      "key": "🚛 金牌 | DEX",
+      "name": "🚛 金牌 | DEX",
       "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": ""
+      "api": "csp_Jpyy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {}
     },
     {
       "key": "config",
