@@ -18,7 +18,17 @@
   "ads": [],
   "sites": [
 
-  
+      {
+      "key": "🚀 荐片 | JS",
+      "name": "🚀 荐片 | JS",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/jianpian.js"
+    },
       {
       "key": "🚛 金牌 | DEX",
       "name": "🚛 金牌 | DEX",
