@@ -1,5 +1,6 @@
 {
   "spider": "https://notabug.org/bestpvp/source/raw/master/stage/custom_spider_20241019.tms;md5;806274c3d65e528bd6479b5a81e04514",
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729628389538/fan.txt;md5;dc29a25f7393c2c3aa9187a57f708309",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -17,16 +18,16 @@
   "ads": [],
   "sites": [
 
-  
-    {
-      "key": "📺 电视直播 | JAR",
-      "name": "📺 电视直播 | JAR",
+   {
+      "key": "豆豆",
+      "name": "🍎自用┃电视",
       "type": 3,
-      "api": "csp_Live2Vod",
+      "api": "csp_DouDou",
       "searchable": 0,
-      "changeable": 0,
-      "ext": "./sites/码上/remote_live.json"
+      "quickSearch": 0,
+      "filterable": 0
     },
+   
     {
       "key": "🚛 厂长 | DEX",
       "name": "🚛 厂长 | DEX",
@@ -47,17 +48,7 @@
       "filterable": 1,
       "ext": {}
     },
-    {
-      "key": "🚀 荐片 | JS",
-      "name": "🚀 荐片 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/jianpian.js"
-    },
+   
     {
       "key": "💓 旋风 | JAR",
       "name": "💓 旋风 | JAR",
@@ -69,17 +60,7 @@
         "pure": false
       }
     },
-    {
-      "key": "💥 天堂 | JAR",
-      "name": "💥 天堂 | JAR",
-      "type": 3,
-      "api": "csp_TvDy",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "https://tvdy4.com"
-      }
-    },
+   
     {
       "key": "💥 云播 | JAR",
       "name": "💥 云播 | JAR",
@@ -146,67 +127,6 @@
       "changeable": 0
     },
     {
-      "key": "⚽ 88看球 | JS",
-      "name": "⚽ 88看球 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/88.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "⚽ 球迷 | JS",
-      "name": "⚽ 球迷 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/jrk.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "⚽ 310看球 | JS",
-      "name": "⚽ 310看球 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/310.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "🚀 短剧吧 | XBPQ",
-      "name": "🚀 短剧吧 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/duan8.json"
-    },
-    {
-      "key": "🚀 短剧驿站 | XBPQ",
-      "name": "🚀 短剧驿站 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/duan1.json"
-    },
-    {
       "key": "🚀 火狐 | T4",
       "name": "🚀 火狐 | T4",
       "type": 1,
@@ -248,347 +168,6 @@
       ]
     },
     {
-      "key": "🚀 虎虎 | XBPQ",
-      "name": "🚀 虎虎 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/hh.json"
-    },
-    {
-      "key": "🚀 美柏 | XBPQ",
-      "name": "🚀 美柏 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/mb.json"
-    },
-    {
-      "key": "🚀 Vid | XBPQ",
-      "name": "🚀 Vid | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/vid.json"
-    },
-    {
-      "key": "🚀 卫总 | XBPQ",
-      "name": "🚀 卫总 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/wz.json"
-    },
-    {
-      "key": "🚀 皮皮 | XBPQ",
-      "name": "🚀 皮皮 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/pp.json"
-    },
-    {
-      "key": "🚀 可可 | XBPQ",
-      "name": "🚀 可可 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/kk.json"
-    },
-    {
-      "key": "🚀 9527 | XBPQ",
-      "name": "🚀 9527 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/9527.json"
-    },
-    {
-      "key": "🚀 七猫 | XBPQ",
-      "name": "🚀 七猫 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/7m.json"
-    },
-    {
-      "key": "🚀 FREEOK | XBPQ",
-      "name": "🚀 FREEOK | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/freeok.json"
-    },
-    {
-      "key": "🚀 低端 | XBPQ",
-      "name": "🚀 低端 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/ddys.json"
-    },
-    {
-      "key": "🚀 农民 | XBPQ",
-      "name": "🚀 农民 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/nmys.json"
-    },
-    {
-      "key": "🚀 白白 | XBPQ",
-      "name": "🚀 白白 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/sbb.json"
-    },
-    {
-      "key": "🚀 白嫖 | XBPQ",
-      "name": "🚀 白嫖 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/baipiao.json"
-    },
-    {
-      "key": "🚀 CT | XBPQ",
-      "name": "🚀 CT | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/ct.json"
-    },
-    {
-      "key": "🚀 大中国 | XBPQ",
-      "name": "🚀 大中国 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/dzg.json"
-    },
-    {
-      "key": "🚀 雪儿 | XBPQ",
-      "name": "🚀 雪儿 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/xr.json"
-    },
-    {
-      "key": "🚀 七味 | XBPQ",
-      "name": "🚀 七味 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/7w.json"
-    },
-    {
-      "key": "🚀 星辰 | XBPQ",
-      "name": "🚀 星辰 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/7w.json"
-    },
-    {
-      "key": "🚀 文才 | XBPQ",
-      "name": "🚀 文才 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/wc.json"
-    },
-    {
-      "key": "🚀 文才 | XBPQ",
-      "name": "🚀 文才 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/wc.json"
-    },
-    {
-      "key": "🚀 立波 | XBPQ",
-      "name": "🚀 立波 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/lb.json"
-    },
-    {
-      "key": "🚀 视觉 | XBPQ",
-      "name": "🚀 视觉 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/sj.json"
-    },
-    {
-      "key": "🚀 威士 | XBPQ",
-      "name": "🚀 威士 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/ws.json"
-    },
-    {
-      "key": "🚀 机器 | XBPQ",
-      "name": "🚀 机器 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/jq.json"
-    },
-    {
-      "key": "🚀 老王 | XBPQ",
-      "name": "🚀 老王 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/lw.json"
-    },
-    {
-      "key": "🚀 酒吧 | XBPQ",
-      "name": "🚀 酒吧 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/98.json"
-    },
-    {
-      "key": "🚀 TVB | XBPQ",
-      "name": "🚀 TVB | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/tvb.json"
-    },
-    {
-      "key": "🚀 疯狗 | XBPQ",
-      "name": "🚀 疯狗 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/fg.json"
-    },
-    {
-      "key": "🚀 BP | XBPQ",
-      "name": "🚀 BP | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/bp.json"
-    },
-    {
-      "key": "🚀 影映 | XBPQ",
-      "name": "🚀 影映 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/yy.json"
-    },
-    {
-      "key": "🚀 8号 | XBPQ",
-      "name": "🚀 8号 | XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/no8.json"
-    },
-    {
       "key": "🧸 巴士 | JAR",
       "name": "🧸 巴士 | JAR",
       "type": 3,
@@ -597,15 +176,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "🚀 荐片 | JAR",
-      "name": "🚀 荐片 | JAR",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+ 
     {
       "key": "🧸 异界 | JAR",
       "name": "🧸 异界 | JAR",
@@ -624,174 +195,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "🚀 影探 | JS",
-      "name": "🚀 影探 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/yingtan.js"
-    },
-    {
-      "key": "🚀 低端 | JS",
-      "name": "🚀 低端 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/ddys.js"
-    },
-    {
-      "key": "🚀 369 | JS",
-      "name": "🚀 369 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/369ys.js"
-    },
-    {
-      "key": "🚀 尘落 | JS",
-      "name": "🚀 尘落 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/clys.js"
-    },
-    {
-      "key": "🚀 NY | JS",
-      "name": "🚀 NY | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/nyyy.js"
-    },
-    {
-      "key": "🚀 中国人 | JS",
-      "name": "🚀 中国人 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/zgr.js"
-    },
-    {
-      "key": "🚀 18哈 | JS",
-      "name": "🚀 18哈 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/18ha.js"
-    },
-    {
-      "key": "🚀 乐鱼 | JS",
-      "name": "🚀 乐鱼 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/leyu.js"
-    },
-    {
-      "key": "🚀 大师兄 | JS",
-      "name": "🚀 大师兄 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/dsx.js"
-    },
-    {
-      "key": "🧸 动漫 | JS",
-      "name": "🧸 动漫 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./sites/码上/blys.js"
-    },
-    {
-      "key": "🚀 NYA | JS",
-      "name": "🚀 NYA | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/NyaFun.js"
-    },
-    {
-      "key": "🚀 白白 | JS",
-      "name": "🚀 白白 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/sbb.js"
-    },
-    {
-      "key": "🚀 农民 | JS",
-      "name": "🚀 农民 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/nmys.js"
-    },
-    {
-      "key": "🚀 网飞 | JS",
-      "name": "🚀 网飞 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/wftv.js"
-    },
-    {
-      "key": "🧸 Auete | JS",
-      "name": "🧸 Auete | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/Auete.js"
-    },
-    {
-      "key": "公众号: 插兜的干货仓库",
-      "name": "公众号: 插兜的干货仓库",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0
-    },
-    {
+{
       "key": "config",
       "name": "肥猫->🐼┃配置┃中心",
       "type": 3,
