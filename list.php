@@ -1,8 +1,7 @@
 {
-  "spider": "https://notabug.org/bestpvp/source/raw/master/stage/custom_spider_20241019.tms;md5;806274c3d65e528bd6479b5a81e04514",
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729628389538/fan.txt;md5;dc29a25f7393c2c3aa9187a57f708309",
+   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729628389538/fan.txt;md5;dc29a25f7393c2c3aa9187a57f708309",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
+  
   "lives": [
     {
       "name": "live",
