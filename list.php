@@ -27,83 +27,6 @@
       "quickSearch": 0,
       "filterable": 0
     },
-   
-    {
-      "key": "🚛 厂长 | DEX",
-      "name": "🚛 厂长 | DEX",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://czzy.top/"
-    },
-    {
-      "key": "🚛 金牌 | DEX",
-      "name": "🚛 金牌 | DEX",
-      "type": 3,
-      "api": "csp_Jpyy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {}
-    },
-   
-    {
-      "key": "💓 旋风 | JAR",
-      "name": "💓 旋风 | JAR",
-      "type": 3,
-      "api": "csp_XuanFeng",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": {
-        "pure": false
-      }
-    },
-   
-    {
-      "key": "💥 云播 | JAR",
-      "name": "💥 云播 | JAR",
-      "type": 3,
-      "api": "csp_HkTv",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "http://www.tvyb03.com"
-      }
-    },
-    {
-      "key": "🍀 RARBT | JAR",
-      "name": "🍀 RARBT | JAR",
-      "type": 3,
-      "api": "csp_Rarbt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "http://www.rarbt.live",
-        "jxToken": "tm://tm/jxToken.txt",
-        "enableJX": false
-      }
-    },
-    {
-      "key": "🧲 电影港 | JAR",
-      "name": "🧲 电影港 | JAR",
-      "type": 3,
-      "api": "csp_DyGang",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "🧲 迅雷吧 | JAR",
-      "name": "🧲 迅雷吧 | JAR",
-      "type": 3,
-      "api": "csp_Xunlei8",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
-    },
     {
       "key": "🧲 6V | JAR",
       "name": "🧲 6V | JAR",
@@ -114,18 +37,7 @@
       "filterable": 1,
       "ext": "https://www.66ss.org/"
     },
-    {
-      "key": "⚽ 看球 | JAR",
-      "name": "⚽ 看球 | JAR",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
+
     {
       "key": "🚀 火狐 | T4",
       "name": "🚀 火狐 | T4",
@@ -186,15 +98,7 @@
       "quickSearch": 1,
       "changeable": 1
     },
-    {
-      "key": "🧸 樱花 | JAR",
-      "name": "🧸 樱花 | JAR",
-      "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+   
 {
       "key": "config",
       "name": "肥猫->🐼┃配置┃中心",
