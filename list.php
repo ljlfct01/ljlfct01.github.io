@@ -18,17 +18,18 @@
   "ads": [],
   "sites": [
 
-      {
-      "key": "🚀 荐片 | JS",
-      "name": "🚀 荐片 | JS",
+        {
+      "key": "🚀 短剧吧 | XBPQ",
+      "name": "🚀 短剧吧 | XBPQ",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "csp_XBPQ",
+      "playerType": "2",
       "searchable": 1,
-      "playerType": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/jianpian.js"
+      "ext": "./sites/码上/duan8.json"
     },
+
       {
       "key": "🚛 金牌 | DEX",
       "name": "🚛 金牌 | DEX",
