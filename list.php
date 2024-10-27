@@ -3,6 +3,16 @@
  //"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729628389538/fan.txt;md5;dc29a25f7393c2c3aa9187a57f708309",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
+    {
+      "key": "豆瓣",
+      "name": "豆瓣┃推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://tv.菜妮丝.top/json/douban.json",
+      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+    },
    
 {
       "key": "📺 电视直播 | JAR",
