@@ -6,7 +6,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🐉豆瓣┃推荐🐉",
+      "name": "🐉豆瓣┃推荐",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -14,18 +14,10 @@
       "ext": "https://tv.菜妮丝.top/json/douban.json",
       "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
- {
-      "key": "🐉 电视直播 🐉",
-      "name": "🐉 电视直播 🐉",
-      "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./tvbox.json"
-    },
+
     {
       "key": "csp_LocalFile",
-      "name": "💻本地目录",
+      "name": "🐉本地目录",
       "type": 3,
       "api": "csp_LocalFile",
       "searchable": 0,
@@ -35,7 +27,7 @@
     },
     {
       "key": "配置中心",
-      "name": "拾光☪‍配置",
+      "name": "🐉配置",
       "type": 3,
       "api": "csp_Config",
       "searchable": 0,
@@ -48,7 +40,7 @@
     },
     {
       "key": "央视大全",
-      "name": "拾光☪央视大全",
+      "name": "🐉央视大全",
       "type": 3,
       "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "searchable": 1,
@@ -59,7 +51,7 @@
     },
     {
       "key": "电视台",
-      "name": "拾光☪电视台",
+      "name": "🐉电视台",
       "type": 3,
       "api": "https://4708.kstore.space/omg/lib/sdtv.js",
       "ext": "./tvbox.json",
@@ -67,7 +59,7 @@
     },
     {
       "key": "好趣网",
-      "name": "拾光☪好趣网",
+      "name": "🐉好趣网",
       "type": 3,
       "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "searchable": 1,
@@ -78,7 +70,7 @@
     },
     {
       "key": "hipy_js_采集之王",
-      "name": "拾光☪采集之王",
+      "name": "🐉采集之王",
       "type": 3,
       "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "searchable": 1,
@@ -89,7 +81,7 @@
     },
     {
       "key": "4K在线看",
-      "name": "拾光☪4Kav",
+      "name": "🐉4Kav",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -99,7 +91,7 @@
     },
     {
       "key": "荐片",
-      "name": "拾光☪荐P2P",
+      "name": "🐉荐P2P",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -110,7 +102,7 @@
     },
     {
       "key": "荐片弹幕版",
-      "name": "拾光☪荐片",
+      "name": "🐉荐片",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
@@ -124,7 +116,7 @@
     },
     {
       "key": "天天弹幕版",
-      "name": "拾光☪天天",
+      "name": "🐉天天",
       "type": 3,
       "api": "csp_TianTian",
       "searchable": 1,
@@ -137,7 +129,7 @@
     },
     {
       "key": "文才",
-      "name": "拾光☪文才",
+      "name": "🐉文才",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
@@ -150,7 +142,7 @@
     },
     {
       "key": "hipy_js_南瓜影视[优]",
-      "name": "拾光☪南瓜",
+      "name": "🐉南瓜",
       "type": 3,
       "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
       "searchable": 1,
@@ -161,7 +153,7 @@
     },
     {
       "key": "小苹果弹幕版",
-      "name": "拾光☪苹果",
+      "name": "🐉苹果",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
@@ -174,7 +166,7 @@
     },
     {
       "key": "木耳",
-      "name": "拾光☪黑木耳",
+      "name": "🐉黑木耳",
       "type": 1,
       "api": "https://json02.heimuer.xyz/api.php/provide/vod",
       "searchable": 1,
@@ -237,7 +229,7 @@
     },
     {
       "key": "蚂蚁",
-      "name": "拾光☪蚂蚁",
+      "name": "🐉蚂蚁",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod",
       "playUrl": "json:http://110.42.3.99:880/rmm.php/?url=",
@@ -269,7 +261,7 @@
     },
     {
       "key": "韩圈",
-      "name": "拾光☪韩剧",
+      "name": "🐉韩剧",
       "type": 3,
       "api": "csp_HanXiaoQuan",
       "playerType": 2,
@@ -280,7 +272,7 @@
     },
     {
       "key": "厂长弹幕版",
-      "name": "拾光☪厂长",
+      "name": "🐉厂长",
       "type": 3,
       "api": "csp_Czzy",
       "searchable": 1,
@@ -293,14 +285,14 @@
     },
     {
       "key": "金牌影视",
-      "name": "拾光☪金牌",
+      "name": "🐉金牌",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/金牌影视.js"
     },
     {
       "key": "js_subaibai",
-      "name": "拾光☪素白",
+      "name": "🐉素白",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "playerType": 1,
@@ -311,14 +303,14 @@
     },
     {
       "key": "畅梦",
-      "name": "拾光☪畅梦",
+      "name": "🐉畅梦",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/畅梦.js"
     },
     {
       "key": "瓜子",
-      "name": "拾光☪瓜子",
+      "name": "🐉瓜子",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -329,7 +321,7 @@
     },
     {
       "key": "csp_XYQHiker_农民影视",
-      "name": "拾光☪农民",
+      "name": "🐉农民",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -339,7 +331,7 @@
     },
     {
       "key": "csp_XYQHiker_七新影视",
-      "name": "拾光☪七新",
+      "name": "🐉七新",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -349,7 +341,7 @@
     },
     {
       "key": "csp_XYQHiker_可可影视",
-      "name": "拾光☪可可",
+      "name": "🐉可可",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -359,7 +351,7 @@
     },
     {
       "key": "4K影视",
-      "name": "拾光☪4K影视",
+      "name": "🐉4K影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
