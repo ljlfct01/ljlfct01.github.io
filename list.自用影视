@@ -50,16 +50,18 @@
       "ext": "https://4708.kstore.space/omg/lib/大全央视.js"
     },
     {
-      "key": "电视台",
-      "name": "🐉电视台",
+      "key": "电视台1",
+      "name": "🐉电视台1",
       "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/sdtv.js",
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
       "ext": "http://rihou.cc:567/gggg.nzk",
-      "jar": "https://4708.kstore.space/omg/lib/sdtv.jar"
+     
     },
   {
-      "key": "🐉 电视直播 ",
-      "name": "🐉 电视直播 ",
+      "key": "🐉 电视台 2",
+      "name": "🐉 电视台2 ",
       "type": 3,
       "api": "csp_Live2Vod",
       "searchable": 0,
