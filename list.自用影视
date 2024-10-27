@@ -30,9 +30,10 @@
       "key": "电视台",
       "name": "🐉电视台",
       "type": 3,
-      "api": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/lib/sdtv.js",
-      "ext": "./tvbox.json",
-      "jar": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/lib/sdtv.jar"
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./sites/码上/remote_live.json"
     },
     {
       "key": "🐉 厂长 | DEX",
