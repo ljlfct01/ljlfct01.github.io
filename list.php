@@ -12,6 +12,15 @@
       "quickSearch": 0,
       "filterable": 0
     },
+{
+      "key": "📺 电视直播 | JAR",
+      "name": "📺 电视直播 | JAR",
+      "type": 3,
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/remote_live.json"
+    },
     {
       "key": "玩偶",
       "name": "👽玩偶哥哥┃4K弹幕",
