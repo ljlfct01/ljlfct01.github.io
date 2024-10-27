@@ -1,7 +1,7 @@
 {
   "spider": "https://4708.kstore.space/omg/xmbjm.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
-
+ "logo": "https://4708.kstore.space/logo.gif",
   "sites": [
     {
       "key": "豆瓣",
@@ -40,42 +40,42 @@
       "key": "央视大全",
       "name": "拾光☪央视大全",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "./lib/大全央视.js"
+      "ext": "https://4708.kstore.space/omg/lib/大全央视.js"
     },
     {
       "key": "电视台",
       "name": "拾光☪电视台",
       "type": 3,
-      "api": "./lib/sdtv.js",
-      "ext": "./lib/zb.txt",
-      "jar": "./lib/sdtv.jar"
+      "api": "https://4708.kstore.space/omg/lib/sdtv.js",
+      "ext": "https://4708.kstore.space/omg/lib/zb.txt",
+      "jar": "https://4708.kstore.space/omg/lib/sdtv.jar"
     },
     {
       "key": "好趣网",
       "name": "拾光☪好趣网",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 87,
-      "ext": "./lib/好趣网.js"
+      "ext": "https://4708.kstore.space/omg/lib/好趣网.js"
     },
     {
       "key": "hipy_js_采集之王",
       "name": "拾光☪采集之王",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "./lib/采集之王.js?type=url&params=./lib/采集静态.json"
+      "ext": "https://4708.kstore.space/omg/lib/采集之王.js?type=url&params=./lib/采集静态.json"
     },
     {
       "key": "4K在线看",
@@ -85,7 +85,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/4kav.json"
+      "ext": "https://4708.kstore.space/omg/lib/4kav.json"
     },
     {
       "key": "荐片",
@@ -95,8 +95,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/jp.js"
+      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
+      "ext": "https://4708.kstore.space/omg/lib/jp.js"
     },
     {
       "key": "荐片弹幕版",
@@ -142,12 +142,12 @@
       "key": "hipy_js_南瓜影视[优]",
       "name": "拾光☪南瓜",
       "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
+      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "./js/南瓜影视[优].js"
+      "ext": "https://4708.kstore.space/omg/js/南瓜影视[优].js"
     },
     {
       "key": "小苹果弹幕版",
