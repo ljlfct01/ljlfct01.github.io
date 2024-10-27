@@ -27,13 +27,12 @@
       "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
     {
-      "key": "📺 电视直播 | JAR",
-      "name": "📺 电视直播 | JAR",
+      "key": "电视台",
+      "name": "🐉电视台",
       "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./sites/码上/remote_live.json"
+      "api": "https://4708.kstore.space/omg/lib/sdtv.js",
+      "ext": "./tvbox.json",
+      "jar": "https://4708.kstore.space/omg/lib/sdtv.jar"
     },
     {
       "key": "🚛 厂长 | DEX",
