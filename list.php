@@ -1,5 +1,5 @@
 {
-
+  "spider": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/custom_spider_20241027.tms;md5;c3bab63ef1c7235f52674c4fbef38996",
   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729628389538/fan.txt;md5;dc29a25f7393c2c3aa9187a57f708309",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
