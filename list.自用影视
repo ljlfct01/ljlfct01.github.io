@@ -18,7 +18,7 @@
   "sites": [
        {
       "key": "豆瓣",
-      "name": "豆瓣┃推荐",
+      "name": "🐉豆瓣┃推荐",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -35,8 +35,8 @@
       "jar": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/lib/sdtv.jar"
     },
     {
-      "key": "🚛 厂长 | DEX",
-      "name": "🚛 厂长 | DEX",
+      "key": "🐉 厂长 | DEX",
+      "name": "🐉 厂长 | DEX",
       "type": 3,
       "api": "csp_Czsapp",
       "searchable": 1,
@@ -45,8 +45,8 @@
       "ext": "https://czzy.top/"
     },
     {
-      "key": "🚛 金牌 | DEX",
-      "name": "🚛 金牌 | DEX",
+      "key": "🐉 金牌 | DEX",
+      "name": "🐉 金牌 | DEX",
       "type": 3,
       "api": "csp_Jpyy",
       "searchable": 1,
@@ -55,8 +55,8 @@
       "ext": {}
     },
     {
-      "key": "🚀 荐片 | JS",
-      "name": "🚀 荐片 | JS",
+      "key": "🐉 荐片 | JS",
+      "name": "🐉 荐片 | JS",
       "type": 3,
       "api": "./sites/码上/merge.min.js",
       "searchable": 1,
