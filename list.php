@@ -19,7 +19,8 @@
   "prefix_wolong": "★卧龙TV★",
   "title": "公众号「码上瞧瞧」",
   "picture": "https://www.lintech.work/static/img/%E6%8F%92%E5%85%9C.png",
-
+  "jxUrl": "https://www.lintech.work/api/m3u8/parse?token=%s&url=%s",
+  "notice": "https://www.lintech.work/static/config/notice.json",
   "live": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
   "upgrade": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/config/main/"
 }
