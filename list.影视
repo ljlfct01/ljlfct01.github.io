@@ -3,15 +3,14 @@
  "wallpaper": "https://深色壁纸.xxooo.cf/",
  "logo": "https://4708.kstore.space/logo.gif",
   "sites": [
-    {
-      "key": "豆瓣",
-      "name": "🐉豆瓣┃推荐",
+    "key": "豆瓣",
+      "name": "🐉豆瓣",
       "type": 3,
-      "api": "csp_Douban",
+      "api": "./lib/drpy2.min.js",
       "searchable": 0,
-      "changeable": 0,
-      "ext": "https://tv.菜妮丝.top/json/douban.json",
-      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./lib/douban.js"
     },
 
     {
