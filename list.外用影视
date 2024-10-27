@@ -13,6 +13,15 @@
       "ext": "https://tv.菜妮丝.top/json/douban.json",
       "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
+ {
+      "key": "🐉 电视直播 🐉",
+      "name": "🐉 电视直播 🐉",
+      "type": 3,
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./tvbox.json"
+    },
     {
       "key": "csp_LocalFile",
       "name": "💻本地目录",
