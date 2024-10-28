@@ -34,6 +34,15 @@
       "playerType": 2,
       "jar": "http://1.95.79.193/PandaQ241006.jar;md5;4352ec15dbd1601f601249f831c2e87c"
     },
+ {
+      "key": "电视台",
+      "name": "🐉电视台",
+      "type": 3,
+      "api": "csp_Live2Vod",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/remote_live.json"
+ },
     {
       "key": "csp_Duopan",
       "name": "肥猫->🐉┃蜡笔┃影视",
@@ -274,15 +283,7 @@
       "api": "csp_SP360",
       "jar": "http://1.95.79.193/PandaQ241006.jar;md5;4352ec15dbd1601f601249f831c2e87c"
     },
-    {
-      "key": "电视台",
-      "name": "🐉电视台",
-      "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/remote_live.json"
- },
+ 
     {
       "key": "🐉 厂长 | DEX",
       "name": "🐉 厂长 | DEX",
