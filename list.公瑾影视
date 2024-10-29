@@ -3,18 +3,7 @@
  "wallpaper": "https://深色壁纸.xxooo.cf/",
 
  "lives": [
-  {
-      "key": "时光机",
-      "name": "☕️时光机标准杯 🗓️v20241029-🧵165",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "sourceType": 0
-      }
-    },
+ 
     {
       "name": "专用直播",
       "type": 0,
@@ -73,6 +62,18 @@
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
+ {
+      "key": "时光机",
+      "name": "☕️时光机标准杯 🗓️v20241029-🧵165",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "sourceType": 0
+      }
+    },
        {
       "key": "豆瓣",
       "name": "🐉豆瓣┃推荐",
