@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider_20241030.tms;md5;6bf356b12397cde486cb0673c17e47d9",
+  "spider": "https://www.lintech.work/static/source/custom_spider_20241030.tms;md5;6bf356b12397cde486cb0673c17e47d9",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
