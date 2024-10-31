@@ -24,7 +24,8 @@
       "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": {}
+      "ext": "https://tv.菜妮丝.top/json/douban.json",
+      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
     {
       "key": "📺 电视直播 | JAR",
