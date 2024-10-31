@@ -24,29 +24,8 @@
       "filterable": 0,
       "ext": "https://4708.kstore.space/omg/lib/douban.js"
     },
-    {
-      "key": "csp_LocalFile",
-      "name": "💻本地目录",
-      "type": 3,
-      "api": "csp_LocalFile",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "type_flag": 0
-    },
-    {
-      "key": "配置中心",
-      "name": "拾光☪‍配置",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.43
-      }
-    },
+  
+
     {
       "key": "央视大全",
       "name": "拾光☪央视大全",
@@ -59,28 +38,8 @@
       "ext": "https://4708.kstore.space/omg/lib/大全央视.js"
     },
    
-    {
-      "key": "好趣网",
-      "name": "拾光☪好趣网",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 87,
-      "ext": "/list.外播"
-    },
-    {
-      "key": "hipy_js_采集之王",
-      "name": "拾光☪采集之王",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/lib/采集之王.js?type=url&params=./lib/采集静态.json"
-    },
+
+ 
     {
       "key": "4K在线看",
       "name": "拾光☪4Kav",
