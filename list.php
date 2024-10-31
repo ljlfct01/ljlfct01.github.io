@@ -24,8 +24,7 @@
       "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
-     "ext": {}
+      "ext": {}
     },
     {
       "key": "📺 电视直播 | JAR",
