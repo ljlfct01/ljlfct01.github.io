@@ -111,10 +111,9 @@
       "key": "📺 电视直播 | JAR",
       "name": "📺 电视直播 | JAR",
       "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "https://4708.kstore.space/omg/list.%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%82%B9%E6%92%AD"
+      "api": "https://4708.kstore.space/omg/lib/sdtv.js",
+      "ext": "https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%82%B9%E6%92%AD",
+      "jar": "https://4708.kstore.space/omg/lib/sdtv.jar"
     },
    {
       "key": "4K在线看",
