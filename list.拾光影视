@@ -3,14 +3,86 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "https://4708.kstore.space/logo.gif",
  "lives": [
-    {
+      {
       "name": "live",
       "type": 0,
-      "url": "",
+      "url": "./专用直播",
       "playerType": 1,
       "ua": "okhttp/3.15",
-      "epg": "http://www.jxiptv.cn:5678/epg",
-      "logo": "https://epg.iill.top/logo/{name}.png"
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:567/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "暮雨",
+      "type": 0,
+      "url": "https://4key.cn/FP",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "君赢天下",
+      "type": 0,
+      "url": "https://d.kstore.space/download/5288/君赢天下.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "拾光电视",
+      "type": 0,
+      "url": "http://xmbjm.fh4u.org/omg18.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "好视TV",
+      "type": 0,
+      "url": "http://61.163.58.154:1314/app/dwq.php",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "多彩TV",
+      "type": 0,
+      "url": "http://wuyun.uk.to/zb/1727603438.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "AKTV",
+      "type": 0,
+      "url": "https://aktv.top/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "妖火",
+      "type": 0,
+      "url": "https://raw.gitmirror.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "sites": [
