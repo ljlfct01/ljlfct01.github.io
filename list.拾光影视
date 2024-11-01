@@ -6,7 +6,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "./list.外播",
+      "url": "",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://www.jxiptv.cn:5678/epg",
@@ -26,16 +26,13 @@
     },
   
 
-    {
-      "key": "央视大全",
-      "name": "拾光☪央视大全",
+       {
+      "key": "电视台",
+      "name": "拾光☪电视台",
       "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/lib/大全央视.js"
+      "api": "https://4708.kstore.space/omg/lib/sdtv.js",
+      "ext": "./list.直播转点播",
+      "jar": "https://4708.kstore.space/omg/lib/sdtv.jar"
     },
    
 
