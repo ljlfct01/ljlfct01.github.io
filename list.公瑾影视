@@ -5,7 +5,7 @@
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]"
   "lives": [
-    {
+         {
       "name": "live",
       "type": 0,
       "url": "./专用直播",
@@ -78,9 +78,18 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 {
-      "name": "妖火",
+      "name": "宝盒 LIVE",
       "type": 0,
-      "url": "https://raw.gitmirror.com/XiaoZhang5656/xiaozhang-5656.github.io/main/iptv-live.txt",
+      "url": "https://guot55.serv00.net/bhlive.php",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "yuanzl77",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
