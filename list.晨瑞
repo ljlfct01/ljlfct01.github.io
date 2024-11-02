@@ -1,0 +1,22 @@
+{
+  "lives": [
+    {
+      "name": "公众号【晨瑞黑科】直播源A",
+      "type": 0,
+      "url": "https://git.acwing.com/chenrui/tvbox/-/raw/main/IPTV%EF%BC%88%E8%87%AA%E5%B7%B1%E7%9C%8B%E7%9A%84%EF%BC%89",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "公众号【晨瑞黑科】直播源B",
+      "type": 0,
+      "url": "https://git.acwing.com/chenrui/tvbox/-/raw/main/%E6%B5%8B%E8%AF%95IPTV",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    }
+  ]
+}
