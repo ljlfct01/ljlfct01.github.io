@@ -289,16 +289,7 @@
       "ext": "https://4708.kstore.space/omg/lib/瓜子.js"
     },
   
-    {
-      "key": "csp_XYQHiker_七新影视",
-      "name": "拾光☪七新",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/七新影视.json"
-    },
+  
     {
       "key": "csp_XYQHiker_可可影视",
       "name": "拾光☪可可",
@@ -309,16 +300,7 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/可可影视.json"
     },
-    {
-      "key": "4K影视",
-      "name": "拾光☪4K影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/4K影视.json"
-    },
+ 
  
     {
       "key": "csp_星辰",
@@ -330,41 +312,9 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/xcys.json"
     },
-    {
-      "key": "剧集",
-      "name": "拾光☪剧集",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "搜索url": "https://wap.ijujitv.cc/search/-------------.html?wd=**",
-        "分类url": "https://wap.ijujitv.cc/show/{cateId}--------{catePg}---{year}.html",
-        "分类": "陆剧$6#日剧$2#美剧$3#泰剧$4#港剧$7#台剧$8#短剧$9"
-      }
-    },
-    {
-      "key": " 百姓 ",
-      "name": "拾光☪百姓",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
-        "分类url": "https://www.gymboreejn.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html[https://www.gymboreejn.com/vodtype/{cateId}.html]",
-        "分类": "电影$1#剧集$2#综艺$3#动漫$4#动画片$29#短剧$31#影视解说$32#邵氏电影$39"
-      }
-    },
-    {
-      "key": "三米ys",
-      "name": "拾光☪三米",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "http://www.9-here.com/index.php/s/S-id-{cateId}-{catePg}/area/{area}/by/{by}/class/{class}/lang/{lang}/year/{year}.html[http://www.9-here.com/index.php/t/S-{cateId}-{catePg}.html]",
-        "分类": "电影$movie#连续剧$drama#动漫$comic#综艺$tvshow"
-      }
-    },
+ 
+
+ 
     {
       "key": "美柏",
       "name": "拾光☪美柏",
@@ -375,17 +325,7 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/美柏.json"
     },
-    {
-      "key": "凯奇追剧",
-      "name": "拾光☪凯奇",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "+hl-content-text\">&&</span>",
-        "分类url": "https://www.kqyy.tv/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$dianying#连续剧$lianxuju#动漫$dongman#综艺$zongyi#短剧$duanshipin"
-      }
-    },
+
     {
       "key": "热播之家",
       "name": "拾光☪热播",
@@ -406,16 +346,7 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/shyyVIP.json"
     },
-    {
-      "key": "csp_xBPQ_奇优",
-      "name": "拾光☪奇优",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/qiyou.json"
-    },
+ 
    
   
  
@@ -430,22 +361,7 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/HDmoli.json"
     },
-    {
-      "key": "看片狂人",
-      "name": "拾光☪狂人",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "免嗅": "1",
-        "线路数组": "class=\"fed-drop-btns fed-padding&&</li>",
-        "搜索url": "https://www.kpkuang.fun/vodsearch/-------------.html?wd={wd}",
-        "分类url": "https://www.kpkuang.fun/vodshow/{cateId}-{area}-time------{catePg}---{year}--.html[https://www.kpkuang.one/vodtype/{cateId}/]",
-        "分类": "国产剧$13#电影$1#连续剧$2#综艺$3#动漫$4"
-      }
-    },
+ 
     {
       "key": "晨光电影",
       "name": "拾光☪晨光",
@@ -586,26 +502,8 @@
       }
     },
   
-    {
-      "key": "VIP影视",
-      "name": "拾光☪VIP秒播",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://4708.kstore.space/omg/lib/VIPyingshi.json"
-    },
-    {
-      "key": "csp_Voflix",
-      "name": "拾光☪Voflix",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/voflix.json"
-    },
+   
+  
     {
       "key": "Vidhub视频",
       "name": "拾光☪视频库",
@@ -616,16 +514,7 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/Vidhub.json"
     },
-    {
-      "key": "VIP影视",
-      "name": "拾光☪VIP2K",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://4708.kstore.space/omg/lib/VIPyingshi.json"
-    },
+  
     {
       "key": "360zy",
       "name": "拾光☪360采集",
@@ -928,86 +817,14 @@
    
  
 
-    {
-      "key": "csp_xBPQ_blifun影院",
-      "name": "拾光☪BLF影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/0930/blifun影院.json"
-    },
-    {
-      "key": "xbpq_韩迷TV",
-      "name": "拾光☪韩蜜",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/0930/xbpq_韩迷TV.json"
-    },
-    {
-      "key": "电视剧网",
-      "name": "拾光☪剧透",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/0831/电视剧网.json"
-    },
-    {
-      "key": "清凌影院",
-      "name": "拾光☪清凌",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/0831/清凌影院.json"
-    },
-    {
-      "key": "森林影院",
-      "name": "拾光☪森林",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/0831/森林影院.json"
-    },
-    {
-      "key": "94影院",
-      "name": "拾光☪九四",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/0831/94影院.json"
-    },
-    {
-      "key": "理理影院",
-      "name": "拾光☪理理",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/0831/理理影院.json"
-    },
-    {
-      "key": "xbpq_免费短剧",
-      "name": "拾光☪免费剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/0930/免费短剧.json"
-    },
+
+
+ 
+  
+
+
+ 
+
     {
       "key": "无忧短剧",
       "name": "拾光☪无忧短剧",
@@ -1054,26 +871,8 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/河马短剧.json"
     },
-    {
-      "key": "csp_XYQHiker_短剧屋",
-      "name": "拾光☪短剧屋",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/短剧屋.json"
-    },
-    {
-      "key": "js_星芽短剧",
-      "name": "拾光☪星芽短剧",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/星芽短剧.js"
-    },
+
+ 
     {
       "key": "js_蓝莓短剧",
       "name": "拾光☪蓝莓短剧",
@@ -1084,17 +883,7 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/蓝莓短剧.js"
     },
-    {
-      "key": "你好帅",
-      "name": "拾光☪你好短剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://nhsyy.com/vodshwo/{cateId}--{by}------{catePg}---.html",
-        "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#言情$yanqing#玄幻$xuanhuan",
-        "播放数组": "<div class=\"sort-item\"&&</div>"
-      }
-    },
+  
     {
       "key": "评书",
       "name": "拾光☪评书随听",
