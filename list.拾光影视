@@ -101,16 +101,7 @@
       "ext": "https://4708.kstore.space/omg/lib/douban.js"
     },
 
-   {
-      "key": "4K在线看",
-      "name": "拾光☪4Kav",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/4kav.json"
-    },
+  
     {
       "key": "荐片",
       "name": "拾光☪荐P2P",
@@ -149,19 +140,7 @@
       },
       "timeout": 10
     },
-    {
-      "key": "文才",
-      "name": "拾光☪文才",
-      "type": 3,
-      "api": "csp_Jpys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
+  
     {
       "key": "hipy_js_南瓜影视[优]",
       "name": "拾光☪南瓜",
@@ -281,30 +260,8 @@
         "国产综艺"
       ]
     },
-    {
-      "key": "韩圈",
-      "name": "拾光☪韩剧",
-      "type": 3,
-      "api": "csp_HanXiaoQuan",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-    {
-      "key": "厂长弹幕版",
-      "name": "拾光☪厂长",
-      "type": 3,
-      "api": "csp_Czzy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
+  
+ 
     {
       "key": "金牌影视",
       "name": "拾光☪金牌",
@@ -312,17 +269,7 @@
       "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "ext": "https://4708.kstore.space/omg/lib/金牌影视.js"
     },
-    {
-      "key": "js_subaibai",
-      "name": "拾光☪素白",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/素白白[优].js"
-    },
+ 
     {
       "key": "畅梦",
       "name": "拾光☪畅梦",
@@ -341,16 +288,7 @@
       "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
       "ext": "https://4708.kstore.space/omg/lib/瓜子.js"
     },
-    {
-      "key": "csp_XYQHiker_农民影视",
-      "name": "拾光☪农民",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/农民影视.json"
-    },
+  
     {
       "key": "csp_XYQHiker_七新影视",
       "name": "拾光☪七新",
@@ -381,16 +319,7 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/4K影视.json"
     },
-    {
-      "key": "js_电影先生",
-      "name": "拾光☪影城",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/电影先生.js"
-    },
+ 
     {
       "key": "csp_星辰",
       "name": "拾光☪星辰",
@@ -487,46 +416,10 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/qiyou.json"
     },
-    {
-      "key": "光棍影视",
-      "name": "拾光☪光棍",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/guangun.json"
-    },
-    {
-      "key": "子子影视",
-      "name": "拾光☪子子",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/子子.json"
-    },
-    {
-      "key": "圣城影视",
-      "name": "拾光☪圣城",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/sc1080.json"
-    },
-    {
-      "key": "米爱影视",
-      "name": "拾光☪米爱",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/miaiys.json"
-    },
+   
+  
+ 
+
     {
       "key": "HDmoli",
       "name": "拾光☪魔力",
@@ -602,28 +495,8 @@
       "order_num": 0,
       "ext": "https://4708.kstore.space/omg/js/一支穿云箭.js"
     },
-    {
-      "key": "hipy_js_HDmoli",
-      "name": "拾光☪HDmoli",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/js/HDmoli.js"
-    },
-    {
-      "key": "hipy_js_多多追剧[优]",
-      "name": "拾光☪多多追剧",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/lib/多多追剧[优].js"
-    },
+  
+ 
     {
       "key": "️爱看Bot弹幕版",
       "name": "拾光☪爱看Bot",
@@ -648,17 +521,7 @@
       "order_num": 73,
       "ext": "https://4708.kstore.space/omg/lib/哔哩影视[官].js"
     },
-    {
-      "key": "hipy_js_4k剧院",
-      "name": "拾光☪4k剧院",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 6,
-      "ext": "https://4708.kstore.space/omg/lib/4k剧院.js"
-    },
+  
     {
       "key": "茶狐杯",
       "name": "拾光☪茶狐杯",
@@ -722,17 +585,7 @@
         "简介": "请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >"
       }
     },
-    {
-      "key": "大师兄",
-      "name": "拾光☪大师兄",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
-        "分类url": "https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-        "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
-      }
-    },
+  
     {
       "key": "VIP影视",
       "name": "拾光☪VIP秒播",
@@ -1066,125 +919,15 @@
       "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "ext": "https://4708.kstore.space/omg/lib/360影视[官].js"
     },
+ 
+   
+   
+ 
+   
+ 
     {
-      "key": "木偶网盘",
-      "name": "拾光☪木偶",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
-        "site": "https://mogg.top",
-        "danmu": true
-      },
-      "timeout": 25
-    },
-    {
-      "key": "玩偶哥哥",
-      "name": "拾光☪玩偶",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
-        "wogg": true,
-        "danmu": true
-      },
-      "timeout": 30
-    },
-    {
-      "key": "至臻网盘",
-      "name": "拾光☪至臻",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
-        "site": "https://mihdr.top",
-        "danmu": true
-      },
-      "timeout": 25
-    },
-    {
-      "key": "欧歌网盘",
-      "name": "拾光☪欧歌",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
-        "site": "https://woog.nxog.top/",
-        "danmu": true
-      },
-      "timeout": 25
-    },
-    {
-      "key": "蜡笔网盘",
-      "name": "拾光☪蜡笔",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
-        "site": "http://labipan.com/",
-        "danmu": true
-      },
-      "timeout": 25
-    },
-    {
-      "key": "立播网盘",
-      "name": "拾光☪立播",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
-        "site": "https://libvio.link",
-        "danmu": true
-      },
-      "timeout": 30
-    },
-    {
-      "key": "土豆网盘",
-      "name": "拾光☪土豆",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
-        "site": "https://yunpan.yunpay.cc/",
-        "danmu": true
-      },
-      "timeout": 25
-    },
+ 
+
     {
       "key": "csp_xBPQ_blifun影院",
       "name": "拾光☪BLF影院",
@@ -1833,84 +1576,10 @@
       },
       "timeout": 20
     },
-    {
-      "key": "我的阿里",
-      "name": "拾光☪我的阿里",
-      "type": 3,
-      "api": "csp_MyAli",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt"
-      },
-      "style": {
-        "type": "list"
-      },
-      "timeout": 30
-    },
-    {
-      "key": "我的夸克",
-      "name": "拾光☪我的夸克",
-      "type": 3,
-      "api": "csp_MyQuark",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt"
-      },
-      "style": {
-        "type": "list"
-      },
-      "timeout": 30
-    },
-    {
-      "key": "我的UC",
-      "name": "拾光☪我的UC",
-      "type": 3,
-      "api": "csp_MyUc",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt"
-      },
-      "style": {
-        "type": "list"
-      },
-      "timeout": 30
-    },
-    {
-      "key": "阿里合集",
-      "name": "拾光☪阿里合集",
-      "type": 3,
-      "api": "csp_AliShare",
-      "searchable": 1,
-      "changeable": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
-        "share": "http://127.0.0.1:9978/file/tvbox/阿里集合.json"
-      },
-      "style": {
-        "type": "list"
-      },
-      "timeout": 30
-    },
-    {
-      "key": "csp_Mp4Mov",
-      "name": "拾光☪Mp4电影",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+  
+   
+
+ 
     {
       "key": "csp_New6v",
       "name": "拾光☪新6V",
