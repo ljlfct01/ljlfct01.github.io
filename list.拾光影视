@@ -119,63 +119,210 @@
       "filterable": 0,
       "ext": "https://4708.kstore.space/omg/lib/douban.js"
     },
-  {
-      "key": "💥 天堂 | JAR",
-      "name": "💥 天堂 | JAR",
+ {
+      "key": "Lib",
+      "name": "饭->🌟立播┃秒播",
       "type": 3,
-      "api": "csp_TvDy",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "💥 云播 | JAR",
-      "name": "💥 云播 | JAR",
-      "type": 3,
-      "api": "csp_HkTv",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "🍀 RARBT | JAR",
-      "name": "🍀 RARBT | JAR",
-      "type": 3,
-      "api": "csp_Rarbt",
+      "api": "csp_Libvio",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "ext": {
-        "siteUrl": "https://www.rarbt.fun",
-        "jxToken": "tm://tm/jxToken.txt",
-        "enableJX": true
-      }
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
     },
     {
-      "key": "🧲 电影港 | JAR",
-      "name": "🧲 电影港 | JAR",
+      "key": "文采",
+      "name": "饭->💮文采┃秒播",
       "type": 3,
-      "api": "csp_DyGang",
+      "api": "csp_Jpys",
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
     },
     {
-      "key": "🧲 迅雷吧 | JAR",
-      "name": "🧲 迅雷吧 | JAR",
+      "key": "苹果",
+      "name": "饭->🍎苹果┃不卡",
       "type": 3,
-      "api": "csp_Xunlei8",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
     },
     {
-      "key": "🧲 6V | JAR",
-      "name": "🧲 6V | JAR",
+      "key": "厂长",
+      "name": "饭->📔厂长┃不卡",
+      "type": 3,
+      "api": "csp_NewCz",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.czys.pro/",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "热播",
+      "name": "饭->📺热播┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "AO7TcBkd8I/B5wQc4Qma+pU=",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "追剧",
+      "name": "饭->🍓追剧┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "playerType": 2,
+      "ext": "AO7TcBkd8IPB+BwH4Qma+opv",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "萌米",
+      "name": "饭->👀萌米┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "timeout": 15,
+      "playerType": 1,
+      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg==",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "南瓜",
+      "name": "饭->🎃南瓜┃多线",
+      "type": 3,
+      "api": "csp_NanGua",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "酷看",
+      "name": "饭->💡酷看┃秒播",
+      "type": 3,
+      "api": "csp_Kkys",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "原创",
+      "name": "饭->☀原创┃不卡",
+      "type": 3,
+      "api": "csp_YCyz",
+      "timeout": 15,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "可可",
+      "name": "饭->👻可可┃多线",
+      "type": 3,
+      "api": "csp_Kekys",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "小点",
+      "name": "饭->💥小点┃多线",
+      "type": 3,
+      "api": "csp_Appxd",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw==",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "zxzj",
+      "name": "饭->🍊在线┃外剧",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzjhd.com/",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "低端",
+      "name": "饭->⏮️低端┃外剧",
+      "type": 3,
+      "api": "csp_Ddrk",
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "贱贱",
+      "name": "饭->🐭贱贱┃P2P",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": "1",
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
+    },
+    {
+      "key": "Auete",
+      "name": "饭->🏝奥特┃无广",
+      "type": 3,
+      "api": "csp_Auete",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://auete.pro/",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "新6V",
+      "name": "饭->🧲新6V┃磁力",
       "type": 3,
       "api": "csp_SixV",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.66ss.org/"
+      "changeable": 0,
+      "ext": "https://www.xb6v.com/",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "短剧",
+      "name": "饭->🌈上头┃短剧",
+      "type": 3,
+      "api": "csp_Djtt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724906148757/fan.txt;md5;ca2df82cc6006f2ecfa065159243d880"
     },
   
     {
