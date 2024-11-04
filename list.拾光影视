@@ -22,9 +22,27 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 {
-      "name": "晴天TV",
+      "name": "开心TV",
       "type": 0,
-      "url": "http://rihou.cc:567/qtsd",
+      "url": "http://kxrj.site:55/lib/kx2024.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "拾光电视",
+      "type": 0,
+      "url": "https://4708.kstore.space/zhibo/tv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "西部电视",
+      "type": 0,
+      "url": "https://codeberg.org/xiaozhuaijie/zj.json/raw/branch/main/tv.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
