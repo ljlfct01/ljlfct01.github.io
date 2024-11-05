@@ -14,6 +14,14 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
  {
+      "name": "直播",
+      "type": 0,
+      "url": "http://101.200.122.188/tv/dgzb.php",
+      "ua": "donggezhuanyong",
+        "epg": "http://epg.hackserver.net/epg.php?ch={name}&date={date}",
+        "logo": "https://live.fanmingming.com/tv/{name}.png"
+    }
+ {
       "name": "猫TV",
       "type": 0,
       "url": "http://rihou.cc:567/gggg.nzk",
