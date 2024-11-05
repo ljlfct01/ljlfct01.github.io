@@ -39,7 +39,15 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
+ {
+      "name": "直播",
+      "type": 0,
+      "url": "http://101.200.122.188/tv/dgzb.php",
+      "ua": "okhttp/3.15",
+       "playerType": 1,
+        "epg": "http://epg.hackserver.net/epg.php?ch={name}&date={date}",
+        "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
 {
       "name": "君赢天下",
       "type": 0,
