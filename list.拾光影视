@@ -114,76 +114,16 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
-
-
-  ],
+ ],
   "sites": [
-  
-
-   {
+    {
       "key": "金牌影视",
       "name": "拾光☪金牌",
       "type": 3,
       "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
       "ext": "https://4708.kstore.space/omg/lib/金牌影视.js"
     },
-  
-  
-  
-   {
-      "key": "畅梦",
-      "name": "拾光☪畅梦",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/畅梦.js"
-    },
-    {
-      "key": "瓜子",
-      "name": "拾光☪瓜子",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/瓜子.js"
-    },
-  
-  
-  
- 
- 
-   
- 
-
- 
-  
-   
-   
- 
-   
-  
- 
-
-  
- 
-    {
-      "key": "晨光电影",
-      "name": "拾光☪晨光",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "剧情介绍: +white-space: initial;\">&&</div>",
-        "数组": "fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2\">&&</li>",
-        "图片": "data-original=\"&&\"",
-        "标题": "fed-visible fed-part-eone\" href=*>&&</a>",
-        "副标题": "fed-text-white fed-text-center\">&&</span>",
-        "线路数组": "fed-drop-btns fed-padding fed-col-xs3 fed-col-md2\">&&</li>",
-        "分类url": "https://www.cgdyw.net/s/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-        "分类": "短剧$duanju#电视剧$lianxuju#电影$dianying#动漫$dongman#综艺$zongyi"
-      }
-    },
-    {
+     {
       "key": "高清在线",
       "name": "拾光☪高清",
       "type": 3,
@@ -195,36 +135,6 @@
         "分类": "短剧$duanju#电视剧$dsj#电影$dy#动漫$dm#综艺$zy"
       }
     },
-  
-    {
-      "key": "hipy_js_一支穿云箭",
-      "name": "拾光☪穿云箭",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/js/一支穿云箭.js"
-    },
-  
- 
-  
-    {
-      "key": "hipy_js_哔哩影视[官]",
-      "name": "拾光☪哔哩影视",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 73,
-      "ext": "https://4708.kstore.space/omg/lib/哔哩影视[官].js"
-    },
-  
-  
-  
-   
     {
       "key": "hipy_js_TVB云播",
       "name": "拾光☪TVB云播",
@@ -237,12 +147,7 @@
       "ext": "https://4708.kstore.space/omg/lib/TVB云播.js"
     },
    
-   
-   
-  
- 
-  
-    {
+     {
       "key": "360zy",
       "name": "拾光☪360采集",
       "type": 1,
@@ -283,137 +188,6 @@
         "女频恋爱",
         "成长逆袭",
         "反转爽剧"
-      ]
-    },
-    {
-      "key": "csp_xml_爱坤",
-      "name": "拾光☪爱坤采集",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
-      "categories": [
-        "爽文短剧",
-        "动作片",
-        "国产剧",
-        "喜剧片",
-        "科幻片",
-        "恐怖片",
-        "爱情片",
-        "剧情片",
-        "战争片",
-        "纪录片",
-        "动漫电影",
-        "欧美剧",
-        "港澳剧",
-        "韩剧",
-        "台湾剧",
-        "日剧",
-        "海外剧",
-        "泰剧",
-        "体育",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "伦理片"
-      ]
-    },
-    {
-      "key": "csp_xml_红牛",
-      "name": "拾光☪红牛采集",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
-      "categories": [
-        "短剧",
-        "动作片",
-        "国产剧",
-        "喜剧片",
-        "科幻片",
-        "恐怖片",
-        "爱情片",
-        "剧情片",
-        "战争片",
-        "纪录片",
-        "动漫电影",
-        "欧美剧",
-        "犯罪片",
-        "港澳剧",
-        "韩剧",
-        "泰剧",
-        "台湾剧",
-        "日剧",
-        "海外剧",
-        "其他片",
-        "悬疑片",
-        "奇幻片",
-        "动画片",
-        "体育赛事",
-        "国产动漫",
-        "日本动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺"
-      ]
-    },
-    {
-      "key": "索尼资源",
-      "name": "拾光☪索尼采集",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
-      "categories": [
-        "爽文短剧",
-        "邵氏电影",
-        "动作片",
-        "国产剧",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "港剧",
-        "台剧",
-        "泰剧",
-        "海外剧",
-        "纪录片",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "动画片",
-        "港台动漫",
-        "海外动漫",
-        "演唱会",
-        "体育赛事",
-        "篮球",
-        "足球",
-        "斯诺克"
       ]
     },
     {
@@ -493,68 +267,8 @@
         "欧美动漫"
       ]
     },
-    {
-      "key": "爱奇",
-      "name": "拾光☪爱奇",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/爱奇艺.js"
-    },
-    {
-      "key": "游酷",
-      "name": "拾光☪游酷",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/优酷.js"
-    },
-    {
-      "key": "企鹅",
-      "name": "拾光☪企鹅",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/腾讯VIP.js"
-    },
-    {
-      "key": "芒果",
-      "name": "拾光☪芒果",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/芒果.js"
-    },
-    {
-      "key": "艘狗",
-      "name": "拾光☪艘狗",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/搜狗.js"
-    },
-    {
-      "key": "360影视",
-      "name": "拾光☪360剧",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/360影视[官].js"
-    },
  
-   
-   
- 
-   
- 
-   
- 
-
-
-
- 
-  
-
-
- 
-
- 
- 
-    {
+   {
       "key": "js_蓝莓短剧",
       "name": "拾光☪蓝莓短剧",
       "type": 3,
@@ -564,9 +278,7 @@
       "filterable": 1,
       "ext": "https://4708.kstore.space/omg/lib/蓝莓短剧.js"
     },
-  
-   
-    {
+   {
       "key": "hipy_js_一曲肝肠断",
       "name": "拾光☪梨园春",
       "type": 3,
@@ -577,13 +289,6 @@
       "order_num": 0,
       "ext": "https://4708.kstore.space/omg/js/一曲肝肠断.js"
     },
-   
-  
-   
- 
- 
-  
-  
     {
       "key": "哔哩直播",
       "name": "拾光☪哔哩直播",
@@ -606,220 +311,9 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
-    },
-    {
-      "key": "Jrsjs",
-      "name": "拾光☪Jrs球迷",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/jrk.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "hipy_js_360吧[球]",
-      "name": "拾光☪360球",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "playerType": "1",
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/lib/360吧[球].js"
-    },
-    {
-      "key": "310js",
-      "name": "拾光☪310看球",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/310直播.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-  
-   
-    {
-      "key": "虎牙",
-      "name": "拾光☪虎牙",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/huyazhibo.js"
-    },
-    {
-      "key": "斗鱼js",
-      "name": "拾光☪斗鱼",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/斗鱼直播.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.755
-      },
-      "playerType": "2",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-  
- 
-    {
-      "key": "酷奇",
-      "name": "拾光☪酷奇MV",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/酷奇MV.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
- 
-    {
-      "key": "js_a8音乐",
-      "name": "拾光☪A8音乐",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/a8yy.js"
-    },
-    {
-      "key": "hipy_js_KTV歌厅[听]",
-      "name": "拾光☪KTV歌厅",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/js/KTV歌厅[听].js"
-    },
-    {
-      "key": "hipy_js_种子音乐[听]",
-      "name": "拾光☪种子音乐",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/js/种子音乐[听].js"
-    },
-    {
-      "key": "hipy_js_中华听书网[听]",
-      "name": "拾光☪听书网",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/js/中华听书网[听].js"
-    },
-    {
-      "key": "博看听书",
-      "name": "拾光☪听书博看",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "ext": "https://4708.kstore.space/omg/lib/博看听书.js"
-    },
-    {
-      "key": "六月听书",
-      "name": "拾光☪听书六月",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "ext": "https://4708.kstore.space/omg/lib/六月听书.js"
-    },
-    {
-      "key": "hipy_js_i275听书[听]",
-      "name": "拾光☪i275听书",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/js/i275听书[听].js"
-    },
-    {
-      "key": "hipy_js_有声听书网[听]",
-      "name": "拾光☪有声听书",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/js/有声听书网[听].js"
-    },
-    {
-      "key": "hipy_js_有声绘本网[听]",
-      "name": "拾光☪有声绘本",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/js/有声绘本网[听].js"
-    },
-    {
-      "key": "hipy_js_贝乐虎[儿]",
-      "name": "拾光☪贝乐虎",
-      "type": 3,
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://4708.kstore.space/omg/lib/贝乐虎[儿].js"
     }
-  
-  
-  
-  
  
-  
-   
-
- 
- 
- 
- 
- 
-
-    
-  
-  
- 
-  
-  ],
+     ],
   "parses": [
     {
       "name": "聚合1",
