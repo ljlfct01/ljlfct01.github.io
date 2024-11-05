@@ -162,142 +162,12 @@
       },
       "timeout": 10
     },
-    {
-      "key": "木耳",
-      "name": "拾光☪黑木耳",
-      "type": 1,
-      "api": "https://json02.heimuer.xyz/api.php/provide/vod",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 20,
-      "categories": [
-        "剧情片",
-        "动作片",
-        "冒险片",
-        "喜剧片",
-        "奇幻片",
-        "恐怖片",
-        "悬疑片",
-        "惊悚片",
-        "灾难片",
-        "爱情片",
-        "犯罪片",
-        "科幻片",
-        "歌舞片",
-        "战争片",
-        "经典片",
-        "动画电影",
-        "网络电影",
-        "其他片",
-        "国产剧",
-        "港剧",
-        "韩剧",
-        "日剧",
-        "泰剧",
-        "台剧",
-        "欧美剧",
-        "新马剧",
-        "其他剧",
-        "国产综艺",
-        "港台综艺",
-        "韩国综艺",
-        "日本综艺",
-        "欧美综艺",
-        "新马泰综艺",
-        "其他综艺",
-        "古装短剧",
-        "虐恋短剧",
-        "逆袭短剧",
-        "神豪短剧",
-        "重生短剧",
-        "复仇短剧",
-        "穿越短剧",
-        "甜宠短剧",
-        "强者短剧",
-        "欧美动漫",
-        "日本动漫",
-        "韩国动漫",
-        "国产动漫",
-        "港台动漫"
-      ],
-      "header": {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-      }
-    },
-    {
-      "key": "蚂蚁",
-      "name": "拾光☪蚂蚁",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "playUrl": "json:http://110.42.3.99:880/rmm.php/?url=",
-      "categories": [
-        "爽文短剧",
-        "国产剧",
-        "国产动漫",
-        "动画电影",
-        "网络电影",
-        "动作片",
-        "喜剧片",
-        "灾难片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "惊悚片",
-        "犯罪片",
-        "冒险片",
-        "悬疑片",
-        "武侠片",
-        "奇幻片",
-        "国产综艺"
-      ]
-    },
-  
+   
+   
  
    
- {
-      "key": "荐片",
-      "name": "拾光☪荐P2P",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/jp.js"
-    },
-    {
-      "key": "荐片弹幕版",
-      "name": "拾光☪荐片",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
-    {
-      "key": "天天弹幕版",
-      "name": "拾光☪天天",
-      "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
+
+   
  
     {
       "key": "畅梦",
@@ -319,16 +189,7 @@
     },
   
   
-    {
-      "key": "csp_XYQHiker_可可影视",
-      "name": "拾光☪可可",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://4708.kstore.space/omg/lib/可可影视.json"
-    },
+  
  
  
     {
