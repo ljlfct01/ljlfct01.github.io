@@ -129,45 +129,14 @@
       "ext": "https://4708.kstore.space/omg/lib/douban.js"
     },
 
-  
-    {
-      "key": "荐片",
-      "name": "拾光☪荐P2P",
+   {
+      "key": "金牌影视",
+      "name": "拾光☪金牌",
       "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
       "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/jp.js"
+      "ext": "https://4708.kstore.space/omg/lib/金牌影视.js"
     },
-    {
-      "key": "荐片弹幕版",
-      "name": "拾光☪荐片",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
-    {
-      "key": "天天弹幕版",
-      "name": "拾光☪天天",
-      "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
+  
   
     {
       "key": "hipy_js_南瓜影视[优]",
@@ -290,12 +259,44 @@
     },
   
  
-    {
-      "key": "金牌影视",
-      "name": "拾光☪金牌",
+   
+ {
+      "key": "荐片",
+      "name": "拾光☪荐P2P",
       "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": "1",
       "api": "https://4708.kstore.space/omg/lib/drpy2.min.js",
-      "ext": "https://4708.kstore.space/omg/lib/金牌影视.js"
+      "ext": "https://4708.kstore.space/omg/lib/jp.js"
+    },
+    {
+      "key": "荐片弹幕版",
+      "name": "拾光☪荐片",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "天天弹幕版",
+      "name": "拾光☪天天",
+      "type": 3,
+      "api": "csp_TianTian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
     },
  
     {
