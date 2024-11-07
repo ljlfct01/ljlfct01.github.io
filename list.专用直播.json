@@ -30,6 +30,15 @@
 
 {
     "lives": [
+       {
+      "name": "live",
+      "type": 0,
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E4%B8%93%E7%94%A8%E7%9B%B4%E6%92%AD",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "直播",
       "type": 0,
@@ -38,17 +47,7 @@
         "epg": "http://epg.hackserver.net/epg.php?ch={name}&date={date}",
         "logo": "https://live.fanmingming.com/tv/{name}.png"
   },
-   {
-      "name": "live",
-      "type": 0,
-      "url": "./专用直播",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-
- {
+  {
       "name": "猫TV",
       "type": 0,
       "url": "http://rihou.cc:567/gggg.nzk",
@@ -66,71 +65,7 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-{
-      "name": "拾光电视",
-      "type": 0,
-      "url": "https://4708.kstore.space/zhibo/tv.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-{
-      "name": "宝盒电视",
-      "type": 0,
-      "url": "https://ygbh.site/bh.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-{
-      "name": "西部电视",
-      "type": 0,
-      "url": "https://codeberg.org/xiaozhuaijie/zj.json/raw/branch/main/tv.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
- {
-      "name": "暮雨",
-      "type": 0,
-      "url": "https://4key.cn/FP",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-{
-      "name": "君赢天下",
-      "type": 0,
-      "url": "https://d.kstore.space/download/5288/君赢天下.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-
-{
-      "name": "好视TV",
-      "type": 0,
-      "url": "http://61.163.58.154:1314/app/dwq.php",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-{
-      "name": "多彩TV",
-      "type": 0,
-      "url": "http://wuyun.uk.to/zb/1727603438.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-{
+   {
       "name": "AKTV",
       "type": 0,
       "url": "http://aktv.top/live.txt",
@@ -139,7 +74,15 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
+   {
+      "name": "大葱 Gather",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },  
 {
       "name": "大葱 +Adult",
       "type": 0,
