@@ -1,6 +1,6 @@
 {
   "spider": "http://cdn.qiaoji8.com/fix24108.jar;md5;12f37c8466d7133438b2560d8e1b190e",
-  "spider": "http://61.163.58.154:1314/app/GG.jar",
+  
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [
     {
@@ -129,7 +129,7 @@
   "sites": [
  {
       "key": "js豆瓣",
-      "name": "大湾区┃豆瓣",
+      "name": "大湾区🐉豆瓣",
       "type": 3,
       "api": "http://61.163.58.154:1314/app/lib/drpy2.js",
       "searchable": 0,
@@ -138,16 +138,7 @@
       "ext": "http://61.163.58.154:1314/app/lib/douban.js"
     },
 
-  {
-      "key": "糯米",
-      "name": "🐉大湾区影视🐉",
-      "type": 3,
-      "api": "csp_Nmyswv",
-      "timeout": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+ 
     {
       "key": "南瓜",
       "name": "南瓜🐉App",
