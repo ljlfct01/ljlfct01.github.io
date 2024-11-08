@@ -128,6 +128,16 @@
   ],
   "sites": [
  {
+      "key": "js豆瓣",
+      "name": "大湾区┃豆瓣",
+      "type": 3,
+      "api": "./lib/drpy2.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./lib/douban.js"
+    },
+ {
       "key": "时光机",
       "name": "🥤时光机超大杯 🗓️v20241107-🧵178",
       "type": 3,
