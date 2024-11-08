@@ -1,5 +1,6 @@
 {
-  "spider": "http://cdn.qiaoji8.com/fix24108.jar;md5;12f37c8466d7133438b2560d8e1b190e",
+  //"spider": "http://cdn.qiaoji8.com/fix24108.jar;md5;12f37c8466d7133438b2560d8e1b190e",
+  //"spider": "http://61.163.58.154:1314/app/GG.jar",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [
     {
@@ -11,7 +12,16 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
+ {
+      "key": "糯米",
+      "name": "🐉大湾区影视🐉",
+      "type": 3,
+      "api": "csp_Nmyswv",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
  {
       "name": "🐉猫TV🐉",
       "type": 0,
