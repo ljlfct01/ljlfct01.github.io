@@ -131,11 +131,11 @@
       "key": "js豆瓣",
       "name": "大湾区┃豆瓣",
       "type": 3,
-      "api": "./lib/drpy2.js",
+      "api": "http://61.163.58.154:1314/app/lib/drpy2.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/douban.js"
+      "ext": "http://61.163.58.154:1314/app/lib/douban.js"
     },
  {
       "key": "时光机",
