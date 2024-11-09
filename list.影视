@@ -22,14 +22,7 @@
     }
   ],
   "sites": [
-    {
-      "key": "drpy_js_黑木耳资源",
-      "name": "🔥┃木耳影视┃秒播",
-      "type": 3,
-      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/lib/drpy2.min.js",
-      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/lib/mr.js"
-    },
-    {
+ {
       "key": "豆瓣推荐",
       "name": "🔥┃首次加载较慢",
       "type": 3,
@@ -38,7 +31,22 @@
       "quickSearch": 0,
       "filterable": 0
     },
+ {
+      "key": "电视台",
+      "name": "🔥┃电视台",
+      "type": 3,
+      "api": "https://4708.kstore.space/omg/lib/sdtv.js",
+      "ext": "https://4708.kstore.space/omg/lib/zb.txt",
+      "jar": "https://4708.kstore.space/omg/lib/sdtv.jar"
+    },
     {
+      "key": "drpy_js_黑木耳资源",
+      "name": "🔥┃木耳影视┃秒播",
+      "type": 3,
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/lib/drpy2.min.js",
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/lib/mr.js"
+    },
+     {
       "key": "嫖嫖嫖",
       "name": "🔥┃讴歌嫖嫖┃影视",
       "type": 3,
