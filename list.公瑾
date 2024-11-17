@@ -33,14 +33,12 @@
      
     },
     {
-      "key": "📺 电视直播 | JAR",
-      "name": "📺 电视直播 | JAR",
+      "key": "电视台",
+      "name": "拾光☪电视台",
       "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-     "ext": "https://www.lintech.work/超大杯/sites/码上/remote_live.json",
-      "jar": "https://www.lintech.work/超大杯/custom_spider_20241116.tms"
+      "api": "https://4708.kstore.space/omg/lib/sdtv.js",
+      "ext": "https://4708.kstore.space/omg/lib/zb.txt",
+      "jar": "https://4708.kstore.space/omg/lib/sdtv.jar"
     },
     {
       "key": "🧥 PCMP4 | JAR",
