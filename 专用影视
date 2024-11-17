@@ -122,7 +122,20 @@
       "filterable": 1,
       "ext": "http://61.163.58.154:1314/app/lib/douban.js"
     },
-
+{
+	"key": "Youtube代理",
+	"name": "⭕️Youtube┃代理",
+	"type": 3,
+	"api": "csp_Youtube",
+	"searchable": 1,
+	"quickSearch": 0,
+	"changeable": 0,
+	"ext": {
+		"json": "http://lisha521.dynv6.net/pg/lib/youtube.json",
+		"codecs": "avc",
+		"proxy": "socks5://myszy:myszy28811@pipi.myddns.me:28811"
+	}
+},
      {
       "key": "guoguo",
       "name": "老三🐉果果🐉4K",
