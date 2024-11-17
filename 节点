@@ -73,13 +73,13 @@ proxies:
     password: exaxgqkKkd0TAMrCxeonWg==
 
   - name: 香港3
-    server: qdct.1polnt7acres.shop
-    port: 563
-    type: http
+    server: pipi.myddns.me
+    port: 28811
+    type: socks5
     tls: true
     skip-cert-verify: false
-    username: 67150424da83510bd0b0b7bb73d5f1
-    password: 9e5adc67150424da83510bd0b0b7bc
+    username: myszy
+    password: myszy28811
 
   - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
