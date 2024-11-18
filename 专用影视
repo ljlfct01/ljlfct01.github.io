@@ -1,5 +1,6 @@
 {
   "spider": "http://cdn.qiaoji8.com/fix24108.jar;md5;12f37c8466d7133438b2560d8e1b190e",
+  "spider": "https://gitee.com/zhuchunzisen/zj/raw/master/Yoursmile.jar;md5;C9A9FEA3B8FC4C181918A63DC9C7F040",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
 
   "lives": [
@@ -122,7 +123,22 @@
       "filterable": 1,
       "ext": "http://61.163.58.154:1314/app/lib/douban.js"
     },
-
+ {
+      "key": "Youtube",
+      "name": "⚡Youtube（墙外）",
+      "type": 3,
+      "api": "csp_Youtube",
+      "searchable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://gitee.com/zhuchunzisen/zj/raw/master/lib/youtube.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/youtubecookie.json"
+      }
+    },
      {
       "key": "guoguo",
       "name": "老三🐉果果🐉4K",
