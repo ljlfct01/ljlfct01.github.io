@@ -80,19 +80,16 @@ proxies:
     skip-cert-verify: false
     username: myszy
     password: myszy28811
-  - name: 香港4
+
+ - name: 香港4
     server: qdct.1polnt7acres.shop
     port: 563
-    type: socks5
+    type: http
     tls: true
     skip-cert-verify: false
-    username:   
-673e0006da8351565cf0462fd02153
-673e0006da8351565cf0462fd02153
-
-    password: myszy28811
-
-  - name: 美国1
+    username: 673e0006da8351565cf0462fd02153
+    password: 32a133673e0006da8351565cf04630
+   - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
