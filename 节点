@@ -80,6 +80,14 @@ proxies:
     skip-cert-verify: false
     username: myszy
     password: myszy28811
+  - name: 香港4
+    server: qdct.1polnt7acres.shop
+    port: 443
+    type: socks5
+    tls: true
+    skip-cert-verify: false
+    username: myszy
+    password: myszy28811
 
   - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
@@ -170,6 +178,6 @@ proxies:
   - {name:  美国03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国04, server: us-ashburn-virginia.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国05, server: us-boardman-oregon.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name:  美国06, server: 57.180.42.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name:  美国06, server: 119.237.241.12 , port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 
  
