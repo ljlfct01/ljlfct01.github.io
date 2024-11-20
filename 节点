@@ -89,7 +89,7 @@ proxies:
     skip-cert-verify: false
     username: 673e0006da8351565cf0462fd02153
     password: 32a133673e0006da8351565cf04630
-   - name: 美国1
+  - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
