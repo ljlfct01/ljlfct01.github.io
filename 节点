@@ -81,14 +81,7 @@ proxies:
     username: myszy
     password: myszy28811
 
-  - name: 香港4
-    server: qdct.1polnt7acres.shop
-    port: 563
-    type: http
-    tls: true
-    skip-cert-verify: false
-    username: 673e0006da8351565cf0462fd02153
-    password: 32a133673e0006da8351565cf04630
+  
   - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
     port: 443
@@ -172,7 +165,7 @@ proxies:
   - {name:  hk3, server: hong-kong-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  hk4, server: hong-kong-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  hk5, server: hong-kong-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name:  hk6, server: pipi.myddns.me, port: 28811, type: ss, cipher: chacha20-ietf-poly1305, password: myszy28811, udp: true}
+  - {name:  hk6, server: pipi.myddns.me, port: 28811, type: ss, username: myszy, password: myszy28811, udp: true}
   - {name:  美国01, server: us-boardman-oregon-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国02, server: us-ashburn-virginia-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
