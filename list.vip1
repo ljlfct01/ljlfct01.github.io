@@ -81,16 +81,26 @@
     },
 
   {
-      "key": "guoguo",
-      "name": "🐉果果🐉4K",
+      "key": "果果4K解析_js",
+      "name": "🌞果果4K(解析)",
       "type": 3,
-      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
+      "ext": "./lib/js/果果4K.js"
+    },
+    {
+      "key": "🌞腾腾4K解析_js",
+      "name": "🌞腾腾4K(解析)",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./lib/js/腾腾4K.js"
     },
     {
       "key": "南瓜",
