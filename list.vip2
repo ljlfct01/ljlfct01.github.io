@@ -99,6 +99,67 @@
      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
      
     },
+ {"key":"JP","name":"🐉 | 金牌","type":3,"api":"csp_WebJP","jar": "http://150.158.112.123/jar/xc.zip","searchable":1,"quickSearch":0,"filterable":0,"ext":"KhY021WelCEl+6MsvwnzaPusskysEhxc/i3d/FHwReBTtZTeDEVZJbQKKez3K+OxlrjAIMdUpAUxP8fGystYn0Hss098UFVR69Qm2ARgmeZN86q8Ww=="},
+
+ {
+      "key": "2400部恐怖电影📲",
+      "name": "🐉恐怖 | 电影",
+      "type": 3,
+      "api": "http://zb.hys.cool/app/lib/16万hys.js",
+      "ext": "http://zb.hys.cool/app/lib/2400部恐怖电影.js"
+    },
+    {
+      "key": "十六万MV听歌📣",
+      "name": "🐉 | 听歌",
+      "type": 3,
+      "api": "http://zb.hys.cool/app/lib/16万hys.js",
+      "ext": "http://zb.hys.cool/app/lib/16万mv.js"
+    },
+   {
+      "key": "360资源",
+      "name": "🐉360 | 资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "华为资源",
+      "name": "🐉华为 | 资源",
+      "type": 1,
+      "api": "https://cjhwba.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "忆梦影视",
+      "name": "🐉 | 忆梦",
+      "type": 1,
+      "api": "https://www.gnpt.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "赛维影院",
+      "name": "🐉 | 赛维",
+      "type": 1,
+      "api": "https://lsys.dsmynas.com:3000//api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Ma影视",
+      "name": "🐉Ma | 影视",
+      "type": 1,
+      "api": "https://cc.appma.cc/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+	},
  {
       "key": "🐉 河马 | 影视",
       "name": "🐉 河马 | 影视",
