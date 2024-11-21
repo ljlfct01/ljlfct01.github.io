@@ -79,25 +79,299 @@
      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
      
     },
- {"key":"JP","name":"🐉 | 金牌","type":3,"api":"csp_WebJP","jar": "http://150.158.112.123/jar/xc.zip","searchable":1,"quickSearch":0,"filterable":0,"ext":"KhY021WelCEl+6MsvwnzaPusskysEhxc/i3d/FHwReBTtZTeDEVZJbQKKez3K+OxlrjAIMdUpAUxP8fGystYn0Hss098UFVR69Qm2ARgmeZN86q8Ww=="},
+
+  {
+      "key": "guoguo",
+      "name": "老三🐉果果🐉4K",
+      "type": 3,
+      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
+    },
+    {
+      "key": "南瓜",
+      "name": "老三🐉南瓜",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "天天",
+      "name": "老三🐉天天",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 1,
+      "ext": "baHR0cDovL29wLnlzZHFqcy5jbg=="
+    },
+    {
+      "key": "热播",
+      "name": "老三🐉热播",
+      "type": 3,
+      "api": "csp_Rebot",
+      "playerType": 1,
+      "ext": "caHR0cDovL3YucmJvdHYuY24="
+    },
+    {
+      "key": "追剧",
+      "name": "老三🐉追剧",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 1,
+      "ext": "daHR0cDovL3oua3pqdHYuY29t"
+    },
+    {
+      "key": "现代",
+      "name": "老三🐉现代",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 1,
+      "ext": "caHR0cDovL2FwcC5icm92b2QuY29tfDE1MjQ3MjA1MzMzamFyb2R8MTUyNDcyMDUzMzNqYXJvZA=="
+    },
+    {
+      "key": "思源",
+      "name": "老三🐉思源",
+      "type": 3,
+      "api": "csp_Syys",
+      "playerType": 1,
+      "ext": "caHR0cDovLzguMjEwLjM0LjE0MzoxMTIyfHpodWl5aTg4ODg4NjY2NjZ8emh1aXlpODg4ODg2NjY2Ng=="
+    },
+    {
+      "key": "木叶",
+      "name": "老三🐉木叶",
+      "type": 3,
+      "api": "csp_Muye",
+      "playerType": 2,
+      "ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4"
+    },
+    {
+      "key": "繁荣",
+      "name": "老三🐉繁荣",
+      "type": 3,
+      "api": "csp_Frong",
+      "playerType": 1,
+      "ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTN8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MDllZTM1MTZjMWNhOGVkMQ=="
+    },
+    {
+      "key": "雷电",
+      "name": "老三🐉雷电",
+      "type": 3,
+      "api": "csp_Slys",
+      "playerType": 1,
+      "ext": "caHR0cDovLzEyMC4yMjQuNy45MDo4MDg="
+    },
+    {
+      "key": "柠檬",
+      "name": "老三🐉柠檬",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+    },
+    {
+      "key": "AI2",
+      "name": "老三🐉AI2🐉仅搜索",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
+    },
+    {
+      "key": "AI3",
+      "name": "老三🐉AI3🐉仅搜索",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
+    },
+    {
+      "key": "AI4",
+      "name": "老三🐉AI4",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "ext": "iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="
+    },
+    {
+      "key": "JianPian",
+      "name": "老三🐉荐片🐉边下边播",
+      "type": 3,
+      "api": "csp_JianPian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "ext": "jianpian-android/365"
+    },
+    {
+      "key": "Dygang",
+      "name": "老三🐉电影港🐉边下边播",
+      "type": 3,
+      "api": "csp_Dygang"
+    },
+    {
+      "key": "蚂蚁",
+      "name": "老三🐉蚂蚁",
+      "type": 3,
+      "api": "csp_Mayiys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1,
+      "ext": "jaHR0cDovL3BhbmRvd24ucHJvL3R2Ym94L21heWkudHh0"
+    },
+    {
+      "key": "Lib",
+      "name": "老三🐉Lib🐉直连",
+      "type": 3,
+      "api": "csp_Lib",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "kaHR0cHM6Ly9saWJ2aW8ubGluay9zdGF0aWMvanMvcGxheWVyY29uZmlnLmpz"
+    },
+    {
+      "key": "时常",
+      "name": "老三🐉时常",
+      "type": 3,
+      "api": "csp_qiao3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 1,
+      "filterable": 0,
+      "ext": "caHR0cDovL2FwcC5henlqLnByb3xkYzMyNTA2ZDliNWNiZjhlfGRjMzI1MDZkOWI1Y2JmOGU="
+    },
+    {
+      "key": "Bdys_spider",
+      "name": "老三🐉哔滴🐉无搜索",
+      "api": "csp_Bdys01",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "ext": ""
+    },
+    {
+      "key": "NoSearch_csp_DiDuan",
+      "name": "老三🐉低端🐉无搜索",
+      "type": 3,
+      "api": "csp_Ddrk",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "sliu_spider",
+      "name": "老三🐉石榴🐉直连",
+      "api": "csp_ShiLiuDY",
+      "type": 3,
+      "filterable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "ext": ""
+    },
+    {
+      "key": "快看",
+      "name": "老三🐉快看🐉直连",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "360_spider",
+      "name": "老三🐉360🐉解析",
+      "api": "csp_SP360",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "playerType": 2,
+      "ext": ""
+    },
+    {
+      "key": "ZXZJ",
+      "name": "老三🐉在线🐉直连",
+      "api": "csp_Zxzj",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "playerType": 2,
+      "ext": ""
+    },
+    {
+      "key": "csp_CZSPP",
+      "name": "老三🐉厂长🐉直连",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "maHR0cHM6Ly9jenp5LnRvcC8="
+    },
+    {
+      "key": "csp_Auete",
+      "name": "老三🐉Auete🐉无搜索",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "NoSearch_csp_BBB",
+      "name": "老三🐉哔哩🐉哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "naHR0cHM6Ly93d3cucWlhb2ppOC5jb20vdHZib3gvYmlsaS5qc29u"
+    },
+
+   	       
+ {"key":"JP","name":"老三🐉金牌","type":3,"api":"csp_WebJP","jar": "http://150.158.112.123/jar/xc.zip","searchable":1,"quickSearch":0,"filterable":0,"ext":"KhY021WelCEl+6MsvwnzaPusskysEhxc/i3d/FHwReBTtZTeDEVZJbQKKez3K+OxlrjAIMdUpAUxP8fGystYn0Hss098UFVR69Qm2ARgmeZN86q8Ww=="},
 
  {
       "key": "2400部恐怖电影📲",
-      "name": "🐉恐怖 | 电影",
+      "name": "老三🐉恐怖🐉电影",
       "type": 3,
       "api": "http://zb.hys.cool/app/lib/16万hys.js",
       "ext": "http://zb.hys.cool/app/lib/2400部恐怖电影.js"
     },
     {
       "key": "十六万MV听歌📣",
-      "name": "🐉 | 听歌",
+      "name": "老三🐉听歌",
       "type": 3,
       "api": "http://zb.hys.cool/app/lib/16万hys.js",
       "ext": "http://zb.hys.cool/app/lib/16万mv.js"
     },
-   {
+ {
       "key": "360资源",
-      "name": "🐉360 | 资源",
+      "name": "老三🐉360🐉资源",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod/at/json",
       "searchable": 1,
@@ -106,7 +380,7 @@
     },
     {
       "key": "华为资源",
-      "name": "🐉华为 | 资源",
+      "name": "老三🐉华为🐉资源",
       "type": 1,
       "api": "https://cjhwba.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -115,7 +389,7 @@
     },
     {
       "key": "忆梦影视",
-      "name": "🐉 | 忆梦",
+      "name": "老三🐉忆梦",
       "type": 1,
       "api": "https://www.gnpt.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -124,7 +398,7 @@
     },
     {
       "key": "赛维影院",
-      "name": "🐉 | 赛维",
+      "name": "老三🐉赛维",
       "type": 1,
       "api": "https://lsys.dsmynas.com:3000//api.php/provide/vod/",
       "searchable": 1,
@@ -133,112 +407,24 @@
     },
     {
       "key": "Ma影视",
-      "name": "🐉Ma | 影视",
+      "name": "老三🐉Ma🐉影视",
       "type": 1,
       "api": "https://cc.appma.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
 	},
-
-    {
-      "key": "🐉 荐片 | 影视",
-      "name": "🐉 荐片 | 影视",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
+	{
+      "key": "Ok资源",
+      "name": "老三🐉Ok资源",
+      "type": 0,
+      "api": "https://api.okzy.org/api.php/provide/vod/from/okm3u8/at/xml",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/jianpian.js"
-    },
+      "filterable": 1
+	},
    
-  
-    {
-      "key": "🐉 88看球 | 影视",
-      "name": "🐉 88看球 | 影视",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "ext": "https://www.lintech.work/超大杯/sites/码上/88.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "🐉 球迷 | 影视",
-      "name": "🐉 球迷 | 影视",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "ext": "https://www.lintech.work/超大杯/sites/码上/jrk.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "🐉 310看球 | 影视",
-      "name": "🐉 310看球 | 影视",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "ext": "https://www.lintech.work/超大杯/sites/码上/310.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-  
-    {
-      "key": "🐉 火狐 | 影视",
-      "name": "🐉 火狐 | 影视",
-      "type": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.8
-      },
-      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "悬疑片",
-        "犯罪片",
-        "奇幻片",
-        "记录片",
-        "动画片",
-        "内地剧",
-        "香港剧",
-        "台湾剧",
-        "日剧",
-        "韩剧",
-        "欧美剧",
-        "马泰剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "中国动漫",
-        "日本动漫",
-        "欧美动漫"
-      ]
-    },
-  
- 
-  
- 
-    {
+  {
       "key": "玩偶",
       "name": "饭->🐉玩偶哥哥┃4K弹幕",
       "type": 3,
