@@ -1,6 +1,6 @@
 {
   "spider": "https://www.lintech.work/超大杯/custom_spider_20241123.tms;md5;a3268f71be24a8a0ccfd87b382c9b1db",
- "spider": "https://gitee.com/zhuchunzisen/zj/raw/master/Yoursmile.jar;md5;C9A9FEA3B8FC4C181918A63DC9C7F040",
+
   "wallpaper": "",
   "warningText": "资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -32,22 +32,7 @@
       "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
       
     },
-   {
-      "key": "Youtube",
-      "name": "⚡Youtube（墙外）",
-      "type": 3,
-      "api": "csp_Youtube",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "https://gitee.com/zhuchunzisen/zj/raw/master/lib/youtube.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/youtubecookie.json"
-      }
-    },
+  
     {
       "key": "🐉 影探V3 ",
       "name": "🎞 影探V3 ",
