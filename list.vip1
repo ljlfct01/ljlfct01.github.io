@@ -91,11 +91,13 @@
 {
       "key": "在线视频直播",
       "name": "在线视频直播",
-      "pic": "https://notabug.org/gxyrg/tvBox/raw/master/jpg/主播秀.jpg",
-       "api": "https://zh.youcontrolher.com/",
+      "api": "https://zh.youcontrolher.com/",
       "type": "3",     
-      "desc": "网络🔞🈲",
-      "show": true
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "filterable": 1,
+      "ext": ""
     },
  {
       "key": "南瓜",
