@@ -112,6 +112,87 @@
       "filterable": 1,
       "ext": {}
     },
+{
+      "key": "2400部恐怖电影📲",
+      "name": "🐉恐怖电影",
+      "type": 3,
+      "api": "http://zb.hys.cool/app/lib/16万hys.js",
+      "ext": "http://zb.hys.cool/app/lib/2400部恐怖电影.js"
+    },
+    {
+      "key": "十六万MV听歌📣",
+      "name": "🐉听歌",
+      "type": 3,
+      "api": "http://zb.hys.cool/app/lib/16万hys.js",
+      "ext": "http://zb.hys.cool/app/lib/16万mv.js"
+    },
+ {
+      "key": "360资源",
+      "name": "🐉360资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "华为资源",
+      "name": "🐉华为资源",
+      "type": 1,
+      "api": "https://cjhwba.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "忆梦影视",
+      "name": "🐉忆梦",
+      "type": 1,
+      "api": "https://www.gnpt.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "赛维影院",
+      "name": "🐉赛维",
+      "type": 1,
+      "api": "https://lsys.dsmynas.com:3000//api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Ma影视",
+      "name": "🐉Ma影视",
+      "type": 1,
+      "api": "https://cc.appma.cc/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+	},
+ {
+      "key": "果果4K解析_js",
+      "name": "🐉果果4K(解析)",
+      "type": 3,
+      "api": "http://ttkx.cc:55/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "http://ttkx.cc:55/lib/js/果果4K.js"
+    },
+    {
+      "key": "🐉腾腾4K解析_js",
+      "name": "🐉腾腾4K(解析)",
+      "type": 3,
+      "api": "http://ttkx.cc:55/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "http://ttkx.cc:55/lib/js/腾腾4K.js"
+    },
  {
       "key": "🐉 清风 | 4K",
       "name": "🐉 清风 | 4K",
