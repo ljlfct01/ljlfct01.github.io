@@ -25,8 +25,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://tv.菜妮丝.top/json/douban.json",
-      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+      "ext": {
+        "sourceType": 0,
+        "sourceVersion": "20241126"
+      }
     },
     {
       "key": "📺 电视直播 | JAR",
@@ -99,9 +101,9 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "cmsApis": "https://www.lintech.work/超大杯/UP4wckC350BpK3+jAtNI2blhjGe5XpRJzt28WdKpAOLIdkF5c7qnry0vLSuNURpG",
-        "jxApi": "https://www.lintech.work/超大杯/teViWfrkLeUW9XHAVTi63FUOlEV9fFsQuVgeSGmnqWjn0xAbeupS6pOzjOmVWO22",
-        "prefix": "https://www.lintech.work/超大杯/qDZV8EcLOdlHmgJweVMUp8Io0PrzsfRXBTOTQkBklJA="
+        "cmsApis": "UP4wckC350BpK3+jAtNI2blhjGe5XpRJzt28WdKpAOLIdkF5c7qnry0vLSuNURpG",
+        "jxApi": "teViWfrkLeUW9XHAVTi63FUOlEV9fFsQuVgeSGmnqWjn0xAbeupS6pOzjOmVWO22",
+        "prefix": "qDZV8EcLOdlHmgJweVMUp8Io0PrzsfRXBTOTQkBklJA="
         }
     },
     {
@@ -113,9 +115,9 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "cmsApis": "https://www.lintech.work/超大杯/UP4wckC350BpK3+jAtNI2bALiFmoKuT3saBr3tEJwib2fyd/xcLxfgaGGQQtWFUy",
-        "jxApi": "https://www.lintech.work/超大杯/teViWfrkLeUW9XHAVTi63FUOlEV9fFsQuVgeSGmnqWjn0xAbeupS6pOzjOmVWO22",
-        "prefix": "https://www.lintech.work/超大杯/IzQKDIj8G6xglI+nuNZCVkBVD5eCOQgsJ5RLxZkC7jo="
+        "cmsApis": "UP4wckC350BpK3+jAtNI2bALiFmoKuT3saBr3tEJwib2fyd/xcLxfgaGGQQtWFUy",
+        "jxApi": "teViWfrkLeUW9XHAVTi63FUOlEV9fFsQuVgeSGmnqWjn0xAbeupS6pOzjOmVWO22",
+        "prefix": "IzQKDIj8G6xglI+nuNZCVkBVD5eCOQgsJ5RLxZkC7jo="
       }
     },
  {
