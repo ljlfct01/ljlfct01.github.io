@@ -83,7 +83,18 @@
        "ext": "https://tv.菜妮丝.top/json/douban.json",
       "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
-   
+   {
+      "key": "布蕾",
+      "name": "布蕾┃高清影视(C241119)",
+      "type": 3,
+      "api": "http://47.99.102.252/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://47.99.102.252/drpy_js/bulei.js"
+    },
     {
       "key": "🐉 瓜子",
       "name": "🐉 瓜子",
