@@ -56,14 +56,121 @@
       "filterable": 1,
       "ext": "https://czzy.top/"
     },
-    {
-      "key": "🚛 金牌 | DEX",
-      "name": "🚛 金牌 | DEX",
+     {
+      "key": "🥇 金牌 | JAR",
+      "name": "🥇 金牌 | JAR",
       "type": 3,
-      "api": "csp_Jpyy",
+      "api": "csp_JinPai",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "ext": {}
+    },
+ {
+      "key": "🈵 醉挽清风 | 4K解析 | JS",
+      "name": "🈵 醉挽清风 | 4K解析 | JS",
+      "type": 3,
+      "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/qingfeng.js"
+    },
+    {
+      "key": "🈵 小满万全 | 4K解析 | JS",
+      "name": "🈵 小满万全 | 4K解析 | JS",
+      "type": 3,
+      "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"
+    },
+ {
+      "key": "🐈️ 网飞猫 | JAR",
+      "name": "🐈️ 网飞猫 | JAR",
+      "type": 3,
+      "api": "csp_NCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {}
+    },
+    {
+      "key": "🦛 河马 | JAR",
+      "name": "🦛 河马 | JAR",
+      "type": 3,
+      "api": "csp_Hema",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "siteUrl": "https://www.hemabb.com"
+      }
+    },
+    {
+      "key": "🧥 短剧 | JAR",
+      "name": "🧥 短剧 | JAR",
+      "type": 3,
+      "api": "csp_Duanju",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {}
+    },
+ {
+      "key": "🐸 饺子 | JAR",
+      "name": "🐸 饺子 | JAR",
+      "type": 3,
+      "api": "csp_Jiaozi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "👕 掘金 | JAR",
+      "name": "👕 掘金 | JAR",
+      "type": 3,
+      "api": "csp_Denver",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "🦖 荔波+ | JAR",
+      "name": "🦖 荔波+ | JAR",
+      "type": 3,
+      "api": "csp_LibvioPlus",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "🍈 耐看 | JAR",
+      "name": "🍈 耐看 | JAR",
+      "type": 3,
+      "api": "csp_NaiKan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "🍉 南瓜+ | JAR",
+      "name": "🍉 南瓜+ | JAR",
+      "type": 3,
+      "api": "csp_NanGuaPlus",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
       "ext": {}
     },
     {
@@ -82,11 +189,11 @@
       "key": "🚀 荐片 | JS",
       "name": "🚀 荐片 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/jianpian.js"
+      "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/jianpian.js"
     },
     {
       "key": "💓 在线 | JAR",
