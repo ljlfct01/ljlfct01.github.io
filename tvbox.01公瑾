@@ -1,12 +1,12 @@
 {
-  "spider": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/custom_spider_20241125.tms;md5;6f550fbf24a036e1d81aa4b0efeeea44",
+  "spider": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/custom_spider_20241125.tms;md5;724bf20a61a7626721674af305606e8b",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
     {
       "name": "live",
       "type": 0,
-      "url": "https://ghp.ci/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E4%B8%93%E7%94%A8%E7%9B%B4%E6%92%AD",
+      "url": "响应政府号召, 加强行业自律,时光机数据源从23年11月21日起不提供直播服务。",
       "playerType": 1,
       "ua": "okhttp/3.12.13",
       "epg": "",
@@ -18,7 +18,7 @@
   "sites": [
     {
       "key": "时光机",
-      "name": "☕️时光机标准杯 🗓️v20241125-🧵91",
+      "name": "☕️时光机标准杯 🗓️v20241126-🧵91",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -26,7 +26,7 @@
       "filterable": 1,
       "ext": {
         "sourceType": 0,
-        "sourceVersion": "20241125"
+        "sourceVersion": "20241126"
       }
     },
     {
@@ -1125,19 +1125,15 @@
   ],
   "parses": [
     {
-      "name": "Json聚合",
+      "name": "聚合",
       "type": 3,
       "url": "Demo"
     },
     {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
-    {
       "name": "摸鱼追觅",
       "type": 1,
-      "api": "http://103.117.123.51:2189/api/diy/?key=YbL8IE7m3X3Ptg6JkU&url=",
+      "url": "http://110.40.61.139:4655/zhuimi666.php?url=",
+      "superUrl": "GnR2MHpicbFiaq6LiHiRedRasIj0BctwjVlvkKVdybWX71mb/x1feYIPAFXHt+HGiZ3cljjhjf8I6dwq5GYghA==",
       "ext": {
         "flag": [
           "qq",
@@ -1164,7 +1160,8 @@
     {
       "name": "失眠的夜",
       "type": 1,
-      "url": "http://154.9.253.211:777/api/?key=qF6pwBaRCl3fNxvc0j&url=",
+      "url": "",
+      "superUrl": "yl1ej3BQ6DsxGYj7b6K07xy72xXkDSqpzj6yVDO3FqWDSDugeXC3iHxRIbM+x56GcbXIN10yUXJz7lue2ZYfAA==",
       "ext": {
         "flag": [
           "qq",
