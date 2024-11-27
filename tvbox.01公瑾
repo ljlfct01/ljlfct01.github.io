@@ -38,14 +38,36 @@
       "changeable": 0,
       "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/remote_live.json"
     },
- {
-      "key": "🥇 金牌 | JAR",
-      "name": "🥇 金牌 | JAR",
+  {
+      "key": "🐈️ 网飞猫 | JAR",
+      "name": "🐈️ 网飞猫 | JAR",
       "type": 3,
-      "api": "csp_JinPai",
+      "api": "csp_NCat",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "ext": {}
+    },
+    {
+      "key": "🦛 河马 | JAR",
+      "name": "🦛 河马 | JAR",
+      "type": 3,
+      "api": "csp_Hema",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "siteUrl": "https://www.hemabb.com"
+      }
+    },
+    {
+      "key": "🧥 短剧 | JAR",
+      "name": "🧥 短剧 | JAR",
+      "type": 3,
+      "api": "csp_Duanju",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
       "ext": {}
     },
     {
