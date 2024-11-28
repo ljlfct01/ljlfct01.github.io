@@ -17,7 +17,7 @@
   "sites": [
  {
       "key": "豆瓣",
-      "name": "豆瓣┃推荐",
+      "name": "🐉豆瓣┃推荐",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -28,26 +28,40 @@
 
   
  {
-      "key": "果果4K解析_js",
-      "name": "🐉果果4K(解析)",
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "🐉腾腾4K",
       "type": 3,
-      "api": "http://ttkx.cc:55/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "http://ttkx.cc:55/lib/js/果果4K.js"
+      "changeable": 0,
+      "ext": "./js/ttt.js"
     },
     {
-      "key": "🐉腾腾4K解析_js",
-      "name": "🐉腾腾4K(解析)",
+      "key": "hipy_js_腾云驾雾[在线]",
+      "name": "🐉腾云4K",
       "type": 3,
-      "api": "http://ttkx.cc:55/lib/drpy2.min.js",
+      "api": "https://3450.kstore.vip/js/drpy_libs/drpy2.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "http://ttkx.cc:55/lib/js/腾腾4K.js"
+      "changeable": 0,
+      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/tm.js"
+    },
+    {
+      "key": "guoguo",
+      "name": "🐉果果4K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "./js/guoguo.js"
     },
 {
       "key": "2400部恐怖电影📲",
@@ -65,7 +79,7 @@
     },
     {
       "key": "南瓜",
-      "name": "南瓜┃App",
+      "name": "🐉南瓜┃App",
       "type": 3,
       "api": "csp_NanGua",
       "searchable": 1,
@@ -76,7 +90,7 @@
     },
     {
       "key": "天天",
-      "name": "天天┃App",
+      "name": "🐉天天┃App",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -84,7 +98,7 @@
     },
     {
       "key": "热播",
-      "name": "热播┃App",
+      "name": "🐉热播┃App",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -92,7 +106,7 @@
     },
     {
       "key": "追剧",
-      "name": "追剧┃App",
+      "name": "🐉追剧┃App",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -100,7 +114,7 @@
     },
     {
       "key": "雨夜",
-      "name": "雨夜┃App",
+      "name": "🐉雨夜┃App",
       "type": 3,
       "api": "csp_Muou",
       "playerType": 1,
@@ -108,7 +122,7 @@
     },
     {
       "key": "乐观",
-      "name": "乐观┃App",
+      "name": "🐉乐观┃App",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -116,7 +130,7 @@
     },
     {
       "key": "人人",
-      "name": "人人┃ 4K",
+      "name": "🐉人人┃ 4K",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
@@ -124,7 +138,7 @@
     },
     {
       "key": "雨滴",
-      "name": "雨滴┃App",
+      "name": "🐉雨滴┃App",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -132,7 +146,7 @@
     },
     {
       "key": "优质",
-      "name": "优质┃App",
+      "name": "🐉优质┃App",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -140,7 +154,7 @@
     },
     {
       "key": "客星",
-      "name": "客星┃App",
+      "name": "🐉客星┃App",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -148,7 +162,7 @@
     },
     {
       "key": "木叶",
-      "name": "木叶┃App",
+      "name": "🐉木叶┃App",
       "type": 3,
       "api": "csp_Frong",
       "playerType": 2,
@@ -156,7 +170,7 @@
     },
     {
       "key": "繁荣",
-      "name": "繁荣┃App",
+      "name": "🐉繁荣┃App",
       "type": 3,
       "api": "csp_Frong",
       "playerType": 1,
@@ -164,7 +178,7 @@
     },
     {
       "key": "雷电",
-      "name": "雷电┃App",
+      "name": "🐉雷电┃App",
       "type": 3,
       "api": "csp_Slys",
       "playerType": 1,
@@ -172,7 +186,7 @@
     },
     {
       "key": "柠檬",
-      "name": "柠檬┃App",
+      "name": "🐉柠檬┃App",
       "type": 3,
       "api": "csp_Nmvod",
       "playerType": 2,
@@ -180,7 +194,7 @@
     },
     {
       "key": "AI2",
-      "name": "AI2┃仅搜索",
+      "name": "🐉AI2┃仅搜索",
       "type": 3,
       "api": "csp_AI",
       "searchable": 1,
@@ -191,7 +205,7 @@
     },
     {
       "key": "AI3",
-      "name": "AI3┃仅搜索",
+      "name": "🐉AI3┃仅搜索",
       "type": 3,
       "api": "csp_AI",
       "searchable": 1,
@@ -202,7 +216,7 @@
     },
     {
       "key": "AI4",
-      "name": "AI4┃APP",
+      "name": "🐉AI4┃APP",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -213,7 +227,7 @@
     },
     {
       "key": "Dygang",
-      "name": "电影港[边下边播]",
+      "name": "🐉电影港[边下边播]",
       "type": 3,
       "api": "csp_Dygang"
     },
@@ -230,7 +244,7 @@
     },
     {
       "key": "Lib",
-      "name": "Lib┃直连",
+      "name": "🐉Lib┃直连",
       "type": 3,
       "api": "csp_Lib",
       "searchable": 1,
@@ -240,7 +254,7 @@
     },
     {
       "key": "NoSearch_csp_DiDuan",
-      "name": "低端┃无搜索",
+      "name": "🐉低端┃无搜索",
       "type": 3,
       "api": "csp_Ddrk",
       "searchable": 1,
@@ -250,7 +264,7 @@
     },
     {
       "key": "快看",
-      "name": "快看┃直连",
+      "name": "🐉快看┃直连",
       "type": 3,
       "api": "csp_Kuaikan",
       "searchable": 1,
@@ -260,7 +274,7 @@
     },
     {
       "key": "360_spider",
-      "name": "360┃解析",
+      "name": "🐉360┃解析",
       "api": "csp_SP360",
       "type": 3,
       "filterable": 1,
@@ -271,7 +285,7 @@
     },
     {
       "key": "ZXZJ",
-      "name": "在线┃直连",
+      "name": "🐉在线┃直连",
       "api": "csp_Zxzj",
       "type": 3,
       "filterable": 1,
@@ -282,7 +296,7 @@
     },
     {
       "key": "csp_CZSPP",
-      "name": "厂长┃直连",
+      "name": "🐉厂长┃直连",
       "type": 3,
       "api": "csp_Czsapp",
       "searchable": 1,
@@ -293,7 +307,7 @@
     },
     {
       "key": "csp_Auete",
-      "name": "Auete┃无搜索",
+      "name": "🐉Auete┃无搜索",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
@@ -303,7 +317,7 @@
     },
     {
       "key": "NoSearch_csp_BBB",
-      "name": "哔哩哔哩",
+      "name": "🐉哔哩哔哩",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
@@ -313,7 +327,7 @@
     },
     {
       "key": "push_agent",
-      "name": "推送",
+      "name": "🐉推送",
       "type": 3,
       "api": "csp_PushAgent",
       "searchable": 0,
