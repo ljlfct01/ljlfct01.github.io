@@ -4,15 +4,7 @@
   "wallpaper": "",
   "warningText": "",
   "lives": [
-    {
-      "name": "live",
-      "type": 0,
-      "url": "./专用直播",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+   
 
    
  {
@@ -111,26 +103,8 @@
     },
 
   
-    {
-      "key": "🥇 金牌 | JAR",
-      "name": "🥇 金牌 | JAR",
-      "type": 3,
-      "api": "csp_JinPai",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {}
-    },
-    {
-      "key": "🐈️ 网飞猫 | JAR",
-      "name": "🐈️ 网飞猫 | JAR",
-      "type": 3,
-      "api": "csp_NCat",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {}
-    },
+   
+  
     {
       "key": "🦛 河马 | JAR",
       "name": "🦛 河马 | JAR",
@@ -230,6 +204,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
+      "ext": {}
+    },
+ {
+      "key": "🐈️ 网飞猫 | JAR",
+      "name": "🐈️ 网飞猫 | JAR",
+      "type": 3,
+      "api": "csp_NCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "ext": {}
     },
     {
