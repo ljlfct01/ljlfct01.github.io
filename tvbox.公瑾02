@@ -42,7 +42,15 @@
       "filterable": 0,
       "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=lives"
     },
-  
+   {
+      "key": "玩偶",
+      "name": "🌎玩偶智能┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoggTm",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {}
+    },
     {
       "key": "夸克木偶弹幕",
       "name": "🍁木偶资源┃4K弹幕",
@@ -156,6 +164,16 @@
       },
       "timeout": 10
     },
+ {
+      "key": " 金牌 R",
+      "name": "🥇 金牌",
+      "type": 3,
+      "api": "csp_JinPai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {}
+    },
     {
       "key": "alllive",
       "name": "📽️星河共影┃2K直播",
@@ -176,7 +194,18 @@
       "changeable": 0,
       "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/guazi.js"
     },
-   
+   {
+      "key": " 河马",
+      "name": "🦛 河马 ",
+      "type": 3,
+      "api": "csp_Hema",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "siteUrl": "https://www.hemabb.com"
+      }
+    },
     {
       "key": "贱贱",
       "name": "🐭贱贱┃P2P┃纯净",
