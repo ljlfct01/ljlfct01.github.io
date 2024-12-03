@@ -1,10 +1,43 @@
-
 {
-  "force_refresh": 0,
-"source": "https://ghp.ci/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/tvbo.%E5%85%AC%E7%91%BE01",
- "jxUrl": "https://www.lintech.work/api/m3u8/parse?token=%s&url=%s",
-  "notice": "https://www.lintech.work/static/config/notice.json",
-  "parse_no_header": 1,
-  "live": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-  "upgrade": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/config/main/"
+  "urls": [
+ {
+      "name": "公众号「码上瞧瞧」",
+      "url": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/main.json"
+    },
+ {
+      "name": "🚀春盈天下",
+      "url": "https://wds.ecsxs.com/231726.txt"
+    },
+ {
+      "name": "🚀巧记影视",
+      "url": "http://pandown.pro/tvbox/tvbox.json"
+    },
+ {
+      "name": "🚀我不是.摸鱼儿",
+      "url": "http://我不是.摸鱼儿.com"
+    },
+{
+      "name": "🚀毒盒影视",
+      "url": "https://tv.youdu.fan:666/毒盒影视/"
+    },
+{
+      "name": "🚀天天",
+      "url": "http://kxrj.site:55/天天开心"
+    },
+
+  {
+      "url": "http://www.mpanso.com/小米/DEMO.json",
+      "name": "🚀小米线路"
+    },  
+   {
+      "url": "https://qixing.myhkw.com/qxzj/七星智教",
+      "name": "🚀少儿频道"
+    },
+   {
+      "url": "https://gitee.com/ltby1/blue-sky-education/raw/master/蓝天白云教育.json",
+      "name": "蓝天白云教育"
+    }
+   
+  ]
+
 }
