@@ -1,6 +1,6 @@
 {
-  "spider": "http://我不是.摸鱼儿.com/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2",
-// "spider": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/custom_spider_20241203.tms;md5;705be0b09622e1b08b78bb8daf62964a",
+  
+ "spider": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/custom_spider_20241203.tms;md5;705be0b09622e1b08b78bb8daf62964a",
  
   "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
   "logo": "https://s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
@@ -44,18 +44,19 @@
     },
     {
       "key": "玩偶",
-      "name": "🌎玩偶智能┃4K弹幕",
+      "name": "饭->👽玩偶哥哥┃4K弹幕",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "TVBox/Cloud-drive.txt",
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto",
         "siteUrl": "https://www.wogg.net/",
         "danMu": "弹"
-      }
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1731126610038/fan.txt;md5;118bca13418f13c45c5c237ac93c2f07"
     },
     {
       "key": "夸克木偶弹幕",
