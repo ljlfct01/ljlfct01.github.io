@@ -1200,6 +1200,15 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
+{
+      "name": "开心TV",
+      "type": 0,
+      "url": "http://rihou.cc:55/lib/kx2024.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "IPV6",
       "type": 0,
