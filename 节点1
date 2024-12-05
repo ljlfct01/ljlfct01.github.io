@@ -199,13 +199,13 @@ proxies:
   - {name:  🇸🇬5, server: singapore-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇸🇬6, server: singapore-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇸🇬7, server: singapore-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name:  hk0, server: pipi.myddns.me, port: 28811, type: socks5, username: myszy, password: myszy28811, udp: true}
-  - {name:  hk1, server: hong-kong.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name:  hk2, server: hong-kong-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name:  hk3, server: hong-kong-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name:  hk4, server: hong-kong-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name:  hk5, server: hong-kong-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name:  hk6, server: hong-kong-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk1, server: pipi.myddns.me, port: 28811, type: socks5, username: myszy, password: myszy28811, udp: true}
+  - {name:  hk2, server: hong-kong.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk3, server: hong-kong-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk4, server: hong-kong-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk5, server: hong-kong-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk6, server: hong-kong-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk7, server: hong-kong-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国01, server: us-boardman-oregon-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国02, server: us-ashburn-virginia-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
@@ -226,9 +226,50 @@ proxy-groups:
       - 台湾2
       - 台湾3
       - 台湾4
-      - 🇯🇵 免费-日本5-Ver.8
-      - 🇯🇵 免费-日本6-Ver.7
-      - 🇯🇵 免费-日本7-Ver.1
+      - 日本1
+      - 日本2
+      - 日本3
+      - 香港1
+      - 香港2
+      - 香港3
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国5
+      - 美国6
+      - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵1
+      - 🇯🇵2
+      - 🇯🇵3
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
+      - hk7
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
       - 🇯🇵 免费-日本1-Ver.6
       - 🇯🇵 免费-日本2-Ver.7
       - 🇯🇵 免费-日本3-Ver.6
@@ -270,6 +311,50 @@ proxy-groups:
       - 台湾2
       - 台湾3
       - 台湾4
+      - 日本1
+      - 日本2
+      - 日本3
+      - 香港1
+      - 香港2
+      - 香港3
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国5
+      - 美国6
+      - 美国7
+      - 🇹🇼1
+      - 🇹🇼2
+      - 🇯🇵1
+      - 🇯🇵2
+      - 🇯🇵3
+      - 🇯🇵4
+      - 🇯🇵5
+      - 🇯🇵6
+      - 🇯🇵7
+      - 🇰🇷1
+      - 🇰🇷2
+      - 🇰🇷3
+      - 🇸🇬1
+      - 🇸🇬2
+      - 🇸🇬3
+      - 🇸🇬4
+      - 🇸🇬5
+      - 🇸🇬6
+      - 🇸🇬7
+      - hk1
+      - hk2
+      - hk3
+      - hk4
+      - hk5
+      - hk6
+      - hk7
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
       - 🇯🇵 免费-日本1-Ver.6
       - 🇯🇵 免费-日本2-Ver.7
       - 🇯🇵 免费-日本3-Ver.6
