@@ -42,6 +42,175 @@ dns:
     - tcp://223.5.5.5
     - tcp://223.6.6.6
 proxies:
+  - name: 台湾1
+    server: tw1-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 台湾2
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    port: 1443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 台湾3
+    server: tw4-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 台湾4
+    type: http
+    server: tw4-cdn-route.couldflare-cdn.com
+    port: 443
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+    tls: true
+  - name: 日本1
+    server: jpgmo101-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 日本2
+    server: jpgmo102-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 日本3
+    type: http
+    server: jp104-cdn-route.couldflare-cdn.com
+    port: 443
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+    tls: true
+    skip-cert-verify: false
+  - name: 香港1
+    server: hkre1-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 香港2
+    server: hkcera3-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+
+  - name: 香港3
+    server: pipi.myddns.me
+    port: 28811
+    type: socks5
+    tls: true
+    skip-cert-verify: false
+    username: myszy
+    password: myszy28811
+
+  
+  - name: 美国1
+    server: usport1-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国2
+    server: us4-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国3
+    server: uscera1-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国4
+    server: ustt3-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国5
+    server: uscera20-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - name: 美国6
+    server: qdct.1polnt7acres.shop
+    port: 563
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: 66f8f673da8351704fcebf2d621a54
+    password: 8d6e2166f8f673da8351704fcebf2e
+  - name: 美国7
+    server: ustt1-cdn-route.couldflare-cdn.com
+    port: 443
+    type: http
+    tls: true
+    skip-cert-verify: false
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+  - {name:  🇹🇼1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇹🇼2, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵1, server: japan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵2, server: japan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵3, server: japan-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵4, server: japan-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵5, server: japan-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵6, server: japan-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇯🇵7, server: japan-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷1, server: south-korea.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷2, server: south-korea-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇰🇷3, server: south-korea-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬1, server: singapore.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬2, server: singapore-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬3, server: singapore-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬4, server: singapore-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬5, server: singapore-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬6, server: singapore-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  🇸🇬7, server: singapore-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk0, server: pipi.myddns.me, port: 28811, type: socks5, username: myszy, password: myszy28811, udp: true}
+  - {name:  hk1, server: hong-kong.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk2, server: hong-kong-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk3, server: hong-kong-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk4, server: hong-kong-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk5, server: hong-kong-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  hk6, server: hong-kong-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国01, server: us-boardman-oregon-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国02, server: us-ashburn-virginia-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国04, server: us-ashburn-virginia.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国05, server: us-boardman-oregon.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name: 🇯🇵 免费-日本1-Ver.6, server: 6pyzk-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 免费-日本2-Ver.7, server: l4pwe-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 免费-日本3-Ver.6, server: zleja-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
@@ -53,6 +222,13 @@ proxy-groups:
   - name: 🔰 选择节点
     type: select
     proxies:
+      - 台湾1
+      - 台湾2
+      - 台湾3
+      - 台湾4
+      - 🇯🇵 免费-日本5-Ver.8
+      - 🇯🇵 免费-日本6-Ver.7
+      - 🇯🇵 免费-日本7-Ver.1
       - 🇯🇵 免费-日本1-Ver.6
       - 🇯🇵 免费-日本2-Ver.7
       - 🇯🇵 免费-日本3-Ver.6
@@ -90,6 +266,10 @@ proxy-groups:
     proxies:
       - 🔰 选择节点
       - DIRECT
+      - 台湾1
+      - 台湾2
+      - 台湾3
+      - 台湾4
       - 🇯🇵 免费-日本1-Ver.6
       - 🇯🇵 免费-日本2-Ver.7
       - 🇯🇵 免费-日本3-Ver.6
