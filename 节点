@@ -114,14 +114,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
 
-  - name: 香港3
-    server: pipi.myddns.me
-    port: 28811
-    type: socks5
-    tls: true
-    skip-cert-verify: false
-    username: myszy
-    password: myszy28811
+
 
   
   - name: 美国1
@@ -231,7 +224,7 @@ proxy-groups:
       - 日本3
       - 香港1
       - 香港2
-      - 香港3
+
       - 美国1
       - 美国2
       - 美国3
@@ -316,7 +309,7 @@ proxy-groups:
       - 日本3
       - 香港1
       - 香港2
-      - 香港3
+
       - 美国1
       - 美国2
       - 美国3
