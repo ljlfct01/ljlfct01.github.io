@@ -46,7 +46,7 @@ proxies:
     server: tw1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
-    tls: false
+    tls: true
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
