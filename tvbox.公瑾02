@@ -6,19 +6,12 @@
     {
       "name": "肥羊国内直播",
       "type": 0,
-      "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tv.m3u",
+      "url": "./专用直播",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
-    {
-      "name": "肥羊TPTV",
-      "type": 0,
-      "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tptv.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
+   
     {
       "name": "开心",
       "type": 0,
