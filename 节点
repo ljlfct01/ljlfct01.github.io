@@ -204,13 +204,13 @@ proxies:
   - {name:  美国03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国04, server: us-ashburn-virginia.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  美国05, server: us-boardman-oregon.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name: 🇯🇵 免费-日本1-Ver.6, server: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 9999999999, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本2-Ver.7, server: l4pwe-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 9999999999 , cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本3-Ver.6, server: zleja-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 9999999999 , cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本4-Ver.7, server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 9999999999 , cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本5-Ver.8, server: 555h7-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 9999999999 , cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本6-Ver.7, server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 9999999999 , cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 免费-日本7-Ver.1, server: pksjy-g03.jp07-1f28-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 9999999999 , cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本1-Ver.6, server: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 99999, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本2-Ver.7, server: l4pwe-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 99999 , cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本3-Ver.6, server: zleja-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 99999 , cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本4-Ver.7, server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 99999 , cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本5-Ver.8, server: 555h7-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 99999 , cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本6-Ver.7, server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 99999 , cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本7-Ver.1, server: pksjy-g03.jp07-1f28-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f, alterId: 99999 , cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 选择节点
     type: select
