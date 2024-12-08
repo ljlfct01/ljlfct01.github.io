@@ -4,21 +4,55 @@
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
     {
-      "name": "live",
+      "name": "开心TV",
       "type": 0,
-      "url": "响应政府号召, 加强行业自律,时光机数据源从23年11月21日起不提供直播服务。",
+      "url": "http://rihou.cc:55/lib/kx2024.txt",
       "playerType": 1,
-      "ua": "okhttp/3.12.13",
-      "epg": "",
-      "logo": ""
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+   {
+      "name": "猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:567/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+   {
+      "name": "AKTV",
+      "type": 0,
+      "url": "http://aktv.top/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "18+1",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/supermeguo/BoxRes/main/Myuse/live18.txt",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "18+2",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/zeee-u/lzh06/main/fl.m3u",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
     }
   ],
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
     {
-      "key": "时光机",
-      "name": "🥤时光机超大杯 🗓️v20241208-🧵106",
+      "key": "豆瓣",
+      "name": "🥤豆瓣┃推荐",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -29,15 +63,7 @@
         "sourceVersion": "20241208"
       }
     },
-    {
-      "key": "📺 电视直播 | JAR",
-      "name": "📺 电视直播 | JAR",
-      "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./sites/码上/remote_live.json"
-    },
+   
     {
       "key": "🧲 磁力熊 | JAR",
       "name": "🧲 磁力熊 | JAR",
@@ -233,11 +259,11 @@
       "key": "🚀 荐片 | JS",
       "name": "🚀 荐片 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/jianpian.js"
+      "ext": "https://www.lintech.work/超大杯/sites/码上/jianpian.js"
     },
     {
       "key": "💓 在线 | JAR",
@@ -385,8 +411,8 @@
       "key": "⚽ 88看球 | JS",
       "name": "⚽ 88看球 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/88.js",
+      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
+      "ext": "https://www.lintech.work/超大杯/sites/码上/88.js",
       "style": {
         "type": "list"
       },
@@ -398,8 +424,8 @@
       "key": "⚽ 球迷 | JS",
       "name": "⚽ 球迷 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/jrk.js",
+      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
+      "ext": "https://www.lintech.work/超大杯/sites/码上/jrk.js",
       "style": {
         "type": "list"
       },
@@ -411,8 +437,8 @@
       "key": "⚽ 310看球 | JS",
       "name": "⚽ 310看球 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/310.js",
+      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
+      "ext": "https://www.lintech.work/超大杯/sites/码上/310.js",
       "style": {
         "type": "list"
       },
@@ -497,181 +523,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "🚀 影探 | JS",
-      "name": "🚀 影探 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/yingtan.js"
-    },
-    {
-      "key": "🚀 低端 | JS",
-      "name": "🚀 低端 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/ddys.js"
-    },
-    {
-      "key": "🚀 369 | JS",
-      "name": "🚀 369 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/369ys.js"
-    },
-    {
-      "key": "🚀 尘落 | JS",
-      "name": "🚀 尘落 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/clys.js"
-    },
-    {
-      "key": "🚀 NY | JS",
-      "name": "🚀 NY | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/nyyy.js"
-    },
-    {
-      "key": "🚀 中国人 | JS",
-      "name": "🚀 中国人 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/zgr.js"
-    },
-    {
-      "key": "🚀 18哈 | JS",
-      "name": "🚀 18哈 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/18ha.js"
-    },
-    {
-      "key": "🚀 乐鱼 | JS",
-      "name": "🚀 乐鱼 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/leyu.js"
-    },
-    {
-      "key": "🚀 大师兄 | JS",
-      "name": "🚀 大师兄 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/dsx.js"
-    },
-    {
-      "key": "🧸 动漫 | JS",
-      "name": "🧸 动漫 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./sites/码上/blys.js"
-    },
-    {
-      "key": "🚀 NYA | JS",
-      "name": "🚀 NYA | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/NyaFun.js"
-    },
-    {
-      "key": "🚀 白白 | JS",
-      "name": "🚀 白白 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/sbb.js"
-    },
-    {
-      "key": "🚀 农民 | JS",
-      "name": "🚀 农民 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/nmys.js"
-    },
-    {
-      "key": "🚀 网飞 | JS",
-      "name": "🚀 网飞 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/wftv.js"
-    },
-    {
-      "key": "🧸 Auete | JS",
-      "name": "🧸 Auete | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/Auete.js"
-    },
-    {
-      "key": "push_agent",
-      "name": "推送服务",
-      "type": 3,
-      "api": "csp_Push",
-      "playerType": "1",
-      "searchable": 0
-    },
-    {
-      "key": "公众号: 插兜的干货仓库",
-      "name": "公众号: 插兜的干货仓库",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0
-    },
+   
     {
       "key": "玩偶",
       "name": "饭->👽玩偶哥哥┃4K弹幕",
@@ -1272,6 +1124,259 @@
         "json": "https://notabug.org/fantaiying/ext/raw/main/高中课堂.json"
       },
       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1731126610038/fan.txt;md5;118bca13418f13c45c5c237ac93c2f07"
+    },
+ {
+      "key": "csp_xpath_飞兔成人",
+      "name": "🐰飞兔成人",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/supermeguo/BoxRes/main/Myuse/ext/feitucr.json"
+    },
+ {
+      "key": "*色猫资源",
+      "name": "*色猫资源",
+      "type": 1,
+      "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*色南国资源",
+      "name": "*色南国资源",
+      "type": 1,
+      "api": "https://api.sexnguon.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+ {
+      "key": "*抖阴视频",
+      "name": "*抖阴视频",
+      "type": 1,
+      "api": "https://www.888dav.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*麻豆视频2",
+      "name": "*麻豆视频2",
+      "type": 1,
+      "api": "https://madouse.la/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*蛋蛋视频",
+      "name": "*蛋蛋视频",
+      "type": 1,
+      "api": "https://156.249.29.8/inc/apijson_vod.php",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*91麻豆",
+      "name": "*91麻豆",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "(18+)环亚资源",
+      "name": "(18+不错)环亚资源",
+      "type": 0,
+      "api": "http://wmcj8.com/inc/sapi.php?ac=videolist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "ms4nii",
+      "name": "美少女资源(已修复)",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "KxrbspE",
+      "name": "淫水机资源(已修复)",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "gdlsE",
+      "name": "香奶儿资源(已修复)",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "kxgav",
+      "name": "白嫖资源(已修复)",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zp066",
+      "name": "🔞花椒资源",
+      "type": 0,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*乐播资源",
+      "name": "🔞乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "zp100",
+      "name": "🔞乐播",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "💞探探资源💞",
+      "name": "💞探探资源💞",
+      "type": 1,
+      "api": "https://apittzy.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*AIvin",
+      "name": "AIvin",
+      "type": 0,
+      "api": "http://lbapiby.com/api.php/provide/vod/at/xml"
+    },
+    {
+      "key": "kkzy.me",
+      "name": "成人51",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "(18+)JAV名优",
+      "name": "(18+)JAV名优",
+      "type": 0,
+      "api": "http://mygzycj.com/api.php?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "afasu",
+      "name": "小湿妹资源(已修复)",
+      "type": 0,
+      "api": "https://www.afasu.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "KpgxdyE",
+      "name": "黄AV资源(已修复)",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ap4i156dlyE",
+      "name": "奶茶资源(已修复)",
+      "type": 0,
+      "api": "https://caiji.naichaapi.com/inc/api.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "api.apilyzy.com",
+      "name": "成人71",
+      "type": 1,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "大地采集",
+      "name": "🔞大地av",
+      "type": 0,
+      "api": "https://dadiapi.com/apple_m3u8.php",
+      "playUrl": "https://play.dadiapi.com/watch?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "pgxdy",
+      "name": "🔞PGX电影",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zp128",
+      "name": "🔞鲨鱼影视",
+      "type": 0,
+      "api": "https://shayuapi.com/api.php/Seacms/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*易看资源",
+      "name": "🔞易看资源",
+      "type": 1,
+      "api": "https://api.yikanapi.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "*番号资源",
+      "name": "🔞番号资源",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "xrbsp.com",
+      "name": "成人66",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
     }
   ],
   "parses": [
