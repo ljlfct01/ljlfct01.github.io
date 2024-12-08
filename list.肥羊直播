@@ -1,903 +1,858 @@
-{
-	"spider":"./pg.jar",
-    "logo": "./images/肥羊.png",
+央视频道,#genre#
+
+CCTV1,http://127.0.0.1:35455/ysptp/cctv1.m3u8
+CCTV2,http://127.0.0.1:35455/ysptp/cctv2.m3u8
+CCTV3,http://127.0.0.1:35455/ysptp/cctv3.m3u8
+CCTV4,http://127.0.0.1:35455/ysptp/cctv4.m3u8
+CCTV5,http://127.0.0.1:35455/ysptp/cctv5.m3u8
+CCTV5+,http://127.0.0.1:35455/ysptp/cctv5p.m3u8
+CCTV6,http://127.0.0.1:35455/itv/6000000001000004574.m3u8?cdn=wasusyt
+CCTV7,http://127.0.0.1:35455/ysptp/cctv7.m3u8
+CCTV8,http://127.0.0.1:35455/ysptp/cctv8.m3u8
+CCTV9,http://127.0.0.1:35455/ysptp/cctv9.m3u8
+CCTV10,http://127.0.0.1:35455/ysptp/cctv10.m3u8
+CCTV11,http://127.0.0.1:35455/ysptp/cctv11.m3u8
+CCTV12,http://127.0.0.1:35455/ysptp/cctv12.m3u8
+CCTV13,http://127.0.0.1:35455/ysptp/cctv13.m3u8
+CCTV14,http://127.0.0.1:35455/ysptp/cctv14.m3u8
+CCTV15,http://127.0.0.1:35455/ysptp/cctv15.m3u8
+CCTV16,http://127.0.0.1:35455/ysptp/cctv16.m3u8
+CCTV17,http://127.0.0.1:35455/ysptp/cctv17.m3u8
 
 
-	"sites":[
-	 {
-      "key": "豆瓣",
-      "name": "豆瓣┃推荐",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "https://tv.菜妮丝.top/json/douban.json",
-      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
-    },
-		{"key": "push_agent","name": "肥羊本地直播","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"},
-		{
-			"key": "直播转点播",
-			"name": "肥羊直播",
-			"type": 3,
-			"searchable": 0,
-			"api": "./lib/live2vod.js",
-			"ext": "./lib/feimaolive.json"
-		},
-	
-    {
-      "key": "夸克木偶弹幕",
-      "name": "🍁木偶资源┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://mogg.小胡.top",
-        "danmu": true
-      }
-    },
+CCTV1,http://127.0.0.1:35455/itv/1000000005000265001.m3u8?cdn=ystenlive$ITV HEVC
+CCTV2,http://127.0.0.1:35455/itv/1000000001000023315.m3u8?cdn=ystenlive$ITV HEVC
+CCTV3,http://127.0.0.1:35455/itv/1000000005000265003.m3u8?cdn=ystenlive$ITV HEVC
+CCTV4,http://127.0.0.1:35455/itv/1000000005000265004.m3u8?cdn=ystenlive$ITV HEVC
+CCTV5,http://127.0.0.1:35455/itv/1000000005000265005.m3u8?cdn=ystenlive$ITV HEVC
+CCTV5+,http://127.0.0.1:35455/itv/1000000005000265016.m3u8?cdn=ystenlive$ITV HEVC
+CCTV6,http://127.0.0.1:35455/itv/1000000005000265006.m3u8?cdn=ystenlive$ITV HEVC
+CCTV7,http://127.0.0.1:35455/itv/1000000005000265007.m3u8?cdn=ystenlive$ITV HEVC
+CCTV8,http://127.0.0.1:35455/itv/1000000005000265008.m3u8?cdn=ystenlive$ITV HEVC
+CCTV9,http://127.0.0.1:35455/itv/1000000005000265009.m3u8?cdn=ystenlive$ITV HEVC
+CCTV10,http://127.0.0.1:35455/itv/1000000005000265010.m3u8?cdn=ystenlive$ITV HEVC
+CCTV11,http://127.0.0.1:35455/itv/1000000005000265011.m3u8?cdn=ystenlive$ITV HEVC
+CCTV12,http://127.0.0.1:35455/itv/1000000005000265012.m3u8?cdn=ystenlive$ITV HEVC
+CCTV13,http://127.0.0.1:35455/itv/5000000011000031108.m3u8?cdn=bestzb$ITV 50FPS
+CCTV14,http://127.0.0.1:35455/itv/1000000005000265013.m3u8?cdn=ystenlive$ITV HEVC
+CCTV15,http://127.0.0.1:35455/itv/1000000005000265014.m3u8?cdn=ystenlive$ITV HEVC
+CCTV16,http://127.0.0.1:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
+CCTV17,http://127.0.0.1:35455/itv/1000000005000265015.m3u8?cdn=ystenlive$ITV HEVC
 
-    {
-      "key": "夸克蜡笔弹幕",
-      "name": "🖍︎蜡笔资源┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "http://labipan.com/",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克至臻弹幕",
-      "name": "🏆️夸克至臻┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://mihdr.top",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克奥秘弹幕",
-      "name": "💎夸克奥秘┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://vip.omii.top",
-        "danmu": true
-      }
-    },
-    {
-      "key": "笔触琉璃",
-      "name": "❤️笔触琉璃┃4K弹幕",
-      "type": 3,
-      "api": "csp_Bilimd",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "cookie": "file://tvbox/bilibili.txt"
-      },
-      "timeout": 10
-    },
+CCTV1,http://127.0.0.1:35455/itv/5000000004000002226.m3u8?cdn=bestzb$ITV 50FPS
+CCTV2,http://127.0.0.1:35455/itv/6000000001000014161.m3u8?cdn=wasusyt$ITV 50FPS
+CCTV4,http://127.0.0.1:35455/itv/5000000011000031102.m3u8?cdn=bestzb$ITV 50FPS
+CCTV6,http://127.0.0.1:35455/itv/6000000001000004574.m3u8?cdn=wasusyt$ITV 50FPS
+CCTV7,http://127.0.0.1:35455/itv/6000000001000009055.m3u8?cdn=wasusyt$ITV 50FPS
+CCTV9,http://127.0.0.1:35455/itv/6000000001000032162.m3u8?cdn=wasusyt$ITV 50FPS
+CCTV10,http://127.0.0.1:35455/itv/5000000004000012827.m3u8?cdn=bestzb$ITV 50FPS
+CCTV11,http://127.0.0.1:35455/itv/5000000011000031106.m3u8?cdn=bestzb$ITV 50FPS
+CCTV12,http://127.0.0.1:35455/itv/6000000001000022586.m3u8?cdn=wasusyt$ITV 50FPS
+CCTV14,http://127.0.0.1:35455/itv/5000000004000006673.m3u8?cdn=bestzb$ITV 50FPS
+CCTV15,http://127.0.0.1:35455/itv/5000000011000031109.m3u8?cdn=bestzb$ITV 50FPS
 
-    {
-      "key": "摸鱼瓜子",
-      "name": "❤️瓜子┃蓝光┃纯净",
-      "type": 3,
-      "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/guazi.js"
-    },
+CCTV1,http://127.0.0.1:35455/itv/6000000001000029752.m3u8?cdn=wasusyt
+CCTV2,http://127.0.0.1:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
+CCTV3,http://127.0.0.1:35455/itv/6000000001000022313.m3u8?cdn=wasusyt
+CCTV5,http://127.0.0.1:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
+CCTV5+,http://127.0.0.1:35455/itv/6000000001000015875.m3u8?cdn=wasusyt
+CCTV6,http://127.0.0.1:35455/itv/1000000001000001737.m3u8?cdn=ystenlive
+CCTV7,http://127.0.0.1:35455/itv/1000000001000024341.m3u8?cdn=ystenlive
+CCTV8,http://127.0.0.1:35455/itv/6000000001000001070.m3u8?cdn=wasusyt
+CCTV9,http://127.0.0.1:35455/itv/1000000001000014583.m3u8?cdn=ystenlive
+CCTV10,http://127.0.0.1:35455/itv/1000000001000023734.m3u8?cdn=ystenlive
+CCTV12,http://127.0.0.1:35455/itv/1000000001000032494.m3u8?cdn=ystenlive
+CCTV14,http://127.0.0.1:35455/itv/1000000001000008170.m3u8?cdn=ystenlive
+CCTV17,http://127.0.0.1:35455/itv/1000000006000268004.m3u8?cdn=ystenlive
+
+卫视频道,#genre#
+
+山东卫视,http://127.0.0.1:35455/itv/6000000001000004134.m3u8?cdn=wasusyt$ITV 50FPS
+安徽卫视,http://127.0.0.1:35455/itv/1000000005000265025.m3u8?cdn=ystenlive$ITV HEVC
+河南卫视,http://127.0.0.1:35455/itv/5000000011000031119.m3u8?cdn=bestzb
+贵州卫视,http://127.0.0.1:35455/itv/5000000004000025843.m3u8?cdn=bestzb
+湖南卫视,http://127.0.0.1:35455/itv/1000000005000265024.m3u8?cdn=ystenlive$ITV HEVC
+江苏卫视,http://127.0.0.1:35455/itv/1000000005000265030.m3u8?cdn=ystenlive$ITV HEVC
+北京卫视,http://127.0.0.1:35455/itv/1000000005000265027.m3u8?cdn=ystenlive$ITV HEVC
+东方卫视,http://127.0.0.1:35455/itv/5000000004000014098.m3u8?cdn=bestzb$ITV 50FPS
+东南卫视,http://127.0.0.1:35455/itv/1000000005000265033.m3u8?cdn=ystenlive$ITV HEVC
+广东卫视,http://127.0.0.1:35455/itv/1000000005000265034.m3u8?cdn=ystenlive$ITV HEVC
+黑龙江卫视,http://127.0.0.1:35455/itv/1000000005000265029.m3u8?cdn=ystenlive$ITV HEVC
+湖北卫视,http://127.0.0.1:35455/itv/1000000005000265023.m3u8?cdn=ystenlive$ITV HEVC
+江西卫视,http://127.0.0.1:35455/itv/1000000005000265032.m3u8?cdn=ystenlive$ITV HEVC
+辽宁卫视,http://127.0.0.1:35455/itv/1000000005000265022.m3u8?cdn=ystenlive$ITV HEVC
+山东卫视,http://127.0.0.1:35455/itv/1000000005000265019.m3u8?cdn=ystenlive$ITV HEVC
+深圳卫视,http://127.0.0.1:35455/itv/1000000005000265028.m3u8?cdn=ystenlive$ITV HEVC
+天津卫视,http://127.0.0.1:35455/itv/1000000005000265026.m3u8?cdn=ystenlive$ITV HEVC
+浙江卫视,http://127.0.0.1:35455/itv/1000000005000265031.m3u8?cdn=ystenlive$ITV HEVC
+重庆卫视,http://127.0.0.1:35455/itv/1000000005000265017.m3u8?cdn=ystenlive$ITV HEVC
+
+安徽卫视,http://127.0.0.1:35455/itv/6000000001000009954.m3u8?cdn=wasusyt$ITV 50FPS
+广东卫视,http://127.0.0.1:35455/itv/6000000001000031076.m3u8?cdn=wasusyt$ITV 50FPS
+黑龙江卫视,http://127.0.0.1:35455/itv/6000000001000016510.m3u8?cdn=wasusyt$ITV 50FPS
+湖北卫视,http://127.0.0.1:35455/itv/6000000001000015436.m3u8?cdn=wasusyt$ITV 50FPS
+湖南卫视,http://127.0.0.1:35455/itv/6000000001000018044.m3u8?cdn=wasusyt$ITV 50FPS
+江苏卫视,http://127.0.0.1:35455/itv/6000000001000014861.m3u8?cdn=wasusyt$ITV 50FPS
+深圳卫视,http://127.0.0.1:35455/itv/6000000001000002116.m3u8?cdn=wasusyt$ITV 50FPS
+天津卫视,http://127.0.0.1:35455/itv/6000000001000009186.m3u8?cdn=wasusyt$ITV 50FPS
+浙江卫视,http://127.0.0.1:35455/itv/5000000004000007275.m3u8?cdn=bestzb$ITV 50FPS
+
+北京卫视,http://127.0.0.1:35455/itv/6000000001000020451.m3u8?cdn=wasusyt
+安徽卫视,http://127.0.0.1:35455/itv/1000000001000030159.m3u8?cdn=ystenlive
+东南卫视,http://127.0.0.1:35455/itv/5000000004000010584.m3u8?cdn=bestzb
+甘肃卫视,http://127.0.0.1:35455/itv/5000000011000031121.m3u8?cdn=bestzb
+广东卫视,http://127.0.0.1:35455/itv/1000000001000014176.m3u8?cdn=ystenlive
+广西卫视,http://127.0.0.1:35455/itv/5000000011000031118.m3u8?cdn=bestzb
+海南卫视,http://127.0.0.1:35455/itv/5000000004000006211.m3u8?cdn=bestzb
+河北卫视,http://127.0.0.1:35455/itv/5000000006000040016.m3u8?cdn=bestzb
+黑龙江卫视,http://127.0.0.1:35455/itv/1000000001000001925.m3u8?cdn=ystenlive
+湖北卫视,http://127.0.0.1:35455/itv/1000000001000024621.m3u8?cdn=ystenlive
+湖南卫视,http://127.0.0.1:35455/itv/5000000004000006692.m3u8?cdn=bestzb
+吉林卫视,http://127.0.0.1:35455/itv/5000000011000031117.m3u8?cdn=bestzb
+江苏卫视,http://127.0.0.1:35455/itv/1000000001000001828.m3u8?cdn=ystenlive
+江西卫视,http://127.0.0.1:35455/itv/1000000006000268001.m3u8?cdn=ystenlive
+辽宁卫视,http://127.0.0.1:35455/itv/5000000004000011671.m3u8?cdn=bestzb
+青海卫视,http://127.0.0.1:35455/itv/1000000002000013359.m3u8?cdn=ystenlive
+山东卫视,http://127.0.0.1:35455/itv/1000000001000016568.m3u8?cdn=ystenlive
+东方卫视,http://127.0.0.1:35455/itv/6000000001000003639.m3u8?cdn=wasusyt
+深圳卫视,http://127.0.0.1:35455/itv/5000000004000007410.m3u8?cdn=bestzb
+四川卫视,http://127.0.0.1:35455/itv/5000000004000006119.m3u8?cdn=bestzb
+天津卫视,http://127.0.0.1:35455/itv/5000000004000006827.m3u8?cdn=bestzb
+云南卫视,http://127.0.0.1:35455/itv/5000000011000031120.m3u8?cdn=bestzb
+浙江卫视,http://127.0.0.1:35455/itv/1000000001000014260.m3u8?cdn=ystenlive
+重庆卫视,http://127.0.0.1:35455/itv/1000000001000001096.m3u8?cdn=ystenlive
+
+综合频道,#genre#
 
 
+NewTV-精品综合,http://127.0.0.1:35455/itv/1000000004000019008.m3u8?cdn=ystenlive
+NewTV-精品大剧,http://127.0.0.1:35455/itv/1000000004000013968.m3u8?cdn=ystenlive
+NewTV-精品纪录,http://127.0.0.1:35455/itv/1000000004000013730.m3u8?cdn=ystenlive
+NewTV-精品体育,http://127.0.0.1:35455/itv/1000000004000014634.m3u8?cdn=ystenlive
+NewTV-精品萌宠,http://127.0.0.1:35455/itv/1000000006000032328.m3u8?cdn=ystenlive
+NewTV-爱情喜剧,http://127.0.0.1:35455/itv/2000000003000000010.m3u8?cdn=hnbblive
+NewTV-超级电视剧,http://127.0.0.1:35455/itv/1000000006000268003.m3u8?cdn=ystenlive
+NewTV-超级电影,http://127.0.0.1:35455/itv/1000000003000012426.m3u8?cdn=ystenlive
+NewTV-超级体育,http://127.0.0.1:35455/itv/1000000001000009601.m3u8?cdn=ystenlive
+NewTV-超级综艺,http://127.0.0.1:35455/itv/1000000006000268002.m3u8?cdn=ystenlive
+NewTV-潮妈辣婆,http://127.0.0.1:35455/itv/2000000003000000018.m3u8?cdn=hnbblive
+NewTV-东北热剧,http://127.0.0.1:35455/itv/1000000005000266013.m3u8?cdn=ystenlive
+NewTV-动作电影,http://127.0.0.1:35455/itv/1000000004000018653.m3u8?cdn=ystenlive
+NewTV-古装剧场,http://127.0.0.1:35455/itv/2000000003000000024.m3u8?cdn=hnbblive
+NewTV-欢乐剧场,http://127.0.0.1:35455/itv/1000000005000266012.m3u8?cdn=ystenlive
+NewTV-家庭剧场,http://127.0.0.1:35455/itv/1000000004000008284.m3u8?cdn=ystenlive
+NewTV-金牌综艺,http://127.0.0.1:35455/itv/1000000004000026167.m3u8?cdn=ystenlive
+NewTV-惊悚悬疑,http://127.0.0.1:35455/itv/1000000004000024282.m3u8?cdn=ystenlive
+NewTV-军旅剧场,http://127.0.0.1:35455/itv/2000000003000000014.m3u8?cdn=hnbblive
+NewTV-军事评论,http://127.0.0.1:35455/itv/2000000003000000022.m3u8?cdn=hnbblive
+NewTV-魅力潇湘,http://127.0.0.1:35455/itv/1000000001000006197.m3u8?cdn=ystenlive
+NewTV-明星大片,http://127.0.0.1:35455/itv/2000000003000000016.m3u8?cdn=hnbblive
+NewTV-农业致富,http://127.0.0.1:35455/itv/2000000003000000003.m3u8?cdn=hnbblive
+NewTV-武博世界,http://127.0.0.1:35455/itv/2000000003000000007.m3u8?cdn=hnbblive
+NewTV-炫舞未来,http://127.0.0.1:35455/itv/1000000001000000515.m3u8?cdn=ystenlive
+NewTV-怡伴健康,http://127.0.0.1:35455/itv/1000000005000266011.m3u8?cdn=ystenlive
+NewTV-中国功夫,http://127.0.0.1:35455/itv/2000000003000000009.m3u8?cdn=hnbblive
+NewTV-黑莓电影,http://127.0.0.1:35455/itv/1000000004000019624.m3u8?cdn=ystenlive
+
+NewTV-哒啵电竞,http://127.0.0.1:35455/itv/1000000006000032327.m3u8?cdn=ystenlive
+NewTV-哒啵赛事,http://127.0.0.1:35455/itv/1000000001000003775.m3u8?cdn=ystenlive
 
 
-    {
-      "key": "贱贱",
-      "name": "🐭贱贱┃P2P┃纯净",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
-    },
+SiTV-都市剧场,http://127.0.0.1:35455/itv/5000000011000031111.m3u8?cdn=bestzb
+SiTV-法治天地,http://127.0.0.1:35455/itv/9001547084732463424.m3u8?cdn=bestzb
+SiTV-欢笑剧场,http://127.0.0.1:35455/itv/5000000002000009455.m3u8?cdn=bestzb
+SiTV-欢笑剧场-4K,http://127.0.0.1:35455/itv/5000000007000010001.m3u8?cdn=bestzb
+SiTV-金色学堂,http://127.0.0.1:35455/itv/5000000010000026105.m3u8?cdn=bestzb
+SiTV-劲爆体育,http://127.0.0.1:35455/itv/5000000002000029972.m3u8?cdn=bestzb
+SiTV-乐游,http://127.0.0.1:35455/itv/5000000011000031112.m3u8?cdn=bestzb
+SiTV-魅力足球,http://127.0.0.1:35455/itv/5000000011000031207.m3u8?cdn=bestzb
+SiTV-七彩戏剧,http://127.0.0.1:35455/itv/5000000011000031116.m3u8?cdn=bestzb
+SiTV-生活时尚,http://127.0.0.1:35455/itv/5000000002000019634.m3u8?cdn=bestzb
+SiTV-游戏风云,http://127.0.0.1:35455/itv/5000000011000031114.m3u8?cdn=bestzb
+
+iHOT-爱电竞,http://127.0.0.1:35455/itv/6000000006000230630.m3u8?cdn=wasusyt
+iHOT-爱谍战,http://127.0.0.1:35455/itv/6000000006000070630.m3u8?cdn=wasusyt
+iHOT-爱浪漫,http://127.0.0.1:35455/itv/6000000006000040630.m3u8?cdn=wasusyt
+iHOT-爱都市,http://127.0.0.1:35455/itv/6000000006000080630.m3u8?cdn=wasusyt
+iHOT-爱怀旧,http://127.0.0.1:35455/itv/6000000006000260630.m3u8?cdn=wasusyt
+iHOT-爱经典,http://127.0.0.1:35455/itv/6000000006000060630.m3u8?cdn=wasusyt
+iHOT-爱科幻,http://127.0.0.1:35455/itv/6000000006000020630.m3u8?cdn=wasusyt
+iHOT-爱科学,http://127.0.0.1:35455/itv/6000000006000160630.m3u8?cdn=wasusyt
+iHOT-爱历史,http://127.0.0.1:35455/itv/6000000006000150630.m3u8?cdn=wasusyt
+iHOT-爱旅行,http://127.0.0.1:35455/itv/6000000006000250630.m3u8?cdn=wasusyt
+iHOT-爱奇谈,http://127.0.0.1:35455/itv/6000000006000270630.m3u8?cdn=wasusyt
+iHOT-爱青春,http://127.0.0.1:35455/itv/6000000006000100630.m3u8?cdn=wasusyt
+iHOT-爱赛车,http://127.0.0.1:35455/itv/6000000006000240630.m3u8?cdn=wasusyt
+iHOT-爱体育,http://127.0.0.1:35455/itv/6000000006000290630.m3u8?cdn=wasusyt
+iHOT-爱玩具,http://127.0.0.1:35455/itv/6000000006000220630.m3u8?cdn=wasusyt
+iHOT-爱喜剧,http://127.0.0.1:35455/itv/6000000006000010630.m3u8?cdn=wasusyt
+iHOT-爱悬疑,http://127.0.0.1:35455/itv/6000000006000050630.m3u8?cdn=wasusyt
+iHOT-爱幼教,http://127.0.0.1:35455/itv/6000000006000180630.m3u8?cdn=wasusyt
+iHOT-爱院线,http://127.0.0.1:35455/itv/6000000006000030630.m3u8?cdn=wasusyt
+
+中国教育电视台-1,http://127.0.0.1:35455/itv/5000000002000002652.m3u8?cdn=bestzb
+中国教育电视台-4,http://127.0.0.1:35455/itv/5000000011000031126.m3u8?cdn=bestzb
+北京纪实科教,http://127.0.0.1:35455/itv/1000000005000265020.m3u8?cdn=ystenlive$ITV HEVC
+上海东方卫视,http://127.0.0.1:35455/itv/1000000005000265018.m3u8?cdn=ystenlive$ITV HEVC
+上海纪实人文,http://127.0.0.1:35455/itv/1000000005000265021.m3u8?cdn=ystenlive$ITV HEVC
+上海纪实人文,http://127.0.0.1:35455/itv/5000000004000010282.m3u8?cdn=bestzb$ITV 50FPS
+北京纪实科教,http://127.0.0.1:35455/itv/1000000001000001910.m3u8?cdn=ystenlive
+湖南金鹰纪实,http://127.0.0.1:35455/itv/5000000011000031203.m3u8?cdn=bestzb
+湖南快乐垂钓,http://127.0.0.1:35455/itv/5000000011000031206.m3u8?cdn=bestzb
+湖南茶频道,http://127.0.0.1:35455/itv/5000000011000031209.m3u8?cdn=bestzb
+上海-ICS-外语,http://127.0.0.1:35455/itv/5000000010000030951.m3u8?cdn=bestzb
+上海第一财经,http://127.0.0.1:35455/itv/5000000010000027146.m3u8?cdn=bestzb
+上海东方财经,http://127.0.0.1:35455/itv/5000000007000010003.m3u8?cdn=bestzb
+上海东方影视,http://127.0.0.1:35455/itv/5000000010000032212.m3u8?cdn=bestzb
+上海都市,http://127.0.0.1:35455/itv/5000000010000018926.m3u8?cdn=bestzb
+上海法治天地,http://127.0.0.1:35455/itv/2000000002000000014.m3u8?cdn=hnbblive
+
+上海五星体育,http://127.0.0.1:35455/itv/5000000010000017540.m3u8?cdn=bestzb
+上海新闻综合,http://127.0.0.1:35455/itv/5000000011000031110.m3u8?cdn=bestzb
+华数-4K,http://127.0.0.1:35455/itv/6000000003000004748.m3u8?cdn=wasusyt
+纯享-4K,http://127.0.0.1:35455/itv/1000000004000011651.m3u8?cdn=ystenlive
+咪咕4K-1,http://127.0.0.1:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
+咪咕4K-2,http://127.0.0.1:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
+北京纪实科教8K,https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
+Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
+Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+咪咕全民热练,http://127.0.0.1:35455/itv/3000000020000031315.m3u8?cdn=FifastbLive
+求索动物,http://127.0.0.1:35455/itv/6000000002000010046.m3u8?cdn=wasusyt
+求索纪录,http://127.0.0.1:35455/itv/6000000002000032052.m3u8?cdn=wasusyt
+求索科学,http://127.0.0.1:35455/itv/6000000002000032344.m3u8?cdn=wasusyt
+求索生活,http://127.0.0.1:35455/itv/6000000002000003382.m3u8?cdn=wasusyt
 
 
+咪咕视频_8M1080_咪视通-1,http://127.0.0.1:35455/itv/3000000001000005308.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-2,http://127.0.0.1:35455/itv/3000000001000005969.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-3,http://127.0.0.1:35455/itv/3000000001000007218.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-4,http://127.0.0.1:35455/itv/3000000001000008001.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-5,http://127.0.0.1:35455/itv/3000000001000008176.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-6,http://127.0.0.1:35455/itv/3000000001000008379.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-7,http://127.0.0.1:35455/itv/3000000001000010129.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-8,http://127.0.0.1:35455/itv/3000000001000010948.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-9,http://127.0.0.1:35455/itv/3000000001000028638.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-10,http://127.0.0.1:35455/itv/3000000001000031494.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-11,http://127.0.0.1:35455/itv/3000000010000005837.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-12,http://127.0.0.1:35455/itv/3000000020000011518.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-13,http://127.0.0.1:35455/itv/3000000020000011519.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-14,http://127.0.0.1:35455/itv/3000000020000011520.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-15,http://127.0.0.1:35455/itv/3000000020000011521.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-16,http://127.0.0.1:35455/itv/3000000020000011522.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-17,http://127.0.0.1:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-18,http://127.0.0.1:35455/itv/3000000020000011524.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-19,http://127.0.0.1:35455/itv/3000000020000011525.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-20,http://127.0.0.1:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-21,http://127.0.0.1:35455/itv/3000000020000011529.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-22,http://127.0.0.1:35455/itv/3000000020000011530.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-23,http://127.0.0.1:35455/itv/3000000020000011531.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-24,http://127.0.0.1:35455/itv/3000000010000000097.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-25,http://127.0.0.1:35455/itv/3000000010000002019.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-26,http://127.0.0.1:35455/itv/3000000010000002809.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-27,http://127.0.0.1:35455/itv/3000000010000003915.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-28,http://127.0.0.1:35455/itv/3000000010000004193.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-29,http://127.0.0.1:35455/itv/3000000010000006077.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-30,http://127.0.0.1:35455/itv/3000000010000006658.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-31,http://127.0.0.1:35455/itv/3000000010000009788.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-32,http://127.0.0.1:35455/itv/3000000010000010833.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-33,http://127.0.0.1:35455/itv/3000000010000011297.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-34,http://127.0.0.1:35455/itv/3000000010000011518.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-35,http://127.0.0.1:35455/itv/3000000010000012558.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-36,http://127.0.0.1:35455/itv/3000000010000012616.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-37,http://127.0.0.1:35455/itv/3000000010000015470.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-38,http://127.0.0.1:35455/itv/3000000010000015560.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-39,http://127.0.0.1:35455/itv/3000000010000017678.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-40,http://127.0.0.1:35455/itv/3000000010000019839.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-41,http://127.0.0.1:35455/itv/3000000010000021904.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-42,http://127.0.0.1:35455/itv/3000000010000023434.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-43,http://127.0.0.1:35455/itv/3000000010000025380.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-44,http://127.0.0.1:35455/itv/3000000010000027691.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_咪视通-45,http://127.0.0.1:35455/itv/3000000010000031669.m3u8?cdn=FifastbLive
+咪咕视频_8M1080_湖南bblive-1,http://127.0.0.1:35455/itv/2000000003000000060.m3u8?cdn=hnbblive
+咪咕视频_8M1080_湖南bblive-2,http://127.0.0.1:35455/itv/2000000003000000061.m3u8?cdn=hnbblive
+咪咕视频_8M1080_湖南bblive-3,http://127.0.0.1:35455/itv/2000000003000000062.m3u8?cdn=hnbblive
+咪咕视频_8M1080_湖南bblive-4,http://127.0.0.1:35455/itv/2000000003000000063.m3u8?cdn=hnbblive
+咪咕视频_8M1080_湖南bblive-5,http://127.0.0.1:35455/itv/2000000003000000064.m3u8?cdn=hnbblive
+咪咕视频_8M1080_湖南bblive-6,http://127.0.0.1:35455/itv/2000000003000000065.m3u8?cdn=hnbblive
+咪咕视频_8M1080_易视腾-1,http://127.0.0.1:35455/itv/1000000006000270001.m3u8?cdn=ystenlive
+咪咕视频_8M1080_易视腾-2,http://127.0.0.1:35455/itv/1000000006000270002.m3u8?cdn=ystenlive
+咪咕视频_8M1080_易视腾-3,http://127.0.0.1:35455/itv/1000000006000270003.m3u8?cdn=ystenlive
+咪咕视频_8M1080_易视腾-4,http://127.0.0.1:35455/itv/1000000006000270004.m3u8?cdn=ystenlive
+咪咕视频_8M1080_易视腾-5,http://127.0.0.1:35455/itv/1000000006000270005.m3u8?cdn=ystenlive
+咪咕视频_8M1080_易视腾-6,http://127.0.0.1:35455/itv/1000000006000270006.m3u8?cdn=ystenlive
 
 
-    {
-      "key": "韩小圈",
-      "name": "🍥韩圈┃蓝光┃纯净",
-      "type": 3,
-      "api": "csp_HanXiaoQuan",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "凡人影视",
-      "name": "🤡凡人┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_AppFr",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "西瓜视频",
-      "name": "🍉西瓜┃视频┃纯净",
-      "type": 3,
-      "api": "csp_AmuXiguaV2",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "瓜子影视",
-      "name": "🥥瓜子┃蓝光┃纯净",
-      "type": 3,
-      "api": "csp_AppGZ",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "真心影视",
-      "name": "❤️真心┃蓝光┃纯净",
-      "type": 3,
-      "api": "csp_WebGZ",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "大米星球",
-      "name": "🌌大米┃星球┃蓝光",
-      "type": 3,
-      "api": "csp_AppDaMi",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "酷9影视",
-      "name": "🧩酷酷┃蓝光┃纯净",
-      "type": 3,
-      "api": "csp_App",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "KhYJ00ye42lr+7UsoxLsfea0p0H5SUkT7Tv/+ACyPvFQ+ozQDB0SI/NCeN59w0RiNzIKjBHQR9I/4GBIAlWmFKcvyM+yqtiPTwaxfs74YG+PHrb7VfKDLVFb0luKJl2gZ5pIVjIwVQNUCt5TAXutZxNBtlKGin+L/4vCsOIjR2r16dqyQwlpOKySq4NGGkKeA48tTxR+emOxn/qGPt5xjInFeLJXMvYxdp47pOKOA4Oj4LJnJ+ezEzScDoT2IASN0Rvl2ZneGEGkqlDU8NquYUP/svq1zScEYCpobKdg0ILB7Hba+5cMwtlnjGiHyCaM9dx+z+cVzD9cSTo/aL5gSoAPT4QzkFxezSARli9nVDmnS0MrY/NhiexS8AE+1et9"
-    },
-    {
-      "key": "忍者影视",
-      "name": " 🕵忍者┃蓝光┃多线",
-      "type": 3,
-      "api": "csp_AppRZ",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "快看影视",
-      "name": "🫣快看┃蓝光┃纯净",
-      "type": 3,
-      "api": "csp_Kuaikan",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "饺子影视",
-      "name": "🥟饺子┃外剧┃纯净",
-      "type": 3,
-      "api": "csp_Jiaozi",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "五五影视",
-      "name": "😭呜呜┃蓝光┃无广",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=55"
-    },
-    {
-      "key": "哔嘀影视",
-      "name": "🍗哔嘀┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_WebYJ",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "耐看影视",
-      "name": "🍡耐看┃蓝光┃无广",
-      "type": 3,
-      "api": "csp_WebNK",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+卡通动漫,#genre#
 
-    {
-      "key": "无忧短剧",
-      "name": "😂无忧┃短剧┃热推",
-      "type": 3,
-      "api": "csp_Duanj",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "在线短剧",
-      "name": "🛌在线┃短剧┃热推",
-      "type": 3,
-      "api": "csp_Duanju",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "星芽短剧",
-      "name": "🌟星芽┃短剧┃热推",
-      "type": 3,
-      "api": "csp_AppXY",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "58动漫",
-      "name": "🛹 58┃动漫┃蓝光",
-      "type": 3,
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy.min.js",
-      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/58动漫.js"
-    },
-    {
-      "key": "去看吧",
-      "name": "🫣看吧┃动漫┃蓝光",
-      "type": 3,
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy.min.js",
-      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/去看吧.js"
-    },
-
-
-    {
-      "key": "有声小说js",
-      "name": "📚有声┃小说┃娱乐",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/有声小说吧.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
+开心锤锤,http://120.77.28.4:8648/douyu.php?id=9018297
+北京卡酷少儿,http://127.0.0.1:35455/itv/7851974109718180595.m3u8?cdn=bestzb
+iHOT-爱动漫,http://127.0.0.1:35455/itv/6000000006000280630.m3u8?cdn=wasusyt
+NewTV-黑莓动画,http://127.0.0.1:35455/itv/1000000004000021734.m3u8?cdn=ystenlive
+上海哈哈炫动,http://127.0.0.1:35455/itv/5000000011000031123.m3u8?cdn=bestzb
+SiTV-动漫秀场,http://127.0.0.1:35455/itv/5000000011000031113.m3u8?cdn=bestzb
+小猪佩奇,http://120.77.28.4:8648/huya.php?id=25243980
+中华小当家,http://159.75.85.63:35455/huya/11342413
+厨神小当家,http://120.77.28.4:8648/huya.php?id=24257300
+网球王子,http://120.77.28.4:8648/huya.php?id=11352882
+七龙珠,http://159.75.85.63:35455/huya/11601966
+皮卡丘,http://159.75.85.63:35455/huya/29465874
+小鬼当家,http://120.77.28.4:8648/yy.php?id=1382745104
+猫和老鼠,http://159.75.85.63:35455/huya/11352879
+猫和老鼠,http://120.77.28.4:8648/huya.php?id=11352879
+成龙历险记,http://159.75.85.63:35455/huya/11352946
+成龙历险记,http://120.77.28.4:8648/huya.php?id=11352946
+海绵宝宝,http://159.75.85.63:35455/huya/11352919
+海绵宝宝,http://120.77.28.4:8648/huya.php?id=11352919
+蜡笔小新,http://120.77.28.4:8648/huya.php?id=11352970
+哆啦A梦,http://120.77.28.4:8648/huya.php?id=11601963
+神奇宝贝,http://120.77.28.4:8648/huya.php?id=29465874
+斗罗大陆,http://120.77.28.4:8648/huya.php?id=29877837
+斗破苍穹,http://120.77.28.4:8648/huya.php?id=11336572
+火影忍者,http://120.77.28.4:8648/huya.php?id=11342385
 
 
 
-    {
-      "key": "南瓜弹幕",
-      "name": "🎃南瓜┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_Nangua",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "厂长弹幕",
-      "name": "🏭️厂长┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_Czzy",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "天天弹幕",
-      "name": "⛅️天天┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_TianTian",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "文才弹幕",
-      "name": "💮文采┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_Jpys",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "荐片弹幕",
-      "name": "👍️荐片┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "立播弹幕",
-      "name": "🌟立播┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_Libvio",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://libvio.link"
-      }
-    },
-    {
-      "key": "三六零弹幕",
-      "name": "🫐三六┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_Sp360",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "机器人弹幕",
-      "name": "🤖机器┃蓝光┃纯净",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "小苹果弹幕",
-      "name": "🍎苹果┃蓝光┃弹幕",
-      "type": 3,
-      "api": "csp_Xpg",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "玩偶备用弹幕",
-      "name": "🌎玩偶备用┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wogg",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://wogg.xxooo.cf",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克多多弹幕",
-      "name": "🍥多多弹幕┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://tv.yydsys.top",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克云星弹幕",
-      "name": "☁️云星资源┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://4k.4u4.cn",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克团长弹幕",
-      "name": "🏳️夸克团长┃4K弹幕",
-      "type": 3,
-      "api": "csp_Tzfile",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "danmu": true
-      }
-    },
+娱乐频道,#genre#
+
+陈翔六点半,http://120.77.28.4:8648/huya.php?id=11274154
+地下交通站,http://120.77.28.4:8648/huya.php?id=11342433
+爱情公寓,http://120.77.28.4:8648/huya.php?id=11336726
+炊事班的故事,http://120.77.28.4:8648/yy.php?id=1382736885
+我是王大锤,http://120.77.28.4:8648/douyu.php?id=9220456
+医馆笑传,http://120.77.28.4:8648/huya.php?id=11352891
+开心麻花,http://120.77.28.4:8648/douyu.php?id=10153463
+开心麻花,http://120.77.28.4:8648/yy.php?id=1354926643
+小品合集,http://120.77.28.4:8648/douyu.php?id=9817729
+陈佩斯,http://120.77.28.4:8648/huya.php?id=20985776
+宋小宝,http://120.77.28.4:8648/yy.php?id=1354931577
+宋小宝,http://120.77.28.4:8648/yy.php?id=1382736866
+金星秀,http://120.77.28.4:8648/yy.php?id=1382735552
+欢乐集结号,http://120.77.28.4:8648/yy.php?id=1354930919
+笑傲江湖,http://120.77.28.4:8648/yy.php?id=1382749896
+笑傲帮,http://120.77.28.4:8648/yy.php?id=1382735555
+笑声传奇,http://120.77.28.4:8648/yy.php?id=1382736880
+咱们穿越吧,http://120.77.28.4:8648/huya.php?id=11352907
+
+
+历史古装,#genre#
+
+老三国,http://120.77.28.4:8648/huya.php?id=11602081
+新三国,http://120.77.28.4:8648/huya.php?id=11352944
+新水浒,http://120.77.28.4:8648/huya.php?id=11342384
+红楼梦1987经典版,http://120.77.28.4:8648/yy.php?id=1382745084
+云海翻腾孙悟空,http://120.77.28.4:8648/huya.php?id=23735126
+天地争霸美猴王,http://120.77.28.4:8648/huya.php?id=23728660
+楚汉骄雄,http://120.77.28.4:8648/huya.php?id=23740156
+寻秦记,http://120.77.28.4:8648/huya.php?id=23864973
+西游记,http://120.77.28.4:8648/douyu.php?id=8953746
+西游记续集,http://120.77.28.4:8648/douyu.php?id=3113309
+大明王朝,http://120.77.28.4:8648/yy.php?id=1382736879
+康熙王朝,http://120.77.28.4:8648/huya.php?id=11352940
+康熙王朝,http://120.77.28.4:8648/yy.php?id=1382736818
+大汉天子,http://120.77.28.4:8648/yy.php?id=1382736807
+大汉天子,http://120.77.28.4:8648/yy.php?id=1382749902
+大汉天子,http://120.77.28.4:8648/yy.php?id=1382736810
+大秦帝国,http://120.77.28.4:8648/huya.php?id=11352881
+神探狄仁杰,http://120.77.28.4:8648/yy.php?id=1382828767
+宰相刘罗锅,http://120.77.28.4:8648/douyu.php?id=7473576
+铁齿铜牙纪晓岚,http://120.77.28.4:8648/yy.php?id=1352227227
+铁齿铜牙纪晓岚,http://120.77.28.4:8648/yy.php?id=1354143978
+康熙微服私访记,http://120.77.28.4:8648/yy.php?id=624198
+延禧攻略,http://120.77.28.4:8648/huya.php?id=26355864
+如懿传,http://120.77.28.4:8648/huya.php?id=29465868
+芈月传,http://120.77.28.4:8648/huya.php?id=11352975
+大宋提刑官,http://120.77.28.4:8648/huya.php?id=26355856
+大清盐商,http://120.77.28.4:8648/huya.php?id=11342432
+倚天屠龙记,http://120.77.28.4:8648/huya.php?id=23734246
+神雕侠侣,http://120.77.28.4:8648/huya.php?id=23865171
+笑傲江湖电视剧,http://120.77.28.4:8648/huya.php?id=23865142
+鹿鼎记小春版,http://120.77.28.4:8648/huya.php?id=23865080
+天龙八部97版,http://120.77.28.4:8648/huya.php?id=23903123
+梁朝伟版鹿鼎记,http://120.77.28.4:8648/huya.php?id=23734183
+洗冤录,http://120.77.28.4:8648/huya.php?id=23903130
+金枝欲孽,http://120.77.28.4:8648/huya.php?id=23865036
+大唐双龙传,http://120.77.28.4:8648/huya.php?id=23728674
+天龙八部,http://120.77.28.4:8648/yy.php?id=184508
+天龙八部,http://120.77.28.4:8648/yy.php?id=51848
+庆余年,http://120.77.28.4:8648/douyu.php?id=5062195
+
+
+
+现代家庭,#genre#
+
+好先生,http://120.77.28.4:8648/douyu.php?id=9650792
+好先生,http://120.77.28.4:8648/douyu.php?id=9650792
+新世界,http://120.77.28.4:8648/yy.php?id=1382736850
+征服,http://120.77.28.4:8648/douyu.php?id=2726977
+都挺好,http://120.77.28.4:8648/yy.php?id=1382736892
+闯关东,http://120.77.28.4:8648/douyu.php?id=54945
+邻里一家亲,http://120.77.28.4:8648/huya.php?id=11342426
+父母爱情,http://120.77.28.4:8648/yy.php?id=1382746276
+刑事侦缉档案,http://120.77.28.4:8648/huya.php?id=23734169
+法证先锋,http://120.77.28.4:8648/huya.php?id=23863804
+陀枪师姐,http://120.77.28.4:8648/huya.php?id=23860039
+鉴证实录,http://120.77.28.4:8648/huya.php?id=23903183
+创世纪,http://120.77.28.4:8648/huya.php?id=23749083
+使徒行者,http://120.77.28.4:8648/huya.php?id=23734256
+妙手仁心,http://120.77.28.4:8648/huya.php?id=23829543
+扫黄先锋,http://120.77.28.4:8648/huya.php?id=23903196
+笑看风云,http://120.77.28.4:8648/huya.php?id=23865058
+大时代,http://120.77.28.4:8648/huya.php?id=23865161
+狂飙,http://120.77.28.4:8648/yy.php?id=17981
+我爱我家,http://120.77.28.4:8648/yy.php?id=1382735557
+伪装者,http://120.77.28.4:8648/yy.php?id=135493624
+
+
+明星经典,#genre#
+
+周星驰,http://120.77.28.4:8648/huya.php?id=11342412
+许氏三杰,http://120.77.28.4:8648/huya.php?id=11602033
+许冠英,http://120.77.28.4:8648/huya.php?id=11601972
+五福星,http://120.77.28.4:8648/huya.php?id=11282233
+周星驰,http://120.77.28.4:8648/huya.php?id=11342412
+成龙,http://120.77.28.4:8648/huya.php?id=11342386
+周润发,http://120.77.28.4:8648/huya.php?id=11342387
+李连杰,http://120.77.28.4:8648/huya.php?id=11342390
+邱淑贞,http://120.77.28.4:8648/huya.php?id=11352949
+林正英,http://120.77.28.4:8648/huya.php?id=11342421
+徐峥,http://120.77.28.4:8648/huya.php?id=11602043
+沈腾,http://120.77.28.4:8648/huya.php?id=11601968
+古天乐,http://120.77.28.4:8648/huya.php?id=11602041
+洪金宝,http://120.77.28.4:8648/huya.php?id=11279251
+洪金宝,http://120.77.28.4:8648/yy.php?id=1354924839
+徐克,http://120.77.28.4:8648/huya.php?id=11352909
+黄渤,http://120.77.28.4:8648/huya.php?id=11352876
+
+
+
+电影频道,#genre#
+
+1905国内电影,http://xxw.me0.cn/1905dy.php?id=1905a
+1905国外电影,http://xxw.me0.cn/1905dy.php?id=1905b
+喜剧专场,http://120.77.28.4:8648/yy.php?id=1382735584
+搞笑喜剧,http://120.77.28.4:8648/huya.php?id=11342423
+国产悬疑,http://120.77.28.4:8648/huya.php?id=11342395
+老电影,http://120.77.28.4:8648/huya.php?id=11602076
+喜剧专场,http://120.77.28.4:8648/huya.php?id=11352894
+喜剧专场,http://120.77.28.4:8648/yy.php?id=1382735584
+警匪,http://120.77.28.4:8648/huya.php?id=11352886
+罪犯,http://120.77.28.4:8648/huya.php?id=11352962
+盗墓,http://120.77.28.4:8648/huya.php?id=21059552
+贺岁,http://120.77.28.4:8648/huya.php?id=11601971
+贺岁片,http://120.77.28.4:8648/huya.php?id=11601986
+高分动作,http://120.77.28.4:8648/huya.php?id=11352884
+动作电影,http://120.77.28.4:8648/huya.php?id=11602077
+搞笑喜剧,http://120.77.28.4:8648/huya.php?id=11342423
+喜剧专场,http://120.77.28.4:8648/huya.php?id=11602044
+欢笑影院,http://120.77.28.4:8648/huya.php?id=11352894
+不挤影院,http://120.77.28.4:8648/huya.php?id=11352897
+国产悬疑,http://120.77.28.4:8648/huya.php?id=11342395
+快意江湖,http://120.77.28.4:8648/huya.php?id=11342435
+古墓系列,http://120.77.28.4:8648/huya.php?id=11352913
+港片赌片,http://120.77.28.4:8648/yy.php?id=1355076627
+叶问全集,http://120.77.28.4:8648/yy.php?id=1382736890
+动作电影,http://120.77.28.4:8648/yy.php?id=1354926655
+古惑仔系列,http://120.77.28.4:8648/yy.php?id=1458015189
+
+
+生活户外,#genre#
+
+舌尖上的中国,http://120.77.28.4:8648/yy.php?id=1354930952
+川味,http://120.77.28.4:8648/yy.php?id=1382736913
+农家小菜,http://120.77.28.4:8648/yy.php?id=1382736894
+老广味道,http://120.77.28.4:8648/yy.php?id=1382735565
+风味原产地,http://120.77.28.4:8648/yy.php?id=1382745178
+徐大骚,http://120.77.28.4:8648/douyu.php?id=7107176
+地球上的地狱,http://120.77.28.4:8648/yy.php?id=1382736918
+动物世界,http://120.77.28.4:8648/yy.php?id=1382735545
+大弟赶海,http://120.77.28.4:8648/douyu.php?id=9348766
+泰国美食,http://120.77.28.4:8648/huya.php?id=24692390
+炊烟大壮,http://120.77.28.4:8648/huya.php?id=24782284
+
+
+
+山东省内,#genre#
+
+山东齐鲁,http://221.2.148.205:8154/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+山东齐鲁,http://39.136.48.25:8089/PLTV/88888888/224/3221226045/index.m3u8$移动
+
+山东综艺,http://221.2.148.205:8154/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+山东综艺,http://222.173.108.238:352/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+山东综艺,http://39.136.48.18:8089/PLTV/88888888/224/3221225855/index.m3u8$移动
+
+山东体育,http://182.46.8.160:8018/hls/22/index.m3u8
+山东体育,http://fangke.blueswords.com:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+山东体育,http://39.136.48.28:8089/PLTV/88888888/224/3221226075/index.m3u8$移动
+
+山东农科,http://182.46.8.249:8018/hls/24/index.m3u8
+山东农科,http://39.136.48.52:8089/PLTV/88888888/224/3221226018/index.m3u8$移动
+
+山东少儿,http://219.146.95.58:59902/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+山东少儿,http://182.46.8.249:8018/hls/21/index.m3u8
+山东少儿,http://182.46.8.160:8018/hls/21/index.m3u8
+山东少儿,http://39.136.48.23:8089/PLTV/88888888/224/3221226195/index.m3u8$移动
+
+山东文旅,http://221.2.148.205:8154/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+山东文旅,http://39.136.48.51:8089/PLTV/88888888/224/3221225802/index.m3u8$移动
+
+山东新闻,http://112.234.23.81:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+山东新闻,http://221.2.148.205:8154/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+山东新闻,http://219.146.95.58:59902/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+山东新闻,http://39.136.48.21:8089/PLTV/88888888/224/3221226077/index.m3u8$移动
+
+山东生活,http://221.2.148.205:8154/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+山东生活,http://221.2.148.205:8154/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+山东生活,http://39.136.48.21:8089/PLTV/88888888/224/3221225841/index.m3u8$移动
+
+泰安综合,http://zzbb.1545ts.com:8068/live/tatv0111.m3u8
+泰安经济,http://zzbb.1545ts.com:8068/live/tatv222.m3u8
+泰山TV,https://dd.ddzb.fun/php/qilu.php?id=tats
+岱岳TV,https://dd.ddzb.fun/php/qilu.php?id=tady
+肥城生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=tafcsh
+肥城综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=tafczh
+济宁公共,http://lives.jnnews.tv/video/s10001-JNTV3/index.m3u8
+济宁生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lyynwq
+济宁图文,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lyynzh
+济宁新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zbyysh
+章丘综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=jnzq1
+章丘公共,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=jnzq2
+长清新闻,https://dd.ddzb.fun/php/qilu.php?id=jncqxw
+济铁电视台,https://dd.ddzb.fun/php/qilu.php?id=jnjrtv
+淄博民生,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wffzxw
+博山图文,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zbbstw
+东平民生,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=tadpms
+东平综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=tadpxw
+淄川生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zbzcsh
+淄川新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zbzcxw
+茌平生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lccpsh
+茌平综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lccpzh
+德州经济,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=bzzpms
+德州新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=bzzpxw
+定陶一套,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=hzdt1
+定陶二套,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=hzdt2
+东阿综艺,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lcdezy
+东昌新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lcdexw
+东昌综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lcdczh
+东营公共,http://daili2.southtv.top/lee2/iqilu盗用剁屌.php?id=dygg
+东营科教,http://stream.hhek.cn/dyjy/sd/live.m3u8
+东营新闻,http://daili2.southtv.top/lee2/iqilu盗用剁屌.php?id=dyxwzh
+费县生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lyfxsh
+费县综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lyfxzh
+高密农科,http://daili2.southtv.top/lee2/iqilu盗用剁屌.php?id=wfgmdj
+高密新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfgmxw
+菏泽经济,http://live.hznet.tv:1935/live/live2/500K/tzwj_video.m3u8
+菏泽新闻,http://live.hznet.tv:1935/live/live1/500K/tzwj_video.m3u8
+菏泽影视,http://live.hznet.tv:1935/live/live3/500K/tzwj_video.m3u8
+惠民影视,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=bzhmys
+惠民综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=bzhmzh
+济宁综合,http://lives.jnnews.tv/video/s10001-JNTV-1/index.m3u8
+嘉祥综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=jijiaxw
+莱阳新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zbyyxw
+莱州综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=ytlzzh
+临清经济,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lclqjj
+临清综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lclqzh
+临沂经济,http://m3u8-channel.lytv.tv/nmip-media/channellive/channel115062/playlist.m3u8
+临沂综合,http://m3u8-channel.lytv.tv/nmip-media/channellive/channel111841/playlist.m3u8
+临淄生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zblzsh
+临淄新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zblzxw
+临沂公共,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=bzbctv
+龙口生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=ytlksh
+龙口新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=ytlkzh
+牟平综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=ytmpxw
+宁阳综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=tany1
+蓬莱综艺,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=ytplzh
+蓬莱综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfcyjj
+齐河新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfcyxw
+青州旅游,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfqzwh
+青州综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfqzzh
+日照公共,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=hzcwzh
+日照科教,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=hzcwzy
+日照新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=tady
+商河影视,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=jnshys
+商河综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=jnshzh
+台儿庄新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zztezxw
+郯城综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lytc1
+郯城2套,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lytc2
+潍坊综合,http://daili2.southtv.top/lee2/iqilu盗用剁屌.php?id=wfxwzh
+潍坊经济,http://daili2.southtv.top/lee2/iqilu盗用剁屌.php?id=wfsh
+潍坊影视,http://daili2.southtv.top/lee2/iqilu盗用剁屌.php?id=wfyswy
+潍坊科教,http://daili2.southtv.top/lee2/iqilu盗用剁屌.php?id=wfkjwl
+威海都市,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=whgg
+威海海洋,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=whhy
+威海综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=whxwzh
+文登1套,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=whwd1
+文登2套,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=whwd2
+武城新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=dzwczy
+武城综艺,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=dzwcxw
+无棣综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=bzbxsh
+无棣综艺,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=bzwdzy
+五莲文旅,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=rzwlwh
+武莲新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=rzwlxw
+夏津公共,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=dzxjgg
+夏津综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=dzxjzh
+阳谷新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfaqms
+烟台公共,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfaqxw
+沂水综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lyys1
+沂水生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=lyys2
+枣庄公共,http://stream.zztvzd.com/3/sd/live.m3u8?shandd
+枣庄教育,http://stream.zztvzd.com/2/sd/live.m3u8?shandd
+枣庄新闻,http://stream.zztvzd.com/1/sd/live.m3u8?shandd
+张店1台,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zbzd1
+张店2套,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=zbzd2
+招远综合,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=hzdmxw
+招远综艺,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=ytzyzy
+诸城生活,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfzcsh
+诸城新闻,http://san.southtv.top/iqilu/iqilu.php?usr=qwtds&id=wfzcxw
 
 
 
 
+广播频道,#genre#
+
+山东体育广播 FM102.1[0*0],http://ls.qingting.fm/live/60266.m3u8
+山东女主播电台 FM97.5[0*0],http://ls.qingting.fm/live/60258.m3u8
+山东新闻广播 FM95[0*0],http://ls.qingting.fm/live/60180.m3u8
+山东生活广播 MyFM FM105[0*0],http://ls.qingting.fm/live/60260.m3u8
+山东音乐广播 FM99.1[0*0],http://ls.qingting.fm/live/1665.m3u8
+500首华语经典,http://ls.qingting.fm/live/3412131.m3u8?bitrate=64
+楚天音乐广播 FM105.8 (Opt-1)[0*0],http://ls.qingting.fm/live/1289.m3u8
+楚天交通广播 FM92.7[0*0],http://ls.qingting.fm/live/1291.m3u8
+荆门交通音乐频率 FM99.3 (Opt-2)[0*0],http://ls.qingting.fm/live/60808.m3u8
+襄阳交通广播 FM89.0 (Opt-1)[0*0],http://ls.qingting.fm/live/1307.m3u8
+襄阳交通广播 FM89.0 (Opt-2)[0*0],http://ls.qingting.fm/live/1308.m3u8
+襄阳音乐广播[0*0],http://ls.qingting.fm/live/5057.m3u8
+北京房山经典音乐 FM96.90*0][0*0],http://live.xmcdn.com/live/963/64.m3u8
+北京房山经典音乐 FM96.90*0][0*0],http://ls.qingting.fm/live/68746.m3u8
+北京房山经典音乐 FM96.90*0][0*0],http://ls.qingting.fm/live/68746.m3u8
+重庆新闻广播 FM96.80*0][0*0],http://live.xmcdn.com/live/128/64.m3u8
+重庆新闻广播 FM96.80*0][0*0],http://ls.qingting.fm/live/1498.m3u8
+重庆经济广播 FM101.50*0][0*0],http://ls.qingting.fm/live/1499.m3u8
+重庆经济广播 FM101.50*0][0*0],http://ls.qingting.fm/live/1499.m3u8
+重庆交通广播 FM95.50*0][0*0],http://live.xmcdn.com/live/130/64.m3u8
+重庆交通广播 FM95.50*0][0*0],http://ls.qingting.fm/live/1500.m3u8
+重庆交通广播 FM95.50*0][0*0],http://ls.qingting.fm/live/1500.m3u8
+重庆音乐广播 FM88.10*0][0*0],http://live.xmcdn.com/live/131/64.m3u8
+重庆音乐广播 FM88.10*0][0*0],http://ls.qingting.fm/live/647.m3u8
+重庆音乐广播 FM88.10*0][0*0],http://ls.qingting.fm/live/647.m3u8
+重庆都市广播 FM93.80*0][0*0],http://live.xmcdn.com/live/132/64.m3u8
+重庆都市广播 FM93.80*0][0*0],http://ls.qingting.fm/live/1502.m3u8
+重庆都市广播 FM93.80*0][0*0],http://ls.qingting.fm/live/1502.m3u8
+巴渝之声 FM104.50*0][0*0],http://ls.qingting.fm/live/3545693.m3u8
+万州交通广播0*0][0*0],http://live.xmcdn.com/live/1679/64.m3u8
+厦门音乐广播0*0][0*0],http://ls.qingting.fm/live/1739.m3u8
+厦门音乐广播0*0][0*0],http://ls.qingting.fm/live/1739.m3u8
+厦门新闻广播0*0][0*0],http://ls.qingting.fm/live/1737.m3u8
+厦门新闻广播0*0][0*0],http://ls.qingting.fm/live/1737.m3u8
+兰州新闻广播 FM97.30*0][0*0],http://ls.qingting.fm/live/1712.m3u8
+兰州新闻广播 FM97.30*0][0*0],http://ls.qingting.fm/live/1712.m3u8
+兰州交通音乐广播 FM99.50*0][0*0],http://ls.qingting.fm/live/1711.m3u8
+兰州生活文艺广播 FM100.80*0][0*0],http://ls.qingting.fm/live/1713.m3u8
+广州新闻电台 FM96.20*0][0*0],http://live.xmcdn.com/live/256/64.m3u8
+广州新闻电台 FM96.20*0][0*0],http://ls.qingting.fm/live/4848.m3u8
+广州新闻电台 FM96.20*0][0*0],http://ls.qingting.fm/live/4848.m3u8
+广州汽车音乐电台 FM102.70*0][0*0],http://live.xmcdn.com/live/257/64.m3u8
+广州汽车音乐电台 FM102.70*0][0*0],http://ls.qingting.fm/live/52710.m3u8
+广州汽车音乐电台 FM102.70*0][0*0],http://ls.qingting.fm/live/52710.m3u8
+广州交通电台 FM106.10*0][0*0],http://ls.qingting.fm/live/4955.m3u8
+广州 MYFM 88.0 (都市生活)0*0][0*0],http://ls.qingting.fm/live/52712.m3u8
+东广新闻台 FM90.9[0*0],http://ls.qingting.fm/live/275.m3u8
+东莞FM104音乐广播[0*0],http://ls.qingting.fm/live/93619.m3u8
+东莞畅享1075交通广播[0*0],http://ls.qingting.fm/live/1288.m3u8
+九江交通广播 FM88.4 FM88.9[0*0],http://ls.qingting.fm/live/2785094.m3u8
+云南交通广播 FM91.8[0*0],http://ls.qingting.fm/live/1928.m3u8
+云南教育广播 FM100[0*0],http://ls.qingting.fm/live/1930.m3u8
+云南新闻广播 FM105.8[0*0],http://ls.qingting.fm/live/1926.m3u8
+云南民族广播 SW7210[0*0],http://ls.qingting.fm/live/1933.m3u8
+云南经济广播 私家车 FM88.7[0*0],http://ls.qingting.fm/live/1927.m3u8
+云南音乐广播 FM97[0*0],http://ls.qingting.fm/live/1929.m3u8
+保定交通广播 FM104.8[0*0],http://ls.qingting.fm/live/28140.m3u8
+保定城市服务广播 乐动1016[0*0],http://ls.qingting.fm/live/62628.m3u8
+保定新闻广播 FM93.7[0*0],http://ls.qingting.fm/live/3701149.m3u8
+保定经典964汽车音乐广播[0*0],http://ls.qingting.fm/live/2227017.m3u8
+南宁交通音乐广播 FM107.4[0*0],http://ls.qingting.fm/live/80793.m3u8?aac
+南通交通广播 FM92.9[0*0],http://ls.qingting.fm/live/2216385.m3u8
+呼和浩特城市生活广播 FM90.1[0*0],http://ls.qingting.fm/live/2218717.m3u8
+呼和浩特文艺广播 FM99.8[0*0],http://ls.qingting.fm/live/3099076.m3u8
+呼和浩特新闻广播 FM92.9[0*0],http://ls.qingting.fm/live/2218711.m3u8
+咸阳城市之声 FM100.7[0*0],http://ls.qingting.fm/live/3559664.m3u8
+四川文艺广播 快乐900 FM90.0[0*0],http://ls.qingting.fm/live/4887.m3u8
+四川新闻广播 FM98.1[0*0],http://ls.qingting.fm/live/4906.m3u8
+四川民族广播 AM954[0*0],http://ls.qingting.fm/live/1115.m3u8
+四川私家车广播 FM92.5[0*0],http://ls.qingting.fm/live/4939.m3u8
+四川财富广播 FM94.0[0*0],http://ls.qingting.fm/live/4927.m3u8
+太原交通广播 FM107[0*0],http://ls.qingting.fm/live/4900.m3u8
+太原新闻广播 FM91.2[0*0],http://ls.qingting.fm/live/23873.m3u8
+太原私家车Radio FM104.4[0*0],http://ls.qingting.fm/live/4018.m3u8
+太原音乐广播 FM102.6[0*0],http://ls.qingting.fm/live/1185.m3u8
+宁夏交通广播 FM98.4[0*0],http://ls.qingting.fm/live/1840.m3u8
+宁夏都市广播 FM103.7[0*0],http://ls.qingting.fm/live/1842.m3u8
+岳阳交通广播 FM106.1[0*0],http://ls.qingting.fm/live/88931.m3u8
+岳阳新闻广播[0*0],http://ls.qingting.fm/live/88933.m3u8
+常州交通广播 FM90[0*0],http://ls.qingting.fm/live/2796.m3u8
+广西女主播电台 FM97.0[0*0],http://ls.qingting.fm/live/1754.m3u8
+广西新闻910 FM91.0[0*0],http://ls.qingting.fm/live/1753.m3u8
+广西私家车930 FM93.0[0*0],http://ls.qingting.fm/live/1756.m3u8
+广西音乐台 FM95.0[0*0],http://ls.qingting.fm/live/4875.m3u8
+惠州新闻广播 FM100[0*0],http://ls.qingting.fm/live/5016.m3u8
+惠州环保交通广播 FM98.8[0*0],http://ls.qingting.fm/live/5017.m3u8
+惠州音乐广播 FM90.7[0*0],http://ls.qingting.fm/live/2212959.m3u8
+新疆交通广播 FM94.9 (Opt-2)[0*0],http://ls.qingting.fm/live/1910.m3u8
+新疆新闻广播 FM96.1 (Opt-1)[0*0],http://ls.qingting.fm/live/1902.m3u8
+新疆民生广播 FM92.4 (Opt-2)[0*0],http://ls.qingting.fm/live/76186.m3u8
+新疆维吾尔语交通文艺广播 (Opt-2)[0*0],http://ls.qingting.fm/live/78923.m3u8
+新疆蒙古语广播 (Opt-1)[0*0],http://ls.qingting.fm/live/1903.m3u8
+无锡新闻广播 FM93.7[0*0],http://ls.qingting.fm/live/2777.m3u8
+昆明汽车广播 FM95.4[0*0],http://ls.qingting.fm/live/1936.m3u8
+昆明资讯频率[0*0],http://ls.qingting.fm/live/1937.m3u8
+昆明都市调频 FM102.8[0*0],http://ls.qingting.fm/live/1935.m3u8
+昆明阳光广播[0*0],http://ls.qingting.fm/live/1934.m3u8
+梅州交通广播 FM105.8[0*0],http://ls.qingting.fm/live/24195.m3u8
+梅州新闻广播 FM94.8[0*0],http://ls.qingting.fm/live/24173.m3u8
+江苏新闻广播 FM93.7[0*0],http://ls.qingting.fm/live/4944.m3u8
+沈阳新闻广播 FM104.5[0*0],http://ls.qingting.fm/live/23891.m3u8
+河北 My FM 102.9[0*0],http://ls.qingting.fm/live/2508757.m3u8
+河北交通广播 FM99.2[0*0],http://ls.qingting.fm/live/1646.m3u8
+河北农民广播 AM558[0*0],http://ls.qingting.fm/live/1650.m3u8
+河北故事广播 FM107.9[0*0],http://ls.qingting.fm/live/1645.m3u8
+河北新闻广播 FM104.3[0*0],http://ls.qingting.fm/live/1644.m3u8
+河北旅游广播 AM603[0*0],http://ls.qingting.fm/live/1651.m3u8
+河北生活广播 FM88.8[0*0],http://ls.qingting.fm/live/4867.m3u8
+河北私家车广播 FM90.7[0*0],http://ls.qingting.fm/live/4868.m3u8
+河北音乐广播 FM102.4[0*0],http://ls.qingting.fm/live/1649.m3u8
+河南乐龄(信息广播) FM105.6[0*0],http://ls.qingting.fm/live/59896.m3u8
+河南交通广播 FM104.1[0*0],http://ls.qingting.fm/live/1209.m3u8
+河南娱乐广播 FM97.6[0*0],http://ls.qingting.fm/live/1719795.m3u8
+河南影院广播 MyRadio FM90.0[0*0],http://ls.qingting.fm/live/1206.m3u8
+河南音乐广播 魅力881 FM88.1[0*0],http://ls.qingting.fm/live/1208.m3u8
+河南驾车1066 FM106.6[0*0],http://ls.qingting.fm/live/1207.m3u8
+济南故事广播 FM104.3[0*0],http://ls.qingting.fm/live/1672.m3u8
+济南私家车广播 FM93.6[0*0],http://ls.qingting.fm/live/1670.m3u8
+济南经济广播 FM90.9[0*0],http://ls.qingting.fm/live/1668.m3u8
+济南音乐广播(MUSIC887)[0*0],http://ls.qingting.fm/live/1671.m3u8
+浙江之声 FM88 (Opt-1)[0*0],http://ls.qingting.fm/live/4518.m3u8
+浙江交通之声 FM93 (Opt-1)[0*0],http://ls.qingting.fm/live/4522.m3u8
+浙江动听(音乐调频) FM96.8 (Opt-2)[0*0],http://ls.qingting.fm/live/4866.m3u8
+浙江女主播电台 FM104.5 (Opt-2)[0*0],http://ls.qingting.fm/live/4524.m3u8
+浙江财富广播 FM95 (Opt-1)[0*0],http://ls.qingting.fm/live/4519.m3u8
+海南交通广播 FM100[0*0],http://ls.qingting.fm/live/4911.m3u8
+海南国际旅游之声 FM103.8[0*0],http://ls.qingting.fm/live/1862.m3u8
+海南新闻广播 FM88.6[0*0],http://ls.qingting.fm/live/1861.m3u8
+海南民生广播 FM101[0*0],http://ls.qingting.fm/live/1511803.m3u8
+深圳快乐1062(交通广播)[0*0],http://ls.qingting.fm/live/1272.m3u8
+深圳私家车广播 FM94.2[0*0],http://ls.qingting.fm/live/1273.m3u8
+深圳飞扬音乐971[0*0],http://ls.qingting.fm/live/1271.m3u8
+温州交通广播 FM103.9[0*0],http://ls.qingting.fm/live/23863.m3u8
+温州新闻广播 FM94.9[0*0],http://ls.qingting.fm/live/23861.m3u8
+温州私家车音乐广播 FM100.3[0*0],http://ls.qingting.fm/live/23865.m3u8
+温州经济生活广播 FM88.8[0*0],http://ls.qingting.fm/live/23867.m3u8
+温州绿色之声 FM93.8[0*0],http://ls.qingting.fm/live/1158.m3u8
+珠海电台交通音乐875[0*0],http://ls.qingting.fm/live/1275.m3u8
+西宁交通频率[0*0],http://ls.qingting.fm/live/3400408.m3u8
+西宁新闻频率[0*0],http://ls.qingting.fm/live/3400403.m3u8
+西安交通广播 FM104.3 (Opt-1)[0*0],http://ls.qingting.fm/live/1611.m3u8
+西安新闻广播 FM95.0 (Opt-1)[0*0],http://ls.qingting.fm/live/1610.m3u8
+西安音乐广播 FM93.1 (Opt-1)[0*0],http://ls.qingting.fm/live/1612.m3u8
+贵州新闻广播 FM94.6[0*0],http://ls.qingting.fm/live/23933.m3u8
+贵州电台交通广播 FM95.2[0*0],http://ls.qingting.fm/live/23927.m3u8
+贵州电台旅游广播 FM97.2[0*0],http://ls.qingting.fm/live/23929.m3u8
+贵州电台经济广播 FM98.9[0*0],http://ls.qingting.fm/live/23935.m3u8
+贵州电台音乐广播 FM91.6[0*0],http://ls.qingting.fm/live/23937.m3u8
+辽宁交通广播 FM97.5[0*0],http://ls.qingting.fm/live/23801.m3u8
+郑州新闻广播 FM98.6[0*0],http://ls.qingting.fm/live/1220.m3u8
+郑州汽车广播 FM91.2[0*0],http://ls.qingting.fm/live/1211.m3u8
+郑州活力944[0*0],http://ls.qingting.fm/live/4921.m3u8
+郑州车道931[0*0],http://ls.qingting.fm/live/1221.m3u8
+郴州广播 FM99.2[0*0],http://ls.qingting.fm/live/76765.m3u8
+郴州音乐交通广播 FM102.8[0*0],http://ls.qingting.fm/live/86747.m3u8
+金鹰955电台[0*0],http://ls.qingting.fm/live/4937.m3u8
+长春生活故事广播 FM90.0[0*0],http://ls.qingting.fm/live/5014.m3u8
+长沙城市之声 FM101.7[0*0],http://ls.qingting.fm/live/4237.m3u8
+长沙新闻广播 FM105.0[0*0],http://ls.qingting.fm/live/4877.m3u8
+长治交通文艺广播 FM94.9[0*0],http://ls.qingting.fm/live/2669405.m3u8
+长治新闻广播(幸福广播) FM94.3[0*0],http://ls.qingting.fm/live/2702863.m3u8
+阳信人民广播电台 FM103.4[0*0],http://ls.qingting.fm/live/2915753.m3u8
+阳泉交通广播[0*0],http://ls.qingting.fm/live/4592896.m3u8?aac
+阳泉新闻广播[0*0],http://ls.qingting.fm/live/5876899.m3u8?aac
+陕西交通广播 FM91.6[0*0],http://ls.qingting.fm/live/1601.m3u8
+陕西故事广播 AM603[0*0],http://ls.qingting.fm/live/1608.m3u8
+陕西秦腔广播 FM101.1[0*0],http://ls.qingting.fm/live/1604.m3u8
+陕西都市广播-陕广新闻 FM101.8[0*0],http://ls.qingting.fm/live/1609.m3u8
+陕西音乐广播 FM98.8[0*0],http://ls.qingting.fm/live/4873.m3u8
+青岛交通广播 FM89.7[0*0],http://ls.qingting.fm/live/1676.m3u8
+青岛故事广播 FM95.2[0*0],http://ls.qingting.fm/live/4956.m3u8
+青岛新闻广播 FM107.6[0*0],http://ls.qingting.fm/live/1673.m3u8
+青岛西海岸城市生活广播 FM92.6[0*0],http://ls.qingting.fm/live/33446.m3u8
+青海交通音乐广播 FM97.2[0*0],http://ls.qingting.fm/live/5009.m3u8
+青海生活广播 花儿调频 FM90.3[0*0],http://ls.qingting.fm/live/2163891.m3u8
+青海经济广播 FM07.5[0*0],http://ls.qingting.fm/live/5008.m3u8
+鹤壁交通音乐广播 FM93.5[0*0],http://ls.qingting.fm/live/3032681.m3u8
+龙广交通广播 FM99.8[0*0],http://ls.qingting.fm/live/4973.m3u8
+龙广新闻广播 FM94.6[0*0],http://ls.qingting.fm/live/4974.m3u8
+龙广音乐广播 FM95.8[0*0],http://ls.qingting.fm/live/4969.m3u8
 
 
-    {
-      "key": "夸克影搜弹幕",
-      "name": "🕵️影搜┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_Yingso",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "搜索弹幕",
-      "name": "🙀盘Se┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "云云弹幕",
-      "name": "☁️云云┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_Upys",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "云搜弹幕",
-      "name": "😻Up搜┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "盘搜弹幕",
-      "name": "🦊盘搜┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "易搜弹幕",
-      "name": "😹易搜┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_YiSo",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true,
-        "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"
-      }
-    },
-    {
-      "key": "云盘弹幕",
-      "name": "🌨️云盘┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_Yunpan4k",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "米搜弹幕",
-      "name": "🍚小米┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_Qkpanso",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://www.misou.fun",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸搜弹幕",
-      "name": "🐟夸搜┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_Qkso",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "小纸条弹幕",
-      "name": "🕊️小纸条┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克趣盘搜弹幕",
-      "name": "🤓趣盘┃搜索┃弹幕",
-      "type": 3,
-      "api": "csp_QuPanSou",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克爱盘搜弹幕",
-      "name": "🥰爱盘┃搜索┃弹幕",
-      "type": 3,
-      "api": "csp_AiPanSou",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克盘搜弹幕",
-      "name": "🐟夸搜┃弹幕┃盘搜",
-      "type": 3,
-      "api": "csp_Qkpanso",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "荐片",
-      "name": "🧲荐片纯净┃磁力",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "SeedHub",
-      "name": "🧲SeedHub｜磁力",
-      "type": 3,
-      "api": "csp_SeedHub",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "美剧迷",
-      "name": "🧲美剧迷迷｜磁力",
-      "type": 3,
-      "api": "csp_MeijuMi",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "迅雷吧",
-      "name": "🧲迅雷吧吧｜磁力",
-      "type": 3,
-      "api": "csp_Xunlei8",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Mp4电影",
-      "name": "🧲Mp4电影｜磁力",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "酷吧电影",
-      "name": "🧲酷吧电影｜磁力",
-      "type": 3,
-      "api": "csp_KubaCL",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "美剧天堂",
-      "name": "🧲美剧天堂｜磁力",
-      "type": 3,
-      "api": "csp_MeijuTT",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "本地",
-      "name": "📁文件┃本地┃资源",
-      "type": 3,
-      "api": "csp_LocalFile",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php"
-    },
-    {
-      "key": "我的阿里",
-      "name": "📁文件┃阿里┃资源",
-      "type": 3,
-      "api": "csp_MyAli",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
-      },
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "我的夸克",
-      "name": "📁文件┃夸克┃资源",
-      "type": 3,
-      "api": "csp_MyQuark",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
-      },
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "我的UC",
-      "name": "📁文件┃UC┃资源",
-      "type": 3,
-      "api": "csp_MyUc",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
-      },
-      "style": {
-        "type": "list"
-      }
-    },
 
 
-    {
-      "key": "88js",
-      "name": "⚽ 88┃看球┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/88看球.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "Jrsjs",
-      "name": "⚽ Jrs┃球迷┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jrk.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    }
+历届春晚,#genre#
 
+1983年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5MTRfNDAzMDAxOTlfNjYyNzMxNjcwMjBfMF8z_b_Beb3bda599f76c60c463c433ca7460153.mp4
+1984年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5NTRfNDAzMDAxOTlfNjYyNzMyMzg3MTRfMF8z_b_B192356dadbc90d207ba16964d4c2914c.mp4
+1985年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDFfNDAzMDAxOTlfNjYyNzMyNTAwMzJfMF8z_b_Be73c5abcbc0eeb2ec9fce6842e1362a4.mp4
+1986年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDRfNDAzMDAxOTlfNjYyNzMyNTU0OTRfMF8z_b_B24f7d19f1132fa5d7f502f8377ad5567.mp4
+1987年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDhfNDAzMDAxOTlfNjYyNzMyNjMyMDNfMF8z_b_B570493ed8f7200d4013a66b2d21b2de9.mp4
+1988年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTJfNDAzMDAxOTlfNjYyNzMyNjkxNjBfMF8z_b_B8c835b83a92d25bde81ba22c5cd9521e.mp4
+1989年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTVfNDAzMDAxOTlfNjYyNzMyNzQ2OTlfMF8z_b_Be477b27b9ce655d2372df56a5a3d96ef.mp4
+1990年中央电视台春节联欢晚会,https://cdn8.yzzy-online.com/20220704/597_e0d90c37/1000k/hls/index.m3u8
+1991年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjI2MTVfNDAzMDAxOTlfNjYyNzYwNjUxNjVfMF8z_b_B8feb7b85888678d71bf37a259c6850f6.mp4
+1992年中央电视台春节联欢晚会,https://txmov2.a.kwimgs.com/bs3/video-hls/5256826755663896297_hlshd15.m3u8
+1993年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4
+1994年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxMjNfMF8z_b_B3dde97f36273f04403d4dc5eec611a35.mp4
+1995年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4
+1996年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxNTJfMF8z_b_Bd841eae10ab1c9955ef55fbedfae6c45.mp4
+1997年中央电视台春节联欢晚会,https://txmov2.a.kwimgs.com/bs3/video-hls/5230649583590411879_hlshd15.m3u8
+1998年中央电视台春节联欢晚会,https://txmov2.a.kwimgs.com/bs3/video-hls/5225864507896315430_hlshd15.m3u8
+1999年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQxNTRfMF8z_b_B0b5e52bc003285ef66ec0cbb2be08556.mp4
+2000年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxMTNfMF8z_b_Bdddf4e7ef0ff6cfd477857bb40e78419.mp4
+2001年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMDFfMF8z_b_B70592cb7c4054e9cabb675e849bbf4bd.mp4
+2002年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxNDdfMF8z_b_Ba6271d10b7e6cfae83759033a091f257.mp4
+2003年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTlfOTM2MTU0MTk1NDFfMF8z_b_B182749d2cd2ea9323639254af385f24b.mp4
+2004年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxOTVfMF8z_b_B86c4430b82ff5a7f4e8132f6ee558536.mp4
+2005年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMzhfMF8z_b_B35ad7cc86aec8fc9e5ddfb31fc7bed63.mp4
+2006年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyNzlfMF8z_b_Bbc3703fc331dc994c50859c19aad28ff.mp4
+2007年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzMjNfMF8z_b_B00b069c7899976459ceeaa99353dfefe.mp4
+2008年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzNTNfMF8z_b_Bd7346962e61bd7b84e11a1fa6e4616f9.mp4
+2009年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzOTBfMF8z_b_B29a36a85e0277f6c2a1f033ef7c10708.mp4
+ 2010年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ0MjlfMF8z_b_B8818807a00eed329a69fb494f405bd43.mp4
+2011年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/16/11/BMjAyMzAxMTYxMTA3MjFfNDAzMDAxOTlfOTM3MjcyMjA3ODhfMF8z_b_B8214200efc869dc6fcf99dad619fa4c1.mp4
+2012年中央电视台春节联欢晚会,https://cdn8.yzzy-online.com/20220704/591_82b72f82/1000k/hls/index.m3u8
+2013年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ1NjNfMF8z_b_B4fea55408dca4471a68a963ae096be59.mp4
+2014年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTNfNDAzMDAxOTlfOTI4OTY2ODAzNjlfMF8z_b_Bdee65c77f9e7b2120a185c919dad81d2.mp4
+2015年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2MTZfMF8z_b_B4851f43f5a2bc2871a9b0ec87294a6e7.mp4
+ 2016年中央电视台春节联欢晚会,https://cdn8.yzzy-online.com/20220704/577_cda9c8d1/1000k/hls/index.m3u8
+2017年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2NDhfMF8z_b_B6527b0c2ce3dda1d9b3f34edd4fdb9aa.mp4
+2018年中央电视台春节联欢晚会,https://cdn8.yzzy-online.com/20220704/610_ae5255ad/1000k/hls/index.m3u8
+2019年中央电视台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTlfOTI4OTY2ODE2MTBfMF8z_b_B11a778e34390a21de42d407e94f45b91.mp4
+2020年中央广播电视总台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzA5NDdfNDAzMDAxOTlfNjYxNzQ2MDAyMTFfMF8z_b_B5d51d9564c5670dc66faeba20aa7af3f.mp4
+2021年中央广播电视总台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzE4NTJfNDAzMDAxOTlfNjYxNzUzOTg3NjlfMF8z_b_Be41d9503181d7b0608a839ed401e02c2.mp4
+2022年中央广播电视总台春节联欢晚会,https://alimov2.a.kwimgs.com/upic/2022/02/01/11/BMjAyMjAyMDExMTEwMjNfNDAzMDAxOTlfNjYzNzA4MTk4NzNfMF8z_b_B898cc7ddd0025bf54ddb18ec1f723c84.mp4
+ 2023年中央广播电视总台春节联欢晚会,https://txmov2.a.kwimgs.com/bs3/video-hls/5251197255879398624_hlshd15.m3u8
+ 2024年中央广播电视总台春节联欢晚会【CCTV1频道】,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
+2024年辽宁卫视春节联欢晚会（上）,https://v10.dious.cc/20240209/J95B9fT5/index.m3u8
+2024年辽宁卫视春节联欢晚会（下）,https://v10.dious.cc/20240209/HWVp60d1/index.m3u8
+2024年深圳卫视春节联欢晚会,https://v10.dious.cc/20240209/DKcsA9sZ/index.m3u8
+2024年安徽卫视春节联欢晚会,https://v10.dious.cc/20240208/LHLdSBLv/index.m3u8
+2024吉林春晚,https://v10.dious.cc/20240208/9ahrnAPw/index.m3u8
+2024年山东卫视春节联欢晚会,https://v10.dious.cc/20240208/mJvkOFpp/index.m3u8
+2024年河南卫视春节联欢晚会,https://v10.dious.cc/20240208/AN4hlNqo/index.m3u8
+2024年山西卫视春节联欢晚会,https://v10.dious.cc/20240208/85CjUOf8/index.m3u8
+2024年北京卫视春节联欢晚会,https://v10.dious.cc/20240210/Ll7WeunD/index.m3u8
+2024年湖北卫视春节联欢晚会,https://v10.dious.cc/20240210/pOo0DnPW/index.m3u8
+2024云南卫视春节联欢晚会,https://v10.dious.cc/20240210/yOFfQfxj/index.m3u8
+2024年海南卫视春节联欢晚会,https://v10.dious.cc/20240210/vaplHwkP/index.m3u8
+2024安徽卫视农民春节联欢晚会,https://v10.dious.cc/20240210/UnLrYixW/index.m3u8
+2024年中国杂技大联欢,https://v10.dious.cc/20240210/672HyyQ9/index.m3u8
+启航2024 CCTV跨年晚会【CCTV频道】,https://v10.dious.cc/20240101/jb33ogNp/index.m3u8
+2024年珠江春节联欢晚会,https://v10.dious.cc/20240209/lNN6pUqq/index.m3u8
+2024年中央广播电视总台网络春节联欢晚会【CCTV频道】,https://ikcdn01.ikzybf.com/20240205/QBNgom4j/2000kb/hls/index.m3u8
 
-],
-		"lives":[
-
-			{
-				"name": "肥羊直播",
-				"type": 0,
-				"playerType": 1,
-				"url": "https://ghp.ci/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E4%B8%93%E7%94%A8%E7%9B%B4%E6%92%AD",
-				"ua": "okhttp/3.15",
-                "epg": "https://diyp10.112114.xyz/?ch={name}&date={date}",
-                "logo": "https://diyp10.112114.xyz/logo/{name}.png"
-			}
-		
-
-] }
