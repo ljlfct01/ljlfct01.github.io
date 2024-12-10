@@ -1,5 +1,5 @@
 {
-  "spider": "https://www.lintech.work/超大杯/custom_spider_20241209.tms;md5;a0d6b00540d465b24f0828999ab026b0",
+  "spider": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/custom_spider_20241209.tms;md5;a0d6b00540d465b24f0828999ab026b0",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -18,7 +18,7 @@
   "sites": [
     {
       "key": "时光机",
-      "name": "🥤时光机超大杯 🗓️v20241210-🧵106",
+      "name": "☕️时光机标准杯 🗓️v20241209-🧵97",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -39,24 +39,22 @@
       "ext": "https://www.lintech.work/超大杯/sites/码上/remote_live.json"
     },
     {
-      "key": "🧲 磁力熊 | JAR",
-      "name": "🧲 磁力熊 | JAR",
+      "key": "🚛 瓜子361 | DEX",
+      "name": "🚛 瓜子361 | DEX",
       "type": 3,
-      "api": "csp_Cilixiong",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {}
+      "api": "csp_Gz361",
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
-      "key": "🇰🇷 韩迷 | JAR",
-      "name": "🇰🇷 韩迷 | JAR",
+      "key": "🚛 厂长 | DEX",
+      "name": "🚛 厂长 | DEX",
       "type": 3,
-      "api": "csp_Hanmi",
+      "api": "csp_Czsapp",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
-      "ext": {}
+      "filterable": 1,
+      "ext": "https://czzy.top/"
     },
     {
       "key": "🥇 金牌 | JAR",
@@ -69,15 +67,17 @@
       "ext": {}
     },
     {
-      "key": "🐈️ 网飞猫 | JAR",
-      "name": "🐈️ 网飞猫 | JAR",
+      "key": "🇰🇷 韩迷 | JAR",
+      "name": "🇰🇷 韩迷 | JAR",
       "type": 3,
-      "api": "csp_NCat",
+      "api": "csp_Hanmi",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 0,
       "ext": {}
     },
+    
+   
     {
       "key": "🦛 河马 | JAR",
       "name": "🦛 河马 | JAR",
@@ -130,34 +130,8 @@
       "filterable": 0,
       "ext": {}
     },
-    {
-      "key": "🚛 瓜子361 | DEX",
-      "name": "🚛 瓜子361 | DEX",
-      "type": 3,
-      "api": "csp_Gz361",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "🚛 厂长 | DEX",
-      "name": "🚛 厂长 | DEX",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://czzy.top/"
-    },
-    {
-      "key": "🚛 金牌 | DEX",
-      "name": "🚛 金牌 | DEX",
-      "type": 3,
-      "api": "csp_Jpyy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {}
-    },
+
+   
     {
       "key": "🧤 时光玩偶 | JAR",
       "name": "🧤 时光玩偶 | JAR",
@@ -217,6 +191,16 @@
       "changeable": 1,
       "ext": {}
     },
+ {
+      "key": "🐈️ 网飞猫 | JAR",
+      "name": "🐈️ 网飞猫 | JAR",
+      "type": 3,
+      "api": "csp_NCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {}
+    },
     {
       "key": "💎 可可 | JAR",
       "name": "💎 可可 | JAR",
@@ -233,11 +217,11 @@
       "key": "🚀 荐片 | JS",
       "name": "🚀 荐片 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
+      "api": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/merge.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/jianpian.js"
+      "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/jianpian.js"
     },
     {
       "key": "💓 在线 | JAR",
@@ -341,6 +325,16 @@
         "siteUrl": "http://www.rarbt.live"
       }
     },
+{
+      "key": "🧲 磁力 | JAR",
+      "name": "🧲 磁力 | JAR",
+      "type": 3,
+      "api": "csp_Cilixiong",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {}
+    },
     {
       "key": "🧲 电影港 | JAR",
       "name": "🧲 电影港 | JAR",
@@ -385,8 +379,8 @@
       "key": "⚽ 88看球 | JS",
       "name": "⚽ 88看球 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/88.js",
+      "api": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/merge.min.js",
+      "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/88.js",
       "style": {
         "type": "list"
       },
@@ -398,8 +392,8 @@
       "key": "⚽ 球迷 | JS",
       "name": "⚽ 球迷 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/jrk.js",
+      "api": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/merge.min.js",
+      "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/jrk.js",
       "style": {
         "type": "list"
       },
@@ -411,8 +405,8 @@
       "key": "⚽ 310看球 | JS",
       "name": "⚽ 310看球 | JS",
       "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "ext": "./sites/码上/310.js",
+      "api": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/merge.min.js",
+      "ext": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/stage/sites/码上/310.js",
       "style": {
         "type": "list"
       },
@@ -497,165 +491,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "🚀 影探 | JS",
-      "name": "🚀 影探 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/yingtan.js"
-    },
-    {
-      "key": "🚀 低端 | JS",
-      "name": "🚀 低端 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/ddys.js"
-    },
-    {
-      "key": "🚀 369 | JS",
-      "name": "🚀 369 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/369ys.js"
-    },
-    {
-      "key": "🚀 尘落 | JS",
-      "name": "🚀 尘落 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/clys.js"
-    },
-    {
-      "key": "🚀 NY | JS",
-      "name": "🚀 NY | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/nyyy.js"
-    },
-    {
-      "key": "🚀 中国人 | JS",
-      "name": "🚀 中国人 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/zgr.js"
-    },
-    {
-      "key": "🚀 18哈 | JS",
-      "name": "🚀 18哈 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/18ha.js"
-    },
-    {
-      "key": "🚀 乐鱼 | JS",
-      "name": "🚀 乐鱼 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/leyu.js"
-    },
-    {
-      "key": "🚀 大师兄 | JS",
-      "name": "🚀 大师兄 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/dsx.js"
-    },
-    {
-      "key": "🧸 动漫 | JS",
-      "name": "🧸 动漫 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./sites/码上/blys.js"
-    },
-    {
-      "key": "🚀 NYA | JS",
-      "name": "🚀 NYA | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/NyaFun.js"
-    },
-    {
-      "key": "🚀 白白 | JS",
-      "name": "🚀 白白 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/sbb.js"
-    },
-    {
-      "key": "🚀 农民 | JS",
-      "name": "🚀 农民 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/nmys.js"
-    },
-    {
-      "key": "🚀 网飞 | JS",
-      "name": "🚀 网飞 | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/wftv.js"
-    },
-    {
-      "key": "🧸 Auete | JS",
-      "name": "🧸 Auete | JS",
-      "type": 3,
-      "api": "./sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./sites/码上/Auete.js"
-    },
+   
     {
       "key": "push_agent",
       "name": "推送服务",
