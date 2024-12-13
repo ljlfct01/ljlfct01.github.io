@@ -1,10 +1,10 @@
-
+{
   "force_refresh": 0,
   "app_upgrade": 1,
-  "source": "https://ghp.ci/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/tvbox.%E5%85%AC%E7%91%BE",
+  "source": "",
   "source_plus": "",
-  "app_message": "本「APP」以及公众号「拾光趣乐屋」均为开源, 仅供测试学习交流~\n\n使用过程中若出现广告均为三方插入, 与本公众号无关, 请勿相信, 配置「广告解析密钥」可过滤这些广告~\n\n感谢 插兜大佬 提供的源码，感谢 扫地僧大佬 提供的弹幕源码~\n\n广告过滤，需要填入过滤密钥，提供月度秘钥 9so5a6241230~",
-  "jar_message": "",
+  "app_message": "本「APP」以及「时光机」均为开源免费项目, 仅供测试学习交流~\n\n使用过程中若出现广告均为三方插入, 与本公众号无关, 请勿相信, 配置「广告解析密钥」可过滤这些广告~\n\n关注公众号加「微信群」可获取更多信息~",
+  "jar_message": "关注并回复“签到”, 可领临时密钥, 有效期 10 天; 或者加入「微信群」获取超级密钥, 一劳永逸。",
   "filter": [
     "王二小放牛娃.xyz",
     "神秘的哥哥们",
@@ -19,13 +19,13 @@
   ],
   "prefix": "★公瑾TV★",
   "prefix_wolong": "★卧龙TV★",
-  "title": "公众号「拾光趣乐屋」",
+  "title": "公众号「码上瞧瞧」",
   "jxUrl": "https://www.lintech.work/api/m3u8/parse?token=%s&url=%s",
   "notice": "https://www.lintech.work/static/config/notice.json",
   "parse_no_header": 0,
   "live": "",
-  "upgrade": "",
-  "source_backdoor_plus": "",
-  "source_backdoor": "https://ghp.ci/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/tvbox.%E5%85%AC%E7%91%BE01",
+  "upgrade": "https://slink.ltd/https://raw.githubusercontent.com/bestpvp/config/main/",
+  "source_backdoor_plus": "https://www.lintech.work/超大杯/main.json",
+  "source_backdoor": "https://www.lintech.work/标准杯/main.json",
   "customization": 1
 }
