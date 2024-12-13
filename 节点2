@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 台湾1
+  - name: 台湾1http://www.fish2018.us.kg/p/pg.jar
     server: tw1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
