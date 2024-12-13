@@ -25,7 +25,7 @@
   "sites": [
      {
       "key": "时光机",
-      "name": "🥤时光机超大杯 🗓️v20241212-🧵112",
+      "name": "☕️时光机标准杯 🗓️v20241212-🧵101",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -45,16 +45,7 @@
       "changeable": 0,
       "ext": "./sites/码上/remote_live.json"
     },
-    {
-      "key": "🧲 磁力熊 | JAR",
-      "name": "🧲 磁力熊 | JAR",
-      "type": 3,
-      "api": "csp_Cilixiong",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {}
-    },
+   
     {
       "key": "🇰🇷 韩迷 | JAR",
       "name": "🇰🇷 韩迷 | JAR",
@@ -75,31 +66,8 @@
       "filterable": 1,
       "ext": {}
     },
-    {
-      "key": "🈵 醉挽清风 | 4K解析 | JS",
-      "name": "🈵 醉挽清风 | 4K解析 | JS",
-      "type": 3,
-      "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/qingfeng.js"
-    },
-    {
-      "key": "🈵 小满万全 | 4K解析 | JS",
-      "name": "🈵 小满万全 | 4K解析 | JS",
-      "type": 3,
-      "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"
-    },
+   
+  
     {
       "key": "🐈️ 网飞猫 | JAR",
       "name": "🐈️ 网飞猫 | JAR",
@@ -476,6 +444,16 @@
       "changeable": 1,
       "ext": {}
     },
+ {
+      "key": "🧲 新磁力 | JAR",
+      "name": "🧲 新磁力 | JAR",
+      "type": 3,
+      "api": "csp_Cilixiong",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {}
+    },
     {
       "key": "🦖 荔波+ | JAR",
       "name": "🦖 荔波+ | JAR",
@@ -505,6 +483,31 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": {}
+    },
+    {
+      "key": "🈵  4K | JS",
+      "name": "🈵   清风4K | JS",
+      "type": 3,
+      "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/qingfeng.js"
+    },
+    {
+      "key": "🈵  4K | JS",
+      "name": "🈵 小满4K | JS",
+      "type": 3,
+      "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"
     },
     {
       "key": "💎 可可 | JAR",
