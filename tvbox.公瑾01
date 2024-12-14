@@ -33,21 +33,19 @@
   "ads": [],
   "sites": [
      {
-      "key": "时光机",
-      "name": "☕️时光机标准杯 🗓️v20241212-🧵101",
+      "key": "豆瓣",
+      "name": "公众号：恒星育华学堂",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": {
-        "sourceType": 0,
-        "sourceVersion": "20241212"
-      }
+      "ext": "https://tv.菜妮丝.top/json/douban.json",
+      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
     {
-      "key": "📺 电视直播 | JAR",
-      "name": "📺 电视直播 | JAR",
+      "key": "📺 电视直播 | 斧头帮",
+      "name": "📺 电视直播 ｜斧头帮",
       "type": 3,
       "api": "csp_Live2Vod",
       "searchable": 0,
@@ -56,8 +54,8 @@
     },
    
     {
-      "key": "🇰🇷 韩迷 | JAR",
-      "name": "🇰🇷 韩迷 | JAR",
+      "key": "🇰🇷 韩迷 | 斧头帮",
+      "name": "🇰🇷 韩迷 | 斧头帮",
       "type": 3,
       "api": "csp_Hanmi",
       "searchable": 1,
@@ -66,8 +64,8 @@
       "ext": {}
     },
     {
-      "key": "🥇 金牌 | JAR",
-      "name": "🥇 金牌 | JAR",
+      "key": "🥇 金牌 | 斧头帮",
+      "name": "🥇 金牌 | 斧头帮",
       "type": 3,
       "api": "csp_JinPai",
       "searchable": 1,
@@ -78,8 +76,8 @@
    
   
     {
-      "key": "🐈️ 网飞猫 | JAR",
-      "name": "🐈️ 网飞猫 | JAR",
+      "key": "🐈️ 网飞猫 | 斧头帮",
+      "name": "🐈️ 网飞猫 | 斧头帮",
       "type": 3,
       "api": "csp_NCat",
       "searchable": 1,
@@ -88,8 +86,8 @@
       "ext": {}
     },
     {
-      "key": "🦛 河马 | JAR",
-      "name": "🦛 河马 | JAR",
+      "key": "🦛 河马 | 斧头帮",
+      "name": "🦛 河马 | 斧头帮",
       "type": 3,
       "api": "csp_Hema",
       "searchable": 1,
@@ -100,8 +98,8 @@
       }
     },
     {
-      "key": "🧥 短剧 | JAR",
-      "name": "🧥 短剧 | JAR",
+      "key": "🧥 短剧 | 斧头帮",
+      "name": "🧥 短剧 | 斧头帮",
       "type": 3,
       "api": "csp_Duanju",
       "searchable": 1,
@@ -110,8 +108,8 @@
       "ext": {}
     },
     {
-      "key": "🎒 PCMP4 | JAR",
-      "name": "🎒 PCMP4 | JAR",
+      "key": "🎒 PCMP4 | 斧头帮",
+      "name": "🎒 PCMP4 | 斧头帮",
       "type": 3,
       "api": "csp_Pcmp4",
       "searchable": 0,
@@ -120,8 +118,8 @@
       "ext": {}
     },
     {
-      "key": "📣 低端直连 | JAR",
-      "name": "📣 低端直连 | JAR",
+      "key": "📣 低端直连 | 斧头帮",
+      "name": "📣 低端直连 | 斧头帮",
       "type": 3,
       "api": "csp_DdrkPlus",
       "searchable": 1,
@@ -130,8 +128,8 @@
       "ext": {}
     },
     {
-      "key": "🍋 低端网盘 | JAR",
-      "name": "🍋 低端网盘 | JAR",
+      "key": "🍋 低端网盘 | 斧头帮",
+      "name": "🍋 低端网盘 | 斧头帮",
       "type": 3,
       "api": "csp_Ddrk",
       "searchable": 0,
@@ -140,16 +138,16 @@
       "ext": {}
     },
     {
-      "key": "🚛 瓜子361 | DEX",
-      "name": "🚛 瓜子361 | DEX",
+      "key": "🚛 瓜子361 | 斧头帮",
+      "name": "🚛 瓜子361 | 斧头帮",
       "type": 3,
       "api": "csp_Gz361",
       "searchable": 1,
       "quickSearch": 1
     },
     {
-      "key": "🚛 厂长 | DEX",
-      "name": "🚛 厂长 | DEX",
+      "key": "🚛 厂长 | 斧头帮",
+      "name": "🚛 厂长 | 斧头帮",
       "type": 3,
       "api": "csp_Czsapp",
       "searchable": 1,
@@ -158,8 +156,8 @@
       "ext": "https://czzy.top/"
     },
     {
-      "key": "🚛 金牌 | DEX",
-      "name": "🚛 金牌 | DEX",
+      "key": "🚛 金牌 | 斧头帮",
+      "name": "🚛 金牌 | 斧头帮",
       "type": 3,
       "api": "csp_Jpyy",
       "searchable": 1,
@@ -168,8 +166,8 @@
       "ext": {}
     },
     {
-      "key": "🌰 黑木耳 | CMS",
-      "name": "🌰 黑木耳 | CMS",
+      "key": "🌰 黑木耳 | 斧头帮",
+      "name": "🌰 黑木耳 | 斧头帮",
       "type": 1,
       "api": "https://json02.heimuer.xyz/api.php/provide/vod",
       "searchable": 1,
@@ -233,8 +231,8 @@
       }
     },
     {
-      "key": "🚞 快车 | CMS",
-      "name": "🚞 快车 | CMS",
+      "key": "🚞 快车 | 斧头帮",
+      "name": "🚞 快车 | 斧头帮",
       "type": 1,
       "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -298,8 +296,8 @@
       }
     },
     {
-      "key": "🚄 1080 | CMS",
-      "name": "🚄 1080 | CMS",
+      "key": "🚄 1080 | 斧头帮",
+      "name": "🚄 1080 | 斧头帮",
       "type": 1,
       "api": "https://api.1080zyku.com/inc/apijson.php",
       "searchable": 1,
@@ -362,8 +360,8 @@
       }
     },
     {
-      "key": "🚃 360 | CMS",
-      "name": "🚃 360 | CMS",
+      "key": "🚃 360 | 斧头帮",
+      "name": "🚃 360 | 斧头帮",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod?",
       "searchable": 1,
@@ -425,8 +423,8 @@
       }
     },
     {
-      "key": "🧤 时光玩偶 | JAR",
-      "name": "🧤 时光玩偶 | JAR",
+      "key": "🧤 时光玩偶 | 斧头帮",
+      "name": "🧤 时光玩偶 | 斧头帮",
       "type": 3,
       "api": "csp_WoggTm",
       "searchable": 0,
@@ -434,8 +432,8 @@
       "ext": {}
     },
     {
-      "key": "🐸 饺子 | JAR",
-      "name": "🐸 饺子 | JAR",
+      "key": "🐸 饺子 | 斧头帮",
+      "name": "🐸 饺子 | 斧头帮",
       "type": 3,
       "api": "csp_Jiaozi",
       "searchable": 1,
@@ -444,8 +442,8 @@
       "ext": {}
     },
     {
-      "key": "👕 掘金 | JAR",
-      "name": "👕 掘金 | JAR",
+      "key": "👕 掘金 | 斧头帮",
+      "name": "👕 掘金 | 斧头帮",
       "type": 3,
       "api": "csp_Denver",
       "searchable": 1,
@@ -454,8 +452,8 @@
       "ext": {}
     },
  {
-      "key": "🧲 新磁力 | JAR",
-      "name": "🧲 新磁力 | JAR",
+      "key": "🧲 新磁力 | 斧头帮",
+      "name": "🧲 新磁力 | 斧头帮",
       "type": 3,
       "api": "csp_Cilixiong",
       "searchable": 0,
@@ -464,8 +462,8 @@
       "ext": {}
     },
     {
-      "key": "🦖 荔波+ | JAR",
-      "name": "🦖 荔波+ | JAR",
+      "key": "🦖 荔波+ | 斧头帮",
+      "name": "🦖 荔波+ | 斧头帮",
       "type": 3,
       "api": "csp_LibvioPlus",
       "searchable": 1,
@@ -474,8 +472,8 @@
       "ext": {}
     },
     {
-      "key": "🍈 耐看 | JAR",
-      "name": "🍈 耐看 | JAR",
+      "key": "🍈 耐看 | 斧头帮",
+      "name": "🍈 耐看 | 斧头帮",
       "type": 3,
       "api": "csp_NaiKan",
       "searchable": 1,
@@ -484,8 +482,8 @@
       "ext": {}
     },
     {
-      "key": "🍉 南瓜+ | JAR",
-      "name": "🍉 南瓜+ | JAR",
+      "key": "🍉 南瓜+ | 斧头帮",
+      "name": "🍉 南瓜+ | 斧头帮",
       "type": 3,
       "api": "csp_NanGuaPlus",
       "searchable": 1,
@@ -494,8 +492,8 @@
       "ext": {}
     },
     {
-      "key": "🈵  4K | JS",
-      "name": "🈵   清风4K | JS",
+      "key": "🈵  4K | 斧头帮",
+      "name": "🈵   清风4K | 斧头帮",
       "type": 3,
       "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
       "searchable": 1,
@@ -506,8 +504,8 @@
       "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/qingfeng.js"
     },
     {
-      "key": "🈵  4K | JS",
-      "name": "🈵 小满4K | JS",
+      "key": "🈵  4K | 斧头帮",
+      "name": "🈵 小满4K | 斧头帮",
       "type": 3,
       "api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js",
       "searchable": 1,
@@ -519,8 +517,8 @@
       "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"
     },
     {
-      "key": "💎 可可 | JAR",
-      "name": "💎 可可 | JAR",
+      "key": "💎 可可 | 斧头帮",
+      "name": "💎 可可 | 斧头帮",
       "type": 3,
       "api": "csp_NCat",
       "searchable": 1,
@@ -531,8 +529,8 @@
       }
     },
     {
-      "key": "🚀 荐片 | JS",
-      "name": "🚀 荐片 | JS",
+      "key": "🚀 荐片 | 斧头帮",
+      "name": "🚀 荐片 | 斧头帮",
       "type": 3,
       "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
       "searchable": 1,
@@ -541,8 +539,8 @@
       "ext": "https://www.lintech.work/超大杯/sites/码上/jianpian.js"
     },
     {
-      "key": "💓 在线 | JAR",
-      "name": "💓 在线 | JAR",
+      "key": "💓 在线 | 斧头帮",
+      "name": "💓 在线 | 斧头帮",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
@@ -554,8 +552,8 @@
       }
     },
     {
-      "key": "💓 Voflix | JAR",
-      "name": "💓 Voflix | JAR",
+      "key": "💓 Voflix | 斧头帮",
+      "name": "💓 Voflix | 斧头帮",
       "type": 3,
       "api": "csp_Voflix",
       "searchable": 1,
@@ -566,8 +564,8 @@
       }
     },
     {
-      "key": "💓 MP4 | JAR",
-      "name": "💓 MP4 | JAR",
+      "key": "💓 MP4 | 斧头帮",
+      "name": "💓 MP4 | 斧头帮",
       "type": 3,
       "api": "csp_Mp4br",
       "searchable": 1,
@@ -576,8 +574,8 @@
       "ext": {}
     },
     {
-      "key": "💓 D8 | JAR",
-      "name": "💓 D8 | JAR",
+      "key": "💓 D8 | 斧头帮",
+      "name": "💓 D8 | 斧头帮",
       "type": 3,
       "api": "csp_Duan8",
       "searchable": 1,
@@ -586,8 +584,8 @@
       "ext": {}
     },
     {
-      "key": "💓 7X | JAR",
-      "name": "💓 7X | JAR",
+      "key": "💓 7X | 斧头帮",
+      "name": "💓 7X | 斧头帮",
       "type": 3,
       "api": "csp_QxiTv",
       "searchable": 1,
@@ -595,8 +593,8 @@
       "ext": {}
     },
     {
-      "key": "💓 旋风 | JAR",
-      "name": "💓 旋风 | JAR",
+      "key": "💓 旋风 | 斧头帮",
+      "name": "💓 旋风 | 斧头帮",
       "type": 3,
       "api": "csp_XuanFeng",
       "searchable": 1,
@@ -607,8 +605,8 @@
       }
     },
     {
-      "key": "💥 天堂 | JAR",
-      "name": "💥 天堂 | JAR",
+      "key": "💥 天堂 | 斧头帮",
+      "name": "💥 天堂 | 斧头帮",
       "type": 3,
       "api": "csp_TvDy",
       "searchable": 1,
@@ -619,8 +617,8 @@
       }
     },
     {
-      "key": "💥 云播 | JAR",
-      "name": "💥 云播 | JAR",
+      "key": "💥 云播 | 斧头帮",
+      "name": "💥 云播 | 斧头帮",
       "type": 3,
       "api": "csp_HkTv",
       "searchable": 1,
@@ -631,8 +629,8 @@
       }
     },
     {
-      "key": "🍀 RARBT | JAR",
-      "name": "🍀 RARBT | JAR",
+      "key": "🍀 RARBT | 斧头帮",
+      "name": "🍀 RARBT | 斧头帮",
       "type": 3,
       "api": "csp_Rarbt",
       "searchable": 1,
@@ -643,8 +641,8 @@
       }
     },
     {
-      "key": "🧲 电影港 | JAR",
-      "name": "🧲 电影港 | JAR",
+      "key": "🧲 电影港 | 斧头帮",
+      "name": "🧲 电影港 | 斧头帮",
       "type": 3,
       "api": "csp_DyGang",
       "searchable": 1,
@@ -652,8 +650,8 @@
       "filterable": 1
     },
     {
-      "key": "🧲 迅雷吧 | JAR",
-      "name": "🧲 迅雷吧 | JAR",
+      "key": "🧲 迅雷吧 | 斧头帮",
+      "name": "🧲 迅雷吧 | 斧头帮",
       "type": 3,
       "api": "csp_Xunlei8",
       "searchable": 1,
@@ -661,8 +659,8 @@
       "filterable": 1
     },
     {
-      "key": "🧲 6V | JAR",
-      "name": "🧲 6V | JAR",
+      "key": "🧲 6V | 斧头帮",
+      "name": "🧲 6V | 斧头帮",
       "type": 3,
       "api": "csp_SixV",
       "searchable": 1,
@@ -671,8 +669,8 @@
       "ext": "https://www.66ss.org/"
     },
     {
-      "key": "⚽ 看球 | JAR",
-      "name": "⚽ 看球 | JAR",
+      "key": "⚽ 看球 | 斧头帮",
+      "name": "⚽ 看球 | 斧头帮",
       "type": 3,
       "api": "csp_Kanqiu",
       "style": {
@@ -683,8 +681,8 @@
       "changeable": 0
     },
     {
-      "key": "⚽ 88看球 | JS",
-      "name": "⚽ 88看球 | JS",
+      "key": "⚽ 88看球 | 斧头帮",
+      "name": "⚽ 88看球 | 斧头帮",
       "type": 3,
       "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
       "ext": "https://www.lintech.work/超大杯/sites/码上/88.js",
@@ -696,8 +694,8 @@
       "changeable": 0
     },
     {
-      "key": "⚽ 球迷 | JS",
-      "name": "⚽ 球迷 | JS",
+      "key": "⚽ 球迷 | 斧头帮",
+      "name": "⚽ 球迷 | 斧头帮",
       "type": 3,
       "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
       "ext": "https://www.lintech.work/超大杯/sites/码上/jrk.js",
@@ -709,8 +707,8 @@
       "changeable": 0
     },
     {
-      "key": "⚽ 310看球 | JS",
-      "name": "⚽ 310看球 | JS",
+      "key": "⚽ 310看球 | 斧头帮",
+      "name": "⚽ 310看球 | 斧头帮",
       "type": 3,
       "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
       "ext": "https://www.lintech.work/超大杯/sites/码上/310.js",
@@ -722,8 +720,8 @@
       "changeable": 0
     },
     {
-      "key": "🚀 火狐 | T4",
-      "name": "🚀 火狐 | T4",
+      "key": "🚀 火狐 | 斧头帮",
+      "name": "🚀 火狐 | 斧头帮",
       "type": 1,
       "style": {
         "type": "rect",
@@ -763,8 +761,8 @@
       ]
     },
     {
-      "key": "🧸 巴士 | JAR",
-      "name": "🧸 巴士 | JAR",
+      "key": "🧸 巴士 | 斧头帮",
+      "name": "🧸 巴士 | 斧头帮",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -772,8 +770,8 @@
       "filterable": 1
     },
     {
-      "key": "🚀 荐片 | JAR",
-      "name": "🚀 荐片 | JAR",
+      "key": "🚀 荐片 | 斧头帮",
+      "name": "🚀 荐片 | 斧头帮",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
@@ -781,8 +779,8 @@
       "filterable": 1
     },
     {
-      "key": "🧸 异界 | JAR",
-      "name": "🧸 异界 | JAR",
+      "key": "🧸 异界 | 斧头帮",
+      "name": "🧸 异界 | 斧头帮",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
@@ -790,8 +788,8 @@
       "changeable": 1
     },
     {
-      "key": "🧸 樱花 | JAR",
-      "name": "🧸 樱花 | JAR",
+      "key": "🧸 樱花 | 斧头帮",
+      "name": "🧸 樱花 | 斧头帮",
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
@@ -799,183 +797,8 @@
       "filterable": 1
     },
     {
-      "key": "🚀 影探 | JS",
-      "name": "🚀 影探 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/yingtan.js"
-    },
-    {
-      "key": "🚀 低端 | JS",
-      "name": "🚀 低端 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/ddys.js"
-    },
-    {
-      "key": "🚀 369 | JS",
-      "name": "🚀 369 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/369ys.js"
-    },
-    {
-      "key": "🚀 尘落 | JS",
-      "name": "🚀 尘落 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/clys.js"
-    },
-    {
-      "key": "🚀 NY | JS",
-      "name": "🚀 NY | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/nyyy.js"
-    },
-    {
-      "key": "🚀 中国人 | JS",
-      "name": "🚀 中国人 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/zgr.js"
-    },
-    {
-      "key": "🚀 18哈 | JS",
-      "name": "🚀 18哈 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/18ha.js"
-    },
-    {
-      "key": "🚀 乐鱼 | JS",
-      "name": "🚀 乐鱼 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/leyu.js"
-    },
-    {
-      "key": "🚀 大师兄 | JS",
-      "name": "🚀 大师兄 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/dsx.js"
-    },
-    {
-      "key": "🧸 动漫 | JS",
-      "name": "🧸 动漫 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/blys.js"
-    },
-    {
-      "key": "🚀 NYA | JS",
-      "name": "🚀 NYA | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/NyaFun.js"
-    },
-    {
-      "key": "🚀 白白 | JS",
-      "name": "🚀 白白 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/sbb.js"
-    },
-    {
-      "key": "🚀 农民 | JS",
-      "name": "🚀 农民 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/nmys.js"
-    },
-    {
-      "key": "🚀 网飞 | JS",
-      "name": "🚀 网飞 | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/wftv.js"
-    },
-    {
-      "key": "🧸 Auete | JS",
-      "name": "🧸 Auete | JS",
-      "type": 3,
-      "api": "https://www.lintech.work/超大杯/sites/码上/merge.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/Auete.js"
-    },
-    {
-      "key": "push_agent",
-      "name": "推送服务",
-      "type": 3,
-      "api": "csp_Push",
-      "playerType": "1",
-      "searchable": 0
-    },
-    {
-      "key": "公众号: 插兜的干货仓库",
-      "name": "公众号: 插兜的干货仓库",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0
-    },
-    {
       "key": "玩偶",
-      "name": "饭->👽玩偶哥哥┃4K弹幕",
+      "name": "👽玩偶哥哥┃斧头帮",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -989,19 +812,10 @@
       },
       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1731126610038/fan.txt;md5;118bca13418f13c45c5c237ac93c2f07"
     },
-    {
-      "key": "YGP",
-      "name": "饭->🚀叨观荐影┃新片",
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1731126610038/fan.txt;md5;118bca13418f13c45c5c237ac93c2f07"
-    },
+   
     {
       "key": "alllive",
-      "name": "饭->📽️一直播┃直播",
+      "name": "📽️一直播┃斧头帮",
       "type": 3,
       "api": "csp_Alllive",
       "playerType": 2,
@@ -1012,7 +826,7 @@
     },
     {
       "key": "米搜",
-      "name": "饭->🦋米盘┃搜搜",
+      "name": "🦋米盘┃斧头帮",
       "type": 3,
       "api": "csp_MIPanSo",
       "searchable": 1,
@@ -1026,7 +840,7 @@
     },
     {
       "key": "抠搜",
-      "name": "饭->🍄抠抠┃搜搜",
+      "name": "🍄抠抠┃斧头帮",
       "type": 3,
       "api": "csp_KkSs",
       "searchable": 1,
@@ -1040,7 +854,7 @@
     },
     {
       "key": "Lib",
-      "name": "饭->🌟立播┃秒播",
+      "name": "🌟立播┃斧头帮",
       "type": 3,
       "api": "csp_Libvio",
       "searchable": 1,
@@ -1054,7 +868,7 @@
     },
     {
       "key": "文采",
-      "name": "饭->💮文采┃秒播",
+      "name": "💮文采┃斧头帮",
       "type": 3,
       "api": "csp_Jpys",
       "playerType": 2,
@@ -1065,7 +879,7 @@
     },
     {
       "key": "zxzj",
-      "name": "饭->🍊在线┃秒播",
+      "name": "🍊在线┃斧头帮",
       "type": 3,
       "api": "csp_Zxzj",
       "timeout": 15,
@@ -1077,7 +891,7 @@
     },
     {
       "key": "比特",
-      "name": "饭->🍄比特┃秒播",
+      "name": "🍄比特┃斧头帮",
       "type": 3,
       "api": "csp_Bttwoo",
       "searchable": 1,
@@ -1087,7 +901,7 @@
     },
     {
       "key": "苹果",
-      "name": "饭->🍎苹果┃不卡",
+      "name": "🍎苹果┃斧头帮",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -1097,7 +911,7 @@
     },
     {
       "key": "厂长",
-      "name": "饭->📔厂长┃不卡",
+      "name": "📔厂长┃斧头帮",
       "type": 3,
       "api": "csp_NewCz",
       "playerType": 2,
@@ -1109,7 +923,7 @@
     },
     {
       "key": "木星",
-      "name": "饭->🌞木星┃多线",
+      "name": "🌞木星┃斧头帮",
       "type": 3,
       "api": "csp_AppSx",
       "searchable": 1,
@@ -1120,7 +934,7 @@
     },
     {
       "key": "热播",
-      "name": "饭->📺热播┃多线",
+      "name": "📺热播┃斧头帮",
       "type": 3,
       "api": "csp_AppTT",
       "playerType": 2,
@@ -1132,7 +946,7 @@
     },
     {
       "key": "南瓜",
-      "name": "饭->🎃南瓜┃多线",
+      "name": "🎃南瓜┃斧头帮",
       "type": 3,
       "api": "csp_NanGua",
       "playerType": 2,
@@ -1143,7 +957,7 @@
     },
     {
       "key": "萌米",
-      "name": "饭->👀萌米┃多线",
+      "name": "👀萌米┃斧头帮",
       "type": 3,
       "api": "csp_AppTT",
       "playerType": 2,
@@ -1155,7 +969,7 @@
     },
     {
       "key": "速播",
-      "name": "饭->⏮️速播┃多线",
+      "name": "⏮️速播┃斧头帮",
       "type": 3,
       "api": "csp_AppSx",
       "searchable": 1,
@@ -1166,7 +980,7 @@
     },
     {
       "key": "欢视",
-      "name": "饭->👓欢视┃多线",
+      "name": "👓欢视┃斧头帮",
       "type": 3,
       "api": "csp_AppTT",
       "playerType": 2,
@@ -1178,7 +992,7 @@
     },
     {
       "key": "可可",
-      "name": "饭->👻可可┃多线",
+      "name": "👻可可┃斧头帮",
       "type": 3,
       "api": "csp_Kekys",
       "playerType": 2,
@@ -1189,7 +1003,7 @@
     },
     {
       "key": "贱贱",
-      "name": "饭->🐭贱贱┃P2P",
+      "name": "🐭贱贱┃斧头帮",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -1200,7 +1014,7 @@
     },
     {
       "key": "Auete",
-      "name": "饭->🏝奥特┃无广",
+      "name": "🏝奥特┃斧头帮",
       "type": 3,
       "api": "csp_Auete",
       "timeout": 15,
@@ -1212,7 +1026,7 @@
     },
     {
       "key": "新6V",
-      "name": "饭->🧲新6V┃磁力",
+      "name": "🧲新6V┃斧头帮",
       "type": 3,
       "api": "csp_SixV",
       "searchable": 1,
@@ -1223,7 +1037,7 @@
     },
     {
       "key": "短剧",
-      "name": "饭->🌈上头┃短剧",
+      "name": "🌈上头┃斧头帮",
       "type": 3,
       "api": "csp_Djtt",
       "searchable": 1,
@@ -1233,7 +1047,7 @@
     },
     {
       "key": "Dm84",
-      "name": "饭->🚌巴士┃动漫",
+      "name": "🚌巴士┃斧头帮",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -1243,7 +1057,7 @@
     },
     {
       "key": "Ysj",
-      "name": "饭->🎀异界┃动漫",
+      "name": "🎀异界┃斧头帮",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
@@ -1253,7 +1067,7 @@
     },
     {
       "key": "Anime1",
-      "name": "饭->🐾日本┃动漫",
+      "name": "🐾日本┃斧头帮",
       "type": 3,
       "api": "csp_Anime1",
       "searchable": 1,
@@ -1263,7 +1077,7 @@
     },
     {
       "key": "926看球",
-      "name": "饭->⚽926┃看球",
+      "name": "⚽926┃斧头帮",
       "type": 3,
       "api": "csp_kanqiu926",
       "searchable": 0,
@@ -1275,7 +1089,7 @@
     },
     {
       "key": "88js",
-      "name": "饭->⚽ 88┃看球",
+      "name": "⚽ 88┃斧头帮",
       "type": 3,
       "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
       "ext": "https://notabug.org/fantaiying/ext/raw/main/88看球.js",
@@ -1288,7 +1102,7 @@
     },
     {
       "key": "310js",
-      "name": "饭->⚽ 310┃看球",
+      "name": "⚽ 310┃斧头帮",
       "type": 3,
       "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
       "ext": "https://notabug.org/fantaiying/ext/raw/main/310直播.js",
@@ -1301,7 +1115,7 @@
     },
     {
       "key": "Jrsjs",
-      "name": "饭->⚽ Jrs┃球迷",
+      "name": "⚽ Jrs┃斧头帮",
       "type": 3,
       "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
       "ext": "https://notabug.org/fantaiying/ext/raw/main/jrk.js",
@@ -1314,7 +1128,7 @@
     },
     {
       "key": "酷奇",
-      "name": "饭->🎤酷奇┃MV",
+      "name": "🎤酷奇┃斧头帮",
       "type": 3,
       "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
       "ext": "https://notabug.org/fantaiying/ext/raw/main/酷奇MV.js",
@@ -1328,7 +1142,7 @@
     },
     {
       "key": "MTV",
-      "name": "饭->🎧明星┃MV",
+      "name": "🎧明星┃斧头帮",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -1345,7 +1159,7 @@
     },
     {
       "key": "虎牙直播js",
-      "name": "饭->🐯虎牙┃直播",
+      "name": "🐯虎牙┃斧头帮",
       "type": 3,
       "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.js",
       "ext": "https://notabug.org/fantaiying/ext/raw/main/huya2.js",
@@ -1360,7 +1174,7 @@
     },
     {
       "key": "斗鱼js",
-      "name": "饭->🐟斗鱼┃直播",
+      "name": "🐟斗鱼┃斧头帮",
       "type": 3,
       "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
       "ext": "https://notabug.org/fantaiying/ext/raw/main/斗鱼直播.js",
@@ -1375,7 +1189,7 @@
     },
     {
       "key": "有声小说js",
-      "name": "饭->🎧有声┃小说",
+      "name": "🎧有声┃斧头帮",
       "type": 3,
       "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
       "ext": "https://notabug.org/fantaiying/ext/raw/main/有声小说吧.js",
@@ -1389,7 +1203,7 @@
     },
     {
       "key": "Aid",
-      "name": "饭->🚑急救┃教学",
+      "name": "🚑急救┃斧头帮",
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
@@ -1403,7 +1217,7 @@
     },
     {
       "key": "Sso",
-      "name": "饭->🐌盘他┃三盘",
+      "name": "🐌盘他┃斧头帮",
       "type": 3,
       "api": "csp_PanSso",
       "searchable": 1,
@@ -1417,7 +1231,7 @@
     },
     {
       "key": "夸搜",
-      "name": "饭->🐟夸搜┃狸夸",
+      "name": "🐟夸搜┃斧头帮",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -1432,7 +1246,7 @@
     },
     {
       "key": "YiSo",
-      "name": "饭->😹易搜┃阿狸",
+      "name": "😹易搜┃斧头帮",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
@@ -1446,7 +1260,7 @@
     },
     {
       "key": "PanSearch",
-      "name": "饭->🙀盘Se┃阿狸",
+      "name": "🙀盘Se┃斧头帮",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -1460,7 +1274,7 @@
     },
     {
       "key": "Bili",
-      "name": "饭->🅱哔哔合集┃弹幕",
+      "name": "🅱哔哔合集┃斧头帮",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -1477,7 +1291,7 @@
     },
     {
       "key": "Biliych",
-      "name": "饭->🅱哔哔演唱会┃弹幕",
+      "name": "🅱哔哔演唱会┃斧头帮",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -1494,7 +1308,7 @@
     },
     {
       "key": "dr_兔小贝",
-      "name": "饭->📚儿童┃启蒙",
+      "name": "📚儿童┃斧头帮",
       "type": 3,
       "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
       "ext": "https://notabug.org/fantaiying/ext/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
@@ -1508,7 +1322,7 @@
     },
     {
       "key": "少儿教育",
-      "name": "饭->📚少儿┃教育",
+      "name": "📚少儿┃斧头帮",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -1525,7 +1339,7 @@
     },
     {
       "key": "小学课堂",
-      "name": "饭->📚小学┃课堂",
+      "name": "📚小学┃斧头帮",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -1542,7 +1356,7 @@
     },
     {
       "key": "初中课堂",
-      "name": "饭->📚初中┃课堂",
+      "name": "📚初中┃斧头帮",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -1559,7 +1373,7 @@
     },
     {
       "key": "高中教育",
-      "name": "饭->📚高中┃课堂",
+      "name": "📚高中┃斧头帮",
       "type": 3,
       "api": "csp_Bili",
       "style": {
