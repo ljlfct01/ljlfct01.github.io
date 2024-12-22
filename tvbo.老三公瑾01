@@ -3,14 +3,14 @@
    "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
-   {
-      "name": "肥羊",
-      "type": 0,
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%82%A5%E7%BE%8A%E7%9B%B4%E6%92%AD",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
+   		{
+				"name": "肥羊国内直播",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
 
 {
       "name": "开心",
