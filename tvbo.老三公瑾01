@@ -6,10 +6,11 @@
    		{
 				"name": "肥羊国内直播",
 				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
+				"url": "https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%80%81%E4%B8%89%E7%9B%B4%E6%92%AD",
 				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				 "playerType": 1,
+                                "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+                                "logo": "https://live.fanmingming.com/tv/{name}.png"
 			},
 
 {
