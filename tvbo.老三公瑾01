@@ -1,5 +1,5 @@
 {
-  "spider": "https://www.lintech.work/超大杯/custom_spider_20241231.tms;md5;a1e33a3dc990bfd748f47e907cc24f82",
+  "spider": "https://www.lintech.work/超大杯/custom_spider_20250104.tms;md5;4da1b13c12f10e7875731d49ab495517",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -25,7 +25,7 @@
   "sites": [
     {
       "key": "时光机",
-      "name": "🥤时光机超大杯 🗓️v20250101-🧵100",
+      "name": "🥤时光机超大杯 🗓️v20250104-🧵101",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -42,6 +42,20 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./sites/码上/remote_live.json"
+    },
+ {
+      "key": "🈵 瑞气盈门 | JAR",
+      "name": "🈵 瑞气盈门 | JAR",
+      "type": 3,
+      "api": "csp_Blessings",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "",
+        "prefix": "UPris27MuMWJyAl048qao1Fj+o7cIxIsow5c5dA9Ygg="
+      }
     },
     {
       "key": "🈵 瑞雪迎春 | JAR",
