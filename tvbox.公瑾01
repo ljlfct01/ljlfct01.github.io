@@ -1,8 +1,61 @@
 {
-  "spider": "https://www.lintech.work/超大杯/custom_spider_20241231.tms;md5;a1e33a3dc990bfd748f47e907cc24f82",
+  "spider": "https://www.lintech.work/超大杯/custom_spider_20250106.tms;md5;e6b2f8ac927e363684770ab27365c88f",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
+  
+   {
+      "name": "开心",
+      "type": 0,
+      "url": "http://rihou.cc:55/lib/kx2024.txt",
+      "playerType": 1,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+     {
+      "name": "catvod TV",
+      "type": 0,
+      "url": "http://iptv.catvod.com/tv.m3u",
+      "playerType": 2,
+      "ua": "okhttp/5.0.0-alpha.14",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+     {
+      "name": "4GTV（需要魔法）",
+      "type": 0,
+      "url": "https://www.mytvsuper.com.mp/m3u/4GTV.m3u",
+      "playerType": 2,
+      "ua": "okhttp/3",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "IPTV每天两更(Guovin)",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+    {
+      "name": "抖音、斗鱼、B站、YY、Afreeca、Youtube",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "playerType": 2,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+    {
+      "name": "广东银河频道",
+      "type": 0,
+      "url": "https://tzdr.com/iptv.txt",
+      "playerType": 2,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
     {
       "name": "fanmingming",
       "type": 0,
@@ -10,6 +63,43 @@
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
+    },
+{
+      "name": "大葱 Gather",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+{
+      "name": "宝盒电视",
+      "type": 0,
+      "url": "https://ygbh.site/bh.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "AKTV",
+      "type": 0,
+      "url": "http://aktv.top/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:567/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
  
   ],
@@ -17,8 +107,8 @@
   "ads": [],
   "sites": [
     {
-      "key": "时光机",
-      "name": "🥤时光机超大杯 🗓️v20250101-🧵100",
+      "key": "豆瓣",
+      "name": "豆瓣┃推荐",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -27,18 +117,24 @@
       "ext": "https://tv.菜妮丝.top/json/douban.json",
       "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
-    {
-      "key": "📺 电视直播 | JAR",
-      "name": "📺 电视直播 | JAR",
+    
+ {
+      "key": "💝 瑞气盈门 ",
+      "name": "💝 瑞气盈门 ",
       "type": 3,
-      "api": "csp_Live2Vod",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./sites/码上/remote_live.json"
+      "api": "csp_Blessings",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "",
+        "prefix": "UPris27MuMWJyAl048qao1Fj+o7cIxIsow5c5dA9Ygg="
+      }
     },
     {
-      "key": "🈵 瑞雪迎春 | JAR",
-      "name": "🈵 瑞雪迎春 | JAR",
+      "key": "💝 瑞雪迎春 ",
+      "name": "💝 瑞雪迎春 ",
       "type": 3,
       "api": "csp_AppYsV3",
       "searchable": 1,
@@ -51,8 +147,8 @@
       }
     },
     {
-      "key": "🈵 小满万全 | JAR",
-      "name": "🈵 小满万全 | JAR",
+      "key": "💝 小满万全 ",
+      "name": "💝 小满万全 ",
       "type": 3,
       "api": "csp_LessIsMore",
       "searchable": 1,
@@ -65,8 +161,8 @@
       }
     },
     {
-      "key": "🈵 醉挽清风 | JAR",
-      "name": "🈵 醉挽清风 | JAR",
+      "key": "💝 醉挽清风 ",
+      "name": "💝 醉挽清风 ",
       "type": 3,
       "api": "csp_Breeze",
       "searchable": 1,
@@ -78,8 +174,8 @@
       }
     },
     {
-      "key": "🈵 炉火茶香 | JAR",
-      "name": "🈵 炉火茶香 | JAR",
+      "key": "💝 炉火茶香 ",
+      "name": "💝 炉火茶香 ",
       "type": 3,
       "api": "csp_AppYsV3",
       "searchable": 1,
@@ -91,9 +187,19 @@
         "prefix": "qDZV8EcLOdlHmgJweVMUp8Io0PrzsfRXBTOTQkBklJA="
       }
     },
+     {
+      "key": "💝 暖阳初升 ",
+      "name": "💝 暖阳初升 ",
+      "type": 3,
+      "api": "csp_Hdys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {}
+    },
     {
-      "key": "🐮 流光4K | JAR",
-      "name": "🐮 流光4K | JAR",
+      "key": "💝 流光4K ",
+      "name": "💝 流光4K ",
       "type": 3,
       "api": "csp_Streamer",
       "searchable": 0,
@@ -102,8 +208,8 @@
       "ext": {}
     },
     {
-      "key": "🍚 星球 | JAR",
-      "name": "🍚 星球 | JAR",
+      "key": "💝 星球 ",
+      "name": "💝 星球 ",
       "type": 3,
       "api": "csp_Dami",
       "searchable": 1,
@@ -112,8 +218,8 @@
       "ext": {}
     },
     {
-      "key": "🎄 荐片 | JAR",
-      "name": "🎄 荐片 | JAR",
+      "key": " 💝荐片 ",
+      "name": "💝 荐片 ",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 0,
@@ -123,8 +229,8 @@
       "ext": {}
     },
     {
-      "key": "❄ 素白白 | JAR",
-      "name": "❄ 素白白 | JAR",
+      "key": "💝 素白白 ",
+      "name": "💝 素白白 ",
       "type": 3,
       "api": "csp_Subaibai",
       "searchable": 0,
@@ -132,8 +238,8 @@
       "ext": {}
     },
     {
-      "key": "🧲 磁力熊 | JAR",
-      "name": "🧲 磁力熊 | JAR",
+      "key": "💝 磁力熊 ",
+      "name": "💝 磁力熊 ",
       "type": 3,
       "api": "csp_Cilixiong",
       "searchable": 0,
@@ -141,8 +247,8 @@
       "ext": {}
     },
     {
-      "key": "🐈️ 网飞猫 | JAR",
-      "name": "🐈️ 网飞猫 | JAR",
+      "key": "💝 网飞猫 ",
+      "name": "💝 网飞猫 ",
       "type": 3,
       "api": "csp_NCat",
       "searchable": 1,
@@ -151,8 +257,8 @@
       "ext": {}
     },
     {
-      "key": "🦛 河马 | JAR",
-      "name": "🦛 河马 | JAR",
+      "key": "💝 河马 ",
+      "name": "💝 河马 ",
       "type": 3,
       "api": "csp_Hema",
       "searchable": 1,
@@ -163,8 +269,8 @@
       }
     },
     {
-      "key": "🧥 短剧 | JAR",
-      "name": "🧥 短剧 | JAR",
+      "key": "💝 短剧 ",
+      "name": "💝 短剧 ",
       "type": 3,
       "api": "csp_Duanju",
       "searchable": 1,
@@ -173,8 +279,8 @@
       "ext": {}
     },
     {
-      "key": "🎒 PCMP4 | JAR",
-      "name": "🎒 PCMP4 | JAR",
+      "key": "💝 PCMP4 ",
+      "name": "💝 PCMP4 ",
       "type": 3,
       "api": "csp_Pcmp4",
       "searchable": 0,
@@ -183,8 +289,8 @@
       "ext": {}
     },
     {
-      "key": "📣 低端直连 | JAR",
-      "name": "📣 低端直连 | JAR",
+      "key": "💝 低端直连 ",
+      "name": "💝 低端直连 ",
       "type": 3,
       "api": "csp_DdrkPlus",
       "searchable": 1,
@@ -192,27 +298,18 @@
       "filterable": 0,
       "ext": {}
     },
+    
     {
-      "key": "🍋 低端网盘 | JAR",
-      "name": "🍋 低端网盘 | JAR",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": {}
-    },
-    {
-      "key": "🚛 瓜子2K | DEX",
-      "name": "🚛 瓜子2K | DEX",
+      "key": "💝 瓜子2K ",
+      "name": "💝 瓜子2K ",
       "type": 3,
       "api": "csp_Gz361",
       "searchable": 1,
       "quickSearch": 1
     },
     {
-      "key": "🐍 猎手 | PY",
-      "name": "🐍 猎手 | PY",
+      "key": "💝 猎手 ",
+      "name": "💝 猎手 ",
       "type": 3,
       "api": "https://4708.kstore.space/omg/py/py_电影猎手.py",
       "searchable": 1,
@@ -220,8 +317,8 @@
       "filterable": 0
     },
     {
-      "key": "🚀 火狐 | T4",
-      "name": "🚀 火狐 | T4",
+      "key": "💝 火狐 ",
+      "name": "💝 火狐 ",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 0,
@@ -257,8 +354,8 @@
       ]
     },
     {
-      "key": "🌰 黑木耳 | CMS",
-      "name": "🌰 黑木耳 | CMS",
+      "key": "💝 黑木耳 ",
+      "name": "💝 黑木耳 ",
       "type": 1,
       "api": "https://json02.heimuer.xyz/api.php/provide/vod",
       "searchable": 1,
@@ -322,8 +419,8 @@
       }
     },
     {
-      "key": "🎛️ 索尼 | CMS",
-      "name": "🎛️ 索尼 | CMS",
+      "key": "💝 索尼 ",
+      "name": "💝 索尼 ",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "searchable": 1,
@@ -365,8 +462,8 @@
       ]
     },
     {
-      "key": "🚞 快车 | CMS",
-      "name": "🚞 快车 | CMS",
+      "key": "💝 快车 ",
+      "name": "💝 快车 ",
       "type": 1,
       "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -430,8 +527,8 @@
       }
     },
     {
-      "key": "🚃 360 | CMS",
-      "name": "🚃 360 | CMS",
+      "key": "💝 360 ",
+      "name": "💝 360 ",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod?",
       "searchable": 1,
@@ -493,8 +590,8 @@
       }
     },
     {
-      "key": "🥇 金牌 | JAR",
-      "name": "🥇 金牌 | JAR",
+      "key": "💝 金牌 ",
+      "name": "💝 金牌 ",
       "type": 3,
       "api": "csp_JinPai",
       "searchable": 1,
@@ -503,8 +600,8 @@
       "ext": {}
     },
     {
-      "key": "🧤 时光玩偶 | JAR",
-      "name": "🧤 时光玩偶 | JAR",
+      "key": "💝 时光玩偶 ",
+      "name": "💝 时光玩偶 ",
       "type": 3,
       "api": "csp_WoggTm",
       "searchable": 0,
@@ -512,8 +609,8 @@
       "ext": {}
     },
     {
-      "key": "🐸 饺子 | JAR",
-      "name": "🐸 饺子 | JAR",
+      "key": "💝 饺子 ",
+      "name": "💝 饺子 ",
       "type": 3,
       "api": "csp_Jiaozi",
       "searchable": 1,
@@ -522,8 +619,8 @@
       "ext": {}
     },
     {
-      "key": "👕 掘金 | JAR",
-      "name": "👕 掘金 | JAR",
+      "key": "💝 掘金 ",
+      "name": "💝 掘金 ",
       "type": 3,
       "api": "csp_Denver",
       "searchable": 1,
@@ -532,8 +629,8 @@
       "ext": {}
     },
     {
-      "key": "🦖 荔波+ | JAR",
-      "name": "🦖 荔波+ | JAR",
+      "key": "💝 荔波",
+      "name": "💝 荔波",
       "type": 3,
       "api": "csp_LibvioPlus",
       "searchable": 1,
@@ -542,8 +639,8 @@
       "ext": {}
     },
     {
-      "key": "🍈 耐看 | JAR",
-      "name": "🍈 耐看 | JAR",
+      "key": "💝 耐看 ",
+      "name": "💝 耐看 ",
       "type": 3,
       "api": "csp_NaiKan",
       "searchable": 1,
@@ -552,8 +649,8 @@
       "ext": {}
     },
     {
-      "key": "🍉 南瓜+ | JAR",
-      "name": "🍉 南瓜+ | JAR",
+      "key": "💝 南瓜",
+      "name": "💝 南瓜",
       "type": 3,
       "api": "csp_NanGuaPlus",
       "searchable": 1,
@@ -562,8 +659,8 @@
       "ext": {}
     },
     {
-      "key": "💎 可可 | JAR",
-      "name": "💎 可可 | JAR",
+      "key": "💝 可可 ",
+      "name": "💝 可可 ",
       "type": 3,
       "api": "csp_NCat",
       "searchable": 1,
@@ -574,8 +671,8 @@
       }
     },
     {
-      "key": "💓 在线 | JAR",
-      "name": "💓 在线 | JAR",
+      "key": "💝 在线 ",
+      "name": "💝 在线 ",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 0,
@@ -588,8 +685,8 @@
       }
     },
     {
-      "key": "💓 Voflix | JAR",
-      "name": "💓 Voflix | JAR",
+      "key": "💝 Voflix ",
+      "name": "💝 Voflix ",
       "type": 3,
       "api": "csp_Voflix",
       "searchable": 1,
@@ -600,8 +697,8 @@
       }
     },
     {
-      "key": "💓 MP4 | JAR",
-      "name": "💓 MP4 | JAR",
+      "key": "💝 MP4 ",
+      "name": "💝 MP4 ",
       "type": 3,
       "api": "csp_Mp4br",
       "searchable": 1,
@@ -610,8 +707,8 @@
       "ext": {}
     },
     {
-      "key": "💓 D8 | JAR",
-      "name": "💓 D8 | JAR",
+      "key": "💝 D8 ",
+      "name": "💝 D8 ",
       "type": 3,
       "api": "csp_Duan8",
       "searchable": 1,
@@ -620,8 +717,8 @@
       "ext": {}
     },
     {
-      "key": "💓 7X | JAR",
-      "name": "💓 7X | JAR",
+      "key": "💝 7X ",
+      "name": "💝 7X ",
       "type": 3,
       "api": "csp_QxiTv",
       "searchable": 1,
@@ -629,8 +726,8 @@
       "ext": {}
     },
     {
-      "key": "💓 旋风 | JAR",
-      "name": "💓 旋风 | JAR",
+      "key": "💝 旋风 ",
+      "name": "💝 旋风 ",
       "type": 3,
       "api": "csp_XuanFeng",
       "searchable": 1,
@@ -641,8 +738,8 @@
       }
     },
     {
-      "key": "💥 天堂 | JAR",
-      "name": "💥 天堂 | JAR",
+      "key": "💝 天堂 ",
+      "name": "💝 天堂 ",
       "type": 3,
       "api": "csp_TvDy",
       "searchable": 1,
@@ -653,8 +750,8 @@
       }
     },
     {
-      "key": "💥 云播 | JAR",
-      "name": "💥 云播 | JAR",
+      "key": "💝 云播 ",
+      "name": "💝 云播 ",
       "type": 3,
       "api": "csp_HkTv",
       "searchable": 1,
@@ -665,8 +762,8 @@
       }
     },
     {
-      "key": "🍀 RARBT | JAR",
-      "name": "🍀 RARBT | JAR",
+      "key": "💝 RARBT ",
+      "name": "💝 RARBT ",
       "type": 3,
       "api": "csp_Rarbt",
       "searchable": 1,
@@ -677,8 +774,8 @@
       }
     },
     {
-      "key": "🧲 电影港 | JAR",
-      "name": "🧲 电影港 | JAR",
+      "key": "💝 电影港 ",
+      "name": "💝 电影港 ",
       "type": 3,
       "api": "csp_DyGang",
       "searchable": 1,
@@ -686,8 +783,8 @@
       "filterable": 1
     },
     {
-      "key": "🧲 迅雷吧 | JAR",
-      "name": "🧲 迅雷吧 | JAR",
+      "key": "💝 迅雷吧 ",
+      "name": "💝 迅雷吧 ",
       "type": 3,
       "api": "csp_Xunlei8",
       "searchable": 1,
@@ -695,8 +792,8 @@
       "filterable": 1
     },
     {
-      "key": "🧲 6V | JAR",
-      "name": "🧲 6V | JAR",
+      "key": "💝 6V ",
+      "name": "💝 6V ",
       "type": 3,
       "api": "csp_SixV",
       "searchable": 1,
@@ -705,8 +802,8 @@
       "ext": "https://www.66ss.org/"
     },
     {
-      "key": "⚽ 看球 | JAR",
-      "name": "⚽ 看球 | JAR",
+      "key": "💝 看球 ",
+      "name": "💝 看球 ",
       "type": 3,
       "api": "csp_Kanqiu",
       "style": {
@@ -717,8 +814,8 @@
       "changeable": 0
     },
     {
-      "key": "🧸 巴士 | JAR",
-      "name": "🧸 巴士 | JAR",
+      "key": "💝 巴士 ",
+      "name": "💝 巴士 ",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -726,8 +823,8 @@
       "filterable": 1
     },
     {
-      "key": "🧸 异界 | JAR",
-      "name": "🧸 异界 | JAR",
+      "key": "💝 异界 ",
+      "name": "💝 异界 ",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
@@ -735,8 +832,8 @@
       "changeable": 1
     },
     {
-      "key": "🧸 樱花 | JAR",
-      "name": "🧸 樱花 | JAR",
+      "key": "💝 樱花 ",
+      "name": "💝 樱花 ",
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
@@ -744,8 +841,8 @@
       "filterable": 1
     },
     {
-      "key": "🗽 本地 | JAR",
-      "name": "🗽 本地 | JAR",
+      "key": "💝 本地 ",
+      "name": "💝 本地 ",
       "type": 3,
       "api": "csp_Local",
       "playerType": "1",
@@ -753,23 +850,16 @@
     },
     {
       "key": "push_agent",
-      "name": "✈ 推送 | JAR",
+      "name": "💝 推送 ",
       "type": 3,
       "api": "csp_PushPlus",
       "playerType": "1",
       "searchable": 0
     },
-    {
-      "key": "公众号: 码上瞧瞧",
-      "name": "公众号: 码上瞧瞧",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0
-    },
+    
     {
       "key": "玩偶",
-      "name": "饭->👽玩偶哥哥┃4K弹幕",
+      "name": "饭->💝玩偶哥哥┃4K弹幕",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -785,7 +875,7 @@
     },
     {
       "key": "YGP",
-      "name": "饭->🚀叨观荐影┃预告片",
+      "name": "饭->💝叨观荐影┃预告片",
       "type": 3,
       "api": "csp_YGP",
       "searchable": 0,
@@ -795,7 +885,7 @@
     },
     {
       "key": "alllive",
-      "name": "饭->📽️一直播┃直播",
+      "name": "饭->💝一直播┃直播",
       "type": 3,
       "api": "csp_Alllive",
       "playerType": 2,
@@ -806,7 +896,7 @@
     },
     {
       "key": "抠搜",
-      "name": "饭->🍄抠抠┃搜搜",
+      "name": "饭->💝抠抠┃搜搜",
       "type": 3,
       "api": "csp_KkSs",
       "searchable": 1,
@@ -820,7 +910,7 @@
     },
     {
       "key": "UC",
-      "name": "饭->🌈优汐┃搜搜",
+      "name": "饭->💝优汐┃搜搜",
       "type": 3,
       "api": "csp_UuSs",
       "searchable": 1,
@@ -834,7 +924,7 @@
     },
     {
       "key": "Lib",
-      "name": "饭->🌟立播┃秒播",
+      "name": "饭->💝立播┃秒播",
       "type": 3,
       "api": "csp_Libvio",
       "searchable": 1,
@@ -848,7 +938,7 @@
     },
     {
       "key": "文采",
-      "name": "饭->💮文采┃秒播",
+      "name": "饭->💝文采┃秒播",
       "type": 3,
       "api": "csp_Jpys",
       "playerType": 2,
@@ -859,7 +949,7 @@
     },
     {
       "key": "糯米",
-      "name": "饭->🍓糯米┃秒播",
+      "name": "饭->💝糯米┃秒播",
       "type": 3,
       "api": "csp_Nmyswv",
       "searchable": 1,
@@ -869,7 +959,7 @@
     },
     {
       "key": "zxzj",
-      "name": "饭->🍊在线┃秒播",
+      "name": "饭->💝在线┃秒播",
       "type": 3,
       "api": "csp_Zxzj",
       "timeout": 15,
@@ -881,7 +971,7 @@
     },
     {
       "key": "csp_Bttoo",
-      "name": "饭->🍄比特┃秒播",
+      "name": "饭->💝比特┃秒播",
       "type": 3,
       "api": "csp_Bttwoo",
       "searchable": 1,
@@ -891,7 +981,7 @@
     },
     {
       "key": "苹果",
-      "name": "饭->🍎苹果┃不卡",
+      "name": "饭->💝苹果┃不卡",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -901,7 +991,7 @@
     },
     {
       "key": "原创",
-      "name": "饭->☀原创┃不卡",
+      "name": "饭->💝原创┃不卡",
       "type": 3,
       "api": "csp_YCyz",
       "timeout": 15,
@@ -913,7 +1003,7 @@
     },
     {
       "key": "厂长",
-      "name": "饭->📔厂长┃不卡",
+      "name": "饭->💝厂长┃不卡",
       "type": 3,
       "api": "csp_NewCz",
       "playerType": 2,
@@ -925,7 +1015,7 @@
     },
     {
       "key": "木星",
-      "name": "饭->🌞木星┃多线",
+      "name": "饭->💝木星┃多线",
       "type": 3,
       "api": "csp_AppSx",
       "searchable": 1,
@@ -936,7 +1026,7 @@
     },
     {
       "key": "热播",
-      "name": "饭->📺热播┃多线",
+      "name": "饭->💝热播┃多线",
       "type": 3,
       "api": "csp_AppTT",
       "playerType": 2,
@@ -948,7 +1038,7 @@
     },
     {
       "key": "南瓜",
-      "name": "饭->🎃南瓜┃多线",
+      "name": "饭->💝南瓜┃多线",
       "type": 3,
       "api": "csp_NanGua",
       "playerType": 2,
@@ -959,7 +1049,7 @@
     },
     {
       "key": "萌米",
-      "name": "饭->👀萌米┃多线",
+      "name": "饭->💝萌米┃多线",
       "type": 3,
       "api": "csp_AppTT",
       "playerType": 2,
@@ -971,7 +1061,7 @@
     },
     {
       "key": "欢视",
-      "name": "饭->👓欢视┃多线",
+      "name": "饭->💝欢视┃多线",
       "type": 3,
       "api": "csp_AppTT",
       "playerType": 2,
@@ -983,7 +1073,7 @@
     },
     {
       "key": "低端",
-      "name": "饭->⏮️低端┃外剧",
+      "name": "饭->💝低端┃外剧",
       "type": 3,
       "api": "csp_Ddrk",
       "playerType": "2",
@@ -994,7 +1084,7 @@
     },
     {
       "key": "可可",
-      "name": "饭->👻可可┃多线",
+      "name": "饭->💝可可┃多线",
       "type": 3,
       "api": "csp_Kekys",
       "playerType": 2,
@@ -1005,7 +1095,7 @@
     },
     {
       "key": "贱贱",
-      "name": "饭->🐭贱贱┃P2P",
+      "name": "饭->💝贱贱┃P2P",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -1016,7 +1106,7 @@
     },
     {
       "key": "Auete",
-      "name": "饭->🏝奥特┃无广",
+      "name": "饭->💝奥特┃无广",
       "type": 3,
       "api": "csp_Auete",
       "timeout": 15,
@@ -1028,7 +1118,7 @@
     },
     {
       "key": "新6V",
-      "name": "饭->🧲新6V┃磁力",
+      "name": "饭->💝新6V┃磁力",
       "type": 3,
       "api": "csp_SixV",
       "searchable": 1,
@@ -1039,7 +1129,7 @@
     },
     {
       "key": "Dm84",
-      "name": "饭->🚌巴士┃动漫",
+      "name": "饭->💝巴士┃动漫",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -1049,7 +1139,7 @@
     },
     {
       "key": "Ysj",
-      "name": "饭->🎀异界┃动漫",
+      "name": "饭->💝异界┃动漫",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
@@ -1059,7 +1149,7 @@
     },
     {
       "key": "Anime1",
-      "name": "饭->🐾日本┃动漫",
+      "name": "饭->💝日本┃动漫",
       "type": 3,
       "api": "csp_Anime1",
       "searchable": 1,
@@ -1069,7 +1159,7 @@
     },
     {
       "key": "926看球",
-      "name": "饭->⚽926┃看球",
+      "name": "饭->💝926┃看球",
       "type": 3,
       "api": "csp_kanqiu926",
       "searchable": 0,
@@ -1081,7 +1171,7 @@
     },
     {
       "key": "88看球",
-      "name": "饭->⚽88┃看球",
+      "name": "饭->💝88┃看球",
       "type": 3,
       "api": "csp_Sir88",
       "searchable": 0,
@@ -1093,7 +1183,7 @@
     },
     {
       "key": "Jrsjs",
-      "name": "饭->⚽ Jrs┃球迷",
+      "name": "饭->💝 Jrs┃球迷",
       "type": 3,
       "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js",
@@ -1106,7 +1196,7 @@
     },
     {
       "key": "酷奇",
-      "name": "饭->🎤酷奇┃MV",
+      "name": "饭->💝酷奇┃MV",
       "type": 3,
       "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/酷奇MV.js",
@@ -1120,7 +1210,7 @@
     },
     {
       "key": "MTV",
-      "name": "饭->🎧明星┃MV",
+      "name": "饭->💝明星┃MV",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -1137,7 +1227,7 @@
     },
     {
       "key": "虎牙直播js",
-      "name": "饭->🐯虎牙┃直播",
+      "name": "饭->💝虎牙┃直播",
       "type": 3,
       "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
       "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
@@ -1152,7 +1242,7 @@
     },
     {
       "key": "斗鱼js",
-      "name": "饭->🐟斗鱼┃直播",
+      "name": "饭->💝斗鱼┃直播",
       "type": 3,
       "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
@@ -1167,7 +1257,7 @@
     },
     {
       "key": "有声小说js",
-      "name": "饭->🎧有声┃小说",
+      "name": "饭->💝有声┃小说",
       "type": 3,
       "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/有声小说吧.js",
@@ -1181,7 +1271,7 @@
     },
     {
       "key": "Aid",
-      "name": "饭->🚑急救┃教学",
+      "name": "饭->💝急救┃教学",
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
@@ -1195,7 +1285,7 @@
     },
     {
       "key": "PanSso",
-      "name": "饭->🐌盘他┃三盘",
+      "name": "饭->💝盘他┃三盘",
       "type": 3,
       "api": "csp_PanSso",
       "searchable": 1,
@@ -1209,7 +1299,7 @@
     },
     {
       "key": "YpanSo",
-      "name": "饭->🐟盘她┃三盘",
+      "name": "饭->💝盘她┃三盘",
       "type": 3,
       "api": "csp_YpanSo",
       "searchable": 1,
@@ -1223,7 +1313,7 @@
     },
     {
       "key": "xzso",
-      "name": "饭->👻盘它┃三盘",
+      "name": "饭->💝盘它┃三盘",
       "type": 3,
       "api": "csp_xzso",
       "searchable": 1,
@@ -1237,7 +1327,7 @@
     },
     {
       "key": "米搜",
-      "name": "饭->🦋米搜┃夸父",
+      "name": "饭->💝米搜┃夸父",
       "type": 3,
       "api": "csp_MIPanSo",
       "searchable": 1,
@@ -1251,7 +1341,7 @@
     },
     {
       "key": "夸搜",
-      "name": "饭->😻夸搜┃夸父",
+      "name": "饭->💝夸搜┃夸父",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -1266,7 +1356,7 @@
     },
     {
       "key": "Aliso",
-      "name": "饭->🙀盘搜┃阿狸",
+      "name": "饭->💝盘搜┃阿狸",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -1280,7 +1370,7 @@
     },
     {
       "key": "YiSo",
-      "name": "饭->😹易搜┃阿狸",
+      "name": "饭->💝易搜┃阿狸",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
