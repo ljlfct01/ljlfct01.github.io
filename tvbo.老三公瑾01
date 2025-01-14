@@ -13,9 +13,18 @@
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
  {
-      "name": "拾光",
+      "name": "拾光1",
       "type": 0,
       "url": "https://4708.kstore.space/omg/tv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+{
+      "name": "拾光2",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/xmbjm/TV/refs/heads/master/output/user_result.txt",
       "playerType": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
