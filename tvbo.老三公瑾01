@@ -181,6 +181,14 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+{
+            "name": "crzb",
+            "url": "http://bwind.fr.to/m3u/crzb.txt",
+            "type": 0,
+            "ua": "okhttp/3.15",
+            "epg": "http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+            "logo": "http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
+        },
  {
       "name": "LIVE1",
       "type": 0,
