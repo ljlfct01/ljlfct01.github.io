@@ -4,16 +4,13 @@
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314090387/ol.txt",
   "sites": [
- {
+  {
       "key": "豆瓣",
-      "name": "豆瓣┃推荐",
+      "name": "🤓公众号┃OK猫开发",
       "type": 3,
-      "api": "csp_Douban",
+      "api": "csp_DoubanGuard",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://tv.菜妮丝.top/json/douban.json",
-      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+      "changeable": 1
     },
     {
       "key": "配置中心",
