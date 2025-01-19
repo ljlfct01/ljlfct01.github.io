@@ -1,15 +1,21 @@
 {
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737279356114/okpng.txt;md5;e8e4be4dbd400e01b09550e90dadd14d",
+  //"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737279356114/okpng.txt;md5;e8e4be4dbd400e01b09550e90dadd14d",
+  "spider": "./custom_spider_20250117.tms;md5;aa159dc6da9dc77ee5d97abf1d4a8f6e",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314090387/ol.txt",
   "sites": [
         {
-      "key": "豆瓣",
-      "name": "🤓公众号┃OK猫开发",
+      "key": "时光机",
+      "name": "🥤时光机超大杯 🗓️v20250117-🧵105",
       "type": 3,
-      "api": "csp_DoubanGuard",
+      "api": "csp_Douban",
       "searchable": 0,
-      "changeable": 1
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "sourceType": 0,
+        "sourceVersion": "20250117"
+      }
     },
     {
       "key": "配置中心",
@@ -22,6 +28,103 @@
       "style": {
         "type": "rect",
         "ratio": 1.43
+      }
+    },
+ {
+      "key": "🈵 瑞气盈门 | JX",
+      "name": "🈵 瑞气盈门 | JX",
+      "type": 3,
+      "api": "csp_Blessings",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "NZvYm1nqqqMKoSBbAdVOgR4X4FhYAeDCYox70Al/bpf3kB4rDp42v0ZIAJ/NGGbjbPouTVv1nC4pzHtUjDX838SIE5CQ/8/ighmeR/hww94=",
+        "prefix": "UPris27MuMWJyAl048qao1Fj+o7cIxIsow5c5dA9Ygg="
+      }
+    },
+    {
+      "key": "🈵 小满万全 | JX",
+      "name": "🈵 小满万全 | JX",
+      "type": 3,
+      "api": "csp_LessIsMore",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "NZvYm1nqqqMKoSBbAdVOgR4X4FhYAeDCYox70Al/bpf3kB4rDp42v0ZIAJ/NGGbjbPouTVv1nC4pzHtUjDX838SIE5CQ/8/ighmeR/hww94=",
+        "prefix": "aKKG6Ixij3hB8wa0VvK8YnCeM7SF65Y0o32U8xvusCA="
+      }
+    },
+    {
+      "key": "🈵 醉挽清风 | JX",
+      "name": "🈵 醉挽清风 | JX",
+      "type": 3,
+      "api": "csp_Breeze",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "NZvYm1nqqqMKoSBbAdVOgR4X4FhYAeDCYox70Al/bpf3kB4rDp42v0ZIAJ/NGGbjbPouTVv1nC4pzHtUjDX838SIE5CQ/8/ighmeR/hww94=",
+        "prefix": "yQemwLacBOL9i5k7nNNyn2AJvVvGlCzm9UnCna8URlc="
+      }
+    },
+    {
+      "key": "🈵 炉火茶香 | JX",
+      "name": "🈵 炉火茶香 | JX",
+      "type": 3,
+      "api": "csp_AppYsV3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cmsApis": "gHObazqpu51a24jeocgx1MTL2dpK7Kfixk3KRzm/7AhIMAh6hKTaLvIQ6r1D2YQb",
+        "jxApi": "NZvYm1nqqqMKoSBbAdVOgR4X4FhYAeDCYox70Al/bpf3kB4rDp42v0ZIAJ/NGGbjbPouTVv1nC4pzHtUjDX838SIE5CQ/8/ighmeR/hww94=",
+        "prefix": "qDZV8EcLOdlHmgJweVMUp8Io0PrzsfRXBTOTQkBklJA="
+      }
+    },
+    {
+      "key": "🈵 瑞雪迎春 | JX",
+      "name": "🈵 瑞雪迎春 | JX",
+      "type": 3,
+      "api": "csp_AppYsV3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cmsApis": "R0NNEUWaOb1LpNX5d/wBWINblRR3D6g8kwu/NNyxuEj7yYzVrqiS+6qI0Kf3e8vo",
+        "jxApi": "LnkT3kx3JdWCe+2pMS7J9F7QzQMBmyiMpJU7u3y9rlC+FjF3A9pUNaWxLlMZ8tyGotqn/T4yczs4ciKD6WbVSA==",
+        "prefix": "l/4X5tejbgZrWD+cfLywEhXgeni+4aTA/X62RVr9V9Q="
+      }
+    },
+    {
+      "key": "🈵 天降鸿福 | JX",
+      "name": "🈵 天降鸿福 | JX",
+      "type": 3,
+      "api": "csp_AppYsV3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cmsApis": "C6PDAj53BqTbVXdzd1SxC2ygnjVG614yosaYE1DNzI/J2CkdDKf6dQIdWHB+TPAF",
+        "jxApi": "",
+        "prefix": "xYUck8UhOvDmI0CRzqLO6/DnU+YpMkdxuKsy0c8C/CE="
+      }
+    },
+    {
+      "key": "🈵 财源广进 | JX",
+      "name": "🈵 财源广进 | JX",
+      "type": 3,
+      "api": "csp_AppYsV3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cmsApis": "BB/wVps1wa1PrsQ2bsdzHTy6HPPN+fN29QaCIqqrzgs=",
+        "jxApi": "CZBuvohwhcBaK3LIPEJHjUZQga+8TxyLiGQ2soqVyp4UltOk2eYMgo0RUxa9Z3WI",
+        "prefix": "2rDS0IS/yYlt2zB+fKdnxX5y9fmkw6DziWs5UfrpxRA="
       }
     },
     {
