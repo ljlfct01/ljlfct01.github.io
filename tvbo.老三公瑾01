@@ -20,7 +20,15 @@
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
-
+{
+      "name": "itv",
+      "type": 0,
+      "url": "https://notabug.org/caichunde/live/raw/master/tv.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
 {
       "name": "爱尚",
       "type": 0,
