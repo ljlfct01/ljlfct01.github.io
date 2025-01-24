@@ -138,15 +138,17 @@
   "ads": [],
   "sites": [
   {
-      "key": "豆瓣",
-      "name": "豆瓣┃推荐",
+      "key": "时光机",
+      "name": "🥤时光机超大杯 🗓️v20250124-🧵109",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://tv.菜妮丝.top/json/douban.json",
-      "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+      "ext": {
+        "sourceType": 2,
+        "sourceVersion": "20250124"
+      }
     },
     {
       "key": "📣 低端直连 | JAR",
