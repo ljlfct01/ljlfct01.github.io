@@ -1,5 +1,5 @@
 {
-  "spider": "https://www.lintech.work/超大杯/custom_spider_20250123.tms;md5;5cbda7026ca4215341d9458ec907c949",
+  "spider": "https://www.lintech.work/超大杯/custom_spider_20250124.tms;md5;926526cb5adfdfff81c77bc762b4e717",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -150,33 +150,7 @@
         "sourceVersion": "20250124"
       }
     },
-    {
-      "key": "📣 低端直连 | JAR",
-      "name": "📣 低端直连 | JAR",
-      "type": 3,
-      "api": "csp_DdrkPlus",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {}
-    },
-    {
-      "key": "🚛 瓜子2K | DEX",
-      "name": "🚛 瓜子2K | DEX",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "🚛 农民直连 | DEX",
-      "name": "🚛 农民直连 | DEX",
-      "type": 3,
-      "api": "csp_Nongm",
-      "ext": "https://wwgz.cn",
-      "searchable": 1,
-      "quickSearch": 1
-    },
+
     {
       "key": "🈵 瑞气盈门 | JX",
       "name": "🈵 瑞气盈门 | JX",
@@ -283,6 +257,43 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {}
+    },
+ {
+      "key": "🎤 戏曲大全 | JAR",
+      "name": "🎤 戏曲大全 | JAR",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/xiqu.json"
+    },
+    {
+      "key": "📣 低端直连 | JAR",
+      "name": "📣 低端直连 | JAR",
+      "type": 3,
+      "api": "csp_DdrkPlus",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {}
+    },
+    {
+      "key": "🚛 瓜子2K | DEX",
+      "name": "🚛 瓜子2K | DEX",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "🚛 农民直连 | DEX",
+      "name": "🚛 农民直连 | DEX",
+      "type": 3,
+      "api": "csp_Nongm",
+      "ext": "https://wwgz.cn",
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
       "key": "🌞 暖阳初升 | JAR",
