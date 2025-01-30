@@ -147,12 +147,14 @@
     }
   ],
   "lives": [
-    {
-      "name": "JSON",
-      "type": 1,
-      "bboot": true,
-      "cip": "HK",
-      "url": "http://crassula.notescrassula.com/bd2c8c627727deccce858d186affbd67/{uuid}/{mac}/{etoken}/d9877a6beb279857c4fef0c7471ef215.m3u"
+   {
+      "name": "live",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%80%81%E4%B8%89%E7%9B%B4%E6%92%AD",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ]
 }
