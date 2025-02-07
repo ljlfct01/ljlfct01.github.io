@@ -394,17 +394,36 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-   {
-      "name": "live",
+{
+      "name": "猫TV",
       "type": 0,
-      "url": "https://slink.ltd/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%80%81%E4%B8%89%E7%9B%B4%E6%92%AD",
+      "url": "http://rihou.cc:567/gggg.nzk",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+{
+      "name": "开心",
+      "type": 0,
+      "url": "http://rihou.cc:55/lib/kx2024.txt",
+      "playerType": 1,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+{
+      "name": "宝盒电视",
+      "type": 0,
+      "url": "https://ygbh.site/bh.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+  
  {
-      "name": "live1",
+      "name": "七星",
       "type": 0,
       "url": "https://gitlab.com/tvkj/loong/-/raw/main/loog.txt",
       "playerType": 1,
@@ -416,6 +435,15 @@
       "name": "iptv365",
       "type": 0,
       "url": "https://live.iptv365.org/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "live",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%80%81%E4%B8%89%E7%9B%B4%E6%92%AD",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
