@@ -104,239 +104,289 @@
     
   
     {
-      "key": "*色南国资源",
-      "name": "*色南国资源",
+      "key": "fqzy资源",
+      "name": "🔞国产",
       "type": 1,
-      "api": "https://api.sexnguon.com/api.php/provide/vod/",
+      "api": "https://fqzy.me//api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 0
+      "changeable": 1,
+      "categories": [
+        "黑料网曝",
+        "国产大制作",
+        "偷拍自拍",
+        "高清无码",
+        "乱伦毁三观",
+        "淫乱学生",
+        "主播女网红",
+        "高清有码",
+        "中文字幕",
+        "动漫精选",
+        "欧美精品"
+      ]
     },
     {
-      "key": "f6c9a2d0b215c826f74871e648701dbb",
-      "name": "*抖阴视频",
+      "key": "didizy",
+      "name": "💕滴滴(直连)",
       "type": 1,
-      "api": "http://videos.web6868.com/mytvsuper/f3d0d7f08d3e3dbc5d209d2bbff6a33dc7d71e1b559eeabfceea27bd621726e6/30303a30303a30303a30303a30303a3030/1c8c47becf333f1a2e51404bd5ed3fcb805ae7eef235a1b8d9ea5fda872b7c78/",
+      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 0
+      "filterable": 1,
+      "jar": "https://gitee.com/juanxiao/bh/raw/master/o.jar"
     },
     {
-      "key": "*麻豆视频2",
-      "name": "*麻豆视频2",
+      "key": "didiz1",
+      "name": "💕玫瑰(直连)",
       "type": 1,
-      "api": "https://madouse.la/api.php/provide/vod/",
+      "api": "https://jipinzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 0
-    },
-    {
-      "key": "*蛋蛋视频",
-      "name": "*蛋蛋视频",
-      "type": 1,
-      "api": "https://156.249.29.8/inc/apijson_vod.php",
-      "searchable": 1,
-      "quickSearch": 0
-    },
-    {
-      "key": "*91麻豆",
-      "name": "*91麻豆",
-      "type": 1,
-      "api": "https://91md.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 0
-    },
-    {
-      "key": "(18+)环亚资源",
-      "name": "(18+不错)环亚资源",
-      "type": 0,
-      "api": "http://wmcj8.com/inc/sapi.php?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "ms4nii",
-      "name": "美少女资源(已修复)",
-      "type": 0,
-      "api": "https://www.msnii.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "KxrbspE",
-      "name": "淫水机资源(已修复)",
-      "type": 0,
-      "api": "https://www.xrbsp.com/api/xml.php",
+      "key": "di",
+      "name": "💕网红(直连)",
+      "type": 1,
+      "api": "https://rb.huaduys.org/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "gdlsE",
-      "name": "香奶儿资源(已修复)",
+      "key": "didiz1111",
+      "name": "🔞4K",
+      "type": 1,
+      "api": "http://tv.i222.top/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "色播",
+      "name": "🔞色播直播",
+      "type": 3,
+      "api": "https://gh.llkk.cc/https://raw.githubusercontent.com/aliluya1977/yg/main/h/色播.js",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "didiz12211",
+      "name": "🔞麻豆4K",
+      "type": 1,
+      "api": "http://45.152.67.99:1666/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "XMVideo",
+      "name": "🔞熊猫视频",
+      "type": 3,
+      "api": "csp_XMVideo",
+      "searchable": 1,
+      "filterable": 1,
+      "jar": "https://gh.llkk.cc/https://raw.githubusercontent.com/aliluya1977/yg/main/jar/182.jar"
+    },
+    {
+      "key": "Cg51",
+      "name": "🔞51吃瓜",
+      "type": 3,
+      "api": "csp_Cg51",
+      "searchable": 1,
+      "filterable": 1,
+      "jar": "https://gh.llkk.cc/https://raw.githubusercontent.com/aliluya1977/yg/main/jar/182.jar"
+    },
+    {
+      "key": "*香奶儿资源",
+      "name": "🔞香奶儿",
       "type": 0,
       "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "大地专场",
+      "name": "🔞大地",
+      "type": 0,
+      "api": "https://dadiapi.com/api.php",
+      "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "kxgav",
-      "name": "白嫖资源(已修复)",
+      "key": "美少女",
+      "name": "🔞美少女",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "https://share.nite07.com/api/v3/file/source/18178/18.jar?sign=4snwZEDuzr88tmVvCLDre0Jjbt5hOKh7zrtE37bQV30%3D%3A0"
+    },
+    {
+      "key": "*淫水机资源",
+      "name": "🔞水机",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*白嫖资源",
+      "name": "🔞白嫖",
       "type": 0,
       "api": "https://www.kxgav.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
-      "key": "zp066",
-      "name": "🔞花椒资源",
-      "type": 0,
-      "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml/",
+      "key": "传媒二区",
+      "name": "🔞传媒1区",
+      "type": 3,
+      "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 1,
+      "ext": {
+        "主页url": "https://www.34gaobk.com/index.html",
+        "数组": "<div class=\"card mb-0\">&&</a",
+        "标题": "atl=\"&&\"",
+        "副标题": "img-tag\">&&</div>",
+        "简介": "document.title='&&'",
+        "直接播放": "1",
+        "搜索模式": "1",
+        "搜索url": "https://www.34gaobk.com/gaosearch/{wd}-/page/{pg}/",
+        "分类数组": "<a&&/a>",
+        "分类标题": ">&&<",
+        "分类ID": "/gaotype/&&.html",
+        "分类url": "https://www.34gaobk.com/gaotype/{cateId}_{catePg}.html[https://www.34gaobk.com/gaotype/{cateId}.html]"
+      },
+      "jar": "https://gh.llkk.cc/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar"
     },
     {
-      "key": "*乐播资源",
-      "name": "🔞乐播资源",
+      "key": "didizy.com",
+      "name": "🔞传媒2区",
       "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
+      "filterable": 1,
+      "jar": "https://gitee.com/juanxiao/bh/raw/master/o.jar"
     },
     {
-      "key": "zp100",
-      "name": "🔞乐播",
-      "type": 0,
-      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "💞探探资源💞",
-      "name": "💞探探资源💞",
+      "key": "*色南国资源",
+      "name": "🔞传媒3区",
       "type": 1,
-      "api": "https://apittzy.com/api.php/provide/vod/",
+      "api": "https://api.sexnguon.com/api.php/provide/vod/",
       "searchable": 0,
       "quickSearch": 0
     },
     {
       "key": "*AIvin",
-      "name": "AIvin",
+      "name": "🔞传媒4区",
       "type": 0,
       "api": "http://lbapiby.com/api.php/provide/vod/at/xml"
     },
     {
-      "key": "kkzy.me",
-      "name": "成人51",
+      "key": "奥斯卡",
+      "name": "🔞传媒5区",
+      "type": 1,
+      "api": "https://aosikazy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1
+    },
+    {
+      "key": "奶香m",
+      "name": "🔞传媒6区",
+      "type": 1,
+      "api": "https://Naixxzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1
+    },
+    {
+      "key": "155专场",
+      "name": "🔞传媒7区",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zp124",
+      "name": "🔞传媒8区",
+      "type": 0,
+      "api": "https://api.maozyapi.com/inc/api.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "森林",
+      "name": "🔞传媒9区",
+      "type": 1,
+      "api": "https://beiyong.slapibf.com/api.php/provide/vod/?ac=list",
+      "searchable": 1
+    },
+    {
+      "key": "didiz",
+      "name": "🔞传媒10区",
+      "type": 1,
+      "api": "https://jipinzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "暴风",
+      "name": "🔞伦理专区",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playurl": "json:http://27.25.135.223:88/jie/?url=",
+      "categories": [
+        "伦理片"
+      ]
+    },
+    {
+      "key": "量子",
+      "name": "🔞伦理1",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playurl": "json:http://110.42.3.99:880/rmm.php/?url=",
+      "categories": [
+        "伦理片"
+      ]
+    },
+    {
+      "key": "非凡",
+      "name": "🔞伦理2",
+      "type": 1,
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playurl": "json:http://110.42.3.99:880/rmm.php/?url=",
+      "categories": [
+        "伦理片"
+      ]
+    },
+    {
+      "key": "csp_Bili_Nvtuan",
+      "name": "女团┃热舞",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "https://gitee.com/YW66/ZL/raw/master/xuexi.jar",
+      "ext": " https://x.6788888.xyz/M1/json/nvtuan.json"
+    },
+    {
+      "key": "*KK写真资源",
+      "name": "APP下载1338.hk",
       "type": 1,
       "api": "https://kkzy.me/api.php/provide/vod/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "(18+)JAV名优",
-      "name": "(18+)JAV名优",
-      "type": 0,
-      "api": "http://mygzycj.com/api.php?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "afasu",
-      "name": "小湿妹资源(已修复)",
-      "type": 0,
-      "api": "https://www.afasu.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "KpgxdyE",
-      "name": "黄AV资源(已修复)",
-      "type": 0,
-      "api": "https://www.pgxdy.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "ap4i156dlyE",
-      "name": "奶茶资源(已修复)",
-      "type": 0,
-      "api": "https://caiji.naichaapi.com/inc/api.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "api.apilyzy.com",
-      "name": "成人71",
-      "type": 1,
-      "api": "https://api.apilyzy.com/api.php/provide/vod/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "大地采集",
-      "name": "🔞大地av",
-      "type": 0,
-      "api": "https://dadiapi.com/apple_m3u8.php",
-      "playUrl": "https://play.dadiapi.com/watch?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "pgxdy",
-      "name": "🔞PGX电影",
-      "type": 0,
-      "api": "https://www.pgxdy.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "zp128",
-      "name": "🔞鲨鱼影视",
-      "type": 0,
-      "api": "https://shayuapi.com/api.php/Seacms/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "*易看资源",
-      "name": "🔞易看资源",
-      "type": 1,
-      "api": "https://api.yikanapi.com/api.php/provide/vod/",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "*番号资源",
-      "name": "🔞番号资源",
-      "type": 1,
-      "api": "http://fhapi9.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "xrbsp.com",
-      "name": "成人66",
-      "type": 0,
-      "api": "https://www.xrbsp.com/api/xml.php",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 1
+      "quickSearch": 0
     }
    
   ],
