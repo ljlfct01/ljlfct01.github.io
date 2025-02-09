@@ -1,5 +1,5 @@
 {
-  "spider": "https://www.lintech.work/超大杯/custom_spider_20250208.tms;md5;766ff3d6972449078225ec512f4dec51",
+  "spider": "https://www.lintech.work/超大杯/custom_spider_20250209.tms;md5;6094d3f70ec16cf326835d61d41a43d2",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -20,15 +20,7 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
     },
-{
-      "name": "焦点169全套",
-      "type": 0,
-      "url": "https://fel.forxhr.top:2022/down.php/74c89f11abbf056a7df7bcd691554bfe.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
 {
       "name": "易发",
       "type": 0,
@@ -115,7 +107,7 @@
   "sites": [
     {
       "key": "时光机",
-      "name": "🥤时光机超大杯 🗓️v20250207-🧵111",
+      "name": "🥤时光机超大杯 🗓️v20250209-🧵114",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -126,7 +118,7 @@
         "sourceVersion": "20250206"
       }
     },
-    {
+ {
       "key": "📬️ 新片预告 | JAR",
       "name": "📬️ 新片预告 | JAR",
       "type": 3,
@@ -143,7 +135,7 @@
       "api": "csp_Live2Vod",
       "searchable": 0,
       "changeable": 0,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/remote_live.json"
+      "ext": "./sites/码上/remote_live.json"
     },
     {
       "key": "📣 低端直连 | JAR",
@@ -154,6 +146,20 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": {}
+    },
+    {
+      "key": "🚛 尘落直连 | DEX",
+      "name": "🚛 尘落直连 | DEX",
+      "type": 3,
+      "api": "csp_Wetv"
+    },
+    {
+      "key": "🚛 虎虎直连 | DEX",
+      "name": "🚛 虎虎直连 | DEX",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "csp_AppHuhu"
     },
     {
       "key": "🚛 饭团直连 | DEX",
@@ -212,7 +218,7 @@
       "filterable": 1,
       "ext": {
         "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
-        "prefix": "yQemwLacBOL9i5k7nNNyn2AJvVvGlCzm9UnCna8URlc="
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK"
       }
     },
     {
@@ -226,7 +232,7 @@
       "playerType": 2,
       "ext": {
         "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
-        "prefix": "aKKG6Ixij3hB8wa0VvK8YnCeM7SF65Y0o32U8xvusCA="
+        "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK"
       }
     },
     {
@@ -240,7 +246,7 @@
       "playerType": 2,
       "ext": {
         "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
-        "prefix": "UPris27MuMWJyAl048qao1Fj+o7cIxIsow5c5dA9Ygg="
+        "prefix": "UPris27MuMWJyAl048qao/nd48tAp845xgreKMXD8HUrLqbgS1sq6WSTqhIT+2++"
       }
     },
     {
@@ -307,7 +313,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/heji.json",
+      "ext": "./sites/码上/heji.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
@@ -321,7 +327,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/xiqu.json",
+      "ext": "./sites/码上/xiqu.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
@@ -458,12 +464,36 @@
       "filterable": 0
     },
     {
+      "key": "🍝 如意 | CMS",
+      "name": "🍝 如意 | CMS",
+      "type": 1,
+      "api": "https://www.ryzy.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港澳剧",
+        "日剧",
+        "欧美剧",
+        "台湾剧",
+        "泰剧",
+        "韩剧",
+        "纪录片",
+        "动漫电影"
+      ]
+    },
+    {
       "key": "🚀 火狐 | T4",
       "name": "🚀 火狐 | T4",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
       "categories": [
         "动作片",
@@ -801,7 +831,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "siteUrl": "https://www.keke13.com"
+        "siteUrl": "https://www.kkys02.com/"
       }
     },
     {
