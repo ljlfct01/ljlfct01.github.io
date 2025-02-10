@@ -1,5 +1,5 @@
 {
-
+"spider": "http://cdn.qiaoji8.com/fix241213.jar;md5;5d2689468818731b89ee0c08afd05090",
  "spider": "https://www.lintech.work/超大杯/custom_spider_20250208.tms;md5;766ff3d6972449078225ec512f4dec51",
   "wallpaper": "",
   "sites": [
@@ -101,7 +101,59 @@
       }
     },
    
-    
+       {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "腾讯┃4K",
+      "type": 3,
+      "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/腾讯视频.js"
+    },
+    {
+      "key": "爱奇艺",
+      "name": "爱奇┃4K",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/爱奇艺.js"
+    },
+    {
+      "key": "优酷视频",
+      "name": "优酷┃4K",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/优酷视频.js"
+    },
+    {
+      "key": "热播",
+      "name": "热播┃王者",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 1,
+      "ext": "caHR0cDovL3YucmJvdHYuY24="
+    },
+    {
+      "key": "剧评",
+      "name": "剧评┃王者",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 1,
+      "ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
+    },
+    {
+      "key": "AI2",
+      "name": "快播1┃王者",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "ext": "faHR0cDovLzE3NS4xNzguODAuMjA5L21iL2FwaS5waHAvcHJvdmlkZS92b2QvfE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTkuMC4wLjAgU2FmYXJpLzUzNy4zM3xxaWFvamk="
+    },
   
     {
       "key": "fqzy资源",
