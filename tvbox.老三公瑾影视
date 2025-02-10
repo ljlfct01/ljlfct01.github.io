@@ -1,5 +1,5 @@
 {
-  "spider": "https://www.lintech.work/超大杯/custom_spider_20250209.tms;md5;6094d3f70ec16cf326835d61d41a43d2",
+  "spider": "https://www.lintech.work/超大杯/custom_spider_20250210.tms;md5;77a64916ab4dbbf077054c3da3437975",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -116,7 +116,7 @@
   "sites": [
     {
       "key": "时光机",
-      "name": "🥤时光机超大杯 🗓️v20250209-🧵114",
+      "name": "🥤时光机超大杯 🗓️v20250210-🧵114",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -127,7 +127,7 @@
         "sourceVersion": "20250206"
       }
     },
- {
+    {
       "key": "📬️ 新片预告 | JAR",
       "name": "📬️ 新片预告 | JAR",
       "type": 3,
@@ -155,67 +155,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": {}
-    },
-    {
-      "key": "🚛 尘落直连 | DEX",
-      "name": "🚛 尘落直连 | DEX",
-      "type": 3,
-      "api": "csp_Wetv"
-    },
-    {
-      "key": "🚛 虎虎直连 | DEX",
-      "name": "🚛 虎虎直连 | DEX",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_AppHuhu"
-    },
-    {
-      "key": "🚛 饭团直连 | DEX",
-      "name": "🚛 饭团直连 | DEX",
-      "type": 3,
-      "api": "csp_Fantuan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-      "ext": "https://www.fantuan.vip"
-    },
-    {
-      "key": "🚛 来看直连 | DEX",
-      "name": "🚛 来看直连 | DEX",
-      "type": 3,
-      "api": "csp_Lkdy",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "🚛 攻阁直连 | DEX",
-      "name": "🚛 攻阁直连 | DEX",
-      "type": 3,
-      "api": "csp_Lggys",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "🚛 瓜子2K | DEX",
-      "name": "🚛 瓜子2K | DEX",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "🚛 农民直连 | DEX",
-      "name": "🚛 农民直连 | DEX",
-      "type": 3,
-      "api": "csp_Nongm",
-      "ext": "https://wwgz.cn",
-      "searchable": 1,
-      "quickSearch": 1
     },
     {
       "key": "🈵 醉挽清风 | JX",
@@ -301,18 +240,78 @@
       }
     },
     {
-      "key": "🈵 瑞雪迎春 | JX",
-      "name": "🈵 瑞雪迎春 | JX",
+      "key": "🚛 追剧直连 | DEX",
+      "name": "🚛 追剧直连 | DEX",
       "type": 3,
-      "api": "csp_AppYsV3",
+      "api": "csp_ZJ",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "cmsApis": "R0NNEUWaOb1LpNX5d/wBWINblRR3D6g8kwu/NNyxuEj7yYzVrqiS+6qI0Kf3e8vo",
-        "jxApi": "LnkT3kx3JdWCe+2pMS7J9F7QzQMBmyiMpJU7u3y9rlC+FjF3A9pUNaWxLlMZ8tyGotqn/T4yczs4ciKD6WbVSA==",
-        "prefix": "l/4X5tejbgZrWD+cfLywEhXgeni+4aTA/X62RVr9V9Q="
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "daHR0cDovL3YubGt1eXMuY24="
+    },
+    {
+      "key": "🚛 尘落直连 | DEX",
+      "name": "🚛 尘落直连 | DEX",
+      "type": 3,
+      "searchable": 0,
+      "quickSearch": 0,
+      "api": "csp_Wetv"
+    },
+    {
+      "key": "🚛 虎虎直连 | DEX",
+      "name": "🚛 虎虎直连 | DEX",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "csp_AppHuhu"
+    },
+    {
+      "key": "🚛 饭团直连 | DEX",
+      "name": "🚛 饭团直连 | DEX",
+      "type": 3,
+      "api": "csp_Fantuan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+      "ext": "https://www.fantuan.vip"
+    },
+    {
+      "key": "🚛 来看直连 | DEX",
+      "name": "🚛 来看直连 | DEX",
+      "type": 3,
+      "api": "csp_Lkdy",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "🚛 攻阁直连 | DEX",
+      "name": "🚛 攻阁直连 | DEX",
+      "type": 3,
+      "api": "csp_Lggys",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "🚛 瓜子2K | DEX",
+      "name": "🚛 瓜子2K | DEX",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
       }
+    },
+    {
+      "key": "🚛 农民直连 | DEX",
+      "name": "🚛 农民直连 | DEX",
+      "type": 3,
+      "api": "csp_Nongm",
+      "ext": "https://wwgz.cn",
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
       "key": "🎤 演唱会 | JAR",
