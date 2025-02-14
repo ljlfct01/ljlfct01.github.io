@@ -1,9 +1,98 @@
 {
-"spider": "https://www.lintech.work/超大杯/custom_spider_20250211.tms;md5;7739853759326e10370bd0ee6148eb0a",
+"spider": "https://www.lintech.work/超大杯/custom_spider_20250213.tms;md5;97461cf8b02270daf3cce9dc519a8c3c",
   "logo": "http://img.fongmi.eu.org/fongmi.jpg",
  
   "lives": [
-    {
+ {
+      "name": "Govin",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
+ {
+      "name": "小福",
+      "type": 0,
+      "url": "http://jianhan.vip/888666/%E5%85%8D3.txt",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
+
+{
+      "name": "易发",
+      "type": 0,
+      "url": "https://gitea.moe/xiangjiao-ge/yifa169/raw/branch/main/yiyifafa.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:567/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "开心",
+      "type": 0,
+      "url": "http://rihou.cc:55/lib/kx2024.txt",
+      "playerType": 1,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+{
+      "name": "宝盒电视",
+      "type": 0,
+      "url": "https://ygbh.site/bh.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+  {
+      "name": "拾光电视",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/xmbjm/TV/refs/heads/master/output/user_result.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "七星",
+      "type": 0,
+      "url": "https://gitlab.com/tvkj/loong/-/raw/main/loog.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "iptv365",
+      "type": 0,
+      "url": "https://live.iptv365.org/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "live",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%80%81%E4%B8%89%E7%9B%B4%E6%92%AD",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+   {
       "name": "Anbox Channels",
       "type": 0,
       "url": "https://zya.anbox118.workers.dev/",
@@ -11,34 +100,22 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-    {
-      "name": "🏠Anbox118 LIVETV Channels",
+ {
+      "name": "蜜雪冰城",
       "type": 0,
-      "playerType": 2,
-      "ua": "AptvPlayer/1.3.3",
-      "url": "http://15.235.144.67:35461/get.php?username=654321&password=123456&type=m3u_plus&output=ts",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
-    },
-    {
-      "name": "🏠Anbox118 smarttv Channels",
-      "type": 0,
-      "playerType": 2,
-      "ua": "AptvPlayer/1.3.3",
-      "url": "https://fm1077.serv00.net/SmartTV.m3u",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
-    },
-       {
-      "name": "18+ 日本",
-      "type": 0,
-      "url": "https://files.catbox.moe/2r4ru2.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "url": "https://pan.baidu.re/down.php/bd1c70fbb9fd70aaccde039810fc4852.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "x315601",
+      "url": "http://x315601.serv00.net/10.php",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     },
     {
       "group": "redirect",
@@ -54,7 +131,7 @@
   ],
   "sites": [
    
-    {
+ {
       "key": "🈵 醉挽清风 | JX",
       "name": "🈵 醉挽清风 | JX",
       "type": 3,
@@ -93,6 +170,20 @@
       "ext": {
         "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
         "prefix": "UPris27MuMWJyAl048qao/nd48tAp845xgreKMXD8HUrLqbgS1sq6WSTqhIT+2++"
+      }
+    },
+    {
+      "key": "🈵 B站影视 | JAR",
+      "name": "🈵 B站影视 | JAR",
+      "type": 3,
+      "api": "csp_BiliPlus",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/ys.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
       }
     },
     {
