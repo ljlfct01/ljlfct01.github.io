@@ -18,6 +18,7 @@
       "searchable": 0,
       "changeable": 1
     },
+
     {
       "key": "公众号",
       "name": "4K┃线路",
@@ -26,6 +27,103 @@
       "api": "csp_YDjisu",
       "searchable": 1,
       "changeable": 1
+    },
+ {
+      "key": "🈵 醉挽清风 | JX",
+      "name": "🈵 醉挽清风 | JX",
+      "type": 3,
+      "api": "csp_Breeze",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK"
+      }
+    },
+    {
+      "key": "🈵 小满万全 | JX",
+      "name": "🈵 小满万全 | JX",
+      "type": 3,
+      "api": "csp_LessIsMore",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
+        "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK"
+      }
+    },
+    {
+      "key": "🈵 瑞气盈门 | JX",
+      "name": "🈵 瑞气盈门 | JX",
+      "type": 3,
+      "api": "csp_Blessings",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
+        "prefix": "UPris27MuMWJyAl048qao/nd48tAp845xgreKMXD8HUrLqbgS1sq6WSTqhIT+2++"
+      }
+    },
+    {
+      "key": "🈵 B站影视 | JAR",
+      "name": "🈵 B站影视 | JAR",
+      "type": 3,
+      "api": "csp_BiliPlus",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/ys.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "🈵 炉火茶香 | JX",
+      "name": "🈵 炉火茶香 | JX",
+      "type": 3,
+      "api": "csp_AppYsV3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cmsApis": "gHObazqpu51a24jeocgx1MTL2dpK7Kfixk3KRzm/7AhIMAh6hKTaLvIQ6r1D2YQb",
+        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
+        "prefix": "qDZV8EcLOdlHmgJweVMUp8Io0PrzsfRXBTOTQkBklJA="
+      }
+    },
+    {
+      "key": "🈵 天降鸿福 | JX",
+      "name": "🈵 天降鸿福 | JX",
+      "type": 3,
+      "api": "csp_AppYsV3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cmsApis": "C6PDAj53BqTbVXdzd1SxC2ygnjVG614yosaYE1DNzI/J2CkdDKf6dQIdWHB+TPAF",
+        "jxApi": "",
+        "prefix": "xYUck8UhOvDmI0CRzqLO6/DnU+YpMkdxuKsy0c8C/CE="
+      }
+    },
+    {
+      "key": "🈵 财源广进 | JX",
+      "name": "🈵 财源广进 | JX",
+      "type": 3,
+      "api": "csp_AppYsV3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cmsApis": "BB/wVps1wa1PrsQ2bsdzHTy6HPPN+fN29QaCIqqrzgs=",
+        "jxApi": "CZBuvohwhcBaK3LIPEJHjUZQga+8TxyLiGQ2soqVyp4UltOk2eYMgo0RUxa9Z3WI",
+        "prefix": "2rDS0IS/yYlt2zB+fKdnxX5y9fmkw6DziWs5UfrpxRA="
+      }
     },
     {
       "key": "JP",
