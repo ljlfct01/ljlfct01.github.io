@@ -1,6 +1,6 @@
 {
 "spider": "https://www.lintech.work/超大杯/custom_spider_20250215.tms;md5;1e14f7f1fc177c5785a38acefa80b6f0",
-  "spider": "http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7~%E7%8E%89%E7%8E%89%E8%BD%AF%E4%BB%B6%E5%BA%93/FongMi.jar",
+ "spider": "https://lz.qaiu.top/d/lz/ifbEX2mg45je",
   "hosts": [
     "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
     "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
@@ -10,18 +10,13 @@
     "cache.ott.fifalive.itv.cmvideo.cn=39.136.252.28"
   ],
   "sites": [
-    {
+   {
       "key": "豆瓣",
       "name": "豆瓣",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "sourceType": 0,
-        "sourceVersion": "20250215"
-      }
+      "changeable": 1
     },
     {
       "key": "公众号",
