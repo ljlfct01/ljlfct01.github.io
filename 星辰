@@ -15,16 +15,17 @@
       "key": "豆瓣",
       "name": "豆瓣",
       "type": 3,
-      "api": "csp_Douban",
-      "jar":"https://lz.qaiu.top/d/lz/ifbEX2mg45je",
-      "searchable": 0,
-      "changeable": 1
+       "api": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/豆瓣[官].js"
     },
- {"key":"公众号1","name":"4K┃线路1","type":3,"jar":"https://lz.qaiu.top/lz/isqWQ2hstv0d","api":"csp_YDjisu","searchable":1,"changeable":1},
 
  {
       "key": "公众号2",
-      "name": "4K┃线路2",
+      "name": "4K┃线路1",
       "type": 3,
       "api": "csp_Breeze",
       "searchable": 1,
@@ -37,7 +38,7 @@
     },
     {
       "key": "公众号3",
-      "name": "4K┃线路3",
+      "name": "4K┃线路2",
       "type": 3,
       "api": "csp_LessIsMore",
       "searchable": 1,
@@ -51,7 +52,7 @@
     },
     {
       "key": "公众号4",
-      "name": "4K┃线路4",
+      "name": "4K┃线路3",
       "type": 3,
       "api": "csp_Blessings",
       "searchable": 1,
@@ -66,7 +67,7 @@
    
     {
       "key": "公众号5",
-      "name": "4K┃线路5",
+      "name": "4K┃线路4",
       "type": 3,
       "api": "csp_AppYsV3",
       "searchable": 1,
@@ -80,7 +81,7 @@
     },
     {
       "key": "公众号6",
-      "name": "4K┃线路6",
+      "name": "4K┃线路5",
       "type": 3,
       "api": "csp_AppYsV3",
       "searchable": 1,
@@ -94,7 +95,7 @@
     },
     {
       "key": "公众号7",
-      "name": "4K┃线路7",
+      "name": "4K┃线路6",
       "type": 3,
       "api": "csp_AppYsV3",
       "searchable": 1,
