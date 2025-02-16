@@ -23,6 +23,20 @@
         "sourceVersion": "20250215"
       }
     },
+{
+	"key": "Youtube代理",
+	"name": "⭕️Youtube┃代理",
+	"type": 3,
+	"api": "csp_Youtube",
+	"searchable": 1,
+	"quickSearch": 0,
+	"changeable": 0,
+	"ext": {
+		"json": "http://lisha521.dynv6.net/pg/lib/youtube.json",
+		"codecs": "avc",
+		"proxy": "socks5://myszy:myszy28811@pipi.myddns.me:28811"
+	}
+},
     {
       "key": "📬️ 新片预告 | JAR",
       "name": "📬️ 新片预告 | JAR",
