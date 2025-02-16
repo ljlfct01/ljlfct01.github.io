@@ -21,7 +21,7 @@
 
       "type": 0,
 
-      "url": "https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E6%98%9F%E8%BE%B0%E7%9B%B4%E6%92%AD",
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/login",
 
       "epg": "http://epg.51zmt.top:8000/e.xml",
 
