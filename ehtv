@@ -1,17 +1,8 @@
 {
   "spider": "http://www.fish2018.us.kg/p/pg.jar",
- // "spider": "https://www.lintech.work/超大杯/custom_spider_20250216.tms;md5;90c2b06e8571e8992d8bd7cfdbcd3155",
+
   "sites": [
-    {
-      "key": "豆瓣",
-      "name": "豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "changeable": 1,
-      "indexs": 1,
-      "ext": "http://www.fish2018.us.kg/p/lib/tokenm.json$$$./lib/douban.json"
-    },
+   
     {
       "key": "https://github.com/fish2018/PG",
       "name": "202502152112",
@@ -52,19 +43,7 @@
       "changeable": 1
     },
    
-   {
-      "key": "🈵 醉挽清风 | JX",
-      "name": "4K┃线路2",
-      "type": 3,
-      "api": "csp_Breeze",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
-        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK"
-      }
-    },
+  
     {
       "key": "天天",
       "name": "天天┃App",
