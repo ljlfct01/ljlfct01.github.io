@@ -22,7 +22,25 @@
       "indexs": 1,
       "ext": "http://www.fish2018.us.kg/p/lib/douban.json"
     },
-   
+     {
+      "key": "网盘配置",
+      "name": "网盘及彈幕配置",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./lib/tokenm.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "Local",
+      "name": "本地",
+      "type": 3,
+      "api": "csp_Local"
+    },
     {
       "key": "公众号",
       "name": "4K┃线路1",
