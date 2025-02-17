@@ -12,6 +12,16 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+{
+      "name": "焦点",
+      "type": 0,
+      "url": "https://ts.cdnyunjs.com/down.php/73c2d78cdad5704f6f7127bc1a508b31.txt",
+      "logo": "https://reala.deno.dev/logo/{name}.png",
+      "epg": "http://epg.51zmt.top:8000/e.xml",
+      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+      "timeout": "3",
+      "playerType": 2
+    },
  {
       "name": "Govin",
       "type": 0,
