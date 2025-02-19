@@ -1,6 +1,35 @@
 {
   "sites": [
-   
+    {
+      "key": "豆瓣",
+      "name": "白嫖豆瓣热播",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "配置中心",
+      "name": "网盘配置中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "应用商店",
+      "name": "失眠商店｜ദ്ദി˶OvO)",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "ext": "http://110.42.36.65:5223/json/Smdy.php?file=Appstore"
+    },
    
  {
       "key": "csp_麻花",
