@@ -1,12 +1,6 @@
 {
   "sites": [
-    {
-      "key": "豆瓣",
-      "name": "白嫖豆瓣热播",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },
+   
    
  {
       "key": "csp_麻花",
@@ -188,8 +182,8 @@
       "catchup": {
         "type": "append",
         "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+      }
       },
-
     {
       "name": "虎牙一起看",
       "type": 3,
