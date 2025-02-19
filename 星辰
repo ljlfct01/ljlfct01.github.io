@@ -665,7 +665,16 @@
       "ua": "okhttp/3.15,AptvPlayer/1.4.0",
       "timeout": "3",
       "playerType": 2
+    },
+  {
+      "name": "itv",
+      "type": 0,
+      "url": "https://ts.cdnyunjs.com/down.php/e6c5333485ddbca9b2b651f4826df512.txt",
+      "logo": "https://reala.deno.dev/logo/{name}.png",
+      "epg": "http://epg.51zmt.top:8000/e.xml",
+      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+      "timeout": "3",
+      "playerType": 2
     }
-
   ]
 }
