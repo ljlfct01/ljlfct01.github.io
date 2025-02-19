@@ -526,7 +526,7 @@
       "catchup": {
         "type": "append",
         "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-      }
+      },
 
     {
       "name": "虎牙一起看",
