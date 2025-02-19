@@ -526,8 +526,7 @@
         "type": "append",
         "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
       }
-    },
-  
+
     {
       "name": "虎牙一起看",
       "type": 3,
@@ -562,7 +561,7 @@
     {
       "name": "网络Live",
       "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Live",
+      "url": "https://ts.cdnyunjs.com/down.php/384e90e8e1be00b9aed335ba8cb382da.txt",
       "playerType": 2,
       "timeout": 10
     },
