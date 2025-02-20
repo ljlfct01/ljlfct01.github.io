@@ -142,7 +142,173 @@
     }
   ],
   "sites": [
-
+ {
+      "key": "豆瓣",
+      "name": "豆瓣",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/douban.js"
+    },
+    {
+      "key": "腾讯视频",
+      "name": "腾讯视频",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/qq.js"
+    },
+    {
+      "key": "爱奇艺",
+      "name": "爱奇艺",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/iqiyi.js"
+    },
+    {
+      "key": "优酷",
+      "name": "优酷",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/youku.js"
+    },
+    {
+      "key": "芒果tv",
+      "name": "芒果tv",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/mgtv.js"
+    },
+    {
+      "key": "360影视",
+      "name": "360影视",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/360.js"
+    },
+    {
+      "key": "追剧影视",
+      "name": "追剧影视",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/追剧迷.js"
+    },
+    {
+      "key": "荐片影视",
+      "name": "荐片影视",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/jianpian.js"
+    },
+    {
+      "key": "星辰影视",
+      "name": "星辰影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/星辰.js"
+    },
+    {
+      "key": "Voflix",
+      "name": "Voflix",
+      "type": 3,
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/voflix.js"
+    },
+    {
+      "key": "柚子资源",
+      "name": "柚子资源",
+      "type": 0,
+      "api": "https://api.yzzy-api.com/inc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "北川影视",
+      "name": "北川影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://ghproxy.cfd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "ext": "https://ghproxy.cfd/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/北川影视.js"
+    },
+    {
+      "key": "360资源",
+      "name": "360资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "华为资源",
+      "name": "华为资源",
+      "type": 1,
+      "api": "https://cjhwba.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "量子资源",
+      "name": "量子资源",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+	},
+	{
+	  "key": "非凡资源",
+      "name": "非凡资源",
+      "type": 0,
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+	},
+	{
+      "key": "忆梦影视",
+      "name": "忆梦影视",
+      "type": 1,
+      "api": "https://www.gnpt.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "暴风资源",
+      "name": "暴风资源",
+      "type": 0,
+      "api": "http://by.bfzyapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Ma影视",
+      "name": "Ma影视",
+      "type": 1,
+      "api": "https://cc.appma.cc/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+	},
+	{
+      "key": "Ok资源",
+      "name": "Ok资源",
+      "type": 0,
+      "api": "https://api.okzy.org/api.php/provide/vod/from/okm3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+	},
  {
       "key": "公众号",
       "name": "4K┃线路1",
