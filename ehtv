@@ -1,4 +1,5 @@
 {
+   "spider": "./custom_spider_20250218.tms;md5;20da2594a2d0afdd096e175d9159b3a2"
  
   "lives": [
     
@@ -107,19 +108,70 @@
     
   ],
   "sites": [
-    {
-      "key": "天空资源",
-      "name": "天空资源",
-      "type": 1,
-      "api": "https://api.tiankongapi.com/api.php/provide/vod/",
+
+  {
+      "key": "🈵 醉挽清风 | JX",
+      "name": "4K┃线路1",
+      "type": 3,
+      "api": "csp_Breeze",
       "searchable": 1,
       "quickSearch": 1,
-      "unCategories": [
-        "福利",
-        "港台三级",
-        "写真热舞",
-        "理论片"
-      ]
+      "filterable": 1,
+      "ext": {
+        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
+        "danmu": "TBja3NgMBrHiZ8e2RgGGzn372KN8QTtcZVP3kvq3ieYlEQf1tzhLowy9ElDpyHpD+YyH4y4U9S2XdyKTWLpqCA=="
+      }
+    },
+    {
+      "key": "🈵 小满万全 | JX",
+      "name": "4K┃线路2",
+      "type": 3,
+      "api": "csp_LessIsMore",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
+        "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK",
+        "danmu": "TBja3NgMBrHiZ8e2RgGGzn372KN8QTtcZVP3kvq3ieYlEQf1tzhLowy9ElDpyHpD+YyH4y4U9S2XdyKTWLpqCA=="
+      }
+    },
+    {
+      "key": "🈵 瑞气盈门 | JX",
+      "name": "4K┃线路3",
+      "type": 3,
+      "api": "csp_Blessings",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
+        "prefix": "UPris27MuMWJyAl048qao/nd48tAp845xgreKMXD8HUrLqbgS1sq6WSTqhIT+2++",
+        "danmu": "TBja3NgMBrHiZ8e2RgGGzn372KN8QTtcZVP3kvq3ieYlEQf1tzhLowy9ElDpyHpD+YyH4y4U9S2XdyKTWLpqCA=="
+      }
+    },
+ {
+      "key": "公众号",
+      "name": "4K┃线路4",
+      "type": 3,
+      "jar": "https://lz.qaiu.top/lz/isqWQ2hstv0d",
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "JP",
+      "name": "金牌|影视",
+      "type": 3,
+      "api": "csp_WebJP",
+      "jar": "http://150.158.112.123/jar/0213.zip",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKTwpbDpMOdwrLCr8KowpbCn8KdV8KlwpPCocOtw6PCo1dqUMKgw47lh7/phaHmkJ/lkJZc5Yac5L2H5ZGwwq3lv6voqL/otr7mu4PnrInCjVfCpcKTwqHDncOfwpbCosKpwqDDrcK+w5/DssKhbVBXwqfCrsKowqvCqcKsZ2hXwq0="
     },
     {
       "key": "无尽资源",
@@ -160,25 +212,7 @@
         "理论片"
       ]
     },
-    {
-      "key": "樱花资源",
-      "name": "樱花资源(1080P)",
-      "type": 1,
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "unCategories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
-        "资讯",
-        "福利",
-        "港台三级",
-        "写真热舞",
-        "理论片"
-      ]
-    },
+    
     {
       "key": "卧龙资源",
       "name": "卧龙资源(优)",
@@ -230,19 +264,7 @@
         "理论片"
       ]
     },
-    {
-      "key": "天天影视",
-      "name": "天天影视站(VIP)",
-      "type": 3,
-      "api": "csp_AppTT",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "unCategories": [
-        "福利",
-        "理论片"
-      ]
-    },
+   
     {
       "key": "量子资源",
       "name": "量子资源(VIP)",
@@ -261,49 +283,9 @@
         "理论片"
       ]
     },
-    {
-      "key": "csp_xBPQ_九八",
-      "name": "九八网(VIP)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://uk.frp.one:29999/mdlib/98.json",
-      "unCategories": [
-        "福利",
-        "理论片"
-      ]
-    },
-    {
-      "key": "牛马12CK",
-      "name": "CK资源|广勿信",
-      "type": 1,
-      "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "unCategories": [
-        "教程",
-        "福利",
-        "港台三级",
-        "写真热舞",
-        "理论片"
-      ]
-    },
-    {
-      "key": "csp_五五",
-      "name": "五五影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://uk.frp.one:29999/mdlib/55.json",
-      "unCategories": [
-        "福利",
-        "理论片"
-      ]
-    },
+   
+   
+  
     {
       "key": "xmxs_0418",
       "name": "HZM360┃影视",
@@ -338,47 +320,10 @@
       ],
       "jar": "http://154.12.37.204:8089/spider.jar"
     },
-    {
-      "key": "xmxs_0283",
-      "name": "会员资源更流畅",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736154838099/fan.txt"
-    },
-    {
-      "key": "xmxs_0466",
-      "name": "设置可购买会员",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "jar": "http://xn--ihqu10cn4c.xn--v4q818bf34b.com/by/jar/Pizazz.php",
-      "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=短剧网"
-    },
-    {
-      "key": "xmxs_0439",
-      "name": "MY千里┃4K纯净",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "jar": "http://xn--ihqu10cn4c.xn--v4q818bf34b.com/by/jar/Pizazz.php",
-      "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=流光"
-    },
-    {
-      "key": "xmxs_0158",
-      "name": "OG白白|影视",
-      "type": 3,
-      "api": "csp_Subaibai",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://subaibai.com",
-      "jar": "https://alicliimg.clewm.net/342/790/68790342/17362297693577f5f1d49aea225b8cb70e44c1b551bd91736229717.jpg"
-    },
+   
+   
+  
+   
     {
       "key": "xmxs_0359",
       "name": "会员资源更齐全",
@@ -389,15 +334,7 @@
       "filterable": 0,
       "jar": "http://154.12.37.204:8089/spider.jar"
     },
-    {
-      "key": "xmxs_0083",
-      "name": "请购买会员收看",
-      "type": 3,
-      "api": "csp_WexF4kvm",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735807006998/wex.txt"
-    },
+   
     {
       "key": "xmxs_0547",
       "name": "首页可购买会员",
@@ -490,107 +427,9 @@
       },
       "jar": "http://154.12.37.204:8089/spider.jar"
     },
-    {
-      "key": "xmxs_0353",
-      "name": "HZM影院┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "分类url": "https://www.iysdq.cc/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "国产剧$21#香港剧$22#台湾剧$23#韩国剧$24#日本剧$25#欧美剧$26#泰国剧$27#海外剧$28#电影$1#动漫$4#综艺$3"
-      },
-      "jar": "http://154.12.37.204:8089/spider.jar"
-    },
-    {
-      "key": "csp_红狐狸影视",
-      "name": "红狐狸影视",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
-      },
-      "unCategories": [
-        "成人",
-        "福利",
-        "理论片"
-      ]
-    },
-    {
-      "key": "少儿",
-      "name": "儿童┃教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"
-    },
-    {
-      "key": "小学",
-      "name": "小学┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json"
-    },
-    {
-      "key": "初中",
-      "name": "初中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json"
-    },
-    {
-      "key": "高中",
-      "name": "高中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json"
-    },
-    {
-      "key": "黄人",
-      "name": "皇壬资源",
-      "type": 1,
-      "api": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playurl": "https://jx.nnxv.cn/tv.php?url=",
-      "unCategories": [
-        "福利",
-        "理论片",
-        "成人"
-      ]
-    },
+  
+   
+  
     {
       "key": "华为",
       "name": "华万资源",
@@ -605,22 +444,7 @@
         "成人"
       ]
     },
-    {
-      "key": "茶狐杯",
-      "name": "茶狐影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://gitee.com/wannengyingshi/test/raw/master/chahubei.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "unCategories": [
-        "成人",
-        "福利",
-        "理论片"
-      ]
-    },
+    
     {
       "key": "xmxs_0164",
       "name": "会员频道更稳定",
@@ -634,22 +458,7 @@
       },
       "jar": "https://alicliimg.clewm.net/342/790/68790342/17362297693577f5f1d49aea225b8cb70e44c1b551bd91736229717.jpg"
     },
-    {
-      "key": "美柏",
-      "name": "美柏资源",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://gitee.com/wannengyingshi/test/raw/master/meibai.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "unCategories": [
-        "成人",
-        "福利",
-        "理论片"
-      ]
-    },
+   
     {
       "key": "极速资源",
       "name": "极速采集(VIP)",
@@ -667,167 +476,14 @@
         "理论片"
       ]
     },
-    {
-      "key": "xmxs_0345",
-      "name": "QJ快看|直连",
-      "type": 3,
-      "api": "csp_Kuaikan",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "playerType": 1,
-      "jar": "http://cdn.qiaoji8.com/fix241229.jar"
-    },
-    {
-      "key": "白嫖者",
-      "name": "白者联盟",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
-        "副标题": "class= pic-text text-right &&</span>",
-        "简介": "剧情介绍：&&</p >"
-      },
-      "unCategories": [
-        "成人",
-        "福利",
-        "理论片"
-      ]
-    },
-    {
-      "key": "csp_河狸影视",
-      "name": "河狸影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.heli888.cc/api.php/app/",
-      "unCategories": [
-        "福利",
-        "理论片"
-      ]
-    },
-    {
-      "key": "Vidhub视频",
-      "name": "电影频库",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://uk.frp.one:29999/mdlib/Vidhub.json",
-      "unCategories": [
-        "福利",
-        "理论片"
-      ]
-    },
-    {
-      "key": "南瓜影视",
-      "name": "南瓜影视(VIP)",
-      "type": 3,
-      "api": "csp_WexNgys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "unCategories": [
-        "福利",
-        "理论片"
-      ]
-    },
-    {
-      "key": "奈飞中文",
-      "name": "飞播影视",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://uk.frp.one:29999/mdlib/nfzw.json",
-      "unCategories": [
-        "福利",
-        "港台三级",
-        "写真热舞",
-        "理论片"
-      ]
-    },
-    {
-      "key": "鸭奈飞",
-      "name": "奈飞影视(优)",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://yanetflix.me/api.php/app/",
-      "unCategories": [
-        "福利",
-        "港台三级",
-        "写真热舞",
-        "理论片"
-      ]
-    },
-    {
-      "key": "Kuaikan",
-      "name": "吾爱快看(优)",
-      "type": 3,
-      "api": "csp_Kuaikan",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "unCategories": [
-        "福利",
-        "港台三级",
-        "写真热舞",
-        "理论片"
-      ]
-    },
-    {
-      "key": "樱花资源",
-      "name": "樱花资源(1080P)",
-      "type": 1,
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "unCategories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
-        "资讯",
-        "福利",
-        "港台三级",
-        "写真热舞",
-        "理论片"
-      ]
-    },
-    {
-      "key": "push_agent",
-      "name": "野草码3356永久有效",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
-    },
-    {
-      "key": "MTV",
-      "name": "音乐┃全网",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json",
-      "unCategories": [
-        "福利",
-        "理论片"
-      ]
-    },
+  
+  
+  
+  
+  
+  
+  
+  
     {
       "key": "008",
       "name": "毒舌影视",
@@ -862,23 +518,7 @@
         "西方伦理"
       ]
     },
-    {
-      "key": "348影视",
-      "name": "348影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://uk.frp.one:29999/mdlib/348.json",
-      "unCategories": [
-        "福利",
-        "港台三级",
-        "韩国伦理",
-        "日本伦理",
-        "西方伦理"
-      ]
-    },
+  
     {
       "key": "影图",
       "name": "影图|广勿信",
