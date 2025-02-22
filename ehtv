@@ -11,6 +11,13 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
     },
+ {
+      "name": "🏠泥视频",
+      "type": 0,
+      "url": "http://xb.ruifeng.lol/app/clyx/clyx/live.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    }
 {
       "name": "🏠live",
       "type": 0,
@@ -131,15 +138,48 @@
       "searchable": 1,
       "changeable": 1
     },
+   {
+      "key": "saohuo",
+      "name": "影视1080P-②",
+      "type": 3,
+      "playerType": "2",
+      "api": "http://fashjfasjhfsa.com/app/clyx/drpy2.min.js",
+      "ext": "http://fashjfasjhfsa.com/app/clyx/骚火.js"
+    },
   {
-      "key": "huarenoktv",
-      "name": "华人直播️",
+      "key": "索尼",
+      "name": "❤️影视1080P-⑤",
       "type": 1,
-      "api": "https://node.video.qq.com/x/api/hot_search",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": [
+        "国产剧",
+        "大陆综艺",
+        "动作片",
+        "国产动漫",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "台剧",
+        "泰剧",
+        "记录片",
+        "海外剧",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "足球",
+        "影视解说"
+      ]
     },
     {
       "key": "JP",
