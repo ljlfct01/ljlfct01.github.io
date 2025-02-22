@@ -123,24 +123,23 @@
       }
     },
     {
-          "key": "huarenoktv",
-          "name": "华人直播️",
-          "type": 1,
-          "api": "https://huaren.live/api.php/tvbox",
-          "playUrl": "json:https://parse.huaren.live/?url=",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1
-        },
- {
       "key": "公众号",
-      "name": "4K┃线路4",
+      "name": "4K┃线路2",
       "type": 3,
       "jar": "https://lz.qaiu.top/lz/isqWQ2hstv0d",
       "api": "csp_YDjisu",
       "searchable": 1,
       "changeable": 1
     },
+ {
+          "key": "huarenoktv",
+          "name": "华人直播️",
+          "type": 1,
+          "api": "https://huaren.live/api.php/tvbox",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1
+        },
     {
       "key": "JP",
       "name": "金牌|影视",
