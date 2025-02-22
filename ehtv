@@ -93,15 +93,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 
-  {
-          "name": "华人",
-          "type": 0,
-          "url": "https://huaren.live/static/addons/tv/tv.txt",
-          "playerType": 1,
-          "ua": "okhttp/3.15",
-          "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-          "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
+ 
 
  {
       "name": "🏠x315601",
@@ -120,7 +112,7 @@
       "key": "🈵 醉挽清风 | JX",
       "name": "4K┃线路1",
       "type": 3,
-      "api": "csp_Breeze",
+      "api": "https://huaren.live/api.php/tvbox",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
