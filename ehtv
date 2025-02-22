@@ -122,7 +122,16 @@
        
       }
     },
-   
+    {
+          "key": "huarenoktv",
+          "name": "华人直播️",
+          "type": 1,
+          "api": "https://huaren.live/api.php/tvbox",
+          "playUrl": "json:http://110.42.3.99:880/rmm.php/?url=",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1
+        },
  {
       "key": "公众号",
       "name": "4K┃线路4",
