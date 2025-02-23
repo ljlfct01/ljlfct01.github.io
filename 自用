@@ -5,86 +5,113 @@
   "lives": [
     {
   "lives": [
-    {
-      "group": "央视频道",
-      "channels": [
-        {
-          "name": "CCTV1",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000311/index.m3u8#rtp://239.21.1.120:5002"
-          ]
-        }
-      ]
+{
+      "name": "🏠Govin",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
     },
-    {
-      "group": "卫视频道",
-      "channels": [
-        {
-          "name": "山东卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL10000301/index.m3u8"
-            
-          ]
-        },
-        {
-          "name": "CCTV1综合",
-          "urls": [
-            "http://ttkx.cc:778/65991破坏/mg9.php?id=cctv1",
-            "http://182.92.109.190:1668/72/72.php?id=cctv1"
-          ]
-        },
-        {
-          "name": "CCTV6电影",
-          "urls": [
-            "http://ttkx.cc:778/65991破坏/mg9.php?id=cctv6",
-            "http://182.92.109.190:1668/72/72.php?id=cctv6"
-          ]
-        },
-        {
-          "name": "CCTV13新闻",
-          "urls": [
-            "http://ttkx.cc:778/65991破坏/mg9.php?id=cctv13",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-        }
-      ]
+
+{
+      "name": "🏠耀视TV",
+      "type": 0,
+      "url": "https://gitee.com/tianyao104/tv/raw/master/Yao.txt",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
     },
-    {
-      "group": "电影轮播",
-      "channels": [
-        {
-          "name": "高分电影",
-          "urls": [
-            "http://maomao.kandiantv.cn/douyu1.php?id=8770422",
-            "http://rihou.cc:555/huyad.php?id=11601971",
-            "http://liushizupu.site:35455/yy/id=1382754187"
-          ]
-        },
-        {
-          "name": "李连杰电影",
-          "urls": [
-            "http://rihou.cc:555/huyad.php?id=11342390",
-            "http://www.0745daxin.art:35455/yy/1459869766",
-            "http://zby.xjqxz.top/lljdy/live.m3u8"
-          ]
-        },
-        {
-          "name": "国产影院",
-          "urls": [
-            "http://jiaojirentv.top/2020/yy.php?id=1354210357",
-            "http://zby.xjqxz.top/live18/live.m3u8",
-            "http://ygbh.live/1905.php?id=1905a"
-          ]
-        },
-        {
-          "name": "经典僵尸片",
-          "urls": [
-            "http://mtw.so/5FCWRo",
-            "http://maomao.kandiantv.cn/douyu1.php?id=2935323",
-            "http://www.0745daxin.art:35455/yy/1354143966"
-          ]
-        }
-      ]
+{
+      "name": "🏠自用",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%80%81%E4%B8%89%E7%9B%B4%E6%92%AD",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
+ {
+      "name": "🏠小福",
+      "type": 0,
+      "url": "http://jianhan.vip/888666/%E5%85%8D3.txt",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
+
+{
+      "name": "🏠易发",
+      "type": 0,
+      "url": "https://gitea.moe/xiangjiao-ge/yifa169/raw/branch/main/yiyifafa.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "🏠猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:567/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "🏠开心",
+      "type": 0,
+      "url": "http://rihou.cc:55/lib/kx2024.txt",
+      "playerType": 1,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+{
+      "name": "🏠宝盒电视",
+      "type": 0,
+      "url": "https://ygbh.site/bh.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+  {
+      "name": "🏠拾光电视",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/xmbjm/TV/refs/heads/master/output/user_result.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "🏠七星",
+      "type": 0,
+      "url": "https://gitlab.com/tvkj/loong/-/raw/main/loog.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+{
+      "name": "🏠iptv365",
+      "type": 0,
+      "url": "https://live.iptv365.org/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+ 
+
+ {
+      "name": "🏠x315601",
+      "url": "http://x315601.serv00.net/10.php",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     }
   
 
