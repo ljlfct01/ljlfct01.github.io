@@ -1,45 +1,35 @@
 {
   "spider": "https://fel.forxhr.top:2022/down.php/fcc4f15b9364f03772301b23033d0812.jar",
   "lives": [
-    {
-      "group": "影视仓",
-      "channels": [
-        {
-          "name": "认准QQ群：1019905628",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000311/index.m3u8"
-          ]
-        }
-      ]
-    },
+   
     {
       "group": "央视频道",
       "channels": [
         {
-          "name": "左右键可切换源",
+          "name": "CCTV1",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000311/index.m3u8",
             "http://47.109.155.164/jd/山西.php?id=cctv1"
           ]
         },
         {
-          "name": "CCTV1综合",
+          "name": "CCTV2",
           "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000311/index.m3u8",
+            "http://150.138.8.132/00/SNM/CHANNEL00000317/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv1"
           ]
         },
         {
-          "name": "CCTV6电影",
+          "name": "CCTV3",
           "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000311/index.m3u8",
+            "http://150.138.8.132/00/SNM/CHANNEL00000359/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv6"
           ]
         },
         {
-          "name": "CCTV13新闻",
+          "name": "CCTV4",
           "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000311/index.m3u8",
+            "http://150.138.8.132/00/SNM/CHANNEL00000320/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
         }
