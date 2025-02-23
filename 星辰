@@ -1,23 +1,23 @@
   "lives": [
     {
-      "group": "影视仓",
+      "group": "央视频道",
       "channels": [
         {
-          "name": "认准QQ群：1019905628",
+          "name": "CCTV1",
           "urls": [
-            "https://vdse.bdstatic.com//3251671626c8621683d7c7ecc9956c42.mp4"
+            "http://150.138.8.132/00/SNM/CHANNEL00000311/index.m3u8#rtp://239.21.1.120:5002"
           ]
         }
       ]
     },
     {
-      "group": "央视频道",
+      "group": "卫视频道",
       "channels": [
         {
-          "name": "左右键可切换源",
+          "name": "山东卫视",
           "urls": [
-            "http://182.92.109.190:1668/72/72.php?id=cctv1",
-            "http://47.109.155.164/jd/山西.php?id=cctv1"
+            "http://150.138.8.132/00/SNM/CHANNEL10000301/index.m3u8"
+            
           ]
         },
         {
