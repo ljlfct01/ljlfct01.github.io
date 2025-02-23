@@ -3,6 +3,137 @@
   "lives": [
    
     {
+      "group": "卫视频道",
+      "channels": [
+        {
+          "name": "山东卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL10000301/index.m3u8",
+            "http://47.109.155.164/jd/山西.php?id=cctv1"
+          ]
+        },
+        {
+          "name": "湖南卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000324/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv1"
+          ]
+        },
+        {
+          "name": "湖北卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000325/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv6"
+          ]
+        },
+        {
+          "name": "辽宁卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000326/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+       {
+          "name": "天津卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000327/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+         {
+          "name": "安徽卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000328/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+         {
+          "name": "贵州卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000329/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+        {
+          "name": "河北卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000330/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+      {
+          "name": "江苏卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000304/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+        {
+          "name": "浙江卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000305/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+         {
+          "name": "黑龙江卫视",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000306/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+          },
+       {
+          "name": "CCTV11",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000344/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+        {
+          "name": "CCTV12",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000322/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+        {
+          "name": "CCTV13",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000345/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+          },
+         {
+          "name": "CCTV14",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000323/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ] 
+         },
+         {
+          "name": "CCTV15",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000346/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+         {
+          "name": "CCTV16",
+          "urls": [
+            "http://39.170.52.236:808/hls/16/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+         },
+         {
+          "name": "CCTV17",
+          "urls": [
+            "http://150.138.8.132/00/SNM/CHANNEL00000303/index.m3u8",
+            "http://182.92.109.190:1668/72/72.php?id=cctv13"
+          ]
+        }
+      ]
+    },
+    {
       "group": "央视频道",
       "channels": [
         {
