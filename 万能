@@ -32,84 +32,98 @@
             "http://150.138.8.132/00/SNM/CHANNEL00000320/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
        {
           "name": "CCTV5",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000360/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
          {
           "name": "CCTV5+",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000316/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
          {
           "name": "CCTV6",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000361/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
         {
           "name": "CCTV7",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000318/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
       {
           "name": "CCTV8",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000362/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
         {
           "name": "CCTV9",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000319/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
          {
           "name": "CCTV10",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000321/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+          },
        {
           "name": "CCTV11",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000344/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
         {
           "name": "CCTV12",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000322/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
         {
           "name": "CCTV13",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000345/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+          },
          {
           "name": "CCTV14",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000323/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ] 
+         },
          {
           "name": "CCTV15",
           "urls": [
             "http://150.138.8.132/00/SNM/CHANNEL00000346/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
          {
           "name": "CCTV16",
           "urls": [
             "http://39.170.52.236:808/hls/16/index.m3u8",
             "http://182.92.109.190:1668/72/72.php?id=cctv13"
           ]
+         },
          {
           "name": "CCTV17",
           "urls": [
@@ -158,6 +172,31 @@
     }
   ],
   "sites": [
+    {
+      "key": "4K┃线路1",
+      "name": "4K┃线路1",
+      "type": 3,
+      "api": "csp_Breeze",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Ho6Qu9Mdyh2avki60M3PVcO6o8uP63ZgaOfHwdQnHWjr9rSPok+hnJ5McuvNckB5g4=",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK"
+         }
+       ]
+    },
+    {
+      "key": "huarenoktv",
+      "name": "华人直播️",
+      "type": 1,
+      "api": "https://huaren.live/api.php/tvbox",
+      
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+      ]
+    },
     {
       "key": "天空资源",
       "name": "天空资源",
