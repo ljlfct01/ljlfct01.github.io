@@ -110,14 +110,7 @@
       "playerType": 2,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
-    {
-      "name": "野火直播",
-      "type": 0,
-      "url": "http://jianhan.vip/lcys/野火.json",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
-      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    },
+  
     {
       "name": "港湾直播",
       "type": 0,
@@ -126,144 +119,9 @@
       "playerType": 2,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
-    {
-      "name": "52电视",
-      "type": 0,
-      "url": "http://jianhan.vip/lcys/52电视.json",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
-      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "晴天资源",
-      "type": 0,
-      "url": "http://itv.qtsh.top/zy/itv.txt",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
-      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "蓝天白云",
-      "type": 0,
-      "url": "https://idc.weyun.site/iptv/iptv.txt",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
-      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "码头小干货",
-      "type": 0,
-      "url": "http://mdxgh.tpddns.cn:9999/new/mdzb.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "王二小直播",
-      "type": 0,
-      "url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "①开心Live(EXO)",
-      "type": 0,
-      "url": "http://ttkx.cc:55/lib/kx2024.txt",
-      "ua": "okhttp/3",
-      "playerType": 2,
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "②开心Live(IJK)",
-      "type": 0,
-      "url": "http://ttkx.cc:55/lib/kx2024.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "IPTV（自动更新）",
-      "type": 0,
-      "url": "https://live.kilvn.com/iptv.m3u",
-      "ua": "okhttp/3.15",
-      "playerType": 1,
-      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "凌云之志",
-      "type": 0,
-      "url": "http://211.101.234.24:866/qiyu.php?url=b",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
-      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "焦点资源",
-      "type": 0,
-      "url": "http://itv.qtsh.top/zy/jd.txt",
-      "ua": "okhttp/3.15",
-      "playerType": 1,
-      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "贺岁版",
-      "type": 0,
-      "url": "http://jianhan.vip/lcys/大街源.json",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "咪咕直播",
-      "type": 0,
-      "url": "http://124.71.189.194/zb.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "佛系维护",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "③猫TV线路(EXO)",
-      "type": 0,
-      "url": "http://rihou.cc:567/gggg.nzk",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "④猫TV线路(IJK)",
-      "type": 0,
-      "url": "http://rihou.cc:567/gggg.nzk",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "天威直播",
-      "type": 0,
-      "url": "https://7337.kstore.space/twkj/tvzb.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
+   
+  
+  
     {
       "name": "天命人直播",
       "type": 0,
@@ -291,52 +149,8 @@
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
-    {
-      "name": "体育直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Sport",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "斯马特",
-      "type": 0,
-      "url": "http://jianhan.vip/lcys/斯马特.json",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "西夏直播",
-      "type": 0,
-      "url": "https://d.kstore.dev/download/2912/520.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "看电视呗",
-      "type": 0,
-      "url": "http://tvbox6.icu/live.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "江西银河代理",
-      "type": 0,
-      "url": "http://jianhan.vip/lcys/江西银河代理.json",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-
+  
+  
  {
       "name": "🏠x315601",
       "url": "http://x315601.serv00.net/10.php",
