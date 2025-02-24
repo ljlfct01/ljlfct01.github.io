@@ -303,49 +303,7 @@
     }
   ],
   "sites": [
-     {
-      "key": "js豆瓣",
-      "name": "点我换源",
-      "type": 3,
-      "api": "https://jihulab.com/ysxsbk/xduo/-/raw/main/libs/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://jihulab.com/ysxsbk/xduo/-/raw/main/libs/douban.js"
-    },
-    {
-      "key": "芒果视频",
-      "name": "芒果┃4K",
-      "type": 3,
-      "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
-      "ext": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/芒果视频.js"
-    },
-    {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "腾讯┃4K",
-      "type": 3,
-      "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/腾讯视频.js"
-    },
-    {
-      "key": "爱奇艺",
-      "name": "爱奇┃4K",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/爱奇艺.js"
-    },
-    {
-      "key": "优酷视频",
-      "name": "优酷┃4K",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/优酷视频.js"
-    },
+    
     {
       "key": "huarenoktv",
       "name": "华人直播️",
