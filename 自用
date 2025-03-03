@@ -12,7 +12,14 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
     },
-
+{
+      "name": "🏠飞蓝电视",
+      "type": 0,
+      "url": "http://zhibo.feylen.top/fltv/feiyang1.txt",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
 {
       "name": "🏠耀视TV",
       "type": 0,
@@ -103,7 +110,7 @@
     },
 
   {
-      "name": "陆城直播",
+      "name": "🏠陆城直播",
       "type": 0,
       "url": "http://jianhan.vip/lcys/陆城直播.json",
       "ua": "okhttp/3.15",
@@ -115,7 +122,7 @@
   
   
     {
-      "name": "天命人直播",
+      "name": "🏠天命人直播",
       "type": 0,
       "url": "https://aiwoa2003.oss-cn-hangzhou.aliyuncs.com/%E5%A4%A9%E5%91%BD%E4%BA%BA.txt",
       "playerType": 1,
@@ -124,7 +131,7 @@
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
-      "name": "榴芒电视",
+      "name": "🏠榴芒电视",
       "type": 0,
       "url": "http://8.138.7.223/live.txt",
       "playerType": 1,
@@ -133,7 +140,7 @@
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
-      "name": "电视家",
+      "name": "🏠电视家",
       "type": 0,
       "url": "http://jianhan.vip/lcys/电视家.json",
       "playerType": 1,
