@@ -198,7 +198,16 @@
       "filterable": 1,
       "ext": {}
     },
-   
+   {
+            "key": "饭团影视",
+            "name": "👨饭团｜影视",
+            "type": 3,
+            "api": "csp_Fantuan",
+            "jar":"https://git.acwing.com/805598571/666/-/raw/main/jar/custom_spider.jar",   
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
     {
       "key": "📣 低端直连 | JAR",
       "name": "📣 低端直连 | JAR",
