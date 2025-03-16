@@ -137,6 +137,882 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
+
+  - name: Premium|台湾|IEPL|01
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 3026
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+ 
+  - name: Premium|台湾|IEPL|02
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 3036
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|台湾|IEPL|03
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 3046
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|台湾|IEPL|04
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 3056
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|新加坡|IEPL|01
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 6606
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|新加坡|IEPL|02
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 6607
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|新加坡|IEPL|03
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 6608
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|新加坡|IEPL|04
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 6609
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|01
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4600
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|02
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4601
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|03
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4602
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|04
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4603
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|05
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4604
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|06
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4605
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|07
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4606
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|08
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4607
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|09
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4608
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|日本|IEPL|10
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 4609
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|美国|IEPL|01
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 5608
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|美国|IEPL|02
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 5609
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|美国|IEPL|03
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 5610
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|美国|IEPL|04
+    type: ss
+    server: pr3.jymzffbquawl.com
+    port: 5611
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|01
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3600
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|02
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3601
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|03
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3602
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|04
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3603
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|05
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3604
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|06
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3605
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|07
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3606
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|08
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3607
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|09
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3608
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Premium|香港|IEPL|10
+    type: ss
+    server: pr1.jymzffbquawl.com
+    port: 3609
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|台湾|IEPL|01
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 3026
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|台湾|IEPL|02
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 3036
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|台湾|IEPL|03
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 3046
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|台湾|IEPL|04
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 3056
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|新加坡|IEPL|01
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 6600
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|新加坡|IEPL|02
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 6601
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|新加坡|IEPL|03
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 6602
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|新加坡|IEPL|04
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 6603
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|新加坡|IEPL|05
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 6604
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|新加坡|IEPL|06
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 6605
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|01
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4600
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|02
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4601
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|03
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4602
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|04
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4603
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|05
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4604
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|06
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4605
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|07
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4606
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|08
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4607
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|09
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4608
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|日本|IEPL|10
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 4609
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|美国|IEPL|01
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 5600
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|美国|IEPL|02
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 5601
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|美国|IEPL|03
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 5602
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|美国|IEPL|04
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 5603
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|美国|IEPL|05
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 5604
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|美国|IEPL|06
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 5605
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|美国|IEPL|07
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 5606
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|美国|IEPL|08
+    type: ss
+    server: bs3.jymzffbquawl.com
+    port: 5607
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|01
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3600
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|02
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3601
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|03
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3602
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|04
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3603
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|05
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3604
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|06
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3605
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|07
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3606
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|08
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3607
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|09
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3608
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: Standard|香港|IEPL|10
+    type: ss
+    server: bs1.jymzffbquawl.com
+    port: 3609
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: 海外用户专用-新加坡
+    type: ss
+    server: f-sg-01.ninjanode.pro
+    port: 63257
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: 海外用户专用-日本
+    type: ss
+    server: f-jp-01.ninjanode.pro
+    port: 63257
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
+  -
+    name: 海外用户专用-美国
+    type: ss
+    server: f-us-01.ninjanode.pro
+    port: 63257
+    cipher: rc4-md5
+    password: RenzheCloudSS
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 20c0d292462.microsoft.com
   - {name:  🇹🇼1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇹🇼2, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
   - {name:  🇯🇵1, server: japan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
