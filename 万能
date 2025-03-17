@@ -502,6 +502,13 @@
           "name": "PopC",
           "urls": [
             "http://aktv_stream1.m16tv.cfd/stream/aktv/popc/AKTV.m3u8",
+            "https://live.hkdvb.com/hls/live/801.m3u8?token=275839252921850"
+          ]
+        },
+       {
+          "name": "NOW星影台",
+          "urls": [
+            "https://live.hkdvb.com/hls/live/138.m3u8?token=275839252921850",
             "http://47.109.155.164/jd/山西.php?id=cctv1"
           ]
         },
