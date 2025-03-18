@@ -117,7 +117,14 @@
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
    
-  
+    {
+      "name": "🏠爱家影院",
+      "type": 0,
+      "url": "http://45.136.15.57:1388/box/live.txt",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
+    },
   
     {
       "name": "🏠天命人直播",
@@ -276,7 +283,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/ys.json",
+      "ext": "https://www.lintech.work/超大杯/sites/码上/ys.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
