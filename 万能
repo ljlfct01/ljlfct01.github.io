@@ -505,10 +505,17 @@
             "https://live.hkdvb.com/hls/live/801.m3u8?token=275839252921850"
           ]
         },
-       {
+      {
           "name": "NOW星影台",
           "urls": [
-            "https://live.hkdvb.com/hls/live/138.m3u8?token=275839252921850",
+            "http://sg7.jdiptv.cc/live/nowbg.m3u8?kdstime=1742454539&kdssign=40217a863e32bc361f54fe0806bea880",
+            "http://47.109.155.164/jd/山西.php?id=cctv1"
+          ]
+        },
+       {
+          "name": "NOW爆谷台",
+          "urls": [
+            "http://sg7.jdiptv.cc/live/nowbg.m3u8?kdstime=1742454539&kdssign=40217a863e32bc361f54fe0806bea880",
             "http://47.109.155.164/jd/山西.php?id=cctv1"
           ]
         },
