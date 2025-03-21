@@ -169,16 +169,18 @@
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
-     {
-      "key": "豆瓣",
-      "name": "豆瓣",
+   {
+      "key": "时光机",
+      "name": "🥤时光机超大杯 🗓️v20250322-🧵89",
       "type": 3,
-      "api": "https://slink.ltd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
+      "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "changeable": 0,
-      "ext": "https://slink.ltd/https://raw.githubusercontent.com/1771245847/TvBox/master/js/douban.js"
+      "ext": {
+        "sourceType": 0,
+        "sourceVersion": "20250322"
+      }
     },
     {
       "key": "🌈 配置 | JAR",
