@@ -157,40 +157,39 @@
       "quickSearch": 1,
       "filterable": 1
     },
-   {
-      "key": "彩虹影视4K",
-      "name": "彩虹影视4K",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
-      "ext": "http://47.108.190.232:666/lib/1.js"
-    },
     {
-      "key": "潘多拉影视4K",
-      "name": "潘多拉影视4K",
-      "type": 3,
-      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "http://wang.qijiyun.vip/极视云4k专用/lib/wj/万家主线1.js"
-    },
-    {
-      "key": "极限影视4K",
-      "name": "极限影视4K",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
-      "ext": "http://wang.qijiyun.vip/极视云4k专用/lib/wj/万家主线2.js"
-    },	
+            "key": "雷鲸",
+            "name": "‍🐳雷鲸4K‍",
+            "type": 3,
+            "api": "csp_Wexleijing",
+            "jar": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/二小.txt",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "hipy_js_腾云驾雾[官]",
+            "name": "🍓清风4k🍓",
+            "type": 3,
+            "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "https://git.acwing.com/jilan/aa/-/raw/main/tt.js"
+        },
+        {
+            "key": "guoguo",
+            "name": "🥭水果4k🥭",
+            "type": 3,
+            "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
+        },
     {
       "key": "4K | 1",
       "name": "4K | 1",
