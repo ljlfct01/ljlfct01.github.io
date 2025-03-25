@@ -4,6 +4,19 @@
    "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
    {
+      "key": "时光机",
+      "name": "时光机",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "sourceType": 0,
+        "sourceVersion": "20250324"
+      }
+    },
+   {
       "key": "彩虹影视4K",
       "name": "彩虹影视4K",
       "type": 3,
