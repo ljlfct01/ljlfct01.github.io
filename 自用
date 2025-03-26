@@ -1,239 +1,9 @@
 {
-  "spider": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/qf.jar",
+ "spider": "https://www.lintech.work/超大杯/custom_spider_20250322.tms;md5;57b1aaa202d3079f235b705754bce836",
   "wallpaper": "https://gitee.com/qqlan/lan/raw/master/i.jpg",
   "logo": "https://gitee.com/qqlan/lan/raw/master/2024.jpg",
   "sites": [
-    {
-      "key": "豆豆",
-      "name": "🇨🇳我的影院🇨🇳",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "YGP",
-      "name": "🚀清风荐影┃预告片",
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "配置中心",
-      "name": "🚀弹幕┃高级┃设置",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "key": "Wexconfig",
-      "name": "🍥天翼┃移动┃配置",
-      "type": 3,
-      "api": "csp_Wexconfig",
-      "jar": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/二小.txt",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0
-    },
-    {
-      "key": "alllive",
-      "name": "📽️一直播┃直播",
-      "type": 3,
-      "api": "csp_Alllive",
-      "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "夸克木偶弹幕",
-      "name": "🪵木偶资源┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://www.muoupan.top",
-        "danmu": true
-      }
-    },
-    {
-      "key": "玩偶弹幕",
-      "name": "🧸玩偶┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wogg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://wogg.xxooo.cf",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克多多弹幕",
-      "name": "🍥多多┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://tv.yydsys.top",
-        "danmu": true
-      }
-    },
-    {
-      "key": "csp_zhizhen",
-      "name": "🌹至臻┃4K4K",
-      "type": 3,
-      "api": "csp_Wobg",
-      "changeable": 0,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://mihdr.top",
-        "danmu": true
-      }
-    },
-    {
-      "key": "蜡笔小新",
-      "name": "🍥蜡笔4K",
-      "type": 3,
-      "api": "csp_Wobg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "http://duopan.fun/",
-        "danmu": true
-      }
-    },
-    {
-      "key": "六趣网盘",
-      "name": "六趣┃网盘",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://wp.0v.fit",
-        "danmu": true
-      }
-    },
-    {
-      "key": "奥秘网盘",
-      "name": "🍔奥秘｜4K",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://vip.omii.top/",
-        "danmu": true
-      }
-    },
-    {
-      "key": "哔哩弹幕",
-      "name": "哔哩|弹幕",
-      "type": 3,
-      "api": "csp_Bilimd",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bibi.txt"
-      },
-      "timeout": 10
-    },
-    {
-      "key": "夸克肥猫弹幕",
-      "name": "肥猫｜4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://feimaouc.cloud:666",
-        "danmu": true
-      }
-    },
-    {
-      "key": "夸克欧歌弹幕",
-      "name": "欧哥｜4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://woog.nxog.eu.org",
-        "danmu": true
-      }
-    },
-    {
-      "key": "盘他",
-      "name": "移动┃4K纯净‍",
-      "type": 3,
-      "api": "csp_WexYDpanta",
-      "jar": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/二小.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "雷鲸",
-      "name": "‍🐳雷鲸4K‍",
-      "type": 3,
-      "api": "csp_Wexleijing",
-      "jar": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/二小.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
+
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "🍓清风4k🍓",
@@ -257,6 +27,20 @@
       "order_num": 0,
       "changeable": 0,
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
+    },
+    {
+      "key": "🈵 醉挽清风 | JX",
+      "name": "🈵 醉挽清风 | JX",
+      "type": 3,
+      "api": "csp_Breeze",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "mryyNuf38YFwIDElsErSzW1/GaCSKBjH/IxYOlDycUzguOjmMNNHDDRfWHPMcQ8O3S/2j/0pv/B5foVfoNNt6i70gx7l3zyspOgKf5MjB/miBBWYBawRBporfBSjTrVNNwUXRqe4ElYA6QbEwwrq1WBpZjbSPVATXOZEJhzs4+6K8tMJ7R5I6RTmtSpScozZ",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SBvb3A1Wgz2tYU+Ia1AUGYsO54DObZhhi2SKLcsvlWmO2vfbno1B/xbSiui9ZBNWmc="
+      }
     },
     {
       "key": "✨星星",
@@ -347,25 +131,7 @@
       "filterable": 1,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/布谷TV.json"
     },
-    {
-      "key": "荐片",
-      "name": "🧲荐片纯净",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "瓜子影视",
-      "name": "🍉瓜子┃蓝光",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "闪雷电",
       "name": "闪电雷",
@@ -390,15 +156,7 @@
       "danmu": true,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/zy.js"
     },
-    {
-      "key": "热播",
-      "name": "🔥热播影视",
-      "type": 3,
-      "api": "csp_AppRB",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "hipy_js_黑木耳资源[资]",
       "name": "黑木耳资源[资]",
@@ -410,43 +168,8 @@
       "order_num": 0,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/黑木耳资源[资].js"
     },
-    {
-      "key": "csp_SeedHub",
-      "name": "🧲SeedHub",
-      "type": 3,
-      "api": "csp_SeedHub",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Xunlei8",
-      "name": "🧲迅雷吧",
-      "type": 3,
-      "api": "csp_Xunlei8",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Mp4Mov",
-      "name": "🧲Mp4电影",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "4K影视",
-      "name": "🎦4K影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/4K影视.json"
-    },
+
+
     {
       "key": "星辰[优]_js",
       "name": "👨‍🍳‍星辰[优]",
@@ -469,46 +192,7 @@
       "order_num": 0,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/111tv[自动].js"
     },
-    {
-      "key": "厂长",
-      "name": "📔厂长┃不卡",
-      "type": 3,
-      "api": "csp_NewCz",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzyvideo.com/"
-    },
-    {
-      "key": "贱贱",
-      "name": "🐭贱贱┃纯净",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/jp.js"
-    },
-    {
-      "key": "金牌影视",
-      "name": "🥇金牌影视",
-      "type": 3,
-      "api": "csp_WebJP",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_TianTian",
-      "name": "🦉天天",
-      "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "hipy_js_熊猫TV",
       "name": "熊猫TV",
@@ -520,15 +204,7 @@
       "order_num": 0,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/熊猫TV.js"
     },
-    {
-      "key": "饺子影视",
-      "name": "🥟饺子┃纯净",
-      "type": 3,
-      "api": "csp_Jiaozi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "hipy_js_磁力熊[磁]",
       "name": "磁力熊",
@@ -539,199 +215,9 @@
       "filterable": 1,
       "order_num": 0,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/磁力熊[磁].js"
-    },
-    {
-      "key": "米搜弹幕",
-      "name": "🍚小米┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_Qkpanso",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://www.misou.fun",
-        "danmu": true
-      }
-    },
-    {
-      "key": "新6V",
-      "name": "🧲新6V┃磁力",
-      "type": 3,
-      "api": "csp_SixV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://www.xb6v.com/"
-    },
-    {
-      "key": "88看球",
-      "name": "⚽88┃看球",
-      "type": 3,
-      "api": "csp_Sir88",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "Aid",
-      "name": "🚑急救┃教学",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      }
-    },
-    {
-      "key": "Bili",
-      "name": "🅱哔哔合集┃弹幕",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
-      }
-    },
-    {
-      "key": "dr_兔小贝",
-      "name": "📚儿童┃启蒙",
-      "type": 3,
-      "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "少儿教育",
-      "name": "📚少儿┃教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/少儿教育.json"
-      }
-    },
-    {
-      "key": "小学课堂",
-      "name": "📚小学┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/小学课堂.json"
-      }
-    },
-    {
-      "key": "初中课堂",
-      "name": "📚初中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/初中课堂.json"
-      }
-    },
-    {
-      "key": "高中教育",
-      "name": "📚高中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/高中课堂.json"
-      }
-    },
-    {
-      "key": "Wextyso",
-      "name": "🪽天翼4k",
-      "type": 3,
-      "api": "csp_Wextyso",
-      "jar": "https://git.acwing.com/jilan/aa/-/raw/main/二小.txt",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "盘搜弹幕",
-      "name": "🦊盘搜┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true
-      }
-    },
-    {
-      "key": "易搜弹幕",
-      "name": "😹易搜┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "danmu": true,
-        "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"
-      }
-    },
-    {
-      "key": "云盘弹幕",
-      "name": "🌨️云盘┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_Yunpan4k",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "danmu": true
-      }
     }
+
+
   ],
   "parses": [
     {
