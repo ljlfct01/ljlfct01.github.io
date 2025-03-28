@@ -14,15 +14,7 @@
     },
  
 
-    {
-      "key": "雷鲸",
-      "name": "‍🐳雷鲸4K‍",
-      "type": 3,
-      "api": "csp_Wexleijing",
-      "jar": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/二小.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
+  
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "🍓清风4k🍓",
@@ -47,40 +39,7 @@
       "changeable": 0,
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
     },
-    {
-      "key": "✨星星",
-      "name": "✨巧记1080",
-      "type": 3,
-      "api": "csp_Xdai",
-      "jar": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/qj.jar",
-      "playerType": 2,
-      "ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg=="
-    },
-    {
-      "key": "csp_zhufan",
-      "name": "饭饭🍚1080",
-      "searchable": 1,
-      "quickSearch": 1,
-      "type": 3,
-      "api": "csp_MiTo",
-      "jar": "https://git.acwing.com/jilan/aa/-/raw/main/tounima.jar",
-      "ext": {
-        "url": "http://xiafan.zhuiju666.com",
-        "dataKey": "aassddwwxxllsx1x",
-        "playKey": "bbssqdbbssll25sx",
-        "version": "1.1.0"
-      }
-    },
-    {
-      "key": "huohuo",
-      "name": "💥淼淼┃1080P",
-      "type": 3,
-      "changeable": 0,
-      "searchable": 1,
-      "quickSearch": 1,
-      "jar": "https://gitlab.hk/iii/qq/-/raw/main/XMKY.jar",
-      "api": "csp_SaoHuo"
-    },
+
     {
       "key": "ygcl",
       "name": "影港┃4K┃🔗",
@@ -92,40 +51,7 @@
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/影港.json",
       "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
     },
-    {
-      "key": "爱奇艺",
-      "name": "爱奇艺｜视频",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "ext": "https://git.acwing.com/jilan/aa/-/raw/main/爱奇艺.js"
-    },
-    {
-      "key": "搜狗视频",
-      "name": "搜狗｜视频",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/搜狗视频.js"
-    },
-    {
-      "key": "真心影视",
-      "name": "❤️真心┃纯净",
-      "type": 3,
-      "api": "csp_WebGZ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "hipy_js_4k剧院",
-      "name": "4k剧院🇨🇳",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/4k剧院.js"
-    },
+
     {
       "key": "布谷TV",
       "name": "🧲布谷TV｜磁力",
@@ -136,16 +62,7 @@
       "filterable": 1,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/布谷TV.json"
     },
-    {
-      "key": "荐片",
-      "name": "🧲荐片纯净",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "瓜子影视",
       "name": "🍉瓜子┃蓝光",
@@ -155,39 +72,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "闪雷电",
-      "name": "闪电雷",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "danmu": true,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/闪雷电.js"
-    },
-    {
-      "key": "追风",
-      "name": "追风影视",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "danmu": true,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/zy.js"
-    },
-    {
-      "key": "热播",
-      "name": "🔥热播影视",
-      "type": 3,
-      "api": "csp_AppRB",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+ 
     {
       "key": "hipy_js_黑木耳资源[资]",
       "name": "黑木耳资源[资]",
@@ -199,54 +84,7 @@
       "order_num": 0,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/黑木耳资源[资].js"
     },
-    {
-      "key": "csp_SeedHub",
-      "name": "🧲SeedHub",
-      "type": 3,
-      "api": "csp_SeedHub",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Xunlei8",
-      "name": "🧲迅雷吧",
-      "type": 3,
-      "api": "csp_Xunlei8",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Mp4Mov",
-      "name": "🧲Mp4电影",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "4K影视",
-      "name": "🎦4K影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/4K影视.json"
-    },
-    {
-      "key": "星辰[优]_js",
-      "name": "👨‍🍳‍星辰[优]",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/星辰[优].js"
-    },
+
     {
       "key": "111tv[自动]_js",
       "name": "👨‍🍳‍111tv",
@@ -258,101 +96,7 @@
       "order_num": 0,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/111tv[自动].js"
     },
-    {
-      "key": "厂长",
-      "name": "📔厂长┃不卡",
-      "type": 3,
-      "api": "csp_NewCz",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzyvideo.com/"
-    },
-    {
-      "key": "贱贱",
-      "name": "🐭贱贱┃纯净",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/jp.js"
-    },
-    {
-      "key": "金牌影视",
-      "name": "🥇金牌影视",
-      "type": 3,
-      "api": "csp_WebJP",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_TianTian",
-      "name": "🦉天天",
-      "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "hipy_js_熊猫TV",
-      "name": "熊猫TV",
-      "type": 3,
-      "api": "http://121.62.21.61:8866/apia/zjys/lib/%E4%B8%BB%E7%BA%BF1.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/熊猫TV.js"
-    },
-    {
-      "key": "饺子影视",
-      "name": "🥟饺子┃纯净",
-      "type": 3,
-      "api": "csp_Jiaozi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "hipy_js_磁力熊[磁]",
-      "name": "磁力熊",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/磁力熊[磁].js"
-    },
-    {
-      "key": "米搜弹幕",
-      "name": "🍚小米┃弹幕┃搜索",
-      "type": 3,
-      "api": "csp_Qkpanso",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://www.misou.fun",
-        "danmu": true
-      }
-    },
-    {
-      "key": "新6V",
-      "name": "🧲新6V┃磁力",
-      "type": 3,
-      "api": "csp_SixV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://www.xb6v.com/"
-    },
+
     {
       "key": "88看球",
       "name": "⚽88┃看球",
