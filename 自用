@@ -1,24 +1,26 @@
 {
-  "spider": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/qf.jar",
-  "wallpaper": "https://gitee.com/qqlan/lan/raw/master/i.jpg",
-  "logo": "https://gitee.com/qqlan/lan/raw/master/2024.jpg",
+   "spider": "http://xh.jj99.icu:81/99tv/jz.jar;md5;11152",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
-      "key": "豆豆",
-      "name": "🇨🇳我的影院🇨🇳",
+      "key": "久久影视",
+      "name": "久久影视",
       "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://99cms.jj99.icu:8199/api.php/app/"
     },
+
  
      {
           "key": "huarenoktv",
           "name": "华人直播️",
           "type": 1,
-          "api": "http://110.42.45.218:520/yunfensi/jar/yunm0213.jar",
-          "playUrl": "",
+          "api": "https://huaren.live/api.php/tvbox",
+          "playUrl": "json:https://parse.huaren.live/?url=",
           "searchable": 1,
           "quickSearch": 1,
           "filterable": 1
@@ -61,38 +63,7 @@
       "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
     },
 
-    {
-      "key": "布谷TV",
-      "name": "🧲布谷TV｜磁力",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/布谷TV.json"
-    },
 
-    {
-      "key": "瓜子影视",
-      "name": "🍉瓜子┃蓝光",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
- 
-    {
-      "key": "hipy_js_黑木耳资源[资]",
-      "name": "黑木耳资源[资]",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "http://121.62.21.61:8866/apia/zjys/lib/%E4%B8%BB%E7%BA%BF3.js"
-    },
 
     {
       "key": "111tv[自动]_js",
