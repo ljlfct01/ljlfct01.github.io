@@ -199,71 +199,28 @@
 
   ],
   "parses": [
+  {
+      "name": "芒果4K",
+      "type": 1,
+      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url="
+    },
+  {
+      "name": "清风4K",
+      "type": 1,
+      "url": "http://niiuma.qi-simple.top/niuma.php?key=HV8ZNkGISO7YomsQ&url="
+    },
     {
       "name": "4K解析1",
       "type": 1,
       "url": "http://niiuma.qi-simple.top/niuma.php?key=HV8ZNkGISO7YomsQ&url="
     },
-    {
-      "name": "解析1",
-      "type": 1,
-      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url="
-    },
-    {
-      "name": "解析2",
-      "type": 0,
-      "url": "http://tv.mianliu1.top/addons/lvdoubox/api.index?id=3&url="
-    },
-    {
-      "name": "虾米1",
-      "type": 0,
-      "url": "https://dm.xmflv.com:4433/?url="
-    },
-    {
-      "name": "虾米2",
-      "type": 0,
-      "url": "https://jx.xmflv.cc/?url="
-    },
-    {
-      "name": "冰豆",
-      "type": 0,
-      "url": "https://bd.jx.cn/?url="
-    },
-    {
-      "name": "8090",
-      "type": 0,
-      "url": "https://www.8090g.cn/jiexi/?url="
-    },
-    {
-      "name": "m3u8tv",
-      "type": 0,
-      "url": "https://jx.m3u8.tv/jiexi/?url="
-    },
-    {
-      "name": "m3u8pw",
-      "type": 0,
-      "url": "https://jx.m3u8.pw/?url="
-    },
-    {
-      "name": "清风4K1",
-      "type": 1,
-      "url": "http://niiuma.qi-simple.top/niuma.php?key=HV8ZNkGISO7YomsQ&url="
-    },
+ 
     {
       "name": "Json并发",
       "type": 2,
       "url": "Parallel"
-    },
-    {
-      "name": "1080解析-芒果4K",
-      "type": 1,
-      "url": "http://niiuma.qi-simple.top/niuma.php?key=HV8ZNkGISO7YomsQ&url="
-    },
-    {
-      "name": "1080解析-芒果4K1",
-      "type": 1,
-      "url": "http://niiuma.qi-simple.top/niuma.php?key=HV8ZNkGISO7YomsQ&url="
     }
+  
   ],
   "doh": [
     {
