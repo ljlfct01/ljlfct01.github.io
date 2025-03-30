@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "csp_appys_影盒",
-      "name": "🍓影港4K🍓",
+      "name": "🍓影探4K🍓",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -36,9 +36,31 @@
       "changeable": 0,
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
     },
+    {
+      "key": "ygcl",
+      "name": "🍓影港4K🍓",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://git.acwing.com/jilan/aa/-/raw/main/影港.json",
+      "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
+    },
+  {
+      "key": "111tv[自动]_js",
+      "name": "🍓111tv🍓",
+      "type": 3,
+      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/111tv[自动].js"
+    },
    {
       "key": "🍓久久影视🍓",
-      "name": "久久影视",
+      "name": "🍓久久影视🍓",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -49,7 +71,7 @@
     },
     {
       "key": "csp_appys_网采",
-      "name": "🍓采集(勿信广告)🍓",
+      "name": "🍓采集🍓",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -171,7 +193,7 @@
       "url": "http://niiuma.qi-simple.top/niuma.php?key=HV8ZNkGISO7YomsQ&url="
     },
     {
-      "name": "🍓影港A🍓",
+      "name": "🍓影探A🍓",
       "type": 1,
       "url": "https://jx.cfwlgzs.cn/api/?key=z57RI2Ju1udRhU3D0v&url=",
       "ext": {
@@ -198,7 +220,7 @@
       }
     },
     {
-      "name": "🍓影港C🍓",
+      "name": "🍓影探C🍓",
       "type": 1,
       "url": "https://jx.bhs6.com/api/?key=b0227c1e257c83f68ca14644aebda8c1&url=",
       "ext": {
@@ -225,7 +247,7 @@
       }
     },
     {
-      "name": "🍓影港E🍓",
+      "name": "🍓影探E🍓",
       "type": 1,
       "url": "http://jf.yingshidao.cn/api/?key=oovDE5yLVzOj7bFD2i&url=",
       "ext": {
@@ -252,7 +274,7 @@
       }
     },
     {
-      "name": "🍓影港F🍓",
+      "name": "🍓影探F🍓",
       "type": 1,
       "url": "https://jx.hls.one/?url=",
       "ext": {
@@ -279,7 +301,7 @@
       }
     },
     {
-      "name": "🍓影港B🍓",
+      "name": "🍓影探B🍓",
       "type": 1,
       "url": "https://api.qljson.xyz/api/?key=e5c343a10886e360454aa6b9ce35fadf&url=",
       "ext": {
@@ -306,7 +328,7 @@
       }
     },
     {
-      "name": "🍓影港D🍓",
+      "name": "🍓影探D🍓",
       "type": 1,
       "url": "http://jf.yingshidao.cn/api/?key=wObsAPs6A80pXdQM92&url=",
       "ext": {
@@ -587,15 +609,7 @@
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
-    {
-      "name": "🏠YogurtTv",
-      "type": 1,
-      "url": "https://notabug.org/kan314/bb/raw/master/xy.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
-     "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
+ 
     {
       "name": "情色18]",
       "type": 0,
