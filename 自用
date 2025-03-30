@@ -530,7 +530,8 @@
       "name": "🏠焦点(Focus TV)",
       "type": 0,
       "url": "https://notabug.org/kan314/bb/raw/master/169.txt",
-      "playerType": 1,
+      "playerType": 0,
+      "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
     },
