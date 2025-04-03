@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "csp_appys_影盒",
-      "name": "🍓影探4K🍓",
+      "name": "🍓影视4K🍓",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -37,224 +37,22 @@
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
     },
      
-        {
-            "key": "芒果自家2",
-            "name": "🎞️主线❶-圣芒🎞️4K",
-            "type": 3,
-            "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "http://47.108.190.232:666/lib/2.js"
-        },
-        {
-            "key": "云腾酷酷3",
-            "name": "🎞️主线❷-腾云🎞️4k",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
-            "ext": "http://47.108.190.232:666/lib/3.js"
-        },
+
         {
             "key": "云奇🦢4",
-            "name": "麒麟之翼-2025｜蓝光",
+            "name": "🍓麒麟之翼-2025｜蓝光🍓",
             "type": 3,
             "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
             "ext": "http://47.108.190.232:666/lib/4.js"
         },
         {
             "key": "🦢龍优酷影🦢5",
-            "name": "酷影流光-2025｜专享",
+            "name": "🍓酷影流光-2025｜专享🍓",
             "type": 3,
             "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
             "ext": "http://47.108.190.232:666/lib/5.js"
         },
-        {
-            "key": "云子",
-            "name": "🛡️4K瓜子🛡️臻彩",
-            "type": 3,
-            "api": "csp_Gz360",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/yungz.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "西瓜",
-            "name": "🛡️极视云🛡️4k群英荟萃",
-            "type": 3,
-            "api": "csp_AmuXiguaV2",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/yunkx.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "🛡️4k极雪🛡️帧彩",
-            "name": "🛡️4k极雪🛡️帧彩",
-            "type": 3,
-            "api": "csp_qiao2",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/yunkj0302.jar",
-            "playerType": 2,
-            "ext": "http://110.42.45.218:520/yunfensi/lib/cksp.txt"
-        },
-        {
-            "key": "csp_良人",
-            "name": "🛡️4k靚雪🛡️帧彩",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppGetV2Guard",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/yunm0305.jar",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn0xaBCNcSQUCvczzn7zWpJd7PJ5uE10QNLrWWS17wAYgh1d6T+lyAGWYDDt/yJr/VNQuyK2VSIuevNakK2GvE1EQejlklHv7etmkohoSdYeXfClYcFjVBjQD/3ueLIRu5mRtC17xwZEKgga5OKghvkNOKFHeBC8zljBC+o7LY640uwI3xUCS6H6I1Xn+MXnhLIdXvzJq3jAPBvKIxWrDUVfkCH94kY9cJ8WJisUFWHbs"
-        },
-        {
-            "key": "云盘yd",
-            "name": "🛡️凌波微步🛡️4k",
-            "type": 3,
-            "api": "csp_YDjisu",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/ouge.jar",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "电影",
-            "name": "🛡️电影盛典🛡️4k",
-            "type": 3,
-            "quickSearch": 0,
-            "api": "csp_MiTuApp",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/yinm0224.jar",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9pXqDDJVVS6pwdk2S4nTvU6TUFngKGexyvHMXSXO57AN6M4LsBHwZ1tcHnPZ2gPH1m7qu7r1zc7CkawgqunMPxZznGnqtbiv5NVOliQUr2NK4Pee7PFE2+BCvbGUPd3IR9Hiub1wBkbrfqjptJFLEpVXeR1pgeGp6pPUjADtyQPuXHj4azaFzDrobUCcdcn7KM6ZC4rjkupd5HlbdqhOJTRBv917h5RUlXs1sgRU1+EWkMXuNopX+18VjWwSrFYPw=="
-        },
-        {
-            "key": "油条",
-            "name": "🔹油条🔹4k蓝光",
-            "type": 3,
-            "api": "csp_Muou",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/yunqj250304.jar",
-            "playerType": 2,
-            "ext": "caHR0cDovL3UzYS50dHhnenMuY2585LyY5LyY5YWUfDQuMS45"
-        },
-        {
-            "key": "热热",
-            "name": "🔹圣热天云🔹4k蓝光",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/0226.jar",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
-        },
-        {
-            "key": "🔹圣农极光🔹4k蓝光",
-            "name": "🔹圣农极光🔹4k蓝光",
-            "type": 3,
-            "api": "csp_Wwys",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/0226.jar",
-            "ext": "https://www.wwgz.cn"
-        },
-        {
-            "key": "酷酷主线",
-            "name": "🔥帧汐",
-            "type": 1,
-            "jar": "https://tv.xiaofengtv.com/tvbox/jar/custom_spider.jar",
-            "playUrl": "",
-            "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/json",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "国产剧",
-                "香港剧",
-                "动画电影",
-                "喜剧片",
-                "动作片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "韩国剧",
-                "欧美剧",
-                "记录片"
-            ]
-        },
-        {
-            "key": "酷酷6线",
-            "name": "🔥溯光",
-            "type": 1,
-            "api": "https://kekedy.icu/caiji.php",
-            "playUrl": "",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "🔥热",
-            "name": "🔥幕辰",
-            "type": 3,
-            "api": "csp_TTian",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/yunqj250217.jar",
-            "playerType": 1,
-            "ext": "caHR0cDovL3YucmJvdHYuY24="
-        },
-        {
-            "key": "csp_C12ZSPP",
-            "name": "豆瓣TOP250",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "jar": "http://110.42.45.218:520/yunfensi/jar/yunqj250217.jar",
-            "searchable": 1,
-            "playerType": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "maHR0cHM6Ly93d3cuY3p6eTc3LmNvbS8="
-        },
-        {
-            "key": "幻蝶",
-            "name": "🫣幻蝶┃蓝光",
-            "type": 3,
-            "api": "csp_Hudie",
-            "playerType": 2,
-            "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-        },
-        {
-            "key": "韩小圈",
-            "name": "💡韩影",
-            "type": 3,
-            "api": "csp_HanXiaoQuan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "云b站",
-            "name": "重温金典",
-            "type": 3,
-            "api": "csp_Bilimd",
-            "jar": "http://wang.qijiyun.vip/极视云4k专用/lib/云danmu.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt"
-            },
-            "timeout": 10
-        },
+
     {
       "key": "ygcl",
       "name": "🍓影港4K🍓",
