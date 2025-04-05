@@ -66,11 +66,7 @@
   
   ],
   "parses": [
-    {
-      "name": "🍓聚合1🍓",
-      "type": 3,
-      "url": "Demo"
-    },
+  
  {
       "name": "🍓清风4K🍓",
       "type": 1,
@@ -102,34 +98,8 @@
           "xigua"
         ]
       }
-    },
-    {
-      "name": "🍓果果4K1🍓",
-      "type": 1,
-      "url": "http://tvbox.dysvips.top/api/index?parsesId=6&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
     }
+
    ],
   "rules": [
     {
@@ -370,22 +340,6 @@
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
  
-    {
-      "name": "情色18]",
-      "type": 0,
-      "url": "https://notabug.org/kan314/bb/raw/master/xxx555.m3u",
-     "ua": "okhttp/3.15",
-      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
-      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
-    },
- {
-      "name": "🏠x315601",
-      "url": "http://x315601.serv00.net/10.php",
-      "type": 0,
-      "ua": "okhttp/3.15",
-      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
-      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
-    }
 
 
   ],
