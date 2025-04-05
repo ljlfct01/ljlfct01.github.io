@@ -1,8 +1,8 @@
 {
-   "spider": "http://xh.jj99.icu:81/99tv/jz.jar;md5;11152",
+  "spider": "http://xh.jj99.icu:81/99tv/jz.jar;md5;11152",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
- 
+
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "🍓清风4k🍓",
@@ -27,7 +27,23 @@
       "changeable": 0,
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
     },
- 
+     
+
+        {
+            "key": "云奇🦢4",
+            "name": "🍓麒麟之翼-2025｜蓝光🍓",
+            "type": 3,
+            "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
+            "ext": "http://47.108.190.232:666/lib/4.js"
+        },
+        {
+            "key": "🦢龍优酷影🦢5",
+            "name": "🍓酷影流光-2025｜专享🍓",
+            "type": 3,
+            "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
+            "ext": "http://47.108.190.232:666/lib/5.js"
+        },
+
     {
       "key": "ygcl",
       "name": "🍓影港4K🍓",
@@ -39,17 +55,6 @@
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/影港.json",
       "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
     },
-    {
-      "key": "久久影视",
-      "name": "久久影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://99cms.jj99.icu:8199/api.php/app/"
-    },
   {
       "key": "111tv[自动]_js",
       "name": "🍓111tv🍓",
@@ -60,13 +65,22 @@
       "filterable": 1,
       "order_num": 0,
       "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/111tv[自动].js"
+    },
+   {
+      "key": "🍓久久影视🍓",
+      "name": "🍓久久影视🍓",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://99cms.jj99.icu:8199/api.php/app/"
     }
-
-
+  
   
   ],
   "parses": [
-  
  {
       "name": "🍓清风4K🍓",
       "type": 1,
@@ -100,7 +114,8 @@
       }
     }
 
-   ],
+
+  ],
   "rules": [
     {
       "host": "*",
@@ -162,7 +177,33 @@
     }
   ],
   "lives": [
-
+   {
+      "name": "🏠TV",
+      "type": 0,
+      "url": "http://www.lyyytv.cn/yt/zhibo/1.txt",
+      "playerType": 0,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
+   {
+      "name": "🏠暮雨",
+      "type": 0,
+      "url": "https://4key.cn/FP",
+      "playerType": 0,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
+ {
+      "name": "🏠小小tv",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/SSM0415/apptest/main/TVonline.txt",
+      "playerType": 0,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
  {
       "name": "🏠Govin",
       "type": 0,
@@ -321,8 +362,25 @@
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    }
+    },
  
+   {
+      "name": "情色18]",
+      "type": 0,
+      "url": "https://notabug.org/kan314/bb/raw/master/xxx555.m3u",
+     "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
+    },
+ {
+      "name": "🏠x315601",
+      "url": "http://x315601.serv00.net/10.php",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
+    }
+
 
 
   ],
