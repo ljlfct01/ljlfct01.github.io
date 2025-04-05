@@ -1,5 +1,5 @@
 {
-  "spider": "http://www.lyyytv.cn/yt/yt.jar;md5;fd6a2cf8f31c7112731c5f90dab94847",
+   "spider": "http://xh.jj99.icu:81/99tv/jz.jar;md5;11152",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
  
@@ -38,6 +38,17 @@
       "filterable": 1,
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/影港.json",
       "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
+    },
+    {
+      "key": "久久影视",
+      "name": "久久影视",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://99cms.jj99.icu:8199/api.php/app/"
     },
   {
       "key": "111tv[自动]_js",
