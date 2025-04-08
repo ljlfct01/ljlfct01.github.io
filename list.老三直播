@@ -152,18 +152,18 @@ https://tv.iill.top/Migu/wGK7q7
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 季后赛12进8 北京控股vs山东高速 现场原声
 https://tv.iill.top/Migu/lOsOQB
 
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
-http://dns.yiandrive.com:15907/phenix/fhzw
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.iill.top/logo/凤凰资讯.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·資訊「限UA」
-http://dns.yiandrive.com:15907/phenix/fhzx
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.iill.top/logo/凤凰香港.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·香港「限UA」
-http://dns.yiandrive.com:15907/phenix/fhhk
-#EXTINF:-1 tvg-id="HOY国际财经台" tvg-name="HOY国际财经台" tvg-logo="https://epg.iill.top/logo/HOY.png" group-title="•港澳「限制」",HOY 國際財經台「限HK」
-https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
-#EXTINF:-1 tvg-id="HOYTV" tvg-name="HOYTV" tvg-logo="https://epg.iill.top/logo/HOY.png" group-title="•港澳「限制」",HOY TV「限HK」
-https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
-#EXTINF:-1 tvg-id="HOYTV资讯台" tvg-name="HOYTV资讯台" tvg-logo="https://epg.iill.top/logo/HOY.png" group-title="•港澳「限制」",HOY 資訊台「限HK」
-https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•AK「TV」",鳳凰衛視·中文
+http://aktv-stream.m16tv.cfd/stream/aktv/null-3/AKTV.m3u8
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.iill.top/logo/凤凰资讯.png" http-user-agent="FengWatch/5.4.14" group-title="•AK「TV」",鳳凰衛視·資訊
+http://aktv-stream.m16tv.cfd/stream/aktv/null-4/AKTV.m3u8
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.iill.top/logo/凤凰香港.png" http-user-agent="FengWatch/5.4.14" group-title="•AK「TV」",鳳凰衛視·香港
+http://aktv-stream.m16tv.cfd/stream/aktv/null-5/AKTV.m3u8
+#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://epg.iill.top/logo/PopC.png" group-title="•AK「TV」",PopC
+http://aktv-stream.m16tv.cfd/stream/aktv/popc/AKTV.m3u8
+#EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" tvg-logo="https://epg.iill.top/logo/Channel 5.png" group-title="•AK「TV」",Channel 5 
+http://aktv-stream.m16tv.cfd/stream/aktv/channel5hd/AKTV.m3u8
+#EXTINF:-1 tvg-id="Channel 8" tvg-name="Channel 8" tvg-logo="https://epg.iill.top/logo/Channel 8.png" group-title="•AK「TV」",HOY Channel 8
+http://aktv-stream.m16tv.cfd/stream/aktv/channel8hd/AKTV.m3u8
 #EXTINF:-1 tvg-id="RTHK31" tvg-name="RTHK31" tvg-logo="https://epg.iill.top/logo/RTHK31.png" group-title="•港澳「限制」",RTHK 31「限HK」
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="RTHK32" tvg-name="RTHK32" tvg-logo="https://epg.iill.top/logo/RTHK32.png" group-title="•港澳「限制」",RTHK 32「限HK」
