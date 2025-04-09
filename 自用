@@ -116,7 +116,14 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
+{
+      "name": "🏠悠悠直播",
+      "type": 0,
+      "url": "https://pan.aa53.cn/down.php/23a03f28fa0b4417154b7fe56ac3cb92.txt",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
   {
       "name": "🏠陆城直播",
       "type": 0,
