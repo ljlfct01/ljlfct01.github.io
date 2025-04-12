@@ -225,16 +225,7 @@
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
     },
 
-{
-			"key": "①蓝光网",
-			"name": "🍓蓝光网4K🍓",
-			"type": 3,
-			"jar": "https://notabug.org/wlcmc1972/test/raw/master/jar/custom_spider.jar",
-			"api": "csp_XYQHikerAL",
-			"searchable": "1",
-			"filterable": 1,
-			"ext": "https://notabug.org/wlcmc1972/test/raw/master/xb/中国蓝光网.json"
-		},
+
         {
             "key": "云奇🦢4",
             "name": "🍓麒麟之翼-2025｜蓝光🍓",
@@ -261,17 +252,7 @@
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/影港.json",
       "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
     },
-  {
-      "key": "111tv[自动]_js",
-      "name": "🍓111tv🍓",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://gitee.com/qqlan/lan/raw/master/钓鱼/lib/111tv[自动].js"
-    },
+ 
    {
       "key": "🍓久久影视🍓",
       "name": "🍓久久影视🍓",
@@ -906,11 +887,30 @@
  {
       "name": "🍓清风4K🍓",
       "type": 1,
+      "url": "https://tvbox.dysvips.top/api/index?parsesId=6&appid=10000&videoUrl="
+    },
+ {
+      "name": "🍓清风4K1🍓",
+      "type": 1,
+      "url": "http://114.66.55.28:555/api/index?parsesId=20&appid=10000&videoUrl="
+    },
+ {
+      "name": "🍓清风4K2🍓",
+      "type": 1,
+      "url": "http://114.66.55.28:555/api/index?parsesId=23&appid=10000&videoUrl="
+    },
+ {
+      "name": "🍓清风4K3🍓",
+      "type": 1,
+      "url": "http://114.66.55.28:555/api/index?parsesId=24&appid=10000&videoUrl="
+    },
+ {
+      "name": "🍓清风4K4🍓",
+      "type": 1,
       "url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url="
     },
-
  {
-      "name": "4K",
+      "name": "🍓4K5🍓",
       "type": 1,
       "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
       "ext": {
@@ -944,76 +944,7 @@
         ]
       }
     },
- {
-      "name": "4K1",
-      "type": 1,
-      "url": "https://tvbox.dysvips.top/api/index?parsesId=6&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
-    },
- {
-      "name": "4K2",
-      "type": 1,
-      "url": "http://114.66.55.28:555/api/index?parsesId=20&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
-    },
+
  {
       "name": "qiyi[官源]",
       "type": 1,
