@@ -1,8 +1,36 @@
 {
-  "spider": "http://www.lyyytv.cn/yt/yt.jar;md5;fd6a2cf8f31c7112731c5f90dab94847",
+  "spider": "https://www.lintech.work/标准杯/custom_spider_20250409.tms;md5;6c9e15eb23d4aef7c667b25b1c2eb064",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
-
+   {
+      "key": "🈵 醉挽清风 | JX",
+      "name": "🍓清风4k🍓",
+      "type": 3,
+      "api": "csp_Breeze",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "mryyNuf38YFwIDElsErSzW1/GaCSKBjH/IxYOlDycUzguOjmMNNHDDRfWHPMcQ8Ol9KswxaTVsB8QHghS9aerXJCYOJ3pZHQCfw4pz7VgaY=",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SDQkgVRueDby+EeOKua3ZRtXjexbGZPZ+G3NEu/v2BCyPGfXZ5e8r11MpXiS4bFxes="
+      }
+    },
+    {
+      "key": "🈵 小满万全 | JX",
+      "name": "🍓水果4k🍓",
+      "type": 3,
+      "api": "csp_LessIsMore",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "mryyNuf38YFwIDElsErSzW1/GaCSKBjH/IxYOlDycUzguOjmMNNHDDRfWHPMcQ8Ol9KswxaTVsB8QHghS9aerXJCYOJ3pZHQCfw4pz7VgaY=",
+        "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SDQkgVRueDby+EeOKua3ZRtXjexbGZPZ+G3NEu/v2BCyPGfXZ5e8r11MpXiS4bFxes="
+      }
+    },
   {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "🍓清风4k🍓",
