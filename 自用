@@ -38,15 +38,15 @@
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/影港.json",
       "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
     },
-   {
+     {
       "key": "csp_appys_影盒",
-      "name": "影探4K",
+      "name": "影探1",
       "type": 3,
-      "api": "http://appyt.lyyytv.cn/uploads/tvbox/yt.jar",
+      "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
-     
+      "filterable": 1,
+      "ext": "http://csyt.lyyytv.cn/api.php/app/"
     },
     {
       "key": "🐍 猎手 | PY",
