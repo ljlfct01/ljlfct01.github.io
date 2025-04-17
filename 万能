@@ -1,5 +1,5 @@
 {
-    "spider": "http://xh.jj99.icu:81/99tv/jz.jar;md5;11152",
+   "spider": "http://www.lyyytv.cn/yt/yt.jar;md5;fd6a2cf8f31c7112731c5f90dab94847",
   "wallpaper": "https://bing.img.run/uhd.php",
   "lives": [
        {
@@ -1143,126 +1143,43 @@
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/影港.json",
       "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
     },
-    
-    {
-      "key": "🍓久久影视🍓",
-      "name": "🍓久久影视🍓",
+      {
+      "key": "csp_appys_影盒",
+      "name": "🍓影探4K🍓",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
-      "playerType": 2,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://99cms.jj99.icu:8199/api.php/app/"
-    },
-
-    {
-      "key": "🚀 火狐 | T4",
-      "name": "🚀 火狐 | T4",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
-      "filterable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "悬疑片",
-        "犯罪片",
-        "奇幻片",
-        "记录片",
-        "动画片",
-        "内地剧",
-        "香港剧",
-        "台湾剧",
-        "日剧",
-        "韩剧",
-        "欧美剧",
-        "马泰剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "中国动漫",
-        "日本动漫",
-        "欧美动漫"
-      ]
+      "ext": "http://csyt.lyyytv.cn/api.php/app/"
     },
     {
-      "key": "🌰 黑木耳 | CMS",
-      "name": "🌰 黑木耳 | CMS",
-      "type": 1,
-      "api": "https://json02.heimuer.xyz/api.php/provide/vod",
+      "key": "csp_appys_网采",
+      "name": "🍓采集🍓",
+      "type": 3,
+      "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
-      "timeout": 20,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "港剧",
-        "台剧",
-        "泰剧",
-        "纪录片",
-        "海外剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "动画片",
-        "港台动漫",
-        "海外动漫",
-        "演唱会",
-        "体育赛事",
-        "篮球",
-        "足球",
-        "预告片",
-        "斯诺克",
-        "影视解说",
-        "爽文短剧",
-        "伦理",
-        "港台三级",
-        "韩国伦理",
-        "西方伦理",
-        "日本伦理",
-        "两性课堂",
-        "写真热舞",
-        "4K电影",
-        "有声动漫",
-        "女频恋爱",
-        "反转爽剧",
-        "古装仙侠",
-        "年代穿越",
-        "脑洞悬疑",
-        "现代都市",
-        "邵氏电影"
-      ],
-      "header": {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-      }
+      "ext": "http://csff.lyyytv.cn/api.php/app/"
+    },
+    {
+      "key": "哔哩音乐",
+      "name": "🍓音乐鉴赏🍓",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.lyyytv.cn/yt/json/哔哩音乐.json"
     }
+
   ],
   "parses": [
     {
       "name": "线路1",
       "type": 0,
-      "url": "http://niiuma.qi-simple.top/niuma.php?key=HV8ZNkGISO7YomsQ&url=",
+      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
@@ -1273,7 +1190,7 @@
     {
       "name": "线路2",
       "type": 1,
-      "url": "https://api.huohua.live/api/?key=vw7rQBbgOih9jDCMVc&url=",
+      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
       "ext": {
         "flag": [
           "qq",
