@@ -1,302 +1,427 @@
- "lives": [
-   
+{
+  "spider": "http://appym.lyyytv.cn/uploads/tvbox/yt.jar",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "sites": [
     {
-      "group": "卫视频道",
-      "channels": [
+      "key": "csp_appys_影盒",
+      "name": "4K源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://csappym.lyyytv.cn/api.php/app/"
+    },
+    {
+      "key": "csp_appys_影探",
+      "name": "蓝光源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cszb.lyyytv.cn/api.php/app/"
+    },
+    {
+      "key": "哔哩音乐",
+      "name": "音乐",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://appzy.lyyytv.cn/uploads/tvbox/json/哔哩音乐.json"
+    },
+    {
+      "key": "客服",
+      "name": "",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "gridview": 3,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "cc",
+      "name": "",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "local3",
+      "name": "",
+      "type": 3,
+      "api": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "4K线路播放错误",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "重新登录账号验证 ",
+      "type": 1,
+      "url": "https://jx.bhs6.com/api/?key=32628af2ae1426e1a01c48192240dd1d&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "等5分钟即可",
+      "type": 1,
+      "url": "https://jx.cfwlgzs.cn/api/?key=z57RI2Ju1udRhU3D0v&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    }
+  ],
+  "rules": [
+    {
+      "host": "*",
+      "rule": [
+        "default.365yg.com"
+      ]
+    },
+    {
+      "host": "dyxs20.com",
+      "rule": [
+        ".m3u8"
+      ]
+    },
+    {
+      "host": "www.agemys.cc",
+      "rule": [
+        "cdn-tos",
+        "obj/tos-cn"
+      ]
+    },
+    {
+      "host": "www.sharenice.net",
+      "rule": [
+        "http.*?/play.{0,3}\\?[^url]{2,8}=.*"
+      ]
+    },
+    {
+      "host": "www.sharenice.net",
+      "rule": [
+        "qianpailive.com",
+        "vid="
+      ]
+    },
+    {
+      "host": "*",
+      "rule": [
+        "douyin.com/aweme",
+        "video_id="
+      ]
+    },
+    {
+      "host": "*",
+      "rule": [
+        "huoshan.com",
+        "/item/video/"
+      ]
+    },
+    {
+      "host": "*",
+      "rule": [
+        "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"
+      ]
+    },
+    {
+      "host": "*",
+      "rule": [
+        "http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"
+      ]
+    }
+  ],
+  "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
         {
-          "name": "山东卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL10000301/index.m3u8",
-            "http://47.109.155.164/jd/山西.php?id=cctv1"
-          ]
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
         },
         {
-          "name": "湖南卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000324/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv1"
-          ]
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
         },
         {
-          "name": "湖北卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000325/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv6"
-          ]
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
         },
         {
-          "name": "辽宁卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000326/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-       {
-          "name": "天津卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000327/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "安徽卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000328/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "贵州卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000329/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
         {
-          "name": "河北卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000330/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-      {
-          "name": "江苏卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000304/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
         {
-          "name": "浙江卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000305/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "黑龙江卫视",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000306/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-          },
-       {
-          "name": "CCTV11",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000344/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
         {
-          "name": "CCTV12",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000322/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
         {
-          "name": "CCTV13",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000345/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-          },
-         {
-          "name": "CCTV14",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000323/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ] 
-         },
-         {
-          "name": "CCTV15",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000346/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "CCTV16",
-          "urls": [
-            "http://39.170.52.236:808/hls/16/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "CCTV17",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000303/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
         }
       ]
     },
     {
-      "group": "央视频道",
-      "channels": [
+      "group": "硬解码",
+      "options": [
         {
-          "name": "CCTV1",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000311/index.m3u8",
-            "http://47.109.155.164/jd/山西.php?id=cctv1"
-          ]
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
         },
         {
-          "name": "CCTV2",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000317/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv1"
-          ]
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
         },
         {
-          "name": "CCTV3",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000359/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv6"
-          ]
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
         },
         {
-          "name": "CCTV4",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000320/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-       {
-          "name": "CCTV5",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000360/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "CCTV5+",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000316/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "CCTV6",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000361/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-        {
-          "name": "CCTV7",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000318/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-      {
-          "name": "CCTV8",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000362/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-        {
-          "name": "CCTV9",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000319/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "CCTV10",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000321/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-          },
-       {
-          "name": "CCTV11",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000344/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-        {
-          "name": "CCTV12",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000322/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-        {
-          "name": "CCTV13",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000345/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-          },
-         {
-          "name": "CCTV14",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000323/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ] 
-         },
-         {
-          "name": "CCTV15",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000346/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "CCTV16",
-          "urls": [
-            "http://39.170.52.236:808/hls/16/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-         },
-         {
-          "name": "CCTV17",
-          "urls": [
-            "http://150.138.8.132/00/SNM/CHANNEL00000303/index.m3u8",
-            "http://182.92.109.190:1668/72/72.php?id=cctv13"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "电影轮播",
-      "channels": [
-        {
-          "name": "高分电影",
-          "urls": [
-            "http://maomao.kandiantv.cn/douyu1.php?id=8770422",
-            "http://rihou.cc:555/huyad.php?id=11601971",
-            "http://liushizupu.site:35455/yy/id=1382754187"
-          ]
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
         },
         {
-          "name": "李连杰电影",
-          "urls": [
-            "http://rihou.cc:555/huyad.php?id=11342390",
-            "http://www.0745daxin.art:35455/yy/1459869766",
-            "http://zby.xjqxz.top/lljdy/live.m3u8"
-          ]
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
         },
         {
-          "name": "国产影院",
-          "urls": [
-            "http://jiaojirentv.top/2020/yy.php?id=1354210357",
-            "http://zby.xjqxz.top/live18/live.m3u8",
-            "http://ygbh.live/1905.php?id=1905a"
-          ]
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
         },
         {
-          "name": "经典僵尸片",
-          "urls": [
-            "http://mtw.so/5FCWRo",
-            "http://maomao.kandiantv.cn/douyu1.php?id=2935323",
-            "http://www.0745daxin.art:35455/yy/1354143966"
-          ]
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
         }
       ]
     }
+  ],
+  "ads": [
+    "wan.51img1.com",
+    "iqiyi.hbuioo.com",
+    "vip.ffzyad.com",
+    "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://www.lyyytv.cn/yt/zhibo/1.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://www.lyyytv.cn/yt/zhibo/epg.php"
+    }
   ]
+}
