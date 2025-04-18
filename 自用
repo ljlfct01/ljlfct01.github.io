@@ -922,8 +922,16 @@
     }
   ],
   "lives": [
+{
+      "name": "🏠自用",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/list.%E8%80%81%E4%B8%89%E7%9B%B4%E6%92%AD",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
     {
-      "name": "live",
+      "name": "🏠live",
       "type": 0,
       "url": "http://www.lyyytv.cn/yt/zhibo/1.txt",
       "playerType": 1,
