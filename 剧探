@@ -4,41 +4,51 @@
   "sites": [
     {
       "key": "csp_appys_影盒",
-      "name": "🍓4K源🍓",
+      "name": "4K源",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://csyt.lyyytv.cn/api.php/app/"
-    },
-  {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "🍓清风4k🍓",
-      "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://git.acwing.com/jilan/aa/-/raw/main/tt.js"
+      "ext": "http://csappym.lyyytv.cn/api.php/app/"
     },
     {
-      "key": "guoguo",
-      "name": "🍓水果4k🍓",
+      "key": "云腾酷酷1",
+      "name": "趣看┃腾腾4k",
       "type": 3,
-      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
+      "ext": "http://47.108.190.232:666/lib/10086.js"
+    },
+    {
+      "key": "芒果自家2",
+      "name": "趣看┃圣芒4K",
+      "type": 3,
+      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
+      "ext": "http://47.108.190.232:666/lib/2.js"
+    },
+    {
+      "key": "云腾酷酷3",
+      "name": "趣看┃腾云4K",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
+      "ext": "http://47.108.190.232:666/lib/3.js"
     },
     {
       "key": "csp_appys_影探",
-      "name": "🍓蓝光源🍓",
+      "name": "蓝光源",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -47,7 +57,7 @@
       "ext": "http://cszb.lyyytv.cn/api.php/app/"
     },
     {
-      "key": "🍓哔哩音乐🍓",
+      "key": "哔哩音乐",
       "name": "音乐",
       "type": 3,
       "api": "csp_Bili",
@@ -89,125 +99,15 @@
     }
   ],
   "parses": [
-   {
-      "name": "🍓钓鱼4k🍓",
-      "type": 1,
-      "url": "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
-    },
-
     {
-      "name": "🍓钓鱼4k1🍓",
-      "type": 1,
-      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
-    },
-    {
-      "name": "🍓钓鱼4k2🍓",
-      "type": 1,
-      "url": "http://114.66.55.28:555/api/index?parsesId=20&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
-    },
-  
-   {
-      "name": "🍓钓鱼4k3🍓",
-      "type": 1,
-      "url": "http://114.66.55.28:555/api/index?parsesId=23&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
-    },
-    {
-      "name": "🍓钓鱼a🍓",
+      "name": "4K线路播放错误",
       "type": 3,
       "url": "Demo"
     },
     {
-      "name": "🍓钓鱼b🍓 ",
+      "name": "重新登录账号验证 ",
       "type": 1,
-      "url": "https://jx.bhs6.com/api/?key=32628af2ae1426e1a01c48192240dd1d&url=",
+      "url": "http://tvbox.dysvips.top/api/index?parsesId=6&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
@@ -232,9 +132,9 @@
       }
     },
     {
-      "name": "🍓钓鱼c🍓",
+      "name": "等5分钟即可",
       "type": 1,
-      "url": "https://jx.cfwlgzs.cn/api/?key=z57RI2Ju1udRhU3D0v&url=",
+      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
       "ext": {
         "flag": [
           "qq",
@@ -550,7 +450,7 @@
   ],
   "lives": [
     {
-      "name": "🏠live",
+      "name": "live",
       "type": 0,
       "url": "http://www.lyyytv.cn/yt/zhibo/1.txt",
       "playerType": 1,
@@ -652,9 +552,9 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
  {
-      "name": "🏠极速湾湾",
+      "name": "🏠OK芸影",
       "type": 0,
-      "url": "https://mpimg.cn/down.php/6e9d3a4700296e7baca537562ec6608b.txt",
+      "url": "https://6296.kstore.vip/25.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
@@ -713,9 +613,9 @@
     },
   
     {
-      "name": "🏠安心TV",
+      "name": "🏠昭昭TV",
       "type": 0,
-      "url": "https://11344.kstore.space/dd.txt",
+      "url": "http://file.91kds.cn/tvlist/2025030711/kds_all_common.txt",
       "playerType": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -738,14 +638,7 @@
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-  {
-      "name": "🏠x315601",
-      "url": "http://x315601.serv00.net/10.php",
-      "type": 0,
-      "ua": "okhttp/3.15",
-      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
-      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     }
+
   ]
 }
