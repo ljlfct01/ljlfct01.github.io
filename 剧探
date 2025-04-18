@@ -14,7 +14,7 @@
     },
     {
       "key": "云腾酷酷1",
-      "name": "趣看┃腾腾4k",
+      "name": "腾腾4k",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -25,7 +25,7 @@
     },
     {
       "key": "芒果自家2",
-      "name": "趣看┃圣芒4K",
+      "name": "圣芒4K",
       "type": 3,
       "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
       "searchable": 1,
@@ -37,7 +37,7 @@
     },
     {
       "key": "云腾酷酷3",
-      "name": "趣看┃腾云4K",
+      "name": "腾云4K",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -102,12 +102,12 @@
     {
       "name": "4K线路播放错误",
       "type": 3,
-      "url": "Demo"
+      "url": "http://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl="
     },
     {
       "name": "重新登录账号验证 ",
       "type": 1,
-      "url": "http://tvbox.dysvips.top/api/index?parsesId=6&appid=10000&videoUrl=",
+      "url": "http://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
