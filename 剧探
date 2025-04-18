@@ -99,10 +99,33 @@
     }
   ],
   "parses": [
+  
     {
-      "name": "4K线路播放错误",
+      "name": "4K线路播放错误 ",
       "type": 1,
-      "url": "http://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl="
+      "url": "http://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
     },
     {
       "name": "重新登录账号验证 ",
