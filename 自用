@@ -36,21 +36,21 @@
     },
     {
       "key": "腾讯",
-      "name": "腾VIP",
+      "name": "腾4KVIP",
       "type": 3,
       "api": "https://d.kstore.dev/download/13952/lib/apiv975apiv381drpy2.min.js",
       "ext": "https://d.kstore.dev/download/13952/lib/腾讯VIP.js"
     },
     {
       "key": "芒果",
-      "name": "芒果",
+      "name": "芒果4K",
       "type": 3,
       "api": "https://d.kstore.dev/download/13952/lib/apiv975apiv381drpy2.min.js",
       "ext": "https://d.kstore.dev/download/13952/lib/芒果.js"
     },
     {
       "key": "优酷",
-      "name": "优酷",
+      "name": "优酷4K",
       "type": 3,
       "api": "https://d.kstore.dev/download/13952/lib/apiv975apiv381drpy2.min.js",
       "ext": "https://d.kstore.dev/download/13952/lib/优酷.js"
@@ -178,9 +178,9 @@
   ],
   "parses": [
     {
-      "name": "https://mfjx.iwsyy.xyz/?url=",
+      "name": "聚合",
       "type": 3,
-      "url": "Demo"
+      "url": "https://mfjx.iwsyy.xyz/?url="
     }
 
 
@@ -462,7 +462,7 @@
   ],
   "lives": [
     {
-      "name": "live",
+      "name": "🏠live",
       "type": 0,
       "url": "http://www.lyyytv.cn/yt/zhibo/1.txt",
       "playerType": 1,
