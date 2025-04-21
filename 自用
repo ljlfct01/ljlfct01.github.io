@@ -1406,11 +1406,13 @@
     "raw.githubusercontent.com"
   ],
   "hosts": [
-    "cache.ott.ystenlive.itv.cmvideo.cn=39.135.132.221",
-    "cache.ott.bestlive.itv.cmvideo.cn=39.135.132.221",
-    "cache.ott.wasulive.itv.cmvideo.cn=39.135.132.221",
-    "cache.ott.fifalive.itv.cmvideo.cn=39.135.132.221",
-    "cache.ott.hnbblive.itv.cmvideo.cn=39.135.132.221"
+        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+
   ],
   "ads": [
     "mimg.0c1q0l.cn",
