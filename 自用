@@ -13,16 +13,7 @@
       "ext": "http://csjt.lyyytv.cn/api.php/app/"
     },
  
-           {
-      "key": "sgys",
-      "name": "💐影视家┃腾讯4K",
-      "type": 3,
-      "api": "http://www.meowtv.cn/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://www.meowtv.cn/js/meow.php?file=sgsp"
-    },
+   
     {
       "key": "🌞腾腾4K解析_js",
       "name": "腾4K",
@@ -535,6 +526,15 @@
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "🏠影视家",
+      "type": "0",
+      "pass": true,
+      "playerType": 1,
+      "url": "http://max.token.iptv.xin:2052/api/channels/%E7%8B%AC%E5%AE%B6%E4%BB%A3%E7%90%86%E6%BA%90/details?token=174780775220",
+      "epg": "http://epg.51zmt.top:8000/e.xml",
+      "logo": "https://epg.hackserver.net/logo/"
     },
   {
       "name": "🏠Govin",
