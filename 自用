@@ -12,7 +12,42 @@
       "filterable": 1,
       "ext": "http://csjt.lyyytv.cn/api.php/app/"
     },
- 
+     {
+      "key": "QTV",
+      "name": "♨️腾讯4K®(官)",
+      "type": 3,
+      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
+      "ext": "https://bbs.ystv.cc/js/txvip.js"
+    },
+    {
+      "key": "芒果",
+      "name": "♨️芒果4K®(官)",
+      "type": 3,
+      "playerType": 2,
+      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
+      "ext": "https://bbs.ystv.cc/js/mgtv.js"
+    },
+    {
+      "key": "优酷",
+      "name": "♨️优酷4K®(官)",
+      "type": 3,
+      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
+      "ext": "https://bbs.ystv.cc/js/youku.js"
+    },
+    {
+      "key": "哔哩影视",
+      "name": "♨️哔哩4K®(官)",
+      "type": 3,
+      "api": "csp_Bili_YS",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "json": "https://bbs.ystv.cc/json/bili_ys.json",
+        "cookie": "buvid3=2A47FEEA-D2B3-A4D8-4188-8672F67F790881718infoc; b_nut=1736755981; b_lsid=A9B6E5C5_1945EB92D7C; bsource=search_bing; _uuid=FF8D42C3-FA7F-F8D3-1D35-836BB1616F2281715infoc; enable_web_push=DISABLE; home_feed_column=4; browser_resolution=1018-472; buvid4=DC03E5ED-5C2F-6793-AB20-20EBA71969FB82690-025011308-uBf1XVJx3Z28PrdTHlNSCQ%3D%3D; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzcwMTUxODMsImlhdCI6MTczNjc1NTkyMywicGx0IjotMX0.X0EuFJpEGYzKpMhjvVpLGo298wdk88-mWeScOaiuBgE; bili_ticket_expires=1737015123; buvid_fp=cd12ea2c307f983a6df10ab3707208c2; SESSDATA=a36fbba8%2C1752308027%2Cffd8f%2A12CjBI6RqfOrnVNALk5cc-ZnrrrhY7Ieur3WC0cvEA_dFHbA_vAvVTf9AtBYa4yvNf66ESVkxCQ0NPeFFxT2tEZlpNeTlILWVzSTNtejExOEdoN0xfRlpJR0NtSGs5by1fYkl6MkhabmtNalhLSDZrazA4Y0ZheGk5Vm4xbHpackQ5ai16b2VvTWpBIIEC; bili_jct=b0ca5551febc617bd25145807d57a881; DedeUserID=3546609111533924; DedeUserID__ckMd5=7b3ecc045fe0ce26; sid=h8owh2b4"
+      },
+      "jar": "https://bbs.ystv.cc/jar/bili.jar"
+    },
    
     {
       "key": "🌞腾腾4K解析_js",
