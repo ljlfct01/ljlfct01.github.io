@@ -471,9 +471,7 @@
     "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
   ],
   "lives": [
-{"name": "焦点(Focus TV)","type": 0,"url": "http://xg.52sw.top/jd/?ip=108.181.32.169","ua": "okhttp/3.15","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"},
-{"name": "欧华(ouhua TV)","type": 0,"url": "http://xg.52sw.top/iptv/欧华.m3u","ua": "okhttp/3.15","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"},
-{"name": "173源","type": 0,"url": "http://xg.52sw.top/play/bst/173.txt","ua": "okhttp/3.15","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"},
+
 
     {
       "name": "🏠live",
@@ -725,7 +723,14 @@
       "playerType": 2,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
-   
+    {
+      "name": "🏠港",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/live4.txt",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
+    },
     {
       "name": "🏠爱家影院",
       "type": 0,
