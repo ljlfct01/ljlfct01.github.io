@@ -723,14 +723,7 @@
       "playerType": 2,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
-    {
-      "name": "🏠港",
-      "type": 0,
-      "url": "https://slink.ltd/https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/live4.txt",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
-      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    },
+   
     {
       "name": "🏠爱家影院",
       "type": 0,
@@ -739,7 +732,13 @@
       "playerType": 2,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
-  
+     {
+            "name": "ofiii[台湾节点]",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/tvbus/ofiii.m3u",
+            "ua": "okhttp/3.15",
+            "epg": ""
+        }
     {
       "name": "🏠安心TV",
       "type": 0,
@@ -776,24 +775,16 @@
       "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     }
   ],
-  "headers": [
-    {
-      "host": "gslbserv.itv.cmvideo.cn",
-      "header": {
-        "User-Agent": "okhttp/3.12.13"
-      }
-    }
-  ],
-  "proxy": [
-    "raw.githubusercontent.com"
-  ],
-  "hosts": [
-    "cache.ott.ystenlive.itv.cmvideo.cn=39.135.132.221",
-    "cache.ott.bestlive.itv.cmvideo.cn=39.135.132.221",
-    "cache.ott.wasulive.itv.cmvideo.cn=39.135.132.221",
-    "cache.ott.fifalive.itv.cmvideo.cn=39.135.132.221",
-    "cache.ott.hnbblive.itv.cmvideo.cn=39.135.132.221"
-  ],
+
+   "rules": [
+        {
+            "name": "ofiii[台湾节点]",
+            "hosts": [
+                "www.ofiii.com"
+            ],
+            "script": [
+                "const play=document.getElementsByClassName(\"play_icon\")[0];const event=new MouseEvent(\"click\",{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
+            ]
   "ads": [
     "mimg.0c1q0l.cn",
     "www.googletagmanager.com",
