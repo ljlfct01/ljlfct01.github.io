@@ -12,18 +12,7 @@
       "filterable": 1,
       "ext": "http://csjt.lyyytv.cn/api.php/app/"
     },
-  {
-      "key": "QTV",
-      "name": "♨腾讯4K®(官)",
-      "type": 3,
-      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
-      "ext": "https://bbs.ystv.cc/js/txvip.js"
-    },
- 
- 
-  
- 
-    {
+ {
       "key": "🌞腾腾4K解析_js",
       "name": "♨腾4K®",
       "type": 3,
@@ -165,7 +154,11 @@
     }
   ],
   "parses": [
-
+   {
+      "name": "聚合1",
+      "type": 3,
+      "url": "Demo"
+    }
 
   ],
   "rules": [
