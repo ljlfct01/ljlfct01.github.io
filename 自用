@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "csp_appys_影盒",
-      "name": "4K源",
+      "name": "♨影视4K源®",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -35,6 +35,27 @@
       "ext": "https://bbs.ystv.cc/js/youku.js"
     },
     {
+      "key": "♨爱奇异",
+      "name": "♨爱奇艺4K®(官)",
+      "type": 3,
+      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
+      "ext": "https://bbs.ystv.cc/js/aiqiyi.js"
+    },
+    {
+      "key": "360",
+      "name": "♨3604K®(官)",
+      "type": 3,
+      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
+      "ext": "https://bbs.ystv.cc/js/360ys.js"
+    },
+    {
+      "key": "央视",
+      "name": "央视4K®(官)",
+      "type": 3,
+      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
+      "ext": "https://bbs.ystv.cc/js/yangshi.js"
+    },
+    {
       "key": "哔哩影视",
       "name": "♨哔哩4K®(官)",
       "type": 3,
@@ -50,7 +71,7 @@
     },
     {
       "key": "🌞腾腾4K解析_js",
-      "name": "腾4K",
+      "name": "♨腾4K®",
       "type": 3,
       "api": "https://d.kstore.dev/download/13952/lib/apiv975apiv381drpy2.min.js",
       "searchable": 1,
@@ -61,7 +82,7 @@
     },
     {
       "key": "果果4K解析_js",
-      "name": "果4K",
+      "name": "♨果4K®",
       "type": 3,
       "api": "https://d.kstore.dev/download/13952/lib/apiv975apiv381drpy2.min.js",
       "searchable": 1,
@@ -72,28 +93,28 @@
     },
     {
       "key": "腾讯",
-      "name": "腾VIP",
+      "name": "♨腾VIP4K®",
       "type": 3,
       "api": "https://d.kstore.dev/download/13952/lib/apiv975apiv381drpy2.min.js",
       "ext": "https://d.kstore.dev/download/13952/lib/腾讯VIP.js"
     },
     {
       "key": "芒果",
-      "name": "芒果",
+      "name": "♨芒果4K®",
       "type": 3,
       "api": "https://d.kstore.dev/download/13952/lib/apiv975apiv381drpy2.min.js",
       "ext": "https://d.kstore.dev/download/13952/lib/芒果.js"
     },
     {
       "key": "优酷",
-      "name": "优酷",
+      "name": "♨优酷4K®",
       "type": 3,
       "api": "https://d.kstore.dev/download/13952/lib/apiv975apiv381drpy2.min.js",
       "ext": "https://d.kstore.dev/download/13952/lib/优酷.js"
     },
   {
       "key": "hipy_js_腾云驾雾[官]",
-      "name": "清风4k",
+      "name": "♨清风4k®",
       "type": 3,
       "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
       "searchable": 1,
@@ -105,7 +126,7 @@
     },
     {
       "key": "guoguo",
-      "name": "水果4k",
+      "name": "♨水果4k®",
       "type": 3,
       "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
       "searchable": 1,
@@ -115,30 +136,10 @@
       "changeable": 0,
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
     },
-    {
-      "key": "爱奇异",
-      "name": "♨爱奇艺®(官)",
-      "type": 3,
-      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
-      "ext": "https://bbs.ystv.cc/js/aiqiyi.js"
-    },
-    {
-      "key": "360",
-      "name": "360┃(官)",
-      "type": 3,
-      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
-      "ext": "https://bbs.ystv.cc/js/360ys.js"
-    },
-    {
-      "key": "央视",
-      "name": "央视┃(官)",
-      "type": 3,
-      "api": "https://bbs.ystv.cc/js/lib/drpy2.min.js",
-      "ext": "https://bbs.ystv.cc/js/yangshi.js"
-    },
+  
     {
       "key": "csp_appys_影探",
-      "name": "蓝光源",
+      "name": "♨蓝光源4K®",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -148,7 +149,7 @@
     },
   {
       "key": "ygcl",
-      "name": "影港4K",
+      "name": "♨影港4K®",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -159,7 +160,7 @@
     },
     {
       "key": "csp_appys_网采",
-      "name": "采集(勿信广告)",
+      "name": "♨采集4K®",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -169,7 +170,7 @@
     },
     {
       "key": "哔哩音乐",
-      "name": "音乐",
+      "name": "♨音乐4K®",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -179,7 +180,7 @@
     },
     {
       "key": "客服",
-      "name": "看球",
+      "name": "♨看球®",
       "type": 3,
       "api": "csp_Kanqiu",
       "searchable": 1,
