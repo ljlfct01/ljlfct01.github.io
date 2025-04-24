@@ -12,9 +12,33 @@
       "filterable": 1,
       "ext": "http://csjt.lyyytv.cn/api.php/app/"
     },
+  {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "♨清风4k®",
+      "type": 3,
+      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://git.acwing.com/jilan/aa/-/raw/main/tt.js"
+    },
+    {
+      "key": "guoguo",
+      "name": "♨水果4k®",
+      "type": 3,
+      "api": "https://gitee.com/qqlan/lan/raw/master/%E9%92%93%E9%B1%BC/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
+    },
  {
       "key": "csp_appys_影探",
-      "name": "♨蓝光源®",
+      "name": "♨蓝光源4k®",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -94,7 +118,61 @@
     {
       "name": "影探A",
       "type": 1,
-      "url": "http://8.129.30.117:8117/diaoyu.php?url=",
+      "url": "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "影探B",
+      "type": 1,
+      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "影探C",
+      "type": 1,
+      "url": "https://tvbox.dysvips.top/api/index?parsesId=8&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
