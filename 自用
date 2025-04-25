@@ -687,15 +687,7 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-{
-      "name": "🏠昭昭TV",
-      "type": 0,
-      "url": "http://file.91kds.cn/tvlist/2025030711/kds_all_common.txt",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
+
 {
       "name": "🏠宝盒电视",
       "type": 0,
@@ -705,15 +697,7 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
- {
-      "name": "🏠壹梦直播",
-      "type": 0,
-      "url": "https://pan.baidu.re/down.php/0cf06ff16433a3e62be0f25620f6b2bb.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
  {
       "name": "🏠YIYI影盒TV",
       "type": 0,
@@ -802,16 +786,7 @@
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
-   {
-      "name": "🏠SMT直播(python)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt_proxy_001.py",
-      "playerType": 1,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "ext": {}
-    },
+ 
     {
       "name": "🏠AKTV",
       "type": 0,
