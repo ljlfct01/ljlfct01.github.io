@@ -1,14 +1,23 @@
 {
-  "spider": "https://www.lintech.work/标准杯/custom_spider_20250409.tms;md5;6c9e15eb23d4aef7c667b25b1c2eb064",
+  "spider": "https://www.lintech.work/超大杯/custom_spider_20250409.tms;md5;6c9e15eb23d4aef7c667b25b1c2eb064",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
-  "lives": [],
+  "lives": [
+    {
+      "name": "iptv-api",
+      "type": 0,
+      "url": "https://slink.ltd/https://raw.githubusercontent.com/bestpvp/iptv-api/refs/heads/master/output/result.txt",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    }
+  ],
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
-     {
+    {
       "key": "时光机",
-      "name": "🥤时光机超大杯 🗓️v20250416-🧵89",
+      "name": "🥤时光机超大杯 🗓️v20250424-🧵89",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -16,7 +25,7 @@
       "filterable": 1,
       "ext": {
         "sourceType": 0,
-        "sourceVersion": "20250407"
+        "sourceVersion": "20250424"
       }
     },
     {
@@ -63,7 +72,6 @@
       "playerType": 1,
       "ext": {}
     },
-
     {
       "key": "🈵 醉挽清风 | JX",
       "name": "🈵 醉挽清风 | JX",
@@ -75,7 +83,7 @@
       "ext": {
         "jxApi": "mryyNuf38YFwIDElsErSzW1/GaCSKBjH/IxYOlDycUzguOjmMNNHDDRfWHPMcQ8Ol9KswxaTVsB8QHghS9aerXJCYOJ3pZHQCfw4pz7VgaY=",
         "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
-        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SDQkgVRueDby+EeOKua3ZRtXjexbGZPZ+G3NEu/v2BCyPGfXZ5e8r11MpXiS4bFxes="
+        "danmu": ""
       }
     },
     {
@@ -90,7 +98,7 @@
       "ext": {
         "jxApi": "mryyNuf38YFwIDElsErSzW1/GaCSKBjH/IxYOlDycUzguOjmMNNHDDRfWHPMcQ8Ol9KswxaTVsB8QHghS9aerXJCYOJ3pZHQCfw4pz7VgaY=",
         "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK",
-        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SDQkgVRueDby+EeOKua3ZRtXjexbGZPZ+G3NEu/v2BCyPGfXZ5e8r11MpXiS4bFxes="
+        "danmu": ""
       }
     },
     {
@@ -105,7 +113,7 @@
       "ext": {
         "jxApi": "mryyNuf38YFwIDElsErSzW1/GaCSKBjH/IxYOlDycUzguOjmMNNHDDRfWHPMcQ8Ol9KswxaTVsB8QHghS9aerXJCYOJ3pZHQCfw4pz7VgaY=",
         "prefix": "UPris27MuMWJyAl048qao/nd48tAp845xgreKMXD8HUrLqbgS1sq6WSTqhIT+2++",
-        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SDQkgVRueDby+EeOKua3ZRtXjexbGZPZ+G3NEu/v2BCyPGfXZ5e8r11MpXiS4bFxes="
+        "danmu": ""
       }
     },
     {
@@ -218,7 +226,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/heji.json",
+      "ext": "https://www.lintech.work/超大杯/sites/码上/heji.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
@@ -232,7 +240,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sites/码上/xiqu.json",
+      "ext": "https://www.lintech.work/超大杯/sites/码上/xiqu.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
@@ -286,6 +294,25 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
+    },
+    {
+      "key": "🐍 外国剧 | PY",
+      "name": "🐍 外国剧 | PY",
+      "type": 3,
+      "api": "https://slink.ltd/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/py_guowaiju.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "🐍 华数 | PY",
+      "name": "🐍 华数 | PY",
+      "type": 3,
+      "api": "https://slink.ltd/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/hua.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
     },
     {
       "key": "🚀 火狐 | T4",
@@ -535,8 +562,8 @@
       "searchable": 0
     },
     {
-      "key": "公众号: 暂无",
-      "name": "公众号: 暂无",
+      "key": "公众号: 插兜的干货仓库",
+      "name": "公众号: 插兜的干货仓库",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -548,7 +575,7 @@
       "type": 3,
       "api": "csp_Config",
       "playerType": 2,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_FeiMaoUC",
@@ -562,7 +589,7 @@
         ],
         "url_key": "FeiMaoUC"
       },
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Duopan",
@@ -577,25 +604,13 @@
           "http://feimaoai.site",
           "http://www.labi88.sbs"
         ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
         "url_key": "Duopan2"
       },
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
-    },
-    {
-      "key": "csp_XMUC",
-      "name": "猫->🍚┃小米┃UC",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://www.mucpan.cc",
-          "https://milvdou.fun",
-          "https://54271.fun"
-        ],
-        "url_key": "XMUC"
-      },
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Netfixtv",
@@ -615,11 +630,11 @@
         "ucCookie": "",
         "quarkCookie": "",
         "threadinfo": {
-          "chunksize": 450,
-          "threads": 10
+          "chunksize": 512,
+          "threads": 16
         }
       },
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "潮流",
@@ -627,7 +642,7 @@
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "梦回",
@@ -635,7 +650,7 @@
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "星辉",
@@ -643,21 +658,21 @@
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Lgyy",
       "name": "猫->✨️️┃流光┃影视",
       "type": 3,
       "api": "csp_Lgyy",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Jpys",
       "name": "猫->🥇️┃金牌┃影视",
       "type": 3,
       "api": "csp_Jpys",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Wwys",
@@ -665,14 +680,14 @@
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://www.wwgz.cn",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Siren",
       "name": "猫->🎉️┃私人┃影城",
       "type": 3,
       "api": "csp_Siren",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Panda_玩偶哥哥",
@@ -684,21 +699,21 @@
       "timeout": 30,
       "changeable": 0,
       "ext": "https://www.wogg.one/",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Lkdy",
       "name": "猫->🏔️┃来看┃影视",
       "type": 3,
       "api": "csp_Lkdy",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Tvyb",
       "name": "猫->☁️️┃云播┃影视",
       "type": 3,
       "api": "csp_Tvyb",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Kanke",
@@ -706,7 +721,7 @@
       "type": 3,
       "api": "csp_Kanke",
       "ext": "http://www.guaziys.com",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Qiyou",
@@ -714,7 +729,7 @@
       "type": 3,
       "api": "csp_Qiyou",
       "ext": "http://www.dyxz2.com/",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "荐片",
@@ -723,7 +738,7 @@
       "type": 3,
       "playerType": "2",
       "ext": "http://api2.rinhome.com",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Fantuan",
@@ -732,7 +747,7 @@
       "api": "csp_Fantuan",
       "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
       "ext": "https://www.fantuan.vip",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Quanwk",
@@ -740,7 +755,7 @@
       "type": 3,
       "api": "csp_Quanwk",
       "ext": "https://www.91qkw.com",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_J",
@@ -748,7 +763,7 @@
       "type": 3,
       "api": "csp_Jiaozi",
       "playerType": 2,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_SaoHuo",
@@ -757,7 +772,7 @@
       "api": "csp_SaoHuo",
       "playerType": 2,
       "ext": "https://shdy5.us",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Gz360",
@@ -765,7 +780,7 @@
       "type": 3,
       "api": "csp_Gz360",
       "playerType": 2,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_LiteApple",
@@ -775,7 +790,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "厂长",
@@ -787,21 +802,21 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://www.czzyvideo.com",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_AppXY",
       "name": "猫->🎀️┃星牙┃短剧",
       "type": 3,
       "api": "csp_AppXY",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_SP360",
       "name": "猫->📺┃360┃官源",
       "type": 3,
       "api": "csp_SP360",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Bili",
@@ -817,7 +832,7 @@
         "type": "rect",
         "ratio": 1.333
       },
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c",
       "searchable": 0
     },
     {
@@ -831,7 +846,7 @@
         "type": "rect",
         "ratio": 1.333
       },
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_Dm84",
@@ -839,7 +854,7 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_Dm84",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_FirstAid",
@@ -853,7 +868,7 @@
         "ratio": 3.8
       },
       "gridview": "0-0-4.1",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "酷狗",
@@ -869,7 +884,7 @@
           }
         ]
       },
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "酷奇",
@@ -888,7 +903,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "虎牙直播js",
@@ -931,7 +946,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "drpy_js_310直播",
@@ -951,7 +966,7 @@
       "type": 3,
       "api": "csp_MiSou",
       "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "csp_PanSearch",
@@ -959,7 +974,7 @@
       "type": 3,
       "api": "csp_PanSearch",
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "儿童",
@@ -988,7 +1003,7 @@
         "ratio": 1.597
       },
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "小学",
@@ -1003,7 +1018,7 @@
         "ratio": 1.597
       },
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "初中",
@@ -1018,7 +1033,7 @@
         "ratio": 1.597
       },
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     },
     {
       "key": "高中",
@@ -1033,7 +1048,7 @@
         "ratio": 1.597
       },
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743585859085/feimao0402.txt;md5;0eb2982f38dbfec8021442578e14da7b"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745087784165/feimao0420v1.txt;md5;e853983962fe330f0aa8e242e7ac6c1c"
     }
   ],
   "parses": [
@@ -1059,15 +1074,15 @@
       "type": 3,
       "url": "Web"
     },
- {
-      "name": "4K",
+    {
+      "name": "qiyi[官源]",
       "type": 1,
-      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url="
+      "url": "http://39.104.230.177:1122/lxjx/myyk.php?url="
     },
     {
-      "name": "4K1",
+      "name": "肥猫最可爱",
       "type": 1,
-      "url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
+      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
       "ext": {
         "flag": [
           "qq",
@@ -1098,15 +1113,7 @@
           "YuMi-vip"
         ]
       }
-    },
-
- {
-      "name": "qiyi[官源]",
-      "type": 1,
-      "url": "https://api.huohua.live/api/?key=vw7rQBbgOih9jDCMVc&url="
     }
- 
-
   ],
   "rules": [
     {
