@@ -587,14 +587,11 @@
     {
       "name": "🏠外置测试",
       "type": 0,
-      "url": "https://slink.ltd//raw.githubusercontent.com/sln654360/itv/refs/heads/main/itv.txt",
+      "url": "https://gcore.jsdelivr.net/gh/sln654360/itv/itv.txt?id=4109",
       "ua": "okhttp/3.15",
       "epg": "https://iptv.crestekk.cn/epgphp/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.cn/tv/{name}.png",
-      "catchup": {
-        "type": "append",
-        "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-      }
+      "logo": "https://live.fanmingming.cn/tv/{name}.png"
+   
     },
    {
       "name": "🏠影视家",
