@@ -82,7 +82,7 @@ proxies:
 
   
   - name: 美国1
-    server: usport1-cdn-route.couldflare-cdn.com
+    server: usgp5-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -90,7 +90,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国2
-    server: usgp1-cdn-route.couldflare-cdn.com
+    server: hksa4pay-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -106,7 +106,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国4
-    server: ustx004-cdn-route.couldflare-cdn.com
+    server: ussa4-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -122,7 +122,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国6
-    server: hksa1-cdn-route.couldflare-cdn.com
+    server: uksa1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -130,7 +130,7 @@ proxies:
     username: 66f8f673da8351704fcebf2d621a54
     password: 8d6e2166f8f673da8351704fcebf2e
   - name: 美国7
-    server: ussa6-cdn-route.couldflare-cdn.com
+    server: hksa2-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -139,51 +139,6 @@ proxies:
     password: exaxgqkKkd0TAMrCxeonWg==
 
 
-  - {name: 🇬🇧 英国_https://t.me/mfjdkx, server: 158.180.228.226, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddsz.cfd}}, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx, server: tencent.vpne.one, port: 18988, type: ss, cipher: aes-128-gcm, password: a77288b8-3a1b-4f1a-af4e-d721ccb92297, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 2, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504212352625-1jaHlWfGGj.download.microsoft.com}, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 3, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504212352625-1jaHlWfGGj.download.microsoft.com}, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 4, server: 62.60.233.240, port: 55548, type: ss, cipher: chacha20-ietf-poly1305, password: HLJHywJQTSfO5Lqg57Hfig, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 5, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 6, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 7, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 8, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 9, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 10, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 11, server: 112.65.92.20, port: 45402, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 12, server: 120.232.17.9, port: 45269, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 13, server: 120.232.153.40, port: 57852, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 14, server: 120.199.83.240, port: 45260, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 15, server: 120.199.83.240, port: 45260, type: vmess, uuid: 3888997d-dca4-40ba-92e4-06b6918c9643, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 16, server: 36.150.232.128, port: 45285, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 17, server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com, port: 17233, type: vmess, uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 18, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 19, server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com, port: 17233, type: vmess, uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 20, server: 120.198.71.219, port: 44015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 21, server: 144.255.36.254, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 22, server: dxv4.pai50288.uk, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 23, server: 120.232.153.40, port: 59082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 24, server: 183.236.51.38, port: 32919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 25, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 26, server: 120.198.71.216, port: 42259, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 27, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 28, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 29, server: 183.236.51.38, port: 54652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 30, server: 120.232.153.41, port: 46597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 31, server: 120.234.102.229, port: 43674, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 32, server: sx.75886993.xyz, port: 15375, type: ss, cipher: aes-128-gcm, password: a77288b8-3a1b-4f1a-af4e-d721ccb92297, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 33, server: 60a411de-sva740-t7uinf-i8ie.cm.plebai.net, port: 15229, type: vmess, uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 34, server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com, port: 17231, type: vmess, uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 35, server: qh62onjn.slashdevslashnetslashtun.net, port: 15011, type: ss, cipher: aes-256-gcm, password: N4WB5VAL40S0WSH8, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 36, server: d9e7fec2-sva740-svo46i-1tmhw.cm.plebai.net, port: 15229, type: vmess, uuid: 46459926-0fbd-11f0-b0c8-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 37, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 香港_https://t.me/mfjdkx 38, server: 89.18.58.63, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇺🇦 乌克兰_https://t.me/mfjdkx, server: 195.85.250.173, port: 5555, type: ss, cipher: chacha20-ietf-poly1305, password: 4QbzZcp6q7kg0LCrZfyQ9w, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/mfjdkx, server: 45.86.66.16, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NGJiN, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/mfjdkx 2, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/mfjdkx 3, server: ye.fxlcn.com, port: 45245, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/mfjdkx 4, server: lt.fxlcn.com, port: 45231, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 🇺🇸 美国_https://t.me/mfjdkx 5, server: lt.fxlcn.com, port: 45291, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
 
 
 
