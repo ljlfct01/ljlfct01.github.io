@@ -159,12 +159,34 @@
   ],
   "parses": [
    {
-      "name": "聚合1",
+      "name": "4KA",
       "type": 1,
-      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url="
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
     },
     {
-      "name": "影探A",
+      "name": "4KB",
       "type": 1,
       "url": "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
       "ext": {
@@ -191,7 +213,7 @@
       }
     },
     {
-      "name": "影探B",
+      "name": "4KC",
       "type": 1,
       "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
       "ext": {
