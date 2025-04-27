@@ -25,14 +25,38 @@
       "ext": "http://111.173.117.169:7779/api.php/app/"
     },
      {
-      "key": "sgys",
-      "name": "💐影视家┃腾讯4K",
+      "key": "云腾酷酷1",
+      "name": "腾腾4k",
       "type": 3,
-      "api": "http://www.meowtv.cn/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
+      "ext": "http://47.108.190.232:666/lib/10086.js"
+    },
+    {
+      "key": "芒果自家2",
+      "name": "圣芒4K",
+      "type": 3,
+      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://www.meowtv.cn/js/meow.php?file=sgsp"
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://47.108.190.232:666/lib/2.js"
+    },
+    {
+      "key": "云腾酷酷3",
+      "name": "腾云4K",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/drpy2.min.js",
+      "ext": "http://47.108.190.232:666/lib/3.js"
     },
   {
       "key": "ygcl",
