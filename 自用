@@ -47,6 +47,53 @@
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/影港.json",
       "jar": "https://git.acwing.com/jilan/aa/-/raw/main/nx4.jar"
     },
+   {
+      "key": "腾讯",
+      "name": "腾讯",
+      "type": 3,
+      "api": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/drpy2.min.js",
+      "jar": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/tx.js"
+    },
+    {
+      "key": "guoguo",
+      "name": "芒果",
+      "type": 3,
+      "api": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/drpy2.min.js",
+      "jar": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/mgtv.js"
+    },
+    {
+      "key": "奇异果",
+      "name": "奇艺",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/drpy2.min.js",
+      "jar": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/spider.jar",
+      "searchable": 2,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/奇珍异兽.js"
+    },
+    {
+      "key": "优酷视频",
+      "name": "优酷",
+      "type": 3,
+      "api": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/drpy2.min.js",
+      "jar": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/spider.jar",
+      "ext": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/优酷视频.js"
+    },
  {
       "key": "csp_appys_影探",
       "name": "蓝光源",
