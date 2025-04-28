@@ -36,7 +36,24 @@
       "changeable": 0,
       "ext": "https://git.acwing.com/jilan/aa/-/raw/main/guoguo.js"
     },
-
+       {
+            "key": "笔触琉璃",
+            "name": "笔触琉璃┃4K弹幕",
+            "type": 3,
+            "api": "csp_Bilimd",
+            "jar": "http://我不是.摸鱼儿.com/by/jar/Pizazz.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "file://tvbox/bilibili.txt"
+            },
+            "timeout": 10
+        },
   {
       "key": "ygcl",
       "name": "影港4K",
