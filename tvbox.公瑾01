@@ -1,5 +1,6 @@
 {
   "spider": "https://www.lintech.work/超大杯/custom_spider_20250409.tms;md5;6c9e15eb23d4aef7c667b25b1c2eb064",
+  // "spider": "http://appym.lyyytv.cn/uploads/tvbox/yt.jar",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -72,7 +73,16 @@
       "playerType": 1,
       "ext": {}
     },
- 
+   {
+      "key": "csp_appys_影盒",
+      "name": "4K源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://csmf.lyyytv.cn/api.php/app/"
+    },
     {
       "key": "🈵 醉挽清风 | JX",
       "name": "🈵 醉挽清风 | JX",
