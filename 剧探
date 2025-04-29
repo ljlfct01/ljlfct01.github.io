@@ -117,6 +117,10 @@
     }
   ],
   "parses": [
+ 	{"name":"Web聚合","type":3,"url":"Web"},
+	{"name":"解析聚合","type":3,"url":"Demo"},
+	{"name":"Json轮询","type":2,"url":"Sequence"},
+	{"name":"Json并发","type":2,"url":"Parallel"},
    {
       "name": "4KA",
       "type": 1,
