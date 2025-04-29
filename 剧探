@@ -112,11 +112,7 @@
     }
   ],
   "parses": [
- 	{"name":"Web聚合","type":3,"url":"Web"},
-	{"name":"解析聚合","type":3,"url":"Demo"},
-	{"name":"Json轮询","type":2,"url":"Sequence"},
-	{"name":"Json并发","type":2,"url":"Parallel"},
-   {
+    {
       "name": "4KA",
       "type": 1,
       "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
@@ -124,81 +120,137 @@
         "flag": [
           "qq",
           "腾讯",
+          "企鹅",
+          "IQiYi",
           "qiyi",
           "爱奇艺",
           "奇艺",
           "youku",
+          "YouKu",
           "优酷",
           "sohu",
+          "SoHu",
           "搜狐",
           "letv",
+          "LeShi",
           "乐视",
+          "imgo",
           "mgtv",
+          "MangGuo",
           "芒果",
-          "rx",
-          "ltnb",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
           "bilibili",
-          "1905",
-          "xigua"
-        ]
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
       }
     },
-
-    {
+  {
       "name": "4KB",
-      "type": 1,
-      "url": "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
-    },
-    {
-      "name": "4KC",
       "type": 1,
       "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
       "ext": {
         "flag": [
           "qq",
           "腾讯",
+          "企鹅",
+          "IQiYi",
           "qiyi",
           "爱奇艺",
           "奇艺",
           "youku",
+          "YouKu",
           "优酷",
           "sohu",
+          "SoHu",
           "搜狐",
           "letv",
+          "LeShi",
           "乐视",
+          "imgo",
           "mgtv",
+          "MangGuo",
           "芒果",
-          "rx",
-          "ltnb",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
           "bilibili",
-          "1905",
-          "xigua"
-        ]
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+  {
+      "name": "4KC",
+      "type": 1,
+      "url": "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
       }
     }
-
+ 
   ],
   "rules": [
     {
