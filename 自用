@@ -112,11 +112,10 @@
     }
   ],
   "parses": [
-   {
+    {
       "name": "4KA",
       "type": 1,
       "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
-      "ua": "User-Agent$okhttp/3.12.0#referer$123",
       "ext": {
         "flag": [
           "qq",
@@ -132,19 +131,19 @@
           "乐视",
           "mgtv",
           "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
+          "tnmb",
+          "seven",
+          "bilibili"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
       }
     },
     {
       "name": "4KB",
       "type": 1,
-      "url": "http://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
-      "ua": "User-Agent$okhttp/3.12.0#referer$123",
+      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
       "ext": {
         "flag": [
           "qq",
@@ -160,19 +159,19 @@
           "乐视",
           "mgtv",
           "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
+          "tnmb",
+          "seven",
+          "bilibili"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
       }
     },
-    {
+   {
       "name": "4KC",
       "type": 1,
-      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
-      "ua": "User-Agent$okhttp/3.12.0#referer$123",
+      "url": "http://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
@@ -188,14 +187,16 @@
           "乐视",
           "mgtv",
           "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
+          "tnmb",
+          "seven",
+          "bilibili"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
       }
     }
+
 
   ],
   "rules": [
