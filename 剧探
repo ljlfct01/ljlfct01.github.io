@@ -114,30 +114,119 @@
   ],
   "parses": [
     {
+      "name": "聚合1",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
       "name": "4KA",
       "type": 1,
-      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url="
-   
+      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
     },
-   {
+    {
       "name": "4KB",
       "type": 1,
-      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url="
-    
+      "url": "http://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
     },
-  {
+    {
       "name": "4KC",
       "type": 1,
-      "url": "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl="
-   
+      "url": "http://tvbox.dysvips.top/api/index?parsesId=8&appid=10000&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
     },
-   {
+    {
       "name": "4KD",
       "type": 1,
-      "url": "https://tvbox.dysvips.top/api/index?parsesId=8&appid=10000&videoUrl="
-   
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
     }
- 
+  
   ],
   "rules": [
     {
