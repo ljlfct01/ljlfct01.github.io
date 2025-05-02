@@ -663,6 +663,51 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+  {
+      "name": "🏠4GTV - 台湾",
+      "url": "http://docker.livednow.dpdns.org/?type=m3u",
+      "ua": "judy/5.2.1"
+    },
+    {
+      "name": "🏠香港视频 - 安卓",
+      "url": "https://smart.pendy.dpdns.org/m3u/MytvSuper.m3u",
+      "ua": "judy/5.2.1"
+    },
+   {
+      "name": "直播电视",
+      "type": 3,
+      "api": "https://framagit.org/knnnn/n/-/raw/main/j/kzb.py",
+      "ext": {}
+    },
+    {
+      "name": "直播体育",
+      "type": 3,
+      "api": "https://framagit.org/knnnn/n/-/raw/main/j/kzbty.py",
+      "ext": {}
+    },
+    {
+      "name": "yoo体育",
+      "type": 3,
+      "api": "https://framagit.org/knnnn/n/-/raw/main/j/yoozb.py",
+      "ext": {}
+    },
+    {
+      "name": "360pai",
+      "type": 3,
+      "api": "https://framagit.org/knnnn/n/-/raw/main/j/360pai.py",
+      "ext": {}
+    },
+{
+      "name": "01",
+      "type": 3,
+      "url": "http://46.17.45.162:918/IPTV.txt",
+      "ext": {}
+    },
+    {
+      "name": "🏠「咪咕」体育",
+      "url": "https://smart.pendy.dpdns.org/m3u/judy.m3u",
+      "ua": "judy/5.2.1"
+    },
  {
       "name": "🏠OK芸影",
       "type": 0,
