@@ -51,6 +51,38 @@
       "api": "https://gitee.com/sky4726/android-web-view/raw/master/pyinstaller/drpy_libs/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/sky4726/s/refs/heads/main/lib/腾云驾雾.js"
     },
+    {
+      "key": "狐狸君磁力",
+      "name": "狐狸┃免扫4K",
+      "type": 3,
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_XBPQ",
+       "jar":"https://cdn09022024.gitlink.org.cn/api/v1/repos/guot55/bh/raw/spider.jar",
+      "ext": {
+         "搜索模式": "1",
+      "搜索url": "https://www.foxjun.com/s/?q={wd}",
+      "搜索数组": "class=\"media\">&&/div>",
+      "搜索图片": "src=\"&&\"",
+      "搜索标题": "《&&》",
+      "搜索副标题": "》&&\"",
+      "搜索链接": "href=\"&&\"",
+      "标题": "《&&》",
+      "副标题": "》&&\"",
+      "影片年代": "上映日期：&&</p>",
+      "影片类型": "类型：&&</p>",
+      "主演": "主演：&&</p>",
+      "简介": "简介：&&</p>",
+      "播放数组": "<tbody>&&</tbody>",
+      "播放列表": "<a&&/a>[包含:magnet]",
+      "播放标题": ">&&<",
+      "播放链接": "href=\"&&\"",
+      "分类url": "https://www.foxjun.com/channel/{cateId}.html?apage1={catepg}",
+      "分类": "国产剧$guochanju#电影$dianying#动画$donghua#美欧剧$meiouju#日韩剧$rihanju"
+      }
+  },
   {
       "key": "ygcl",
       "name": "影港4K",
