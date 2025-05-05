@@ -22,7 +22,7 @@ class Spider(Spider):
             "quickSearch": 1,
             "filterable": 1,
             "api": "./py/影探.py",
-            "ext": "http://cmsyt.lyyytv.cn"
+            "ext": "http://csjt.lyyytv.cn"
         }
         
         '''
