@@ -3,6 +3,31 @@
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
+      "key": "专用4k",
+      "name": "专用4K",
+      "type": 3,
+      "api": "http://8.137.115.106:3389/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://8.137.115.106:3389/js/网盘.js"
+    },
+    {
+      "key": "专线4k",
+      "name": "专线4K",
+      "type": 3,
+      "api": "http://8.137.115.106:3389/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://8.137.115.106:3389/js/影视1.js"
+    },
+    {
       "key": "csp_appys_影盒",
       "name": "影探4K",
       "type": 3,
@@ -20,7 +45,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://cmsff.lyyytv.cn/api.php/app/"
+      "ext": "http://csff.lyyytv.cn/api.php/app/"
     },
     {
       "key": "哔哩音乐",
@@ -126,9 +151,9 @@
       "url": "Demo"
     },
     {
-      "name": "影探A",
+      "name": "东城4K",
       "type": 1,
-      "url": "https://jx.cfwlgzs.cn/api/?key=z57RI2Ju1udRhU3D0v&url=",
+      "url": "http://150.138.72.216:20142/dc4k.php?videoUrl=",
       "ext": {
         "flag": [
           "qq",
@@ -153,9 +178,9 @@
       }
     },
     {
-      "name": "影探C",
+      "name": "牛马4K",
       "type": 1,
-      "url": "https://jx.bhs6.com/api/?key=b0227c1e257c83f68ca14644aebda8c1&url=",
+      "url": "http://150.138.72.216:20142/jx/jxapi.php?key=GtPhmT7RXsGshWQTDm&laiyuan=niuma&url=",
       "ext": {
         "flag": [
           "qq",
@@ -180,9 +205,9 @@
       }
     },
     {
-      "name": "影探E",
+      "name": "素弦4K⑤",
       "type": 1,
-      "url": "http://jf.yingshidao.cn/api/?key=oovDE5yLVzOj7bFD2i&url=",
+      "url": "http://150.138.72.216:20142/jx/jxapi.php?key=GtPhmT7RXsGshWQTDm&laiyuan=suxian5&url=",
       "ext": {
         "flag": [
           "qq",
@@ -207,9 +232,9 @@
       }
     },
     {
-      "name": "影探F",
+      "name": "素弦4K⑥",
       "type": 1,
-      "url": "https://jx.hls.one/?url=",
+      "url": "http://150.138.72.216:20142/jx/jxapi.php?key=GtPhmT7RXsGshWQTDm&laiyuan=suxian6&url=",
       "ext": {
         "flag": [
           "qq",
@@ -234,9 +259,9 @@
       }
     },
     {
-      "name": "影探B",
+      "name": "素弦4K⑦",
       "type": 1,
-      "url": "https://api.qljson.xyz/api/?key=e5c343a10886e360454aa6b9ce35fadf&url=",
+      "url": "http://150.138.72.216:20142/jx/jxapi.php?key=GtPhmT7RXsGshWQTDm&laiyuan=suxian7&url=",
       "ext": {
         "flag": [
           "qq",
@@ -261,9 +286,9 @@
       }
     },
     {
-      "name": "影探D",
+      "name": "超前",
       "type": 1,
-      "url": "http://jf.yingshidao.cn/api/?key=wObsAPs6A80pXdQM92&url=",
+      "url": "http://xi.zhangbokeji.top/api/jsonindex.php/?key=unQjMePERREjnHcmuZ&url=",
       "ext": {
         "flag": [
           "qq",
