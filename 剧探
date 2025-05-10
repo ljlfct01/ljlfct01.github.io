@@ -4,17 +4,17 @@
   "sites": [
     {
       "key": "csp_appys_影盒",
-      "name": "影探4K",
+      "name": "4K源",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://csym.lyyytv.cn/api.php/app/"
+      "ext": "http://csysj.lyyytv.cn/api.php/app/"
     },
     {
       "key": "csp_appys_网采",
-      "name": "采集(勿信广告)",
+      "name": "网采源",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -24,7 +24,7 @@
     },
     {
       "key": "哔哩音乐",
-      "name": "🎧┃音乐鉴赏",
+      "name": "音乐",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -34,7 +34,7 @@
     },
     {
       "key": "drpy_哔哩",
-      "name": "🅱┃B站合集",
+      "name": "B站",
       "type": 3,
       "api": "./api/drpy2.min.js",
       "playerType": 1,
@@ -42,7 +42,7 @@
     },
     {
       "key": "csp_FirstAid",
-      "name": "🚑┃急救教学",
+      "name": "急救教学",
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
@@ -55,7 +55,7 @@
     },
     {
       "key": "少儿",
-      "name": "📚┃少儿教育",
+      "name": "少儿教育",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -69,7 +69,7 @@
     },
     {
       "key": "小学",
-      "name": "📚┃小学课堂",
+      "name": "小学课堂",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -83,7 +83,7 @@
     },
     {
       "key": "初中",
-      "name": "📚┃初中课堂",
+      "name": "初中课堂",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -97,7 +97,7 @@
     },
     {
       "key": "高中",
-      "name": "📚┃高中课堂",
+      "name": "高中课堂",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
