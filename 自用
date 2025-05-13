@@ -528,6 +528,30 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+   {
+      "name": "Gather",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
+    {
+      "name": "Live",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
+    {
+      "name": "MyTV",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/MyTV",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
     {
       "name": "🏠iptv-api",
       "type": 0,
