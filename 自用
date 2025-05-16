@@ -10,17 +10,16 @@
       "jar": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
       "searchable": 0
     },
-    {
-      "key": "csp_追忆",
-      "name": "追忆｜影视",
+     {
+      "key": "AppJSU",
+      "name": "秒映┃4K",
       "type": 3,
+      "api": "csp_AppGetApp",
       "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "api": "http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7%E7%8E%89%E7%8E%89%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/js/zy.js",
-      "playerType": 2,
-      "filterable": 1,
-      "ext": "http://zy.qxq6.com/app/syapi.txt"
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "w6/ClsOAw4rDosKWe8KVwrFbwq7Cj8KUw4LDmMKkYWJrW8Kgwo/ClMOFw5PClMKiwqnCqMKowr/DlMOmwojCqFFXwpLCq8Kgw6HCpMKhwpLCpVjCrQ==",
+      "jar": "https://lz.qaiu.top/d/lz/i90k92wd1qid"
     },
     {
       "key": "csp_晴天2",
@@ -33,6 +32,41 @@
       "playerType": 2,
       "filterable": 1,
       "ext": "https://appcms.sun4k.top"
+    },
+    {
+      "key": "AppMQXH",
+      "name": "幕启┃4K",
+      "type": 3,
+      "api": "csp_AppZX",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "w6/ClsOAw4rDosKWe8KVwrFbwq7Cj8KUw4LDm8KiwqjCmF9gwpTClsORw4bDkcKjwqnCoMKsf8OZw6jClMKbwo5YwpLCo8KkwqHCqcKjwp7CmMKVwq4=",
+      "jar": "https://gitee.com/lliu1810222/zyplayer/raw/master/box/qx.jar"
+    },
+    {
+      "key": "csp_追忆",
+      "name": "追忆｜4K",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7%E7%8E%89%E7%8E%89%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/js/zy.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "http://zy.qxq6.com/app/syapi.txt"
+    },
+    {
+      "key": "狐狸君",
+      "name": "狐狸｜4K",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7%E7%8E%89%E7%8E%89%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/js/6v.json"
     },
    {
       "key": "芒芒4k1",
