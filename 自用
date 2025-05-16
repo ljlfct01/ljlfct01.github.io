@@ -1,6 +1,6 @@
 {
-  "spider": "http://www.lyyytv.cn/yt/yt.jar;md5;fd6a2cf8f31c7112731c5f90dab94847",
-  "wallpaper": "https://深色壁纸.饭.eu.org/",
+  "spider": "https://lz.qaiu.top/d/lz/iYN8l2uteydi",
+  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
   "sites": [
     {
       "key": "豆瓣",
@@ -10,7 +10,7 @@
       "jar": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
       "searchable": 0
     },
-     {
+    {
       "key": "AppJSU",
       "name": "秒映┃4K",
       "type": 3,
@@ -69,6 +69,33 @@
       "ext": "http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7%E7%8E%89%E7%8E%89%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/js/6v.json"
     },
    {
+      "key": "tt",
+      "name": "4K｜影视",
+      "type": 3,
+      "api": "http://150.158.112.123/js/dr/drpy2.min.js",
+      "ext": "http://150.158.112.123/jar/tx.js"
+    },
+  {
+      "key": "公众号",
+      "name": "4K｜影视",
+      "type": 3,
+      "jar": "https://lz.qaiu.top/d/lz/isqWQ2hstv0d",
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+    },
+   {
+      "key": "csp_appys_影盒",
+      "name": "影探｜4K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://yp2.qqnb.top/f/8QCY/ou.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://csjt.lyyytv.cn/api.php/app/"
+    },
+   {
       "key": "芒芒4k1",
       "name": "芒芒｜4K",
       "type": 3,
@@ -91,16 +118,6 @@
       "order_num": 0,
       "changeable": 0,
       "ext": "http://150.158.112.123/jar/tx4k.js"
-    },
-  {
-      "key": "csp_appys_影盒",
-      "name": "影探｜4K",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://csysj.lyyytv.cn/api.php/app/"
     },
     {
       "key": "布蕾",
@@ -151,13 +168,7 @@
         "url": "http://v.lkuys.cn"
       }
     },
-    {
-      "key": "tt",
-      "name": "4K｜影视",
-      "type": 3,
-      "api": "http://150.158.112.123/js/dr/drpy2.min.js",
-      "ext": "http://150.158.112.123/jar/tx.js"
-    },
+ 
     {
       "key": "热播影视",
       "name": "热播｜影视",
@@ -253,15 +264,7 @@
       "filterable": 1,
       "ext": "https://cs.hgyx.vip/api2/api.php/app/"
     },
-    {
-      "key": "公众号",
-      "name": "4K｜影视",
-      "type": 3,
-      "jar": "https://lz.qaiu.top/d/lz/isqWQ2hstv0d",
-      "api": "csp_YDjisu",
-      "searchable": 1,
-      "changeable": 1
-    },
+ 
     {
       "key": "苹果影视",
       "name": "苹果｜影视",
@@ -407,7 +410,18 @@
       "api": "http://150.158.112.123/js/dr/drpy2.min.js",
       "ext": "http://150.158.112.123/jar/tvbox/tvbox/lib/%E4%BC%98%E4%BC%98.js"
     },
-  
+    {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "腾腾｜4K",
+      "type": 3,
+      "api": "http://150.158.112.123/js/dr/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://150.158.112.123/jar/tx4k.js"
+    },
     {
       "key": "muou",
       "name": "木偶｜网盘",
@@ -666,10 +680,20 @@
       "type": 2,
       "url": "Sequence"
     },
-   {
-      "name": "超前",
+    {
+      "name": "影视",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "影视2",
       "type": 1,
-      "url": "http://xi.zhangbokeji.top/api/jsonindex.php/?key=unQjMePERREjnHcmuZ&url=",
+      "url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
       "ext": {
         "flag": [
           "qq",
@@ -685,114 +709,19 @@
           "乐视",
           "mgtv",
           "芒果",
-          "rx",
-          "ltnb",
+          "tnmb",
+          "seven",
           "bilibili",
-          "1905",
-          "rrmj",
-          "xigua",
-          "ST4K",
-          "ETH-XDA1",
-          "xiong",
-          "NBY",
-          "mytv",
-          "BBA"
-        ]
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
       }
-    },
-    {
-      "name": "超前4K",
-      "type": 1,
-      "url": "http://121.62.21.61:8011/api/?key=IAMtJgrWU8bYjxPq9B&url="
-    },
-    {
-      "name": "4K解析",
-      "type": 1,
-      "url": "http://114.66.55.28:558/api/index?parsesId=11&appid=10000&videoUrl="
-    },
-    {
-      "name": "素弦4K①",
-      "type": 1,
-      "url": "http://114.66.55.28:558/api/index?parsesId=12&appid=10000&videoUrl="
-    },
-    {
-      "name": "素弦4K②",
-      "type": 1,
-      "url": "http://jx.xnftv.xyz/api/diy/?key=02wLO4jHzX2J3U7417&url="
-    },
-    {
-      "name": "素弦4K③",
-      "type": 1,
-      "url": "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl="
-    },
-    {
-      "name": "素弦4K④",
-      "type": 1,
-      "url": "https://tvbox.dysvips.top/api/index?parsesId=8&appid=10000&videoUrl="
-    },
-    {
-      "name": "素弦4K⑤",
-      "type": 1,
-      "url": "http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url="
-    },
-    {
-      "name": "素弦4K⑥",
-      "type": 1,
-      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url="
-    },
-    {
-      "name": "素弦4K⑦",
-      "type": 1,
-      "url": "http://tv.mianliu1.top/addons/lvdoubox/api.index?id=3&url="
-    },
-    {
-      "name": "星辰4K",
-      "type": 1,
-      "url": "http://222.186.57.24:7600/jx.php?url="
-    },
-    {
-      "name": "金蝉解析",
-      "type": 1,
-      "url": "http://150.138.72.216:20142/jx/jxapi.php?key=GtPhmT7RXsGshWQTDm&laiyuan=jinchan&url="
-    },
-    {
-      "name": "东城4K",
-      "type": 1,
-      "url": "http://150.138.72.216:20142/dc4k.php?videoUrl="
-    },
-    {
-      "name": "牛马4K",
-      "type": 1,
-      "url": "http://150.138.72.216:20142/jx/jxapi.php?key=GtPhmT7RXsGshWQTDm&laiyuan=niuma&url="
-    },
-    {
-      "name": "小鱼解析",
-      "type": 1,
-      "url": "https://jx.84jia.com/api/?key=H5BVPgkpbXLa9kQIeG&url="
-    },
-    {
-      "name": "花火解析",
-      "type": 1,
-      "url": "https://api.huohua.live/api/?key=vw7rQBbgOih9jDCMVc&url="
-    },
-    {
-      "name": "影探解析",
-      "type": 1,
-      "url": "http://150.138.72.216:20142/jx/api.php?urlKey=yt&videoUrl="
-    },
-    {
-      "name": "芒果专线",
-      "type": 1,
-      "url": "http://myjx.shanhaiguanwu.com/mgmy2/?url="
-    },
-    {
-      "name": "空城解析",
-      "type": 1,
-      "url": "http://kcjx.zwzs.fun/json.php?url="
     }
   ],
   "lives": [
-    {
+     {
       "name": "🏠平台直播",
       "type": 0,
       "url": "http://150.158.112.123/live.txt",
