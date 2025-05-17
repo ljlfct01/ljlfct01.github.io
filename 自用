@@ -10,16 +10,21 @@
       "jar": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
       "searchable": 0
     },
+  
     {
-      "key": "AppJSU",
-      "name": "秒映┃4K",
+      "key": "仓鼠",
+      "name": "仓鼠｜4K",
       "type": 3,
-      "api": "csp_AppGetApp",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "w6/ClsOAw4rDosKWe8KVwrFbwq7Cj8KUw4LDmMKkYWJrW8Kgwo/ClMOFw5PClMKiwqnCqMKowr/DlMOmwojCqFFXwpLCq8Kgw6HCpMKhwpLCpVjCrQ==",
-      "jar": "https://lz.qaiu.top/d/lz/i90k92wd1qid"
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
+      "ext": {
+        "url": "https://appcms.cs4k.top",
+        "dataKey": "Hui6595253......",
+        "dataIv": "Hui6595253......",
+        "deviceId": "",
+        "version": ""
+      }
     },
     {
       "key": "csp_晴天2",
@@ -34,15 +39,11 @@
       "ext": "https://appcms.sun4k.top"
     },
     {
-      "key": "AppMQXH",
-      "name": "幕启┃4K",
-      "type": 3,
-      "api": "csp_AppZX",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "w6/ClsOAw4rDosKWe8KVwrFbwq7Cj8KUw4LDm8KiwqjCmF9gwpTClsORw4bDkcKjwqnCoMKsf8OZw6jClMKbwo5YwpLCo8KkwqHCqcKjwp7CmMKVwq4=",
-      "jar": "https://gitee.com/lliu1810222/zyplayer/raw/master/box/qx.jar"
+      "key": "小慧",
+      "name": "小慧｜4K",
+      "type": 1,
+      "api": "http://cms.xiaohui.cyou:1002/api.php/provide/vod/?ac=list",
+      "playUrl": "json:http://xiaohui.cyou:1000/api/?key=7ee73e22b404453adc116a403a32e9c8&url="
     },
     {
       "key": "csp_追忆",
