@@ -27,23 +27,17 @@
       }
     },
     {
-      "key": "csp_晴天2",
-      "name": "晴天｜4K",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "api": "http://150.158.112.123/公众号玉玉应用笔记/js/qt.js",
-      "playerType": 2,
-      "filterable": 1,
-      "ext": {
-        "url": "https://appcms.sun4k.top",
-         "dataKey": "b025dcd9c289cbb3",
-         "dataIv": "b025dcd9c289cbb3",
-         "deviceId": "",
-        "version": ""
-     }
-    },
+    "key": "csp_晴天2",
+    "name": "晴天｜4K",
+    "type": 3,
+    "searchable": 1,
+    "changeable": 1,
+    "quickSearch": 1,
+    "api": "http://150.158.112.123/公众号玉玉应用笔记/js/qt.js",
+    "playerType": 2,
+    "filterable": 1,
+    "ext": "https://appcms.sun4k.top"
+  },
     {
       "key": "小慧",
       "name": "小慧｜4K",
