@@ -4,7 +4,7 @@
   "sites": [
    {
             "key": "hipy_js豆瓣",
-            "name": "豆瓣推荐",
+            "name": "♨️豆瓣推荐",
             "type": 3,
             "api": "http://39.105.100.85/drpy/drpy_libs/drpy2.min.js",
             "searchable": 1,
@@ -69,7 +69,7 @@
 
   {
       "key": "仓鼠",
-      "name": "🚛仓鼠｜4K",
+      "name": "♨️仓鼠｜4K",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -94,7 +94,7 @@
 		
 		
 		
-	{	"key":"戏曲","name":"中国戏曲","type":3,"jar": "http://39.105.100.85/drpy/custom_spider.jar",
+	{	"key":"戏曲","name":"♨️中国戏曲","type":3,"jar": "http://39.105.100.85/drpy/custom_spider.jar",
 	"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://39.105.100.85/drpy/json/戏曲.json"}, 
 	
         
@@ -105,7 +105,7 @@
     
 		
 	
-   {"key":"拳皇争霸","name":"拳皇争霸","type":3,"searchable": 0,
+   {"key":"拳皇争霸","name":"♨️拳皇争霸","type":3,"searchable": 0,
       "quickSearch": 0,
       "changeable": 0,"api":"http://39.105.100.85/drpy/drpy_libs/drpy2.min.js","ext":"http://39.105.100.85/drpy/json/quanhuang.js"}
    
