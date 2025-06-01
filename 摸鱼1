@@ -1,5 +1,5 @@
 {
-    "spider": "http://www.lyyytv.cn/yt/yt.jar;md5;fd6a2cf8f31c7112731c5f90dab94847",
+    "spider": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
  
@@ -9,6 +9,7 @@
       "name": "♨️说给风听┃4K纯净",
       "type": 3,
       "api": "csp_AppYsV2",
+      "jar": "https://yp2.qqnb.top/f/8QCY/ou.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -67,7 +68,45 @@
       "filterable": 1,
       "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
     },
-
+   {
+      "key": "橘猫",
+      "name": "橘猫｜4K",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://appcms.jm4k.top",
+        "dataKey": "KPEkKAESYi38CQdn",
+        "dataIv": "KPEkKAESYi38CQdn",
+        "deviceId": "",
+        "version": "119"
+      }
+    },
+    {
+      "key": "晴天",
+      "name": "晴天｜4K",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://qjappcms.sun4k.top",
+        "dataKey": "sBxqXVF5pAHbGzrH",
+        "dataIv": "sBxqXVF5pAHbGzrH",
+        "deviceId": "",
+        "version": "119"
+      }
+    },
+     {
+      "key": "狐狸君",
+      "name": "狐狸｜4K",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://150.158.112.123/公众号玉玉应用笔记/js/6v.json"
+    },
   
     {
       "key": "tt",
@@ -738,15 +777,8 @@
       "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-  {
-      "name": "🐅x315601",
-      "url": "http://x315601.serv00.net/10.php",
-      "type": 0,
-      "ua": "okhttp/3.15",
-      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
-      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     }
+ 
   ],
   "flags": [
     "youku",
