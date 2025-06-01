@@ -1,13 +1,17 @@
 {
-  "spider": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
-  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
+  "spider": "http://我不是.摸鱼儿.com/by/jar/moyu.php;md5;0a9c6b44a20445a9b3c2a39763ef7cf1",
+  "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/",
+  "logo": "https://s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
+  "warningText": "摸鱼儿：资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "sites": [
-   {
-      "key": "豆瓣",
-      "name": "豆瓣｜资源",
+    {
+      "key": "豆豆",
+      "name": "♨️网盘升级┃全速启动",
       "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
+      "api": "csp_DouDouGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "csp_appys_影盒",
@@ -75,45 +79,36 @@
       "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
     },
    {
-      "key": "橘猫",
-      "name": "橘猫｜4K",
+      "key": "仓鼠",
+      "name": "🐹仓鼠┃蓝光┃弹幕",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;2d5e6b5456c7cae497af11938df2662d",
       "ext": {
-        "url": "https://appcms.jm4k.top",
-        "dataKey": "KPEkKAESYi38CQdn",
-        "dataIv": "KPEkKAESYi38CQdn",
+        "url": "https://qjappcms.cs4k.top",
+        "dataKey": "Z98KXaLtO2wC1Pte",
+        "dataIv": "Z98KXaLtO2wC1Pte",
         "deviceId": "",
-        "version": "119"
+        "version": "120"
       }
     },
     {
-      "key": "晴天",
-      "name": "晴天｜4K",
+      "key": "聚搜",
+      "name": "🥶聚合搜索┃4K弹幕",
       "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://qjappcms.sun4k.top",
-        "dataKey": "sBxqXVF5pAHbGzrH",
-        "dataIv": "sBxqXVF5pAHbGzrH",
-        "deviceId": "",
-        "version": "119"
-      }
-    },
-     {
-      "key": "狐狸君",
-      "name": "狐狸｜4K",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "changeable": 1,
+      "api": "csp_PanWebSearch",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;2d5e6b5456c7cae497af11938df2662d",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://150.158.112.123/公众号玉玉应用笔记/js/6v.json"
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "http://我不是.摸鱼儿.com/json/aliyunpansearch.json"
     },
-  
     {
       "key": "tt",
       "name": "4K｜影视",
