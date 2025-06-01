@@ -1,9 +1,14 @@
 {
-  "spider": "",
-  "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/",
-
+  "spider": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
+  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
   "sites": [
-   
+   {
+      "key": "豆瓣",
+      "name": "豆瓣｜资源",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
     {
       "key": "csp_appys_影盒",
       "name": "♨️说给风听┃4K纯净",
@@ -70,36 +75,45 @@
       "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
     },
    {
-      "key": "仓鼠",
-      "name": "🐹仓鼠┃蓝光┃弹幕",
+      "key": "橘猫",
+      "name": "橘猫｜4K",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;2d5e6b5456c7cae497af11938df2662d",
+      "api": "csp_AppGet",
       "ext": {
-        "url": "https://qjappcms.cs4k.top",
-        "dataKey": "Z98KXaLtO2wC1Pte",
-        "dataIv": "Z98KXaLtO2wC1Pte",
+        "url": "https://appcms.jm4k.top",
+        "dataKey": "KPEkKAESYi38CQdn",
+        "dataIv": "KPEkKAESYi38CQdn",
         "deviceId": "",
-        "version": "120"
+        "version": "119"
       }
     },
     {
-      "key": "聚搜",
-      "name": "🥶聚合搜索┃4K弹幕",
+      "key": "晴天",
+      "name": "晴天｜4K",
       "type": 3,
-      "api": "csp_PanWebSearch",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;2d5e6b5456c7cae497af11938df2662d",
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://qjappcms.sun4k.top",
+        "dataKey": "sBxqXVF5pAHbGzrH",
+        "dataIv": "sBxqXVF5pAHbGzrH",
+        "deviceId": "",
+        "version": "119"
+      }
+    },
+     {
+      "key": "狐狸君",
+      "name": "狐狸｜4K",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "changeable": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "http://我不是.摸鱼儿.com/json/aliyunpansearch.json"
+      "ext": "http://150.158.112.123/公众号玉玉应用笔记/js/6v.json"
     },
+  
     {
       "key": "tt",
       "name": "4K｜影视",
@@ -668,8 +682,8 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
     },
-
-
+{"name":"🐅59 高解析 🇹🇼x","api":"csp_MQiTV","ext":"https://59.125.210.231:4433","jar":"https://slink.ltd/https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/jar/fmMQiTV.jar","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"SMT直播🇹🇼(本地)","url":"https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/tvbus/smart.txt","ua": "okhttp/3.15","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"🐅judy綜合🇹🇼🇨🇳","type": 0,"url":"https://smart.pendy.dpdns.org/m3u/merged_judy.m3u","ua": "okhttp/3.15","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
   {
       "name": "🐅平台直播",
@@ -769,8 +783,15 @@
       "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+  {
+      "name": "🐅x315601",
+      "url": "http://x315601.serv00.net/10.php",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     }
- 
   ],
   "flags": [
     "youku",
