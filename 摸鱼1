@@ -1,14 +1,8 @@
 {
-  "spider": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
+  "spider": "",
   "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
   "sites": [
-   {
-      "key": "豆瓣",
-      "name": "豆瓣｜资源",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },
+ 
     {
       "key": "csp_appys_影盒",
       "name": "♨️说给风听┃4K纯净",
@@ -74,45 +68,7 @@
       "filterable": 1,
       "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
     },
-   {
-      "key": "橘猫",
-      "name": "橘猫｜4K",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://appcms.jm4k.top",
-        "dataKey": "KPEkKAESYi38CQdn",
-        "dataIv": "KPEkKAESYi38CQdn",
-        "deviceId": "",
-        "version": "119"
-      }
-    },
-    {
-      "key": "晴天",
-      "name": "晴天｜4K",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://qjappcms.sun4k.top",
-        "dataKey": "sBxqXVF5pAHbGzrH",
-        "dataIv": "sBxqXVF5pAHbGzrH",
-        "deviceId": "",
-        "version": "119"
-      }
-    },
-     {
-      "key": "狐狸君",
-      "name": "狐狸｜4K",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "changeable": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://150.158.112.123/公众号玉玉应用笔记/js/6v.json"
-    },
+
   
     {
       "key": "tt",
