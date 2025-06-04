@@ -69,34 +69,8 @@
       "filterable": 1,
       "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
     },
-   {
-      "key": "橘猫",
-      "name": "♨️橘猫｜4K",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://appcms.jm4k.top",
-        "dataKey": "KPEkKAESYi38CQdn",
-        "dataIv": "KPEkKAESYi38CQdn",
-        "deviceId": "",
-        "version": "119"
-      }
-    },
-    {
-      "key": "晴天",
-      "name": "♨️晴天｜4K",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://qjappcms.sun4k.top",
-        "dataKey": "sBxqXVF5pAHbGzrH",
-        "dataIv": "sBxqXVF5pAHbGzrH",
-        "deviceId": "",
-        "version": "119"
-      }
-    },
+
+ 
      {
       "key": "狐狸君",
       "name": "♨️狐狸｜4K",
@@ -108,17 +82,7 @@
       "filterable": 1,
       "ext": "http://150.158.112.123/公众号玉玉应用笔记/js/6v.json"
     },
-  {
-      "key": "lvdoy",
-      "name": "♨️影帝原画120帧测试",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://114.66.55.28:8818/api.php/app/"
-    },
+
   
     {
       "key": "tt",
@@ -774,7 +738,41 @@
       "url": "http://smart.pendy.dpdns.org/m3u/MytvSuper.m3u",
       "ua": "judy/5.2.1"
     },
-  
+     {
+      "name": "Gather「IPTV」",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
+    {
+      "name": "Live「直播」",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
+    {
+      "name": "myTV「香港」",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/MyTV",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
+    {
+      "name": "Sport「体育」",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Sport",
+      "header": {
+        "Referer": "https://p.m82xg4z0cdbz7.com/"
+      },
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
 
   
 {
