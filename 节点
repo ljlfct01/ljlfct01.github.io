@@ -7,7 +7,7 @@ external-controller: 127.0.0.1:9090
 proxies:
 proxies:
   - name: 台湾1
-    server: tw1-cdn-route.couldflare-cdn.com
+    server: tw2-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -55,14 +55,14 @@ proxies:
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 日本3
     type: http
-    server: jp104-cdn-route.couldflare-cdn.com
+    server: jp105-cdn-route.couldflare-cdn.com
     port: 443
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
     tls: true
     skip-cert-verify: false
   - name: 香港1
-    server: hkre1-cdn-route.couldflare-cdn.com
+    server: hkpc2-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -82,7 +82,7 @@ proxies:
 
   
   - name: 美国1
-    server: usgp5-cdn-route.couldflare-cdn.com
+    server: usgp2-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -138,31 +138,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
 
-{
-    "bean": {
-        "_v": 0,
-        "addr": "172.64.146.0",
-        "name": "🇭🇰HK_0 @WangCai_8",
-        "pass": "63601f9f-7c67-4952-919a-1ef802b5a7ec",
-        "port": 8880,
-        "stream": {
-            "ed_len": 0,
-            "host": "steep.skyfigure.top",
-            "insecure": false,
-            "mux_s": 0,
-            "net": "ws",
-            "path": "Telegram🇺🇸 @WangCai2 /?ed=2560"
-        }
-    },
-    "gid": 0,
-    "id": 2,
-    "traffic": {
-        "dl": 24779695,
-        "ul": 948724
-    },
-    "type": "vless",
-    "yc": -1
-}
+
 
 
 
