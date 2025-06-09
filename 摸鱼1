@@ -82,7 +82,57 @@
       "filterable": 1,
       "ext": "http://150.158.112.123/公众号玉玉应用笔记/js/6v.json"
     },
-
+   {
+      "key": "魔方",
+      "name": "♨️魔方｜4K",
+      "type": 3,
+      "api": "https://gitee.com/yuan301/tv/raw/master/A/魔方.py"
+    },
+    {
+      "key": "零度",
+      "name": "♨️零度｜4K",
+      "type": 3,
+      "api": "https://gitee.com/yuan301/tv/raw/master/A/零度.py"
+    },
+    {
+      "key": "忍者",
+      "name": "♨️忍者｜4K",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://mfxs123.sbs",
+        "dataKey": "1234567887654321",
+        "dataIv": "1234567887654321",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "晓晓",
+      "name": "♨️晓晓｜4K",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://ys.ewo.asia",
+        "dataKey": "Z0qTnwyLAJCtuIkI",
+        "dataIv": "Z0qTnwyLAJCtuIkI",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "咖啡",
+      "name": "♨️咖啡｜4K",
+      "type": 3,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "http://160.202.243.62:2566",
+        "dataKey": "qwertyuiopqwerty",
+        "dataIv": "qwertyuiopqwerty",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
   
     {
       "key": "tt",
