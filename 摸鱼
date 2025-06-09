@@ -1,32 +1,13 @@
 {
-  "spider": "https://lz.qaiu.top/d/lz/i0fR72vesc2f",
-  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
+   "warningText": "🍭小脑斧提醒您:本接口为内部4K软件专线，请勿外传！🍭",
+  "spider": "http://jk.xnftv.xyz/2025/spider.txt;md5;00ade2b74c302f33afbeb7f96f861be4",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=biying&type=302",
+  "logo": "http://www.hyxuan.top/nf.png",
   "sites": [
    {
-      "key": "豆瓣",
-      "name": "豆瓣｜资源",
+      "key": "drpy_js_腾云驾雾",
+      "name": "🐅小脑斧|腾讯4K",
       "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },
-    {
-      "key": "csp_appys_影盒",
-      "name": "♨️说给风听┃4K纯净",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://yp2.qqnb.top/f/8QCY/ou.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
-    },
-
-   
-    {
-      "key": "企鹅崽崽JS",
-      "name": "♨️醉挽清风┃4K纯净",
-      "type": 3,
-     "type": 3,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -34,45 +15,53 @@
       "ext": "https://tv.7887887.xyz/js/腾讯弹幕.js"
     },
     {
-      "key": "月夕花晨JS",
-      "name": "♨️小满万全┃4K纯净",
+      "key": "drpy_js_百忙无果",
+      "name": "🐅小脑斧|芒果4K",
       "type": 3,
-      "api": "http://110.42.36.65:5223/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "order_num": 0,
-      "ext": "http://110.42.36.65:5223/js/video/yxhc.js"
+      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
+      "ext": "https://tv.7887887.xyz/js/芒果弹幕.js"
     },
     {
-      "key": "哔哩视频JS",
-      "name": "♨️笔触琉璃┃4K纯净",
+      "key": "哔哩弹幕",
+      "name": "🐅小脑斧|哔哩4K",
       "type": 3,
-      "api": "http://110.42.36.65:5223/js/drpy2.min.js",
+      "api": "csp_Bilimd",
+      "jar": "http://jk.xnftv.xyz/2025/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://110.42.36.65:5223/js/video/哔哩视频.js"
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {
+        "cookie": "http://api.xnftv.xyz/jx/bili/bili.txt",
+        "danmu": true
+      },
+      "timeout": 10
     },
     {
-      "key": "小艺视频JS",
-      "name": "♨️风中知秋┃4K纯净",
+      "key": "drpy_js_奇珍异兽",
+      "name": "🐅小脑斧|爱奇艺2K",
       "type": 3,
-      "api": "http://110.42.36.65:5223/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://110.42.36.65:5223/js/video/iqyi.js"
+      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
+      "ext": "https://tv.7887887.xyz/js/爱奇艺弹幕.js"
     },
     {
-      "key": "酷酷JS",
-      "name": "♨️酷月繁星┃4K纯净",
+      "key": "drpy_js_优酷",
+      "name": "🐅小脑斧|优酷标清",
       "type": 3,
-      "api": "http://110.42.36.65:5223/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
+      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
+      "ext": "https://tv.7887887.xyz/js/优酷弹幕.js"
     },
    {
       "key": "魔方",
