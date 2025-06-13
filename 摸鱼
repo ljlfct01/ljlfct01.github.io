@@ -22,9 +22,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-       "jxApi": "mryyNuf38YFwIDElsErSzW1/GaCSKBjH/IxYOlDycUzguOjmMNNHDDRfWHPMcQ8OlPFrPGH0PSdeMfALqpVtjrkKxo5h4UzhiwGP4FOCCiY=",
-        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
-        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SBOkVAs0APwcVRiNrmKgmXxysRPcUdsvNldJ1P6vOYAANjCSwBHK21+J0AatS1hbZw="
+      
       }
     },
     {
@@ -165,6 +163,49 @@
       "type": 3,
       "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
       "ext": "http://150.158.112.123/jar/tx.js"
+    },
+   {
+      "key": "🈵  演唱合集 | JX",
+      "name": "🈵  演唱合集 | JX",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.lintech.work/超大杯/sites/码上/heji.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+ 
+    {
+      "key": "🈵  8K大全 | JX",
+      "name": "🈵  8K大全 | JX",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.lintech.work/超大杯/sites/码上/8k.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "🈵  学习园地 | JX",
+      "name": "🈵  学习园地 | JX",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.lintech.work/超大杯/sites/码上/study.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
     },
    {
       "key": "HG影视",
