@@ -67,7 +67,29 @@
       "filterable": 1,
       "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
     },
-
+   {
+      "key": "醉梦前尘",
+      "name": "♨️醉梦前尘┃4K弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;fa812fdc4ed32737bee82e73790d9ca1",
+      "ext": {
+        "url": "http://122.228.193.2:9988",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "移动",
+      "name": "🌀移动急速┃4K纯净",
+      "type": 3,
+      "api": "csp_YD",
+      "searchable": 1,
+      "quickSearch": 1
+    },
  
      {
       "key": "狐狸君",
