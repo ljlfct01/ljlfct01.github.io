@@ -13,15 +13,16 @@
       "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
     },
 
-      {
-      "key": "drpy_js_腾云驾雾",
+       {
+      "key": "企鹅崽崽JS",
       "name": "♨️醉挽清风┃4K纯净",
       "type": 3,
+      "api": "http://110.42.36.65:5223/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
-      "ext": "https://tv.7887887.xyz/js/腾讯弹幕.js"
+      "order_num": 0,
+      "ext": "http://110.42.36.65:5223/js/video/qezz.js"
     },
     {
       "key": "月夕花晨JS",
@@ -42,7 +43,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://110.42.36.65:5223/js/video/哔哩视频.js"
+      "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
     },
     {
       "key": "小艺视频JS",
@@ -63,6 +64,104 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
+    },
+    {
+      "key": "醉梦前尘",
+      "name": "♨️醉梦前尘┃4K弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;fa812fdc4ed32737bee82e73790d9ca1",
+      "ext": {
+        "url": "http://122.228.193.2:9988",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "移动",
+      "name": "🌀移动急速┃4K纯净",
+      "type": 3,
+      "api": "csp_YD",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "仓鼠",
+      "name": "🐹仓鼠┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;fa812fdc4ed32737bee82e73790d9ca1",
+      "ext": {
+        "url": "https://qjappcms.cs4k.top",
+        "dataKey": "Z98KXaLtO2wC1Pte",
+        "dataIv": "Z98KXaLtO2wC1Pte",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "咖啡",
+      "name": "☕️咖啡┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;fa812fdc4ed32737bee82e73790d9ca1",
+      "ext": {
+        "url": "http://160.202.243.62:2566",
+        "dataKey": "qwertyuiopqwerty",
+        "dataIv": "qwertyuiopqwerty",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "诺雪",
+      "name": "❄️雪诺┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;fa812fdc4ed32737bee82e73790d9ca1",
+      "ext": {
+        "url": "https://qjappcms.rx4k.top",
+        "dataKey": "ZX10ysTYZWtIJCTU",
+        "dataIv": "ZX10ysTYZWtIJCTU",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "溜溜",
+      "name": "🤩溜溜┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;fa812fdc4ed32737bee82e73790d9ca1",
+      "ext": {
+        "url": "https://appcms.ll4k.xyz",
+        "dataKey": "NiDGaKiVnkO3QX1Q",
+        "dataIv": "NiDGaKiVnkO3QX1Q",
+        "deviceId": "2fbaf48ee97783260bc907e3ab0bd40c3",
+        "version": "200"
+      }
+    },
+    {
+      "key": "忍者",
+      "name": "🥷忍者┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;fa812fdc4ed32737bee82e73790d9ca1",
+      "ext": {
+        "url": "https://mfxs123.sbs",
+        "dataKey": "1234567887654321",
+        "dataIv": "1234567887654321",
+        "deviceId": "",
+        "version": ""
+      }
     },
    {
       "key": "魔方",
@@ -90,49 +189,7 @@
       "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
       "ext": "http://150.158.112.123/jar/tx.js"
     },
-   {
-      "key": "🈵  演唱合集 | JX",
-      "name": "🈵  演唱合集 | JX",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/heji.json",
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
  
-    {
-      "key": "🈵  8K大全 | JX",
-      "name": "🈵  8K大全 | JX",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/8k.json",
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "🈵  学习园地 | JX",
-      "name": "🈵  学习园地 | JX",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/study.json",
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
    {
       "key": "HG影视",
       "name": "HG｜影视",
