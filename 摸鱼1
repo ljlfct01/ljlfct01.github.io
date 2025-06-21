@@ -4,6 +4,14 @@
   "warningText": "",
   "lives": [
       {
+      "name": "🐅影视家",
+      "type": 0,
+      "url": "http://max.token.iptv.xin:2052/api/channels/%E7%8B%AC%E5%AE%B6%E4%BB%A3%E7%90%86%E6%BA%90/details?token=174780775220",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
+ {
       "name": "🐅iptv-api",
       "type": 0,
       "url": "https://slink.ltd/https://raw.githubusercontent.com/bestpvp/iptv-api/refs/heads/master/output/ipv4/result.m3u",
@@ -11,7 +19,6 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
     },
-{"name":"🐅59 高解析 🇹🇼x","api":"csp_MQiTV","ext":"https://59.125.210.231:4433","jar":"https://slink.ltd/https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/jar/fmMQiTV.jar","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {
       "name": "🐅平台直播",
       "type": 0,
