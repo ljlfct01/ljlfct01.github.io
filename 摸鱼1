@@ -126,6 +126,14 @@
       "ext": "http://150.158.112.123/jar/tx.js"
     },
          {
+      "key": "huban",
+      "name": "🚀虎斑┃弹幕┃小窗",
+      "type": 3,
+      "jar": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/jar/HubanTC.jar",
+      "api": "csp_Huban"
+    },
+ 
+    {
       "key": "企鹅崽崽JS",
       "name": "♨️醉挽清风┃4K纯净",
       "type": 3,
@@ -178,12 +186,27 @@
       "ext": "http://110.42.36.65:5223/js/video/kzpp.js"
     },
     {
+      "key": "烟雨笙歌",
+      "name": "♨️烟雨笙歌┃4K弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "https://qjappcms.ll4k.xyz",
+        "dataKey": "1yGA85sJ5STtE7uj",
+        "dataIv": "1yGA85sJ5STtE7uj",
+        "deviceId": "",
+        "version": "50000"
+      }
+    },
+    {
       "key": "醉梦前尘",
       "name": "♨️醉梦前尘┃4K弹幕",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;fa812fdc4ed32737bee82e73790d9ca1",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
       "ext": {
         "url": "http://122.228.193.2:9988",
         "dataKey": "ca94b06ca359d80e",
@@ -191,8 +214,142 @@
         "deviceId": "",
         "version": "120"
       }
+    },
+    {
+      "key": "移动",
+      "name": "🌀移动急速┃4K纯净",
+      "type": 3,
+      "api": "csp_YD",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "夕晨踏雪",
+      "name": "♨️夕晨踏雪┃4K弹幕",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "type": 3,
+      "api": "csp_SP360"
+    },
+   {
+      "key": "仓鼠",
+      "name": "🐹仓鼠┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "https://qjappcms.cs4k.top",
+        "dataKey": "Z98KXaLtO2wC1Pte",
+        "dataIv": "Z98KXaLtO2wC1Pte",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "橘猫",
+      "name": "😸橘猫┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "https://qjappcms.jm4k.top",
+        "dataKey": "pBVmysmGX8TsgrQN",
+        "dataIv": "pBVmysmGX8TsgrQN",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "雄鹰",
+      "name": "🦅雄鹰┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "http://122.228.193.2:9988",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "剧咖",
+      "name": "🤎剧咖┃蓝光┃无广",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "https://ys.xiaoqi0.cn",
+        "dataKey": "jukayingshi88888",
+        "dataIv": "jukayingshi88888",
+        "deviceId": "20d9b2c01d130342a99fdc8d693bfc0cd",
+        "version": "112"
+      }
+    },
+    {
+      "key": "咖啡",
+      "name": "☕️咖啡┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "http://160.202.243.62:2566",
+        "dataKey": "qwertyuiopqwerty",
+        "dataIv": "qwertyuiopqwerty",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "诺雪",
+      "name": "❄️雪诺┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "https://qjappcms.rx4k.top",
+        "dataKey": "ZX10ysTYZWtIJCTU",
+        "dataIv": "ZX10ysTYZWtIJCTU",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "溜溜",
+      "name": "🤩溜溜┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "https://appcms.ll4k.xyz",
+        "dataKey": "NiDGaKiVnkO3QX1Q",
+        "dataIv": "NiDGaKiVnkO3QX1Q",
+        "deviceId": "2fbaf48ee97783260bc907e3ab0bd40c3",
+        "version": "200"
+      }
+    },
+    {
+      "key": "忍者",
+      "name": "🥷忍者┃蓝光┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "https://mfxs123.sbs",
+        "dataKey": "1234567887654321",
+        "dataIv": "1234567887654321",
+        "deviceId": "",
+        "version": ""
+      }
     }
-  
  
   
   
