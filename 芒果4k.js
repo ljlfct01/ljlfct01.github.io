@@ -665,17 +665,7 @@ var rule = {
     },
     limit: 20,
     play_parse: true,
-    lazy: $js.toString(() => {
-        try {
-            let api = "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=" + input.split("?")[0];
-            console.log(api);
-            let response = fetch(api, {
-                method: 'get',
-                headers: {
-                    'User-Agent': 'okhttp/3.14.9',
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                }
-            });
+   
 
             let bata = JSON.parse(response);
             log(bata)
