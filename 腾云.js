@@ -1,8 +1,8 @@
 var rule = {
     title: '腾云驾雾[官]',
-  	//parseUrl: 'http://pan.qiaoji8.com/tvbox/neibu.php?url=',
-  	//parseUrl: 'http://jx.hjfggzs.top/api/diy/?key=ASSNxYwYLK3KDm2IA0&url=',
-  	parseUrl: 'http://47.108.190.232:666/api/index?parsesId=6663&appid=95210&videoUrl=',
+  	//parseUrl: 'http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=z2UWYdw6&url=',
+  	//parseUrl: 'http://kcjx.zwzs.fun/json.php?url=',
+  	parseUrl: 'http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=',
     host: 'https://v.%71%71.com',
     // homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=choice&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
    // homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
