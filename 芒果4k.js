@@ -1,6 +1,6 @@
 var rule = {
     title: '百忙无果[官]',
-    //parseUrl: 'http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=z2UWYdw6&url=',
+    //parseUrl: 'http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=',
   	//parseUrl: 'http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=',
   	parseUrl: 'http://kcjx.zwzs.fun/json.php?url=',
     host: 'https://pianku.api.%6d%67%74%76.com',
