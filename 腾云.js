@@ -1,11 +1,8 @@
 var rule = {
     title: '腾云驾雾[官]',
-  	//parseUrl: 'http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=z2UWYdw6&url=',
-  	//parseUrl: 'http://kcjx.zwzs.fun/json.php?url=',
-  	parseUrl: 'http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=',
     host: 'https://v.%71%71.com',
     // homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=choice&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
-   // homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
+    homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
     detailUrl: 'https://node.video.%71%71.com/x/api/float_vinfo2?cid=fyid',
     searchUrl: '/x/search/?q=**&stag=fypage',
     searchable: 2,
@@ -26,29 +23,22 @@ var rule = {
     cate_exclude: '会员|游戏|全部',
     // class_name: '精选&电视剧&电影&综艺&动漫&少儿&纪录片',
     // class_url: 'choice&tv&movie&variety&cartoon&child&doco',
-    class_name: '电视剧&电影&综艺&动漫&少儿&纪录片',
-    class_url: 'tv&movie&variety&cartoon&child&doco',
-  	//预处理: $js.toString(() => {
-      //  let html = request('http://www.mpanso.com/ceshi/titi.json');
-       // rule.parseUrl = JSON.parse(html).parses[0].url
-    //}),
+    class_name: '电影&电视剧&综艺&动漫&少儿&纪录片',
+    class_url: 'movie&tv&variety&cartoon&child&doco',
     limit: 20,
-    play_parse:true,
-  // play_parse:true,
-lazy: $js.toString(() => {
+    play_parse: true,
+    lazy: $js.toString(() => {
   let d = [];
-
+    const blockedField = 'https://123.yp22.cn/d/le/53SqFaimyxG6LrduZ';
   try {
     // 发起请求并获取响应，添加请求头
     let headers = {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' // 替换为您的 User-Agent 字符串
+      'User-Agent': 'okhttp/4.12.0'
+      
     };
-    let responseText = request(rule.parseUrl + input, { headers: headers });
-    //let responseText = request("http://jx.jwl.icu/jx.php?url=" + input, { headers: headers });
-
-    //let responseText = request("http://110.42.99.99:3722/lg.php/?url=" + input, { headers: headers });
+    let responseText = request("http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=z2UWYdw6&url=" + input, { headers: headers });
     console.log("响应文本:", responseText); // 查看原始响应内容
-
+//备用http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=
     // 解析 JSON 数据
     let response = JSON.parse(responseText);
 
@@ -59,7 +49,9 @@ lazy: $js.toString(() => {
     let urlValue = urlField ? response[urlField] : null;
 
     console.log("提取的随机字段值:", urlValue); // 查看提取的值
-
+        if (response.url.includes(blockedField)) {
+        throw new Error('该链接已被屏蔽');
+    };
     if (urlValue) {
       // 处理 urlValue，或将其用于 input
       input = {
@@ -78,6 +70,7 @@ lazy: $js.toString(() => {
   setResult(d);
 }),
 
+    //lazy:'js:input="http:\\/\\/43.248.100.147:6068\\/KEY\\/XGJ\\/root\\/key\\/60.php?url="+input.split("?")[0];log(input);let html=JSON.parse(request(input));log(html);input=html.url||input',
     推荐: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     二级: $js.toString(() => {
@@ -112,11 +105,11 @@ lazy: $js.toString(() => {
         if (/get_playsource/.test(input)) {
             eval(html);
             let indexList = QZOutputJson.PlaylistItem.indexList;
-            indexList.forEach(function (it) {
+            indexList.forEach(function(it) {
                 let dataUrl = "https://s.video.qq.com/get_playsource?id=" + sourceId + "&plat=2&type=4&data_type=3&range=" + it + "&video_type=10&plname=qq&otype=json";
                 eval(fetch(dataUrl, fetch_params));
                 let vdata = QZOutputJson.PlaylistItem.videoPlayList;
-                vdata.forEach(function (item) {
+                vdata.forEach(function(item) {
                     d.push({
                         title: item.title,
                         pic_url: item.pic,
@@ -141,11 +134,11 @@ lazy: $js.toString(() => {
                 for (let i = 0; i < video_lists.length; i += 30) {
                     video_list.push(video_lists.slice(i, i + 30))
                 }
-                video_list.forEach(function (it, idex) {
+                video_list.forEach(function(it, idex) {
                     let o_url = "https://union.video.qq.com/fcgi-bin/data?otype=json&tid=1804&appid=20001238&appkey=6c03bbe9658448a4&union_platform=1&idlist=" + it.join(",");
                     let o_html = fetch(o_url, fetch_params);
                     eval(o_html);
-                    QZOutputJson.results.forEach(function (it1) {
+                    QZOutputJson.results.forEach(function(it1) {
                         it1 = it1.fields;
                         let url = "https://v.qq.com/x/cover/" + cid + "/" + it1.vid + ".html";
                         d.push({
@@ -159,18 +152,17 @@ lazy: $js.toString(() => {
                 })
             }
         }
-        let yg = d.filter(function (it) {
+        let yg = d.filter(function(it) {
             return it.type && it.type !== "正片"
         });
-        let zp = d.filter(function (it) {
+        let zp = d.filter(function(it) {
             return !(it.type && it.type !== "正片")
         });
-        VOD.vod_content = '关注公众号【玉玉应用笔记】\r\n';
-        VOD.vod_play_from = yg.length < 1 ? "玉玉应用笔记" : "玉玉应用笔记$$$预告及花絮";
-        VOD.vod_play_url = yg.length < 1 ? d.map(function (it) {
+        VOD.vod_play_from = yg.length < 1 ? "微信公众号玉玉应用笔记" : "微信公众号玉玉应用笔记T$$$预告及花絮";
+        VOD.vod_play_url = yg.length < 1 ? d.map(function(it) {
             return it.title + "$" + it.url
-        }).join("#") : [zp, yg].map(function (it) {
-            return it.map(function (its) {
+        }).join("#") : [zp, yg].map(function(it) {
+            return it.map(function(its) {
                 return its.title + "$" + its.url
             }).join("#")
         }).join("$$$");
@@ -183,7 +175,7 @@ lazy: $js.toString(() => {
         let html = request(input);
         let baseList = pdfa(html, "body&&.result_item_v");
         log(baseList.length);
-        baseList.forEach(function (it) {
+        baseList.forEach(function(it) {
             let longText = pdfh(it, ".result_title&&a&&Text");
             let shortText = pdfh(it, ".type&&Text");
             let fromTag = pdfh(it, ".result_source&&Text");
