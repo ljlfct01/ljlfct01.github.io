@@ -173,32 +173,27 @@
       "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
     },
-   {
-      "key": "哔哩4k1",
-      "name": "👑哔哔4K️️",
+ {
+      "key": "哔哩弹幕",
+      "name": "♨️哔哔4K️️",
       "type": 3,
-      "api": "http://wyys.qcy168.top/json/drpy2.min.js",
+      "api": "csp_Bilimd",
+      "jar": "http://jk.xnftv.xyz/2025/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E5%93%94%E5%93%A94k.js"
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {
+        "cookie": "http://api.xnftv.xyz/jx/bili/bili.txt",
+        "danmu": true
+      },
+      "timeout": 10
     },
- {
-      "key": "qqys",
-      "name": "♨️奇奇｜4k",
-      "type": 3,
-      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E5%A5%87%E5%A5%874k.js"
-    },
-   {
-      "key": "yyys",
-      "name": "♨️悠悠｜4k",
-      "type": 3,
-      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E4%BC%98%E9%85%B74k.js"
-    },
+  
+
   {
       "key": "魔方",
       "name": "魔方⚡-4K-",
