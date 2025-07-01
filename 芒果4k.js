@@ -1,8 +1,5 @@
 var rule = {
     title: '百忙无果[官]',
-    //parseUrl: 'http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=',
-  	//parseUrl: 'http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=',
-  	parseUrl: 'http://kcjx.zwzs.fun/json.php?url=',
     host: 'https://pianku.api.%6d%67%74%76.com',
     homeUrl: '',
     // searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/pc/search/v1?q=**&pn=fypage&pc=10',
@@ -665,7 +662,17 @@ var rule = {
     },
     limit: 20,
     play_parse: true,
-   
+    lazy: $js.toString(() => {
+        try {
+            let api = "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=" + input.split("?")[0];
+            console.log(api);
+            let response = fetch(api, {
+                method: 'get',
+                headers: {
+                    'User-Agent': 'okhttp/3.14.9',
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            });
 
             let bata = JSON.parse(response);
             log(bata)
@@ -796,7 +803,7 @@ var rule = {
         } else {
             print(input + "暂无片源")
         }
-        VOD.vod_play_from = "老三影视";
+        VOD.vod_play_from = "公众号：玉玉应用笔记";
         VOD.vod_play_url = d.map(function(it) {
             return it.title + "$" + it.url
         }).join("#");
