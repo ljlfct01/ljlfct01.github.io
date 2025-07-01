@@ -1339,7 +1339,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=" + input.split("?")[0];
+            let api = "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=z2UWYdw6&url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
