@@ -136,29 +136,10 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "梦回",
-      "name": "♨️梦回┃影视",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
-    },
-    {
-      "key": "星辉",
-      "name": "♨️星辉┃影视",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
-    },
-    {
-      "key": "csp_Jpys",
-      "name": "♨️金牌┃影视",
-      "type": 3,
-      "api": "csp_Jpys"
-    },
+   
     {
       "key": "csp_FourK",
-      "name": "┃绝对┃影视",
+      "name": "♨️┃绝对┃影视",
       "type": 3,
       "api": "csp_FourK",
       "ext": "https://www.4kvm.tv"
@@ -182,21 +163,7 @@
       "type": 3,
       "api": "csp_AppXY"
     },
-    {
-      "key": "csp_Bili",
-      "name": "🅱┃️哔哩┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "http://ok.lfytv.cn/lib/bili.json",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
+  
     {
       "key": "酷狗",
       "name": "🐾┃酷狗┃音乐",
