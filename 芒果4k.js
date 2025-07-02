@@ -20,7 +20,7 @@ var rule = {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    class_name: '电视剧&电影&综艺&动漫&纪录片&教育&少儿',
+    class_name: '4K电视剧&4K电影&4K综艺&4K动漫&4K纪录片&4K教育&4K少儿',
     class_url: '2&3&1&50&51&115&10',
     filter: {
         "1": [{
@@ -664,7 +664,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=" + input.split("?")[0];
+            let api = "http://kcjx.zwzs.fun/json.php?url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
