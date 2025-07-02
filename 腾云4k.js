@@ -24,7 +24,7 @@ var rule = {
     timeout: 5000,
     // class_parse:'.site_channel a;a&&Text;a&&href;channel/(.*)',
     cate_exclude: '会员|游戏|全部',
-    // class_name: '精选&电视剧&电影&综艺&动漫&少儿&纪录片',
+    // class_name: '4K精选&4K电视剧&4K电影&4K综艺&4K动漫&4K少儿&4K纪录片',
     // class_url: 'choice&tv&movie&variety&cartoon&child&doco',
     class_name: '电视剧&电影&综艺&动漫&少儿&纪录片',
     class_url: 'tv&movie&variety&cartoon&child&doco',
