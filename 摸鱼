@@ -101,14 +101,14 @@
     },
   {
       "key": "芒果视频",
-      "name": "♨️芒 果｜4K",
+      "name": "♨️果 果｜4K",
       "type": 3,
       "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
     },
    {
       "key": "哔哩视频JS",
-      "name": "♨️哔哩｜4K",
+      "name": "♨️哔哔｜4K",
       "type": 3,
       "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
       "searchable": 1,
@@ -116,7 +116,65 @@
       "filterable": 1,
       "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
     },
-   
+     {
+      "key": "酷酷JS",
+      "name": "♨️酷酷┃4K",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/YKSP.js"
+    },
+  {
+      "key": "小艺视频JS",
+      "name": "♨️奇奇┃4K",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/AQY.js"
+    },
+  {
+      "key": "烟雨笙歌",
+      "name": "♨️烟雨笙歌┃4K弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "https://qjappcms.ll4k.xyz",
+        "dataKey": "1yGA85sJ5STtE7uj",
+        "dataIv": "1yGA85sJ5STtE7uj",
+        "deviceId": "",
+        "version": "50000"
+      }
+    },
+    {
+      "key": "醉梦前尘",
+      "name": "♨️醉梦前尘┃4K弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "ext": {
+        "url": "http://122.228.193.2:9988",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "移动",
+      "name": "♨️移动急速┃4K",
+      "type": 3,
+      "api": "csp_YD",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "夕晨踏雪",
+      "name": "♨️夕晨踏雪┃4K弹幕",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;5723b4f097fbfb7956671d9b035151d9",
+      "type": 3,
+      "api": "csp_SP360"
+    },
   {
       "key": "csp_appys_臻彩",
       "name": "♨️4K臻彩世界",
