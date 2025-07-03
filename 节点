@@ -80,7 +80,7 @@ proxies:
 
 
 
-  
+  - {name: vless-ws by:东明, server: visa.com.sg, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, skip-cert-verify: false, servername: cfxr.eu.org, network: ws, ws-opts: {path: "/?ip=proxyip:port(443)&nat64=6to4", headers: {Host: cfxr.eu.org}}}
   - name: 美国1
     server: usgp2-cdn-route.couldflare-cdn.com
     port: 443
