@@ -165,7 +165,7 @@ lazy: $js.toString(() => {
         let zp = d.filter(function (it) {
             return !(it.type && it.type !== "正片")
         });
-        VOD.vod_content = '关注公众号【玉玉应用笔记】\r\n';
+        VOD.vod_content = '老三影视\r\n';
         VOD.vod_play_from = yg.length < 1 ? "老三影视" : "老三影视$$$预告及花絮";
         VOD.vod_play_url = yg.length < 1 ? d.map(function (it) {
             return it.title + "$" + it.url
