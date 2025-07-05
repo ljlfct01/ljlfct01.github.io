@@ -664,7 +664,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=" + input.split("?")[0];
+            let api = "http://114.66.55.28:558/api/index?parsesId=12&appid=10000&videoUrl=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
