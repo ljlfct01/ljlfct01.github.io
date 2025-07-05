@@ -23,7 +23,7 @@ var rule = {
     cate_exclude: '会员|游戏|全部',
     // class_name: '4k精选&4k电视剧&4k电影&4k综艺&4k动漫&4k少儿&4k纪录片',
     // class_url: 'choice&tv&movie&variety&cartoon&child&doco',
-    class_name: '电影&电视剧&综艺&动漫&少儿&纪录片',
+    class_name: '4k电影&4k电视剧&4k综艺&4k动漫&4k少儿&4k纪录片',
     class_url: 'movie&tv&variety&cartoon&child&doco',
     limit: 20,
     play_parse: true,
