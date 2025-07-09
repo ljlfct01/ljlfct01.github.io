@@ -253,7 +253,34 @@
       "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
     },
 
-  {
+    {
+      "key": "量子采集资源",
+      "name": "🌸量子🌺高清◎秒播🌸",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/",
+      "playerType": 1,
+      "searchable": 1,
+      "changeable": 1
+     },
+     {
+      "key": "vod_金鹰",
+      "name": "🌸金鹰🌺高清◎秒播🌸",
+      "type": 1,
+      "api": "https://jyzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_卧龙",
+      "name": "🌸卧龍🌺高清◎秒播🌸",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "api.sexnguon.com",
       "name": "🌸量子🌺海外◎秒播🌸",
       "type": 1,
