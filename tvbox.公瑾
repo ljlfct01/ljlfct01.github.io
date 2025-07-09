@@ -402,9 +402,17 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
+    },
+
+  {
+      "key": "api.sexnguon.com",
+      "name": "🌸量子🌺海外◎秒播🌸",
+      "type": 1,
+      "api": "http://api.sexnguon.com/api.php/provide/vod/",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {"type": "rect", "ratio": 1.6}
     }
-
-
 
   ],
   "parses": [
