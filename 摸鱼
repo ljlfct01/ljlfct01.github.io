@@ -95,79 +95,45 @@
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
-     {
+      {
       "key": "企鹅崽崽JS",
-      "name": "♨️腾腾｜4K",
-      "type": 3,
-      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
-    },
-   {
-      "key": "月夕花晨JS",
-      "name": "♨️果 果｜4K",
+      "name": "♨️醉挽清风┃4K纯净",
       "type": 3,
       "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/TXSP.js"
     },
-
-  {
-      "key": "哔哩弹幕",
-      "name": "♨️哔哔｜4K️️",
+    {
+      "key": "哔哩视频JS",
+      "name": "♨️笔触琉璃┃4K纯净",
       "type": 3,
-      "api": "csp_Bilimd",
-      "jar": "http://jk.xnftv.xyz/2025/spider.jar",
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": {
-        "cookie": "http://api.xnftv.xyz/jx/bili/bili.txt",
-        "danmu": true
-      },
-      "timeout": 10
-    },
-   {
-      "key": "量子采集资源",
-      "name": "🌸量子🌺高清◎秒播🌸",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/",
-      "playerType": 1,
-      "searchable": 1,
-      "changeable": 1
-     },
-     {
-      "key": "vod_金鹰",
-      "name": "🌸金鹰🌺高清◎秒播🌸",
-      "type": 1,
-      "api": "https://jyzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
     },
     {
-      "key": "vod_卧龙",
-      "name": "🌸卧龍🌺高清◎秒播🌸",
-      "type": 1,
-      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "key": "月夕花晨JS",
+      "name": "♨️小满万全┃4K纯净",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/MGSP.js"
     },
     {
-      "key": "api.sexnguon.com",
-      "name": "🌸量子🌺海外◎秒播🌸",
-      "type": 1,
-      "api": "http://api.sexnguon.com/api.php/provide/vod/",
-      "searchable": 1,
-      "recordable": 0,
-      "style": {"type": "rect", "ratio": 1.6}
+      "key": "酷酷JS",
+      "name": "♨️酷月繁星┃4K纯净",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/YKSP.js"
     },
-  
-
-     {
+    {
+      "key": "小艺视频JS",
+      "name": "♨️风中知秋┃4K纯净",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/AQY.js"
+    },
+    {
       "key": "行动",
       "name": "🌀行动┃超清┃弹幕",
       "type": 3,
@@ -535,148 +501,6 @@
         "dataIv": "c995826a3e86fedd",
         "jxurl": "https://www.ququkan.cc"
       }
-    },
-  {
-      "key": "csp_appys_影盒",
-      "name": "♨️影探4K",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
-    },
-  {
-      "key": "csp_appys_天堂",
-      "name": "♨️电影┃天堂",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmstt.lfytv.cn/api.php/app/"
-    },
-    {
-      "key": "csp_LiteApple",
-      "name": "♨️苹果┃影视",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-   
-    {
-      "key": "csp_FourK",
-      "name": "♨️┃绝对┃影视",
-      "type": 3,
-      "api": "csp_FourK",
-      "ext": "https://www.4kvm.tv"
-    },
-    {
-      "key": "csp_Lkdy",
-      "name": "♨️┃来看┃影视",
-      "type": 3,
-      "api": "csp_Lkdy"
-    },
-    {
-      "key": "csp_J",
-      "name": "♨️饺子┃外剧",
-      "type": 3,
-      "api": "csp_Jiaozi",
-      "playerType": 2
-    },
-    {
-      "key": "csp_AppXY",
-      "name": "♨️┃星牙┃短剧",
-      "type": 3,
-      "api": "csp_AppXY"
-    },
-  
-    {
-      "key": "酷狗",
-      "name": "🐾┃酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      }
-    },
-    {
-      "key": "儿童",
-      "name": "📚┃儿童┃启蒙",
-      "type": 3,
-      "api": "http://ok.lfytv.cn/lib/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "http://ok.lfytv.cn/lib/兔小贝.js"
-    },
-    {
-      "key": "少儿",
-      "name": "📚┃少儿┃教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "http://ok.lfytv.cn/lib/少儿教育.json"
-    },
-    {
-      "key": "小学",
-      "name": "📚┃小学┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "http://ok.lfytv.cn/lib/小学课堂.json"
-    },
-    {
-      "key": "初中",
-      "name": "📚┃初中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "http://ok.lfytv.cn/lib/初中课堂.json"
-    },
-    {
-      "key": "高中",
-      "name": "📚┃高中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "http://ok.lfytv.cn/lib/高中课堂.json"
     }
     
  
@@ -758,7 +582,7 @@
 {
       "name": "🐅官源4K1",
       "type": 1,
-      "url": "http://kcjx.zwzs.fun/json.php?url=",
+      "url": "http://120.46.190.255/%E5%B0%8F%E7%99%BD%E7%99%BD.php?url=",
       "ext": {
         "flag": [
           "qq",
