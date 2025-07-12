@@ -100,26 +100,30 @@
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
     },
 
-  {
-      "key": "哔哩弹幕",
-      "name": "♨️哔哔｜4K️️",
+   {
+      "key": "哔哩视频JS",
+      "name": "♨️哔哩┃4K纯净",
       "type": 3,
-      "api": "csp_Bilimd",
-      "jar": "http://jk.xnftv.xyz/2025/spider.jar",
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": {
-        "cookie": "http://api.xnftv.xyz/jx/bili/bili.txt",
-        "danmu": true
-      },
-      "timeout": 10
+      "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
     },
- 
+    {
+      "key": "酷酷JS",
+      "name": "♨️酷酷┃4K纯净",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/YKSP.js"
+    },
+    {
+      "key": "小艺视频JS",
+      "name": "♨️小艺┃4K纯净",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/AQY.js"
+    },
     {
       "key": "行动",
       "name": "🌀行动┃超清┃弹幕",
