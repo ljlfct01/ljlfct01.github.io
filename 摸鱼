@@ -2,16 +2,7 @@
   "spider": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250",
  
   "sites": [
-     {
-      "key": "csp_appys_臻彩",
-      "name": "4K臻彩世界",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
-    },
+    
     {
       "key": "企鹅崽崽JS",
       "name": "♨️醉挽清风┃4K纯净",
@@ -473,6 +464,16 @@
       "ext": {
         "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
       }
+    },
+   {
+      "key": "csp_appys_臻彩",
+      "name": "4K臻彩世界",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
     },
     {
       "key": "夕晨踏雪",
