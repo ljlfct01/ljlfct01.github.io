@@ -2,14 +2,21 @@
   "spider": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250",
  
   "sites": [
-    
-   {
-      "key": "tt",
-      "name": "4K｜影视",
+  {
+      "key": "企鹅崽崽JS",
+      "name": "♨️腾腾｜4K",
       "type": 3,
       "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
     },
+   {
+      "key": "月夕花晨JS",
+      "name": "♨️果 果｜4K",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
+    },
+
     {
       "key": "哔哩弹幕",
       "name": "♨️|哔哩｜4K",
@@ -29,27 +36,7 @@
       },
       "timeout": 10
     },
-    {
-      "key": "月夕花晨JS",
-      "name": "♨️小满万全┃4K纯净",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/MGSP.js"
-    },
-    {
-      "key": "酷酷JS",
-      "name": "♨️酷月繁星┃4K纯净",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/YKSP.js"
-    },
-    {
-      "key": "小艺视频JS",
-      "name": "♨️风中知秋┃4K纯净",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/AQY.js"
-    },
+ 
     {
       "key": "行动",
       "name": "🌀行动┃超清┃弹幕",
