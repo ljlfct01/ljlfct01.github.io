@@ -36,7 +36,7 @@ var rule = {
       'User-Agent': 'okhttp/4.12.0'
       
     };
-    let responseText = request("http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=" + input, { headers: headers });
+    let responseText = request("" + input, { headers: headers });
     console.log("响应文本:", responseText); // 查看原始响应内容
 //备用http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=
     // 解析 JSON 数据
