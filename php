@@ -1,26 +1,31 @@
 {
-  "servTime": 1752692639,
-  "m3uData": {
-    "jsVersion": 95,
-    "jsUrl": "http://file.91kds.cn/js/js2024-20241204.zip",
-    "m3uUrl": "http://tvapi.yuanbaotv.com/api/p3p-20250711.zip",
-    "m3uVersion": 20250221,
-    "epgUrl": "http://tvapi.yuanbaotv.com/api/diyp.php?ch={name}&date={date}",
-    "logoUrl": "http://116.62.107.79/logo/"
-  },
-  "updateData": {
-    "apkVersion": 100,
-    "apkUrl": "http://apk.yftv.cc/chtv-1.0.1.apk",
-    "updateTitle": "版本更新",
-    "updateDesc": "新版本1.0.1更新了\n1.修复节目无法更新的bug\n2.修改默认解码为ijk\n\n是否下载？",
-    "forceUpdate": false
-  },
-  "adData": {
-    "adVersion": 0,
-    "adUrl": "",
-    "adTitle": "精品推荐",
-    "adImg": "",
-    "adCh": "",
-    "adDesc": "由于之前版本默认解码配置为ijk\n部分设备播放可能导致画面卡顿\n建议重新下载安装新版本或者通过菜单修改解码为系统\n\n是否下载？"
-  }
+  "force_refresh": 0,
+  "app_upgrade": 1,
+  "source": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E6%91%B8%E9%B1%BC",
+  "source_plus": "",
+  "app_message": "本APP基于开源免费项目二次开发, 无内置但兼容tvbox标准接口, 仅供内部测试学习交流使用\n\n使用过程中若出现广告均为三方插入, 与本APP无关, 请勿相信, 配置「广告解析密钥」可进行过滤\n\n关注设置中公众号加测试群可获取更多信息",
+  "jar_message": "使用TimeFlix应用随意输入即可登录时光机标准杯; 超大杯仍需超级密钥!",
+  "filter": [
+    "王二小放牛娃.xyz",
+    "神秘的哥哥们",
+    "｜",
+    "防失联",
+    "关注",
+    "【",
+    "】",
+    "┃ ",
+    "小米接口群：665981772 "
+  ],
+  "prefix": "★TimeFlix★",
+  "prefix_wolong": "★卧龙TV★",
+  "title": "公众号「插兜的干货仓库」",
+  "jxUrl": "https://www.lintech.work/api/m3u8/parse?token=%s&url=%s",
+  "danmuUrl": "https://www.lintech.work/api/danmu/danmu?token=xfpa89250520&url=",
+  "notice": "https://www.lintech.work/static/config/notice.json",
+  "parse_no_header": 0,
+  "live": "",
+  "upgrade": "https://ghfast.top/https://raw.githubusercontent.com/bestpvp/updateCenter/refs/heads//main/",
+  "source_backdoor_plus": "https://www.lintech.work/超大杯/main.json",
+  "source_backdoor": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/tvbox.%E5%85%AC%E7%91%BE1",
+  "customization": 1
 }
