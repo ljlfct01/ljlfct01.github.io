@@ -11,6 +11,24 @@
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     },
+   {
+      "name": "🧥tvbus",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://aries.yuanwangokk.nyc.mn/7jnB",
+      "ua": "",
+      "epg": "",
+      "logo": "",
+      "core": {
+        "auth": "local://tvbus",
+        "name": "",
+        "pass": "",
+        "resp": "",
+        "pkg": "",
+        "sign": "",
+        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
+      }
+    },
     {
       "name": "88KQ直播源",
       "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
