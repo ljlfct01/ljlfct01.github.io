@@ -36,27 +36,10 @@
   
   ],
   "parses": [
-     {
-      "name": "APP解析",
-      "type": 1,
-      "url": "",
-      "superUrl": ""
-    },
-    {
-      "name": "WEB解析",
-      "type": 0,
-      "url": "",
-      "superUrl": ""
-    },
-    {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
+ {
+      "name": "轮询优选",
+      "type": 2,
+      "url": "Sequence"
     },
     {
       "name": "♨️zhuimi测试",
