@@ -107,39 +107,7 @@
   "ads": [],
   "sites": [
   
-    {
-      "key": "🌈 配置 | JAR",
-      "name": "🌈 配置 | JAR",
-      "type": 3,
-      "api": "csp_Config",
-      "ext": {
-        "bili_cookie": "http://111.230.103.97:666/vip/cookie"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "📬️ 新片预告 | JAR",
-      "name": "📬️ 新片预告 | JAR",
-      "type": 3,
-      "api": "csp_Trailer",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {}
-    },
-    {
-      "key": "📣 低端直连 | JAR",
-      "name": "📣 低端直连 | JAR",
-      "type": 3,
-      "api": "csp_DdrkPlus",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {}
-    },
+
     {
       "key": "🈵 醉挽清风 | JX",
       "name": "🈵 醉挽清风 | JX",
