@@ -182,7 +182,7 @@
     }
   ],
   "lives": [
-     {"name": "🐅IPTV研究所直播源","type" : 0,"url" : "http://kkk.888.3116598.xyz/user/HKTV.txt","playerType":1},
+    
 
  
 {
@@ -191,64 +191,8 @@
       "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%80%81%E4%B8%89",
       "ua": "okhttp/3.15",
       "playerType": 2
-    },
-{
-      "name": "🐅平台直播",
-      "type": 0,
-      "url": "http://150.158.112.123/live.txt",
-      "ua": "okhttp/3.15",
-      "playerType": 2
-    },
- 
- 
- {
-      "name": "🐅AKTV",
-      "type": 0,
-      "url": "https://aktv.space/live.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-  
-   {
-      "name": "🐅猫TV",
-      "type": 0,
-      "playerType": 1,
-      "url": "http://rihou.cc:567/gggg.nzk",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "core": {
-        "auth": "local://tvbus",
-        "name": "",
-        "pass": "",
-        "resp": "",
-        "pkg": "",
-        "sign": "",
-        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
-      }
-    },
-  
-{
-      "name": "🐅宝盒直播",
-      "type": 0,
-      "url": "https://3043.kstore.space/bhvip/bhzb.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-  
-{
-      "name": "🐅影视家",
-      "type": 0,
-      "url": "http://max.token.iptv.xin:2052/api/channels/%E7%8B%AC%E5%AE%B6%E4%BB%A3%E7%90%86%E6%BA%90/details?token=174780775220",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
+
   ],
   "flags": [
     "youku",
