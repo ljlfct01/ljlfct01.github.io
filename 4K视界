@@ -5,38 +5,31 @@
   "sites": [
     {
       "key": "hipy_js_腾云驾雾[官]",
-      "name": "腾腾｜4K",
+      "name": "♨️腾腾｜4K",
       "type": 3,
-      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "http://150.158.112.123/jar/tx4k.js"
+     "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/TXSP.js"
     },
    {
       "key": "mangmang",
-      "name": "果果|4K",
+      "name": "♨️果果|4K",
       "type": 3,
-      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-      "ext": "http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7%E7%8E%89%E7%8E%89%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/mg2.js"
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/MGSP.js"
     },
-   {
-      "key": "哔哩哔哩",
-      "name": "哔哩｜分类",
+    {
+      "key": "哔哩视频JS",
+      "name": "♨️哔哩┃4K",
       "type": 3,
-      "api": "csp_Bili",
-      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 2,
       "filterable": 1,
-      "ext": "https://image-c.weimobwmc.com/ol-OlSf/58cbbf5395d4468cb4180b57c2834102.jpg"
+      "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
     },
     {
       "key": "csp_appys_臻彩",
-      "name": "4K臻彩世界",
+      "name": "♨️4K臻彩世界",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -46,7 +39,7 @@
     },
     {
       "key": "csp_appys_天堂",
-      "name": "电影┃天堂",
+      "name": "♨️电影┃天堂",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -56,7 +49,7 @@
     },
     {
       "key": "csp_LiteApple",
-      "name": "苹果┃影视",
+      "name": "♨️苹果┃影视",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -65,27 +58,27 @@
     },
     {
       "key": "梦回",
-      "name": "梦回┃影视",
+      "name": "♨️梦回┃影视",
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
     },
     {
       "key": "星辉",
-      "name": "星辉┃影视",
+      "name": "♨️星辉┃影视",
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
     },
     {
       "key": "csp_Jpys",
-      "name": "金牌┃影视",
+      "name": "♨️金牌┃影视",
       "type": 3,
       "api": "csp_Jpys"
     },
     {
       "key": "csp_FourK",
-      "name": "┃绝对┃影视",
+      "name": "♨️绝对┃影视",
       "type": 3,
       "api": "csp_FourK",
       "ext": "https://www.4kvm.tv"
@@ -98,14 +91,14 @@
     },
     {
       "key": "csp_J",
-      "name": "饺子┃外剧",
+      "name": "♨️饺子┃外剧",
       "type": 3,
       "api": "csp_Jiaozi",
       "playerType": 2
     },
     {
       "key": "csp_AppXY",
-      "name": "┃星牙┃短剧",
+      "name": "♨️星牙┃短剧",
       "type": 3,
       "api": "csp_AppXY"
     },
@@ -212,20 +205,11 @@
    
   ],
   "parses": [
+  
     {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
-    {
-      "name": "♨️全能",
+      "name": "♨️4K",
       "type": "1",
-      "url": "http://zz.qqqtv.top/api/index?parsesId=3&appid=10000&videoUrl=",
+      "url": "https://tvbox.dysvips.top/api/index?parsesId=8&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
@@ -245,9 +229,9 @@
       }
     },
     {
-      "name": "♨️zhuimi测试",
+      "name": "♨️4K1",
       "type": "1",
-      "url": "http://jxsq.mftv.top/?url=JL-",
+      "url": "https://tvbox.dysvips.top/api/index?parsesId=1&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
@@ -267,9 +251,9 @@
       }
     },
   {
-      "name": "🐅4K",
+      "name": "♨️4K2",
       "type": 1,
-      "url": "",
+      "url": "http://114.66.55.28:558/api/index?parsesId=11&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
@@ -297,9 +281,9 @@
     },
 
 {
-      "name": "🐅4K1",
+      "name": "♨️4K3",
       "type": 1,
-      "url": "",
+      "url": "http://114.66.55.28:558/api/index?parsesId=12&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
