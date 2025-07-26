@@ -664,7 +664,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "http:\/\/zhuimi.xn--v4q818bf34b.com\/moyu\/zhuimi?token=z2UWYdw6&url=" + input.split("?")[0];
+            let api = "http://appsk.efzjo.cn/api/index?parsesId=1&appid=10001&videoUrl=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
