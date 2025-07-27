@@ -3,29 +3,44 @@
   "wallpaper": "http://ceshi.xn--z7x900a.com/ppic/feimao.php",
   "logo": "http://ceshi.xn--z7x900a.com/panda/0262.png",
   "sites": [
-   {
-      "key": "企鹅崽崽JS",
-      "name": "♨️醉挽清风┃4K纯净",
+  {
+      "key": "drpy_js_腾云驾雾",
+      "name": "🐅小脑斧|腾讯4K",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/TXSP.js"
-    },
-    {
-      "key": "哔哩视频JS",
-      "name": "♨️笔触琉璃┃4K纯净",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
+      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
+      "ext": "https://tv.7887887.xyz/js/腾讯弹幕.js"
     },
     {
-      "key": "月夕花晨JS",
-      "name": "♨️小满万全┃4K纯净",
+      "key": "drpy_js_百忙无果",
+      "name": "🐅小脑斧|芒果4K",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/MGSP.js"
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
+      "ext": "https://tv.7887887.xyz/js/芒果弹幕.js"
+    },
+    {
+      "key": "哔哩弹幕",
+      "name": "🐅小脑斧|哔哩4K",
+      "type": 3,
+      "api": "csp_Bilimd",
+      "jar": "http://jk.xnftv.xyz/2025/spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {
+        "cookie": "http://api.xnftv.xyz/jx/bili/bili.txt",
+        "danmu": true
+      },
+      "timeout": 10
     },
    {
             "key": "夕晨踏雪",
