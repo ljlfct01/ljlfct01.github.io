@@ -14,25 +14,19 @@
     }
   ],
   "sites": [
-    {
-      "key": "drpy_js_腾云驾雾",
-      "name": "🐅小脑斧|腾讯4K",
+     {
+      "key": "ttys",
+      "name": "腾腾｜影视",
       "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
-      "ext": "https://tv.7887887.xyz/js/腾讯弹幕.js"
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+      "ext": "http://150.158.112.123/jar/tx.js"
     },
-    {
-      "key": "drpy_js_百忙无果",
-      "name": "🐅小脑斧|芒果4K",
+     {
+      "key": "mangmang",
+      "name": "果果|4K",
       "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
-      "ext": "https://tv.7887887.xyz/js/芒果弹幕.js"
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+      "ext": "http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7%E7%8E%89%E7%8E%89%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/mg2.js"
     },
     {
       "key": "哔哩弹幕",
@@ -52,27 +46,8 @@
         "danmu": true
       },
       "timeout": 10
-    },
-    {
-      "key": "drpy_js_奇珍异兽",
-      "name": "🐅小脑斧|爱奇艺2K",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
-      "ext": "https://tv.7887887.xyz/js/爱奇艺弹幕.js"
-    },
-    {
-      "key": "drpy_js_优酷",
-      "name": "🐅小脑斧|优酷标清",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "https://tv.7887887.xyz/js/drpy2.min.js",
-      "ext": "https://tv.7887887.xyz/js/优酷弹幕.js"
     }
+
   ],
   "parses": [
     {
