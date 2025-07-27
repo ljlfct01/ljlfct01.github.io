@@ -4,13 +4,107 @@
   "wallpaper": "https://tuapi.eees.cc/api.php?category=biying&type=302",
   "logo": "http://www.hyxuan.top/nf.png",
   "lives": [
-    {
-      "name": "live",
+     {"name": "🐅易發","type" : 0,"url" : "http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt","playerType":1},
+      {"name": "🐅IPTV研究所直播源","type" : 0,"url" : "http://kkk.888.3116598.xyz/user/HKTV.txt","playerType":1},
+
+ 
+{
+      "name": "🐅老三",
       "type": 0,
-      "url": "http://atv.120119110.xyz/txt",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%80%81%E4%B8%89",
+      "ua": "okhttp/3.15",
+      "playerType": 2
+    },
+{
+      "name": "🐅平台直播",
+      "type": 0,
+      "url": "http://150.158.112.123/live.txt",
+      "ua": "okhttp/3.15",
+      "playerType": 2
+    },
+ 
+ 
+ {
+      "name": "🐅AKTV",
+      "type": 0,
+      "url": "https://aktv.space/live.m3u",
       "playerType": 1,
-      "epg": "https://m3u.ibert.me/epg/112114_xyz.xml",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+  
+   {
+      "name": "🐅猫TV",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://rihou.cc:567/gggg.nzk",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "core": {
+        "auth": "local://tvbus",
+        "name": "",
+        "pass": "",
+        "resp": "",
+        "pkg": "",
+        "sign": "",
+        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
+      }
+    },
+  
+{
+      "name": "🐅宝盒直播",
+      "type": 0,
+      "url": "https://3043.kstore.space/bhvip/bhzb.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+  
+{
+      "name": "🐅影视家",
+      "type": 0,
+      "url": "http://max.token.iptv.xin:2052/api/channels/%E7%8B%AC%E5%AE%B6%E4%BB%A3%E7%90%86%E6%BA%90/details?token=174780775220",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+  
+   {
+      "name": "🐅tvbus",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://aries.yuanwangokk.nyc.mn/7jnB",
+      "ua": "",
+      "epg": "",
+      "logo": "",
+      "core": {
+        "auth": "local://tvbus",
+        "name": "",
+        "pass": "",
+        "resp": "",
+        "pkg": "",
+        "sign": "",
+        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
+      }
+    },
+    {
+      "name": "🐅88KQ直播源",
+      "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+   {
+      "name": "🐅x315601",
+      "url": "http://x315601.serv00.net/10.php",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     }
   ],
   "sites": [
