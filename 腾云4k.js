@@ -36,7 +36,7 @@ var rule = {
       'User-Agent': 'okhttp/4.12.0'
       
     };
-    let responseText = request("http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=z2UWYdw6&url=" + input, { headers: headers });
+    let responseText = request("http://120.46.190.255/%E5%B0%8F%E7%99%BD%E7%99%BD.php?url=" + input, { headers: headers });
     console.log("响应文本:", responseText); // 查看原始响应内容
 //备用http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=
     // 解析 JSON 数据
