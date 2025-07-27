@@ -2,11 +2,11 @@ var rule = {
     title: '百忙无果[官]',
     host: 'https://pianku.api.%6d%67%74%76.com',
     homeUrl: '',
-    // searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/pc/search/v1?q=**&pn=fypage&pc=10',
+    // searchUrl: '**&pn=fypage&pc=10',
     // 新版接口搜索变成v2并且加了验证，蛋疼
-    // searchUrl: 'https://mobileso.bz.mgtv.com/pc/search/v2?allowedRC=1&src=mgtv&did=cf03b959-6945-4cb6-bcb3-88762459354d&timestamp=2024-06-21T15%3A52%3A55Z&signVersion=1&signNonce=8dae67a1fafc4bda984ec8deb47666ad&q=**&pn=fypage&pc=10&corr=1&_support=10000000&signature=4e27fddcd2a1a66d6c1764ed6b74bab7',
+    // searchUrl: '**&pn=fypage&pc=10&corr=1&_support=10000000&signature=4e27fddcd2a1a66d6c1764ed6b74bab7',
     // 用手机的吧，搞不定这个
-    searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/msite/search/v2?q=**&pn=fypage&pc=10',
+    searchUrl: '**&pn=fypage&pc=10',
     detailUrl: 'https://pcweb.api.mgtv.com/episode/list?page=1&size=50&video_id=fyid',
     searchable: 2,
     quickSearch: 0,
