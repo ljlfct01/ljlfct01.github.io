@@ -30,7 +30,7 @@
     },
     {
       "key": "哔哩弹幕",
-      "name": "🐅小脑斧|哔哩4K",
+      "name": "哔哩|4K",
       "type": 3,
       "api": "csp_Bilimd",
       "jar": "http://jk.xnftv.xyz/2025/spider.jar",
@@ -50,64 +50,7 @@
 
   ],
   "parses": [
-    {
-      "name": "🐅小脑斧|官源4K",
-      "type": 1,
-      "url": "http://jx.xnftv.xyz/api/diy/?key=02wLO4jHzX2J3U7417&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "🐅小脑斧|通用",
-      "type": 0,
-      "url": "https://www.yemu.xyz/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    }
+  
   ],
   "flags": [
     "youku",
