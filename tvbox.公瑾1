@@ -3,9 +3,42 @@
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
-   {"name": "🐅IPTV研究所直播源","type" : 0,"url" : "http://kkk.888.3116598.xyz/user/HKTV.txt","playerType":1},
-{"name": "🐅易發","type" : 0,"url" : "http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt","playerType":1},
- 
+  {
+      "name": "🐅易播TV",
+      "type": 0,
+      "url": "https://yibo.tv1288.xyz/000000",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "🐅海燕TV",
+      "type": 0,
+      "url": "https://chuxinya.top/f/AD5QHE/%E6%B5%B7%E7%87%95.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "🐅落日TV",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%90%BD%E6%97%A5TV",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "🐅九州影视",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E4%B9%9D%E5%B7%9E%E5%BD%B1%E8%A7%86",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
 {
       "name": "🐅老三",
       "type": 0,
@@ -20,8 +53,24 @@
       "ua": "okhttp/3.15",
       "playerType": 2
     },
- 
- 
+  {
+      "name": "🐅易发TV",
+      "type": 0,
+      "url": "http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+   {
+      "name": "🐅慕雨",
+      "type": 0,
+      "url": "https://chuxinya.top/f/XooOhO/%E6%B8%AF%E6%BE%B3%E5%8F%B0%E8%B5%84%E6%BA%90.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
  {
       "name": "🐅AKTV",
       "type": 0,
@@ -70,16 +119,7 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-  {
-      "name": "🐅慕雨",
-      "type": 0,
-      "url": "https://chuxinya.top/f/XooOhO/%E6%B8%AF%E6%BE%B3%E5%8F%B0%E8%B5%84%E6%BA%90.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-  {
+    {
       "name": "🐅x315601",
       "url": "http://x315601.serv00.net/10.php",
       "type": 0,
@@ -87,6 +127,7 @@
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
     },
+ 
     {
       "name": "88KQ直播源",
       "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
@@ -97,32 +138,44 @@
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
-
-     {
-      "key": "爱奇艺",
-      "name": "珍珠🌸影视┃爱 奇4 K",
+      {
+      "key": "ttys",
+      "name": "♨️腾腾┃4K",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/爱奇艺.js"
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
+    },
+     {
+      "key": "mangmang",
+      "name": "♨️果果┃4K",
+      "type": 3,
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
     },
     {
-      "key": "优酷视频",
-      "name": "珍珠🌸影视┃优 酷4 K",
+      "key": "1小野",
+      "name": "♨️小野┃4K",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/优酷视频.js"
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://appcms.xy4k.com",
+        "site": "",
+        "dataKey": "7SDWjknU34zqFbVr",
+        "dataIv": "7SDWjknU34zqFbVr",
+        "deviceId": "",
+        "version": ""
+      }
     },
   {
-      "key": "lvdouttt1",
-      "name": "珍珠🌸影视┃珍珠原盘",
-      "jar": "https://gitee.com/zxmoyun/test/raw/master/spider2.jar",
+      "key": "哔哩视频JS",
+      "name": "♨️哔哩┃4K",
       "type": 3,
-      "api": "csp_AppYsV2",
-      "playerType": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://111.173.117.169:5999/api.php/app/"
+      "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
     },
     {
       "key": "🈵 醉挽清风 | JX",
