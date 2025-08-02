@@ -44,55 +44,11 @@
     }
   ],
   "parses": [
-  
-    {
-      "name": "♨️全能",
-      "type": "1",
-      "url": "http://zz.qqqtv.top/api/index?parsesId=3&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇异",
-          "iqiyi",
-          "youku",
-          "优酷",
-          "bilibili",
-          "哔哩哔哩",
-          "yk",
-          "mgtv",
-          "芒果"
-        ]
-      }
-    },
-    {
-      "name": "♨️zhuimi测试",
-      "type": "1",
-      "url": "http://jxsq.mftv.top/?url=JL-",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇异",
-          "iqiyi",
-          "youku",
-          "优酷",
-          "bilibili",
-          "哔哩哔哩",
-          "yk",
-          "mgtv",
-          "芒果"
-        ]
-      }
-    },
-  {
-      "name": "🐅4K",
+ 
+{
+      "name": "🐅网络",
       "type": 1,
-      "url": "",
+      "url": "http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=",
       "ext": {
         "flag": [
           "qq",
@@ -118,11 +74,126 @@
         }
       }
     },
-
 {
-      "name": "🐅4K1",
+      "name": "🐅网络1",
       "type": 1,
-      "url": "",
+      "url": "http://120.46.190.255/%E5%B0%8F%E7%99%BD%E7%99%BD.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+{
+      "name": "🐅网络2",
+      "type": 1,
+      "url": "http://8.155.50.80/xiayexk.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+{
+      "name": "🐅网络3",
+      "type": 1,
+      "url": "http://sspa8.top:82/api/?key=wu18685408360&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+{
+      "name": "🐅网络4",
+      "type": 1,
+      "url": "http://bf.69mini.com/json.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+{
+      "name": "🐅网络5",
+      "type": 1,
+      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=DHZNz2KxkQ6szAWfJo&url=XYJP-",
       "ext": {
         "flag": [
           "qq",
