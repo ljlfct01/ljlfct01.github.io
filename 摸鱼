@@ -1,5 +1,5 @@
 {
-  "spider": "http://38.147.171.151:6699/jx/ixx.jar",
+  "spider": "",
   "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/",
   "logo": "https://s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
   "warningText": "摸鱼儿：资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
@@ -39,21 +39,7 @@
       "filterable": 1,
       "ext": "http://111.173.117.169:5999/api.php/app/"
     },
-    {
-      "key": "1小野",
-      "name": "♨️小野｜4K",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://appcms.xy4k.com",
-        "site": "",
-        "dataKey": "7SDWjknU34zqFbVr",
-        "dataIv": "7SDWjknU34zqFbVr",
-        "deviceId": "",
-        "version": ""
-      }
-    },
+   
 
      {
       "key": "夕晨踏雪",
@@ -126,6 +112,35 @@
     },
 {
       "name": "🐅网络2",
+      "type": 1,
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+{
+      "name": "🐅网络3",
       "type": 1,
       "url": "http://8.155.50.80/xiayexk.php?url=",
       "ext": {
