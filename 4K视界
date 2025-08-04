@@ -138,34 +138,26 @@
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
-     {
-      "key": "ttys",
-      "name": "♨️腾腾┃4K",
+ {
+      "key": "腾讯视频",
+      "name": "♨️腾讯｜4K",
       "type": 3,
-      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
+      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
+      "ext": "https://tvbox.newhi.net/JS/腾讯视频.js"
     },
-     {
-      "key": "mangmang",
-      "name": "♨️果果┃4K",
+   {
+      "key": "芒果视频",
+      "name": "♨️芒果｜视频",
       "type": 3,
-      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
+      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
+      "ext": "https://tvbox.newhi.net/JS/芒果视频.js"
     },
-    {
-      "key": "1小野",
-      "name": "♨️小野┃4K",
+  {
+      "key": "哔哩视频",
+      "name": "♨️哔哩｜4K",
       "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://appcms.xy4k.com",
-        "site": "",
-        "dataKey": "7SDWjknU34zqFbVr",
-        "dataIv": "7SDWjknU34zqFbVr",
-        "deviceId": "",
-        "version": ""
-      }
+      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
+      "ext": "https://tvbox.newhi.net/JS/哔哩视频.js"
     },
    {
       "key": "lvdouttt1",
@@ -955,5 +947,6 @@
     }
   ]
 }
+
 
 
