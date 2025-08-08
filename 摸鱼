@@ -204,6 +204,24 @@
     }
   ],
   "lives": [
+  {
+      "name": "🐅易播TV",
+      "type": 0,
+      "url": "https://yibo.tv1288.xyz/000000",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "🐅海燕TV",
+      "type": 0,
+      "url": "https://chuxinya.top/f/AD5QHE/%E6%B5%B7%E7%87%95.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
  {
       "name": "🐅电视家",
       "type": 0,
@@ -224,8 +242,33 @@
     },
       {"name": "🐅易發","type" : 0,"url" : "http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt","playerType":1},
      
-
- 
+ {
+      "name": "🐅落日TV",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%90%BD%E6%97%A5TV",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "🐅九州影视",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E4%B9%9D%E5%B7%9E%E5%BD%B1%E8%A7%86",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+  {
+      "name": "🐅慕雨",
+      "type": 0,
+      "url": "https://chuxinya.top/f/XooOhO/%E6%B8%AF%E6%BE%B3%E5%8F%B0%E8%B5%84%E6%BA%90.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
 {
       "name": "🐅老三",
       "type": 0,
@@ -291,24 +334,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
   
-   {
-      "name": "🐅tvbus",
-      "type": 0,
-      "playerType": 1,
-      "url": "https://aries.yuanwangokk.nyc.mn/7jnB",
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "core": {
-        "auth": "local://tvbus",
-        "name": "",
-        "pass": "",
-        "resp": "",
-        "pkg": "",
-        "sign": "",
-        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
-      }
-    },
+ 
     {
       "name": "🐅88KQ直播源",
       "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
