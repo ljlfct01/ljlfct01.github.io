@@ -170,30 +170,18 @@
   ],
   "logo": "./A/logo.gif",
   "sites": [
-   
-
   {
-      "key": "腾讯视频",
-      "name": "♨️腾讯｜4K",
+      "key": "csp_appys_臻彩",
+      "name": "♨️4K臻彩世界",
       "type": 3,
-      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
-      "ext": "https://tvbox.newhi.net/JS/腾讯视频.js"
-    },
-   {
-      "key": "芒果视频",
-      "name": "♨️芒果｜4K",
-      "type": 3,
-      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
-      "ext": "https://tvbox.newhi.net/JS/芒果视频.js"
-    },
-  {
-      "key": "哔哩视频",
-      "name": "♨️哔哩｜4K",
-      "type": 3,
-      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
-      "ext": "https://tvbox.newhi.net/JS/哔哩视频.js"
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cms4ksj.lyyytv.cn/api.php/app/"
     }
-  
+
+
   ],
   "doh": [
     {
@@ -528,6 +516,7 @@
  
   ]
 }
+
 
 
 
