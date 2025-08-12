@@ -422,6 +422,35 @@
 {
       "name": "🐅网络",
       "type": 1,
+      "url": "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=z7UBCdho&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+{
+      "name": "🐅网络1",
+      "type": 1,
       "url": "http://bf.69mini.com/json.php?url=",
       "ext": {
         "flag": [
@@ -449,7 +478,7 @@
       }
     },
  {
-      "name": "🐅网络1",
+      "name": "🐅网络2",
       "type": 1,
       "url": "http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=",
       "ext": {
