@@ -180,67 +180,14 @@
       "filterable": 1,
       "ext": "http://cms4ksj.lyyytv.cn/api.php/app/"
     },
- {
-      "key": "企鹅崽崽JS",
-      "name": "♨️醉挽清风┃4K纯净",
+  {
+      "key": "夕晨踏雪",
+      "name": "♨️夕晨踏雪┃4K弹幕",
+      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/TXSP.js"
-    },
-    {
-      "key": "csp_appys_天堂",
-      "name": "♨️电影┃天堂",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmsdytt.lyyytv.cn/api.php/app/"
-    },
-    {
-      "key": "csp_LiteApple",
-      "name": "♨️苹果┃影视",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "星辉",
-      "name": "♨️星辉┃影视",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
-    },
-    {
-      "key": "csp_Jpys",
-      "name": "♨️金牌┃影视",
-      "type": 3,
-      "api": "csp_Jpys"
-    },
-    {
-      "key": "csp_FourK",
-      "name": "♨️绝对┃影视",
-      "type": 3,
-      "api": "csp_FourK",
-      "ext": "https://www.4kvm.tv"
-    },
-    {
-      "key": "酷狗",
-      "name": "♨️┃酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      }
+      "api": "csp_SP360"
     }
+  
 
   ],
   "doh": [
@@ -576,6 +523,7 @@
  
   ]
 }
+
 
 
 
