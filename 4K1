@@ -1,6 +1,16 @@
 {
   "spider": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar;md5;46761ee087c0f297de2abf92ec088591",
   "lives": [
+ {
+            "name": "🐅V4-mursor（卡顿请换源）",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/iptv.m3u",
+            "playerType": 2,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://11.112114.xyz/logo/{name}.png",
+            "ua": "okHttp/Mod-1.0.0"
+        },
+
   {
       "name": "🐅易播TV",
       "type": 0,
