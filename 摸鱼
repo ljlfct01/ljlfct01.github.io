@@ -181,50 +181,29 @@
       "filterable": 1,
       "ext": "http://cms4ksj.lyyytv.cn/api.php/app/"
     },
-    {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "珍珠🌸影视┃腾 讯4 K",
+     {
+      "key": "tt",
+      "name": "4K｜影视",
       "type": 3,
-      "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/腾讯视频.js"
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+      "ext": "http://150.158.112.123/jar/tx.js"
     },
      {
-      "key": "芒果视频",
-      "name": "珍珠🌸影视┃芒 果4 K",
+      "key": "mangmang",
+      "name": "果果|4K",
       "type": 3,
-      "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
-      "ext": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/芒果视频.js"
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+      "ext": "http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7%E7%8E%89%E7%8E%89%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/mg2.js"
     },
    {
-      "key": "lvdouttt1",
-      "name": "珍珠🌸影视┃珍珠原盘",
-      "jar": "https://gitee.com/zxmoyun/test/raw/master/spider2.jar",
+      "key": "哔哩视频JS",
+      "name": "♨️笔触琉璃┃4K纯净",
       "type": 3,
-      "api": "csp_AppYsV2",
-      "playerType": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://111.173.117.169:5999/api.php/app/"
-    },
-   {
-      "key": "爱奇艺",
-      "name": "珍珠🌸影视┃爱 奇4 K",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/爱奇艺.js"
-    },
-    {
-      "key": "优酷视频",
-      "name": "珍珠🌸影视┃优 酷4 K",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/优酷视频.js"
+      "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
     }
  
   ],
