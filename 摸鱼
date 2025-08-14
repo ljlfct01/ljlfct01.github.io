@@ -181,19 +181,24 @@
       "filterable": 1,
       "ext": "http://cms4ksj.lyyytv.cn/api.php/app/"
     },
-  {
-      "key": "腾讯视频",
-      "name": "♨️腾讯｜4K",
+    {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "珍珠🌸影视┃腾 讯4 K",
       "type": 3,
-      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
-      "ext": "https://tvbox.newhi.net/JS/腾讯视频.js"
+      "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/腾讯视频.js"
     },
-   {
+     {
       "key": "芒果视频",
-      "name": "♨️芒果｜4K",
+      "name": "珍珠🌸影视┃芒 果4 K",
       "type": 3,
-      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
-      "ext": "https://tvbox.newhi.net/JS/芒果视频.js"
+      "api": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/drpy2.min.js",
+      "ext": "https://gitee.com/aliluya1203/TVBox/raw/main/JS/芒果视频.js"
     },
    {
       "key": "lvdouttt1",
@@ -207,12 +212,19 @@
       "filterable": 1,
       "ext": "http://111.173.117.169:5999/api.php/app/"
     },
-  {
-      "key": "哔哩视频",
-      "name": "♨️哔哩｜4K",
+   {
+      "key": "爱奇艺",
+      "name": "珍珠🌸影视┃爱 奇4 K",
       "type": 3,
-      "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
-      "ext": "https://tvbox.newhi.net/JS/哔哩视频.js"
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/爱奇艺.js"
+    },
+    {
+      "key": "优酷视频",
+      "name": "珍珠🌸影视┃优 酷4 K",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/优酷视频.js"
     }
  
   ],
