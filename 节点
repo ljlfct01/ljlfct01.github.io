@@ -138,7 +138,10 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
 
-
+  - {name: 🇯🇵 日本-低延迟大宽带, server: 154.83.93.175, port: 9166, type: trojan, password: Wz19840706, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-低延迟, server: 154.222.31.107, port: 9166, type: trojan, password: c0944cab-da5e-455c-8311-c042e6ec37ed, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港-大宽带, server: 141.11.79.84, port: 9166, type: trojan, password: aa607fd8-e1ba-49b3-8705-c399393642f4, skip-cert-verify: true, udp: true}
+  - {name: 亚马逊AWS韩国首尔, server: 3.34.4.228, port: 9166, type: trojan, password: 06ead1ef-2a6f-468b-8317-c0c90bbf2a75, skip-cert-verify: true, udp: true}
 
 
 
