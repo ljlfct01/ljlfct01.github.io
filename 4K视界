@@ -1,6 +1,24 @@
 {
   "spider": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250",
   "lives": [
+ {
+            "name": "🐅V4-mursor（卡顿请换源）",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/iptv.m3u",
+            "playerType": 2,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://11.112114.xyz/logo/{name}.png",
+            "ua": "okHttp/Mod-1.0.0"
+        },
+ {
+      "name": "🐅p2pTV",
+      "type": 0,
+      "url": "https://mpimg.cn/down.php/3bfeff849c68e581aeaf29914ce2c426.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
   {
       "name": "🐅易播TV",
       "type": 0,
@@ -78,7 +96,24 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-  
+  {
+      "name": "🐅星火TV",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://148.135.34.95/yb.php",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "core": {
+        "auth": "local://tvbus",
+        "name": "",
+        "pass": "",
+        "resp": "",
+        "pkg": "",
+        "sign": "",
+        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
+      }
+    },
    {
       "name": "🐅猫TV",
       "type": 0,
@@ -150,9 +185,9 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "🐅内置直播-最新",
+      "name": "🐅昭昭TV",
       "type": 0,
-      "url": "http://dd.ma/sXzhujlk",
+      "url": "http://tvapi.zztv.cc/api/zip/txtzztv/202508101109/kds_all_sddx_964476153819ea2a5f2a68644fb73f9f.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
@@ -165,6 +200,7 @@
       "url": "http://txt.kesug.com/users/hulanlu.txt",
       "playerType": 1
     }
+   
    
    
   ],
@@ -547,6 +583,7 @@
  
   ]
 }
+
 
 
 
