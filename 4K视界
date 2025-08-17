@@ -2,6 +2,15 @@
   "spider": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250",
   "lives": [
  {
+      "name": "🐅昭昭TV",
+      "type": 0,
+      "url": "http://tvapi.zztv.cc/api/zip/txtzztv/202508101109/kds_all_sddx_964476153819ea2a5f2a68644fb73f9f.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
+ {
             "name": "🐅V4-mursor（卡顿请换源）",
             "type": 0,
             "url": "https://sub.ottiptv.cc/iptv.m3u",
@@ -184,15 +193,7 @@
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-    {
-      "name": "🐅昭昭TV",
-      "type": 0,
-      "url": "http://tvapi.zztv.cc/api/zip/txtzztv/202508101109/kds_all_sddx_964476153819ea2a5f2a68644fb73f9f.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
-    },
+  
    
     {
       "name": "🐅HKTV-直播源",
@@ -633,6 +634,7 @@
  
   ]
 }
+
 
 
 
