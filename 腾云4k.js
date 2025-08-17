@@ -23,7 +23,7 @@ var rule = {
     cate_exclude: '会员|游戏|全部',
     // class_name: '精选&电视剧&电影&综艺&动漫&少儿&纪录片',
     // class_url: 'choice&tv&movie&variety&cartoon&child&doco',
-    class_name: '电影&电视剧&综艺&动漫&少儿&纪录片',
+    class_name: '4K电影&4K电视剧&4K综艺&4K动漫&4K少儿&4K纪录片',
     class_url: 'movie&tv&variety&cartoon&child&doco',
     limit: 20,
     play_parse: true,
@@ -158,7 +158,7 @@ var rule = {
         let zp = d.filter(function(it) {
             return !(it.type && it.type !== "正片")
         });
-        VOD.vod_play_from = yg.length < 1 ? "微信公众号玉玉应用笔记" : "微信公众号玉玉应用笔记T$$$预告及花絮";
+        VOD.vod_play_from = yg.length < 1 ? "自用" : "自用T$$$预告及花絮";
         VOD.vod_play_url = yg.length < 1 ? d.map(function(it) {
             return it.title + "$" + it.url
         }).join("#") : [zp, yg].map(function(it) {
