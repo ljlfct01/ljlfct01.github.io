@@ -3,7 +3,7 @@ var rule = {
     host: 'https://v.%71%71.com',
     // homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=choice&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
     homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
-    detailUrl: 'https://node.video.%71%71.com/x/api/float_vinfo2?cid=fyid',
+    detailUrl: 'https://node.video.%71%71.com/x/api/fd2yqe1g4SYrLP3tsNWfwbFT7fyAotaK149/AqgMWYyAK0Qj7osrWHNQyHOh8ohG47OcA6h9FxUhk7GJWej7Fcb1XmqMH7CtRRUamCb7ghQaRpORTn4uXDLxjX+RmYmR2QOHNlZeY+MdrrXSxdT6JZxwIGL9loDM76nV7knNAPuqc8Xe0Htb+R7acQp3AbSloat_vinfo2?cid=fyid',
     searchUrl: '/x/search/?q=**&stag=fypage',
     searchable: 2,
     filterable: 1,
