@@ -36,9 +36,9 @@ var rule = {
       'User-Agent': 'okhttp/4.12.0'
       
     };
-    let responseText = request("" + input, { headers: headers });
+    let responseText = request("http://sspa8.top:8100/api/?key=%E5%88%9D%E5%BF%83&url=" + input, { headers: headers });
     console.log("响应文本:", responseText); // 查看原始响应内容
-//备用http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=
+//备用http://bf.69mini.com/json.php?url=
     // 解析 JSON 数据
     let response = JSON.parse(responseText);
 
