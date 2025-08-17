@@ -3,7 +3,7 @@ var rule = {
     host: 'https://v.%71%71.com',
     // homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=choice&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
     homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
-    detailUrl: 'https://node.video.%71%71.com/x/api/fd2yqe1g4SYrLP3tsNWfwbFT7fyAotaK149/AqgMWYyAK0Qj7osrWHNQyHOh8ohG47OcA6h9FxUhk7GJWej7Fcb1XmqMH7CtRRUamCb7ghQaRpORTn4uXDLxjX+RmYmR2QOHNlZeY+MdrrXSxdT6JZxwIGL9loDM76nV7knNAPuqc8Xe0Htb+R7acQp3AbSloat_vinfo2?cid=fyid',
+    detailUrl: 'https://node.video.%71%71.com/x/api/float_vinfo2?cid=fyid',
     searchUrl: '/x/search/?q=**&stag=fypage',
     searchable: 2,
     filterable: 1,
@@ -21,9 +21,9 @@ var rule = {
     timeout: 5000,
     // class_parse:'.site_channel a;a&&Text;a&&href;channel/(.*)',
     cate_exclude: '会员|游戏|全部',
-    // class_name: '4k精选&4k电视剧&4k电影&4k综艺&4k动漫&4k少儿&4k纪录片',
+    // class_name: '精选&电视剧&电影&综艺&动漫&少儿&纪录片',
     // class_url: 'choice&tv&movie&variety&cartoon&child&doco',
-    class_name: '4k电影&4k电视剧&4k综艺&4k动漫&4k少儿&4k纪录片',
+    class_name: '电影&电视剧&综艺&动漫&少儿&纪录片',
     class_url: 'movie&tv&variety&cartoon&child&doco',
     limit: 20,
     play_parse: true,
@@ -36,9 +36,9 @@ var rule = {
       'User-Agent': 'okhttp/4.12.0'
       
     };
-    let responseText = request("http://sspa8.top:8100/api/?key=%E5%88%9D%E5%BF%83&url=" + input, { headers: headers });
+    let responseText = request("http://120.46.190.255/小白白.php?url=" + input, { headers: headers });
     console.log("响应文本:", responseText); // 查看原始响应内容
-//备用http://bf.69mini.com/json.php?url=
+//备用http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=
     // 解析 JSON 数据
     let response = JSON.parse(responseText);
 
@@ -158,7 +158,7 @@ var rule = {
         let zp = d.filter(function(it) {
             return !(it.type && it.type !== "正片")
         });
-        VOD.vod_play_from = yg.length < 1 ? "自用4K" : "自用4KT$$$预告及花絮";
+        VOD.vod_play_from = yg.length < 1 ? "微信公众号玉玉应用笔记" : "微信公众号玉玉应用笔记T$$$预告及花絮";
         VOD.vod_play_url = yg.length < 1 ? d.map(function(it) {
             return it.title + "$" + it.url
         }).join("#") : [zp, yg].map(function(it) {
@@ -201,5 +201,4 @@ var rule = {
         });
         setResult(d);
     }),
-    
 }
