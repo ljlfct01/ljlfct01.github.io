@@ -201,6 +201,5 @@ var rule = {
         });
         setResult(d);
     }),
-     "cookie": "",
-  "jxApi": "E8d2yqe1g4SYrLP3tsNWfwbFT7fyAotaK149/AqgMWYyAK0Qj7osrWHNQyHOh8ohG47OcA6h9FxUhk7GJWej7Fcb1XmqMH7CtRRUamCb7ghQaRpORTn4uXDLxjX+RmYmR2QOHNlZeY+MdrrXSxdT6JZxwIGL9loDM76nV7knNAPuqc8Xe0Htb+R7acQp3AbS"
+    
 }
