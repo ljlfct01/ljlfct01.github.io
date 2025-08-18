@@ -1,6 +1,15 @@
 {
   
   "lives": [
+ {
+      "name": "🐅p2pTV",
+      "type": 0,
+      "url": "https://mpimg.cn/down.php/3bfeff849c68e581aeaf29914ce2c426.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
   {
       "name": "🐅易播TV",
       "type": 0,
@@ -22,7 +31,7 @@
  {
       "name": "🐅落日TV",
       "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%90%BD%E6%97%A5TV",
+      "url": "https://d.kstore.dev/download/6529/tvbox/%E7%9B%B4%E6%92%AD%E6%B5%8B%E8%AF%95.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
@@ -38,16 +47,16 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 {
-      "name": "🐅老三",
+      "name": "🐅MYTV",
       "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%80%81%E4%B8%89",
+      "url": "http://mytv.3d.tc//i/?T=fmzbtv",
       "ua": "okhttp/3.15",
       "playerType": 2
     },
 {
-      "name": "🐅平台直播",
+      "name": "🐅澜露",
       "type": 0,
-      "url": "http://150.158.112.123/live.txt",
+      "url": "http://txt.kesug.com/users/hulanlu.txt",
       "ua": "okhttp/3.15",
       "playerType": 2
     },
@@ -78,7 +87,24 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-  
+  {
+      "name": "🐅星火TV",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://148.135.34.95/yb.php",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "core": {
+        "auth": "local://tvbus",
+        "name": "",
+        "pass": "",
+        "resp": "",
+        "pkg": "",
+        "sign": "",
+        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
+      }
+    },
    {
       "name": "🐅猫TV",
       "type": 0,
@@ -126,9 +152,9 @@
     },
   
 {
-      "name": "🐅影视家",
+      "name": "🐅蜂蜜tv",
       "type": 0,
-      "url": "http://max.token.iptv.xin:2052/api/channels/%E7%8B%AC%E5%AE%B6%E4%BB%A3%E7%90%86%E6%BA%90/details?token=174780775220",
+      "url": "https://d.kstore.dev/download/6529/tvbox/fmzb_livetv.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
@@ -144,46 +170,26 @@
     },
  
     {
-      "name": "88KQ直播源",
+      "name": "🐅88KQ直播源",
       "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "内置直播-最新",
+      "name": "🐅昭昭TV",
       "type": 0,
-      "url": "http://dd.ma/sXzhujlk",
+      "url": "http://tvapi.zztv.cc/api/zip/txtzztv/202508101109/kds_all_sddx_964476153819ea2a5f2a68644fb73f9f.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
       "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     },
+   
     {
-      "name": "内置直播-原版",
-      "type": 0,
-      "url": "http://rihou.cc:555/gggg.nzk",
-      "playerType": 1
-    },
-    {
-      "name": "HKTV-直播源",
+      "name": "🐅HKTV-直播源",
       "type": 0,
       "url": "http://txt.kesug.com/users/hulanlu.txt",
       "playerType": 1
-    },
-    {
-      "name": "AKTV-直播线路",
-      "type": 0,
-      "url": "https://aktv.space/live.m3u",
-      "playerType": 1,
-      "ua": "okhttp/5.0.0-alpha.14",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "国内测试",
-      "url": "https://36.48.70.211:4433/"
     }
-  ]
-
 
 }
