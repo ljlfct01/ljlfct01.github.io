@@ -162,19 +162,7 @@
   ],
   "logo": "./A/logo.gif",
   "sites": [
-     {
-      "key": "config",
-      "name": "🚀辅助┃配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
-      "searchable": 0,
-      "quickSearch": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.61
-      }
-    }, 
+  
  {
       "key": "csp_appys_臻彩",
       "name": "♨️4K臻彩世界",
@@ -206,29 +194,8 @@
       "type": 3,
       "api": "csp_SP360"
     },
-   {
-      "key": "QuarkzzV2",
-      "name": "🏆️夸克至臻┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": "http://我不是.摸鱼儿.com/json/zz.json"
-    },
-   {
-      "key": "MoggV2",
-      "name": "🍁优汐木偶┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json"
-    },
+
+  
    {
       "key": "哔哩视频JS",
       "name": "♨️笔触琉璃┃4K纯净",
