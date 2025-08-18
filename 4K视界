@@ -3,52 +3,15 @@
   "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/",
   "logo": "https://s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
   "sites": [
-     {
-      "key": "config",
-      "name": "🚀辅助┃配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
-      "searchable": 0,
-      "quickSearch": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.61
-      }
-    },
+ 
  {
       "key": "tt",
       "name": "♨️腾腾｜4K",
       "type": 3,
       "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
-    },
-  {
-      "key": "玩偶",
-      "name": "♨️玩偶智能┃4K弹幕",
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "TVBox/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "玩偶哥哥",
-      "name": "♨️玩偶备用┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/wogg.json"
     }
+
   ],
   "parses": [
   {
@@ -525,6 +488,7 @@
     }
   ]
 }
+
 
 
 
