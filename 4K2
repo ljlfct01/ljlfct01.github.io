@@ -218,33 +218,87 @@
   ],
   "logo": "./A/logo.gif",
   "sites": [
- {
+     {
       "key": "config",
-      "name": "🚀辅助┃配置┃中心",
+      "name": "猫->🐼┃配置┃中心",
       "type": 3,
       "api": "csp_Config",
-      "jar": "http://我不是.摸鱼儿.com/by/jar/moyuer.php;md5;4e4d66dfada4ab0eb3f06badd4df0be9",
-      "searchable": 0,
-      "quickSearch": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.61
-      }
+      "playerType": 2,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
     },
-     {
-      "key": "seed",
-      "name": "♨️霜雪笼花┃三盘聚合",
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "猫->⚡┃闪电┃优汐",
       "type": 3,
-      "api": "csp_SeedhubGuard",
-      "changeable": 0,
-      "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
+    },
+    {
+      "key": "csp_Duopan",
+      "name": "猫->🖍︎┃蜡笔┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "http://feimaoai.site",
+          "http://www.labi88.sbs",
+          "http://fmao.site",
+          "http://fmao.shop",
+          "http://xiaocge.fun"
+        ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
+        "url_key": "Duopan2"
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
+    },
+    {
+      "key": "csp_Netfixtv",
+      "name": "猫->💌┃️至臻┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://xiaomi666.fun",
+          "https://xiaomiai.site",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
+          "http://www.miqk.cc",
+          "https://www.zhizhenpan.fun"
+        ],
+        "url_key": "Netfixtv2",
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        }
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
+    },
+    {
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "猫->👲┃玩偶┃影视",
+      "api": "csp_Wogg",
+      "type": 3,
       "searchable": 1,
-      "quickSearch": 1,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
-    },  
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "https://www.wogg.one/",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
+    },
  {
       "key": "csp_appys_臻彩",
       "name": "♨️4K臻彩世界",
