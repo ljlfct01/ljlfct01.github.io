@@ -2,11 +2,11 @@ var rule = {
     title: '百忙无果[官]',
     host: 'https://pianku.api.%6d%67%74%76.com',
     homeUrl: '',
-    // searchUrl: '**&pn=fypage&pc=10',
+    // searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/pc/search/v1?q=**&pn=fypage&pc=10',
     // 新版接口搜索变成v2并且加了验证，蛋疼
-    // searchUrl: '**&pn=fypage&pc=10&corr=1&_support=10000000&signature=4e27fddcd2a1a66d6c1764ed6b74bab7',
+    // searchUrl: 'https://mobileso.bz.mgtv.com/pc/search/v2?allowedRC=1&src=mgtv&did=cf03b959-6945-4cb6-bcb3-88762459354d&timestamp=2024-06-21T15%3A52%3A55Z&signVersion=1&signNonce=8dae67a1fafc4bda984ec8deb47666ad&q=**&pn=fypage&pc=10&corr=1&_support=10000000&signature=4e27fddcd2a1a66d6c1764ed6b74bab7',
     // 用手机的吧，搞不定这个
-    searchUrl: '**&pn=fypage&pc=10',
+    searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/msite/search/v2?q=**&pn=fypage&pc=10',
     detailUrl: 'https://pcweb.api.mgtv.com/episode/list?page=1&size=50&video_id=fyid',
     searchable: 2,
     quickSearch: 0,
@@ -20,651 +20,17 @@ var rule = {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    class_name: '4K电视剧&4K电影&4K综艺&4K动漫&4K纪录片&4K教育&4K少儿',
+    class_name: '自用4K✳️电视剧&自用4K✳️电影&自用4K✳️综艺&自用4K✳️动漫&自用4K✳️纪录片&自用4K✳️教育&自用4K✳️少儿',
     class_url: '2&3&1&50&51&115&10',
-    filter: {
-        "1": [{
-            "key": "chargeInfo",
-            "name": "付费类型",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "免费",
-                "v": "b1"
-            }, {
-                "n": "vip",
-                "v": "b2"
-            }, {
-                "n": "VIP用券",
-                "v": "b3"
-            }, {
-                "n": "付费点播",
-                "v": "b4"
-            }]
-        }, {
-            "key": "sort",
-            "name": "排序",
-            "value": [{
-                "n": "最新",
-                "v": "c1"
-            }, {
-                "n": "最热",
-                "v": "c2"
-            }, {
-                "n": "知乎高分",
-                "v": "c4"
-            }]
-        }, {
-            "key": "year",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "2025",
-                "v": "2025"
-            }, {
-                "n": "2024",
-                "v": "2024"
-            }, {
-                "n": "2023",
-                "v": "2023"
-            }, {
-                "n": "2022",
-                "v": "2022"
-            }, {
-                "n": "2021",
-                "v": "2021"
-            }, {
-                "n": "2020",
-                "v": "2020"
-            }, {
-                "n": "2019",
-                "v": "2019"
-            }, {
-                "n": "2018",
-                "v": "2018"
-            }, {
-                "n": "2017",
-                "v": "2017"
-            }, {
-                "n": "2016",
-                "v": "2016"
-            }, {
-                "n": "2015",
-                "v": "2015"
-            }, {
-                "n": "2014",
-                "v": "2014"
-            }, {
-                "n": "2013",
-                "v": "2013"
-            }, {
-                "n": "2012",
-                "v": "2012"
-            }, {
-                "n": "2011",
-                "v": "2011"
-            }, {
-                "n": "2010",
-                "v": "2010"
-            }, {
-                "n": "2009",
-                "v": "2009"
-            }, {
-                "n": "2008",
-                "v": "2008"
-            }, {
-                "n": "2007",
-                "v": "2007"
-            }, {
-                "n": "2006",
-                "v": "2006"
-            }, {
-                "n": "2005",
-                "v": "2005"
-            }, {
-                "n": "2004",
-                "v": "2004"
-            }]
-        }],
-        "2": [{
-            "key": "chargeInfo",
-            "name": "付费类型",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "免费",
-                "v": "b1"
-            }, {
-                "n": "vip",
-                "v": "b2"
-            }, {
-                "n": "VIP用券",
-                "v": "b3"
-            }, {
-                "n": "付费点播",
-                "v": "b4"
-            }]
-        }, {
-            "key": "sort",
-            "name": "排序",
-            "value": [{
-                "n": "最新",
-                "v": "c1"
-            }, {
-                "n": "最热",
-                "v": "c2"
-            }, {
-                "n": "知乎高分",
-                "v": "c4"
-            }]
-        }, {
-            "key": "year",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "2025",
-                "v": "2025"
-            }, {
-                "n": "2024",
-                "v": "2024"
-            }, {
-                "n": "2023",
-                "v": "2023"
-            }, {
-                "n": "2022",
-                "v": "2022"
-            }, {
-                "n": "2021",
-                "v": "2021"
-            }, {
-                "n": "2020",
-                "v": "2020"
-            }, {
-                "n": "2019",
-                "v": "2019"
-            }, {
-                "n": "2018",
-                "v": "2018"
-            }, {
-                "n": "2017",
-                "v": "2017"
-            }, {
-                "n": "2016",
-                "v": "2016"
-            }, {
-                "n": "2015",
-                "v": "2015"
-            }, {
-                "n": "2014",
-                "v": "2014"
-            }, {
-                "n": "2013",
-                "v": "2013"
-            }, {
-                "n": "2012",
-                "v": "2012"
-            }, {
-                "n": "2011",
-                "v": "2011"
-            }, {
-                "n": "2010",
-                "v": "2010"
-            }, {
-                "n": "2009",
-                "v": "2009"
-            }, {
-                "n": "2008",
-                "v": "2008"
-            }, {
-                "n": "2007",
-                "v": "2007"
-            }, {
-                "n": "2006",
-                "v": "2006"
-            }, {
-                "n": "2005",
-                "v": "2005"
-            }, {
-                "n": "2004",
-                "v": "2004"
-            }]
-        }],
-        "3": [{
-            "key": "chargeInfo",
-            "name": "付费类型",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "免费",
-                "v": "b1"
-            }, {
-                "n": "vip",
-                "v": "b2"
-            }, {
-                "n": "VIP用券",
-                "v": "b3"
-            }, {
-                "n": "付费点播",
-                "v": "b4"
-            }]
-        }, {
-            "key": "sort",
-            "name": "排序",
-            "value": [{
-                "n": "最新",
-                "v": "c1"
-            }, {
-                "n": "最热",
-                "v": "c2"
-            }, {
-                "n": "知乎高分",
-                "v": "c4"
-            }]
-        }, {
-            "key": "year",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "2025",
-                "v": "2025"
-            }, {
-                "n": "2024",
-                "v": "2024"
-            }, {
-                "n": "2023",
-                "v": "2023"
-            }, {
-                "n": "2022",
-                "v": "2022"
-            }, {
-                "n": "2021",
-                "v": "2021"
-            }, {
-                "n": "2020",
-                "v": "2020"
-            }, {
-                "n": "2019",
-                "v": "2019"
-            }, {
-                "n": "2018",
-                "v": "2018"
-            }, {
-                "n": "2017",
-                "v": "2017"
-            }, {
-                "n": "2016",
-                "v": "2016"
-            }, {
-                "n": "2015",
-                "v": "2015"
-            }, {
-                "n": "2014",
-                "v": "2014"
-            }, {
-                "n": "2013",
-                "v": "2013"
-            }, {
-                "n": "2012",
-                "v": "2012"
-            }, {
-                "n": "2011",
-                "v": "2011"
-            }, {
-                "n": "2010",
-                "v": "2010"
-            }, {
-                "n": "2009",
-                "v": "2009"
-            }, {
-                "n": "2008",
-                "v": "2008"
-            }, {
-                "n": "2007",
-                "v": "2007"
-            }, {
-                "n": "2006",
-                "v": "2006"
-            }, {
-                "n": "2005",
-                "v": "2005"
-            }, {
-                "n": "2004",
-                "v": "2004"
-            }]
-        }],
-        "50": [{
-            "key": "chargeInfo",
-            "name": "付费类型",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "免费",
-                "v": "b1"
-            }, {
-                "n": "vip",
-                "v": "b2"
-            }, {
-                "n": "VIP用券",
-                "v": "b3"
-            }, {
-                "n": "付费点播",
-                "v": "b4"
-            }]
-        }, {
-            "key": "sort",
-            "name": "排序",
-            "value": [{
-                "n": "最新",
-                "v": "c1"
-            }, {
-                "n": "最热",
-                "v": "c2"
-            }, {
-                "n": "知乎高分",
-                "v": "c4"
-            }]
-        }, {
-            "key": "year",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "2025",
-                "v": "2025"
-            }, {
-                "n": "2024",
-                "v": "2024"
-            }, {
-                "n": "2023",
-                "v": "2023"
-            }, {
-                "n": "2022",
-                "v": "2022"
-            }, {
-                "n": "2021",
-                "v": "2021"
-            }, {
-                "n": "2020",
-                "v": "2020"
-            }, {
-                "n": "2019",
-                "v": "2019"
-            }, {
-                "n": "2018",
-                "v": "2018"
-            }, {
-                "n": "2017",
-                "v": "2017"
-            }, {
-                "n": "2016",
-                "v": "2016"
-            }, {
-                "n": "2015",
-                "v": "2015"
-            }, {
-                "n": "2014",
-                "v": "2014"
-            }, {
-                "n": "2013",
-                "v": "2013"
-            }, {
-                "n": "2012",
-                "v": "2012"
-            }, {
-                "n": "2011",
-                "v": "2011"
-            }, {
-                "n": "2010",
-                "v": "2010"
-            }, {
-                "n": "2009",
-                "v": "2009"
-            }, {
-                "n": "2008",
-                "v": "2008"
-            }, {
-                "n": "2007",
-                "v": "2007"
-            }, {
-                "n": "2006",
-                "v": "2006"
-            }, {
-                "n": "2005",
-                "v": "2005"
-            }, {
-                "n": "2004",
-                "v": "2004"
-            }]
-        }],
-        "51": [{
-            "key": "chargeInfo",
-            "name": "付费类型",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "免费",
-                "v": "b1"
-            }, {
-                "n": "vip",
-                "v": "b2"
-            }, {
-                "n": "VIP用券",
-                "v": "b3"
-            }, {
-                "n": "付费点播",
-                "v": "b4"
-            }]
-        }, {
-            "key": "sort",
-            "name": "排序",
-            "value": [{
-                "n": "最新",
-                "v": "c1"
-            }, {
-                "n": "最热",
-                "v": "c2"
-            }, {
-                "n": "知乎高分",
-                "v": "c4"
-            }]
-        }, {
-            "key": "year",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "2025",
-                "v": "2025"
-            }, {
-                "n": "2024",
-                "v": "2024"
-            }, {
-                "n": "2023",
-                "v": "2023"
-            }, {
-                "n": "2022",
-                "v": "2022"
-            }, {
-                "n": "2021",
-                "v": "2021"
-            }, {
-                "n": "2020",
-                "v": "2020"
-            }, {
-                "n": "2019",
-                "v": "2019"
-            }, {
-                "n": "2018",
-                "v": "2018"
-            }, {
-                "n": "2017",
-                "v": "2017"
-            }, {
-                "n": "2016",
-                "v": "2016"
-            }, {
-                "n": "2015",
-                "v": "2015"
-            }, {
-                "n": "2014",
-                "v": "2014"
-            }, {
-                "n": "2013",
-                "v": "2013"
-            }, {
-                "n": "2012",
-                "v": "2012"
-            }, {
-                "n": "2011",
-                "v": "2011"
-            }, {
-                "n": "2010",
-                "v": "2010"
-            }, {
-                "n": "2009",
-                "v": "2009"
-            }, {
-                "n": "2008",
-                "v": "2008"
-            }, {
-                "n": "2007",
-                "v": "2007"
-            }, {
-                "n": "2006",
-                "v": "2006"
-            }, {
-                "n": "2005",
-                "v": "2005"
-            }, {
-                "n": "2004",
-                "v": "2004"
-            }]
-        }],
-        "115": [{
-            "key": "chargeInfo",
-            "name": "付费类型",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "免费",
-                "v": "b1"
-            }, {
-                "n": "vip",
-                "v": "b2"
-            }, {
-                "n": "VIP用券",
-                "v": "b3"
-            }, {
-                "n": "付费点播",
-                "v": "b4"
-            }]
-        }, {
-            "key": "sort",
-            "name": "排序",
-            "value": [{
-                "n": "最新",
-                "v": "c1"
-            }, {
-                "n": "最热",
-                "v": "c2"
-            }, {
-                "n": "知乎高分",
-                "v": "c4"
-            }]
-        }, {
-            "key": "year",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": "all"
-            }, {
-                "n": "2025",
-                "v": "2025"
-            }, {
-                "n": "2024",
-                "v": "2024"
-            }, {
-                "n": "2023",
-                "v": "2023"
-            }, {
-                "n": "2022",
-                "v": "2022"
-            }, {
-                "n": "2021",
-                "v": "2021"
-            }, {
-                "n": "2020",
-                "v": "2020"
-            }, {
-                "n": "2019",
-                "v": "2019"
-            }, {
-                "n": "2018",
-                "v": "2018"
-            }, {
-                "n": "2017",
-                "v": "2017"
-            }, {
-                "n": "2016",
-                "v": "2016"
-            }, {
-                "n": "2015",
-                "v": "2015"
-            }, {
-                "n": "2014",
-                "v": "2014"
-            }, {
-                "n": "2013",
-                "v": "2013"
-            }, {
-                "n": "2012",
-                "v": "2012"
-            }, {
-                "n": "2011",
-                "v": "2011"
-            }, {
-                "n": "2010",
-                "v": "2010"
-            }, {
-                "n": "2009",
-                "v": "2009"
-            }, {
-                "n": "2008",
-                "v": "2008"
-            }, {
-                "n": "2007",
-                "v": "2007"
-            }, {
-                "n": "2006",
-                "v": "2006"
-            }, {
-                "n": "2005",
-                "v": "2005"
-            }, {
-                "n": "2004",
-                "v": "2004"
-            }]
-        }]
-    },
+    filter: 'H4sIAAAAAAAAA+2XvUrDUBSA3+XOHc65adraN+jm5CIdYok/GFupWiilIBalIFYoIh1EBxEKIih0MOZ1msS+hbc1yTni4mKms6XfIbnnC/mG9hSq6mZP7btdVVWNXae949aa2y1VUE3nwDVsHkw+Z378FoT3l4Z2HO/EXd3SNMPwfLoYTJfY/HA8T/UL6eDK3JUMtjDjnb3DFOoMbtTW45tpOHxPR1Y2Sk4/86PxSzotqn59Of/e+ajVPqZto9E4/Lj+tWd0dxrdviYPaNA6hseD9MEN2ih+eJr7o8XzJBxepNOfx3Zdp03Hhv5sHjz+/fVo0MUEry4Zt4hbnGvimnMkjpwDcWAc1zJuLhmvEK9wXiZe5rxEvMS5TdzmnHyR+yL5IvdF8kXui+SL3BfJF7kvkC9wXyBf4L5AvsB9gXyB+wL5AvcF8oXVl1MvKC2pSWqSWh6pWZKapCap5ZGaDdKatCat5dKa/FuT1qS1XFpD80YkNolNYvv32PpfCLkneIcUAAA=',
     limit: 20,
     play_parse: true,
+    // 手动调用解析请求json的url,此lazy不方便
+    // lazy:'js:print(input);fetch_params.headers["user-agent"]=MOBILE_UA;let html=request(input);let rurl=html.match(/window\\.open\\(\'(.*?)\',/)[1];rurl=urlDeal(rurl);input={parse:1,url:rurl};',
+    // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     lazy: $js.toString(() => {
-        try {
-            let api = "" + input.split("?")[0];
+          try {
+            let api = "https://jx.ariesc.cn/api/?key=8af25b37f95ea8a4c1eca1ca9cd77f41&url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
@@ -673,22 +39,20 @@ var rule = {
                     'Content-Type': 'application/x-www-form-urlencoded'
                 }
             });
-
             let bata = JSON.parse(response);
-            log(bata)
-            if (bata.url.includes("http")) {
+            if (bata.url.includes("mgtv")) {
                 input = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                    danmaku: "" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                    danmaku: "" + input.split("?")[0]
                 };
             }
         } catch {
@@ -696,13 +60,10 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&url='+input.split("?")[0]
+                danmaku: "" + input.split("?")[0]
             };
         }
     }),
-    // 手动调用解析请求json的url,此lazy不方便
-    // lazy:'js:print(input);fetch_params.headers["user-agent"]=MOBILE_UA;let html=request(input);let rurl=html.match(/window\\.open\\(\'(.*?)\',/)[1];rurl=urlDeal(rurl);input={parse:1,url:rurl};',
-    // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级: 'json:data.hitDocs;title;img;updateInfo||rightCorner.text;playPartId',
     // 一级:'json:data.hitDocs;title;img;updateInfo;playPartId',
     二级: $js.toString(() => {
@@ -788,7 +149,7 @@ var rule = {
                 if (i > 1) {
                     json = JSON.parse(fetch(input.replace("page=1", "page=" + i), {}))
                 }
-                json.data.list.forEach(function(data) {
+                json.data.list.forEach(function (data) {
                     let url = "https://www.mgtv.com" + data.url;
                     if (data.isIntact == "1") {
                         d.push({
@@ -803,20 +164,54 @@ var rule = {
         } else {
             print(input + "暂无片源")
         }
-        VOD.vod_play_from = "自用4K";
-        VOD.vod_play_url = d.map(function(it) {
+        VOD.vod_play_from = "自用";
+        VOD.vod_play_url = d.map(function (it) {
             return it.title + "$" + it.url
         }).join("#");
         setResult(d);
     }),
 
+    // 搜索: $js.toString(() => {
+    //     fetch_params.headers.Referer = "https://www.mgtv.com";
+    //     fetch_params.headers["User-Agent"] = MOBILE_UA;
+    //     let d = [];
+    //     let html = request(input);
+    //     let json = JSON.parse(html);
+    //     json.data.contents.forEach(function (data) {
+    //         if (data.data.sourceList || data.data.yearList) {
+    //             let list = data.data.sourceList ? data.data.sourceList : data.data.yearList[0].sourceList;
+    //             let desc = "";
+    //             list.forEach(function (it) {
+    //                 desc += it.name + "\t"
+    //             });
+    //             let fyclass = '';
+    //             if (list[0].source === "imgo") {
+    //                 let img = data.data.pic ? data.data.pic : data.data.yearList[0].pic;
+    //                 try {
+    //                     fyclass = data.data.desc.find(it => it.label === '类型').url.match(/lib\/(\d+)/)[1] + '$';
+    //                 } catch (e) {
+    //                     fyclass = '';
+    //                 }
+    //                 log(fyclass);
+    //                 d.push({
+    //                     title: data.data.title ? data.data.title : data.data.yearList[0].title,
+    //                     img: img,
+    //                     content: data.data.story ? data.data.story : data.data.yearList[0].story,
+    //                     desc: data.data.playTime,
+    //                     url: fyclass + list[0].vid
+    //                 })
+    //             }
+    //         }
+    //     });
+    //     setResult(d);
+    // }),
     搜索: $js.toString(() => {
         fetch_params.headers.Referer = "https://www.mgtv.com";
         fetch_params.headers["User-Agent"] = MOBILE_UA;
         let d = [];
         let html = request(input);
         let json = JSON.parse(html);
-        json.data.contents.forEach(function(data) {
+        json.data.contents.forEach(function (data) {
             if (data.type && data.type == 'media') {
                 let item = data.data[0];
                 let desc = item.desc.join(',');
