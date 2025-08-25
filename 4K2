@@ -216,18 +216,41 @@
  
     {
       "key": "测试",
-      "name": "应用|更新",
+      "name": "♨️应用|更新",
       "type": 3,
       "api": "csp_Market",
       "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
     },
     {
       "key": "设置",
-      "name": "网弹|设置",
+      "name": "♨️网弹|设置",
       "type": 3,
       "api": "csp_HBconfig"
     },
- 
+  {
+      "key": "tt",
+      "name": "♨️腾腾｜4K",
+      "type": 3,
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
+    },
+  {
+      "key": "月夕花晨JS",
+      "name": "♨️芒果｜4K",
+      "type": 3,
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+     "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
+    },
+    {
+      "key": "哔哩视频JS",
+      "name": "♨️哔哩｜4K",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://web.wya6.com/d/yidong/moyu/biliys.js"
+    },
  
    {
       "key": "窈窕",
@@ -270,36 +293,69 @@
       "ext": "http://154.219.113.13:12121/test.php?site=qingying###qingying"
     },
     {
-      "key": "网盘虎斑",
-      "name": "虎斑|4k网盘",
+      "key": "csp_FeiMaoUC",
+      "name": "♨️优汐｜4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_Duopan",
+      "filterable": 1,
       "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
-        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
-        "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
-        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-        "site": "http://103.45.162.207:20720/"
-      }
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
     },
-
     {
-      "key": "傻样",
-      "name": "傻样|4k网盘",
+      "key": "csp_Duopan",
+      "name": "♨️蜡笔｜4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_Duopan",
+      "filterable": 1,
       "ext": {
-        "site": "http://xsayang.fun:12512/"
-      }
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "http://feimaoai.site",
+          "http://www.labi88.sbs",
+          "http://fmao.site",
+          "http://fmao.shop",
+          "http://xiaocge.fun"
+        ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
+        "url_key": "Duopan2"
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
+    },
+    {
+      "key": "csp_Netfixtv",
+      "name": "♨️至臻｜4K",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://xiaomi666.fun",
+          "https://xiaomiai.site",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
+          "http://www.miqk.cc",
+          "https://www.zhizhenpan.fun"
+        ],
+        "url_key": "Netfixtv2",
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        }
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
     },
     {
       "key": "P123",
-      "name": "木偶|4k网盘",
+      "name": "♨️木偶|4k",
       "type": 3,
       "playerType": 2,
       "api": "csp_Mogg",
@@ -307,19 +363,10 @@
         "site": "http://123.666291.xyz/"
       }
     },
-    {
-      "key": "至臻",
-      "name": "至臻|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://mihdr.top/"
-      }
-    },
+  
     {
       "key": "多多",
-      "name": "多多|4k网盘",
+      "name": "♨️多多|4k",
       "type": 3,
       "playerType": 2,
       "api": "csp_Mogg",
@@ -329,7 +376,7 @@
     },
     {
       "key": "ou多",
-      "name": "讴歌|4k网盘",
+      "name": "♨️讴歌|4k",
       "type": 3,
       "playerType": 2,
       "api": "csp_Mogg",
@@ -339,7 +386,7 @@
     },
     {
       "key": "米",
-      "name": "小米|4k网盘",
+      "name": "♨️小米|4k",
       "type": 3,
       "playerType": 2,
       "api": "csp_Mogg",
@@ -349,57 +396,17 @@
     },
     {
       "key": "二小",
-      "name": "二小|4k网盘",
+      "name": "♨️二小|4k",
       "type": 3,
       "playerType": 2,
       "api": "csp_Mogg",
       "ext": {
         "site": "https://xhww.net"
       }
-    },
+    }
  
 
-    {
-      "key": "小猫",
-      "name": "小猫|自定",
-      "type": 3,
-      "api": "csp_HBcms10",
-      "ext": "https://vs.okcdn100.top/api.php/provide/vod/"
-    },
-    {
-      "key": "tenteng",
-      "name": "落日|自定",
-      "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/腾腾.js"
-    },
-    {
-      "key": "youyou",
-      "name": "日出|自定",
-      "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/优优.js"
-    },
-    {
-      "key": "qiqi",
-      "name": "晚霞|自定",
-      "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/奇奇.js"
-    },
-    {
-      "key": "mangmang",
-      "name": "朝阳|自定",
-      "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/茫茫.js"
-    },
-    {
-      "key": "馆源",
-      "name": "馆源|自定",
-      "type": 3,
-      "api": "csp_HB360"
-    }
+  
   
   ],
   "parses": [
