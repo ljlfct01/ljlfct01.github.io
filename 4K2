@@ -358,15 +358,8 @@
       "name": "♨️网弹|设置",
       "type": 3,
       "api": "csp_HBconfig"
-    },
-  {
-      "key": "config",
-      "name": "♨️配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"
     }
+
   ],
   "doh": [
     {
@@ -640,64 +633,7 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
-    },
- {
-      "name": "🐅网络2",
-      "type": 1,
-      "url": "http://103.45.162.207:13131/%E5%B0%8F%E8%99%8E%E6%96%91.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
- {
-      "name": "🐅网络3",
-      "type": 1,
-      "url": "http://sspa8.top:8100/api/?key=%E5%88%9D%E5%BF%83&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
     }
+
   ]
 }
