@@ -4,7 +4,7 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
-proxies:
+
 proxies:
   - name: 台湾1
     server: tw2-cdn-route.couldflare-cdn.com
@@ -142,9 +142,7 @@ proxies:
   - {name: 🇭🇰 香港-低延迟, server: 154.222.31.107, port: 9166, type: trojan, password: c0944cab-da5e-455c-8311-c042e6ec37ed, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港-大宽带, server: 141.11.79.84, port: 9166, type: trojan, password: aa607fd8-e1ba-49b3-8705-c399393642f4, skip-cert-verify: true, udp: true}
   - {name: 亚马逊AWS韩国首尔, server: 3.34.4.228, port: 9166, type: trojan, password: 06ead1ef-2a6f-468b-8317-c0c90bbf2a75, skip-cert-verify: true, udp: true}
-
-
-- cipher: aes-256-gcm
+  - cipher: aes-256-gcm
   name: HK Akari 01
   password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
   port: 16001
@@ -865,6 +863,9 @@ proxies:
   server: ss.003.node-for-bigairport.win
   type: ss
   udp: true
+  
+
+
 
   - name: 🚀 节点选择
     type: select
