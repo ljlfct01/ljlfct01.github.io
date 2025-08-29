@@ -143,124 +143,728 @@ proxies:
   - {name: 🇭🇰 香港-大宽带, server: 141.11.79.84, port: 9166, type: trojan, password: aa607fd8-e1ba-49b3-8705-c399393642f4, skip-cert-verify: true, udp: true}
   - {name: 亚马逊AWS韩国首尔, server: 3.34.4.228, port: 9166, type: trojan, password: 06ead1ef-2a6f-468b-8317-c0c90bbf2a75, skip-cert-verify: true, udp: true}
 
-  - {name: HK HNSL 01, server: jp1.643ce5b0-bf87-e83e-be26-e8f1d6132bce.7adf211e.the-best-airport.com, port: 443, type: trojan, password: 820846f0-4549-456e-a49e-ea31f63f5925, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: HK Vertex 02, server: ppy-hkv2.02ijp4uos1.download, port: 26013, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: HK ASNET 03, server: hsxg.huasuan666.top, port: 22153, type: hysteria2, password: 26ffe2b7-7bf7-4f4e-a9a8-21005db28d81, sni: hsxg.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: HK Aiyun 04, server: cn.eans.top, port: 7008, type: vless, tls: true, packet-encoding: xudp, uuid: 36525d15-ae0b-4843-a996-4549d4079642, servername: addons.mozilla.org, flow: xtls-rprx-vision, reality-opts: {public-key: Oj8-fhTWXtsuOkPJxRra_9gK3K_Jnxi-Ybek148Iixs, short-id: 806ba558}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: HK DMIT 05, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true, tfo: true}
-  - {name: HK DMIT 06, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true, tfo: true}
-  - {name: SG GREYWOLF 01, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true, tfo: true}
-  - {name: SG AMAZON 02, server: sg001.421421.xyz, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: 13430296-2407-4839-900f-db97584fb27a, servername: www.nvidia.com, reality-opts: {public-key: WEttTimK6Q9qB8cd2AQ8kyDJOVfKAlPIl5E1T7-q0Dw, short-id: 1afbe06d}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: SG AMAZON 03, server: sg003.421421.xyz, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: f08d6a6b-a0b3-410e-a0ba-eae71b521904, servername: www.nvidia.com, reality-opts: {public-key: hBXQa1tSoP0jjIezHxeyKhf1YKxe8CoBHoxvIxEJuAc, short-id: 2c5ecaae}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: SG AMAZON 04, server: sg002.421421.xyz, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: f08d6a6b-a0b3-410e-a0ba-eae71b521904, servername: www.nvidia.com, reality-opts: {public-key: 1cs7mxEcoVKwcYepAnKgqHAFhRxPv6aO3tv7lNhwLDQ, short-id: 46bf6ea0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: SG HUAWEI 05, server: hsxjp.huasuan666.top, port: 22154, type: hysteria2, password: b08fee86-8d51-4a82-bcdc-0a27fe64c2b7, sni: hsxjp.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: SG AMAZON 06, server: sg007.421421.xyz, port: 20230, type: trojan, password: f08d6a6b-a0b3-410e-a0ba-eae71b521904, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
-  - {name: SG AMAZON 07, server: sg004.421421.xyz, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: 13430296-2407-4839-900f-db97584fb27a, servername: www.nvidia.com, reality-opts: {public-key: Bkxd25PPovqeYw6AevM-L266KM2kLDJomgmorzvGFmM, short-id: 2c846487}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: SG AMAZON 08, server: sg008.421421.xyz, port: 20230, type: trojan, password: f08d6a6b-a0b3-410e-a0ba-eae71b521904, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
-  - {name: SG AMAZON 09, server: sg005.421421.xyz, port: 20230, type: trojan, password: 4deefa4b-349d-4db8-be3c-d4d61c862718, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
-  - {name: SG AMAZON 10, server: sg006.421421.xyz, port: 20230, type: trojan, password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
-  - {name: SG AMAZON 11, server: sg03.333210.xyz, port: 40000, type: vless, tls: true, packet-encoding: xudp, uuid: acf03723-aeff-4724-9536-4234cda1fcf4, servername: www.walmart.com, reality-opts: {public-key: Jqwg_L2lzNEBWCaH4oyqbw7KfqxtOA0TQXtxTaAU1nU, short-id: aec0af41}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: SG DigitalOcean 12, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true, tfo: true}
-  - {name: SG ORACLE 13, server: aio.loophole.biz.id, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f282b878-8711-45a1-8c69-5564172123c1, reality-opts: {public-key: Jqwg_L2lzNEBWCaH4oyqbw7KfqxtOA0TQXtxTaAU1nU, short-id: aec0af41}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP AMAZON 01, server: jp008.421421.xyz, port: 20230, type: trojan, password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
-  - {name: JP AMAZON 02, server: jp005.421421.xyz, port: 20230, type: trojan, password: f08d6a6b-a0b3-410e-a0ba-eae71b521904, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
-  - {name: JP AMAZON 03, server: jp006.421421.xyz, port: 20230, type: trojan, password: f08d6a6b-a0b3-410e-a0ba-eae71b521904, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
-  - {name: JP AMAZON 04, server: jp007.421421.xyz, port: 20230, type: trojan, password: f08d6a6b-a0b3-410e-a0ba-eae71b521904, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
-  - {name: JP AMAZON 05, server: jp003.421421.xyz, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: f08d6a6b-a0b3-410e-a0ba-eae71b521904, servername: www.nvidia.com, reality-opts: {public-key: 4DQqVav-gK4Y1cMDDt4qyVpQf0GB6NkPgCPnjwude3c, short-id: d3b6f0c3}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP ORACLE 06, server: 216.250.97.201, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: 4DQqVav-gK4Y1cMDDt4qyVpQf0GB6NkPgCPnjwude3c, short-id: d3b6f0c3}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP SoftBank 07, server: ddns.momobaby.org, port: 49785, type: vless, tls: true, packet-encoding: xudp, uuid: ee221677-509e-4dc4-aec0-a7afe16c4bab, servername: apple.com, flow: xtls-rprx-vision, reality-opts: {public-key: fwkudtkrPtCjutrzjeDuyJk_hTHixwCSwHRLL9gyf2s, short-id: 44}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP AMAZON 08, server: jp004.421421.xyz, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: fdd1d613-f234-40f6-b63d-97517e0fc4b3, servername: www.nvidia.com, reality-opts: {public-key: lbOfuIKCBPcQH4AEnwnPw1LNxWrl-Bul6KU99H240Fc, short-id: abae4722}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP AMAZON 09, server: jp002.421421.xyz, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: fdd1d613-f234-40f6-b63d-97517e0fc4b3, servername: www.nvidia.com, reality-opts: {public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE, short-id: 5c3c9f11}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP Datacamp 10, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true, tfo: true}
-  - {name: JP ASNET 11, server: hsrb.huasuan666.top, port: 22161, type: hysteria2, password: 48599bd2-69c7-4ebc-9c79-e6a6c73a4fdc, sni: hsrb.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP ASNET 12, server: hsrb.huasuan666.top, port: 22161, type: hysteria2, password: aa21d9ae-14bb-447d-b347-dd23dd6ba142, sni: hsrb.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP Datacamp 13, server: zz3.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE, short-id: 5c3c9f11}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP AS 14, server: 156.251.248.206, port: 53, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE, short-id: 5c3c9f11}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: JP Pq 15, server: zz5.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE, short-id: 5c3c9f11}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US DIGITALOCEAN 01, server: 104.16.173.50, port: 80, type: vmess, uuid: 087dbb01-1674-4e39-8116-1fc5430adbd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/index.html?ed=2048", headers: {Host: 654151682462102025082819242256792.s15.chibaba.filegear-sg.me}}, udp: true, tfo: true}
-  - {name: US AS 02, server: hsadly.huasuan666.top, port: 22159, type: hysteria2, password: 26ffe2b7-7bf7-4f4e-a9a8-21005db28d81, sni: hsadly.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US ORACLE 03, server: zz2.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE, short-id: 5c3c9f11}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US Newserverlife 04, server: 172.64.229.220, port: 2096, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&proxyip=sjc.o00o.ooo", headers: {Host: juzi8186-sr1.pages.dev}}, udp: true, tfo: true}
-  - {name: US ASNET 05, server: 104.18.110.214, port: 2087, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&proxyip=sjc.o00o.ooo", headers: {Host: juzi8186-sr1.pages.dev}}, udp: true, tfo: true}
-  - {name: US AMAZON 06, server: 162.159.153.72, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE, short-id: 5c3c9f11}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US COGENT 07, server: 104.16.253.158, port: 8443, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&proxyip=sjc.o00o.ooo", headers: {Host: juzi8186-sr1.pages.dev}}, udp: true, tfo: true}
-  - {name: US AS 08, server: zz2.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE, short-id: 5c3c9f11}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US AS 09, server: cl1.1010991.xyz, port: 3001, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: cl1.1010991.xyz, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US AMAZON 10, server: us001.421421.xyz, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: 813e7fc5-2c9a-4967-802b-6443930ecb7e, servername: www.nvidia.com, reality-opts: {public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8, short-id: c1839f26}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US DIGITALOCEAN 11, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true, tfo: true}
-  - {name: US AS 12, server: us2.1010991.xyz, port: 3001, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: us2.1010991.xyz, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US HNSL 13, server: us2.aeee1d93-6cf0-0baa-8c56-639366a1d0a2.2f6cd430.the-best-airport.com, port: 443, type: trojan, password: 25bfe25b-34aa-487a-b3ff-47484b32cf66, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US RELIABLESITE 14, server: 151.243.168.31, port: 54582, type: hysteria2, password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, obfs: salamander, obfs-password: 484V0vNCtIBZGmVw, sni: Ab.ac, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: US DEDICATED 15, server: ca1.1010991.xyz, port: 3001, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: ca1.1010991.xyz, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: TW DCBG 01, server: 118.170.229.112, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: 87eb408c-7e12-4e59-8b68-29a12432f136, udp: true, tfo: true}
-  - {name: TW DCBG 02, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: 125ed703-8834-46e7-9174-75cf84c19c83, udp: true, tfo: true}
-  - {name: TW DCBG 03, server: 118.170.222.48, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: fe7e88aa-4b2d-4783-989b-fef07e0121aa, udp: true, tfo: true}
-  - {name: TW DCBG 04, server: 1.170.30.90, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: e3a3547e-6ff7-4a1d-b9e9-fa27ee2fd36c, udp: true, tfo: true}
-  - {name: TW DCBG 05, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: e3a3547e-6ff7-4a1d-b9e9-fa27ee2fd36c, udp: true, tfo: true}
-  - {name: TW DCBG 06, server: 125.231.82.47, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: e3a3547e-6ff7-4a1d-b9e9-fa27ee2fd36c, udp: true, tfo: true}
-  - {name: TW DCBG 07, server: 1.170.37.210, port: 10109, type: ss, cipher: chacha20-ietf-poly1305, password: 7cd1f76c-d840-44a5-8b0a-69463f437aeb, udp: true, tfo: true}
-  - {name: TW DCBG 08, server: 36.235.10.223, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: bffc0bce-23f4-46a4-aee2-951ee59cdfae, udp: true, tfo: true}
-  - {name: TW DCBG 09, server: 118.170.251.62, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 34b34c96-3de7-46e5-9107-a8780143d560, udp: true, tfo: true}
-  - {name: TW DCBG 10, server: 111.253.195.213, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: 0a28538e-d7a3-4185-928a-c8bd49bb9c6b, udp: true, tfo: true}
-  - {name: TW DCBG 11, server: 59.126.32.1, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: e3a3547e-6ff7-4a1d-b9e9-fa27ee2fd36c, udp: true, tfo: true}
-  - {name: TW DCBG 12, server: 118.170.220.60, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 125ed703-8834-46e7-9174-75cf84c19c83, udp: true, tfo: true}
-  - {name: TW DCBG 13, server: 114.46.64.69, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: 4f83ce27-2e4e-4910-a07f-77bf02aa0675, udp: true, tfo: true}
-  - {name: TW DCBG 14, server: 36.232.82.92, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: ef44a033-1613-4dde-b652-097a184d531e, udp: true, tfo: true}
-  - {name: TW DCBG 15, server: 125.228.31.117, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: 927dec00-1387-43f8-a46d-4d6efefb24bc, udp: true, tfo: true}
-  - {name: AE GCSL 01, server: zz4.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8, short-id: c1839f26}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: AM Proitlab 01, server: 46.3.26.12, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8, short-id: c1839f26}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: AU DigitalOcean 01, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true, tfo: true}
-  - {name: BR ORACLE 01, server: 104.25.127.50, port: 80, type: vmess, uuid: 087dbb01-1674-4e39-8116-1fc5430adbd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/index.html?ed=2048", headers: {Host: 163458861861962025082819242282283.fr.chibaba.filegear-sg.me}}, udp: true, tfo: true}
-  - {name: BR ORACLE 02, server: lt.9966690.xyz, port: 2052, type: vmess, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: cctv4.mp4, headers: {Host: syyn-br1-dqfp5v1adp.1095822.xyz}}, udp: true, tfo: true}
-  - {name: CA OVH 01, server: 104.18.26.90, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077, servername: blaze-can-118.blazecanada.site, reality-opts: {public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8, short-id: c1839f26}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: CA DIGITALOCEAN 02, server: ppy-boardv2.02ijp4uos1.download, port: 26114, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: CA ORACLE 03, server: moura.ns.cloudflare.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c683a04f-d1fb-43f7-8e41-9b443c2db18e, servername: vlc.zcr5.ddns-ip.net, reality-opts: {public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8, short-id: c1839f26}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: CL ORACLE 01, server: zz5.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8, short-id: c1839f26}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: CN HAAC 01, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: CN HAAC 02, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: CN HAAC 03, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: CZ ASNET 01, server: ppy-boardv2.02ijp4uos1.download, port: 26100, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: DE Hetzner 01, server: 104.18.93.7, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8, short-id: c1839f26}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: DE NKtelecom 02, server: hsdg.huasuan666.top, port: 22155, type: hysteria2, password: d652ff0d-ea75-436f-aec3-6715e0e631d0, sni: hsdg.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: DE DIGITALOCEAN 03, server: 162.159.153.144, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8, short-id: c1839f26}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: EE Brainoza 01, server: 185.223.168.12, port: 34045, type: vless, tls: true, packet-encoding: xudp, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: FI GCSL 01, server: zz4.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: FI Hetzner 02, server: 61.32.62.186, port: 50001, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: FI Hetzner 03, server: 104.18.86.131, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: FR Dyjix 01, server: zz4.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: FR ASNET 02, server: ppy-boardv2.02ijp4uos1.download, port: 26143, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: FR OVH 03, server: backhaxus.dh04.shop, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, servername: backhaxus.dh04.shop, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: GB ORACLE 01, server: zz4.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: GB RCFITL 02, server: hsyg.huasuan666.top, port: 22156, type: hysteria2, password: 77b85b4f-8f73-495c-b919-a8fb386ca541, sni: hsyg.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: GB DIGITALOCEAN 03, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true, tfo: true}
-  - {name: ID Hadi 01, server: ppy-boardv2.02ijp4uos1.download, port: 26144, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: ID PLIS 02, server: 202.47.89.73, port: 34045, type: vless, tls: true, packet-encoding: xudp, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: IE AMAZON 01, server: 143.42.66.91, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: IL KAMATERA 01, server: blog.curfuffled.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 15b18878-e774-4f6e-9c33-d8a6e6205fb3, servername: tgju.org, reality-opts: {public-key: -BtPlG7KnJIIIgh77udPqDKTOIMPsJUy0kYhp3CWBwA, short-id: 975cfc3c7441}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: IN ORACLE 01, server: zz4.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: -BtPlG7KnJIIIgh77udPqDKTOIMPsJUy0kYhp3CWBwA, short-id: 975cfc3c7441}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: IT Pq 01, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true, tfo: true}
-  - {name: IT Seflow 02, server: it1.1010991.xyz, port: 3001, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: it1.1010991.xyz, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: KH IICWTBVIT 01, server: zz3.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: -BtPlG7KnJIIIgh77udPqDKTOIMPsJUy0kYhp3CWBwA, short-id: 975cfc3c7441}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: KR SK 01, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true, tfo: true}
-  - {name: KR AMAZON 02, server: kra02.333210.xyz, port: 40000, type: vless, tls: true, packet-encoding: xudp, uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d, servername: www.walmart.com, reality-opts: {public-key: IllHH4k1x34LP2g6PJPd5-p__kNMRL0-Xq0VSli59mM, short-id: 83dd2e7b}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: KR ORACLE 03, server: zz3.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: IllHH4k1x34LP2g6PJPd5-p__kNMRL0-Xq0VSli59mM, short-id: 83dd2e7b}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: LT GCSL 01, server: zz1.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: IllHH4k1x34LP2g6PJPd5-p__kNMRL0-Xq0VSli59mM, short-id: 83dd2e7b}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: MK GCSL 01, server: zz4.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: IllHH4k1x34LP2g6PJPd5-p__kNMRL0-Xq0VSli59mM, short-id: 83dd2e7b}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: MX Oracle 01, server: mx1.1010991.xyz, port: 3001, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: mx1.1010991.xyz, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: NL BLNWX 01, server: 162.159.152.81, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: IllHH4k1x34LP2g6PJPd5-p__kNMRL0-Xq0VSli59mM, short-id: 83dd2e7b}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: NL NKtelecom 02, server: hshl.huasuan666.top, port: 22157, type: hysteria2, password: 4435688f-0930-4f32-8920-871a10b7b4aa, sni: hshl.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: NL PQ 03, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true, tfo: true}
-  - {name: PH Alibaba 01, server: 104.16.246.132, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5590a2f6-9703-4bd9-8861-6bd5d20d93c1, servername: ok-7t5.pages.dev, alpn: [h3], reality-opts: {public-key: IllHH4k1x34LP2g6PJPd5-p__kNMRL0-Xq0VSli59mM, short-id: 83dd2e7b}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: PH ZEN 02, server: ppy-boardv2.02ijp4uos1.download, port: 26080, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: PT GCSL 01, server: ppy-boardv2.02ijp4uos1.download, port: 26154, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: RU LLC 01, server: hsels.huasuan666.top, port: 22160, type: hysteria2, password: aa21d9ae-14bb-447d-b347-dd23dd6ba142, sni: hsels.huasuan666.top, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: RU LLC 02, server: ppy-boardv2.02ijp4uos1.download, port: 26090, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: SI Optimus 01, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true, tfo: true}
-  - {name: SK eServer 01, server: 45.129.141.130, port: 34045, type: vless, tls: true, packet-encoding: xudp, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: TH SCC 01, server: zz3.1010991.xyz, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
-  - {name: TR GCSL 01, server: 83.217.9.120, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7bO8akoRoM2M, udp: true, tfo: true}
-  - {name: Unknown DIGITALOCEAN 01, server: ppy-hkv1.02ijp4uos1.download, port: 26011, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
-
+proxies:
+- cipher: aes-256-gcm
+  name: HK Akari 01
+  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
+  port: 16001
+  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
+  type: ss
+  udp: true
+- name: HK HNSL 02
+  password: 1e4377f4-01d9-46f6-af6b-19d6e23cf780
+  port: 443
+  server: jp4.89207b5f-9905-86a5-3c4c-ea87c749d20e.69408ae5.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 03
+  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
+  port: 19888
+  server: ss.032.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 04
+  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
+  port: 15099
+  server: ss.026.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 05
+  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
+  port: 11688
+  server: ss.020.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 06
+  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
+  port: 11689
+  server: ss.040.node-for-bigairport.win
+  type: ss
+  udp: true
+- auth: aa21d9ae-14bb-447d-b347-dd23dd6ba142
+  name: HK ASNET 07
+  password: aa21d9ae-14bb-447d-b347-dd23dd6ba142
+  port: 22153
+  server: hsxg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsxg.huasuan666.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf
+  name: SG GREYWOLF 01
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 02
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: WEttTimK6Q9qB8cd2AQ8kyDJOVfKAlPIl5E1T7-q0Dw
+    short-id: 1afbe06d
+  server: sg001.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 790f4282-a179-446e-bc2a-4eba58e669d5
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 03
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: Bkxd25PPovqeYw6AevM-L266KM2kLDJomgmorzvGFmM
+    short-id: 2c846487
+  server: sg004.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+- name: SG AMAZON 04
+  network: ws
+  password: 4deefa4b-349d-4db8-be3c-d4d61c862718
+  port: 20230
+  server: sg005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: SG AMAZON 05
+  network: ws
+  password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+  port: 20230
+  server: sg007.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 06
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: 1cs7mxEcoVKwcYepAnKgqHAFhRxPv6aO3tv7lNhwLDQ
+    short-id: 46bf6ea0
+  server: sg002.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- name: SG AMAZON 07
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: ios
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: bby
+  name: SG AMAZON 08
+  network: grpc
+  port: 40000
+  reality-opts:
+    public-key: Jqwg_L2lzNEBWCaH4oyqbw7KfqxtOA0TQXtxTaAU1nU
+    short-id: aec0af41
+  server: sg03.333210.xyz
+  servername: www.walmart.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: acf03723-aeff-4724-9536-4234cda1fcf4
+- alterId: 2
+  cipher: auto
+  name: SG DIGITALOCEAN 09
+  network: ws
+  port: 30839
+  server: v39.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 10
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: hBXQa1tSoP0jjIezHxeyKhf1YKxe8CoBHoxvIxEJuAc
+    short-id: 2c5ecaae
+  server: sg003.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- name: JP AMAZON 01
+  network: ws
+  password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
+  port: 20230
+  server: jp005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 02
+  network: ws
+  password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+  port: 20230
+  server: jp007.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: JP AMAZON 03
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE
+    short-id: 5c3c9f11
+  server: jp002.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- name: JP AMAZON 04
+  network: ws
+  password: 4deefa4b-349d-4db8-be3c-d4d61c862718
+  port: 20230
+  server: jp006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: JP AMAZON 05
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: lbOfuIKCBPcQH4AEnwnPw1LNxWrl-Bul6KU99H240Fc
+    short-id: abae4722
+  server: jp004.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: JP AMAZON 06
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: 4DQqVav-gK4Y1cMDDt4qyVpQf0GB6NkPgCPnjwude3c
+    short-id: d3b6f0c3
+  server: jp003.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- auth: 4ba709e6-6186-412d-a79d-bf256c7df57c
+  name: JP ASNET 07
+  password: 4ba709e6-6186-412d-a79d-bf256c7df57c
+  port: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  type: hysteria2
+  udp: true
+- auth: 8a456f68-46a3-4cd9-892f-35fbf9aef756
+  name: JP ASNET 08
+  password: 8a456f68-46a3-4cd9-892f-35fbf9aef756
+  port: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: JP Datacamp 09
+  network: ws
+  port: 30806
+  server: v6.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: US Vertex 01
+  port: 26003
+  server: ppy-usv1.02ijp4uos1.download
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- auth: aa21d9ae-14bb-447d-b347-dd23dd6ba142
+  name: US AS 02
+  password: aa21d9ae-14bb-447d-b347-dd23dd6ba142
+  port: 22151
+  server: hsmg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsmg.huasuan666.top
+  type: hysteria2
+  udp: true
+- name: US HNSL 03
+  password: bcd8b420-22c7-4081-b00e-1aecb387796b
+  port: 443
+  server: us4.7b851864-7833-e2bc-6341-9ba6900b9080.30d6a0d0.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: US AMAZON 04
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8
+    short-id: c1839f26
+  server: us001.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US AS 05
+  network: tcp
+  port: 8443
+  server: newus-ceg5.555199.xyz
+  servername: ssl.wsfog.co.uk
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5a5b3a4-ae52-46cc-bdf6-334146e18f1d
+- alterId: 0
+  cipher: auto
+  name: US OVH 06
+  network: ws
+  port: 42288
+  server: 15.204.9.102.yixianled.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6578c489-28d2-4f12-8c2f-9f2d8789626d
+  ws-opts:
+    headers:
+      Host: 15.204.9.102.yixianled.com
+    path: /
+- client-fingerprint: chrome
+  name: US OVH 07
+  network: ws
+  port: 18315
+  server: 15204.57227.yixianled.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6578c489-28d2-4f12-8c2f-9f2d8789626d
+  ws-opts:
+    headers:
+      Host: 15204.57227.yixianled.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US PONYNET 08
+  network: ws
+  port: 22103
+  server: 45.136.245.177
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f9e34a94-a65d-49a2-b839-7a51f078a239
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: US DIGITALOCEAN 09
+  network: ws
+  port: 30804
+  server: v4.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: US FranTech 10
+  network: ws
+  port: 25038
+  server: 45.136.245.177
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c67ce191-466b-4a31-ae19-5ec886e4302b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US FranTech 11
+  network: ws
+  port: 23167
+  server: 45.136.245.177
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f9e34a94-a65d-49a2-b839-7a51f078a239
+  ws-opts:
+    path: /
+- name: US Oracle 12
+  network: ws
+  password: e19d5b93-67b1-4af7-b578-ecd46aac69a0
+  port: 443
+  server: l0-cdn-02.dpp.pp.ua
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: US AMAZON 13
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: Bq_RQyPwxp7zTYywC37jLxmcjV9npNN6H6_1d_R6GT0
+    short-id: c9916730
+  server: us002.421421.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- alterId: 2
+  cipher: auto
+  name: US DIGITALOCEAN 14
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v8.heduian.link
+    path: /oooo
+- name: US HNSL 15
+  password: bcd8b420-22c7-4081-b00e-1aecb387796b
+  port: 443
+  server: hk3.7b851864-7833-e2bc-6341-9ba6900b9080.0d1f6a51.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: AU DIGITALOCEAN 01
+  network: ws
+  port: 30835
+  server: v35.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: CN HAAC 01
+  port: 50002
+  server: 47.116.166.178
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: CN CUCB 02
+  port: 50002
+  server: 112.132.215.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: CN HAAC 03
+  port: 50002
+  server: 47.92.152.169
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- auth: b08fee86-8d51-4a82-bcdc-0a27fe64c2b7
+  name: DE NKtelecom 01
+  password: b08fee86-8d51-4a82-bcdc-0a27fe64c2b7
+  port: 22155
+  server: hsdg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsdg.huasuan666.top
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: DE DigitalOcean 02
+  network: ws
+  port: 30833
+  server: v33.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v33.heduian.link
+    path: /oooo
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: FR Ikoula 01
+  network: tcp
+  port: 8443
+  server: fr.555199.xyz
+  servername: ssl.wsfog.co.uk
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5a5b3a4-ae52-46cc-bdf6-334146e18f1d
+- alterId: 2
+  cipher: auto
+  name: FR Pq 02
+  network: ws
+  port: 30837
+  server: v37.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v37.heduian.link
+    path: /oooo
+- auth: 4435688f-0930-4f32-8920-871a10b7b4aa
+  name: GB RCFITL 01
+  password: 4435688f-0930-4f32-8920-871a10b7b4aa
+  port: 22156
+  server: hsyg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsyg.huasuan666.top
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: GB DIGITALOCEAN 02
+  network: ws
+  port: 30836
+  server: v36.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v36.heduian.link
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: ID Hadi 01
+  port: 26144
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: aes-256-cfb
+  name: IN DigitalOcean 01
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.209.147.198
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: KR SK 01
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+  udp: true
+- auth: 4ba709e6-6186-412d-a79d-bf256c7df57c
+  name: NL NKtelecom 01
+  password: 4ba709e6-6186-412d-a79d-bf256c7df57c
+  port: 22157
+  server: hshl.huasuan666.top
+  skip-cert-verify: true
+  sni: hshl.huasuan666.top
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: NL Pq 02
+  network: ws
+  port: 30830
+  server: v30.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- cipher: aes-256-cfb
+  name: PT BrainStorm 01
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
+  udp: true
+- auth: d652ff0d-ea75-436f-aec3-6715e0e631d0
+  name: RU LLC 01
+  password: d652ff0d-ea75-436f-aec3-6715e0e631d0
+  port: 22160
+  server: hsels.huasuan666.top
+  skip-cert-verify: true
+  sni: hsels.huasuan666.top
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  name: SI Optimus 01
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Unknown NKtelecom 01
+  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
+  port: 36888
+  server: ss.003.node-for-bigairport.win
+  type: ss
+  udp: true
 
   - name: 🚀 节点选择
     type: select
