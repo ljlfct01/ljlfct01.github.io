@@ -4,7 +4,6 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
-
 proxies:
   - name: 台湾1
     server: tw2-cdn-route.couldflare-cdn.com
