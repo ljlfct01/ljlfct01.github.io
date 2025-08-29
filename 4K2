@@ -233,6 +233,47 @@
   ],
   "logo": "./A/logo.gif",
   "sites": [
+{
+"key":"腾讯弹幕",
+"name":"👑腾讯",
+"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+"type":3,
+"api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+"searchable":1,
+"changeable":1,
+"ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
+},
+{
+"key":"优酷弹幕",
+"name":"👑优酷",
+"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+"type":3,
+"api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+"searchable":1,
+"changeable":1,
+"ext":"https://gitee.com/yiwu369/6758/raw/master/JS/优酷弹幕.js"
+},
+{
+"key":"芒果弹幕",
+"name":"👑芒果",
+"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+"type":3,
+"api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+"searchable":1,
+"changeable":1,
+"ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
+},
+{
+"key":"爱奇艺弹幕",
+"name":"👑爱奇艺",
+"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+"type":3,
+"api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+"searchable":1,
+"changeable":1,
+"ext":"https://gitee.com/yiwu369/6758/raw/master/JS/爱奇艺弹幕.js"
+},
+
     {
       "key": "csp_appys_臻彩",
       "name": "♨️4K臻彩世界",
