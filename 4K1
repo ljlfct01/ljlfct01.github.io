@@ -157,7 +157,20 @@
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
   "ads": [],
   "sites": [
- 
+   {
+      "key": "时光机",
+      "name": "🥤时光机超大杯 🗓️v20250829-🧵250",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "sourceType": 0,
+        "sourceVersion": "20250829"
+      },
+      "jar": "https://www.lintech.work/超大杯/custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
+    },
     
   {
       "key": "🈵 茶烟书韵 | 解析",
