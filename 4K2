@@ -293,27 +293,27 @@
 },
   {
       "key": "youyou",
-      "name": "♨️优优|自定",
+      "name": "♨️优优|4K",
       "type": 3,
       "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/优优.js"
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E4%BC%98%E4%BC%98.js"
     },
     {
       "key": "qiqi",
-      "name": "♨️奇奇|自定",
+      "name": "♨️奇奇|4K",
       "type": 3,
       "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/奇奇.js"
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E5%A5%87%E5%A5%87.js"
     },
   {
       "key": "馆源",
-      "name": "♨️360|自定",
+      "name": "♨️360|4K",
       "type": 3,
       "api": "csp_HB360"
     },
  {
       "key": "小猫",
-      "name": "♨️哔哔|自定",
+      "name": "♨️哔哔|4K",
       "type": 3,
       "api": "csp_HBcms10",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
@@ -798,47 +798,7 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
-    },
-  {
-      "name": "虎斑XM",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getXmflvjx&url=",
-      "ext": {
-        "header": {
-          "Accept": "*/*",
-          "Origin": "https://jx.xmflv.com"
-        }
-      }
-    },
-    {
-      "name": "虎斑szy",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getszyjx&url="
-    },
-    {
-      "name": "虎斑mt4K",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getmgtvjx&url="
-    },
-    {
-      "name": "虎斑HJ",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=gethuajx&url="
-    },
-    {
-      "name": "虎斑WS",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getWsjx&url="
-    },
-    {
-      "name": "虎斑AB",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getAbjx&url="
-    },
-    {
-      "name": "虎斑V6",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getV6jx&url="
     }
+
   ]
 }
