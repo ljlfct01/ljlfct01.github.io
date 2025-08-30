@@ -159,152 +159,171 @@
   "sites": [
  
     
-    {
-      "key": "♨️ 腾腾",
-      "name": "♨️ 腾腾 | 4K",
-      "type": 3,
-      "api": "csp_Breeze",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-       "jxApi": "E8d2yqe1g4SYrLP3tsNWfwbFT7fyAotaK149/AqgMWYyAK0Qj7osrWHNQyHOh8ohz+0sa6zCjHzdbi4A7Tbxsi3MEYhO9F55LN+rkn1pE2L0PbgCljEi2qBEzMYHPel8FwvQcK7XDgenRlw/cRkOMIZuXEBOHE8keS2Y2lZ5m47aXvScxBQjJ/LmkH27PIFZ"
-      }
-    },
-    {
-      "key": "🈵 茶烟书韵 | JX",
-      "name": "🈵 茶烟书韵 | JX",
+  {
+      "key": "🈵 茶烟书韵 | 解析",
+      "name": "🈵 茶烟书韵 | 解析",
       "type": 3,
       "api": "csp_Yyets",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-       "jxApi": "E8d2yqe1g4SYrLP3tsNWfwbFT7fyAotaK149/AqgMWYyAK0Qj7osrWHNQyHOh8ohz+0sa6zCjHzdbi4A7Tbxsi3MEYhO9F55LN+rkn1pE2L0PbgCljEi2qBEzMYHPel8FwvQcK7XDgenRlw/cRkOMIZuXEBOHE8keS2Y2lZ5m47aXvScxBQjJ/LmkH27PIFZ" 
-      }
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQf8Bi/YYvHC8tbrQ30wezTY8Ugoun+4eZ9mpD6dbGOs1hEXx/2NXjtiTQECBbBIiViclGyFCs+CCgS3B8yRfJbMDmhxExLTtCi8/GRDIihyE",
+        "prefix": "Yvd9RzWDG2KNO2hfELQxQHaG5I5x4DRFWyJezOmwQIP7Vikq+Psu5Womw/m0rVuk",
+        "danmu": ""
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "♨️ 果果",
-      "name": "♨️ 果果 | 4K",
+      "key": "🈵 醉挽清风 | 解析",
+      "name": "🈵 醉挽清风 | 解析",
+      "type": 3,
+      "api": "csp_Breeze",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQf8Bi/YYvHC8tbrQ30wezTY8Ugoun+4eZ9mpD6dbGOs1hEXx/2NXjtiTQECBbBIiViclGyFCs+CCgS3B8yRfJbMDmhxExLTtCi8/GRDIihyE",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SDe9/RB3sPzhgLci9HH+tJ21LeEXBsu3RLODd1BPk9kcyl9Mkjv+WhJ6U5QPkVh/nTv/i7BL9dwecqqCEZ6n/4b"
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
+    },
+    {
+      "key": "🈵 小满万全 | 解析",
+      "name": "🈵 小满万全 | 解析",
       "type": 3,
       "api": "csp_LessIsMore",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "playerType": 2,
+      "playerType": 1,
       "ext": {
-      "jxApi": "E8d2yqe1g4SYrLP3tsNWfwbFT7fyAotaK149/AqgMWYyAK0Qj7osrWHNQyHOh8ohz+0sa6zCjHzdbi4A7Tbxsi3MEYhO9F55LN+rkn1pE2L0PbgCljEi2qBEzMYHPel8FwvQcK7XDgenRlw/cRkOMIZuXEBOHE8keS2Y2lZ5m47aXvScxBQjJ/LmkH27PIFZ" 
-      }
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQf8Bi/YYvHC8tbrQ30wezTY8Ugoun+4eZ9mpD6dbGOs1hEXx/2NXjtiTQECBbBIiViclGyFCs+CCgS3B8yRfJbMDmhxExLTtCi8/GRDIihyE",
+        "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SDe9/RB3sPzhgLci9HH+tJ21LeEXBsu3RLODd1BPk9kcyl9Mkjv+WhJ6U5QPkVh/nTv/i7BL9dwecqqCEZ6n/4b"
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "🈵 瑞气盈门 | JX",
-      "name": "🈵 瑞气盈门 | JX",
+      "key": "🈵 瑞气盈门 | 解析",
+      "name": "🈵 瑞气盈门 | 解析",
       "type": 3,
       "api": "csp_Blessings",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "playerType": 2,
       "ext": {
-      "jxApi": "E8d2yqe1g4SYrLP3tsNWfwbFT7fyAotaK149/AqgMWYyAK0Qj7osrWHNQyHOh8ohz+0sa6zCjHzdbi4A7Tbxsi3MEYhO9F55LN+rkn1pE2L0PbgCljEi2qBEzMYHPel8FwvQcK7XDgenRlw/cRkOMIZuXEBOHE8keS2Y2lZ5m47aXvScxBQjJ/LmkH27PIFZ"
-      }
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQf8Bi/YYvHC8tbrQ30wezTY8Ugoun+4eZ9mpD6dbGOs1hEXx/2NXjtiTQECBbBIiViclGyFCs+CCgS3B8yRfJbMDmhxExLTtCi8/GRDIihyE",
+        "prefix": "UPris27MuMWJyAl048qao/nd48tAp845xgreKMXD8HUrLqbgS1sq6WSTqhIT+2++",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SDe9/RB3sPzhgLci9HH+tJ21LeEXBsu3RLODd1BPk9kcyl9Mkjv+WhJ6U5QPkVh/nTv/i7BL9dwecqqCEZ6n/4b"
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "🈵 酷月凝霜 | JX",
-      "name": "🈵 酷月凝霜 | JX",
+      "key": "🈵 酷月凝霜 | 解析",
+      "name": "🈵 酷月凝霜 | 解析",
       "type": 3,
       "api": "csp_Moonlight",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "playerType": 2,
       "ext": {
-       "jxApi": "E8d2yqe1g4SYrLP3tsNWfwbFT7fyAotaK149/AqgMWYyAK0Qj7osrWHNQyHOh8ohz+0sa6zCjHzdbi4A7Tbxsi3MEYhO9F55LN+rkn1pE2L0PbgCljEi2qBEzMYHPel8FwvQcK7XDgenRlw/cRkOMIZuXEBOHE8keS2Y2lZ5m47aXvScxBQjJ/LmkH27PIFZ" 
-      }
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQf8Bi/YYvHC8tbrQ30wezTY8Ugoun+4eZ9mpD6dbGOs1hEXx/2NXjtiTQECBbBIiViclGyFCs+CCgS3B8yRfJbMDmhxExLTtCi8/GRDIihyE",
+        "prefix": "/YeDHeSZiIVOxRNz5bu/VfXmuiexgsQuWPZfoKlXqjB+Xq7j/gwXpnXHf/mMp+HP",
+        "danmu": ""
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
-      {
-      "key": "🈵 帧跃星河 | JX",
-      "name": "🈵 帧跃星河 | JX",
+    {
+      "key": "🈵 帧跃星河 | 解析",
+      "name": "🈵 帧跃星河 | 解析",
       "type": 3,
       "api": "csp_BiliPlus",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/ys.json",
+      "ext": "./sites/码上/ys.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
-      }
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "🈵  解说合集 | JX",
-      "name": "🈵  解说合集 | JX",
+      "key": "🈵  解说合集 | 解析",
+      "name": "🈵  解说合集 | 解析",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/jieshuo.json",
+      "ext": "./sites/码上/jieshuo.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
-      }
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "🈵  演唱合集 | JX",
-      "name": "🈵  演唱合集 | JX",
+      "key": "🈵  演唱合集 | 解析",
+      "name": "🈵  演唱合集 | 解析",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/heji.json",
+      "ext": "./sites/码上/heji.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
-      }
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "🈵  戏曲大全 | JX",
-      "name": "🈵  戏曲大全 | JX",
+      "key": "🈵  戏曲大全 | 解析",
+      "name": "🈵  戏曲大全 | 解析",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/xiqu.json",
+      "ext": "./sites/码上/xiqu.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
-      }
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "🈵  8K大全 | JX",
-      "name": "🈵  8K大全 | JX",
+      "key": "🈵  8K大全 | 解析",
+      "name": "🈵  8K大全 | 解析",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/8k.json",
+      "ext": "./sites/码上/8k.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
-      }
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "🈵  学习园地 | JX",
-      "name": "🈵  学习园地 | JX",
+      "key": "🈵  学习园地 | 解析",
+      "name": "🈵  学习园地 | 解析",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.lintech.work/超大杯/sites/码上/study.json",
+      "ext": "./sites/码上/study.json",
       "style": {
         "type": "rect",
         "ratio": 1.333
-      }
+      },
+      "jar": "./custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     }
   ],
   "parses": [
