@@ -98,7 +98,15 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
- 
+  {
+      "name": "🐅V4-mursor（卡顿请换源）",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/iptv.m3u",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://11.112114.xyz/logo/{name}.png",
+      "ua": "okHttp/Mod-1.2.0"
+    },
  {
       "name": "🐅千频",
       "type": 0,
