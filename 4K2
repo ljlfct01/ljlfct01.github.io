@@ -370,17 +370,15 @@
         }
       }
     },
-    {
-      "key": "csp_Panda_玩偶哥哥",
-      "name": "♨️┃玩偶┃影视",
-      "api": "csp_Wogg",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+     {
+      "key": "玩偶哥哥",
+      "name": "♨️玩偶|4k网盘",
       "type": 3,
-      "searchable": 1,
       "playerType": 2,
-      "timeout": 30,
-      "changeable": 0,
-      "ext": "https://www.wogg.one/"
+      "api": "csp_Wogg",
+      "ext": {
+        "site": "https://wogg.xxooo.cf/"
+      }
     },
     {
       "key": "窈窕",
