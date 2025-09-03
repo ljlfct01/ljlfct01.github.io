@@ -310,45 +310,77 @@
       "jar": "https://www.lintech.work/超大杯/custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
     {
-      "key": "玩偶哥哥",
-      "name": "♨️玩偶|4k网盘",
+      "key": "csp_FeiMaoUC",
+      "name": "♨️┃闪电┃优汐",
       "type": 3,
-      "playerType": 2,
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      }
+    },
+    {
+      "key": "csp_Duopan",
+      "name": "♨️┃蜡笔┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "http://feimaoai.site",
+          "http://www.labi88.sbs",
+          "http://fmao.site",
+          "http://fmao.shop",
+          "http://xiaocge.fun"
+        ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
+        "url_key": "Duopan2"
+      }
+    },
+    {
+      "key": "csp_Netfixtv",
+      "name": "♨️┃️至臻┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://xiaomi666.fun",
+          "https://xiaomiai.site",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
+          "http://www.miqk.cc",
+          "https://www.zhizhenpan.fun"
+        ],
+        "url_key": "Netfixtv2",
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        }
+      }
+    },
+    {
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "♨️┃玩偶┃影视",
       "api": "csp_Wogg",
-      "ext": {
-        "site": "https://wogg.xxooo.cf/"
-      }
-    },
-   
-    {
-      "key": "至臻",
-      "name": "♨️至臻|4k网盘",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
       "type": 3,
+      "searchable": 1,
       "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://mihdr.top/"
-      }
-    },
-    {
-      "key": "多多",
-      "name": "♨️多多|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://tv.yydsys.top/"
-      }
-    },
-    {
-      "key": "ou多",
-      "name": "♨️讴歌|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://woog.nxog.eu.org/"
-      }
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "https://www.wogg.one/"
     },
     {
       "key": "窈窕",
