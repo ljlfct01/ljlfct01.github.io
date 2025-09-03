@@ -309,65 +309,51 @@
       },
       "jar": "https://www.lintech.work/超大杯/custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
-    {
-      "key": "csp_FeiMaoUC",
-      "name": "♨️┃闪电┃优汐",
+     {
+      "key": "网盘虎斑",
+      "name": "♨️虎斑|4k网盘",
       "type": 3,
-      "api": "csp_Duopan",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-        "site_urls": [
-          "http://1.95.79.193/"
-        ],
-        "url_key": "FeiMaoUC"
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
+        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
+        "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
+        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
+        "site": "http://103.45.162.207:20720/"
       }
     },
     {
-      "key": "csp_Duopan",
-      "name": "♨️┃蜡笔┃影视",
+      "key": "傻样",
+      "name": "♨️傻样|4k网盘",
       "type": 3,
-      "api": "csp_Duopan",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-        "site_urls": [
-          "https://feimao666.fun",
-          "http://feimao888.fun",
-          "http://feimaoai.site",
-          "http://www.labi88.sbs",
-          "http://fmao.site",
-          "http://fmao.shop",
-          "http://xiaocge.fun"
-        ],
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        },
-        "url_key": "Duopan2"
+        "site": "http://xsayang.fun:12512/"
       }
     },
-    {
-      "key": "csp_Netfixtv",
-      "name": "♨️┃️至臻┃影视",
+  {
+      "key": "至臻",
+      "name": "♨️至臻|4k网盘",
       "type": 3,
-      "api": "csp_Duopan",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-        "site_urls": [
-          "http://xiaomi666.fun",
-          "https://xiaomiai.site",
-          "https://mihdr.top",
-          "https://www.mihdr.top",
-          "http://www.miqk.cc",
-          "https://www.zhizhenpan.fun"
-        ],
-        "url_key": "Netfixtv2",
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        }
+        "site": "https://mihdr.top/"
+      }
+    },
+  {
+      "key": "P123",
+      "name": "♨️木偶|4k网盘",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "http://123.666291.xyz/"
       }
     },
      {
