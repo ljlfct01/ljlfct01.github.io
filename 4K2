@@ -309,51 +309,65 @@
       },
       "jar": "https://www.lintech.work/超大杯/custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
-     {
-      "key": "网盘虎斑",
-      "name": "♨️虎斑|4k网盘",
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "♨️┃闪电┃优汐",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_Duopan",
+       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "filterable": 1,
       "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
-        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
-        "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
-        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-        "site": "http://103.45.162.207:20720/"
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
       }
     },
     {
-      "key": "傻样",
-      "name": "♨️傻样|4k网盘",
+      "key": "csp_Duopan",
+      "name": "♨️┃蜡笔┃影视",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "filterable": 1,
       "ext": {
-        "site": "http://xsayang.fun:12512/"
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "http://feimaoai.site",
+          "http://www.labi88.sbs",
+          "http://fmao.site",
+          "http://fmao.shop",
+          "http://xiaocge.fun"
+        ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
+        "url_key": "Duopan2"
       }
     },
-  {
-      "key": "至臻",
-      "name": "♨️至臻|4k网盘",
+    {
+      "key": "csp_Netfixtv",
+      "name": "♨️┃️至臻┃影视",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "filterable": 1,
       "ext": {
-        "site": "https://mihdr.top/"
-      }
-    },
-  {
-      "key": "P123",
-      "name": "♨️木偶|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "http://123.666291.xyz/"
+        "site_urls": [
+          "http://xiaomi666.fun",
+          "https://xiaomiai.site",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
+          "http://www.miqk.cc",
+          "https://www.zhizhenpan.fun"
+        ],
+        "url_key": "Netfixtv2",
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        }
       }
     },
      {
@@ -401,7 +415,14 @@
       "api": "csp_HBT4",
       "ext": "http://154.219.113.13:4866/test.php?site=qingying###qingying"
     },
- 
+    {
+      "key": "config",
+      "name": "♨️┃配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "playerType": 2
+    },
     {
       "key": "设置",
       "name": "♨️网弹|设置",
