@@ -251,7 +251,110 @@
   ],
   "logo": "http://103.45.162.207:25252/仅供测试/A/logo.gif",
   "sites": [
-
+ {
+      "key": "UC",
+      "name": "《优汐💿盘搜4K》",
+      "type": 3,
+      "api": "csp_UuSsGuard",
+      "jar": "https://gitee.com/tianwikeji/jar/raw/master/f.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "pturl": "http://tv.91muou.icu/|http://54271.fun/"
+      }
+    },
+    {
+      "key": "玩偶",
+      "name": "《玩偶💿哥哥4K》",
+      "type": 3,
+      "api": "csp_WoGGGuard",
+      "jar": "https://gitee.com/tianwikeji/jar/raw/master/f.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "《闪电💿优汐4K》",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "https://gitee.com/tianwikeji/jar/raw/master/Pa.jar",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      }
+    },
+    {
+      "key": "csp_XMUC",
+      "name": "《小米💿优汐4K》",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "https://gitee.com/tianwikeji/jar/raw/master/Pa.jar",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://www.mucpan.cc",
+          "https://milvdou.fun",
+          "https://54271.fun"
+        ],
+        "url_key": "XMUC"
+      }
+    },
+    {
+      "key": "csp_Duopan",
+      "name": "《蜡笔💿网盘4K》",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "https://gitee.com/tianwikeji/jar/raw/master/Pa.jar",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "http://feimaoai.site",
+          "http://www.labi88.sbs"
+        ],
+        "url_key": "Duopan2"
+      }
+    },
+    {
+      "key": "雷鲸",
+      "name": "《天翼💿网盘4K》",
+      "type": 3,
+      "api": "csp_Wexleijing",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
+    },
+    {
+      "key": "夸克多多弹幕",
+      "name": "《多多💿网盘4K》",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://tv.yydsys.top",
+        "danmu": true,
+        "jar": "https://git.acwing.com/kuzniez/kot/-/raw/main/JS/tvkj.jar"
+      }
+    },
    
  {
       "key": "tenteng",
