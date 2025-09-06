@@ -300,12 +300,23 @@
       },
       "jar": "https://www.lintech.work/超大杯/custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
-   {
-      "key": "小猫",
-      "name": "♨️小猫|自定",
+    {
+      "key": "B站",
+      "name": "🅱️4K哔哩✨资源大全",
       "type": 3,
-      "api": "csp_HBcms10",
-      "ext": "https://vs.okcdn100.top/api.php/provide/vod/"
+      "api": "csp_Bili",
+      "jar": "https://8815.kstore.vip/tvbox/lzxw.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "ext": {
+        "json": "https://8815.kstore.vip/tvbox/lib/B站.png",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      }
     },
 
 {
