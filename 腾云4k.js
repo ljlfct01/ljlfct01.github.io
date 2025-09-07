@@ -692,7 +692,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "http://210.16.160.81:8133/api/?key=9678860d6cec65e08fae996c7e70adaf&url=" + input.split("?")[0];
+            let api = "https://jx.ariesc.cn/api/?key=8ab733bc3e1240b72ea608a8faaa47b2&url=" + input.split("?")[0];
            console.log(api);
             let response = fetch(api, {
                 method: 'get',
