@@ -712,7 +712,7 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: 'https://jx.ariesc.cn/api/?key=8af25b37f95ea8a4c1eca1ca9cd77f41&url=' + input.split("?")[0]
+                    danmaku: 'https://jx.ariesc.cn/api/?key=8ab733bc3e1240b72ea608a8faaa47b2&url=' + input.split("?")[0]
                 };
             } else {
 
