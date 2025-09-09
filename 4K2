@@ -385,113 +385,77 @@
     },
 
        {
-      "key": "小斑快映",
-      "name": "♨️4K聚合┃网盘",
+      "key": "csp_FeiMaoUC",
+      "name": "⚡┃闪电┃优汐",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "https://8815.kstore.vip/tvbox/lzxw.txt",
-      "searchable": 1,
-      "quickSearch": 1,
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
       "filterable": 1,
-      "changeable": 1,
-      "ext": "https://8815.kstore.vip/tvbox/json/xbky.json"
-    },		
-     {
-      "key": "网盘虎斑",
-      "name": "♨️虎斑|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
       "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
-        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
-        "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
-        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-        "site": "http://103.45.162.207:20720/"
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
       }
     },
     {
-      "key": "傻样",
-      "name": "♨️傻样|4k网盘",
+      "key": "csp_Duopan",
+      "name": "🖍︎┃蜡笔┃影视",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "filterable": 1,
       "ext": {
-        "site": "http://xsayang.fun:12512/"
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "http://feimaoai.site",
+          "http://www.labi88.sbs",
+          "http://fmao.site",
+          "http://fmao.shop",
+          "http://xiaocge.fun"
+        ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
+        "url_key": "Duopan2"
       }
     },
     {
-      "key": "玩偶哥哥",
-      "name": "♨️玩偶|4k网盘",
+      "key": "csp_Netfixtv",
+      "name": "💌┃️至臻┃影视",
       "type": 3,
-      "playerType": 2,
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://xiaomi666.fun",
+          "https://xiaomiai.site",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
+          "http://www.miqk.cc",
+          "https://www.zhizhenpan.fun"
+        ],
+        "url_key": "Netfixtv2",
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        }
+      }
+    },
+    {
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "👲┃玩偶┃影视",
       "api": "csp_Wogg",
-      "ext": {
-        "site": "https://wogg.xxooo.cf/"
-      }
-    },
-    {
-      "key": "P123",
-      "name": "♨️木偶|4k网盘",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
       "type": 3,
+      "searchable": 1,
       "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "http://123.666291.xyz/"
-      }
-    },
-    {
-      "key": "至臻",
-      "name": "♨️至臻|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://mihdr.top/"
-      }
-    },
-    {
-      "key": "多多",
-      "name": "♨️多多|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://tv.yydsys.top/"
-      }
-    },
-    {
-      "key": "ou多",
-      "name": "♨️讴歌|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://woog.nxog.eu.org/"
-      }
-    },
-    {
-      "key": "米",
-      "name": "♨️小米|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "http://xiaomi666.fun"
-      }
-    },
-    {
-      "key": "二小",
-      "name": "♨️二小|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://xhww.net"
-      }
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "https://www.wogg.one/"
     },
     {
       "key": "窈窕",
@@ -541,7 +505,14 @@
         "ratio": 1.0009
       }
     },
-   
+     {
+      "key": "config",
+      "name": "🐼┃配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7ca5b8d36db73989/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
+      "playerType": 2
+    },
   {
       "key": "测试",
       "name": "♨️应用|更新",
