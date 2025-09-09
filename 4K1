@@ -171,7 +171,66 @@
       },
       "jar": "https://www.lintech.work/超大杯/custom_spider_20250829.tms;md5;da11c8d81afcb097d3683693ed333258"
     },
-    
+   {
+      "key": "直播转点播",
+      "name": "📺XX直播",
+      "type": 3,
+      "api": "https://4723.kstore.space/lib/live2vod.js",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvv.tw/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/feimaolive.json"
+    },
+{
+	"key": "Youtube代理",
+	"name": "⭕️Youtube┃代理",
+	"type": 3,
+	"api": "csp_Youtube",
+ "jar": "https://gitee.com/happylibaihao/pan/raw/main/pg.jar",
+	"searchable": 1,
+	"quickSearch": 0,
+	"changeable": 0,
+	"ext": {
+		"json": "http://lisha521.dynv6.net/pg/lib/youtube.json",
+		"codecs": "avc",
+		"proxy": "socks5://myszy:myszy28811@pipi.myddns.me:28811"
+	}
+},
+{
+      "key": "115Share",
+      "name": "115云盘分享",
+      "type": 3,
+      "api": "csp_P115Share",
+      "jar": "https://gitee.com/happylibaihao/pan/raw/main/pg.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0,
+      "timeout": 120,
+      "ext": "https://4723.kstore.space/happybaihao/tokenm.json$$$./lib/115share.txt$$$db$$$1",
+      "style": {
+        "type": "list",
+        "ratio": 1.1
+      }
+    },
+{
+      "key": "PushShare",
+      "name": "我的资源分享",
+      "type": 3,
+      "api": "csp_PushShare",
+      "jar": "https://gitee.com/happylibaihao/pan/raw/main/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "https://4723.kstore.space/happybaihao/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
+      "style": {
+        "type": "list",
+        "ratio": 1.1
+      }
+    }, 
   {
       "key": "🈵 茶烟书韵 | 解析",
       "name": "🈵 茶烟书韵 | 解析",
