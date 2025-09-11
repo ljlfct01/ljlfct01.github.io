@@ -386,77 +386,271 @@
     },
 
        {
-      "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐",
+      "key": "小斑快映",
+      "name": "潇->快映｜4K弹幕",
       "type": 3,
-      "api": "csp_Duopan",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://1.95.79.193/"
-        ],
-        "url_key": "FeiMaoUC"
-      }
-    },
-    {
-      "key": "csp_Duopan",
-      "name": "🖍︎┃蜡笔┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "https://feimao666.fun",
-          "http://feimao888.fun",
-          "http://feimaoai.site",
-          "http://www.labi88.sbs",
-          "http://fmao.site",
-          "http://fmao.shop",
-          "http://xiaocge.fun"
-        ],
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        },
-        "url_key": "Duopan2"
-      }
-    },
-    {
-      "key": "csp_Netfixtv",
-      "name": "💌┃️至臻┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://xiaomi666.fun",
-          "https://xiaomiai.site",
-          "https://mihdr.top",
-          "https://www.mihdr.top",
-          "http://www.miqk.cc",
-          "https://www.zhizhenpan.fun"
-        ],
-        "url_key": "Netfixtv2",
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        }
-      }
-    },
-    {
-      "key": "csp_Panda_玩偶哥哥",
-      "name": "👲┃玩偶┃影视",
-      "api": "csp_Wogg",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d",
-      "type": 3,
+      "api": "csp_PanWebShare",
       "searchable": 1,
-      "playerType": 2,
-      "timeout": 30,
-      "changeable": 0,
-      "ext": "https://www.wogg.one/"
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/xbky.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "潇->玩偶｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/wogg.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "木偶",
+      "name": "潇->木偶｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "蜡笔",
+      "name": "潇->蜡笔｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/lb.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "至臻",
+      "name": "潇->至臻｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/zz.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "多多",
+      "name": "潇->多多｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "欧哥",
+      "name": "潇->欧哥｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/og.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "二小",
+      "name": "潇->二小｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/ex.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "虎斑",
+      "name": "潇->虎斑｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/hb.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "闪电",
+      "name": "潇->闪电｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/sd.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "百家",
+      "name": "潇->百家｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/bj.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "团长",
+      "name": "潇->团长｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebTz",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "雷鲸",
+      "name": "潇->雷鲸｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudLJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/lj.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "海绵",
+      "name": "潇->海绵｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudHM",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/hm.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "夸父",
+      "name": "潇->夸父｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudKF",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/kf.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "123",
+      "name": "潇->123｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloud123",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/123.json",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "趣盘",
+      "name": "潇->趣盘｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebQu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": {
+        "url": "https://www.qupanshe.com"
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "盘库",
+      "name": "潇->盘库｜4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebKuBa",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://panku8.com,https://yipanso.com"
+      },
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/188d986c3959787f/pizazz.png;md5;dc6866255302729a90d309d2460cde4d"
+    },
+    {
+      "key": "双星",
+      "name": "潇->双星｜4K弹幕",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/js/SX.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "校长",
+      "name": "潇->校长｜4K弹幕",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/js/XZ.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "人人电影网",
+      "name": "潇->人人｜4K弹幕",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/js/RRDYW.js",
+      "style": {
+        "type": "list"
+      }
     },
     {
       "key": "窈窕",
