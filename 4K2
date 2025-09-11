@@ -3,6 +3,12 @@
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
+  {
+      "name": "🐅live",
+      "type": 0,
+      "url": "https://live.catvod.com/tv.m3u",
+      "ua": "okHttp/Mod-1.2.0.1"
+    },
    {
       "name": "🐅云",
       "type": 0,
@@ -11,12 +17,7 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-  {
-      "name": "🐅live",
-      "type": 0,
-      "url": "https://live.catvod.com/tv.m3u",
-      "ua": "okHttp/Mod-1.2.0.1"
-    },
+ 
  {
             "name": "🐅香雨TV",
             "type": 0,
