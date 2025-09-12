@@ -7,7 +7,9 @@
       "name": "🐅live",
       "type": 0,
       "url": "https://live.catvod.com/tv.m3u",
-      "ua": "okHttp/Mod-1.2.0.1"
+     "ua": "okhttp/3.15",
+     "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
    {
       "name": "🐅云",
