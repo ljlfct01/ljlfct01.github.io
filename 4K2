@@ -435,23 +435,52 @@
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXhhVzVuZVdsdVp5TWpJM0ZwYm1kNWFXNW4="
     },
    {
-      "key": "至臻",
-      "name": "♨️至臻|4k网盘",
+      "key": "玩偶",
+      "name": "💯玩偶｜4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://mihdr.top/"
-      }
+      "api": "csp_PanWebShare",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/玩偶.json"
     },
-      {
-      "key": "玩偶哥哥",
-      "name": "♨️玩偶|4k网盘",
+        {
+      "key": "蜡笔",
+      "name": "💯蜡笔｜4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Wogg",
-      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/%E7%8E%A9%E5%81%B6.json"
-      
+      "api": "csp_PanWebShare",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/蜡笔.json"
+    },
+    {
+      "key": "闪电",
+      "name": "💯闪电｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/闪电.json"
+    },
+    {
+      "key": "至臻",
+      "name": "💯至臻｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/至臻.json"
     },
     {
       "key": "窈窕",
@@ -489,7 +518,20 @@
       "ext": "http://154.219.113.13:5866/test.php?site=qingying###qingying"
     },
   
-  
+    {
+      "key": "配置中心",
+      "name": "💯网盘4k配置中心",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
+    },
   {
       "key": "测试",
       "name": "♨️应用|更新",
