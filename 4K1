@@ -31,20 +31,14 @@
     "static-mozai.4gtv.tv"
   ],
   "sites": [
-    {
-      "key": "时光机",
+  {
+      "key": "drpy_js_豆瓣",
       "name": "🥤时光机超大杯 🗓️v20250916-🧵246",
       "type": 3,
       "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "source": 1,
-        "sourceVersion": "20250916"
-      },
-      "jar": "https://www.lintech.work/超大杯/custom_spider_20250916.tms;md5;35899da982eba1a69207649cbbbb915e"
+      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
     },
+
     {
       "key": "🌈 配置 | JAR",
       "name": "🌈 配置 | JAR",
