@@ -20,17 +20,7 @@
   "logo": "http://103.45.162.207:25252/仅供测试/A/logo.gif",
   "sites": [
 
-     {
-      "key": "csp_appys_臻彩",
-      "name": "♨️4K臻彩世界",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cms4ksj.lyyytv.cn/api.php/app/###http://zz.qqqtv.top###10000###25"
-    },
+   
     {
       "key": "腾讯弹幕",
       "name": "👑腾讯",
@@ -41,45 +31,18 @@
       "changeable": 1,
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
     },
-    {
-      "key": "优酷弹幕",
-      "name": "👑优酷",
-      "jar": "https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-      "type": 3,
-      "api": "https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://gitee.com/yiwu369/6758/raw/master/JS/优酷弹幕.js"
-    },
-    {
-      "key": "芒果弹幕",
-      "name": "👑芒果",
-      "jar": "https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-      "type": 3,
-      "api": "https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
-    },
-    {
-      "key": "爱奇艺弹幕",
-      "name": "👑爱奇艺",
-      "jar": "https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-      "type": 3,
-      "api": "https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://gitee.com/yiwu369/6758/raw/master/JS/爱奇艺弹幕.js"
-    },
-   
- {
-      "key": "tenteng",
-      "name": "♨️腾腾┃4K",
-      "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
-    }
  
+    {
+      "key": "903.6cms",
+      "name": "👑独家?试用4k",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://14.103.129.80:999/影魂羽翼4k/jar/byun.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://14.103.129.80:906/api.php/app/###http://zz.qqqtv.top###10000###25"
+    }
 
 
   
