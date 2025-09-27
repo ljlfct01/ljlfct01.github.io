@@ -692,7 +692,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "http://sspa8.top:8100/api/?key=%E6%99%93%E5%AE%87&url=" + input.split("?")[0];
+            let api = "https://niiuma.qi-simple.top/niuma.php?key=QyWZEzLpAfTI8Fb5&url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
