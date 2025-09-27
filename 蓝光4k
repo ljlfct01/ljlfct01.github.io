@@ -18,15 +18,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
  
- {
-            "name": "🐅香雨TV",
-            "type": 0,
-            "url": "https://15280.kstore.space/%E8%AF%97%E9%A6%99%E9%A3%98%E9%9B%A8.txt",
-            "playerType": 2,
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://11.112114.xyz/logo/{name}.png",
-            "ua": "okHttp/Mod-1.0.0"
-        },
+
  {
             "name": "🐅黯笙直播",
             "type": 0,
@@ -36,24 +28,7 @@
             "logo": "https://11.112114.xyz/logo/{name}.png",
             "ua": "okHttp/Mod-1.0.0"
         },
- {
-            "name": "🐅北岳TV",
-            "type": 0,
-            "url": "https://chuxinya.top/f/32gWh2/%E5%8D%97%E5%B2%B3TV.txt",
-            "playerType": 2,
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://11.112114.xyz/logo/{name}.png",
-            "ua": "okHttp/Mod-1.0.0"
-        },
- {
-      "name": "🐅绿影TV",
-      "type": 0,
-      "url": "https://chuxinya.top/f/DRGJH3/绿影流年.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
  {
       "name": "🐅云播TV",
       "type": 0,
@@ -100,20 +75,8 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-{
-      "name": "🐅蚂蚁",
-      "type": 0,
-      "url": "http://216.105.166.179/mayitv.txt",
-      "ua": "okhttp/3.15",
-      "playerType": 2
-    },
-{
-      "name": "🐅澜露",
-      "type": 0,
-      "url": "http://txt.kesug.com/users/hulanlu.txt",
-      "ua": "okhttp/3.15",
-      "playerType": 2
-    },
+
+
   {
       "name": "🐅易发TV",
       "type": 0,
@@ -131,33 +94,7 @@
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
     },
 
- {
-      "name": "🐅千频",
-      "type": 0,
-      "url": "https://gitee.com/huluxiaansheng/zby/raw/master/千频直播.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-   {
-      "name": "🐅畅影",
-      "type": 0,
-      "url": "http://111.170.157.210:1260/zb.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
- {
-      "name": "🐅钉钉经典全聚合代理",
-      "type": 0,
-      "url": "https://mpimg.cn/down.php/353c06d3361ed9008b8a3b8a10cf4acf.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
   {
       "name": "🐅老三",
       "type": 0,
@@ -180,7 +117,7 @@
       "name": "🐅猫TV",
       "type": 0,
       "playerType": 1,
-      "url": "http://rihou.cc:567/gggg.nzk",
+      "url": "http://rihou.cc:555/gggg.nzk",
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -221,24 +158,8 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
- {
-      "name": "🐅影视家",
-      "type": 0,
-      "url": "http://max.token.iptv.xin:2052/api/channels/%E7%8B%AC%E5%AE%B6%E4%BB%A3%E7%90%86%E6%BA%90/details?token=174780775220",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }, 
-{
-      "name": "🐅蜂蜜tv",
-      "type": 0,
-      "url": "https://d.kstore.dev/download/6529/tvbox/fmzb_livetv.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
+
     {
       "name": "🐅x315601",
       "url": "http://x315601.serv00.net/10.php",
@@ -262,14 +183,9 @@
       "ua": "okhttp/3.15",
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
       "logo": "http://diyp2.112114.xyz/logo/{name}.png"
-    },
-   
-    {
-      "name": "🐅HKTV-直播源",
-      "type": 0,
-      "url": "http://txt.kesug.com/users/hulanlu.txt",
-      "playerType": 1
     }
+   
+ 
    
    
   ],
