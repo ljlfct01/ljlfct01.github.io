@@ -207,17 +207,7 @@
   ],
   "logo": "http://103.45.162.207:25252/仅供测试/A/logo.gif",
   "sites": [
- {
-      "key": "csp_appys_臻彩",
-      "name": "4K臻彩世界",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cms4ksj.lyyytv.cn/api.php/app/###http://zz.qqqtv.top/api/index?parsesId=3&appid=10000&videoUrl="
-    },
+
     {
       "key": "腾讯弹幕",
       "name": "♨️腾腾┃4K",
@@ -229,225 +219,49 @@
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
     },
 
- {
-      "key": "mangmang",
-      "name": "♨️果果┃4K",
-      "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js"
-    },
-  
-   {
-      "key": "至尊",
-      "name": "♨️魔尊|4K弹幕",
-      "type": 3,
-      "api": "csp_AppZzun",
-      "ext": "http://154.219.113.13:12121/json/app.txt"
-    },
-    {
-      "key": "魔尊",
-      "name": "♨️重楼|4K弹幕",
-      "type": 3,
-      "api": "csp_HBcms10",
-      "ext": "http://154.219.113.13:12121/json/cms.txt"
-    },
-    {
-      "key": "紫萱",
-      "name": "♨️紫萱|4K弹幕",
-      "type": 3,
-      "api": "csp_AppZzun",
-      "ext": "http://154.219.113.13:12121/json/app2.txt"
-    },
-  
-  
-   {
-      "key": "天翼影视",
-      "name": "♨️天翼｜4K",
-      "type": 1,
-      "api": "http://7.qqqtv.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "推荐",
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
-    },
-
-    {
-      "key": "B站",
-      "name": "🅱️4K哔哩✨资源大全",
+  {
+      "key": "戏 曲",
+      "name": "🎈畅看戏曲｜永久免费，禁止贩卖",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "https://8815.kstore.vip/tvbox/lzxw.txt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "ext": {
-        "json": "https://8815.kstore.vip/tvbox/lib/B站.png",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      }
-    },
- {
-      "key": "竹生",
-      "name": "♨️4K弹幕",
-      "type": 3,
-      "api": "csp_HBT4",
-      "jar": "http://139.224.213.240:14714/ZC4K.jar",
-      "ext": "http://139.224.213.240:14714/api.php?site=mihdr"
-    },
-  {
-      "key": "竹生",
-      "name": "♨️竹生|4K弹幕",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
-    },
-    {
-      "key": "归安",
-      "name": "♨️归安|4K弹幕",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    },
-    {
-      "key": "薄心",
-      "name": "♨️薄心|4K弹幕",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ=="
-    },
-    {
-      "key": "甜橙",
-      "name": "♨️甜橙|4K弹幕",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
-    {
-      "key": "花落",
-      "name": "♨️花落|4K弹幕",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXhhVzVuZVdsdVp5TWpJM0ZwYm1kNWFXNW4="
-    },
-   {
-      "key": "玩偶",
-      "name": "💯玩偶｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "jar": "http://xn--5mq46jrwl99dn01d.top/戏曲/bhxq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/玩偶.json"
+      "ext": "http://xn--5mq46jrwl99dn01d.top/戏曲/json/Blixq.json"
     },
-        {
-      "key": "蜡笔",
-      "name": "💯蜡笔｜4K",
+    {
+      "key": "相声小品",
+      "name": "🏮相声小品",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "api": "csp_Bili",
+      "jar": "http://xn--5mq46jrwl99dn01d.top/戏曲/bhxq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/蜡笔.json"
+      "ext": "http://xn--5mq46jrwl99dn01d.top/戏曲/json/Blixs.json"
     },
     {
-      "key": "闪电",
-      "name": "💯闪电｜4K",
+      "key": "潮 汕",
+      "name": "🥨潮汕",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "api": "csp_Bili",
+      "jar": "http://xn--5mq46jrwl99dn01d.top/戏曲/bhxq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/闪电.json"
+      "ext": "http://xn--5mq46jrwl99dn01d.top/戏曲/json/Bli潮汕.json"
     },
     {
-      "key": "至臻",
-      "name": "💯至臻｜4K",
+      "key": "演唱会",
+      "name": "🎸演唱会",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
+      "api": "csp_Bili",
+      "jar": "http://xn--5mq46jrwl99dn01d.top/戏曲/bhxq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-      "ext": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/至臻.json"
-    },
-    {
-      "key": "窈窕",
-      "name": "♨️网盘臻彩|4K1",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "http://154.219.113.13:5866/test.php?site=labi###labi"
-    },
-    {
-      "key": "淑女",
-      "name": "♨️网盘臻彩|4K2",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "http://154.219.113.13:5866/test.php?site=mihdr###mihdr"
-    },
-    {
-      "key": "君子",
-      "name": "♨️网盘臻彩|4K3",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "http://154.219.113.13:5866/test.php?site=erxiao###erxiao"
-    },
-    {
-      "key": "好逑",
-      "name": "♨️网盘臻彩|4K4",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "http://154.219.113.13:5866/test.php?site=ouge###ouge"
-    },
-    {
-      "key": "琴瑟",
-      "name": "♨️网盘臻彩|4K5",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "http://154.219.113.13:5866/test.php?site=qingying###qingying"
-    },
-  
-    {
-      "key": "配置中心",
-      "name": "💯网盘4k配置中心",
-      "type": 3,
-      "api": "csp_Config",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunhao.jar",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-  {
-      "key": "测试",
-      "name": "♨️应用|更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
-    },
-    {
-      "key": "设置",
-      "name": "♨️网弹|设置",
-      "type": 3,
-      "api": "csp_HBconfig"
+      "ext": "http://xn--5mq46jrwl99dn01d.top/戏曲/json/演唱会.json"
     }
   
   ],
