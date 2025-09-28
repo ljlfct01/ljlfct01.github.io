@@ -9,6 +9,48 @@
       "url": "https://live.catvod.com/tv.m3u",
       "ua": "okHttp/Mod-1.2.0.1"
     },
+  {
+      "name": "点这里切换线路-我的IPTV",
+      "type": 0,
+      "url": "https://0928.11cn.dpdns.org",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
+    },
+    {
+      "name": "点这里切换线路-央视综合",
+      "type": 0,
+      "url": "https://00928.11cn.dpdns.org",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    },
+    {
+      "name": "点这里切换线路-地方TV",
+      "type": 0,
+      "url": "https://m.tv12.xyz/852010",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
+    },
+    {
+      "name": "点这里切换线路-全国TV",
+      "type": 0,
+      "url": "https://m.tv1288.xyz/955877",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
+    },
+    {
+      "name": "点这里切换线路-影视剧场",
+      "type": 0,
+      "url": "https://yibo.tv1288.xyz/000000",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
+    },
+    {
+      "name": "点这里切换线路-斗鱼虎牙",
+      "type": 0,
+      "url": "https://123.tv1288.xyz/366993.txt",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
+    },
    {
       "name": "🐅云",
       "type": 0,
