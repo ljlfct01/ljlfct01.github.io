@@ -9,6 +9,13 @@
       "url": "https://live.catvod.com/tv.m3u",
       "ua": "okHttp/Mod-1.2.0.1"
     },
+ {
+      "name": "🐅风云",
+      "type": 0,
+      "url": "http://iptv.4666888.xyz/FYTV.m3u",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
+    },
   {
       "name": "点这里切换线路-我的IPTV",
       "type": 0,
@@ -98,7 +105,15 @@
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
+ {
+            "name": "🐅至尊",
+            "type": 0,
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%87%B3%E5%B0%8A",
+            "playerType": 2,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://11.112114.xyz/logo/{name}.png",
+            "ua": "okHttp/Mod-1.0.0"
+        },
  {
       "name": "🐅海燕TV",
       "type": 0,
