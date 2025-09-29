@@ -289,89 +289,7 @@
   ],
   "logo": "http://103.45.162.207:25252/仅供测试/A/logo.gif",
   "sites": [
- {
-      "key": "tenteng",
-      "name": "♨️腾腾┃4K",
-      "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-       "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
-    },
-  
- {
-      "key": "mangmang",
-      "name": "♨️果果┃4K",
-      "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C4k.js###http://zz.qqqtv.top###10000###25"
-    },
-    {
-      "key": "哔哩哔哩",
-      "name": "♨️｜哔哩｜4K",
-      "type": 3,
-      "api": "http://210.16.160.81:1122/lib/drpy2.min.js",
-      "ext": "http://210.16.160.81:1122/lib/哔哩哔哩.js"
-    },
-   {
-      "key": "天翼影视",
-      "name": "♨️天翼｜4K",
-      "type": 1,
-      "api": "http://7.qqqtv.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "推荐",
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
-    },
-  {
-      "key": "csp_appys_臻彩",
-      "name": "4K臻彩世界",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cms4ksj.lyyytv.cn/api.php/app/###http://zz.qqqtv.top/api/index?parsesId=3&appid=10000&videoUrl="
-    },
-    {
-      "key": "B站",
-      "name": "🅱️4K哔哩✨资源大全",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "https://8815.kstore.vip/tvbox/lzxw.txt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "ext": {
-        "json": "https://8815.kstore.vip/tvbox/lib/B站.png",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      }
-    },
-  {
-            "key": "夕晨踏雪",
-            "name": "♨️夕晨踏雪┃4K弹幕",
-            "jar": "http:\/\/我不是.摸鱼儿.com\/d\/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
-            "type": 3,
-            "api": "csp_SP360"
-        },
 
-      
-     
-   {
-      "key": "至尊",
-      "name": "♨️免扫|4K①弹幕",
-      "type": 3,
-      "api": "csp_AppZzun",
-      "ext": "http://8.qqqtv.top/api.php/app/###http://zz.qqqtv.top/api/index?parsesId=3&appid=10000&videoUrl="
-    },
     {
       "key": "魔尊",
       "name": "♨️免扫|4K②弹幕",
@@ -392,7 +310,7 @@
 
     {
       "key": "竹生",
-      "name": "♨️免扫|4K④弹幕",
+      "name": "♨️免扫|4K弹幕",
       "type": 3,
       "api": "csp_HBT4",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
