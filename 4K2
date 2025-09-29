@@ -289,109 +289,16 @@
   ],
   "logo": "http://103.45.162.207:25252/仅供测试/A/logo.gif",
   "sites": [
-  {
-      "key": "drpy_js_豆瓣",
-      "name": "豆瓣排行①[💖配置中心点主页切换💖]",
-      "type": 3,
-      "api": "csp_Douban",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json",
-      "jar": "http://47.120.41.246:8025/vip/jar/banhu.php"
-    },
-    {
-      "key": "hipy_js_豆瓣[官]",
-      "name": "豆瓣排行②",
-      "type": 3,
-      "api": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/豆瓣[官].js"
-    },
-    {
-      "key": "配置中心",
-      "name": "❤配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "jar": "https://www.lequxiang.com.cn/down.php/6abaf48bedc4748fd871f98b1e932d27.txt"
-    },
-    {
-      "key": "二小",
-      "name": "👽玩偶┃4K弹幕",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://gitee.com/jiandan1232/58/raw/master/pancms/cms.json",
-      "jar": "https://www.lequxiang.com.cn/down.php/6abaf48bedc4748fd871f98b1e932d27.txt"
-    },
-    {
-      "key": "应用商店",
-      "name": "🛒本地包更新",
-      "type": 3,
-      "api": "csp_Market",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "http://47.120.41.246:8025/vip/jar/bendi.php",
-      "jar": "http://47.120.41.246:8025/vip/jar/ouge.php"
-    },
-    {
-      "key": "至尊",
-      "name": "💖官解①|4K弹幕",
-      "type": 3,
-      "api": "csp_AppZzun",
-      "ext": "http://154.219.113.13:12121/json/app.txt",
-      "jar": "http://47.120.41.246:8025/vip/jar/banhu.php"
-    },
+ 
     {
       "key": "魔尊",
-      "name": "💖官解②|4K弹幕",
+      "name": "💖官解|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10",
       "ext": "http://154.219.113.13:12121/json/cms.txt",
       "jar": "http://47.120.41.246:8025/vip/jar/banhu.php"
     },
-    {
-      "key": "竹生",
-      "name": "💖免扫网盘①|4K",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09",
-      "jar": "http://47.120.41.246:8025/vip/jar/banhu.php"
-    },
-    {
-      "key": "归安",
-      "name": "💖免扫网盘②|4K",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5",
-      "jar": "http://47.120.41.246:8025/vip/jar/banhu.php"
-    },
-    {
-      "key": "薄心",
-      "name": "💖免扫网盘③|4K",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ==",
-      "jar": "http://47.120.41.246:8025/vip/jar/banhu.php"
-    },
-    {
-      "key": "甜橙",
-      "name": "💖免扫网盘④|4K",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09",
-      "jar": "http://47.120.41.246:8025/vip/jar/banhu.php"
-    },
+  
     {
       "key": "热播影视",
       "name": "🔥热播┃影视",
