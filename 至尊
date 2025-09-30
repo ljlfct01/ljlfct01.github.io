@@ -290,21 +290,68 @@
   "logo": "http://103.45.162.207:25252/仅供测试/A/logo.gif",
   "sites": [
  
+      {
+      "key": "至尊",
+      "name": "魔尊|4K弹幕",
+      "type": 3,
+      "api": "csp_AppZzun",
+      "ext": "http://154.219.113.13:12121/json/app.txt"
+    },
     {
       "key": "魔尊",
-      "name": "💖官解|4K弹幕",
+      "name": "重楼|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10",
-      "ext": "http://154.219.113.13:12121/json/cms.txt",
-      "jar": "http://47.120.41.246:8025/vip/jar/banhu.php"
+      "ext": "http://154.219.113.13:12121/json/cms.txt"
     },
-   {
-      "key": "竹生",
-      "name": "♨️免扫|4K弹幕",
+    {
+      "key": "紫萱",
+      "name": "紫萱|4K弹幕",
       "type": 3,
-      "jar": "http://47.120.41.246:8025/vip/jar/ouge.php",
+      "api": "csp_AppZzun",
+      "ext": "http://154.219.113.13:12121/json/app2.txt"
+    },
+    {
+      "key": "竹生",
+      "name": "竹生|4K弹幕",
+      "type": 3,
       "api": "csp_HBT4",
-      "ext": "http://139.224.213.240:14714//api.php?site=huban"
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
+    },
+    {
+      "key": "归安",
+      "name": "归安|4K弹幕",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
+    },
+    {
+      "key": "薄心",
+      "name": "薄心|4K弹幕",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ=="
+    },
+    {
+      "key": "甜橙",
+      "name": "甜橙|4K弹幕",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
+    },
+    {
+      "key": "花落",
+      "name": "花落|4K弹幕",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXhhVzVuZVdsdVp5TWpJM0ZwYm1kNWFXNW4="
+    },
+    {
+      "key": "小猫",
+      "name": "小猫|自定",
+      "type": 3,
+      "api": "csp_HBcms10",
+      "ext": "https://vs.okcdn100.top/api.php/provide/vod/"
     },
     {
       "key": "热播影视",
