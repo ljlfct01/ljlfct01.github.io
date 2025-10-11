@@ -46,9 +46,9 @@
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
     },
  {
-      "name": "🐅大佬源",
+      "name": "🐅老三",
       "type": 0,
-      "url": "https://freetv.fun/test_channels_taiwan.txt",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
       "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
     },
@@ -170,24 +170,7 @@
 
  
  
-  {
-      "name": "🐅老三",
-      "type": 0,
-      "playerType": 1,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
-       "ua": "okHttp/Mod-1.0.0",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "core": {
-        "auth": "local://tvbus",
-        "name": "",
-        "pass": "",
-        "resp": "",
-        "pkg": "",
-        "sign": "",
-        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
-      }
-    },
+  
    {
       "name": "🐅猫TV",
       "type": 0,
