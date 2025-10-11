@@ -1,0 +1,625 @@
+{
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+  "homepage": "https://github.com/hjdhnx/hipy-server",
+  "logo": "http://lie.yuyun4kmaopan.qijiyun.vip/preview/ty/925431209431654656",
+  "spider": "",
+  "warningText": "欢迎使用4K云，祝您观影愉快",
+  "sites": [
+    {
+      "key": "极4k",
+      "name": "♦奇迹云随缘♦真4k",
+      "type": 3,
+      "api": "http://wang.qijiyun.vip/云蓝光专线/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/极米加密.js"
+    },
+   {
+      "key": "芒果视频",
+      "name": "👑｜芒果｜4K",
+      "type": 3,
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789/lib/芒果视频.js"
+    },
+    {
+      "key": "哔哩哔哩",
+      "name": "👑｜哔哩｜4K",
+      "type": 3,
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789/lib/哔哩哔哩.js"
+    },
+    {
+      "key": "903.6cms",
+      "name": "❤️独家4k❤️限时测试",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://14.103.129.80:999/影魂羽翼4k/jar/byun.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://14.103.129.80:906/api.php/app/"
+    },
+    {
+      "key": "瓜子影视",
+      "name": "♨️圣子蓝光",
+      "type": 3,
+      "api": "csp_Gz360",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunzi.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "移动",
+      "name": "♨️移动4k",
+      "type": 3,
+      "api": "csp_YD",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "蓝鹰",
+      "name": "♨️封印蓝光",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunzi.jar",
+      "ext": {
+        "url": "",
+        "site": "./lib/lanyingxmy.txt",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "极4k2",
+      "name": "♨️随缘蓝光",
+      "type": 3,
+      "api": "http://wang.qijiyun.vip/云蓝光专线/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/极米2.js"
+    },
+    {
+      "key": "雄鹰",
+      "name": "♨️雄狮蓝光",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/lib/ijfdS2y7122j",
+      "ext": {
+        "url": "http://122.228.193.2:9988",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "热播影视",
+      "name": "🦄┃热播┃秒播",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "萝卜",
+      "name": "🦄白菜┃蓝光",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunx.jar",
+      "ext": {
+        "url": "https://apiapplbys.lbys.app:5678",
+        "dataKey": "apiapplbyskey168",
+        "dataIv": "apiapplbyskey168",
+        "deviceId": "",
+        "version": "107"
+      }
+    },
+    {
+      "key": "哔哩合集",
+      "name": "🦄┃哔哩┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "./lib/哔哩合集.json"
+      }
+    },
+    {
+      "key": "苹果影视",
+      "name": "🦄┃苹果┃盒子",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "低端影视",
+      "name": "🦄┃低端┃影视",
+      "type": 3,
+      "api": "csp_Ddys",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "奇优影视",
+      "name": "🦄┃奇优┃影视",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "type": 3,
+      "api": "csp_Qiyou"
+    },
+    {
+      "key": "1905",
+      "name": "🦄┃央妈┃电影",
+      "type": 3,
+      "api": "csp_Web1905",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "量子资源",
+      "name": "🦄┃量子┃资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "非凡资源",
+      "name": "🦄┃非凡┃资源",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "虎牙直播js",
+      "name": "🦄┃虎牙┃直播",
+      "type": 3,
+      "api": "http://wang.qijiyun.vip/云蓝光专线/drpy_libs/drpy2云.js",
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/huya2.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.755
+      },
+      "playerType": "2",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "斗鱼js",
+      "name": "🦄┃斗鱼┃直播",
+      "type": 3,
+      "api": "http://wang.qijiyun.vip/云蓝光专线/drpy_libs/drpy2.min.js",
+      "ext": "./lib/斗鱼直播.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.755
+      },
+      "playerType": "2",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "哆啦新番社",
+      "name": "🐰┃哆啦┃动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "list"
+      },
+      "ext": "./lib/哆啦新番社.json"
+    },
+    {
+      "key": "56动漫",
+      "name": "🐰┃五六┃动漫",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "type": 3,
+      "api": "http://wang.qijiyun.vip/云蓝光专线/drpy_libs/drpy2.min.js",
+      "ext": "./lib/56动漫.js"
+    },
+    {
+      "key": "NT动漫",
+      "name": "🐰┃奈特┃动漫",
+      "type": 3,
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "api": "http://wang.qijiyun.vip/云蓝光专线/drpy_libs/drpy2.min.js",
+      "ext": "./lib/NT动漫.js"
+    },
+    {
+      "key": "动画片",
+      "name": "🐰┃动画┃大全",
+      "type": 3,
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xinyun.jar",
+      "api": "http://wang.qijiyun.vip/云蓝光专线/drpy_libs/drpy2.min.js",
+      "ext": "./lib/动画片大全.js"
+    },
+    {
+      "key": "ext",
+      "name": "🩸奇迹云免费分享🩸",
+      "type": 3,
+      "api": "csp_DuoX",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "hipy_js_voflix",
+      "name": "严🈲盗取售卖，后果自负",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 33,
+      "ext": ""
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析1",
+      "type": 0,
+      "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "name": "kk",
+      "hosts": [
+        "kuaikan"
+      ],
+      "regex": [
+        "5",
+        "20.123",
+        "20.167",
+        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-KEY:METHOD((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "yQK",
+      "hosts": [
+        "ydd"
+      ],
+      "regex": [
+        "18.4",
+        "15.1666",
+        "16.5333"
+      ]
+    },
+    {
+      "name": "yqk",
+      "hosts": [
+        "yqk"
+      ],
+      "regex": [
+        "18.4",
+        "15.1666",
+        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-OUT((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-IN"
+      ]
+    },
+    {
+      "name": "sn",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+",
+        "15.1666",
+        "15.2666",
+        "16.3333",
+        "15.266667"
+      ]
+    },
+    {
+      "name": "bf",
+      "hosts": [
+        "bfzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "xx",
+      "hosts": [
+        "aws.ulivetv.net"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "lz",
+      "hosts": [
+        "vip.lz",
+        "hd.lz",
+        "v.cdnlz",
+        "yzzy1.play"
+      ],
+      "regex": [
+        "18.5333",
+        "19.52",
+        "18.6666"
+      ]
+    },
+    {
+      "name": "ff",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy",
+        "ffzy"
+      ],
+      "regex": [
+        "25.0666",
+        "25.08",
+        "20.52",
+        "25.1",
+        "25.1999"
+      ]
+    },
+    {
+      "name": "hs",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "dy",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "nm",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "cl",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "最 新",
+        "直 播",
+        "更 新"
+      ]
+    }
+  ],
+  "lives": [
+    {
+      "name": "云",
+      "type": 0,
+      "url": "",
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "cctv",
+    "cntv",
+    "wasu",
+    "bilibili",
+    "xigua",
+    "1905",
+    "1920i",
+    "1920l",
+    "mim3u8",
+    "laodim3u8",
+    "leduo",
+    "CL4K",
+    "ltnb",
+    "rx",
+    "renrenmi",
+    "wuduyun",
+    "xueren",
+    "naifeimi",
+    "miaoparty",
+    "miaoparty2",
+    "miaoparty3",
+    "xfy",
+    "xfyun",
+    "x1play",
+    "fuckapp",
+    "duoduozy",
+    "ftqp2",
+    "ftqp3",
+    "ftqp4",
+    "ftqp5"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "name": "华数2",
+          "urls": [
+            "proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/华数2.m3u"
+          ]
+        },
+        {
+          "name": "杭州华数",
+          "urls": [
+            "proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/杭州华数.m3u"
+          ]
+        },
+        {
+          "name": "云星日记直播",
+          "urls": [
+            "proxy://do=live&type=txt&ext=http://itvbox.cc/云星日记/Ipv4.txt"
+          ]
+        },
+        {
+          "name": "本地嗅探器直播",
+          "urls": [
+            "proxy://do=live&type=txt&ext=http://yun.yunqiji.vip/云vipzbtv.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
