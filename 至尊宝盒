@@ -35,7 +35,7 @@ class Spider(Spider):
         videos = []
 
         video = {
-            "vod_id": "1",
+            "vod_id": "0",
             "vod_name": '您的设备未激活或已经到期!请联系管理续费!',
             "vod_pic": 'https://img0.baidu.com/it/u=414935846,667722768&fm=253&fmt=auto&app=138&f=JPEG?w=826&h=476',
             "vod_remarks": ''
