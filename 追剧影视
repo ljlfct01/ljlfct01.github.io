@@ -1,12 +1,12 @@
 {
-  "spider": "./s9doPjDk.png",
+  "spider": "http://140.210.9.53:6789/s9doPjDk.png",
   "wallpaper": "https://api.btstu.cn/sjbz/api.php",
   "logo": "https://13935.kstore.space/b/logo.gif",
   "lives": [
     {
       "name": "live",
       "type": 0,
-      "url": "./00001live.txt",
+      "url": "http://140.210.9.53:6789/00001live.txt",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
       "logo": "",
       "playerType": 2,
@@ -18,22 +18,22 @@
       "key": "腾讯视频",
       "name": "👑｜腾讯｜4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/腾讯视频.js"
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789/lib/腾讯视频.js"
     },
     {
       "key": "芒果视频",
       "name": "👑｜芒果｜4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/芒果视频.js"
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789/lib/芒果视频.js"
     },
     {
       "key": "哔哩哔哩",
       "name": "👑｜哔哩｜4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/哔哩哔哩.js"
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789/lib/哔哩哔哩.js"
     },
     {
       "key": "韩小圈",
@@ -59,7 +59,7 @@
       "key": "急救教学",
       "name": "🏥｜急救｜教学",
       "type": 3,
-      "jar": "./lib/svip.jar",
+      "jar": "http://140.210.9.53:6789/lib/svip.jar",
       "api": "csp_FirstAid",
       "searchable": 0,
       "quickSearch": 0,
@@ -75,22 +75,22 @@
       "name": "📚｜百科｜全书",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://140.210.9.53:6789/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/百科.js"
+      "ext": "http://140.210.9.53:6789/lib/百科.js"
     },
     {
       "key": "地理",
       "name": "🌍｜全球｜地理",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://140.210.9.53:6789/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/地理.js"
+      "ext": "http://140.210.9.53:6789/lib/地理.js"
     },
     {
       "key": "Bili2",
@@ -98,25 +98,25 @@
       "type": 3,
       "api": "csp_Bili2",
       "searchable": 0,
-      "jar": "./lib/qx.jar",
-      "ext": "./lib/video_data.json"
+      "jar": "http://140.210.9.53:6789/lib/qx.jar",
+      "ext": "http://140.210.9.53:6789/lib/video_data.json"
     },
      {
       "key": "相声小品",
       "name": "🛎｜相声｜小品",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://140.210.9.53:6789/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/相声小品.js"
+      "ext": "http://140.210.9.53:6789/lib/相声小品.js"
     },
     {
       "key": "梨园",
       "name": "🎭｜戏曲｜梨园",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -128,22 +128,22 @@
       "name": "📚｜百科｜全书",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://140.210.9.53:6789/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/百科.js"
+      "ext": "http://140.210.9.53:6789/lib/百科.js"
     },
     {
       "key": "地理",
       "name": "🌍｜全球｜地理",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://140.210.9.53:6789/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/地理.js"
+      "ext": "http://140.210.9.53:6789/lib/地理.js"
     },
       
       {
@@ -173,7 +173,7 @@
       "key": "lanyingys",
       "name": "橘子┃APP",
       "type": 3,
-      "jar": "./fix250711.jar",
+      "jar": "http://140.210.9.53:6789/fix250711.jar",
       "api": "csp_Muou",
       "playerType": 2,
       "ext": "7lj763gg0939790i5g649ki3hj5k98jil1g6jqiaoji6jg2458hhjjh9i4i62271j0hj124lj80ll9i8"
@@ -183,7 +183,7 @@
       "key": "天天",
       "name": "天天┃速播",
       "type": 3,
-      "jar": "./fix250711.jar",
+      "jar": "http://140.210.9.53:6789/fix250711.jar",
       "api": "csp_TTian",
       "playerType": 2,
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
@@ -192,7 +192,7 @@
       "key": "趣看",
       "name": "趣看┃无搜",
       "type": 3,
-      "jar": "./fix250711.jar",
+      "jar": "http://140.210.9.53:6789/fix250711.jar",
       "api": "csp_Qiji",
       "playerType": 2,
       "ext": "7lj763gg402i7942522k849kg4499i9hl1k5ik48i38l292l1l4l1klgl41255091i8313k2ik478h8j751kh28kh9gj56l3k874684ll3h7j9k83l9034li7lhi5g45k8k3jhhkk760276g8h5h295i9jk7597177g3kk773hh59kl8"
@@ -298,7 +298,7 @@
       "key": "客星",
       "name": "客星┃App",
       "type": 3,
-      "jar": "./fix250711.jar",
+      "jar": "http://140.210.9.53:6789/fix250711.jar",
       "api": "csp_Xdai",
       "playerType": 2,
       "ext": "7lj763gg0939790i413gi486k509jgi3ggk6j244j6j36j76041707h0lk124l0l0h867j83h576h3j66h4lk89lh5lh1jl3l170647kj09lklji74j56lg673li1h16"
@@ -724,3 +724,4 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
