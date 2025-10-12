@@ -334,7 +334,16 @@
     }
   ],
  "parses": [
-    
+       {
+      "name": "4K",
+      "type": 1,
+      "url": "https://tvbox.dysvips.top/api/index?parsesId=8&appid=10000&videoUrl="
+    }
+ {
+      "name": "4K1",
+      "type": 1,
+      "url": "http://114.66.55.28:558/api/index?parsesId=11&appid=10000&videoUrl="
+    }
 
   ],
   "rules": [
@@ -648,6 +657,7 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
 
 
 
