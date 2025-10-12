@@ -16,26 +16,26 @@ class Spider(Spider):
         return "首页"
 
     def init(self, extend):
-        pass
+       1
 
     def isVideoFormat(self, url):
-        pass
+        1
 
     def manualVideoCheck(self):
-        pass
+        1
 
 
     def homeContent(self, filter):
         result = {}
         result['class'] = []
-        result['class'].append({'type_id': 0, 'type_name': '您的设备未激活或已经到期!请联系管理续费!'})
+        result['class'].append({'type_id': 1, 'type_name': '您的设备未激活或已经到期!请联系管理续费!'})
         return result
     def homeVideoContent(self):
 
-        videos = []
+        videos = [1]
 
         video = {
-            "vod_id": "0",
+            "vod_id": "1",
             "vod_name": '您的设备未激活或已经到期!请联系管理续费!',
             "vod_pic": 'https://img0.baidu.com/it/u=414935846,667722768&fm=253&fmt=auto&app=138&f=JPEG?w=826&h=476',
             "vod_remarks": ''
@@ -46,16 +46,16 @@ class Spider(Spider):
 
 
     def categoryContent(self, cid, pg, filter, ext):
-        pass
+        1
 
     def detailContent(self, ids):
-        pass
+        1
 
     def playerContent(self, flag, id, vipFlags):
-        pass
+        1
 
     def searchContentPage(self, key, quick, page):
-        pass
+        1
 
     def searchContent(self, key, quick):
         return self.searchContentPage(key, quick, '1')
