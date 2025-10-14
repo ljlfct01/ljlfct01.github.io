@@ -1,12 +1,12 @@
 {
-  "spider": "./s9doPjDk.png",
+  "spider": "http://140.210.9.53:6789/s9doPjDk.png",
   "wallpaper": "https://api.btstu.cn/sjbz/api.php",
   "logo": "https://13935.kstore.space/b/logo.gif",
   "lives": [
     {
       "name": "live",
       "type": 0,
-      "url": "./L00001live.txt",
+      "url": "http://140.210.9.53:6789/L00001live.txt",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
       "logo": "",
       "playerType": 2,
@@ -18,22 +18,22 @@
       "key": "腾讯视频",
       "name": "👑｜腾讯｜4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/腾讯视频.js"
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789/lib/腾讯视频.js"
     },
     {
       "key": "芒果视频",
       "name": "👑｜芒果｜4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/芒果视频.js"
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789/lib/芒果视频.js"
     },
     {
       "key": "哔哩哔哩",
       "name": "👑｜哔哩｜4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/哔哩哔哩.js"
+      "api": "http://140.210.9.53:6789/lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789/lib/哔哩哔哩.js"
     },
     {
       "key": "韩小圈",
