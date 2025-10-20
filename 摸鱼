@@ -40,7 +40,19 @@
       "quickSearch": 0,
       "changeable": 0
     },
-   
+       {
+      "key": "config",
+      "name": "🚀辅助┃配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;dbe639527df26d6a0fd4f7c9256be475",
+      "searchable": 0,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.61
+      }
+    },
     {
       "key": "醉挽清风",
       "name": "♨️醉挽清风┃4K纯净",
@@ -91,8 +103,6 @@
         "Cloud-drive": "TVBox/Cloud-drive.txt",
         "from": "4k|auto",
         "siteUrl": "https://www.wogg.com/",
-         "token": "",
-        "cookie": "http://14.103.129.80:999/奇迹云2kmax/lib/ck.txt",
         "danMu": "弹"
       }
     },
@@ -1742,6 +1752,7 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
 
 
 
