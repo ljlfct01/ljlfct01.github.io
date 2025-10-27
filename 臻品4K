@@ -35,16 +35,12 @@
             "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
         },
 
-         {
-      "key": "五大采集平台",
-      "name": "📢🌈聚合4K",
+    {
+      "key": "哔哩哔哩",
+      "name": "📢🌈哔哩哔哩4K",
       "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": "http://39.105.18.5:5565/api.php/app/"
+      "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789//lib/哔哩哔哩.js"
     },
 
 
