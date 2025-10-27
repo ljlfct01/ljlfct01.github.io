@@ -12,32 +12,7 @@
     }
   ],
   "sites": [
-   {
-      "key": "drpy_js_豆瓣",
-      "name": "导航|小虎斑的口粮",
-      "type": 3,
-      "api": "csp_Douban",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
-    },
-    {
-      "key": "提醒",
-      "api": "csp_Douban2",
-      "name": "仅用作学习交流使用，请于24小时之内进行清除",
-      "type": 3
-    },
-    {
-      "key": "测试",
-      "name": "应用|更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
-    },
-    {
-      "key": "设置",
-      "name": "网弹|设置",
-      "type": 3,
-      "api": "csp_HBconfig"
-    },
+
     {
       "key": "腾讯弹幕",
       "name": "📢🌈腾腾4K",
@@ -66,7 +41,7 @@
       "name": "📢🌈聚合4K",
       "type": 3,
       "api": "csp_AppYsV2",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+    
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -114,7 +89,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppYsV2",
-     "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
       "ext": "http://m.xiaofengtv.com/api.php/app/"
     },
     {
@@ -141,7 +115,6 @@
       "name": "💞追剧┃1080P💞",
       "type": 3,
       "api": "csp_AppYsV2",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -152,7 +125,6 @@
       "name": "🔥热剧┃1080P",
       "type": 3,
       "api": "csp_AppRJ",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -175,7 +147,6 @@
       "name": "🔶瓜┃1080P",
       "type": 4,
       "api": "https://zhxy.eu.org/api/瓜子[APP]",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
       "searchable": 2,
       "filterable": 1,
       "quickSearch": 1,
@@ -186,7 +157,7 @@
       "name": "⚾┃看球┃直播",
       "type": 3,
       "api": "csp_Kanqiu",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+ 
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -200,7 +171,7 @@
       "name": "88｜看球",
       "type": 3,
       "api": "csp_Kanqiu",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+    
       "gridview": 3,
       "style": {
         "type": "list"
@@ -211,7 +182,7 @@
       "name": "少儿｜教育",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+   
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -229,7 +200,7 @@
       "name": "小学｜课堂",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+     
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -247,7 +218,7 @@
       "name": "初中｜课堂",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+    
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -265,7 +236,7 @@
       "name": "高中｜课堂",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+    
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -283,7 +254,7 @@
       "name": "急救｜教学",
       "type": 3,
       "api": "csp_FirstAid",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+    
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
