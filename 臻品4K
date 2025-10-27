@@ -98,34 +98,58 @@
       "ext": "https://cnb.cool/zhyadc/YsBox/-/git/raw/main/drpy_js/金牌[优].js"
     },
        
-      {
-      "key": "巧技",
-      "name": "🚗巧巧┃1080",
-      "type": 3,
-      "api": "csp_qiao2",
-      "playerType": 2,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1749917849270/0615qj.jpg;md5;410ad21caad9e6f6d40c1ae5ca2be662",
-      "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
-    },
-
-
     {
-      "key": "采集资源",
-      "name": "💞追剧┃1080P💞",
+      "key": "移动",
+      "name": "♦移动♦4k",
       "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/yunY.jar",
+      "api": "csp_YDjisu",
       "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "央库云",
+      "name": "央视｜云聚",
+      "type": 3,
+      "api": "http://14.103.129.80:999/奇迹云2kmax/lib/央库云.py",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
+      "searchable": 1,
+      "changeable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://caiji.zhituyingshi.top:92/api.php/app/"
+      "playerType": 2
     },
-
+    {
+      "key": "瓜子影视",
+      "name": "♨️天之骄子蓝光",
+      "type": 3,
+      "api": "csp_Gz360",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "雄鹰",
+      "name": "♨️鹰速云蓝光",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/lib/ijfdS2y7122j",
+      "ext": {
+        "url": "http://122.228.193.2:9988",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
     {
       "key": "热播影视",
-      "name": "🔥热剧┃1080P",
+      "name": "♨️热播蓝光",
       "type": 3,
       "api": "csp_AppRJ",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -133,204 +157,322 @@
         "url": "http://v.rbotv.cn"
       }
     },
-
-
     {
-      "key": "瓜子影视",
-      "name": "🍉瓜子┃1080P",
+      "key": "零",
+      "name": "♨️灵魂4k蓝光",
       "type": 3,
-      "api": "csp_Gz360",
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
+      "ext": {
+        "url": "https://65fs2d9awaa1d2a7ea8.019990.xyz",
+        "site": "",
+        "dataKey": "5a9w6x58dsq6z3a6",
+        "dataIv": "5a9w6x58dsq6z3a6",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "影视",
+      "name": "♨️映射蓝光",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
+      "ext": {
+        "url": "",
+        "site": "http://14.103.129.80:999/奇迹云2kmax/lib/qj2.txt",
+        "dataKey": "sada21321sdq231d",
+        "dataIv": "sada21321sdq231d",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "大云",
+      "name": "♨️彩飞云蓝光",
+      "type": 3,
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xm.jar",
+      "quickSearch": 0,
+      "searchable": 1,
+      "api": "csp_AppQi",
+      "ext": "Ruh/okyt5lxEpcdQOao0NkSkj8M9vdB0soaZbGJldzA3817rfAzlvyWHCewZEFD4+BBCXxVVHkmAtv6gi+JRQlKwhK1WjuT8blTygReol77ICMmtZZPsmzfgjOtOXiEJ"
+    },
+    {
+      "key": "金牌AP",
+      "name": "♨️金牌4k蓝光",
+      "quickSearch": 0,
+      "type": 3,
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xm.jar",
+      "api": "csp_AppMuou",
+      "ext": "ewogICJTaXRlVXJsIjogImh0dHBzOi8vbXVvdS53bGJicS54eXoiLAogICJFeHQiOiAiaXA5K1dadnQ5ODNzUzAwOGtyTktobno4Q2Fzb2d3QjlLYkp2U0FmNGJRZEg5aUlGVHE4Y0tGM3Y4RFBicnphUiIsCiAgIkluZm8iOiAiaHR0cHM6Ly9tdW91aHQuZ2d0dmIuY2MiCn0="
+    },
+    {
+      "key": "咖啡",
+      "name": "♨️咖啡4K蓝光",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
+      "ext": {
+        "url": "",
+        "site": "http://14.103.129.80:999/奇迹云2kmax/lib/mqxh.txt",
+        "dataKey": "37kj83zs1q16jk6t",
+        "dataIv": "37kj83zs1q16jk6t",
+        "deviceId": "",
+        "version": "101",
+        "ua": ""
+      }
+    },
+    {
+      "key": "苹果影视",
+      "name": "♨️苹果蓝光",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "drpyS_瓜子[APP]",
-      "name": "🔶瓜┃1080P",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/瓜子[APP]",
-      "searchable": 2,
-      "filterable": 1,
+      "key": "驿站",
+      "name": "♨️飞速蓝光",
+      "type": 3,
       "quickSearch": 1,
-      "ext": ""
-    },
-
-{"key":"看球","name":"⚾┃看球┃直播","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"changeable":0,"gridview":3,"style":{"type":"list"}},
-
-    {
-      "key": "88看球",
-      "name": "88｜看球",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "gridview": 3,
-      "style": {
-        "type": "list"
-      }
-    },
-
-    {
-      "key": "少儿教育",
-      "name": "少儿｜教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "api": "csp_AppGet",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
       "ext": {
-        "json": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+        "url": "",
+        "site": "http://14.103.129.80:999/奇迹云2kmax/lib/apiurl.txt",
+        "dataKey": "dyyztvapiappyyds",
+        "dataIv": "dyyztvapiappyyds",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
       }
     },
     {
-      "key": "小学课堂",
-      "name": "小学｜课堂",
+      "key": "量子",
+      "name": "♨️量子蓝光",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playurl": "json:https://lziplayer.com/?url=",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "泰国剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "动漫",
+        "体育",
+        "剧情片",
+        "动作片",
+        "爱情片",
+        "喜剧片"
+      ]
+    },
+    {
+      "key": "萝卜",
+      "name": "♨️萝卜蓝光",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
       "ext": {
-        "json": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+        "url": "https://apiapplbys.lbys.app:5678",
+        "dataKey": "apiapplbyskey168",
+        "dataIv": "apiapplbyskey168",
+        "deviceId": "",
+        "version": "107"
       }
     },
     {
-      "key": "初中课堂",
-      "name": "初中｜课堂",
+      "key": "紫圣",
+      "name": "♨️紫圣蓝光",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
       "ext": {
-        "json": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+        "url": "http://www.zjcvod.com",
+        "site": "",
+        "dataKey": "ab4e9a421675f14b",
+        "dataIv": "ab4e9a421675f14b",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
       }
     },
     {
-      "key": "高中教育",
-      "name": "高中｜课堂",
+      "key": "蔬菜",
+      "name": "♨️雪魂蓝光",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/tvkj.jar",
       "ext": {
-        "json": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+        "url": "http://huohu.yihn.cc",
+        "site": "",
+        "dataKey": "huohushipingetap",
+        "dataIv": "huohushipingetap",
+        "deviceId": "",
+        "version": "140",
+        "ua": ""
       }
     },
     {
-      "key": "急救教学",
-      "name": "急救｜教学",
+      "key": "冥王",
+      "name": "♨️冥王蓝光",
       "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      },
-      "gridview": "0-0-4.1"
-    },
-
-    {
-      "key": "相声",
-      "name": "📻相声┃BPQ",
-      "type": 3,
-      "searchable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "quickSearch": 0,
       "api": "csp_XBPQ",
-      "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/4hwnw0f7806286118438d87b5eef075fd3325?x-cli-msg=%7B%22linkId%22%3A%221hRzfvmCPz3-2R1kC%22%2C%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%7D;md5;1484e86a3a4463eaf8ef41c6832a1df0",
-      "ext": {
-        "主页url": "https://www.xsmp3.com",
-        "数组二次截取": "<ul id=\"post_list_box\">&&</ul",
-        "数组": "<li class=\"www_xsmp3_com post_list_li\">&&</div>",
-        "图片": "https://gd-filems.dancf.com/gaoding/cms/mcm79j/mcm79j/59385/6a211035-3658-45ce-a476-79f6f5dc02b71172884.png?x-oss-process=image/resize,h_1308/interlace,1",
-        "标题": "title=\"&&\"",
-        "副标题": ">&&</a",
-        "链接": "href=\"&&\"",
-        "播放二次截取": "autoplay&&;</script>",
-        "播放数组": "\\[&&\\]",
-        "播放列表": "{&&}",
-        "播放链接": "url*\"&&\"",
-        "播放标题": "name*\"&&\"",
-        "播放副标题": "artist*\"&&\"",
-        "线路数组": "相声随身听",
-        "线路标题": "相声随身听",
-        "导演": "小米",
-        "主演": "相声明星",
-        "简介": "相声合集",
-        "分类url": "https://www.xsmp3.com/{cateId}/{catePg}.html;;av",
-        "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
-      }
-    },
-        {
-      "key": "兴趣培养",
-      "name": "儿童兴趣培养",
-      "type": 3,
-      "jar": "https://gitee.com/huasjf/tvbox/raw/main/spider.jar;md5;F20B74480C058B1FF6236601F92D65A8",
-      "api": "csp_Bili",
-      "searchable": 0,
+      "searchable": 1,
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xs.jar;md5;f17d6e52c0e006b86770eba848a53949",
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/huasjf/jf/raw/main/lib/%E5%85%B4%E8%B6%A3%E5%9F%B9%E5%85%BB.json"
+      "ext": {
+        "线路数组": "<a data-toggle=\"tab\"&&/a>",
+        "线路标题": ">&&<",
+        "分类url": "http://dyxz.tv/list/{cateId}_{catePg}.html",
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
+      }
     },
     {
-      "key": "评书",
-      "name": "📻评书┃BPQ",
+      "key": "超级",
+      "name": "♨️超级云蓝光",
+      "type": 1,
+      "api": "https://gctf.tfdh.top/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "动漫",
+        "综艺"
+      ]
+    },
+    {
+      "key": "星芽2",
+      "name": "♨️短剧星芽",
       "type": 3,
-      "searchable": 0,
+      "api": "http://wang.qijiyun.vip/云蓝光专线/drpy_libs/drpy2.min.js",
+      "ext": "https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/qhXX5BDH"
+    },
+    {
+      "key": "甜圈短剧",
+      "name": "🍑甜圈短剧",
+      "type": 3,
+      "api": "https://gitee.com/yiwu369/6758/raw/master/青龙/甜圈短剧.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "甜圈",
+      "name": "♨️逆袭短剧",
+      "type": 3,
+      "api": "csp_DuanJuCgg",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/jd.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "style": {
         "type": "rect",
-        "ratio": 1.597
+        "ratio": 1.309
       },
-      "quickSearch": 0,
-      "api": "csp_XBPQ",
-      "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/4hwnw0f7806286118438d87b5eef075fd3325?x-cli-msg=%7B%22linkId%22%3A%221hRzfvmCPz3-2R1kC%22%2C%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%7D;md5;1484e86a3a4463eaf8ef41c6832a1df0",
       "ext": {
-        "主页url": "https://www.psmp3.com",
-        "数组二次截取": "<ul id=\"post_list_box\">&&</ul",
-        "数组": "<li class=\"www_psmp3_com post_list_li\">&&</div>",
-        "图片": "https://bkimg.cdn.bcebos.com/pic/86d6277f9e2f07084e3cb402ee24b899a901f2f3",
-        "标题": "title=\"&&\"",
-        "副标题": ">&&</a",
-        "链接": "href=\"&&\"",
-        "播放二次截取": "autoplay&&;</script>",
-        "播放数组": "\\[&&\\]",
-        "播放列表": "{&&}",
-        "播放链接": "url*\"&&\"",
-        "播放标题": "name*\"&&\"",
-        "播放副标题": "artist*\"&&\"",
-        "线路数组": "评书随身听",
-        "线路标题": "评书随身听",
-        "导演": "小米",
-        "主演": "评书明星",
-        "简介": "评书合集",
-        "分类url": "https://www.psmp3.com/{cateId}/{catePg}.html;;av",
-        "分类": "袁阔成$ykc#单田芳$stf#田连元$tly#刘兰芳$llf#连丽如$llr#张少佐$zsz#田战义$tzy"
+        "siteUrl": "https://mov.cenguigui.cn",
+        "msg": "124421jh8lk39646pgruC6dATnyTtf6ewyst71opcsJfticyXxWGbU5x4zxzEQ5LWhshM7QSmwiAgf0H4RN8rjjuUPQPPsiTj8Yz48I27L5SoL/Lbg70J558Qnv6Dtdt9BeeyWciQnnqApDLzxuKF+nEHryocRY26k1efEO43zCfP69tVyTyWvQ/MT7q/J7KDiOdwg0CGUc0cPhVc3AiwU6ZXIapEVCaeJ1OkLO2LzfrGsCulTGV9LrN4N8omBYpohl4BgdDhg8SQwEh9MoFXC1M2AqzePjz+itosXK3VQ3Ch4ba88bCsZSAs56JWl570OQ5t3yuPDslC75Y1p4Y9x9OOnztqiDqRbgpaXR5KWKYWfjU9T1H2SXW3uAmq9Z2GQKDrAQT7gB35NJeagOshSRZScjiS3Ss7lf/6iMfs9NInk9DfLj/H/9HCcIDRr1AG/ZGgLLtB/doGr0l/oENwrHwu+kLjzqWcmiAPcaLdbeeK18hxlYJBvXIlfjoWgopvFnm7338rR8k7EwtnU39fRJph5WcuPdvL5ZivGdWO+EYQ47zLhX038Vcju8iF3omFTj5W6D9FEOXryKIMCBgi8G5t+I73iaFCGGzTA=="
       }
+    },
+    {
+      "key": "Bili2",
+      "name": "宝宝趣学",
+      "type": 3,
+      "api": "csp_Bili2",
+      "searchable": 0,
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/qx.jar;md5;c1df7f8c9290d42a911f1a09e4f625f3",
+      "ext": "https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/CEE3NFMS"
+    },
+    {
+      "key": "幼儿",
+      "name": "幼儿教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/幼.txt"
+    },
+    {
+      "key": "小学",
+      "name": "小学教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/小.txt"
+    },
+    {
+      "key": "初中",
+      "name": "初中教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/初.txt"
+    },
+    {
+      "key": "高中",
+      "name": "高中教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/高.txt"
+    },
+    {
+      "key": "酷狗",
+      "name": "酷狗┃音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/kugou.jar",
+      "playerType": 2,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "酷狗",
+            "type_id": "kugou"
+          }
+        ]
+      }
+    },
+    {
+      "key": "梨园春",
+      "name": "戏曲┃大全",
+      "type": 3,
+      "api": "csp_AppLY",
+      "jar": "https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/XLXXQNKP;md5;f17d6e52c0e006b86770eba848a53949",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     }
 
 
