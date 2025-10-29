@@ -875,6 +875,16 @@
   ],
   "parses": [
     {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
       "name": "4K",
       "type": 1,
       "url": "http://sspa8.top:8100/api/?key=%E6%99%93%E5%AE%87&url="
