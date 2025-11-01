@@ -65,9 +65,13 @@
       "name": "🐅老三",
       "type": 0,
       "url": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
-      "ua": "okHttp/Mod-1.4.0.0",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Referer": "",
+        "cookie": ""
+      },
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
-    },
+    }
     {
       "name": "🐅影视剧场",
       "type": 0,
