@@ -529,21 +529,15 @@
       }
     },
 
-   {
-      "key": "mihdr",
-      "name": "Pan - 1 | 免扫4K",
-      "type": 3,
-      "jar": "http://139.224.213.240:12312/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliV2xvWkhJakl5TnRhV2hrY2c9PQ=="
-    },
     {
-      "key": "ouge",
-      "name": "Pan - 2 | 免扫4K",
+      "key": "至臻",
+      "name": "至臻|4k网盘",
       "type": 3,
-      "jar": "http://139.224.213.240:12312/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliM1ZuWlNNakkyOTFaMlU9"
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "https://mihdr.top/"
+      }
     },
 
   
