@@ -1174,15 +1174,21 @@
     },
     {
       "key": "玩偶哥哥",
-      "name": "潇->玩偶｜4K",
+      "name": "💖玩偶网盘♦4k免扫♦",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/wogg.json",
-      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
+      "playerType": 2,
+      "api": "csp_Wogg",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/云1023.jar",
+      "ext": {
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
+        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
+        "cookie": "http://14.103.129.80:999/奇迹云2kmax/lib/ck.txt",
+        "uccookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
+        "site": "https://wogg.xxooo.cf/"
+      }
     },
     {
       "key": "木偶",
