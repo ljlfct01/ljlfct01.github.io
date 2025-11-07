@@ -30,7 +30,7 @@ var rule = {
     // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     lazy: $js.toString(() => {
           try {
-            let api = "http://101.201.171.207:9898/home/api?type=ys&uid=17303&key=blmorxyzBCDHKLM579&url=" + input.split("?")[0];
+            let api = "" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
