@@ -457,20 +457,7 @@
       "type": 3,
       "api": "csp_HBconfig"
     },
-   {
-      "key": "景天",
-      "name": "景天|4K弹幕",
-      "type": 3,
-      "api": "csp_HBcms10Dou",
-      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
-    },
-    {
-      "key": "茂茂",
-      "name": "茂茂|4K弹幕",
-      "type": 3,
-      "api": "csp_HBcms10Dou",
-      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
-    },
+
     {
       "key": "🈵 茶烟书韵 | 解析",
       "name": "🈵 茶烟书韵 | 解析",
@@ -535,145 +522,10 @@
       "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
       "ext": "http://140.210.9.53:6789//lib/哔哩哔哩.js"
     },
-    {
-      "key": "网盘虎斑",
-      "name": "💖虎斑|免扫4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
-        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
-        "cookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "uccookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-        "site": "http://103.45.162.207:20720/"
-      }
-    },
-   {
-      "key": "玩偶哥哥",
-      "name": "💖玩偶网盘♦4k免扫♦",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Wogg",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/云1023.jar",
-      "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
-        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
-        "cookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "uccookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-        "site": "https://wogg.xxooo.cf/"
-      }
-    },
 
 
- {
-      "key": "5095玩偶",
-       "name": "📢🌈玩偶4K",
-      "type": 3,
-   "jar":"http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-     "api": "csp_KXG4K",
-      "ext": "YUhSMGNEb3ZMekUyTnk0eU16UXVNakV4TGpjM09qY3dNemt2UVVFeE1qTXZORXN2WVhCcExuQm9jRDl6YVhSbFBYZHZaMmNqSXlOM2IyZG4="
-    },
-    
 
-                {
-      "key": "yanshi1",
-      "name": "📢🌈哥哥4K",
-      "type": 3,
-       "jar":"http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },               
-                    {
-      "key": "zhizhen",
-      "name": "📢🌈臻彩4K",
-      "type": 3,
-      "jar":"http://123.207.224.130:7033/ZC4K.jar",
-     "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    }, 
-    {
-      "key": "muou",
-       "name": "📢🌈木偶臻彩4K",
-      "type": 3,
-      "jar":"http://123.207.224.130:7033/ZC4K.jar",
-    "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRkVzkxSXlNamJYVnZkUT09"
-    },
  
-     {
-      "key": "lvdou",
-      "name": "Pan | 来自全能",
-      "type": 3,
-      "api": "csp_AppYsV2",
-
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://210.16.170.113:8999/api.php/app/"
-    },
-    {
-      "key": "mihdr",
-      "name": "Pan - 1 | 免扫4K",
-      "type": 3,
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
-    },
-    {
-      "key": "ouge",
-      "name": "Pan - 2 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliM1ZuWlNNakkyOTFaMlU9"
-    },
-    {
-      "key": "libo",
-      "name": "Pan - 3 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliR2xpYnlNakkyeHBZbTg9"
-    },
-    {
-      "key": "xiaoer",
-      "name": "Pan - 4 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTllR2xoYjJWeUl5TWplR2xoYjJWeQ=="
-    },
-    {
-      "key": "labi",
-      "name": "Pan - 5 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVNNakkyeGhZbWs9"
-    },
-    {
-      "key": "yanshi1",
-      "name": "Pan - 6 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
-    {
-      "key": "zhizhen",
-      "name": "Pan - 7 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    },
   
   
 
