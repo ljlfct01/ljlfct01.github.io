@@ -2,21 +2,9 @@
 
 #EXTM3U x-tvg-url="http://123.57.58.70:5678/t.xml.gz"
 #EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视频道",CCTV1
-http://123.113.110.212:9901/tsfile/live/0001_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视频道",CCTV1
-http://jiugong.wulinsy.cn:39901/tsfile/live/0001_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视频道",CCTV1
-http://139.214.179.200:9901/tsfile/live/1001_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视频道",CCTV1
-http://58.245.255.38:9999/tsfile/live/0001_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视频道",CCTV1
-http://101.66.198.190:9901/tsfile/live/0001_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视频道",CCTV1
-http://genglei.8866.org:9901/tsfile/live/0001_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视频道",CCTV1
-http://123.113.110.212:9901/tsfile/live/0001_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="央视频道",CCTV1
-http://218.28.31.182:9901/tsfile/live/0001_1.m3u8?key=txiptv
+http://150.138.8.143/00/SNM/CHANNEL00000311/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV2.png" group-title="央视频道",CCTV2
 http://123.113.110.212:9901/tsfile/live/0002_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV2.png" group-title="央视频道",CCTV2
@@ -1081,3 +1069,4 @@ http://58.245.255.38:9999/tsfile/live/1055_1.m3u8?key=txiptv
 http://139.214.179.200:9901/tsfile/live/1022_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/武术世界.png" group-title="其他频道",武术世界
 http://58.245.255.38:9999/tsfile/live/1022_1.m3u8?key=txiptv
+
