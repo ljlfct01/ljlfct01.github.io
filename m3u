@@ -1,4 +1,6 @@
-#EXTM3U 
+#EXTM3U x-tvg-url="https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz"
+
+#EXTM3U x-tvg-url="http://123.57.58.70:5678/t.xml.gz" 
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视",CCTV1
 http://150.138.8.143/00/SNM/CHANNEL00000311/index.m3u8
 #EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",CCTV2
@@ -490,6 +492,7 @@ http://150.138.8.143/00/SNM/CHANNEL00001007/index.m3u8
 http://150.138.8.143/00/SNM/CHANNEL00001038/index.m3u8
 #EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="其他",邹平综合
 http://150.138.8.143/00/SNM/CHANNEL00001058/index.m3u8
+
 
 
 
