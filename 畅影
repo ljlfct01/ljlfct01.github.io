@@ -1,0 +1,518 @@
+{
+    "spider": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
+    "wallpaper": "https://api.btstu.cn/sjbz/api.php",
+    "logo": "https://file.icve.com.cn/file_doc/81/1006/144FBABA4A7289F4EE57F8F827FE293C.gif",
+    "warningText": "接口来源于网络，免费请勿付费购买！仅测试，24小时后删除",
+    "sites": [
+    {
+      "key": "秒看",
+      "name": "☀秒看🔹4K源",
+      "type": 3,
+      "quickSearch": 1,
+            "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
+      "api": "csp_AppGet",
+      "ext": {
+        "site": "https://mk1080.top/get.txt",
+        "dataKey": "c60d88b2eep53za8",
+        "dataIv": "c60d88b2eep53za8",
+        "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+        {
+            "key": "秒看",
+            "name": "🌀凑合丨4K线路",
+            "type": 3,
+            "quickSearch": 1,
+            "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://mk1080.top/get.txt",
+                "dataKey": "c60d88b2eep53za8",
+                "dataIv": "c60d88b2eep53za8",
+                "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "还行",
+            "name": "🌀还行｜4K测试",
+            "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
+            "type": 3,
+            "api": "csp_AppYs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "http://m51.gotto.top/api.php/v1.vod"
+        },
+        {
+            "key": "天天影视",
+            "name": "💥天天┃影视",
+            "type": 3,
+            "jar": "https://gitee.com/arlen29/myplay/raw/master/box/spider.jar",
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://tt.ysdqjs.cn"
+            }
+        },
+        {
+            "key": "雨滴",
+            "name": "🎈雨滴┃秒播",
+            "type": 3,
+            "quickSearch": 1,
+            "jar": "https://gitee.com/arlen29/myplay/raw/master/box/spider.jar",
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
+                "dataKey": "k9o3p2c8b7m3z0o8",
+                "dataIv": "k9o3p2c8b7m3z0o8",
+                "deviceId": "",
+                "version": "100"
+            }
+        },
+        {
+            "key": "优质",
+            "name": "🍓优质┃秒播",
+            "type": 3,
+            "jar": "https://gitee.com/arlen29/myplay/raw/master/box/spider.jar",
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://apiapplbys.lbys.app:5678",
+                "dataKey": "apiapplbyskey168",
+                "dataIv": "apiapplbyskey168",
+                "deviceId": "",
+                "version": "107"
+            }
+        },
+        {
+            "key": "公众号",
+            "name": "💮移动┃云盘",
+            "type": 3,
+            "jar": "https://gitee.com/arlen29/blplay/raw/master/YD.jar",
+            "api": "csp_YDjisu",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "mihdr",
+            "name": "Pan - 1 | 免扫4K",
+            "type": 3,
+            "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+            "api": "csp_ZC4K",
+            "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliV2xvWkhJakl5TnRhV2hrY2c9PQ=="
+        },
+        {
+            "key": "ouge",
+            "name": "Pan - 2 | 免扫4K",
+            "type": 3,
+            "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+            "api": "csp_ZC4K",
+            "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliM1ZuWlNNakkyOTFaMlU9"
+        },
+        {
+            "key": "libo",
+            "name": "Pan - 3 | 免扫4K",
+            "type": 3,
+            "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+            "api": "csp_ZC4K",
+            "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliR2xpYnlNakkyeHBZbTg9"
+        },
+        {
+            "key": "xiaoer",
+            "name": "Pan - 4 | 免扫4K",
+            "type": 3,
+            "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+            "api": "csp_ZC4K",
+            "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTllR2xoYjJWeUl5TWplR2xoYjJWeQ=="
+        },
+        {
+            "key": "labi",
+            "name": "Pan - 5 | 免扫4K",
+            "type": 3,
+            "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+            "api": "csp_ZC4K",
+            "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVNNakkyeGhZbWs9"
+        },
+        {
+            "key": "yanshi1",
+            "name": "Pan - 6 | 免扫4K",
+            "type": 3,
+            "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+            "api": "csp_ZC4K",
+            "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
+        },
+        {
+            "key": "zhizhen",
+            "name": "Pan - 7 | 免扫4K",
+            "type": 3,
+            "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
+            "api": "csp_ZC4K",
+            "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
+        },
+        {
+            "key": "lvdou",
+            "name": "Pan | 来自全能（已停）",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://210.16.170.113:8999/api.php/app/"
+        },
+        {
+            "key": "瓜子看球",
+            "name": "体育 | 瓜子",
+            "type": 3,
+            "api": "csp_GzSportGuard",
+            "jar": "https://file.icve.com.cn/file_doc/950/716/ED8B305C689E8EC87515911225703894.jar;md5;ed8b305c689e8ec87515911225703894",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "88看球",
+            "name": "体育 | 88",
+            "type": 3,
+            "api": "csp_GzSportGuard",
+            "jar": "https://file.icve.com.cn/file_doc/950/716/ED8B305C689E8EC87515911225703894.jar;md5;ed8b305c689e8ec87515911225703894",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 10
+        }
+    ],
+    "rules": [
+        {
+            "name": "头条",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "火山",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "饭团点击",
+            "hosts": [
+                "dadagui",
+                "freeok",
+                "dadagui"
+            ],
+            "script": [
+                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+            ]
+        },
+        {
+            "name": "毛驴点击",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        },
+        {
+            "name": "ofiii",
+            "hosts": [
+                "www.ofiii.com"
+            ],
+            "script": [
+                "const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
+            ]
+        }
+    ],
+    "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "hosts": [
+        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+    ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+ 
+   {
+      "name": "自定",
+      "type": 1,
+      "url": "http://125.208.22.226:6758/api/index?parsesId=24&appid=10000&videoUrl="
+    },
+  
+   {
+      "name": "自定1",
+      "type": 1,
+      "url": "https://jiexi.69mini.com/api/?key=440a7zX6StCSXoAXe4&url="
+    }
+  
+  ],
+    "flags": [
+        "youku",
+        "优酷",
+        "优 酷",
+        "优酷视频",
+        "qq",
+        "腾讯",
+        "腾 讯",
+        "腾讯视频",
+        "iqiyi",
+        "qiyi",
+        "奇艺",
+        "爱奇艺",
+        "爱 奇 艺",
+        "mgtv",
+        "芒果",
+        "imgo",
+        "芒果TV",
+        "芒 果 T V",
+        "bilibili",
+        "哔 哩",
+        "B站",
+        "哔 哩 哔 哩"
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        }
+    ],
+    "ads": [
+        "static-mozai.4gtv.tv"
+    ]
+}
