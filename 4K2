@@ -181,7 +181,23 @@
   "ext": "http://127.0.0.1:8080"
 }, 
 
+  {
+            "name": "✨ live1",
+            "type": 0,
+            "url": "http://vhr.dpdns.org:8080/ofiii.php",
+            "playerType": 2,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
 
+  {
+            "name": "✨ live2",
+            "type": 0,
+            "url": "http://vhr.dpdns.org:8080/litv.php",
+            "playerType": 2,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
 
 
 
