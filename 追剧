@@ -879,7 +879,11 @@
   ],
   "parses": [
  
- 
+     {
+      "name": "轮询优选",
+      "type": 2,
+      "url": "Sequence"
+    },
  
    {
       "name": "自定",
