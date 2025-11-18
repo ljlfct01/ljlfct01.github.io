@@ -884,7 +884,11 @@
   ],
   "parses": [
  
- 
+     {
+      "name": "优选轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
  
    {
       "name": "自定",
@@ -1262,3 +1266,4 @@
     "vip.ffzyad.com"
   ]
 }
+
