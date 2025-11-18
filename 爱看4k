@@ -4,14 +4,14 @@
   "sites": [
     {
       "key": "璞嗙摚",
-      "name": "璞嗙摚锝滆祫婧�",
+      "name": "豆瓣资源",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
       "key": "鑵捐寮瑰箷",
-      "name": "鑵捐吘4K",
+      "name": "腾腾4K",
       "searchable": 1,
       "type": 3,
       "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
@@ -19,7 +19,7 @@
     },
     {
       "key": "鑼尗",
-      "name": "鏋滄灉4K",
+      "name": "果果4K",
       "type": 3,
       "searchable": 1,
       "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
@@ -27,14 +27,14 @@
     },
     {
       "key": "鍝斿摡鍝斿摡",
-      "name": "鍝斿摡鍝斿摡4K",
+      "name": "哔哩4K",
       "type": 3,
       "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
       "ext": "http://140.210.9.53:6789//lib/鍝斿摡鍝斿摡.js"
     },
     {
       "key": "浜斿ぇ閲囬泦骞冲彴",
-      "name": "鑱氬悎4K",
+      "name": "聚合4K",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -107,11 +107,30 @@
     },
     {
       "name": "自定",
-      "type": 0,
+      "type": 1,
       "url": "http://14.103.129.80:777/api/index?parsesId=1&appid=10000&videoUrl=",
-      "ext": {
+        "ext": {
+        "flag": [
+          "qq",
+          "鑵捐",
+          "qiyi",
+          "鐖卞鑹�",
+          "濂囪壓",
+          "youku",
+          "浼橀叿",
+          "sohu",
+          "鎼滅嫄",
+          "letv",
+          "涔愯",
+          "mgtv",
+          "鑺掓灉",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
         "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+          "User-Agent": "okhttp/4.9.1"
         }
       }
     },
@@ -185,3 +204,4 @@
     }
   ]
 }
+
