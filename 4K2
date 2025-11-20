@@ -407,6 +407,17 @@
       }
     },
     {
+      "key": "玩偶哥哥",
+      "name": "♨️玩偶备用┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/wogg.json"
+    },
+    {
       "key": "MoggV2",
       "name": "🍁优汐木偶┃4K弹幕",
       "type": 3,
@@ -415,8 +426,159 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-    
       "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json"
+    },
+    {
+      "key": "UcXmV2",
+      "name": "🐂小二资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "timeout": 60,
+      "ext": "http://我不是.摸鱼儿.com/json/ex.json"
+    },
+    {
+      "key": "QuarkLaBiV2",
+      "name": "🖍︎蜡笔资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "timeout": 60,
+      "ext": "http://我不是.摸鱼儿.com/json/lb.json"
+    },
+    {
+      "key": "QuarkzzV2",
+      "name": "🏆️夸克至臻┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "timeout": 60,
+      "ext": "http://我不是.摸鱼儿.com/json/zz.json"
+    },
+    {
+      "key": "YYDSYS",
+      "name": "🍡多多网盘┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "timeout": 60,
+      "ext": "http://我不是.摸鱼儿.com/json/yyds.json"
+    },
+    {
+      "key": "QuarkTZ",
+      "name": "✊️团长网盘┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebTz",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "cloudLJ",
+      "name": "🐋天翼雷鲸┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudLJ",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/lj.json"
+    },
+    {
+      "key": "海绵",
+      "name": "🧽海绵资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudHM",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/hm.json"
+    },
+    {
+      "key": "123",
+      "name": "📅数字资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloud123",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/123.json"
+    },
+    {
+      "key": "趣盘",
+      "name": "🥳百度趣盘┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebQu",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": {
+        "url": "https://www.qupanshe.com"
+      }
+    },
+    {
+      "key": "盘库",
+      "name": "🐼盘库资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebKuBa",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://panku8.com,https://yipanso.com"
+      }
+    },
+    {
+      "key": "夸父",
+      "name": "🏃夸父资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudKF",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/kf.json"
     },
 
 
