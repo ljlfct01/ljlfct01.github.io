@@ -456,7 +456,25 @@
       "timeout": 60,
       "ext": "http://我不是.摸鱼儿.com/json/yyds.json"
     },
-
+    {
+      "key": "百度趣盘",
+      "name": "度趣┃4K",
+      "type": 3,
+      "api": "csp_BaiduQuPanGuard",
+      "jar": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_bd.js",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "list"
+      },
+      "ext": {
+        "cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/ck.txt",
+        "danmu": true
+      },
+      "timeout": 25
+    },
     {
       "key": "csp_FeiMaoUC",
       "name": "猫->⚡┃闪电┃优汐",
