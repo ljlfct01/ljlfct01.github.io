@@ -406,7 +406,30 @@
         "site": "https://tv.yydsys.top/"
       }
     },
-
+    {
+      "key": "趣盘",
+      "name": "🥳百度趣盘┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebQu",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": {
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
+        "dutoken": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_bd.js",
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
+        "cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/ck1.txt",
+        "uccookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_uc.js",
+        "tuctoken": "",
+        "url": "https://www.qupanshe.com"
+      }
+    },
 
 
     {
