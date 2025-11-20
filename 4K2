@@ -407,65 +407,86 @@
       }
     },
     {
-      "key": "配置中心",
-      "name": "❤网盘授权配置｜中心",
+      "key": "config",
+      "name": "🐼┃配置┃中心",
       "type": 3,
       "api": "csp_Config",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+      "jar": "https://img2.gelonghui.com/library/31857-fa5be77c-2b34-459f-8e03-53ecdba19a87.jpg;md5;31857bf0273d28fe583978d9f693e571",
+      "playerType": 2
+    },
+
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "⚡┃闪电┃优汐",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "https://img2.gelonghui.com/library/31857-fa5be77c-2b34-459f-8e03-53ecdba19a87.jpg;md5;31857bf0273d28fe583978d9f693e571",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
       }
     },
     {
-      "key": "玩偶哥哥",
-      "name": "❤玩偶｜4K",
+      "key": "csp_Duopan",
+      "name": "🖍︎┃蜡笔┃影视",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
-      "searchable": 1,
-      "quickSearch": 1,
+      "api": "csp_Duopan",
+      "jar": "https://img2.gelonghui.com/library/31857-fa5be77c-2b34-459f-8e03-53ecdba19a87.jpg;md5;31857bf0273d28fe583978d9f693e571",
       "filterable": 1,
-      "changeable": 1,
-      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/wogg.json"
+      "ext": {
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "https://feimo.fun",
+          "http://www.labi88.sbs",
+          "http://fmao.site",
+          "http://fmao.shop",
+          "http://xiaocge.fun"
+        ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
+        "url_key": "Duopan2"
+      }
     },
     {
-      "key": "木偶",
-      "name": "❤木偶｜4K",
+      "key": "csp_Netfixtv",
+      "name": "💌┃️至臻┃影视",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
-      "searchable": 1,
-      "quickSearch": 1,
+      "api": "csp_Duopan",
+      "jar": "https://img2.gelonghui.com/library/31857-fa5be77c-2b34-459f-8e03-53ecdba19a87.jpg;md5;31857bf0273d28fe583978d9f693e571",
       "filterable": 1,
-      "changeable": 1,
-      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/mogg.json"
+      "ext": {
+        "site_urls": [
+          "http://xiaomi666.fun",
+          "https://zhizhen1.top",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
+          "http://www.miqk.cc",
+          "https://www.zhizhenpan.fun"
+        ],
+        "url_key": "Netfixtv2",
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        }
+      }
     },
     {
-      "key": "蜡笔",
-      "name": "❤蜡笔｜4K",
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "👲┃玩偶┃影视",
+      "api": "csp_Wogg",
+      "jar": "https://img2.gelonghui.com/library/31857-fa5be77c-2b34-459f-8e03-53ecdba19a87.jpg;md5;31857bf0273d28fe583978d9f693e571",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/lb.json"
-    },
-    {
-      "key": "至臻",
-      "name": "❤至臻｜4K",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/zz.json"
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "https://www.wogg.one/"
     },
 
 
