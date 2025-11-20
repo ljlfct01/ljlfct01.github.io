@@ -51,7 +51,15 @@
       "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
     },
-
+  {
+      "name": "🐅mytv",
+      "type": 0,
+      "url": "http://xtvantsc.xyz/mytv.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
 
   {
     "name": "马来大佬",
