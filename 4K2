@@ -457,6 +457,31 @@
       
             }
         },
+     {
+            "key": "夸父",
+            "name": "夸父｜4K",
+            "type": 3,
+            "api": "csp_PanWebShareCloudKF",
+            "jar": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+          "ext": {
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
+        "ducookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_bd.js",
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_qk.js",
+        "cookie": "",
+        "uctoken": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_uc.js",
+        "tuctoken": "",
+        "json": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E5%A4%B8%E7%88%B6.json"
+      }
+        },
 
     {
       "key": "竹生",
