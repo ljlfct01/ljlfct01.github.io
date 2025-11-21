@@ -1,11 +1,33 @@
 {
- "spider": "http://192.140.162.186:6621/yyxl/js4k/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
+ "spider": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+  "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
+  "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
 
 
-  "wallpaper": "https://api.btstu.cn/sjbz/api.php",
+ 
   "logo": "https://13935.kstore.space/b/logo.gif",
   "sites": [
-
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "💖|豆瓣",
+      "type": 3,
+      "api": "csp_Douban",
+      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
+    },
+   
+    {
+      "key": "测试",
+      "name": "💖应用|更新",
+      "type": 3,
+      "api": "csp_Market",
+      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
+    },
+    {
+      "key": "设置",
+      "name": "💖网弹|设置",
+      "type": 3,
+      "api": "csp_HBconfig"
+    },
 
 
   {
