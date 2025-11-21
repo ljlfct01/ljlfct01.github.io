@@ -395,6 +395,7 @@
                 ]
             }
         },
+
     {
       "key": "网盘虎斑",
       "name": "💖虎斑💖4k网盘",
@@ -430,16 +431,24 @@
         "site": "https://wogg.xxooo.cf/"
       }
     },
-    {
-      "key": "多多",
-      "name": "多多|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://tv.yydsys.top/"
-      }
-    },
+     {
+            "key": "多多",
+            "name": "多多｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "jar": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://tv.yydsys.top",
+                    "https://tv.yydsys.cc",
+                    "https://tv.214521.xyz"
+                ]
+            }
+        },
 
     {
       "key": "竹生",
