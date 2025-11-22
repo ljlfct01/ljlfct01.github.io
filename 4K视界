@@ -769,7 +769,36 @@
   ],
   "parses": [
  
- 
+     {
+      "name": "4K",
+      "type": 1,
+      "url": "http://103.163.47.120:7777/api/?key=mTjnoJuwkXU55DgDDN&url=",
+
+        "ext": {
+        "flag": [
+          "qq",
+          "鑵捐",
+          "qiyi",
+          "鐖卞鑹�",
+          "濂囪壓",
+          "youku",
+          "浼橀叿",
+          "sohu",
+          "鎼滅嫄",
+          "letv",
+          "涔愯",
+          "mgtv",
+          "鑺掓灉",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    }
  
 
   
