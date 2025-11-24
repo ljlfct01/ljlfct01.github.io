@@ -273,27 +273,18 @@
       "logo": "https://gongdian.top/tv/taibiao/{name}.png"
     },
 
- 
- 
-  
-   {
+ {
       "name": "🐅猫TV",
       "type": 0,
-      "playerType": 1,
       "url": "http://rihou.cc:555/gggg.nzk",
+      "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "core": {
-        "auth": "local://tvbus",
-        "name": "",
-        "pass": "",
-        "resp": "",
-        "pkg": "",
-        "sign": "",
-        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
-      }
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+ 
+  
+ 
  
 {
       "name": "🐅宝盒直播",
