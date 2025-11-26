@@ -492,6 +492,9 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
+                "cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/ck1.txt",
+                "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/z_uc.js",
+                "baidu_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/z_bd.js",
                 "filters": "https://d.abvod.cn/t/146727699455414272/jar/json/douban.json",
                 "limit": 3
             }
@@ -1035,7 +1038,7 @@
                 "分类url": "https://20.90kan.cc/?cate={cateId}&page={catePg}[https://20.90kan.cc/?cate={cateId}]",
                 "分类": "最近更新$2#短剧大全$1#预告短剧$3"
             }
-        },
+        }
 
   ],
   "parses": [
