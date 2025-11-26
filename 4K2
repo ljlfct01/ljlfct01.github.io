@@ -483,22 +483,7 @@
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
     },
 
-        {
-            "key": "csp_TgDouban",
-            "name": "🥳TG┃豆瓣",
-            "type": 3,
-            "api": "csp_TgDouban",
-            "jar": "https://d.abvod.cn/t/146727699455414272/jar/Lge.jar",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/ck1.txt",
-                "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/z_uc.js",
-                "baidu_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/z_bd.js",
-                "filters": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/TG",
-                "limit": 3
-            }
-        },
+  
        {
             "key": "3Q",
             "name": "🎞️3Q｜影视",
@@ -694,44 +679,7 @@
                 "筛选排序替换词": "time&hits&score"
             }
         },
-        {
-            "key": "泥视频",
-            "name": "🎞️泥视频｜drpy_js",
-            "type": 3,
-            "api": "https://d.abvod.cn/t/146727699455414272/jar/drpy_js/drpy2.min.js",
-      
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://d.abvod.cn/t/146727699455414272/jar/ziyong/泥视频.js"
-        },
-        {
-            "key": "drpy2_网飞猫",
-            "name": "🎞️网飞猫｜drpy_js",
-            "type": 3,
-            "api": "https://d.abvod.cn/t/146727699455414272/jar/drpy_js/drpy2.min.js",
-     
-            "ext": "https://d.abvod.cn/t/146727699455414272/jar/ziyong/drpy2_网飞猫影视.js"
-        },
-        {
-            "key": "drpy2_喝茶影视",
-            "name": "🎞️喝茶｜drpy_js",
-            "type": 3,
-            "api": "https://d.abvod.cn/t/146727699455414272/jar/drpy_js/drpy2.min.js",
-        
-            "ext": "https://d.abvod.cn/t/146727699455414272/jar/ziyong/drpy2_喝茶影视.js"
-        },
-        {
-            "key": "光棍影院1",
-            "name": "🎞️光棍｜影院",
-            "type": 3,
-            "api": "https://d.abvod.cn/t/146727699455414272/jar/drpy_js/drpy2.min.js",
-      
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://d.abvod.cn/t/146727699455414272/jar/ziyong/光棍影院1.js"
-        },
+ 
         {
             "key": "4K影视",
             "name": "🎞️4K｜影视",
@@ -1014,7 +962,7 @@
             "playerType": 2,
             "ext": {
                 "json": "https://d.abvod.cn/t/146727699455414272/jar/ziyong/bili.json",
-                "cookie": "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7"
+                "cookie": ""
             },
             "style": {
                 "type": "rect",
