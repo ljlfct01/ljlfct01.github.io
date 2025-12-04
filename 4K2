@@ -380,6 +380,20 @@
         "分类url": "http://www.deyangs.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;mrc"
       }
     },
+    {
+      "key": "景天",
+      "name": "景天|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
+    },
+    {
+      "key": "茂茂",
+      "name": "茂茂|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
+    },
      {
       "key": "tenteng",
       "name": "💖随缘①💖真4k",
@@ -571,9 +585,9 @@
       "url": "Sequence"
     },
     {
-      "name": "自定：请先设置",
+      "name": "爱看4K",
       "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
+      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=hubanjiexi&url="
     },
     {
       "name": "自定",
