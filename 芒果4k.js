@@ -30,7 +30,7 @@ var rule = {
     // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     lazy: $js.toString(() => {
           try {
-            let api = "" + input.split("?")[0];
+            let api = "http://shybot.top/v2/video/jx/?shykey=4595a71a4e7712568edcfa43949236b42fcfcb04997788ebe7984d6da2c6a51c&qn=max&url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
