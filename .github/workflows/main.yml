@@ -21,17 +21,24 @@ jobs:
         git config --global user.name "Your Name"
         git config --global user.email "your-email@example.com"
 
-    - name: Add external repo as remote
+    - name: Clone external repo and copy files
       run: |
-        git remote add external https://github.com/ljlfct01/ljlfct01.github.io.git
-        git fetch external
+        # 克隆外部仓库（深度克隆以减少时间）
+        git clone --depth 1 https://github.com/ljlfct01/ljlfct01.github.io.git /tmp/external-repo
+        # 如果目标文件夹不存在，创建
+        mkdir -p external-folder
+        # 复制文件，排除.git目录
+        cp -r /tmp/external-repo/* external-folder/
+        # 清理临时目录
+        rm -rf /tmp/external-repo
 
-    - name: Merge external changes into subdirectory
+    - name: Commit changes
       run: |
-        # 将外部仓库的内容合并到指定文件夹
-        git merge --allow-unrelated-histories -s ours --no-commit external/main
-        git read-tree --prefix=external-folder/ -u external/main
-        git commit -m "Sync external repository [$(date)]"
-        
-    - name: Push changes
-      run: git push origin main
+        git add external-folder
+        # 检查是否有变化，有变化则提交
+        if ! git diff --cached --quiet; then
+          git commit -m "Sync external repository [$(date)]"
+          git push origin main
+        else
+          echo "No changes to commit"
+        fi
