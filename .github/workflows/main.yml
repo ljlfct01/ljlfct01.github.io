@@ -1,0 +1,37 @@
+name: Sync External Repository
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # 每6小时同步一次
+  workflow_dispatch:  # 允许手动触发
+  push:
+    branches: [ main ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout current repo
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GH_TOKEN }}
+        fetch-depth: 0  # 获取所有历史记录
+
+    - name: Set up Git
+      run: |
+        git config --global user.name "Your Name"
+        git config --global user.email "your-email@example.com"
+
+    - name: Add external repo as remote
+      run: |
+        git remote add external https://github.com/ljlfct01/ljlfct01.github.io.git
+        git fetch external
+
+    - name: Merge external changes into subdirectory
+      run: |
+        # 将外部仓库的内容合并到指定文件夹
+        git merge --allow-unrelated-histories -s ours --no-commit external/main
+        git read-tree --prefix=external-folder/ -u external/main
+        git commit -m "Sync external repository [$(date)]"
+        
+    - name: Push changes
+      run: git push origin main
