@@ -1,6 +1,7 @@
 {
-  "spider": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
-  "wallpaper": "https://api.btstu.cn/sjbz/api.php",
+ "spider": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+  "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
+  "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "sites": [
     {
       "key": "新腾极4k",
@@ -509,6 +510,11 @@
     }
   ],
   "parses": [
+    {
+      "name": "自定：请先设置",
+      "type": 1,
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url=http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl="
+    },
     {
       "name": "自定",
       "type": 1,
