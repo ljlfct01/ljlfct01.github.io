@@ -692,8 +692,8 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "" + input.split("?")[0];
-            console.log(api);
+            let api = "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl=" + input.split("?")[0];
+           console.log(api);
             let response = fetch(api, {
                 method: 'get',
                 headers: {
