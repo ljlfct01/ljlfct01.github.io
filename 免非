@@ -2,15 +2,33 @@
   "spider": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
   "wallpaper": "https://api.btstu.cn/sjbz/api.php",
   "sites": [
-
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "🥝豆瓣",
+      "type": 3,
+      "api": "csp_Douban",
+     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
+    },
 
     {
-      "key": "景天",
-      "name": "💖随缘❶｜4K",
+      "key": "新腾极4k",
+      "name": "🥝4k臻彩腾讯",
       "type": 3,
-      "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/暗黑4k奇迹/lib/暗黑4k奇迹.js"
+    },
+    {
+      "key": "芒果弹幕",
+      "name": "🥝4k臻彩芒果",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "ext": "http://14.103.129.80:999/暗黑4k奇迹/lib/暗黑4k奇迹mg.js"
     },
     {
       "key": "茂茂",
