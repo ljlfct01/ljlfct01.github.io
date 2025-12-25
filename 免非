@@ -3,71 +3,6 @@
   "wallpaper": "https://api.btstu.cn/sjbz/api.php",
   "sites": [
     {
-      "key": "瓜子影视",
-      "name": "🍉瓜子|初始",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "mihdr",
-      "name": "📀P-A|4K😛",
-      "type": 3,
-      "jar": "http://139.224.213.240:12312/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliV2xvWkhJakl5TnRhV2hrY2c9PQ=="
-    },
-    {
-      "key": "ouge",
-      "name": "📀P-B|4K😋",
-      "type": 3,
-      "jar": "http://139.224.213.240:12312/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliM1ZuWlNNakkyOTFaMlU9"
-    },
-    {
-      "key": "libo",
-      "name": "📀P-C|4K😀",
-      "type": 3,
-      "jar": "http://139.224.213.240:12312/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliR2xpYnlNakkyeHBZbTg9"
-    },
-    {
-      "key": "xiaoer",
-      "name": "📀P-F|4K🤩",
-      "type": 3,
-      "jar": "http://139.224.213.240:12312/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTllR2xoYjJWeUl5TWplR2xoYjJWeQ=="
-    },
-    {
-      "key": "labi",
-      "name": "📀P-G|4K😘",
-      "type": 3,
-      "jar": "http://139.224.213.240:12312/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVNNakkyeGhZbWs9"
-    },
-    {
-      "key": "yanshi1",
-      "name": "📀P-E|4K💘",
-      "type": 3,
-      "jar": "http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
-    {
-      "key": "zhizhen",
-      "name": "📀P-H|4K💘",
-      "type": 3,
-      "jar": "http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    },
-    {
       "key": "腾讯视频",
       "name": "👑TX｜4K",
       "type": 3,
@@ -82,6 +17,120 @@
       "jar": "http://125.208.22.226:8066/yyxl/svip/lib/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
       "api": "http://125.208.22.226:8066/yyxl/svip/lib/drpy2.min.js",
       "ext": "http://125.208.22.226:8066/yyxl/svip/lib/芒果视频.js"
+    },
+    {
+      "key": "景天",
+      "name": "💖随缘❶｜4K",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
+    },
+    {
+      "key": "茂茂",
+      "name": "💖随缘❷｜4K",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
+    },
+    {
+      "key": "竹生",
+      "name": "💖随缘❸｜4K",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
+     
+    },
+    {
+      "key": "归安",
+      "name": "💖随缘❹｜4K",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
+     
+    },
+    {
+      "key": "薄心",
+      "name": "💖随缘❺｜4K",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ=="
+     
+    },
+    {
+      "key": "甜橙",
+      "name": "💖随缘❻｜4K",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
+    },
+    {
+      "key": "蜡笔",
+      "name": "💖随缘❼｜4K",
+      "type": 3,
+      "api": "csp_LabiGuard",
+      "jar": "https://10352.kstore.vip/202512120850.png;md5;68060405b6dfe95cc44a905a76678b34",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "邵氏资源",
+      "name": "🥝爱看┃邵氏影视",
+      "type": 1,
+      "api": "https://p2100.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "邵氏大片",
+        "国产剧",
+        "香港剧",
+        "剧",
+        "海外剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "综艺",
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "片",
+        "剧情片",
+        "战争片",
+        "爱情片",
+        "理论片",
+        "动漫片",
+        "动漫"
+      ]
+    },
+    {
+      "key": "邵氏短剧",
+      "name": "🥝爱看┃邵氏短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "🧕女频$41#🐸反转$42#🐧脑洞$43#🐒穿越$44#🦊仙侠$45#🦉都市$46#123$31",
+        "分类url": "http://www.deyangs.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;mrc"
+      }
+    }
+
+    {
+      "key": "瓜子影视",
+      "name": "🍉瓜子影视",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "金牌影视",
@@ -451,8 +500,16 @@
     }
   ],
   "parses": [
-
- 
+    {
+      "name": "自定",
+      "type": 1,
+      "url": "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl="
+    }
+    {
+      "name": "自定❶",
+      "type": 1,
+      "url": "http://14.103.129.80:777/api/index?parsesId=3&appid=10000&videoUrl="
+    } 
   ],
   "rules": [
     {
