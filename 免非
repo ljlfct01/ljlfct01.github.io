@@ -4,6 +4,12 @@
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "sites": [
     {
+      "key": "设置",
+      "name": "网弹|设置",
+      "type": 3,
+      "api": "csp_HBconfig"
+    },
+    {
       "key": "新腾极4k",
       "name": "🐅臻彩腾讯｜4K",
       "type": 3,
@@ -513,7 +519,7 @@
     {
       "name": "自定：请先设置",
       "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url=http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl="
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
     },
     {
       "name": "自定",
