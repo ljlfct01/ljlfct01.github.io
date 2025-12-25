@@ -3,26 +3,30 @@
   "wallpaper": "https://api.btstu.cn/sjbz/api.php",
   "sites": [
     {
-      "key": "腾讯视频",
-      "name": "👑TX｜4K",
+      "key": "新腾极4k",
+      "name": "🐅臻彩腾讯｜4K",
       "type": 3,
-      "jar": "http://125.208.22.226:8066/yyxl/svip/lib/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
-      "api": "http://125.208.22.226:8066/yyxl/svip/lib/drpy2.min.js",
-      "ext": "http://125.208.22.226:8066/yyxl/svip/lib/腾讯视频.js"
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/暗黑4k奇迹/lib/暗黑4k奇迹.js"
     },
     {
-      "key": "芒果视频",
-      "name": "👑MG｜4K",
+      "key": "芒果弹幕",
+      "name": "🐅臻彩芒果｜4K",
       "type": 3,
-      "jar": "http://125.208.22.226:8066/yyxl/svip/lib/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
-      "api": "http://125.208.22.226:8066/yyxl/svip/lib/drpy2.min.js",
-      "ext": "http://125.208.22.226:8066/yyxl/svip/lib/芒果视频.js"
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "ext": "http://14.103.129.80:999/暗黑4k奇迹/lib/暗黑4k奇迹mg.js"
     },
     {
       "key": "景天",
       "name": "💖随缘❶｜4K",
       "type": 3,
       "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
     },
     {
@@ -30,6 +34,7 @@
       "name": "💖随缘❷｜4K",
       "type": 3,
       "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
     },
     {
@@ -37,6 +42,7 @@
       "name": "💖随缘❸｜4K",
       "type": 3,
       "api": "csp_HBT4",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
      
     },
@@ -45,6 +51,7 @@
       "name": "💖随缘❹｜4K",
       "type": 3,
       "api": "csp_HBT4",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
      
     },
@@ -53,6 +60,7 @@
       "name": "💖随缘❺｜4K",
       "type": 3,
       "api": "csp_HBT4",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ=="
      
     },
@@ -61,6 +69,7 @@
       "name": "💖随缘❻｜4K",
       "type": 3,
       "api": "csp_HBT4",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
     },
     {
