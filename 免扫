@@ -1,13 +1,13 @@
 {
-  "spider": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
-  "wallpaper": "https://api.btstu.cn/sjbz/api.php",
+  "spider": "assets://spider.jar",
+  "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
+  "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "sites": [
     {
       "key": "drpy_js_豆瓣",
       "name": "🥝豆瓣",
       "type": 3,
-      "api": "csp_Douban",
-     "jar": "assets://spider.jar",
+      "api": "csp_Douban",      
       "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
     },
 
@@ -444,34 +444,9 @@
       "ext": ""
     }
   ],
-  "parses": [
+  "parses": "assets://spider.ym",
  
-    {
-      "name": "自定",
-      "type": 1,
-      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=IfCDTGs10x816urQy2&url="
-    },
-    {
-      "name": "自定❶",
-      "type": 1,
-      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=ddwAUOBOUHFDjpleiv&url="
-    },
-    {
-      "name": "自定❷",
-      "type": 1,
-      "url": "https://shybot.top/v2/video/jx/?shykey=4595a71a4e7712568edcfa43949236b42fcfcb04997788ebe7984d6da2c6a51c&qn=max&url="
-    },
-    {
-      "name": "自定❸",
-      "type": 1,
-      "url": "http://14.103.129.80:777/api/index?parsesId=3&appid=10000&videoUrl="
-    },
-    {
-      "name": "自定❹",
-      "type": 1,
-      "url": "http://14.103.129.80:777/api/index?parsesId=7&appid=10000&videoUrl="
-    }
-  ],
+ 
   "rules": [
     {
       "name": "头条",
