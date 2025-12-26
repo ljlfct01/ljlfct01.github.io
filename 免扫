@@ -57,6 +57,19 @@
       ]
     },
     {
+      "key": "蜡笔",
+      "name": "👠爱看┃蜡笔┃4K",
+      "type": 3,
+      "api": "csp_LabiGuard",
+      "jar": "https://10352.kstore.vip/202512120850.png;md5;68060405b6dfe95cc44a905a76678b34",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": "assets://ym",
+      "timeout": 25
+    },
+    {
       "key": "邵氏短剧",
       "name": "🥝爱看┃邵氏短剧",
       "type": 3,
@@ -445,7 +458,34 @@
       "ext": ""
     }
   ],
-  "parses": "assets://ym",
+  "parses": [
+
+      {
+      "name": "自定",
+      "type": 1,
+      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=IfCDTGs10x816urQy2&url="
+    },
+    {
+      "name": "自定❶",
+      "type": 1,
+      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=ddwAUOBOUHFDjpleiv&url="
+    },
+    {
+      "name": "自定❷",
+      "type": 1,
+      "url": "https://shybot.top/v2/video/jx/?shykey=4595a71a4e7712568edcfa43949236b42fcfcb04997788ebe7984d6da2c6a51c&qn=max&url="
+    },
+    {
+      "name": "自定❸",
+      "type": 1,
+      "url": "http://14.103.129.80:777/api/index?parsesId=3&appid=10000&videoUrl="
+    },
+    {
+      "name": "自定❹",
+      "type": 1,
+      "url": "http://14.103.129.80:777/api/index?parsesId=7&appid=10000&videoUrl="
+    }
+  ],
  
  
   "rules": [
