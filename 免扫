@@ -1,5 +1,5 @@
 {
-  "spider": "assets://spider.jar",
+  "spider": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "sites": [
@@ -8,7 +8,6 @@
       "name": "🥝豆瓣",
       "type": 3,
       "api": "csp_Douban",
-      "jar": "assets://spider.jar",
       "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
     },
 
@@ -26,7 +25,24 @@
       "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
       "ext": "http://14.103.129.80:999/暗黑4k奇迹/lib/暗黑4k奇迹.js"
     },
-
+    {
+      "key": "蜡笔",
+      "name": "👠爱看┃蜡笔┃4K",
+      "type": 3,
+      "api": "csp_LabiGuard",
+      "jar": "https://10352.kstore.vip/202512120850.png;md5;68060405b6dfe95cc44a905a76678b34",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
+    },
     {
       "key": "邵氏资源",
       "name": "🥝爱看┃邵氏影视",
@@ -56,19 +72,7 @@
         "动漫"
       ]
     },
-    {
-      "key": "蜡笔",
-      "name": "👠爱看┃蜡笔┃4K",
-      "type": 3,
-      "api": "csp_LabiGuard",
-      "jar": "https://10352.kstore.vip/202512120850.png;md5;68060405b6dfe95cc44a905a76678b34",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": "assets://ym",
-      "timeout": 25
-    },
+
     {
       "key": "邵氏短剧",
       "name": "🥝爱看┃邵氏短剧",
@@ -87,6 +91,7 @@
       "name": "🍉瓜子影视",
       "type": 3,
       "api": "csp_Gz360",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -96,6 +101,7 @@
       "name": "🔦金牌｜2K",
       "type": 3,
       "api": "csp_Jpys",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
     },
     {
@@ -113,6 +119,7 @@
       "name": "🏮热播｜影视",
       "type": 3,
       "api": "csp_AppRJ",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -125,6 +132,7 @@
       "name": "🏮农民｜秒播",
       "type": 3,
       "api": "csp_XYQHiker",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -177,6 +185,7 @@
       "key": "三六零",
       "name": "🏮三六｜秒播",
       "type": 3,
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "api": "csp_SP360"
     },
     {
@@ -184,6 +193,7 @@
       "name": "🔦老电影｜2K",
       "type": 3,
       "api": "csp_Web1905",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
@@ -194,6 +204,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "https://www.rebovod.com",
         "site": "",
@@ -209,6 +220,7 @@
       "name": "🌸热播｜APP",
       "type": 3,
       "api": "csp_AppRJ",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -221,6 +233,7 @@
       "name": "🌸浪酷｜APP",
       "type": 3,
       "api": "csp_AppRJ",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -234,6 +247,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "http://www.zjcvod.com",
         "site": "",
@@ -250,6 +264,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "http://tv.yy-fun.cc",
         "dataKey": "qkxnwkfjwpcnwycl",
@@ -264,6 +279,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "http://ys.qist.top",
         "site": "",
@@ -279,6 +295,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "https://dy.8ttv.cn",
         "site": "",
@@ -295,6 +312,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "",
         "site": "http://125.208.22.226:8066/yyxl/svip/lib/apiurl.txt",
@@ -311,6 +329,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "",
         "site": "http://125.208.22.226:8066/yyxl/svip/lib/lanyingxmy.txt",
@@ -326,6 +345,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "",
         "site": "http://125.208.22.226:8066/yyxl/svip/lib/ceshi421.txt",
@@ -341,6 +361,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "",
         "site": "http://125.208.22.226:8066/yyxl/svip/lib/1.json",
@@ -355,6 +376,7 @@
       "name": "🍼漫国丨动漫",
       "type": 3,
       "api": "csp_AppSy",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "site": "http://125.208.22.226:8066/yyxl/svip/lib/api.txt",
         "siteKey": "rectangleadsadxa",
@@ -367,6 +389,7 @@
       "name": "🍼樱花｜动漫",
       "type": 3,
       "api": "csp_XBPQ",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": "http://125.208.22.226:8066/yyxl/svip/lib/樱花动漫.json"
     },
     {
@@ -374,6 +397,7 @@
       "name": "🍼巴士｜动漫",
       "type": 3,
       "api": "csp_XYQHiker",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": "http://125.208.22.226:8066/yyxl/svip/lib/巴士动漫.json"
     },
     {
@@ -382,6 +406,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "https://new.app.bytegooty.com",
         "site": "",
@@ -398,6 +423,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "ext": {
         "url": "https://get.mymifun.com",
         "site": "",
@@ -433,6 +459,7 @@
       "name": "🏀比赛｜看球",
       "type": 3,
       "api": "csp_Kanqiu",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "gridview": 3,
       "style": {
         "type": "list"
@@ -454,6 +481,7 @@
       "name": "🛴推送┃播放",
       "type": 3,
       "api": "csp_Push",
+     "jar": "http://125.208.22.226:8066/yyxl/svip/spider.jar",
       "searchable": 0,
       "ext": ""
     }
