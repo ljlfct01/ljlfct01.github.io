@@ -36,31 +36,23 @@
   ],
   "parses": [
 
-      {
-      "name": "自定",
+     {
+      "name": "极速",
       "type": 1,
-      "url": "http://gyui9.lingutv.cn/api/index?parsesId=5&appid=10000&videoUrl="
+      "url": "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl="
+    },
+
+    {
+      "name": "极速❶",
+      "type": 1,
+      "url": "http://14.103.129.80:777/api/index?parsesId=3&appid=10000&videoUrl="
     },
     {
-      "name": "自定❶",
+      "name": "极速❷",
       "type": 1,
-      "url": "http://gyui9.lingutv.cn/api/index?parsesId=24&appid=10000&videoUrl="
-    },
-    {
-      "name": "自定❷",
-      "type": 1,
-      "url": "http://gyui9.lingutv.cn/api/index?parsesId=25&appid=10000&videoUrl="
-    },
-    {
-      "name": "自定❸",
-      "type": 1,
-      "url": "http://gyui9.lingutv.cn/api/index?parsesId=27&appid=10000&videoUrl="
-    },
-    {
-      "name": "自定❹",
-      "type": 1,
-      "url": "http://gyui9.lingutv.cn/api/index?parsesId=26&appid=10000&videoUrl="
+      "url": "http://14.103.129.80:777/api/index?parsesId=7&appid=10000&videoUrl="
     }
+
   ],
  
  
