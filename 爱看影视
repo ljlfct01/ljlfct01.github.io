@@ -688,7 +688,26 @@
 
 
   ],
-  "parses": ["assets://ls/0/影视/txt/jx.js"],
+  "parses": [
+
+     {
+      "name": "极速",
+      "type": 1,
+      "url": "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl="
+    },
+
+    {
+      "name": "极速❶",
+      "type": 1,
+      "url": "http://14.103.129.80:777/api/index?parsesId=3&appid=10000&videoUrl="
+    },
+    {
+      "name": "极速❷",
+      "type": 1,
+      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=IfCDTGs10x816urQy2&url="
+    }
+
+  ],
     "flags": [
     "youku",
     "qq",
