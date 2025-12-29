@@ -3,13 +3,7 @@
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "sites": [
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "🥝豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
-    },
+
 
     {
       "key": "新腾极4k",
@@ -28,25 +22,19 @@
     },
     {
       "key": "景天",
-      "name": "💖随缘➊4k",
+      "name": "🥝随缘➊4k",
       "type": 3,
       "api": "csp_HBcms10Dou",
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
     },
     {
       "key": "茂茂",
-      "name": "💖随缘➋4k",
+      "name": "🥝随缘➋4k",
       "type": 3,
       "api": "csp_HBcms10Dou",
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
-    },
- {
-      "key": "哔哩哔哩",
-      "name": "🥝4k臻彩哔哩",
-      "type": 3,
-      "api": "http://mlwl.top:67/lib/drpy2.min.js",
-      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     }
+
 
   ],
   "parses": [
@@ -54,18 +42,18 @@
      {
       "name": "极速",
       "type": 1,
-      "url": "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl="
+      "url": "http://14.103.129.80:777/api/index?parsesId=3&appid=10000&videoUrl="
     },
 
     {
       "name": "极速❶",
       "type": 1,
-      "url": "http://14.103.129.80:777/api/index?parsesId=3&appid=10000&videoUrl="
+      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=IfCDTGs10x816urQy2&url="
     },
     {
       "name": "极速❷",
       "type": 1,
-      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=IfCDTGs10x816urQy2&url="
+      "url": "http://chaoqianys.top:98/api/jsonindex.php/?key=ddwAUOBOUHFDjpleiv&url="
     }
 
   ],
