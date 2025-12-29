@@ -323,6 +323,7 @@
       "name": "💖|豆瓣",
       "type": 3,
       "api": "csp_Douban",
+     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
     },
    
@@ -331,12 +332,14 @@
       "name": "💖应用|更新",
       "type": 3,
       "api": "csp_Market",
+     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
     },
     {
       "key": "设置",
       "name": "💖网弹|设置",
       "type": 3,
+     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "api": "csp_HBconfig"
     },
     {
