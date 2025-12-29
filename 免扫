@@ -33,6 +33,75 @@
       "type": 3,
       "api": "csp_HBcms10Dou",
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
+    },
+    {
+      "key": "竹生",
+      "name": "💖免扫➊┃4K",
+      "type": 3,
+      "api": "csp_HBT4",
+     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
+     
+    },
+    {
+      "key": "归安",
+      "name": "💖免扫➋┃4K",
+      "type": 3,
+      "api": "csp_HBT4",
+     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
+     
+    },
+
+    {
+      "key": "甜橙",
+      "name": "💖免扫➌┃4K",
+      "type": 3,
+      "api": "csp_HBT4",
+     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
+    },
+
+    {
+      "key": "邵氏资源",
+      "name": "🥝爱看┃邵氏影视",
+      "type": 1,
+      "api": "https://p2100.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "邵氏大片",
+        "国产剧",
+        "香港剧",
+        "剧",
+        "海外剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "综艺",
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "片",
+        "剧情片",
+        "战争片",
+        "爱情片",
+        "理论片",
+        "动漫片",
+        "动漫"
+      ]
+    },
+    {
+      "key": "邵氏短剧",
+      "name": "🥝爱看┃邵氏短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "🧕女频$41#🐸反转$42#🐧脑洞$43#🐒穿越$44#🦊仙侠$45#🦉都市$46#123$31",
+        "分类url": "http://www.deyangs.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;mrc"
+      }
     }
 
 
