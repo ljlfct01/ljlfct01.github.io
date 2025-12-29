@@ -35,6 +35,23 @@
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
     },
     {
+      "key": "蜡笔",
+      "name": "👠蜡笔┃4K",
+      "type": 3,
+      "api": "csp_LabiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+         "cookie": "assets://0",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
       "key": "竹生",
       "name": "💖免扫➊┃4K",
       "type": 3,
