@@ -570,6 +570,24 @@
       "timeout": 25
     },
     {
+      "key": "网盘虎斑",
+      "name": "虎斑|4k网盘",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_Mogg",
+     "jar": "http://app.69mini.com/tvbox/1204.jar",
+      "ext": {
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
+        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
+        "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
+        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
+        "site": "http://103.45.162.207:20720/"
+      }
+    },
+    {
       "key": "虎斑",
       "name": "🐯虎斑┃4K",
       "type": 3,
