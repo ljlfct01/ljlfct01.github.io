@@ -569,20 +569,20 @@
       },
       "timeout": 25
     },
-
     {
       "key": "虎斑",
       "name": "🐯虎斑┃4K",
       "type": 3,
       "api": "csp_HuBanGuard",
-     "jar": "http://app.69mini.com/tvbox/1204.jar",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
     "ext": {
-     
-       "danmu": true
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
       },
       "timeout": 25
     },
