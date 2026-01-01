@@ -449,7 +449,21 @@
      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
     },
-
+    {
+      "key": "双星",
+      "name": "☘️机哥剧圈（4K测试②）☘️",
+      "type": 3,
+      "api": "csp_Star2Guard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "baidu_cookie": ""
+      }
+    },
     {
       "key": "立播",
       "name": "☘️机哥剧圈（4K测试①）☘️",
