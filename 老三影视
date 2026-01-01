@@ -452,24 +452,13 @@
 
     {
       "key": "立播",
-      "name": "☘️（4K测试①）☘️",
+      "name": "☘️机哥剧圈（4K测试①）☘️",
       "type": 4,
-      "api": "csp_Mogg",
-     "jar": "http://app.69mini.com/tvbox/1204.jar",
+      "api": "http://8088880.xyz:8080/video/libo?token=698d04ebe00a6369",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
-        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
-        "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
-        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-        "site": "http://103.45.162.207:20720/"
-      }
+      "changeable": 1
     },
     {
       "key": "二小",
