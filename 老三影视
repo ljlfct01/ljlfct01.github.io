@@ -1,5 +1,5 @@
 {
-  "spider": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+  "spider": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -342,79 +342,6 @@
      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "api": "csp_HBconfig"
     },
-    {
-      "key": "腾讯视频",
-      
-      "name": "❤️｜腾讯｜4K",
-      
-      "type": 3,
-      
-      "api": "https://file.999222000.xyz/f/dLiL/drpy2.min.js",
-      
-      "ext": "https://file.999222000.xyz/f/WrF3/腾讯视频.js"
-      
-    },
-    {
-    
-      "key": "芒果视频",
-      
-      "name": "❤️｜芒果｜4K",
-      
-      "type": 3,
-      
-      "api": "https://file.999222000.xyz/f/dLiL/drpy2.min.js",
-      
-      "ext": "https://file.999222000.xyz/f/MpTg/%E8%8A%92%E6%9E%9C%E8%A7%86%E9%A2%91.js"
-      
-    },
-    {
-    
-    "key": "Pan-1",
-    
-    "name": "❤️｜玩偶｜4K",
-    
-    "type": 3,
-    
-    "playerType": 2,
-    
-    "api": "csp_Wogg",
-   "jar": "https://file.999222000.xyz/f/V1uY/baipiaoya.json", 
-    "ext": {
-    
-    "cookie": "__pus=57e2acfd50a48c820660cc615d69a1adAASmozBHUtvi5IDKOKUHFXeAldcv8O6TOGQ9euTijK8HX4hMLDdU+hbzicZI+FZavKYChp3ILvwxShIxScZLmrSQ;",
-    
-    "uccookie": "__pus=24e178b5b483e8137b4459c359f2606fAAQDi8K15tLFJUyfI5+51ANRXNPU1E0wTRsrQrahctQT8j5S75F368d8ITGCN8KRAEuoHenZVyl4BpEivL8LmxBy;",
-    
-    "tuctoken": "",
-    
-    "site": "https://wogg.xxooo.cf/"}},
-
-    {
-    
-    "key": "Pan-2",
-    
-    "name": "❤️｜至臻｜4K",
-    
-    "type": 3,
-    
-    "playerType": 2,
-    
-    "api": "csp_Mogg",
-    "jar": "https://file.999222000.xyz/f/V1uY/baipiaoya.json",    
-    "ext": {
-    
-    "site": "http://xiaomi666.fun"}},
-        {
-            "key": "臻彩",
-            "name": "臻彩",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "jar": "https://myyds.shanhaiguanwu.com/uploads/tvbox/jar/moyun.jar;md5;b245d0fb0112c08975e117b031b207f7",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
-        },
 
       {
       "key": "新腾极4k",
@@ -472,102 +399,162 @@
       "filterable": 1,
       "changeable": 1
     },
+
     {
-      "key": "网盘虎斑",
-      "name": "☘️虎斑|4k网盘",
+      "key": "二小",
+      "name": "🦢二小┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://103.163.47.120:666/%E8%93%9D%E5%A4%A9/无敌.php",
-        "cookie": "http://103.163.47.120:666/%E8%93%9D%E5%A4%A9/无敌.php",
-        "uccookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/uc.js",
-        "tuctoken": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/uc.js",
-        "site": "http://103.45.162.207:20720/"
-      }
+      "api": "csp_ErXiaoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+    "ext": {
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
     },
     {
-      "key": "傻样",
-      "name": "☘️傻样|4k网盘",
+      "key": "双星",
+      "name": "🤩双星┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "http://xsayang.fun:12512/"
-      }
+      "api": "csp_Star2Guard",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+     "ext": {
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+
+    {
+      "key": "玩偶",
+      "name": "👽玩偶┃4K",
+      "type": 3,
+      "api": "csp_WoggGuard",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+     "ext": {
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 30
     },
     {
-      "key": "玩偶哥哥",
-      "name": "☘️玩偶|4k网盘",
+      "key": "木偶",
+      "name": "🪵木偶┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Wogg",
+      "api": "csp_MuouGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://wogg.xxooo.cf/"
-      }
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
     },
     {
-      "key": "P123",
-      "name": "☘️木偶|4k网盘",
+      "key": "小飒",
+      "name": "💒小飒┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_XsayangGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "http://123.666291.xyz/"
-      }
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
     },
     {
       "key": "至臻",
-      "name": "☘️至臻|4k网盘",
+      "name": "💌至臻┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_ZhiZhenGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://mihdr.top/"
-      }
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
     },
     {
-      "key": "☘️多多",
-      "name": "☘️多多|4k网盘",
+      "key": "虎斑",
+      "name": "🐯虎斑┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_HuBanGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://tv.yydsys.top/"
-      }
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
     },
     {
-      "key": "ou多",
-      "name": "☘️讴歌|4k网盘",
+      "key": "蜡笔",
+      "name": "👠蜡笔┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_LabiGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://woog.nxog.eu.org/"
-      }
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
     },
     {
-      "key": "米",
-      "name": "☘️小米|4k网盘",
+      "key": "多多弹幕",
+      "name": "💖多多┃4K弹幕",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_DuoDuoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "http://xiaomi666.fun"
-      }
-    },
-    {
-      "key": "二小",
-      "name": "☘️二小|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://xhww.net"
-      }
+         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
+        "danmu": true
+      },
+      "timeout": 25
     },
 
     {
