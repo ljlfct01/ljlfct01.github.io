@@ -88,7 +88,32 @@
      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
     },
-
+        {
+            "key": "享趣视频",
+            "name": "享趣视频💞py",
+            "type": 3,
+            "api": "http://154.9.254.151:6898/py/享趣视频.py",
+            "ext": {
+                "parse": {
+                    "qq|qiyi|mgtv|youku|bilibili": [
+                        "https://api.qljson.xyz/api/?key=67f6a108dc6d84eaf81ac58417c1f72a&url=",
+                        "https://jx.84jia.com/api/?key=rc4qjSqZr2z9DFDchk&url="
+                    ],
+                    "xyxl|xynm": [
+                        "https://jx.84jia.com/api/?key=rc4qjSqZr2z9DFDchk&url="
+                    ],
+                    "xygz": [
+                        "https://video.xqkk.app/xygz/jx.php?url="
+                    ],
+                    "Ace": [
+                        "http://110.40.137.168:5000/api/jiexi/common?Key=m3RmyT8SlYBe9UQrhY&url="
+                    ],
+                    "NBY": [
+                        "https://api.nbyjson.top:7788/api/?key=28WvxCOKQZwwrSrTXx&url="
+                    ]
+                }
+            }
+        },
     {
       "key": "二小",
       "name": "🦢二小┃4K",
