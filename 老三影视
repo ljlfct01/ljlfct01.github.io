@@ -1,5 +1,5 @@
 {
-  "spider": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+  "spider": "assets://nz/4/custom_spider.jar",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -31,14 +31,14 @@
       "name": "💖应用|更新",
       "type": 3,
       "api": "csp_Market",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+
       "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
     },
     {
       "key": "设置",
       "name": "💖网弹|设置",
       "type": 3,
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+
       "api": "csp_HBconfig"
     },
 
@@ -77,7 +77,7 @@
       "name": "💖随缘➊4k",
       "type": 3,
       "api": "csp_HBcms10Dou",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
     },
     {
@@ -85,7 +85,7 @@
       "name": "💖随缘➋4k",
       "type": 3,
       "api": "csp_HBcms10Dou",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
     },
     
@@ -94,6 +94,7 @@
       "name": "🦢二小┃4K",
       "type": 3,
       "api": "csp_ErXiaoGuard",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -102,10 +103,8 @@
          "cookie": "assets://1",
         "uc_cookie": "assets://3",
         "baidu_cookie": "assets://2",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
         "danmu": true
-      },
+          },
       "timeout": 25
     },
     {
@@ -113,6 +112,7 @@
       "name": "🤩双星┃4K",
       "type": 3,
       "api": "csp_Star2Guard",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,
@@ -120,11 +120,9 @@
         "type": "list"
       },
      "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+         "cookie": "assets://1",
+        "uc_cookie": "assets://3",
+        "baidu_cookie": "assets://2",
         "danmu": true
       },
       "timeout": 25
@@ -135,15 +133,14 @@
       "name": "👽玩偶┃4K",
       "type": 3,
       "api": "csp_WoggGuard",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
      "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+         "cookie": "assets://1",
+        "uc_cookie": "assets://3",
+        "baidu_cookie": "assets://2",
         "danmu": true
       },
       "timeout": 30
@@ -153,16 +150,15 @@
       "name": "🪵木偶┃4K",
       "type": 3,
       "api": "csp_MuouGuard",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+        "cookie": "assets://1",
+        "uc_cookie": "assets://3",
+        "baidu_cookie": "assets://2",
         "danmu": true
       },
       "timeout": 25
@@ -172,16 +168,15 @@
       "name": "💒小飒┃4K",
       "type": 3,
       "api": "csp_XsayangGuard",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+         "cookie": "assets://1",
+        "uc_cookie": "assets://3",
+        "baidu_cookie": "assets://2",
         "danmu": true
       },
       "timeout": 25
@@ -191,17 +186,15 @@
       "name": "💌至臻┃4K",
       "type": 3,
       "api": "csp_ZhiZhenGuard",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "danmu": true
+         "cookie": "assets://1",
+        "uc_cookie": "assets://3",
+        "baidu_cookie": "assets://2",
       },
       "timeout": 25
     },
@@ -210,16 +203,15 @@
       "name": "🐯虎斑┃4K",
       "type": 3,
       "api": "csp_HuBanGuard",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+         "cookie": "assets://1",
+        "uc_cookie": "assets://3",
+        "baidu_cookie": "assets://2",
         "danmu": true
       },
       "timeout": 25
@@ -229,17 +221,15 @@
       "name": "👠蜡笔┃4K",
       "type": 3,
       "api": "csp_LabiGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+         "cookie": "assets://1",
+        "uc_cookie": "assets://3",
+        "baidu_cookie": "assets://2",
         "danmu": true
       },
       "timeout": 25
@@ -249,16 +239,15 @@
       "name": "💖多多┃4K弹幕",
       "type": 3,
       "api": "csp_DuoDuoGuard",
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "tyitoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "p123token": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+         "cookie": "assets://1",
+        "uc_cookie": "assets://3",
+        "baidu_cookie": "assets://2",
         "danmu": true
       },
       "timeout": 25
@@ -269,25 +258,20 @@
       "name": "💖免扫网盘❶|4K",
       "type": 3,
       "api": "csp_HBT4",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
-     
     },
     {
       "key": "归安",
       "name": "💖免扫网盘❷|4K",
       "type": 3,
       "api": "csp_HBT4",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-     
     },
     {
       "key": "薄心",
       "name": "💖免扫网盘❸|4K",
       "type": 3,
       "api": "csp_HBT4",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ=="
     },
     {
@@ -295,7 +279,6 @@
       "name": "💖免扫网盘❹|4K",
       "type": 3,
       "api": "csp_HBT4",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
     },
     {
