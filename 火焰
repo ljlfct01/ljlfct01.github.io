@@ -1,851 +1,340 @@
-{
-  "spider": "https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
-  "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
-  "warningText": "欢迎使用火焰TV，祝您观影愉快",
-  "lives": [
-    {
-      "name": "4K线路",
-      "type": 0,
-      "url": "http://156.233.228.245:8888/down/kfYg2iJBw1XZ.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ],
-  "sites": [
-    {
-      "key": "腾讯弹幕",
-      "name": "📢🌈腾腾4K",
-      "searchable": 1,
-      "type": 3,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-      "ext": "https://gitee.com/huotv/4k/raw/master/tengteng4k.js"
-    },
-    {
-      "key": "茫茫",
-      "name": "📢🌈果果4K",
-      "type": 3,
-      "searchable": 1,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
-    },
-    {
-      "key": "hipy_js_优酷[官]",
-      "name": "📢🌈聚合4K",
-      "type": 3,
-      "api": "https://sk.69mzf.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/lib1/youku.js"
-    },
-    {
-      "key": "大全玩偶",
-      "name": "📢🌈玩偶4K",
-      "type": 3,
-      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/KXG4K.jar",
-      "api": "csp_KXG4K",
-      "ext": "YUhSMGNEb3ZMekV4TVM0eE56QXVNVFV4TGpFeU1Ub3lNekl6TDJGd2FTNXdhSEEvYzJsMFpUMTNiMmRuSXlNamQyOW5adz09"
-    },
-    {
-      "key": "yanshi1",
-      "name": "📢🌈哥哥4K",
-      "type": 3,
-      "jar": "http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
-    {
-      "key": "zhizhen",
-      "name": "📢🌈至臻4K",
-      "type": 3,
-      "jar": "http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    },
-    {
-      "key": "热播影视",
-      "name": "🔥热剧┃1080P",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "url": "http://v.rbotv.cn"
-      }
-    },
-    {
-      "key": "瓜子影视",
-      "name": "🍉瓜子┃1080P",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "drpyS_瓜子[APP]",
-      "name": "🔶瓜┃1080P",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/瓜子[APP]",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 1,
-      "ext": ""
-    },
-    {
-      "key": "看球",
-      "name": "⚾┃看球┃直播",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "gridview": 3,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "88看球",
-      "name": "88｜看球",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "gridview": 3,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "少儿教育",
-      "name": "少儿｜教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "json": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "key": "小学课堂",
-      "name": "小学｜课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "json": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "key": "初中课堂",
-      "name": "初中｜课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "json": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "key": "高中教育",
-      "name": "高中｜课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "json": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "key": "急救教学",
-      "name": "急救｜教学",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      },
-      "gridview": "0-0-4.1"
-    },
-    {
-      "key": "相声",
-      "name": "📻相声┃BPQ",
-      "type": 3,
-      "searchable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "quickSearch": 0,
-      "api": "csp_XBPQ",
-      "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/4hwnw0f7806286118438d87b5eef075fd3325?x-cli-msg=%7B%22linkId%22%3A%221hRzfvmCPz3-2R1kC%22%2C%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%7D;md5;1484e86a3a4463eaf8ef41c6832a1df0",
-      "ext": {
-        "主页url": "https://www.xsmp3.com",
-        "数组二次截取": "<ul id=\"post_list_box\">&&</ul",
-        "数组": "<li class=\"www_xsmp3_com post_list_li\">&&</div>",
-        "图片": "https://gd-filems.dancf.com/gaoding/cms/mcm79j/mcm79j/59385/6a211035-3658-45ce-a476-79f6f5dc02b71172884.png?x-oss-process=image/resize,h_1308/interlace,1",
-        "标题": "title=\"&&\"",
-        "副标题": ">&&</a",
-        "链接": "href=\"&&\"",
-        "播放二次截取": "autoplay&&;</script>",
-        "播放数组": "\\[&&\\]",
-        "播放列表": "{&&}",
-        "播放链接": "url*\"&&\"",
-        "播放标题": "name*\"&&\"",
-        "播放副标题": "artist*\"&&\"",
-        "线路数组": "相声随身听",
-        "线路标题": "相声随身听",
-        "导演": "小米",
-        "主演": "相声明星",
-        "简介": "相声合集",
-        "分类url": "https://www.xsmp3.com/{cateId}/{catePg}.html;;av",
-        "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
-      }
-    },
-    {
-      "key": "兴趣培养",
-      "name": "儿童兴趣培养",
-      "type": 3,
-      "jar": "https://gitee.com/huasjf/tvbox/raw/main/spider.jar;md5;F20B74480C058B1FF6236601F92D65A8",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/huasjf/jf/raw/main/lib/%E5%85%B4%E8%B6%A3%E5%9F%B9%E5%85%BB.json"
-    },
-    {
-      "key": "评书",
-      "name": "📻评书┃BPQ",
-      "type": 3,
-      "searchable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "quickSearch": 0,
-      "api": "csp_XBPQ",
-      "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/4hwnw0f7806286118438d87b5eef075fd3325?x-cli-msg=%7B%22linkId%22%3A%221hRzfvmCPz3-2R1kC%22%2C%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%7D;md5;1484e86a3a4463eaf8ef41c6832a1df0",
-      "ext": {
-        "主页url": "https://www.psmp3.com",
-        "数组二次截取": "<ul id=\"post_list_box\">&&</ul",
-        "数组": "<li class=\"www_psmp3_com post_list_li\">&&</div>",
-        "图片": "https://bkimg.cdn.bcebos.com/pic/86d6277f9e2f07084e3cb402ee24b899a901f2f3",
-        "标题": "title=\"&&\"",
-        "副标题": ">&&</a",
-        "链接": "href=\"&&\"",
-        "播放二次截取": "autoplay&&;</script>",
-        "播放数组": "\\[&&\\]",
-        "播放列表": "{&&}",
-        "播放链接": "url*\"&&\"",
-        "播放标题": "name*\"&&\"",
-        "播放副标题": "artist*\"&&\"",
-        "线路数组": "评书随身听",
-        "线路标题": "评书随身听",
-        "导演": "小米",
-        "主演": "评书明星",
-        "简介": "评书合集",
-        "分类url": "https://www.psmp3.com/{cateId}/{catePg}.html;;av",
-        "分类": "袁阔成$ykc#单田芳$stf#田连元$tly#刘兰芳$llf#连丽如$llr#张少佐$zsz#田战义$tzy"
-      }
-    }
-  ],
-  "doh": [],
-  "hosts": [
-    "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-    "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-    "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-    "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-    "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
-  ],
-  "parses": [
-    {
-      "name": "极速",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=23&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速12",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=24&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速13",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=25&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速14",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=26&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速15",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=27&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速16",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=28&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速17",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=29&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速18",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=30&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速19",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=31&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速20",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=32&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速21",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=33&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速22",
-      "type": 1,
-      "url": "http://114.116.249.5:91/api/index?parsesId=34&appid=10000&videoUrl="
-    }
+const sameOption=[
+	{
+	    "key": "order",
+	    "name": "排序",
+		"value": [{
+			"n": "更新时间",
+			"v": "0"
+		}, {
+			"n": "追番人数",
+			"v": "3"
+		}, {
+			"n": "最高评分",
+			"v": "4"
+		}, {
+			"n": "播放数量",
+			"v": "2"
+		}, {
+			"n": "开播时间",
+			"v": "5"
+		}
+        //, {
+		//	"n": "上映时间",
+		//	"v": "6"
+		//}, {
+		//	"n": "弹幕数量",
+		//	"v": "1"
+		//}
+        ]
+	}
+]
 
+var rule = {
+    title: '哔哩影视[官]',
+    host: 'https://api.bilibili.com',
+    url: '/fyclass-fypage&vmid=$vmid',
+    detailUrl: '/pgc/view/web/season?season_id=fyid',
+    filter_url: 'fl={{fl}}',
+    vmid获取教程: '登录后访问https://api.bilibili.com/x/web-interface/nav,搜索mid就是,cookie需要 bili_jct,DedeUserID,SESSDATA参数',
+    searchUrl: '/x/web-interface/search/type?keyword=**&page=fypage&search_type=',
+    searchable: 1,
+    filterable: 1,
+    quickSearch: 0,
+    headers: {
+        'User-Agent': 'PC_UA',
+        "Referer": "https://www.bilibili.com",
+        "Cookie": "https://file.999222000.xyz/f/xeAsA/bilicookie.txt"
+    },
+    tab_order: ['bilibili'], //线路顺序,只保留bilibili线路
+    timeout: 5000,
+    //class_name: '番剧&国创&电影&电视剧&纪录片&综艺&全部&追番&追剧&时间表',
+    //class_url: '1&4&2&5&3&7&全部&追番&追剧&时间表',
+    class_name: '国创&番剧&电影&电视剧&综艺&纪录片',
+    class_url: '4&1&2&5&7&3',
+    filter: {
+		"1": sameOption,
+		"2": sameOption,
+		"3": sameOption,
+		"4": sameOption,
+		"5": sameOption,
+		"7": sameOption,
+        "全部": [{
+            "key": "tid",
+            "name": "分类",
+            "value": [{
+                "n": "国创",
+                "v": "4"
+            }, {
+                "n": "番剧",
+                "v": "1"
+            }, {
+                "n": "电影",
+                "v": "2"
+            }, {
+                "n": "电视剧",
+                "v": "5"
+            }, {
+                "n": "记录片",
+                "v": "3"
+            }, {
+                "n": "综艺",
+                "v": "7"
+            }]
+        }, {
+            "key": "order",
+            "name": "排序",
+            "value": [{
+                "n": "更新时间",
+                "v": "0"
+            }, {
+                "n": "追番人数",
+                "v": "3"
+            }, {
+                "n": "最高评分",
+                "v": "4"
+            }, {
+                "n": "播放数量",
+                "v": "2"
+            }, {
+                "n": "开播时间",
+                "v": "5"
+            }
+            //, {
+            //	"n": "上映时间",
+            //	"v": "6"
+            //}, {
+            //	"n": "弹幕数量",
+            //	"v": "1"
+            //}
+            ]
+        }, {
+            "key": "season_status",
+            "name": "付费",
+            "value": [{
+                "n": "全部",
+                "v": "-1"
+            }, {
+                "n": "免费",
+                "v": "1"
+            }, {
+                "n": "付费",
+                "v": "2%2C6"
+            }, {
+                "n": "大会员",
+                "v": "4%2C6"
+            }]
+        }],
+        "时间表": [{
+            "key": "tid",
+            "name": "分类",
+            "value": [{
+                "n": "番剧",
+                "v": "1"
+            }, {
+                "n": "国创",
+                "v": "4"
+            }]
+        }]
+    },
+    play_parse: true,
+    limit: 5,
+    lazy: $js.toString(() => {
+        try {
+            let api = "" + input.split("?")[0];
+            console.log(api);
+            let response = fetch(api, {
+                method: 'get',
+                headers: {
+                    'User-Agent': 'okhttp/3.14.9',
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            });
+            let bata = JSON.parse(response);
+            if (bata.url.includes("bilibili")) {
+                input = {
+                    parse: 0,
+                    url: bata.url,
+                    jx: 0,
+                    danmaku: "http://1.94.221.189:5613/?url=" + input.split("?")[0]
+                };
+            } else {
+                input = {
+                    parse: 0,
+                    url: input.split("?")[0],
+                    jx: 1,
+                    danmaku: "http://1.94.221.189:5613/?url=" + input.split("?")[0]
+                };
+            }
+        } catch {
+            input = {
+                parse: 0,
+                url: input.split("?")[0],
+                jx: 1,
+                danmaku: "http://1.94.221.189:5613/?url=" + input.split("?")[0]
+            };
+        }
+    }),
+    //推荐: '',
+    推荐: 'js:let d=[];function get_result(url){let videos=[];let html=request(url);let jo=JSON.parse(html);if(jo["code"]===0){let vodList=jo.result?jo.result.list:jo.data.list;vodList.forEach(function(vod){let aid=(vod["season_id"]+"").trim();let title=vod["title"].trim();let img=vod["cover"].trim();let remark=vod.new_ep?vod["new_ep"]["index_show"]:vod["index_show"];videos.push({vod_id:aid,vod_name:title,vod_pic:img,vod_remarks:remark})})}return videos}function get_rank(tid,pg){return get_result("https://api.bilibili.com/pgc/web/rank/list?season_type="+tid+"&pagesize=20&page="+pg+"&day=3")}function get_rank2(tid,pg){return get_result("https://api.bilibili.com/pgc/season/rank/web/list?season_type="+tid+"&pagesize=20&page="+pg+"&day=3")}function home_video(){let videos=get_rank(1).slice(0,5);[4,2,5,3,7].forEach(function(i){videos=videos.concat(get_rank2(i).slice(0,5))});return videos}VODS=home_video();',
+    一级: '',
+    一级: $js.toString(() => {
+		let d = [];
+		let vmid = input.split("vmid=")[1].split("&")[0];
+		function get_result(url) {
+			let videos = [];
+			let html = request(url);
+			let jo = JSON.parse(html);
+			if (jo["code"] === 0) {
+				let vodList = jo.result ? jo.result.list: jo.data.list;
+				vodList.forEach(function(vod) {
+					let aid = (vod["season_id"] + "").trim();
+					let title = vod["title"].trim();
+					let img = vod["cover"].trim();
+					let remark = vod.new_ep ? vod["new_ep"]["index_show"] : vod["index_show"];
+					videos.push({
+						vod_id: aid,
+						vod_name: title,
+						vod_pic: img,
+						vod_remarks: remark
+					})
+				})
+			}
+			return videos
+		}
+		function get_rank(tid, pg) {
+			return get_result("https://api.bilibili.com/pgc/web/rank/list?season_type=" + tid + "&pagesize=20&page=" + pg + "&day=3")
+		}
+		function get_rank2(tid, pg) {
+			return get_result("https://api.bilibili.com/pgc/season/rank/web/list?season_type=" + tid + "&pagesize=20&page=" + pg + "&day=3")
+		}
+		function get_zhui(pg, mode) {
+			let url = "https://api.bilibili.com/x/space/bangumi/follow/list?type=" + mode + "&follow_status=0&pn=" + pg + "&ps=10&vmid=" + vmid;
+			return get_result(url)
+		}
+		function get_all(tid, pg, order, season_status) {
+			let url = "https://api.bilibili.com/pgc/season/index/result?order=" + order + "&pagesize=20&type=1&season_type=" + tid + "&page=" + pg + "&season_status=" + season_status;
+			return get_result(url)
+		}
+		function get_timeline(tid, pg) {
+			let videos = [];
+			let url = "https://api.bilibili.com/pgc/web/timeline/v2?season_type=" + tid + "&day_before=2&day_after=4";
+			let html = request(url);
+			let jo = JSON.parse(html);
+			if (jo["code"] === 0) {
+				let videos1 = [];
+				let vodList = jo.result.latest;
+				vodList.forEach(function(vod) {
+					let aid = (vod["season_id"] + "").trim();
+					let title = vod["title"].trim();
+					let img = vod["cover"].trim();
+					let remark = vod["pub_index"] + "　" + vod["follows"].replace("系列", "");
+					videos1.push({
+						vod_id: aid,
+						vod_name: title,
+						vod_pic: img,
+						vod_remarks: remark
+					})
+				});
+				let videos2 = [];
+				for (let i = 0; i < 7; i++) {
+					let vodList = jo["result"]["timeline"][i]["episodes"];
+					vodList.forEach(function(vod) {
+						if (vod["published"] + "" === "0") {
+							let aid = (vod["season_id"] + "").trim();
+							let title = vod["title"].trim();
+							let img = vod["cover"].trim();
+							let date = vod["pub_ts"];
+							let remark = date + "   " + vod["pub_index"];
+							videos2.push({
+								vod_id: aid,
+								vod_name: title,
+								vod_pic: img,
+								vod_remarks: remark
+							})
+						}
+					})
+				}
+				videos = videos2.concat(videos1)
+			}
+			return videos
+		}
+		function cate_filter(d, cookie) {
+			//order 0 更新时间
+			//order 3 追番人数
+			//order 4 最高评分
+			//order 2 播放数量
 
-  
-  ],
-  "flags": [
-    "youku",
-    "优酷",
-    "优 酷",
-    "优酷视频",
-    "qq",
-    "腾讯",
-    "腾 讯",
-    "腾讯视频",
-    "iqiyi",
-    "qiyi",
-    "奇艺",
-    "爱奇艺",
-    "爱 奇 艺",
-    "m1905",
-    "xigua",
-    "letv",
-    "leshi",
-    "乐视",
-    "乐 视",
-    "sohu",
-    "搜狐",
-    "搜 狐",
-    "搜狐视频",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "芒果",
-    "imgo",
-    "芒果TV",
-    "芒 果 T V",
-    "bilibili",
-    "哔 哩",
-    "哔 哩 哔 哩"
-  ],
-  "rules": [
-    {
-      "name": "暴风",
-      "hosts": [
-        "bfzy",
-        "bfbfvip",
-        "bfengbf"
-      ],
-      "regex": [
-        "#EXTINF.*?\\s+.*?adjump.*?\\.ts"
-      ]
-    },
-    {
-      "name": "量子",
-      "hosts": [
-        "vip.lz",
-        "hd.lz",
-        ".cdnlz"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:4\\.066667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "17.19"
-      ]
-    },
-    {
-      "name": "非凡",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy",
-        "super.ffzy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1171(057).*?\\.ts",
-        "#EXTINF.*?\\s+.*?6d7b(077).*?\\.ts",
-        "#EXTINF.*?\\s+.*?6718a(403).*?\\.ts",
-        "17.99",
-        "14.45"
-      ]
-    },
-    {
-      "name": "索尼",
-      "hosts": [
-        "suonizy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
-        "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts"
-      ]
-    },
-    {
-      "name": "快看",
-      "hosts": [
-        "kuaikan"
-      ],
-      "regex": [
-        "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.467,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "一起看广告",
-      "hosts": [
-        "yqk88"
-      ],
-      "regex": [
-        "18.4",
-        "15.1666",
-        "16.5333",
-        "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
-      ]
-    },
-    {
-      "name": "proxy",
-      "hosts": [
-        "raw.githubusercontent.com",
-        "googlevideo.com",
-        "cdn.v82u1l.com",
-        "cdn.iz8qkg.com",
-        "cdn.kin6c1.com",
-        "c.biggggg.com",
-        "c.olddddd.com",
-        "haiwaikan.com",
-        "www.histar.tv",
-        "access.mypikpak.com",
-        "api-drive.mypikpak.com",
-        "user.mypikpak.com",
-        "youtube.com",
-        "uhibo.com",
-        "thze.cc",
-        ".*boku.*",
-        ".*nivod.*",
-        "*.t4tv.hz.cz",
-        ".*ulivetv.*"
-      ]
-    },
-    {
-      "host": "www.iesdouyin.com",
-      "rule": [
-        "playwm/?video_id="
-      ]
-    },
-    {
-      "host": "www.ysgc.vip",
-      "rule": [
-        "getm3u8?url=http"
-      ]
-    },
-    {
-      "host": "v.douyin.com",
-      "rule": [
-        "playwm/?video_id="
-      ]
-    },
-    {
-      "host": "dyxs20.com",
-      "rule": [
-        ".m3u8"
-      ]
-    },
-    {
-      "host": "www.agemys.cc",
-      "rule": [
-        "cdn-tos",
-        "obj/tos-cn"
-      ]
-    },
-    {
-      "host": "*",
-      "rule": [
-        "default.365yg.com"
-      ]
-    },
-    {
-      "host": "www.sharenice.net",
-      "rule": [
-        "qianpailive.com",
-        "vid="
-      ]
-    },
-    {
-      "host": "*",
-      "rule": [
-        "douyin.com/aweme",
-        "video_id="
-      ]
-    },
-    {
-      "host": "*",
-      "rule": [
-        "huoshan.com",
-        "/item/video/"
-      ]
-    },
-    {
-      "host": "*",
-      "rule": [
-        "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"
-      ]
-    },
-    {
-      "host": "*",
-      "rule": [
-        "http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"
-      ]
-    },
-    {
-      "name": "智能AI已过滤广告🥨欢迎继续收看节目",
-      "hosts": [
-        "http"
-      ],
-      "disable": [
-        "aliyuncs.com",
-        "olemovienews.com",
-        "ninjia.online",
-        "vdtuzv.com",
-        "json.icu",
-        "/asp/hls/",
-        "huya.com",
-        "zsyzcy.cn",
-        "/nby/",
-        "yjys.me",
-        "122.228.8.29:4433/Cache",
-        "huohua",
-        "cdn.json.icu"
-      ],
-      "rules": [
-        {
-          "regexp": "AI"
+			if (["4", "1", "2",  "5", "3", "7"].includes(MY_CATE)) {
+				//return get_rank2(MY_CATE, MY_PAGE)
+				let tid = MY_FL.tid || MY_CATE;
+				let order = MY_FL.order || "0";
+				let season_status = MY_FL.season_status || "-1";
+				return get_all(tid, MY_PAGE, order, season_status)
+			} else if (MY_CATE === "全部") {
+				let tid = MY_FL.tid || "1";
+				let order = MY_FL.order || "0";
+				let season_status = MY_FL.season_status || "-1";
+				return get_all(tid, MY_PAGE, order, season_status)
+			} else if (MY_CATE === "追番") {
+				return get_zhui(MY_PAGE, 1)
+			} else if (MY_CATE === "追剧") {
+				return get_zhui(MY_PAGE, 2)
+			} else if (MY_CATE === "时间表") {
+				let tid = MY_FL.tid || "1";
+				return get_timeline(tid, MY_PAGE)
+			} else {
+				return []
+			}
+		}
+		VODS = cate_filter();
+	}),
+    二级: $js.toString(() => {
+    function zh(num) {
+        let p = "";
+        if (Number(num) > 1e8) {
+            p = (num / 1e8).toFixed(2) + "亿"
+        } else if (Number(num) > 1e4) {
+            p = (num / 1e4).toFixed(2) + "万"
+        } else {
+            p = num
         }
-      ],
-      "toLog": 0
-    },
-    {
-      "name": "欧：智能AI已过滤广告🥨欢迎继续收看节目",
-      "hosts": [
-        "http"
-      ],
-      "disable": [
-        "aliyuncs.com",
-        "TVOD"
-      ],
-      "rules": [
-        {
-          "regexp": "AI2"
-        }
-      ],
-      "toLog": 0
-    },
-    {
-      "name": "抖音嗅探",
-      "hosts": [
-        "douyin.com"
-      ],
-      "regex": [
-        "is_play_url="
-      ]
-    },
-    {
-      "name": "农民嗅探",
-      "hosts": [
-        "toutiaovod.com"
-      ],
-      "regex": [
-        "video/tos/cn"
-      ]
+        return p
     }
-  ],
-  "ijk": [
-    {
-      "group": "软解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "5242880"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    },
-    {
-      "group": "硬解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "5242880"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    }
-  ],
-  "ads": [
-    "mimg.0c1q0l.cn",
-    "www.googletagmanager.com",
-    "www.google-analytics.com",
-    "mc.usihnbcq.cn",
-    "mg.g1mm3d.cn",
-    "mscs.svaeuzh.cn",
-    "cnzz.hhttm.top",
-    "tp.vinuxhome.com",
-    "cnzz.mmstat.com",
-    "www.baihuillq.com",
-    "s23.cnzz.com",
-    "z3.cnzz.com",
-    "c.cnzz.com",
-    "stj.v1vo.top",
-    "z12.cnzz.com",
-    "img.mosflower.cn",
-    "tips.gamevvip.com",
-    "ehwe.yhdtns.com",
-    "xdn.cqqc3.com",
-    "www.jixunkyy.cn",
-    "sp.chemacid.cn",
-    "hm.baidu.com",
-    "s9.cnzz.com",
-    "z6.cnzz.com",
-    "um.cavuc.com",
-    "mav.mavuz.com",
-    "wofwk.aoidf3.com",
-    "z5.cnzz.com",
-    "xc.hubeijieshikj.cn",
-    "tj.tianwenhu.com",
-    "xg.gars57.cn",
-    "k.jinxiuzhilv.com",
-    "cdn.bootcss.com",
-    "ppl.xunzhuo123.com",
-    "xomk.jiangjunmh.top",
-    "img.xunzhuo123.com",
-    "z1.cnzz.com",
-    "s13.cnzz.com",
-    "xg.huataisangao.cn",
-    "z7.cnzz.com",
-    "xg.huataisangao.cn",
-    "z2.cnzz.com",
-    "s96.cnzz.com",
-    "q11.cnzz.com",
-    "thy.dacedsfa.cn",
-    "xg.whsbpw.cn",
-    "s19.cnzz.com",
-    "z8.cnzz.com",
-    "s4.cnzz.com",
-    "f5w.as12df.top",
-    "ae01.alicdn.com",
-    "www.92424.cn",
-    "k.wudejia.com",
-    "vivovip.mmszxc.top",
-    "qiu.xixiqiu.com",
-    "cdnjs.hnfenxun.com",
-    "cms.qdwght.com"
-  ]
+    let html = request(input);
+    let jo = JSON.parse(html).result;
+    let id = jo["season_id"];
+    let title = jo["show_title"];
+    let pic = jo["cover"];
+    let areas = jo["areas"][0]["name"];
+    let typeName = jo["share_sub_title"];
+    let date = jo["publish"]["pub_time"].substr(0, 4);
+    let dec = jo["evaluate"];
+    let remark = jo["new_ep"]["desc"];
+    let stat = jo["stat"];
+    let status = "弹幕: " + zh(stat["danmakus"]) + "　点赞: " + zh(stat["likes"]) + "　投币: " + zh(stat["coins"]) + "　追番追剧: " + zh(stat["favorites"]);
+    let score = jo.hasOwnProperty("rating") ? "评分: " + jo["rating"]["score"] + "　" + jo["subtitle"] : "暂无评分" + "　" + jo["subtitle"];
+    let vod = {
+        vod_id: id,
+        vod_name: title,
+        vod_pic: pic,
+        type_name: typeName,
+        vod_year: date,
+        vod_area: areas,
+        vod_remarks: remark,
+        vod_actor: status,
+        vod_director: score,
+        vod_content: dec
+    };
+    let ja = jo["episodes"];
+    let playurls = [];
+    ja.forEach(function(tmpJo) {
+        if (tmpJo["show_title"].includes("预告")) {
+            return;
+        } let eid = tmpJo["id"]; let cid = tmpJo["cid"]; let link = tmpJo["link"]; let part = tmpJo["show_title"].replace("#", "-");
+        playurls.push(part + "$" + link);
+    });let playUrl = playurls.join("#");vod["vod_play_from"] = "bilibili";vod["vod_play_url"] = playUrl;
+    VOD = vod;
+}),
+    搜索:'',
+    搜索: 'js:let url1=input+"media_bangumi";let url2=input+"media_ft";let html=request(url1);let msg=JSON.parse(html).message;if(msg!=="0"){VODS=[{vod_name:KEY+"➢"+msg,vod_id:"no_data",vod_remarks:"别点,缺少bili_cookie",vod_pic:"https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/404.jpg"}]}else{let jo1=JSON.parse(html).data;html=request(url2);let jo2=JSON.parse(html).data;let videos=[];let vodList=[];if(jo1["numResults"]===0){vodList=jo2["result"]}else if(jo2["numResults"]===0){vodList=jo1["result"]}else{vodList=jo1["result"].concat(jo2["result"])}vodList.forEach(function(vod){let aid=(vod["season_id"]+"").trim();let title=KEY+"➢"+vod["title"].trim().replace(\'<em class="keyword">\',"").replace("</em>","");let img=vod["cover"].trim();let remark=vod["index_show"];videos.push({vod_id:aid,vod_name:title,vod_pic:img,vod_remarks:remark})});VODS=videos}',
 }
