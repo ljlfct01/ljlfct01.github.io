@@ -67,50 +67,8 @@
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
 
-    {
-      "key": "csp_Netfixtv",
-      "name": "💌┃️至臻┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png;md5;eadaaee8e25f5d590dc4f40488207d0d",
-      "filterable": 1,
-      "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-        "dutoken": "assets://ls/2",
-        "site_urls": [
-          "http://xiaomi666.fun",
-          "https://zhizhen1.top",
-          "https://mihdr.top",
-          "https://www.mihdr.top",
-          "http://www.miqk.cc",
-          "https://www.zhizhenpan.fun"
-        ],
-        "url_key": "Netfixtv2",
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        }
-      }
-    },
-    {
-      "key": "二小",
-      "name": "🦢二小┃4K",
-      "type": 3,
-      "api": "csp_ErXiaoGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-    "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-         "dutoken": "assets://ls/2",
-        "danmu": true
-          },
-      "timeout": 25
-    },
+
+
     {
       "key": "双星",
       "name": "🤩双星┃4K",
