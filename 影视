@@ -66,121 +66,245 @@
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
+
+  
+    {
+      "key": "二小",
+      "name": "🦢二小┃4K",
+      "type": 3,
+      "api": "csp_ErXiaoGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
+    },
     {
       "key": "双星",
-      "name": "☘️机哥剧圈（4K测试②）☘️",
+      "name": "🤩双星┃4K",
       "type": 3,
       "api": "csp_Star2Guard",
      "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
-      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "ext": {
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
+    },
+    {
+      "key": "玩偶",
+      "name": "👽玩偶┃4K",
+      "type": 3,
+      "api": "csp_WoggGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
       "filterable": 1,
       "changeable": 1,
       "ext": {
         "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
-      }
-    },
-  
-    {
-      "key": "网盘虎斑",
-      "name": "🐯虎斑|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
-        "uccookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "tuctoken": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "site": "http://103.45.162.207:20720/"
-      }
+      },
+      "timeout": 30
     },
     {
-      "key": "傻样",
-      "name": "💒傻样|4k网盘",
+      "key": "立播版",
+      "name": "🌟立播┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_LibvioGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
       "ext": {
-        "site": "http://xsayang.fun:12512/"
-      }
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 30
     },
     {
-      "key": "玩偶哥哥",
-      "name": "👽玩偶|4k网盘",
+      "key": "蜡笔",
+      "name": "👠蜡笔┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Wogg",
+      "api": "csp_LabiGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://wogg.xxooo.cf/"
-      }
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
     },
     {
-      "key": "P123",
-      "name": "🪵木偶|4k网盘",
+      "key": "木偶",
+      "name": "🪵木偶┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_MuouGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "http://123.666291.xyz/"
-      }
-    },
-    {
-      "key": "至臻",
-      "name": "💌至臻|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "ext": {
-        "site": "https://mihdr.top/"
-      }
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
     },
     {
       "key": "多多",
-      "name": "💖多多|4k网盘",
+      "name": "🪅多多┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_DuoDuoGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://tv.yydsys.top/"
-      }
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
     },
     {
-      "key": "ou多",
-      "name": "🤩讴歌|4k网盘",
+      "key": "小飒",
+      "name": "💒小飒┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_XsayangGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://woog.nxog.eu.org/"
-      }
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
     },
     {
-      "key": "米",
-      "name": "🤩小米|4k网盘",
+      "key": "至臻",
+      "name": "💌至臻┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_ZhiZhenGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "http://xiaomi666.fun"
-      }
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
     },
     {
-      "key": "二小",
-      "name": "🤩二小|4k网盘",
+      "key": "虎斑",
+      "name": "🐯虎斑┃4K",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
+      "api": "csp_HuBanGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
       "ext": {
-        "site": "https://xhww.net"
-      }
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
     },
-
+    {
+      "key": "SeedHub",
+      "name": "🍀种子┃4K",
+      "type": 3,
+      "api": "csp_SeedHubGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
+    },
+    {
+      "key": "光影",
+      "name": "🎥光影┃4K",
+      "type": 3,
+      "api": "csp_GuanyingGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 30
+    },
+    {
+      "key": "云集",
+      "name": "🍊云集┃4K",
+      "type": 3,
+      "api": "csp_YunJiGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
+    },
+    {
+      "key": "极狐",
+      "name": "🦊极狐┃4K",
+      "type": 3,
+      "api": "csp_Fox4kGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      },
+      "timeout": 25
+    },
 
 
 
