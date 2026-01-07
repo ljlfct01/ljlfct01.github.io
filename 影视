@@ -66,155 +66,106 @@
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
-
-
-
     {
-      "key": "双星",
-      "name": "🤩双星┃4K",
+      "key": "网盘虎斑",
+      "name": "🐯虎斑|4k网盘",
       "type": 3,
-      "api": "csp_Star2Guard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      },
-     "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-        "dutoken": "assets://ls/2",
-        "danmu": true
-      },
-      "timeout": 25
-    },
-
-    {
-      "key": "玩偶",
-      "name": "👽玩偶┃4K",
-      "type": 3,
-      "api": "csp_WoggGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-     "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-        "dutoken": "assets://ls/2",
-        "danmu": true
-      },
-      "timeout": 30
-    },
-    {
-      "key": "木偶",
-      "name": "🪵木偶┃4K",
-      "type": 3,
-      "api": "csp_MuouGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
         "dutoken": "assets://ls/2",
-        "danmu": true
-      },
-      "timeout": 25
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
+        "cookie": "assets://ls/1",
+        "uccookie": "assets://ls/3",
+        "tuctoken": "assets://ls/3",
+        "site": "http://103.45.162.207:20720/"
+      }
     },
     {
-      "key": "小飒",
-      "name": "💒小飒┃4K",
+      "key": "傻样",
+      "name": "💒傻样|4k网盘",
       "type": 3,
-      "api": "csp_XsayangGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-         "dutoken": "assets://ls/2",
-        "danmu": true
-      },
-      "timeout": 25
+        "site": "http://xsayang.fun:12512/"
+      }
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "👽玩偶|4k网盘",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_Wogg",
+      "ext": {
+        "site": "https://wogg.xxooo.cf/"
+      }
+    },
+    {
+      "key": "P123",
+      "name": "🪵木偶|4k网盘",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "http://123.666291.xyz/"
+      }
     },
     {
       "key": "至臻",
-      "name": "💌至臻┃4K",
+      "name": "💌至臻|4k网盘",
       "type": 3,
-      "api": "csp_ZhiZhenGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-        "dutoken": "assets://ls/2",
-        "danmu": true
-      },
-      "timeout": 25
+        "site": "https://mihdr.top/"
+      }
     },
     {
-      "key": "虎斑",
-      "name": "🐯虎斑┃4K",
+      "key": "多多",
+      "name": "💖多多|4k网盘",
       "type": 3,
-      "api": "csp_HuBanGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-         "dutoken": "assets://ls/2",
-        "danmu": true
-      },
-      "timeout": 25
+        "site": "https://tv.yydsys.top/"
+      }
     },
     {
-      "key": "蜡笔",
-      "name": "👠蜡笔┃4K",
+      "key": "ou多",
+      "name": "🤩讴歌|4k网盘",
       "type": 3,
-      "api": "csp_LabiGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-        "dutoken": "assets://ls/2",
-        "danmu": true
-      },
-      "timeout": 25
+        "site": "https://woog.nxog.eu.org/"
+      }
     },
     {
-      "key": "多多弹幕",
-      "name": "💖多多┃4K弹幕",
+      "key": "米",
+      "name": "🤩小米|4k网盘",
       "type": 3,
-      "api": "csp_DuoDuoGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-         "cookie": "assets://ls/1",
-        "uc_cookie": "assets://ls/3",
-        "dutoken": "assets://ls/2",
-        "danmu": true
-      },
-      "timeout": 25
+        "site": "http://xiaomi666.fun"
+      }
     },
+    {
+      "key": "二小",
+      "name": "🤩二小|4k网盘",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "https://xhww.net"
+      }
+    },
+
+
+
 
 
     {
