@@ -337,11 +337,18 @@
       "api": "csp_HBconfig"
     },
     {
-      "key": "tenteng",
-      "name": "落日|自定",
+      "key": "景天",
+      "name": "景天|4K弹幕",
       "type": 3,
-      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/腾腾.js"
+      "api": "csp_HBcms10Dou",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
+    },
+    {
+      "key": "茂茂",
+      "name": "茂茂|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
       {
       "key": "新腾极4k",
