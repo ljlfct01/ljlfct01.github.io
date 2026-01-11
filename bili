@@ -30,7 +30,7 @@ var rule = {
     headers:{
         'User-Agent':'PC_UA',
         "Referer": "https://www.bilibili.com",
-        "Cookie":"https://file.999222000.xyz/f/xeAsA/bilicookie.txt"
+        "Cookie":"https://api.69mini.com/bili/3Sa1B.@8.txt"
     },
     tab_order:['bilibili','B站'],//线路顺序,按里面的顺序优先，没写的依次排后面
     timeout:5000,
