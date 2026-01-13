@@ -1,5 +1,5 @@
 {
-  "spider": "",
+  "spider": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;207d2336efdb5eb9770f6481c7d24e97",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -315,7 +315,32 @@
 
   ],
   "sites": [
-
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "导航|小虎斑的口粮",
+      "type": 3,
+      "api": "csp_Douban",
+      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
+    },
+    {
+      "key": "提醒",
+      "api": "csp_Douban2",
+      "name": "仅用作学习交流使用，请于24小时之内进行清除",
+      "type": 3
+    },
+    {
+      "key": "测试",
+      "name": "应用|更新",
+      "type": 3,
+      "api": "csp_Market",
+      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
+    },
+    {
+      "key": "设置",
+      "name": "网弹|设置",
+      "type": 3,
+      "api": "csp_Config"
+    },
 
       {
       "key": "新腾极4k",
@@ -639,8 +664,7 @@
     {
       "name": "自定：请先设置",
       "type": 1,
-      "url": "http://103.163.47.120:7777/api/?key=mTjnoJuwkXU55DgDDN&url="
-
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
     },
     {
       "name": "晴天4K Q1026038872",
