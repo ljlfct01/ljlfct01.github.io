@@ -561,22 +561,7 @@
     }
   ],
   "parses": [
-    {
-      "name": "极速",
-      "type": 1,
-      "url": "http://192.140.163.220:6752/api/index?parsesId=27&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速1",
-      "type": 1,
-      "url": "http://192.140.163.220:6752/api/index?parsesId=28&appid=10000&videoUrl=" 
-}, 
 
-    {
-      "name": "极速2",
-      "type": 1,
-      "url": "http://192.140.163.220:6758/api/index?parsesId=35&appid=10000&videoUrl="
-    }  
   ], 
 
   "rules": [
@@ -871,3 +856,4 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
