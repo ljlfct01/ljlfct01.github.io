@@ -621,25 +621,75 @@
       "timeout": 25
     },
 
-        {
-            "key": "猫抓",
-            "name": "猫抓",
-            "type": 3,
-            "api": "csp_AppGet",
-            "jar": "https://img2.gelonghui.com/library/caa22-82cdc278-148a-46bf-9aaf-c6aee2b5d124.png;md5;caa22b5d283ec2bdc63f65b9310ea232",
-            "ext": "https://www.mfsp4k.top|1234567887654321"
-        },
 
-    {
-      "key": "立播",
-      "name": "💖免扫网盘❺|4K",
-      "type": 4,
-      "api": "http://8088880.xyz:8080/video/libo?token=698d04ebe00a6369",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    }
+
+        {
+            "key": "labi",
+            "name": "白嫖｜蜡笔｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/labi?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "木偶",
+            "name": "白嫖｜木偶｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/muou?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "categories": [
+                "电影",
+                "剧集",
+                "动漫",
+                "短剧",
+                "纪录片"
+            ]
+        },
+        {
+            "key": "ouge",
+            "name": "白嫖｜讴歌｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/ouge?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "libo",
+            "name": "白嫖｜立播｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/libo?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "xbky",
+            "name": "白嫖｜快映｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/xbky?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "huban",
+            "name": "白嫖｜虎斑｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/hb?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        }
 
 
 
