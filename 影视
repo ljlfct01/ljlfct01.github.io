@@ -1,5 +1,5 @@
 {
-  "spider": "./ls/moyu.php;md5;f5a2aa9e1417fc4f2dbecaed17c3cfd2",
+  "spider": "./res/moyu/moyu.php;md5;f5a2aa9e1417fc4f2dbecaed17c3cfd2",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -315,32 +315,7 @@
 
   ],
   "sites": [
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "导航|小虎斑的口粮",
-      "type": 3,
-      "api": "csp_Douban",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
-    },
-    {
-      "key": "提醒",
-      "api": "csp_Douban2",
-      "name": "仅用作学习交流使用，请于24小时之内进行清除",
-      "type": 3
-    },
-    {
-      "key": "测试",
-      "name": "应用|更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
-    },
-    {
-      "key": "设置",
-      "name": "网弹|设置",
-      "type": 3,
-      "api": "csp_Config"
-    },
+
 
       {
       "key": "新腾极4k",
@@ -420,6 +395,7 @@
       "name": "醉挽｜清风",
       "type": 4,
       "api": "http://我不是.摸鱼儿.com/api/yyutx.php",
+     "jar": "./res/moyu/moyu.php;md5;f5a2aa9e1417fc4f2dbecaed17c3cfd2",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
