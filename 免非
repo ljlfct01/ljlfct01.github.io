@@ -564,19 +564,99 @@
     {
       "name": "极速",
       "type": 1,
-      "url": "http://192.140.162.186:6163/api/index?parsesId=4&appid=10002&videoUrl="
+      "url": "http://192.140.162.186:6163/api/index?parsesId=3&appid=10002&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "爱奇艺",
+          "qiyi",
+          "腾讯视频",
+          "腾讯",
+          "youku",
+          "芒果TV",
+          "mgTV",
+          "八戒影视",
+          "imgo",
+          "letv",
+          "乐视视频",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
     },
     {
       "name": "极速1",
       "type": 1,
-      "url": "http://192.140.162.186:6163/api/index?parsesId=5&appid=10002&videoUrl=" 
-}, 
-
+      "url": "http://192.140.162.186:6163/api/index?parsesId=4&appid=10002&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "bilibili"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+      }
+    },
     {
       "name": "极速2",
       "type": 1,
-      "url": "http://192.140.162.186:6163/api/index?parsesId=6&appid=10002&videoUrl="
-    }  
+      "url": "http://192.140.162.186:6163/api/index?parsesId=5&appid=10002&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "极速3",
+      "type": 1,
+      "url": "http://192.140.162.186:6163/api/index?parsesId=6&appid=10002&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+      }
+    }
+
   ], 
 
   "rules": [
