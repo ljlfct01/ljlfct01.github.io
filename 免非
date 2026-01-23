@@ -4,26 +4,22 @@
   "sites": [
   
   
-    
-         {
-      "key": "腾讯视频",
-      "name": "👑TT｜4K",
-      "type": 3,
-     "jar": "http://192.140.163.220:8066/yyxl/svip/lib/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
-      "api": "http://192.140.163.220:8066/yyxl/svip/lib/drpy2.min.js",
-      "ext": "http://192.140.163.220:8066/yyxl/svip/lib/腾讯视频.js"
-    },
-  
-  
-  
-           {
-      "key": "芒果视频",
-      "name": "👑MM｜4K",
-      "type": 3,
-       "jar": "http://192.140.163.220:8066/yyxl/svip/lib/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
-      "api": "http://192.140.163.220:8066/yyxl/svip/lib/drpy2.min.js",
-      "ext": "http://192.140.163.220:8066/yyxl/svip/lib/芒果视频.js"
-    },
+       {
+            "key": "腾讯视频",
+            "name": "腾讯视频🐧",
+            "type": 3,
+            "changeable": 1,
+            "api": "https://gitee.com/xuyicheng11/baipiaoya/raw/master/lib/drpy2.min.js",
+            "ext": "https://codeberg.org/hydqw456/mohe/raw/branch/main/41/41.js"
+        },
+        {
+            "key": "芒果视频",
+            "name": "芒果视频🥭",
+            "type": 3,
+            "changeable": 1,
+            "api": "https://gitee.com/xuyicheng11/baipiaoya/raw/master/lib/drpy2.min.js",
+            "ext": "https://codeberg.org/hydqw456/mohe/raw/branch/main/51/51.js"
+        },
     
 
           {
