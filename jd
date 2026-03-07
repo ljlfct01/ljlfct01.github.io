@@ -138,11 +138,7 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
- - { name: 电信-香港-B, type: vless, server: 103.219.102.108, port: 9905, uuid: d4be533e-1b94-4aa9-8fc3-48ff390b8950, alterId: 1, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, servername: www.apple.com, reality-opts: { public-key: 4V1BNAMotqE33E7jkAzqKfK3reF75KHWwgf7s2H0eQY, short-id: 5bbb8e129ee27c7d }, client-fingerprint: chrome }
- - { name: 移动-香港-B, type: vless, server: 211.161.110.70, port: 9905, uuid: d4be533e-1b94-4aa9-8fc3-48ff390b8950, alterId: 1, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, servername: www.apple.com, reality-opts: { public-key: 4V1BNAMotqE33E7jkAzqKfK3reF75KHWwgf7s2H0eQY, short-id: 5bbb8e129ee27c7d }, client-fingerprint: firefox }
- - { name: 电信-香港-C, type: vless, server: 103.219.102.100, port: 9905, uuid: d4be533e-1b94-4aa9-8fc3-48ff390b8950, alterId: 1, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, servername: www.apple.com, reality-opts: { public-key: 4V1BNAMotqE33E7jkAzqKfK3reF75KHWwgf7s2H0eQY, short-id: 5bbb8e129ee27c7d }, client-fingerprint: firefox }
- - { name: 移动-香港-C, type: vless, server: 211.161.110.67, port: 9905, uuid: d4be533e-1b94-4aa9-8fc3-48ff390b8950, alterId: 1, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, servername: www.apple.com, reality-opts: { public-key: 4V1BNAMotqE33E7jkAzqKfK3reF75KHWwgf7s2H0eQY, short-id: 5bbb8e129ee27c7d }, client-fingerprint: firefox }
- - { name: 电信-香港-D, type: vless, server: 45.251.0.110, port: 9905, uuid: d4be533e-1b94-4aa9-8fc3-48ff390b8950, alterId: 1, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, servername: www.apple.com, reality-opts: { public-key: 4V1BNAMotqE33E7jkAzqKfK3reF75KHWwgf7s2H0eQY, short-id: 5bbb8e129ee27c7d }, client-fingerprint: ios }
+
 
 
   
