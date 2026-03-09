@@ -682,7 +682,29 @@
       "url": "Web"
     },
     {
-      "name": "虾米",
+      "name": "极速1",
+      "type": 0,
+      "url": "http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+
+    {
+      "name": "极速2",
+      "type": 0,
+      "url": "http://61.184.23.217:6163/api/index?parsesId=5&appid=10002&videoUrl=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+
+    {
+      "name": "极速3",
       "type": 0,
       "url": "http://61.184.23.217:6163/api/index?parsesId=6&appid=10002&videoUrl=",
       "ext": {
