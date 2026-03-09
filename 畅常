@@ -666,16 +666,7 @@
     }
   ],
   "parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
+
     {
       "name": "自定：请先设置",
       "type": 1,
@@ -684,7 +675,7 @@
     {
       "name": "晴天4K Q1026038872",
       "type": 1,
-      "url": "http://192.140.163.242:6199/api/index?parsesId=24&appid=10000&videoUrl="
+      "url": "http://154.8.225.238:9991/api/index?parsesId=14&appid=10000&videoUrl="
     },
     {
       "name": "虎斑XM",
@@ -1087,3 +1078,4 @@
     "vip.ffzyad.com"
   ]
 }
+
