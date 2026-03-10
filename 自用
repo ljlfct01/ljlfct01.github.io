@@ -40,43 +40,19 @@
 
   ],
   "parses": [
-    {
-      "name": "聚合",
-      "type": 3,
-      "url": "Web"
-    },
-    {
-      "name": "极速1",
-      "type": 0,
-      "url": "http://14.103.129.80:777/api/index?parsesId=1&appid=10000&videoUrl=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-        }
-      }
-    },
 
     {
-      "name": "极速2",
+      "name": "极速",
       "type": 0,
-      "url": "http://61.184.23.217:6163/api/index?parsesId=5&appid=10002&videoUrl=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-        }
-      }
-    },
-
-    {
-      "name": "极速3",
-      "type": 0,
-      "url": "http://61.184.23.217:6163/api/index?parsesId=6&appid=10002&videoUrl=",
+      "url": "https://tv.69mini.com/api/index?parsesId=3&appid=10002&videoUrl=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
         }
       }
     }
+
+
 
   ],
   "flags": [
