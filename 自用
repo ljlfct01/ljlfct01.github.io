@@ -4,20 +4,13 @@
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
     {
-      "name": "feiyang",
+      "name": "🐅昭昭TV",
       "type": 0,
-      "url": "https://sub.ottiptv.cc/iptv.m3u",
+      "url": "http://38.75.136.137:88/api/tvlist.php",
       "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
-    },
-    {
-      "name": "iptv-api",
-      "type": 0,
-      "url": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/bestpvp/iptv-api/refs/heads/master/output/ipv4/result.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     },
     {
       "name": "88KQ直播源",
