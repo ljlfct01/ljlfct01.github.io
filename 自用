@@ -83,7 +83,7 @@
 
     {
       "key": "drpy_js_豆瓣",
-      "name": "导航|新春贺喜(虎)",
+      "name": "豆瓣",
       "type": 3,
       "api": "csp_Douban",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
@@ -146,43 +146,7 @@
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
 
-    {
-      "key": "🐍 猎手 | PY",
-      "name": "🐍 猎手 | PY",
-      "type": 3,
-      "api": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/py_%E7%94%B5%E5%BD%B1%E7%8C%8E%E6%89%8B.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "🐍 外国剧 | PY",
-      "name": "🐍 外国剧 | PY",
-      "type": 3,
-      "api": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/py_guowaiju.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "🐍 华数 | PY",
-      "name": "🐍 华数 | PY",
-      "type": 3,
-      "api": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/hua.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 1
-    },
-    {
-      "key": "🐍 PP | PY",
-      "name": "🐍 PP | PY",
-      "type": 3,
-      "api": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/pp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
+
     {
       "key": "🚀 火狐 | T4",
       "name": "🚀 火狐 | T4",
@@ -227,22 +191,8 @@
       "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=14&appid=10000&videoUrl="
    
-    },
-    {
-      "name": "WEB解析",
-      "type": 0,
-      "url": ""
-    },
-    {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
     }
+
 
   ],
   "rules": [
