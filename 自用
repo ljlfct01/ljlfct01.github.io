@@ -81,8 +81,44 @@
   ],
   "sites": [
 
-
-
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "导航|新春贺喜(虎)",
+      "type": 3,
+      "api": "csp_Douban",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
+      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
+    },
+    {
+      "key": "设置",
+      "name": "网弹|设置",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
+    },
+    {
+      "key": "景天",
+      "name": "景天|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
+    },
+    {
+      "key": "茂茂",
+      "name": "茂茂|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
+    },
     {
       "key": "🈵 茶烟书韵 | 解析",
       "name": "🈵 茶烟书韵 | 解析",
