@@ -103,24 +103,34 @@
         "ratio": 1.618
       }
     },
-       {
-      "key": "新腾极4k",
-      "name": "💖新腾极4k",
-      "type": 3,
-      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+            {
+      "key": "腾讯弹幕",
+      "name": "👑 腾讯┃SVIP🥇",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "http://wang.qijiyun.vip/暗黑4k奇迹/lib/暗黑4k奇迹.js"
+      "type": 3,
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://154.8.225.238:9991/cang/lib/腾讯弹幕.js"
+    },
+      {
+      "key": "芒果视频",
+      "name": "👑 芒果┃SVIP",
+      "type": 3,
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
     },
     {
-      "key": "芒果弹幕",
-      "name": "💖新芒果4k",
+      "key": "爱奇艺",
+      "name": "👑 爱奇艺┃SVIP",
       "type": 3,
-      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
-      "ext": "http://wang.qijiyun.vip/暗黑4k奇迹/lib/暗黑4k奇迹mg.js"
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://154.8.225.238:9991/cang/lib/爱奇艺.js"
+    },
+     {
+      "key": "hipy_js_优酷[官]",
+      "name": "👑 优酷┃SVIP",
+      "type": 3,
+      "api": "http://210.16.170.84:8866/apia/zjys9/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/lib1/youku.js"
     },
  {
       "key": "哔哩哔哩",
