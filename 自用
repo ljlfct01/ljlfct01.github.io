@@ -1,7 +1,7 @@
 {
   "spider": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;c776d10d6247f1b71587d345272043ed",
-  "wallpaper": "",
-  "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
+  "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
+  "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
     {
       "name": "🐅昭昭TV",
@@ -191,8 +191,20 @@
         "日本动漫",
         "欧美动漫"
       ]
+    },
+    {
+      "key": "提醒",
+      "api": "csp_Douban2",
+      "name": "仅用作学习交流使用，请于24小时之内进行清除",
+      "type": 3
+    },
+    {
+      "key": "测试",
+      "name": "应用|更新",
+      "type": 3,
+      "api": "csp_Market",
+      "ext": "aHR0cHM6Ly94aWFvaHViYW4uY24tbmIxLnJhaW5zMy5jb20vbWFyay5qc29u"
     }
-
 
   ],
   "parses": [
