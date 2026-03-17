@@ -105,10 +105,9 @@
     },
     {
       "key": "lvdou",
-      "name": "Pan | 来自全能（已停）",
+      "name": "👑 臻彩┃SVIP",
       "type": 3,
       "api": "http://202.189.11.83:8866/asdasd/py/%E8%A7%82%E5%BD%B1.py",
-
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -116,7 +115,7 @@
     },
             {
       "key": "腾讯弹幕",
-      "name": "👑 腾讯┃SVIP🥇",
+      "name": "👑 腾讯┃SVIP",
       "searchable": 1,
       "type": 3,
       "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
@@ -234,6 +233,11 @@
       "name": "极速4",
       "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=4&appid=10000&videoUrl="
+    },
+    {
+      "name": "自定：请先设置",
+      "type": 1,
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
     }
   ],
   "rules": [
