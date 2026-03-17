@@ -88,8 +88,59 @@
       "api": "http://202.189.11.83:8866/asdasd/py/%E8%A7%82%E5%BD%B1.py",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
-   
+      "filterable": 0    
+},
+  {
+      "key": "腾讯弹幕",
+      "name": "👑 腾讯┃SVIP",
+      "searchable": 1,
+      "type": 3,
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://154.8.225.238:9991/cang/lib/腾讯弹幕.js"
+    },
+      {
+      "key": "芒果视频",
+      "name": "👑 芒果┃SVIP",
+      "type": 3,
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
+    },
+ {
+      "key": "哔哩哔哩",
+      "name": "👑哔哩┃SVIP",
+      "type": 3,
+      "api": "http://mlwl.top:67/lib/drpy2.min.js",
+      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
+    },
+    {
+      "key": "景天",
+      "name": "👑景天|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
+    },
+    {
+      "key": "茂茂",
+      "name": "👑茂茂|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
+    },
+    {
+      "key": "爱奇艺",
+      "name": "👑 爱奇艺┃SVIP",
+      "type": 3,
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://154.8.225.238:9991/cang/lib/爱奇艺.js"
+    },
+     {
+      "key": "hipy_js_优酷[官]",
+      "name": "👑 优酷┃SVIP",
+      "type": 3,
+      "api": "http://210.16.170.84:8866/apia/zjys9/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/lib1/youku.js"
     }
 
   ],
