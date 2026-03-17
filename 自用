@@ -234,10 +234,34 @@
       "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=4&appid=10000&videoUrl="
     },
-    {
-      "name": "自定：请先设置",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
+   {
+      "name": "云",
+      "type": 0,
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
     }
   ],
   "rules": [
