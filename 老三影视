@@ -127,6 +127,18 @@
       "api": "csp_HBcms10Dou",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
+    },    
+    {
+      "key": "Zwqf",
+      "name": "鱼->醉挽｜清风",
+      "type": 3,
+      "api": "csp_Zwqf",
+      "searchable": 1,
+      "ext": {
+        "url": "https://fishapi.wya6.com/fish/qingfeng/moyu.php",
+        "token": "moyu996"
+      },
+      "jar": "https://pubali.oss-cn-hangzhou.aliyuncs.com/20260317/010702_/ZKIO1gGSaJRo/fish03170106.php;md5;30687668c3a53f274232a5aef02c4ced"
     },
     {
       "key": "爱奇艺",
