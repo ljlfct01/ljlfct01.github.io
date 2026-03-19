@@ -235,36 +235,8 @@
       "name": "极速4",
       "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=4&appid=10000&videoUrl="
-    },
-   {
-      "name": "云",
-      "type": 0,
-      "url": "http://45.207.199.174:3500/api/index?parsesId=43&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
     }
+
   ],
   "rules": [
     {
