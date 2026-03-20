@@ -114,7 +114,27 @@
       "filterable": 1,
       "ext": "http://cms.9513tv.vip/api.php/app/"
     },
-
+         {"key":"腾讯弹幕",
+         "name":"🦄腾讯视频｜追剧",
+         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+         "type":3,
+         "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+         "searchable":1,
+         "quickSearch":0,
+         "changeable":1,
+         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
+         },
+         {
+         "key":"芒果弹幕",
+         "name":"🦄芒果视频｜追剧",
+         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+          "type":3,
+          "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+          "searchable":1,
+          "quickSearch":0,
+          "changeable":1,
+           "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
+           },
             {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
