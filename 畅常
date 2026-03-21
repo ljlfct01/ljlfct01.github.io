@@ -103,21 +103,28 @@
       "quickSearch": 1,
       "filterable": 0    
 },
-  {
-      "key": "腾讯弹幕",
-      "name": "👑 腾讯┃SVIP",
-      "searchable": 1,
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/腾讯弹幕.js"
-    },
-      {
-      "key": "芒果视频",
-      "name": "👑 芒果┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
-    },
+        {"key":"腾讯弹幕",
+         "name":"🦄腾讯视频｜追剧",
+         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+         "type":3,
+         "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+         "searchable":1,
+         "quickSearch":0,
+         "changeable":1,
+         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
+         },
+         {
+         "key":"芒果弹幕",
+         "name":"🦄芒果视频｜追剧",
+         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+          "type":3,
+          "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+          "searchable":1,
+          "quickSearch":0,
+          "changeable":1,
+           "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
+           },
+    {
  {
       "key": "哔哩哔哩",
       "name": "👑哔哩┃SVIP",
@@ -143,30 +150,17 @@
     },    
     {
       "key": "Zwqf",
-      "name": "鱼->醉挽｜清风",
+      "name": "👑醉挽｜清风",
       "type": 3,
       "api": "csp_Zwqf",
       "searchable": 1,
       "ext": {
-        "url": "https://fishapi.wya6.com/fish/qingfeng/moyu.php",
+        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
         "token": "moyu996"
       },
-      "jar": "https://pubali.oss-cn-hangzhou.aliyuncs.com/20260317/010702_/ZKIO1gGSaJRo/fish03170106.php;md5;30687668c3a53f274232a5aef02c4ced"
-    },
-    {
-      "key": "爱奇艺",
-      "name": "👑 爱奇艺┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/爱奇艺.js"
-    },
-     {
-      "key": "hipy_js_优酷[官]",
-      "name": "👑 优酷┃SVIP",
-      "type": 3,
-      "api": "http://210.16.170.84:8866/apia/zjys9/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/lib1/youku.js"
+      "jar": "https://pubali.oss-cn-hangzhou.aliyuncs.com/20260320/125631_/1kDyuccNe5jH/fish03201256.php;md5;c86f495f6bf6f0164efa143c4b8469ec"
     }
+
 
   ],
   "parses": [
