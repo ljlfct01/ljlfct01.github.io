@@ -209,6 +209,47 @@
       "type": 3,
       "api": "http://210.16.170.84:8866/apia/zjys9/drpy_libs/drpy2.min.js",
       "ext": "https://app.69mini.com/lib1/youku.js"
+    },
+    {
+      "key": "邵氏资源",
+      "name": "🥝爱看┃邵氏影视",
+      "type": 1,
+      "api": "https://p2100.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "邵氏大片",
+        "国产剧",
+        "香港剧",
+        "剧",
+        "海外剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "综艺",
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "片",
+        "剧情片",
+        "战争片",
+        "爱情片",
+        "理论片",
+        "动漫片",
+        "动漫"
+      ]
+    },
+    {
+      "key": "邵氏短剧",
+      "name": "🥝爱看┃邵氏短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "🧕女频$41#🐸反转$42#🐧脑洞$43#🐒穿越$44#🦊仙侠$45#🦉都市$46#123$31",
+        "分类url": "http://www.deyangs.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;mrc"
+      }
     }
 
   ],
@@ -217,12 +258,8 @@
       "name": "极速",
       "type": 1,
       "url": "https://nm.4688888.xyz/niuma.php?key=gqoFOm4WvC2X9Jak0hMLDZzPVsInxf&url="
-    },
-    {
-      "name": "极速2",
-      "type": 1,
-      "url": "http://183.131.83.37:39367/api/index?parsesId=29&appid=10000&videoUrl="
     }
+
 
 
   ],
