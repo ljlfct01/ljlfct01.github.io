@@ -94,7 +94,12 @@
   ],
   "sites": [
 
-
+     {
+			"key": "zhuanxiang",
+			"name": "🦄专享4K｜追剧",
+			"type": 4,
+			"api": "http://sspa8.top:99/php/%E4%B8%93%E4%BA%AB.php"
+		},
     {
       "key": "lvdou",
       "name": "👑 XM┃SVIP",
@@ -104,7 +109,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://qqqys.com/api.php/app/vod/"
+      "ext": "https://qqqys.com/api.php"
     },
   {
       "key": "腾讯弹幕",
