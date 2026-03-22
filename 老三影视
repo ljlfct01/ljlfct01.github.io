@@ -94,19 +94,16 @@
   ],
   "sites": [
 
-     {
-			"key": "zhuanxiang",
-			"name": "🦄专享4K｜追剧",
-			"type": 4,
-			"api": "http://sspa8.top:99/php/%E4%B8%93%E4%BA%AB.php"
-		},
     {
       "key": "lvdou",
-      "name": "👑 XM┃SVIP",
-      "type": 4,
-      "api": "https://qqqys.com/api.php"
-
-  
+      "name": "👑 臻彩┃SVIP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://qqqys.com/api.php/app/"
     },
   {
       "key": "腾讯弹幕",
