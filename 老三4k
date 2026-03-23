@@ -114,27 +114,7 @@
       "filterable": 1,
       "ext": "http://cms.9513tv.vip/api.php/app/"
     },
-         {"key":"腾讯弹幕",
-         "name":"🦄腾讯视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-         "type":3,
-         "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-         "searchable":1,
-         "quickSearch":0,
-         "changeable":1,
-         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
-         },
-         {
-         "key":"芒果弹幕",
-         "name":"🦄芒果视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-          "type":3,
-          "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-          "searchable":1,
-          "quickSearch":0,
-          "changeable":1,
-           "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
-           },
+    
             {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
@@ -150,20 +130,7 @@
       "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
       "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
     },
-    {
-      "key": "爱奇艺",
-      "name": "👑 爱奇艺┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/爱奇艺.js"
-    },
-     {
-      "key": "hipy_js_优酷[官]",
-      "name": "👑 优酷┃SVIP",
-      "type": 3,
-      "api": "http://210.16.170.84:8866/apia/zjys9/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/lib1/youku.js"
-    },
+
  {
       "key": "哔哩哔哩",
       "name": "👑哔哩┃SVIP",
@@ -187,12 +154,7 @@
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
-     {
-			"key": "zhuanxiang",
-			"name": "🦄专享4K｜追剧",
-			"type": 4,
-			"api": "http://38.207.179.154:5671/ruyi/api.php"
-		},
+
 
     {
       "key": "👑 火狐 | T4",
