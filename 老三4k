@@ -140,6 +140,96 @@
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
     {
+      "key": "玩偶",
+      "name": "☘️免扫|玩偶☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=wogg&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "木偶",
+      "name": "☘️免扫|木偶☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=mogg&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "蜡笔",
+      "name": "☘️免扫|蜡笔☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=labi&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "至臻",
+      "name": "☘️免扫|专线☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=zhizhen&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "虎斑",
+      "name": "☘️免扫|虎斑☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:10057/video/huban?filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "快映",
+      "name": "☘️免扫|快映☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:10057/video/kuaiying?filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "讴歌",
+      "name": "☘️免扫|讴歌☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=ouge&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "闪电",
+      "name": "☘️免扫|闪电☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "立播",
+      "name": "☘️免扫|立播☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=libo&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
       "key": "景天",
       "name": "👑景天|4K弹幕",
       "type": 3,
@@ -155,44 +245,6 @@
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
-    {
-      "key": "立播",
-      "name": "☘️机哥剧圈（4K测试①）☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "竹生",
-      "name": "💖免扫➊┃4K",
-      "type": 3,
-      "api": "csp_HBT4",
-     "jar": "http://ui.fanhuays.top:8019/uploads/tvbox/home_vod_bg.png",
-      "ext": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true"
-    },
-    {
-      "key": "归安",
-      "name": "💖免扫➋┃4K",
-      "type": 3,
-      "api": "csp_HBT4",
-     "jar": "http://ui.fanhuays.top:8019/uploads/tvbox/home_vod_bg.png",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-     
-    },
-
-    {
-      "key": "甜橙",
-      "name": "💖免扫➌┃4K",
-      "type": 3,
-      "api": "csp_HBT4",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
-
-
     {
       "key": "👑 火狐 | T4",
       "name": "🚀 火狐 | T4",
