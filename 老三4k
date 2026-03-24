@@ -159,7 +159,7 @@
       "key": "立播",
       "name": "☘️机哥剧圈（4K测试①）☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian",
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -171,7 +171,7 @@
       "type": 3,
       "api": "csp_HBT4",
      "jar": "http://ui.fanhuays.top:8019/uploads/tvbox/home_vod_bg.png",
-      "ext": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian"
+      "ext": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true"
     },
     {
       "key": "归安",
