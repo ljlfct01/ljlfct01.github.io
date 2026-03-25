@@ -375,8 +375,21 @@
         "分类": "🧕女频$41#🐸反转$42#🐧脑洞$43#🐒穿越$44#🦊仙侠$45#🦉都市$46#123$31",
         "分类url": "http://www.deyangs.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;mrc"
       }
+    },
+    {
+      "key": "设置",
+      "name": "网弹|设置",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;91a434f070dc813999130e0853da224b",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
     }
-
   ],
   "parses": [
     {
