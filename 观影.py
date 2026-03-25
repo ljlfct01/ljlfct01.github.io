@@ -11,7 +11,7 @@ class Spider(Spider):
     headers = {'User-Agent': 'okhttp/4.12.0'}
 
     FIXED_CONFIG = {
-        'host': 'http://cms.9513tv.vip',
+        'host': 'http://cmszy.9513tv.vip',
         'cmskey': 'ziKv8NzFSwNoBUYRJclwwjRaiTWBb7ON',
         'RawPlayUrl': 0
     }
