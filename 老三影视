@@ -166,12 +166,12 @@
       "key": "快映",
       "name": "☘️免扫|快映☘️",
       "type": 4,
-       "api": "csp_Star2Guard",
+       "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=kuaiying&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
-      "ext": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=kuaiying&filter=true&t=30&ac=detail&pg=1&ext=e30%3D"
+      "changeable": 1
+     
     },
     {
       "key": "讴歌",
