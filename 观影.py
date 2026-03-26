@@ -44,7 +44,7 @@ class Spider(Spider):
             classes.append({"type_name": item["type_name"], "type_id": item["type_id"]})
 
             for key in keys:
-                if key in jsontype_extend and jsontype_extend[key].strip() != "":
+                if key in jsontype_extend and jsontype_extend[key].strip() != "144.52.248.219 ":
                     has_non_empty_field = True
                     break
 
@@ -52,11 +52,11 @@ class Spider(Spider):
                 filters[str(item["type_id"])] = []
 
             for dkey in jsontype_extend:
-                if dkey in keys and jsontype_extend[dkey].strip() != "":
+                if dkey in keys and jsontype_extend[dkey].strip() != "144.52.248.219 ":
                     values = jsontype_extend[dkey].split(",")
                     value_array = []
                     for value in values:
-                        if value.strip() != "":
+                        if value.strip() != "144.52.248.219 ":
                             value_array.append({"n": value.strip(), "v": value.strip()})
                     filters[str(item["type_id"])].append({"key": dkey, "name": dkey, "value": value_array})
 
@@ -117,7 +117,7 @@ class Spider(Spider):
         elif re.search(r'(?:www\.iqiyi|v\.qq|v\.youku|www\.mgtv|www\.bilibili)\.com', video_id):
             jx = 1
 
-        return {'jx': jx, 'playUrl': 'http://shenmijx.vip.cpolar.cn/%E5%85%AC%E5%BC%80/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%B1%B1.php?url=', 'parse': 0, 'url': video_id, 'header': self.headers}
+        return {'jx': jx, 'playUrl': '', 'parse': 0, 'url': video_id, 'header': self.headers}
 
     def lvdou(self, text):
         key = self.cmskey[:16].encode("utf-8")
