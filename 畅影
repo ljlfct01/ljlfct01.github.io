@@ -93,7 +93,16 @@
     "ae01.alicdn.com"
   ],
   "sites": [
-
+    {
+      "key": "玩偶",
+      "name": "☘️免扫|玩偶☘️",
+      "type": 4,
+      "api": "https://cy.changkan.top/api/ranking/getRankingList?type",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
     {
       "key": "lvdou",
       "name": "👑 臻彩┃SVIP",
