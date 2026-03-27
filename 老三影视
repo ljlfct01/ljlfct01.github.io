@@ -105,13 +105,18 @@
       "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
       "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
     },
- {
-      "key": "热剧",
-      "name": "👑热剧┃4K",
-      "type": 3,
-      "api": "http://aaa.69mini.com/uploads/20251129/4f0526a4b59c7c18667eafc32f788cc4.jpg",
-      "ext": "https://qp.69mini.com/api.php/app/"
-    },
+    {
+            "key": "热剧",
+            "name": "👑热剧┃4K",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://qp.69mini.com/api.php/app/"
+        },
+
  {
       "key": "哔哩哔哩",
       "name": "👑哔哩┃SVIP",
