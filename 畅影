@@ -93,38 +93,7 @@
     "ae01.alicdn.com"
   ],
   "sites": [
-    {
-      "key": "ZX",
-      "name": "☘️ZX┃4K☘️",
-      "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "XM",
-      "name": "☘️XM┃4K☘️",
-      "type": 4,
-      "jar": "http://cy.changkan.top/uploads/20260125/59538a584446f4f8e5b9428d6c193dc2.jpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "http://cy.changkan.top/api/ranking/getRankingList?type"
-    },
-    {
-      "key": "lvdou",
-      "name": "👑 臻彩┃SVIP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cms.9513tv.vip/api.php/app/"
-    },
+
   {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
@@ -146,6 +115,16 @@
       "type": 3,
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
+    },
+    {
+      "key": "ZX",
+      "name": "☘️ZX┃4K☘️",
+      "type": 4,
+      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
     },
     {
       "key": "景天",
