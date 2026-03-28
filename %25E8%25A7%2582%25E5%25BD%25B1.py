@@ -15,22 +15,22 @@ class Spider(Spider):
         'cmskey': 'ziKv8NzFSwNoBUYRJclwwjRaiTWBb7ON',
         'RawPlayUrl': 0,
         # 嗅探解析代理配置（解析时使用固定IP）
-        'proxy_host': 'http://202.189.11.83',  # 代理服务器地址
+        'proxy_host': '',  # 代理服务器地址
         'proxy_port': 9978,                 # 代理端口
         'sniffer': True,                    # 启用嗅探
         # 全局解析接口配置
-        'parse_api': 'http://202.189.11.83:8866/asdasd/影探/parse.php?url=',  # 全局解析接口
+        'parse_api': '',  # 全局解析接口
         'use_parse_api': True               # 是否启用全局解析
     }
 
     def init(self, extend=''):
         self.host = self.FIXED_CONFIG['host']
         self.cmskey = self.FIXED_CONFIG.get('cmskey', '')
-        raw_play_url = self.FIXED_CONFIG.get('RawPlayUrl', 1)
+        raw_play_url = self.FIXED_CONFIG.get('RawPlayUrl', 0)
         if raw_play_url == 1:
             self.raw_play_url = 1
         else:
-            self.raw_play_url = 1
+            self.raw_play_url = 0
         # 嗅探解析代理配置
         self.proxy_host = self.FIXED_CONFIG.get('proxy_host', '')
         self.proxy_port = self.FIXED_CONFIG.get('proxy_port', 0)
@@ -49,7 +49,7 @@ class Spider(Spider):
     def _proxy_fetch(self, url, headers, timeout=15, **kwargs):
         """
         通过代理服务器转发请求（仅用于嗅探解析）
-        让解析站点看到的是固定IP: 144.52.248.219
+        让解析站点看到的是固定IP: 
         """
         proxies = {
             'http': self.proxy_url,
