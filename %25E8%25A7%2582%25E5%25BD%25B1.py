@@ -49,7 +49,7 @@ class Spider(Spider):
     def _proxy_fetch(self, url, headers, timeout=15, **kwargs):
         """
         通过代理服务器转发请求（仅用于嗅探解析）
-        让解析站点看到的是固定IP: 202.189.11.83
+        让解析站点看到的是固定IP: 144.52.248.219
         """
         proxies = {
             'http': self.proxy_url,
