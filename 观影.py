@@ -1,169 +1,109 @@
-import re, sys, json, base64
-from Crypto.Cipher import AES
-from urllib.parse import urljoin
-from Crypto.Util.Padding import unpad
-from base.spider import Spider
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>「插兜的干货仓库」关键字首页</title>
+    <meta name="description" content="使用「插兜的干货仓库」提供的关键字下载资源">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwklEQVQ4T63TvU5CQRCG4WcwMfEuqOgNtQ2Nd4CxV2LHtVhJ0N7AHdjQUBtrrLwLA4ks2Rx+/Qucw3Y78807M7sz4ft5dq6mI7RQX7o/JCNzfdfetkNifRk6k9wLN9jYdxMkyZPQ1faZXYUwB/OCix8V/W4Y4zJDCsBAX7jdM7iQJY+udELu+cTrP2X/xU2+NMPAg3B3UPaVOOmFoQkapQC8Z8AUpyUBs6MAKrZQ+RErf2PlQTrKKK8gpZdpewgOXOcFTTxEjYwMoIkAAAAASUVORK5CYII=" id="favicon32">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABmUlEQVRYR82XK0wDQRCGv21TUUUJGBwGDBggGCSGBIcAWnBAgsNAgkKhSMDgCA8HtEXgSDBIDC9DDRgcpoSiKo52yea49DiutMttsz27M/98N7s7OyNo9tujgxSTwDiCIaAXSH27l4AXJA/AFSUuWOajGWnR0ChLP3HWkWSAZEN716CM4JQKW6R5+sunPkCeJJJNBCtAosnAQTMHyS6CDWYoh2mEAxzTR4JzYOCfgYNuBRymmOc5uPAbIMswMS6BbkPBPZkiVSZIc+/X/Qng/vl1C4LXIBzG/JmoAag9hxuDaa+XwAIw6p2JGkCObQSrhtMeLifZYZY1tegCqKsW4zHCadfldqgyqK6oC3DGIZIFXZVI9oIjplkUqArXyatGkYkU1+dc5p0eQY4MghNTqlo6kjkFsI9gScvRlLHkQJDnFhgxpampc6cAikCXpqMp8zcF8AnETSlq6lTaAsD6Flg+hNavofVCZL0UW3+M2uI5VhBWGxIFYL0lUxBWm1KviFttyz0Iq4OJB2F1NPO/qdaG0+DD3qLx/AuMVJFhmC8dSgAAAABJRU5ErkJggg==" id="favicon16">
+    <link rel="apple-touch-icon" href="pywebio_static/image/apple-touch-icon.png">
+    <link rel="manifest" href='data:application/manifest+json,%7B%22name%22%3A%20%22%5Cu300c%5Cu63d2%5Cu515c%5Cu7684%5Cu5e72%5Cu8d27%5Cu4ed3%5Cu5e93%5Cu300d%5Cu5173%5Cu952e%5Cu5b57%5Cu9996%5Cu9875%22%2C%20%22description%22%3A%20%22%5Cu4f7f%5Cu7528%5Cu300c%5Cu63d2%5Cu515c%5Cu7684%5Cu5e72%5Cu8d27%5Cu4ed3%5Cu5e93%5Cu300d%5Cu63d0%5Cu4f9b%5Cu7684%5Cu5173%5Cu952e%5Cu5b57%5Cu4e0b%5Cu8f7d%5Cu8d44%5Cu6e90%22%2C%20%22start_url%22%3A%20%22.%22%2C%20%22display%22%3A%20%22standalone%22%2C%20%22theme_color%22%3A%20%22white%22%2C%20%22background_color%22%3A%20%22white%22%2C%20%22icons%22%3A%20%5B%7B%22src%22%3A%20%22pywebio_static/image/apple-touch-icon.png%22%2C%20%22type%22%3A%20%22image/png%22%2C%20%22sizes%22%3A%20%22180x180%22%7D%5D%7D' />
+    <link rel="stylesheet" href="pywebio_static/css/markdown.min.css">
+    <link rel="stylesheet" href="pywebio_static/css/codemirror.min.css">
+    <link rel="stylesheet" href="pywebio_static/css/toastify.min.css">
+    <link rel="stylesheet" href="pywebio_static/css/bs-theme/default.min.css">
+    <link rel="stylesheet" href="pywebio_static/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="pywebio_static/css/app.css?v=1.8.2">
+    
+    
+</head>
+<body class="webio-theme-default">
+<div class="pywebio">
+    <div class="container no-fix-height" id="output-container">
+        <div class="markdown-body" id="markdown-body">
+            <div class="text-center" id="pywebio-loading" style="display: none; position: fixed; top: 40%; left: 0;right: 0;">
+                <div class="spinner-grow text-info" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
 
-sys.path.append('..')
+            <div id="pywebio-scope-ROOT"></div>
+        </div>
+        <div id="end-space"></div>
+
+    </div>
+
+    <div id="input-container">
+        <div id="input-cards" class="container"></div>
+    </div>
+</div>
+
+<script src="pywebio_static/js/mustache.min.js"></script>  <!--template system-->
+<script src="pywebio_static/js/codemirror.min.js"></script>  <!--code textarea editor-->
+<script src="pywebio_static/codemirror/addons.js"></script> <!--codemirror addons: matchbrackets, python mode, active line, auto refresh, mode/meta and loadmode -->
+<script src="pywebio_static/js/prism.min.js"></script>  <!-- markdown code highlight -->
+<script src="pywebio_static/js/FileSaver.min.js"></script>  <!-- saving files on the client-side -->
+<script src="pywebio_static/js/jquery.min.js"></script>
+<script src="pywebio_static/js/popper.min.js"></script>  <!-- tooltip engine -->
+<script src="pywebio_static/js/bootstrap.min.js"></script>
+<script src="pywebio_static/js/toastify.min.js"></script> <!-- toast -->
+<script src="pywebio_static/js/bs-custom-file-input.min.js"></script> <!-- bootstrap custom file input-->
+<script src="pywebio_static/js/purify.min.js"></script>  <!-- XSS sanitizer -->
+<script src="pywebio_static/js/bootstrap-select.min.js"></script>
+<script>
+    if (window.navigator.userAgent.indexOf('MSIE ') !== -1 || window.navigator.userAgent.indexOf('Trident/') !== -1)
+        $('#output-container').html('<div class="alert alert-danger" role="alert"> Sorry, this website does not support IE browser. ☹ </div>');
+</script>
+<script src="pywebio_static/js/pywebio.min.js?v=1.8.2"></script>
 
 
-class Spider(Spider):
-    headers = {'User-Agent': 'okhttp/4.12.0'}
+<script src="pywebio_static/js/require.min.js"></script> <!-- JS module loader -->
 
-    FIXED_CONFIG = {
-        'host': 'http://cmszy.9513tv.vip',
-        'cmskey': 'ziKv8NzFSwNoBUYRJclwwjRaiTWBb7ON',
-        'RawPlayUrl': 0
+<script>
+    if (window.WebIO === undefined) { // resource load failed
+        let url = new URL(window.location.href);
+        if (url.searchParams.get('_pywebio_cdn') === 'false') {
+            alert("Failed to load resource")
+        } else {
+            url.searchParams.set('_pywebio_cdn', 'false');
+            window.location.href = url.href;
+        }
     }
 
-    def init(self, extend=''):
-        self.host = self.FIXED_CONFIG['host']
-        self.cmskey = self.FIXED_CONFIG.get('cmskey', '')
-        raw_play_url = self.FIXED_CONFIG.get('RawPlayUrl', 0)
-        if raw_play_url == 1:
-            self.raw_play_url = 1
-        else:
-            self.raw_play_url = 0
+    require.config({
+        paths: {
+            'plotly': "https://cdn.plot.ly/plotly-2.12.1.min",
+            "ag-grid": "https://unpkg.com/ag-grid-community@28.2.0/dist/ag-grid-community.min",
+            "ag-grid-enterprise": "https://unpkg.com/ag-grid-enterprise@28.2.0/dist/ag-grid-enterprise.min",
+        },
+    });
 
-    def homeVideoContent(self):
-        data = self.fetch(f"{self.host}/api.php/app/index_video?token=", headers=self.headers).json()
-        videos = []
-        for item in data['list']:
-            videos.extend(item['vlist'])
-        return {'list': videos}
 
-    def homeContent(self, filter):
-        data = self.fetch(f"{self.host}/api.php/app/nav?token=", headers=self.headers).json()
-        keys = ["class", "area", "lang", "year", "letter", "by", "sort"]
-        filters = {}
-        classes = []
+    $(function () {
+        // https://www.npmjs.com/package/bs-custom-file-input
+        bsCustomFileInput.init()
+    });
 
-        for item in data['list']:
-            has_non_empty_field = False
-            jsontype_extend = item["type_extend"]
-            classes.append({"type_name": item["type_name"], "type_id": item["type_id"]})
+    const urlparams = new URLSearchParams(window.location.search);
+    WebIO.startWebIOClient({
+        output_container_elem: $('#markdown-body'),
+        input_container_elem: $('#input-cards'),
+        backend_address: urlparams.get('pywebio_api') || '',
+        app_name: urlparams.get('app') || 'index',
+        protocol: "ws",
+        runtime_config: {
+            debug: urlparams.get('_pywebio_debug'),
+            outputAnimation: !urlparams.get('_pywebio_disable_animate'),
+            httpPullInterval: parseInt(urlparams.get('_pywebio_http_pull_interval') || 1000)
+        },
+    });
+</script>
 
-            for key in keys:
-                if key in jsontype_extend and jsontype_extend[key].strip() != "144.52.248.219 ":
-                    has_non_empty_field = True
-                    break
 
-            if has_non_empty_field:
-                filters[str(item["type_id"])] = []
 
-            for dkey in jsontype_extend:
-                if dkey in keys and jsontype_extend[dkey].strip() != "144.52.248.219 ":
-                    values = jsontype_extend[dkey].split(",")
-                    value_array = []
-                    for value in values:
-                        if value.strip() != "144.52.248.219 ":
-                            value_array.append({"n": value.strip(), "v": value.strip()})
-                    filters[str(item["type_id"])].append({"key": dkey, "name": dkey, "value": value_array})
-
-        return {"class": classes, "filters": filters}
-
-    def categoryContent(self, tid, pg, filter, extend):
-        # 构建URL查询参数
-        query_params = [
-            f"tid={tid}",
-            f"pg={pg}",
-            f"limit=18"
-        ]
-        if extend.get('class'):
-            query_params.append(f"class={extend.get('class')}")
-        if extend.get('area'):
-            query_params.append(f"area={extend.get('area')}")
-        if extend.get('lang'):
-            query_params.append(f"lang={extend.get('lang')}")
-        if extend.get('year'):
-            query_params.append(f"year={extend.get('year')}")
-
-        url = f"{self.host}/api.php/app/video?" + "&".join(query_params)
-        data = self.fetch(url, headers=self.headers).json()
-        return data
-
-    def searchContent(self, key, quick, pg="1"):
-        data = self.fetch(f"{self.host}/api.php/app/search?text={key}&pg={pg}", headers=self.headers).json()
-        videos = data['list']
-        for item in data['list']:
-            item.pop('type', None)
-        return {'list': videos, 'page': pg}
-
-    def detailContent(self, ids):
-        data = self.fetch(f"{self.host}/api.php/app/video_detail?id={ids[0]}", headers=self.headers).json()['data']
-        show, paly_urls = [], []
-
-        for i in data['vod_url_with_player']:
-            urls = i['url'].split('#')
-            urls2 = []
-            for j in urls:
-                if j:
-                    url = j.split('$', 1)
-                    urls2.append(f"{url[0]}${self.lvdou(url[1])}")
-            paly_urls.append('#'.join(urls2))
-
-            show.append(i['name'].strip())
-
-        data.pop('vod_url_with_player')
-        data['vod_play_from'] = '$$$'.join(show)
-        data['vod_play_url'] = '$$$'.join(paly_urls)
-        return {'list': [data]}
-
-    def playerContent(self, flag, video_id, vipFlags):
-        jx = 0
-        if self.check_paly_url(video_id):
-            if self.raw_play_url == 1:
-                video_id = self.raw_url(video_id)
-        elif re.search(r'(?:www\.iqiyi|v\.qq|v\.youku|www\.mgtv|www\.bilibili)\.com', video_id):
-            jx = 1
-
-        return {'jx': jx, 'playUrl': '', 'parse': 0, 'url': video_id, 'header': self.headers}
-
-    def lvdou(self, text):
-        key = self.cmskey[:16].encode("utf-8")
-        iv = self.cmskey[-16:].encode("utf-8")
-        original_text = text
-        url_prefix = "lvdou+"
-
-        if original_text.startswith(url_prefix):
-            ciphertext_b64 = original_text[len(url_prefix):]
-            try:
-                cipher = AES.new(key, AES.MODE_CBC, iv)
-                ct_bytes = base64.b64decode(ciphertext_b64)
-                pt_bytes = cipher.decrypt(ct_bytes)
-                return unpad(pt_bytes, AES.block_size).decode('utf-8')
-            except Exception:
-                return original_text
-        else:
-            return original_text
-
-    def raw_url(self, original_url):
-        try:
-            response = self.fetch(original_url, allow_redirects=False, stream=True, timeout=20)
-            if 300 <= response.status_code < 400:
-                redirect_location = response.headers.get('Location')
-                if redirect_location:
-                    real_url = urljoin(original_url, redirect_location)
-                    return real_url
-            return original_url
-        except Exception:
-            return original_url
-
-    def check_paly_url(self, content):
-        pattern = r"https?://.*(?:\.(?:mp4|m3u8|flv|avi|mkv|ts|mov|wmv|webm)|lyyytv\.cn/)"
-        return bool(re.search(pattern, content, re.IGNORECASE))
-
-    def getName(self):
-        pass
-
-    def localProxy(self, param):
-        pass
-
-    def isVideoFormat(self, url):
-        pass
-
-    def manualVideoCheck(self):
-        pass
-
-    def destroy(self):
-        pass
+<footer class="footer">
+    Powered by <a href="https://www.pyweb.io/" target="_blank">PyWebIO</a>
+</footer>
+</body>
+</html>
