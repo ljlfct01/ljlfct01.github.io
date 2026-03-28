@@ -26,11 +26,11 @@ class Spider(Spider):
     def init(self, extend=''):
         self.host = self.FIXED_CONFIG['host']
         self.cmskey = self.FIXED_CONFIG.get('cmskey', '')
-        raw_play_url = self.FIXED_CONFIG.get('RawPlayUrl', 0)
+        raw_play_url = self.FIXED_CONFIG.get('RawPlayUrl', 1)
         if raw_play_url == 1:
             self.raw_play_url = 1
         else:
-            self.raw_play_url = 0
+            self.raw_play_url = 1
         # 嗅探解析代理配置
         self.proxy_host = self.FIXED_CONFIG.get('proxy_host', '')
         self.proxy_port = self.FIXED_CONFIG.get('proxy_port', 0)
