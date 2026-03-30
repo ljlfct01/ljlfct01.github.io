@@ -15,11 +15,11 @@ class Spider(Spider):
         'cmskey': 'ziKv8NzFSwNoBUYRJclwwjRaiTWBb7ON',
         'RawPlayUrl': 0,
         # 嗅探解析代理配置（解析时使用固定IP）
-        'proxy_host': '',  # 代理服务器地址
+        'proxy_host': 'http://202.189.11.83',  # 代理服务器地址
         'proxy_port': 9978,                 # 代理端口
         'sniffer': True,                    # 启用嗅探
         # 全局解析接口配置
-        'parse_api': '',  # 全局解析接口
+        'parse_api': 'http://shenmijx.vip.cpolar.cn/%E5%85%AC%E5%BC%80/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%B1%B1.php?url=',  # 全局解析接口
         'use_parse_api': True               # 是否启用全局解析
     }
 
@@ -49,7 +49,7 @@ class Spider(Spider):
     def _proxy_fetch(self, url, headers, timeout=15, **kwargs):
         """
         通过代理服务器转发请求（仅用于嗅探解析）
-        让解析站点看到的是固定IP: 
+        让解析站点看到的是固定IP: 202.189.11.83
         """
         proxies = {
             'http': self.proxy_url,
