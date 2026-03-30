@@ -1,6 +1,5 @@
 {
-  "spider": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E5%85%AC%E7%91%BE.txt",
-
+  "spider": "https://www.lintech.work/超大杯/custom_spider_20260329.tms;md5;baed46b3f9305228d08a53306849ea5c",
   "wallpaper": "",
   "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
@@ -32,28 +31,19 @@
     "static-mozai.4gtv.tv"
   ],
   "sites": [
-
-         {"key":"腾讯弹幕",
-         "name":"🦄腾讯视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-         "type":3,
-         "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-         "searchable":1,
-         "quickSearch":0,
-         "changeable":1,
-         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
-         },
-         {
-         "key":"芒果弹幕",
-         "name":"🦄芒果视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-          "type":3,
-          "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-          "searchable":1,
-          "quickSearch":0,
-          "changeable":1,
-           "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
-           },
+    {
+      "key": "时光机",
+      "name": "🥤时光机超大杯 🗓️v20260329-🧵79",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "sourceType": 0,
+        "sourceVersion": "20260329"
+      }
+    },
     {
       "key": "📬️ 新片预告 | JAR",
       "name": "📬️ 新片预告 | JAR",
@@ -73,7 +63,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "jxApi": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b06035",
+        "jxApi": "WdCIi7L0sQr4cFGCGqyn3Wb/ZuW32NRFlpbFsEhyjoDbzzNmCyzEXA/sjfmLdbq69W/rFNMcwqDsWM+52md2fCb4kVfrtF4nkwTjaLuC0N97pk1JxPQl7Xl/0wYHCjxX4DZvhUyQG2aj7IS1y89blVWdN73TFgbUcbf1JRS4njP8j0L7xpnhLl+E53s6L0aELznPxd7vCXDMdpxIN9CzSA==",
         "prefix": "Yvd9RzWDG2KNO2hfELQxQHaG5I5x4DRFWyJezOmwQIP7Vikq+Psu5Womw/m0rVuk",
         "danmu": ""
       }
@@ -87,9 +77,9 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "jxApi": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b06035",
+        "jxApi": "WdCIi7L0sQr4cFGCGqyn3Wb/ZuW32NRFlpbFsEhyjoDbzzNmCyzEXA/sjfmLdbq69W/rFNMcwqDsWM+52md2fCb4kVfrtF4nkwTjaLuC0N97pk1JxPQl7Xl/0wYHCjxX4DZvhUyQG2aj7IS1y89blVWdN73TFgbUcbf1JRS4njP8j0L7xpnhLl+E53s6L0aELznPxd7vCXDMdpxIN9CzSA==",
         "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
-        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SD0yn9ZecqA5n7b2gQM5STkTwy3Z0URM3F8V2iNba31tM9jzHoBgYmS2PlEzI/nGL2MD/qP/3L43FunoJb60mxu"
+        "danmu": ""
       }
     },
     {
@@ -102,7 +92,7 @@
       "filterable": 1,
       "playerType": 1,
       "ext": {
-        "jxApi": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b06035",
+        "jxApi": "WdCIi7L0sQr4cFGCGqyn3Wb/ZuW32NRFlpbFsEhyjoDbzzNmCyzEXA/sjfmLdbq69W/rFNMcwqDsWM+52md2fCb4kVfrtF4nkwTjaLuC0N97pk1JxPQl7Xl/0wYHCjxX4DZvhUyQG2aj7IS1y89blVWdN73TFgbUcbf1JRS4njP8j0L7xpnhLl+E53s6L0aELznPxd7vCXDMdpxIN9CzSA==",
         "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK",
         "danmu": ""
       }
@@ -116,9 +106,9 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "jxApi": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b06035",
+        "jxApi": "WdCIi7L0sQr4cFGCGqyn3Wb/ZuW32NRFlpbFsEhyjoDbzzNmCyzEXA/sjfmLdbq69W/rFNMcwqDsWM+52md2fCb4kVfrtF4nkwTjaLuC0N97pk1JxPQl7Xl/0wYHCjxX4DZvhUyQG2aj7IS1y89blVWdN73TFgbUcbf1JRS4njP8j0L7xpnhLl+E53s6L0aELznPxd7vCXDMdpxIN9CzSA==",
         "prefix": "UPris27MuMWJyAl048qao/nd48tAp845xgreKMXD8HUrLqbgS1sq6WSTqhIT+2++",
-        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SD0yn9ZecqA5n7b2gQM5STkTwy3Z0URM3F8V2iNba31tM9jzHoBgYmS2PlEzI/nGL2MD/qP/3L43FunoJb60mxu"
+        "danmu": ""
       }
     },
     {
@@ -130,12 +120,95 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "jxApi": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b06035",
+        "jxApi": "WdCIi7L0sQr4cFGCGqyn3Wb/ZuW32NRFlpbFsEhyjoDbzzNmCyzEXA/sjfmLdbq69W/rFNMcwqDsWM+52md2fCb4kVfrtF4nkwTjaLuC0N97pk1JxPQl7Xl/0wYHCjxX4DZvhUyQG2aj7IS1y89blVWdN73TFgbUcbf1JRS4njP8j0L7xpnhLl+E53s6L0aELznPxd7vCXDMdpxIN9CzSA==",
         "prefix": "/YeDHeSZiIVOxRNz5bu/VfXmuiexgsQuWPZfoKlXqjB+Xq7j/gwXpnXHf/mMp+HP",
         "danmu": ""
       }
     },
-
+    {
+      "key": "🈵 帧跃星河 | 解析",
+      "name": "🈵 帧跃星河 | 解析",
+      "type": 3,
+      "api": "csp_BiliPlus",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/ys.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "🈵  解说合集 | 解析",
+      "name": "🈵  解说合集 | 解析",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/jieshuo.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "🈵  演唱合集 | 解析",
+      "name": "🈵  演唱合集 | 解析",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/heji.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "🈵  戏曲大全 | 解析",
+      "name": "🈵  戏曲大全 | 解析",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/xiqu.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "🈵  8K大全 | 解析",
+      "name": "🈵  8K大全 | 解析",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/8k.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "🈵  学习园地 | 解析",
+      "name": "🈵  学习园地 | 解析",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/study.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
     {
       "key": "🧲 电影港 | JAR",
       "name": "🧲 电影港 | JAR",
@@ -852,8 +925,67 @@
     }
   ],
   "parses": [
-
-
+    {
+      "name": "APP解析",
+      "type": 1,
+      "url": "",
+      "superUrl": "WdCIi7L0sQr4cFGCGqyn3Wb/ZuW32NRFlpbFsEhyjoDbzzNmCyzEXA/sjfmLdbq69W/rFNMcwqDsWM+52md2fCb4kVfrtF4nkwTjaLuC0N97pk1JxPQl7Xl/0wYHCjxX4DZvhUyQG2aj7IS1y89blVWdN73TFgbUcbf1JRS4njP8j0L7xpnhLl+E53s6L0aELznPxd7vCXDMdpxIN9CzSA=="
+    },
+    {
+      "name": "WEB解析",
+      "type": 0,
+      "url": ""
+    },
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "qiyi[官源]",
+      "type": 1,
+      "url": "http://39.104.230.177:1122/lxjx/myyk.php?url="
+    },
+    {
+      "name": "肥猫最可爱",
+      "type": 1,
+      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    }
   ],
   "rules": [
     {
