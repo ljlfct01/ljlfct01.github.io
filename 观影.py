@@ -19,7 +19,7 @@ class Spider(Spider):
         'proxy_port': 9978,                 # 代理端口
         'sniffer': True,                    # 启用嗅探
         # 全局解析接口配置
-        'parse_api': 'http://shenmijx.vip.cpolar.cn/%E5%85%AC%E5%BC%80/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%B1%B1.php?url=',  # 全局解析接口
+        'parse_url': 'http://shenmijx.vip.cpolar.cn/%E5%85%AC%E5%BC%80/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%B1%B1.php?url=',  # 全局解析接口
         'use_parse_api': True               # 是否启用全局解析
     }
 
