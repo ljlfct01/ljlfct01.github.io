@@ -103,27 +103,7 @@
       "quickSearch": 1,
       "filterable": 0    
 },
-         {"key":"腾讯弹幕",
-         "name":"🦄腾讯视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-         "type":3,
-         "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-         "searchable":1,
-         "quickSearch":0,
-         "changeable":1,
-         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
-         },
-         {
-         "key":"芒果弹幕",
-         "name":"🦄芒果视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-          "type":3,
-          "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-          "searchable":1,
-          "quickSearch":0,
-          "changeable":1,
-           "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
-           },
+     
   {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
@@ -237,12 +217,12 @@
     {
       "name": "极速1",
       "type": 1,
-      "url": "http://183.131.83.37:39367/api/index?parsesId=29&appid=10000&videoUrl="    
+      "url": "http://111.170.174.58:802/api/index?parsesId=26&appid=10000&videoUrl="    
 },
     {
       "name": "极速2",
       "type": 1,
-      "url": "http://183.131.83.37:39367/api/index?parsesId=35&appid=10000&videoUrl="    
+      "url": "http://111.170.174.58:802/api/index?parsesId=27&appid=10000&videoUrl="    
 }
   ],
   "rules": [
