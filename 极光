@@ -103,6 +103,16 @@
         "ratio": 1.618
       }
     },
+        {
+            "key": "lvdou",
+            "name": "👑全能┃4k",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://210.16.170.113:8999/api.php/app/"
+        },
     {
       "key": "lvdou",
       "name": "👑 臻彩┃SVIP",
@@ -355,6 +365,11 @@
     },
     {
       "name": "4k极速4",
+      "type": 1,
+      "url": "http://154.8.225.238:9991/api/index?parsesId=4&appid=10000&videoUrl="
+    },
+    {
+      "name": "4k极速5",
       "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=4&appid=10000&videoUrl="
     }
