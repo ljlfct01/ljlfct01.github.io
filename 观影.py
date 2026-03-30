@@ -11,7 +11,7 @@ class Spider(Spider):
     headers = {'User-Agent': 'okhttp/4.12.0'}
 
     FIXED_CONFIG = {
-        'host': 'http://cmszy.9513tv.vip',
+        'host': 'https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt',
         'cmskey': 'ziKv8NzFSwNoBUYRJclwwjRaiTWBb7ON',
         'RawPlayUrl': 0,
         # 嗅探解析代理配置（解析时使用固定IP）
