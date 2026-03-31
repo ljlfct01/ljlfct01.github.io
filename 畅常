@@ -126,6 +126,17 @@
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
+        {
+            "key": "lvdou",
+            "name": "👑全能┃4k",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://210.16.170.113:8999/api.php/app/"
+        },
     {
       "key": "景天",
       "name": "👑景天|4K弹幕",
@@ -142,59 +153,19 @@
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     }, 
-    {
-      "key": "huban",
-      "name": "Pan - 1 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:11112/T4/T5/api2.php?site=huban###huban"
-    },
-    {
-      "key": "shandian",
-      "name": "Pan - 2 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:11112/T4/T5/api2.php?site=shandian###shandian"
-    },
-    {
-      "key": "mihdr",
-      "name": "Pan - 3 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:11112/T4/T5/api2.php?site=mihdr###mihdr"
-    },
-    {
-      "key": "ouge",
-      "name": "Pan - 4 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:11112/T4/T5/api2.php?site=ouge###ouge"
-    },
-    {
-      "key": "labi",
-      "name": "Pan - 5 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:11112/T4/T5/api2.php?site=labi###labi"
-    },
+
     {
       "key": "Zwqf",
-      "name": "鱼->醉挽｜清风",
+      "name": "👑醉挽｜清风",
       "type": 3,
       "api": "csp_Zwqf",
+      "jar": "https://mpimg.cn/down.php/5c57052c46586cf26f6619600ca87d62.jar;md5;5c57052c46586cf26f6619600ca87d62",
       "searchable": 1,
       "ext": {
         "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
         "token": "moyu996"
-      },
-      "jar": "https://pubali.oss-cn-hangzhou.aliyuncs.com/20260321/011323_/mZJFkK1oFO2m/fish03210112.php;md5;cea625320475f5ffe5630c3429f07562"
+      }
     }
-
 
   ],
   "parses": [
