@@ -69,29 +69,25 @@
       "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
       "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
     },
-    {
-      "key": "茫茫",
-      "name": "📢🌈开心果臻彩4K",
+      {
+      "key": "芒果视频",
+      "name": "👑 芒果┃SVIP",
       "type": 3,
-      "searchable": 1,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
     },
-
-
-
-
-
-    {
-      "key": "drjs_金牌",
-      "name": "❤️金牌┃[优质]",
+ {
+      "key": "哔哩哔哩",
+      "name": "👑哔哩┃SVIP",
       "type": 3,
-      "api": "https://cnb.cool/zhyadc/YsBox/-/git/raw/main/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 0,
-      "ext": "https://cnb.cool/zhyadc/YsBox/-/git/raw/main/drpy_js/金牌[优].js"
+      "api": "http://mlwl.top:67/lib/drpy2.min.js",
+      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     }
+
+
+
+
+
 
  
   ],
@@ -103,16 +99,7 @@
     "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
   ],
   "parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
+
 
     {
       "name": "4k极速",
@@ -148,42 +135,8 @@
           "YuMi-vip"
         ]
       }
-    },
-    {
-      "name": "4k极速1",
-      "type": 1,
-      "url": "http://mlwl.7766.org:456/api/index?parsesId=35&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
     }
+
 ],
   "flags": [
     "youku",
