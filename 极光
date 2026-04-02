@@ -80,7 +80,123 @@
     "ae01.alicdn.com"
   ],
   "sites": [
+        {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "📢🌈腾腾臻彩4K",
+      "type": 3,
+      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E5%BC%80%E5%BF%83%E6%9E%9C%E8%85%BE%E8%85%BEV10.js"
+    },
 
+        {
+            "key": "茫茫",
+            "name": "📢🌈开心果影视",
+            "type": 3,
+            "searchable": 1,
+            "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
+            "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
+        },
+          {
+            "key": "豆瓣1",
+            "name": "📢🔥GT-全网搜索",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+         {
+      "key": "五大采集平台",
+      "name": "📢🌈聚合4K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": "http://39.105.18.5:5565/api.php/app/"
+    },
+        {
+            "key": "cms2灵",
+            "name": "📢🌈极影4k原画",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://101.201.171.207:802/api.php/app/"
+        },
+         {
+            "key": "cms2111灵",
+            "name": "📢🌈影子4k原画",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://103.38.80.30:15598/api.php/app/"
+        },
+        {
+  "key": "22",
+ "name": "📢🌈聚合4K002",
+  "type": 1,
+  "api": "http://103.38.80.30:15586/119.php",
+  "playUrl": "json:http://103.38.80.30:15586/lvdou.php?url=",
+  "playerType":2,
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "categories": [
+    "电影",
+    "剧集",
+    "综艺",
+    "动漫",
+    "短剧",
+    "体育",
+    "记录"
+  ]
+},
+
+        
+
+
+     {
+      "key": "SS虎",
+        "name": "📢🌈小虎臻彩4K",
+      "type": 3,
+    "jar":"http://123.207.224.130:7033/ZC4K.jar",
+      "api": "csp_ZC4K",
+      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTlhSFZpWVc0akl5Tm9kV0poYmc9PQ=="
+    },
+
+
+  {
+      "key": "yanshi1",
+      "name": "📢🌈哥哥臻彩4K",
+      "type": 3,
+       "jar":"http://123.207.224.130:7033/ZC4K.jar",
+      "api": "csp_ZC4K",
+      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
+    },               
+                    {
+      "key": "zhizhen",
+      "name": "📢🌈至臻臻彩4K",
+      "type": 3,
+      "jar":"http://123.207.224.130:7033/ZC4K.jar",
+     "api": "csp_ZC4K",
+      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
+    }, 
+    {
+      "key": "muou鱼",
+       "name": "📢🌈木偶臻彩4K",
+      "type": 3,
+      "jar":"http://123.207.224.130:7033/ZC4K.jar",
+    "api": "csp_ZC4K",
+      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRkVzkxSXlNamJYVnZkUT09"
+    },
     {
       "key": "drpy_js_豆瓣",
       "name": "👑豆瓣",
