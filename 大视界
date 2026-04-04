@@ -12,11 +12,52 @@
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
       "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     },
-    {
-      "name": "88KQ直播源",
-      "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      {
+     "name": "🐅4K线路",
+      "type": 0,
+      "url": "https://gongdian.top/tv/iptv",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "🐅风云",
+      "type": 0,
+      "url": "http://iptv.4666888.xyz/FYTV.m3u",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
+    },
+  {
+    "name": "斯玛特源",
+    "url": "http://tv123.vvvv.ee/tv.m3u",
+    "header": {
+      "User-Agent": "okhttp/5.1.0"
+    }
+  },
+  {
+      "name": "🐅易发TV",
+      "type": 0,
+      "url": "http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "🐅猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:555/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }, 
+    {
+      "name": "墨云直播",
+      "url": "./tv.txt",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "editing": false
     }
   ],
   "logo": "https://www.lintech.work/static/img/Sunflower.gif",
@@ -80,125 +121,7 @@
     "ae01.alicdn.com"
   ],
   "sites": [
-        {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "📢🌈腾腾臻彩4K",
-      "type": 3,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%89%9B%E9%A9%AC%E8%AF%95%E7%9C%8B%E7%BA%BF%E8%B7%AF.js"
-    },
 
-        {
-            "key": "茫茫",
-            "name": "📢🌈开心果影视",
-            "type": 3,
-            "searchable": 1,
-            "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-            "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
-        },
-          {
-            "key": "豆瓣1",
-            "name": "📢🔥GT-全网搜索",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        },
-         {
-      "key": "五大采集平台",
-      "name": "📢🌈聚合4K",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": "http://39.105.18.5:5565/api.php/app/"
-    },
-        {
-            "key": "cms2灵",
-            "name": "📢🌈极影4k原画",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "jar":"https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://101.201.171.207:802/api.php/app/"
-        },
-         {
-            "key": "cms2111灵",
-            "name": "📢🌈影子4k原画",
-            "type": 3,
-            "api": "csp_AppYsV2",
-       
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://cmszy.9513tv.vip/api.php/app/"
-        },
-        {
-  "key": "22",
- "name": "📢🌈聚合4K002",
-  "type": 1,
-  "api": "http://103.38.80.30:15586/119.php",
-  "playUrl": "json:http://103.38.80.30:15586/lvdou.php?url=",
-  "playerType":2,
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "categories": [
-    "电影",
-    "剧集",
-    "综艺",
-    "动漫",
-    "短剧",
-    "体育",
-    "记录"
-  ]
-},
-
-        
-
-
-     {
-      "key": "SS虎",
-        "name": "📢🌈小虎臻彩4K",
-      "type": 3,
-    "jar":"http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTlhSFZpWVc0akl5Tm9kV0poYmc9PQ=="
-    },
-
-
-  {
-      "key": "yanshi1",
-      "name": "📢🌈哥哥臻彩4K",
-      "type": 3,
-       "jar":"http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },               
-                    {
-      "key": "zhizhen",
-      "name": "📢🌈至臻臻彩4K",
-      "type": 3,
-      "jar":"http://123.207.224.130:7033/ZC4K.jar",
-     "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    }, 
-    {
-      "key": "muou鱼",
-       "name": "📢🌈木偶臻彩4K",
-      "type": 3,
-      "jar":"http://123.207.224.130:7033/ZC4K.jar",
-    "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRkVzkxSXlNamJYVnZkUT09"
-    },
     {
       "key": "drpy_js_豆瓣",
       "name": "👑豆瓣",
@@ -221,18 +144,18 @@
         "ratio": 1.618
       }
     },
- 
-    {
-      "key": "lvdou",
-      "name": "👑 臻彩┃SVIP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmszy.9513tv.vip/api.php/app/"
-    },
+         {
+            "key": "cms2灵",
+            "name": "📢🌈极影4k原画",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "jar":"https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://101.201.171.207:802/api.php/app/"
+        },
+
 
     
             {
@@ -280,96 +203,7 @@
       "filterable": 1,
       "changeable": 1
     },
-    {
-      "key": "玩偶",
-      "name": "☘️免扫|玩偶☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=wogg&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "木偶",
-      "name": "☘️免扫|木偶☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=mogg&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "蜡笔",
-      "name": "☘️免扫|蜡笔☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=labi&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "至臻",
-      "name": "☘️免扫|专线☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=zhizhen&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "虎斑",
-      "name": "☘️免扫|虎斑☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=huban&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "快映",
-      "name": "☘️免扫|快映☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=kuaiying&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "讴歌",
-      "name": "☘️免扫|讴歌☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=ouge&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "闪电",
-      "name": "☘️免扫|闪电☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "立播",
-      "name": "☘️免扫|立播☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=libo&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
+
     {
       "key": "景天",
       "name": "👑景天|4K弹幕",
