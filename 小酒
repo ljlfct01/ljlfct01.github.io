@@ -180,8 +180,81 @@
       "type": 3,
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
-    }
+    },
+    {
+      "key": "Zwqf",
+      "name": "👑醉挽｜清风",
+      "type": 3,
+      "api": "csp_Zwqf",
+      "jar": "https://mpimg.cn/down.php/5c57052c46586cf26f6619600ca87d62.jar;md5;5c57052c46586cf26f6619600ca87d62",
+      "searchable": 1,
+      "ext": {
+        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
+        "token": "moyu996"
+      }
+    },
+    {
+      "key": "ZX",
+      "name": "☘️ZX┃4K☘️",
+      "type": 4,
+      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
 
+    {
+      "key": "景天",
+      "name": "👑景天|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;120e148ffba423c7056197a0d7ca486a",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
+    },
+    {
+      "key": "茂茂",
+      "name": "👑茂茂|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;120e148ffba423c7056197a0d7ca486a",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
+    },
+    {
+      "key": "👑 火狐 | T4",
+      "name": "🚀 火狐 | T4",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "悬疑片",
+        "犯罪片",
+        "奇幻片",
+        "记录片",
+        "动画片",
+        "内地剧",
+        "香港剧",
+        "台湾剧",
+        "日剧",
+        "韩剧",
+        "欧美剧",
+        "马泰剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫"
+      ]
+    }
 
 
   ],
@@ -190,53 +263,9 @@
    {
       "name": "臻彩4k专线",
       "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=21&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线1",
-      "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=22&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线2",
-      "type": 1,
       "url": "http://183.136.134.152:588//api/index?parsesId=23&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线3",
-      "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=24&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线4",
-      "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=25&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线5",
-      "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=26&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线6",
-      "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=27&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线7",
-      "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=28&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线8",
-      "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=29&appid=10000&videoUrl="
-    },
-   {
-      "name": "臻彩4k专线9",
-      "type": 1,
-      "url": "http://183.136.134.152:588//api/index?parsesId=30&appid=10000&videoUrl="
     }
+
   ],
   "rules": [
     {
