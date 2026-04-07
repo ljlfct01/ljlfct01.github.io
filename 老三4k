@@ -80,187 +80,41 @@
     "ae01.alicdn.com"
   ],
   "sites": [
-        {
+    {
       "key": "hipy_js_腾云驾雾[官]",
-      "name": "📢🌈腾腾臻彩4K",
+      "name": "📢🌈Q4K-60帧",
       "type": 3,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%89%9B%E9%A9%AC%E8%AF%95%E7%9C%8B%E7%BA%BF%E8%B7%AF.js"
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/主线3.js"
     },
-
-        {
-            "key": "茫茫",
-            "name": "📢🌈开心果影视",
-            "type": 3,
-            "searchable": 1,
-            "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-            "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
-        },
-          {
-            "key": "豆瓣1",
-            "name": "📢🔥GT-全网搜索",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        },
-         {
-      "key": "五大采集平台",
-      "name": "📢🌈聚合4K",
+    {
+      "key": "guoguo",
+      "name": "📢🌈MG4K-60帧",
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/主线1.js"
+    },
+    {
+      "key": "nb",
+      "name": "📢🌈BL4K-60帧",
       "type": 3,
       "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "playerType": 2,
-      "ext": "http://39.105.18.5:5565/api.php/app/"
+      "ext": "http://bilibili.90sr.com/api.php/app/"
     },
-        {
-            "key": "cms2灵",
-            "name": "📢🌈极影4k原画",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "jar":"https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://101.201.171.207:802/api.php/app/"
-        },
-         {
-            "key": "cms2111灵",
-            "name": "📢🌈影子4k原画",
-            "type": 3,
-            "api": "csp_AppYsV2",
-       
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://103.38.80.30:15598/api.php/app/"
-        },
-        {
-  "key": "22",
- "name": "📢🌈聚合4K002",
-  "type": 1,
-  "api": "http://103.38.80.30:15586/119.php",
-  "playUrl": "json:http://38.76.218.7:12121/lvdou/getck.php?url=",
-  "playerType":2,
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "categories": [
-    "电影",
-    "剧集",
-    "综艺",
-    "动漫",
-    "短剧",
-    "体育",
-    "记录"
-  ]
-},
-
-        
-
-
-     {
-      "key": "SS虎",
-        "name": "📢🌈小虎臻彩4K",
-      "type": 3,
-    "jar":"http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTlhSFZpWVc0akl5Tm9kV0poYmc9PQ=="
-    },
-
-
-  {
-      "key": "yanshi1",
-      "name": "📢🌈哥哥臻彩4K",
-      "type": 3,
-       "jar":"http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },               
-                    {
-      "key": "zhizhen",
-      "name": "📢🌈至臻臻彩4K",
-      "type": 3,
-      "jar":"http://123.207.224.130:7033/ZC4K.jar",
-     "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    }, 
-    {
-      "key": "muou鱼",
-       "name": "📢🌈木偶臻彩4K",
-      "type": 3,
-      "jar":"http://123.207.224.130:7033/ZC4K.jar",
-    "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRkVzkxSXlNamJYVnZkUT09"
-    },
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "👑豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
-    },
-    {
-      "key": "设置",
-      "name": "👑网弹|设置",
-      "type": 3,
-      "api": "csp_Config",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
- 
-    {
-      "key": "lvdou",
-      "name": "👑 臻彩┃SVIP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmszy.9513tv.vip/api.php/app/"
-    },
-
-    
-            {
-      "key": "腾讯弹幕",
-      "name": "👑 腾讯┃SVIP",
-      "searchable": 1,
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/腾讯弹幕.js"
-    },
-      {
-      "key": "芒果视频",
-      "name": "👑 芒果┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
-    },
-
  {
       "key": "哔哩哔哩",
-      "name": "👑哔哩┃SVIP",
+      "name": "📢🌈哔哩┃SVIP",
       "type": 3,
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
     {
       "key": "Zwqf",
-      "name": "👑醉挽｜清风",
+      "name": "📢🌈醉挽｜清风",
       "type": 3,
       "api": "csp_Zwqf",
       "jar": "https://mpimg.cn/down.php/5c57052c46586cf26f6619600ca87d62.jar;md5;5c57052c46586cf26f6619600ca87d62",
@@ -272,7 +126,7 @@
     },
     {
       "key": "ZX",
-      "name": "☘️ZX┃4K☘️",
+      "name": "📢🌈ZX┃4K",
       "type": 4,
       "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
       "searchable": 1,
@@ -280,99 +134,10 @@
       "filterable": 1,
       "changeable": 1
     },
-    {
-      "key": "玩偶",
-      "name": "☘️免扫|玩偶☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=wogg&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "木偶",
-      "name": "☘️免扫|木偶☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=mogg&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "蜡笔",
-      "name": "☘️免扫|蜡笔☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=labi&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "至臻",
-      "name": "☘️免扫|专线☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=zhizhen&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "虎斑",
-      "name": "☘️免扫|虎斑☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=huban&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "快映",
-      "name": "☘️免扫|快映☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=kuaiying&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "讴歌",
-      "name": "☘️免扫|讴歌☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=ouge&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "闪电",
-      "name": "☘️免扫|闪电☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "立播",
-      "name": "☘️免扫|立播☘️",
-      "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=libo&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
+
     {
       "key": "景天",
-      "name": "👑景天|4K弹幕",
+      "name": "📢🌈景天|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
@@ -380,13 +145,83 @@
     },
     {
       "key": "茂茂",
-      "name": "👑茂茂|4K弹幕",
+      "name": "📢🌈茂茂|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
     {
+      "key": "JD",
+      "name": "📢🌈热播4K网盘",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://qp.69mini.com/api.php/app/"
+    },
+    {
+      "key": "rrss",
+      "name": "📢🌈人人秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://sm.69mzf.cn/api.php/app/"
+    },
+    {
+      "key": "mp4",
+      "name": "📢🌈极速蓝光",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://jx.69mini.com/api.php/app/"
+    },
+    {
+      "key": "n11b",
+      "name": "📢🌈金牌蓝光",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://jp.69mzf.cn/api.php/app/"
+    },
+    {
+      "key": "奇珍异兽",
+      "name": "📢🌈QY官-弹",
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/271.js"
+    },
+    {
+      "key": "hipy_js_优酷[官]",
+      "name": "📢🌈YK-弹",
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/youku.js"
+    },
+    {
+      "key": "ffy2",
+      "name": "📢🌈自建蓝光",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://ld.69mzf.cn/api.php/app/"
+    },
+ 
+     {
       "key": "👑 火狐 | T4",
       "name": "🚀 火狐 | T4",
       "type": 1,
