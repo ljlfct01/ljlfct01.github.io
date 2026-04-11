@@ -3,7 +3,7 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
   - name: 台湾1
     server: tw1-cdn-route.couldflare-cdn.com
@@ -14,15 +14,15 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 台湾2
-    server: tw2-cdn-route.couldflare-cdn.com
-    port: 443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    port: 1443
     type: http
     tls: true
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 台湾3
-    server: tw3-cdn-route.couldflare-cdn.com
+    server: tw4-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -31,8 +31,8 @@ proxies:
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 台湾4
     type: http
-    server: twmoon1.fccloud.xyz
-    port: 1443
+    server: tw4-cdn-route.couldflare-cdn.com
+    port: 443
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
     tls: true
@@ -54,41 +54,32 @@ proxies:
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 日本3
     type: http
-    server: jsct.maikrapps.xyz
-    port: 563
-    username: 0061006e006f006e0079006d006f00750073005f00620031003500640037006100360036
-    password: undefined
+    server: jp104-cdn-route.couldflare-cdn.com
+    port: 443
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
     tls: true
     skip-cert-verify: false
-
-
-
   - name: 香港1
-    server: hkretmp1-cdn-route.couldflare-cdn.com
+    server: hkre1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-
-
   - name: 香港2
-    server: hkretmp2-cdn-route.couldflare-cdn.com
+    server: hkcera3-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-  - name: 香港4
-    server: hk500.fccloud.xyz
-    port: 443
-    type: http
-    tls: true
-    skip-cert-verify: false
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    password: exaxgqkKkd0TAMrCxeonWg==
+
+
+
+  
   - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
     port: 443
@@ -98,7 +89,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国2
-    server: uscera50-cdn-route.couldflare-cdn.com
+    server: usgp1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -106,7 +97,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国3
-    server: uscera3.fccloud.xyz
+    server: usgp3-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
@@ -114,40 +105,34 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国4
-    server: us_kurun_2.mkir.xyz
+    server: ustx004-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
     skip-cert-verify: false
-    username: liul08762
-    password: 6651d87867ba1cb136ba9911e8952786
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国5
-    server: usport1.fccloud.xyz
-    port: 1443
+    server: usgp2-cdn-route.couldflare-cdn.com
+    port: 443
     type: http
     tls: true
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
   - name: 美国6
-    server: ustx003.fccloud.xyz
-    port: 443
+    server: qdct.1polnt7acres.shop
+    port: 563
     type: http
     tls: true
     skip-cert-verify: false
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    password: exaxgqkKkd0TAMrCxeonWg==
+    username: 66f8f673da8351704fcebf2d621a54
+    password: 8d6e2166f8f673da8351704fcebf2e
   - name: 美国7
-    server: uscera20-cdn-route.couldflare-cdn.com
+    server: kr1-cdn-route.couldflare-cdn.com
     port: 443
     type: http
     tls: true
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-
- 
-
-
-
-
