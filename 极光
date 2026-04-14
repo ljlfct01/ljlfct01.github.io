@@ -81,44 +81,56 @@
   ],
   "sites": [
 
-         {
-            "key": "cms2灵",
-            "name": "📢🌈极影4k原画",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "jar":"https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://8.mftv.top/api.php/app/"
-        },
-
-
-    
-            {
-      "key": "腾讯弹幕",
-      "name": "👑 腾讯┃SVIP",
+    {
+      "key": "官方4K专线",
+      "name": "🚀┃小苹果专线",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
+      "playerType": "2",
       "searchable": 1,
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/腾讯弹幕.js"
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.izhuiju.top/api.php/app/"
     },
-      {
-      "key": "芒果视频",
-      "name": "👑 芒果┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
+    {
+      "key": "蓝光",
+      "name": "综合（臻彩视界4K）",
+      "type": 2,
+      "api": "http://b9.lhy888.cn/api.php/provide/vod/?ac=list",
+      "playUrl": "json:http://xy.183933.xyz/xiayede.php?key=hy1992&url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "少儿",
+        "短剧",
+        "学堂",
+        "其他综艺",
+        "纪录片"
+      ]
     },
-
- {
-      "key": "哔哩哔哩",
-      "name": "👑哔哩┃SVIP",
+    {
+      "key": "景天",
+      "name": "👑景天|4K弹幕",
       "type": 3,
-      "api": "http://mlwl.top:67/lib/drpy2.min.js",
-      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
+      "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;120e148ffba423c7056197a0d7ca486a",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
+    },
+    {
+      "key": "茂茂",
+      "name": "👑茂茂|4K弹幕",
+      "type": 3,
+      "api": "csp_HBcms10Dou",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;120e148ffba423c7056197a0d7ca486a",
+      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     }
-
+    
 
 
   ],
