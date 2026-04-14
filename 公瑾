@@ -1,31 +1,18 @@
 {
-  "force_refresh": 0,
-  "app_upgrade": 1,
-  "source": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/4K",
-  "source_plus": "",
-  "app_message": "本APP基于开源免费项目二次开发, 无内置但兼容tvbox标准接口, 仅供内部测试学习交流使用\n\n使用过程中若出现广告均为三方插入, 与本APP无关, 请勿相信, 配置「广告解析密钥」可进行过滤\n\n关注设置中公众号加测试群可获取更多信息",
-  "jar_message": "使用TimeFlix应用随意输入即可登录时光机标准杯; 超大杯仍需超级密钥!",
-  "filter": [
-    "王二小放牛娃.xyz",
-    "神秘的哥哥们",
-    "｜",
-    "防失联",
-    "关注",
-    "【",
-    "】",
-    "┃ ",
-    "小米接口群：665981772 "
+  "resultStatus": true,
+  "resultData": [
+    {
+      "name": "野草助手",
+      "brief": "非常好用的电视应用市场，软件应有尽有",
+      "packageName": "fun.yecao.helper",
+      "versionName": "2.0.6",
+      "versionCode": 26,
+      "url": "https://mpimg.cn/down.php/4cc9b11f3e0e0cbd042018b8ffec0884.apk",
+      "iconUrl": "https://www.yecao.net/wp-content/uploads/sites/2/elementor/thumbs/WechatIMG37782-qic9jsodgshupyei7c367opsz8jvcqqqj7lg5vw8a0.png",
+      "size": "7.9MB",
+      "downloadCount": 766355
+    }
+
   ],
-  "prefix": "★TimeFlix★",
-  "prefix_wolong": "★卧龙TV★",
-  "title": "公众号「插兜的干货仓库」",
-  "jxUrl": "https://www.lintech.work/api/m3u8/parse?token=%s&url=%s",
-  "danmuUrl": "",
-  "notice": "https://www.lintech.work/static/config/notice.json",
-  "parse_no_header": 0,
-  "live": "",
-  "upgrade": "https://gh.catmak.name/https://raw.githubusercontent.com/bestpvp/updateCenter/refs/heads//main/",
-  "source_backdoor_plus": "https://www.lintech.work/超大杯/main.json",
-  "source_backdoor": "https://www.lintech.work/超大杯/main.json",
-  "customization": 1
+  "regflag": 1
 }
