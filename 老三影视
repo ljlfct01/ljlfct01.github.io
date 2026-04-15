@@ -15,18 +15,7 @@
     }
   ],
   "sites": [
-    {
-      "key": "nb",
-      "name": "BL4K-60帧",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "playUrl": "json:http://xy.183933.xyz/xiayede.php?key=hy1992&url=",
-      "jar": "https://app.69mini.com/tvbox/nb.jpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://bilibili.90sr.com/api.php/app/"
-    },
+
     {
       "key": "ZX",
       "name": "☘️ZX┃4K☘️",
@@ -38,27 +27,7 @@
       "filterable": 1,
       "changeable": 1
     },
-    {
-      "key": "蓝光",
-      "name": "综合（臻彩视界4K）",
-      "type": 2,
-      "api": "http://b9.lhy888.cn/api.php/provide/vod/?ac=list",
-      "playUrl": "json:http://xy.183933.xyz/xiayede.php?key=hy1992&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫",
-        "少儿",
-        "短剧",
-        "学堂",
-        "其他综艺",
-        "纪录片"
-      ]
-    },
+ 
     {
       "key": "天天",
       "name": "天天┃高峰期用不了就点我换源或者搜索",
