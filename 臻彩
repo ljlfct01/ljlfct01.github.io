@@ -69,12 +69,12 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/qq2.js"
     },
-    {
-      "key": "哔哩视频",
-      "name": "哔哩-（臻彩视界4K）",
+ {
+      "key": "哔哩哔哩",
+      "name": "👑哔哩┃SVIP",
       "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/bili.js"
+      "api": "http://mlwl.top:67/lib/drpy2.min.js",
+      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
     {
       "key": "guoguo",
@@ -82,8 +82,17 @@
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/mg.js"
-    }
-
+    },
+        {
+            "key": "lvdou",
+            "name": "Pan | 来自全能（已停）",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://210.16.170.113:8999/api.php/app/"
+        }
 
 
   ],
