@@ -3,15 +3,59 @@
   "wallpaper": "https://bing.img.run/uhd.php",
   "lives": [
     {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "live",
-          "urls": [
-            "proxy://do=live&type=txt&ext="
-          ]
-        }
-      ]
+      "name": "🐅全网通直播",
+      "type": 0,
+      "url": "http://183.136.134.152:250/全网通直播2.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "🐅昭昭TV",
+      "type": 0,
+      "url": "http://38.75.136.137:88/api/tvlist.php",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
+      {
+     "name": "🐅4K线路",
+      "type": 0,
+      "url": "https://gongdian.top/tv/iptv",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "🐅风云",
+      "type": 0,
+      "url": "http://iptv.4666888.xyz/FYTV.m3u",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
+    },
+  {
+    "name": "斯玛特源",
+    "url": "http://tv123.vvvv.ee/tv.m3u",
+    "header": {
+      "User-Agent": "okhttp/5.1.0"
+    }
+  },
+  {
+      "name": "🐅易发TV",
+      "type": 0,
+      "url": "https://raw.bgithub.xyz/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+ {
+      "name": "🐅猫TV",
+      "type": 0,
+      "url": "http://rihou.cc:555/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "sites": [
