@@ -92,33 +92,19 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://210.16.170.113:8999/api.php/app/"
-        },
-         {
-            "key": "cms2灵",
-            "name": "📢🌈极影4k原画",
-            "type": 4,
-            "api": "http://210.16.170.113:9343/ids?ids=%E6%98%9F%E8%80%80",
-          
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-           
         }
+
 
   ],
   "parses": [
-     {
-      "name": "4k直连1",
-      "type": 1,
-      "url": "http://125.208.22.184:6019/api/index?parsesId=550266&appid=10000&videoUrl="
-    },
+ 
     {
-      "name": "4k直连2",
+      "name": "4k直连1",
       "type": 1,
       "url": "http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl="
     },
     {
-      "name": "4k直连3",
+      "name": "4k直连2",
       "type": 1,
       "url": "http://210.16.170.113:8845/api/index?parsesId=4&appid=10000&videoUrl="
     }
