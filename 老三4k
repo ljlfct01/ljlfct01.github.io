@@ -61,12 +61,13 @@
   ],
   "sites": [
 
-    {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "藤藤-（臻彩视界4K）",
+  {
+      "key": "腾讯弹幕",
+      "name": "👑 腾讯┃SVIP",
+      "searchable": 1,
       "type": 3,
-      "api": "http://210.16.170.113:8845//api/ranking/getRankingList?type=total&limit=8",
-      "ext": "http://wpjx.chuan.33love.cn/api/jar/config/qq?spider_key=eA2Ta1AtKRMr0xUz"
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://154.8.225.238:9991/cang/lib/腾讯弹幕.js"
     },
     {
       "key": "哔哩视频",
