@@ -59,48 +59,8 @@
     }
   ],
   "sites": [
-    {
-      "key": "虎斑",
-      "name": "☘️虎斑☘️",
-      "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E8%99%8E%E6%96%91[%E7%9B%98]?pwd=50721480be241243&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "ZX",
-      "name": "☘️ZX┃4K☘️",
-      "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
-     "playUrl": "json:http://xy.183933.xyz/xiayede.php?key=hy1992&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-     {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "藤藤-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/qq2.js"
-    },
-    {
-      "key": "哔哩视频",
-      "name": "哔哩-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/bili.js"
-    },
-    {
-      "key": "guoguo",
-      "name": "芒芒-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/mg.js"
-    },
+
+
     {
       "key": "JD",
       "name": "热播4K网盘",
@@ -112,18 +72,7 @@
       "filterable": 1,
       "ext": "http://qp.69mini.com/api.php/app/"
     },
-    {
-      "key": "Zwqf",
-      "name": "👑醉挽｜清风",
-      "type": 3,
-      "api": "csp_Zwqf",
-      "jar": "https://mpimg.cn/down.php/5c57052c46586cf26f6619600ca87d62.jar;md5;5c57052c46586cf26f6619600ca87d62",
-      "searchable": 1,
-      "ext": {
-        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
-        "token": "moyu996"
-      }
-    },
+
 
 
 {
@@ -149,22 +98,7 @@
       "changeable": 1
     },
 
-    {
-      "key": "景天",
-      "name": "👑景天|4K弹幕",
-      "type": 3,
-      "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;640309e2b59d0ebbfd5453b2e2f19835",
-      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
-    },
-    {
-      "key": "茂茂",
-      "name": "👑茂茂|4K弹幕",
-      "type": 3,
-      "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;640309e2b59d0ebbfd5453b2e2f19835",
-      "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
-    },
+
 
     {
       "key": "天天",
