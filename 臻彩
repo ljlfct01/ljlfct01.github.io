@@ -82,6 +82,26 @@
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
     {
+      "key": "蓝光",
+      "name": "综合（臻彩视界4K）",
+      "type": 2,
+      "api": "http://b9.lhy888.cn/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "少儿",
+        "短剧",
+        "学堂",
+        "其他综艺",
+        "纪录片"
+      ]
+    },
+    {
       "key": "Zwqf",
       "name": "醉挽｜清风",
       "type": 3,
@@ -114,8 +134,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://210.16.170.113:8999/api.php/app/"
-        }
-
+        },
+    {
+      "key": "瓜子影视",
+      "name": "🍉瓜子┃3K",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
 
   ],
   "parses": [
