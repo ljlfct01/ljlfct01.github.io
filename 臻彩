@@ -60,21 +60,12 @@
     }
   ],
   "sites": [
-
-  
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/qq2.js"
-    },
- {
-      "key": "哔哩哔哩",
-      "name": "👑哔哩┃SVIP",
-      "type": 3,
-      "api": "http://mlwl.top:67/lib/drpy2.min.js",
-      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
     {
       "key": "guoguo",
@@ -83,9 +74,40 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/mg.js"
     },
+    {
+      "key": "哔哩视频",
+      "name": "哔哩-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/bili.js"
+    },
+    {
+      "key": "Zwqf",
+      "name": "醉挽｜清风",
+      "type": 3,
+      "api": "csp_Zwqf",
+      "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260421/tZqx/fish04210306.php;md5;6857c2aa7067598bde128e5df9e42048",
+      "searchable": 1,
+      "ext": {
+        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
+        "token": "xiaoman666"
+      }
+    },
+    {
+      "key": "xmwq",
+      "name": "小满｜万全",
+      "type": 3,
+      "api": "csp_Zwqf",
+      "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260421/tZqx/fish04210306.php;md5;6857c2aa7067598bde128e5df9e42048",
+      "searchable": 1,
+      "ext": {
+        "url": "http://我不是.摸鱼儿.com/api/feng/xiaoman.php",
+        "token": "xiaoman666"
+      }
+    },
         {
             "key": "lvdou",
-            "name": "Pan | 来自全能（已停）",
+            "name": "全能-（臻彩视界4K）",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
