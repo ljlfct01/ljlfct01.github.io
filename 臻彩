@@ -101,6 +101,16 @@
         "纪录片"
       ]
     },
+        {
+            "key": "lvdou",
+            "name": "全能-（臻彩视界4K）",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://210.16.170.113:8999/api.php/app/"
+        },
     {
       "key": "Zwqf",
       "name": "醉挽｜清风",
@@ -125,16 +135,6 @@
         "token": "xiaoman666"
       }
     },
-        {
-            "key": "lvdou",
-            "name": "全能-（臻彩视界4K）",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://210.16.170.113:8999/api.php/app/"
-        },
     {
       "key": "瓜子影视",
       "name": "🍉瓜子┃3K",
