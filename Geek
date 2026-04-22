@@ -66,6 +66,16 @@
   ],
   "sites": [
     {
+      "key": "Geek",
+      "name": "☘️机哥剧圈（4K测试①）☘️",
+      "type": 4,
+      "api": "http://iptv.kuaidou.tv:13000/api/v1/box/iptv/free/provide/20/vod?sessionId=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
       "type": 3,
