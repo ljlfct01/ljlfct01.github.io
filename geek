@@ -3,84 +3,11 @@
   "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
   "warningText": "欢迎使用火焰TV，祝您观影愉快",
   "lives": [
-    {
-      "name": "🐅全网通直播",
-      "type": 0,
-      "url": "http://token.kuaidou.tv/gg.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "🐅昭昭TV",
-      "type": 0,
-      "url": "http://38.75.136.137:88/api/tvlist.php",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
-    },
-      {
-     "name": "🐅4K线路",
-      "type": 0,
-      "url": "https://gongdian.top/tv/iptv",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "🐅风云",
-      "type": 0,
-      "url": "http://iptv.4666888.xyz/FYTV.m3u",
-      "ua": "okHttp/Mod-1.4.0.0",
-      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
-    },
-  {
-    "name": "斯玛特源",
-    "url": "http://tv123.vvvv.ee/tv.m3u",
-    "header": {
-      "User-Agent": "okhttp/5.1.0"
-    }
-  },
-  {
-      "name": "🐅易发TV",
-      "type": 0,
-      "url": "https://raw.bgithub.xyz/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
- {
-      "name": "🐅猫TV",
-      "type": 0,
-      "url": "http://rihou.cc:555/gggg.nzk",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
+
   ],
   "sites": [
-    {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "藤藤-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/qq2.js"
-    },
-    {
-      "key": "guoguo",
-      "name": "芒芒-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/mg.js"
-    },
-    {
-      "key": "哔哩视频",
-      "name": "哔哩-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/bili.js"
-    },
+
+
     {
       "key": "蓝光",
       "name": "综合-（臻彩视界4K）",
@@ -101,56 +28,8 @@
         "纪录片"
       ]
     },
-        {
-            "key": "lvdou",
-            "name": "全能-（臻彩视界4K）",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://210.16.170.113:8999/api.php/app/"
-        },
-    {
-      "key": "mihdr",
-      "name": "Pan - 1 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:56681/T4/T5/api2.php?site=mihdr###mihdr"
-    },
-    {
-      "key": "shandian",
-      "name": "Pan - 2 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:56681/T4/T5/api2.php?site=shandian###shandian"
-    },
-    {
-      "key": "huban",
-      "name": "Pan - 3 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:56681/T4/T5/api2.php?site=huban###huban"
-    },
-    {
-      "key": "labi3",
-      "name": "Pan - 4 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:56681/T4/T5/api2.php?site=labi3###labi3"
-    },
-     {
-      "key": "muou",
-      "name": "Pan - 5 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "http://116.62.133.86:56681/T4/T6/api2.php?site=muou###muou"
-    },
+    
+
     {
       "key": "Zwqf",
       "name": "醉挽｜清风",
@@ -179,8 +58,7 @@
       "key": "Geek",
       "name": "☘️机哥剧圈（4K测试①）☘️",
       "type": 4,
-      "api": "http://iptv.kuaidou.tv:13000/api/v1/box/iptv/free/provide/20/vod?sessionId=&ac=",
-      "playUrl": "json:http://189.1.224.165:8080/video/shenshou?flag=%E7%99%BD%E8%99%8E&play=",
+      "api": "http://iptv.kuaidou.tv:13000/api/v1/box/iptv/free/provide/20/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
