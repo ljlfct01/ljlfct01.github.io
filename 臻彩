@@ -81,26 +81,6 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
-    {
-      "key": "蓝光",
-      "name": "综合-（臻彩视界4K）",
-      "type": 2,
-      "api": "http://115.190.114.240:5678/sou?type=daily&filter=last&num=100000",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫",
-        "少儿",
-        "短剧",
-        "学堂",
-        "其他综艺",
-        "纪录片"
-      ]
-    },
         {
             "key": "lvdou",
             "name": "全能-（臻彩视界4K）",
@@ -110,6 +90,17 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://210.16.170.113:8999/api.php/app/"
+        },
+        {
+            "key": "lvdou",
+            "name": "全能-（臻彩视界4K）",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "jar": "http://115.190.114.240:5678/tvbox/libs/xiaoya_proxy.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://115.190.114.240:5678/sou?type=daily&filter=last&num=100000"
         },
     {
       "key": "mihdr",
