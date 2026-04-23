@@ -5,51 +5,15 @@
 
   ],
   "sites": [
+{"key": "蓝光","name": "综合（臻彩视界4K）","type": 2,
+"api": "http://b9.lhy888.cn/api.php/provide/vod/?ac=list",
+"playUrl": "json:http://xy.183933.xyz/xiayede.php?key=hy1966&url=",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"categories": ["电影","电视剧","综艺","动漫","少儿","短剧","学堂","其他综艺","纪录片"]
+},
 
-    {
-      "key": "蓝光",
-      "name": "综合-（臻彩视界4K）",
-      "type": 2,
-      "api": "http://b9.lhy888.cn/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫",
-        "少儿",
-        "短剧",
-        "学堂",
-        "其他综艺",
-        "纪录片"
-      ]
-    },
-
-    {
-      "key": "JD",
-      "name": "热播4K网盘",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://app.69mini.com/tvbox/nb.jpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://qp.69mini.com/api.php/app/"
-    },
-    {
-      "key": "Zwqf",
-      "name": "醉挽｜清风",
-      "type": 3,
-      "api": "csp_Zwqf",
-      "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260421/tZqx/fish04210306.php;md5;6857c2aa7067598bde128e5df9e42048",
-      "searchable": 1,
-      "ext": {
-        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
-        "token": "xiaoman666"
-      }
-    },
     {
       "key": "xmwq",
       "name": "小满｜万全",
