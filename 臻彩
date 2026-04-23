@@ -91,17 +91,16 @@
             "filterable": 1,
             "ext": "http://210.16.170.113:8999/api.php/app/"
         },
-         {
-            "key": "xiaoya",
-            "name": "臻彩视界4K",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "jar": "http://115.190.114.240:5678/tvbox/libs/xiaoya_proxy.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://115.190.114.240:5678/sou?type"
-        },
+    {
+      "key": "小雅",
+      "name": "小雅｜4k ",
+      "type": 4,
+      "api": "http://115.190.114.240:5678/sou?type",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
     {
       "key": "Zwqf",
       "name": "醉挽｜清风",
