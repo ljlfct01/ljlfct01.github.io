@@ -121,40 +121,8 @@
     "ae01.alicdn.com"
   ],
   "sites": [
-{
-      "key": "lvdou",
-      "name": "Pan | 来自全能（已停）",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
-      "playUrl": "json:http://189.1.224.165:8080/video/shenshou?flag=%E7%99%BD%E8%99%8E&play=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://pgcms.lyyytv.cn/api.php/app/"
-    },
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "👑豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
-    },
-    {
-      "key": "设置",
-      "name": "👑网弹|设置",
-      "type": 3,
-      "api": "csp_Config",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
+
+
 
          {
             "key": "cms2",
@@ -187,31 +155,7 @@
     },
 
 
-    {
-      "key": "Zwqf",
-      "name": "👑醉挽｜清风",
-      "type": 3,
-      "api": "csp_Zwqf",
-      "jar": "https://mpimg.cn/down.php/5c57052c46586cf26f6619600ca87d62.jar;md5;5c57052c46586cf26f6619600ca87d62",
-      "searchable": 1,
-      "ext": {
-        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
-        "token": "moyu996"
-      }
-    },
 
-
-    {
-      "key": "labi",
-      "name": "☘️ZX┃4K☘️",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_wangpan",
-      "jar": "http://wpjx.chuan.33love.cn/api/jar/config/wangpan?spider_key=eA2Ta1AtKRMr0xUz",
-      "ext": {
-        "site": "http://111.228.2.6:6547/"
-      }
-    },
 
     {
       "key": "景天",
