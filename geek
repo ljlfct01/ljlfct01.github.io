@@ -5,24 +5,7 @@
 
   ],
   "sites": [
-{"key": "蓝光","name": "🌀综合（臻彩视界4K）","type": 2,
-"api": "http://b9.lhy888.cn/api.php/provide/vod/?ac=list",
-"playUrl": "json:http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url=",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"categories": ["电影","电视剧","综艺","动漫","少儿","短剧","学堂","其他综艺","纪录片"]
-},
-    {
-      "key": "多多",
-      "name": "🌀多多｜4k ",
-      "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E5%A4%9A%E5%A4%9A[%E7%9B%98]?pwd=50721480be241243&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
+
     {
       "key": "三秋影视",
       "name": "🌀三秋｜4K测试",
