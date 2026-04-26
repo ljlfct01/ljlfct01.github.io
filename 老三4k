@@ -38,17 +38,19 @@
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
     {
-      "key": "星空",
-      "name": "🍿星空┃4K",
+      "name": "⏳追忆┃秒播",
+      "key": "NewNoxZy",
       "type": 3,
+      "api": "csp_NewNoxAmns",
+      "jar": "http://mytv6688.xyz/aowu/bfdb--cvdvds.png;md5;7370a5264d625d5eedc0f99ba3c8a18d",
       "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
       "changeable": 1,
-      "api": "csp_AppGet",
-      "jar": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/spider.jar",
       "ext": {
-        "url": "https://xk9.xkgzs.xyz",
-        "dataKey": "106jkcdnkldzckjk",
-        "dataIv": "106jkcdnkldzckjk"
+        "name": "",
+        "password": "",
+        "data": "2e4a288565eb2ea7fcb9caa81e70fa9b13ee58fa569055a61c8e99e0e685e59b23bfd2fede0c6909ed737ef5f8bf1ed059ee1222b4ed5608fdb3706b6c8b03f092e28a96fdc785c29b10433294465a2940ec80382950c7fd32775455e18dddb20ce680df1032820b7f3e36b58835e26cf64143caed9d3491f302adae503007d049243be56681fd3328c76f44393b3f01872abe86be7f6190a3b012ac28cbfb5ca81b45b5d85cf76347547bd3edfde4eb54261cda45b8469e2bef40d2dfc63d6f5846256de2fdc4e2c2e0a0c1dd0cd784a121243dec0d49869b58bd4981be8c8a91023bfd90b66c37b0737ebba03d687fe0591d04b13f0aa6349da1e19e9c63f7a4a9e2b7104a6f1f9fea405ad9ac442eee315614cbdc7d9993f2405a9b14e11bb723f647b1e53451455c9b06b92da28b99d0d78025530768f8b98a587b13d932deaa3a25ac670a480d9ef95739b906d82367c45073c173192def0094c5545f162dadfa913f8b8dbc9412a5a1e81dff5d87023dab868cad1567d7770d419a4516152e76b5ce64b02db8db4f14f31fa78d6395b13964d32b61d870e4b93ef9a6738e68eed155c04566d890b92f2483cddcb3a10a5a39cbcbaa8cb230d3c7bea675702fae59d1c40d38d018d51811380870ee19ab41832c4ae8ea796edb352960d7335f7d15e965d0646625fcf9a6e5bc73aef33a15e1754876dec8416cac8f3d61be3beef7d824e2bbc452650bc1b46eafcc08c5d0ad2f1a103da76a9b35fb3e49bd61ec071b62929463b5b2a996ce2b1185128b50131ae94df5b99a46818e35676e3516fc385bb79391408b6052faf4a3420cad490918578ec32096a8ee0d29f97abd2095df6652eebad317fc686328e96c6d7e033bc1fdd5e39b419cd70cef73464c0b12cb1cf1d5b971ce6eba951b601086e1b7f8752a197f05e54fc12cca6c2e1fb3a9487ad012b5d3c1d8e5f5567ece1ab5393c89d30ab7bb00dcfd85756f3e1f95182bfb44b872672e7dda06b7b54cb4526caa57ef5bdd821924a47df0a5b43166cb955ea1f5ecc94fd22d9975dff9d911dca745f14daf3924f3febd6e673e8769354c2a08e054f490d0fdddcdd413b4408a9f16cfb4c42a269d3fbb9c3ce0e1508cd7ec5eae94202ed5e71d9fa4dc18cd4e3b6942c0cbd871a5d8fcac6d8e620cc4ef65b08b533c6cf34e881d96e30933bd60417fafe2a92adbf7374ae852d63985ff05e9ed44b4284b43ba5ee0322fe4b790ee3c191fe490d075c17bb71a6e06ba802e2241c7d82fed2e019764004c7beda63722b92cad9ab0e60fc77288028d30bc9fd3a24c762e7daa8f455e97e8982e64c123f19cc0c1b670d13b614e3c94ee56f00688d37214b4c064d0bafcb93af5f0551158557c54b21e222ac12b552373a2f5e44d"
       }
     },
     {
@@ -83,17 +85,15 @@
       "jar": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar",
       "api": "csp_App3Q"
     },
-
     {
-      "key": "Zwqf",
-      "name": "醉挽｜清风",
+      "key": "快映",
+      "name": "🐮快映┃app",
       "type": 3,
-      "api": "csp_Zwqf",
-      "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260421/tZqx/fish04210306.php;md5;6857c2aa7067598bde128e5df9e42048",
-      "searchable": 1,
+      "changeable": 0,
+      "api": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/Appfox.min.js",
       "ext": {
-        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
-        "token": "xiaoman666"
+        "host": "https://www.baidukuaiy.top",
+        "ver": 3
       }
     },
     {
