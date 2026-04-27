@@ -3,18 +3,13 @@
   "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
   "warningText": "欢迎使用火焰TV，祝您观影愉快",
   "sites": [
-    {
-      "key": "豆拌",
-      "name": "🍿抖音群：784461041121🍿",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },
+  
     {
       "key": "4K影视",
       "name": "🏆观影┃app",
       "type": 3,
       "api": "csp_AppQi",
+     "jar": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
