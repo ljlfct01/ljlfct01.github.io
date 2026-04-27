@@ -825,7 +825,7 @@ var rule = {
         let zp = d.filter(function(it) {
             return !(it.type && it.type !== "正片")
         });
-        VOD.vod_play_from = yg.length < 1 ? "老三4k" : "❤️老三4k$$$貔貅4k";
+        VOD.vod_play_from = yg.length < 1 ? "老三4k" : "❤️老三4k$$$老三4k";
         VOD.vod_play_url = yg.length < 1 ? d.map(function(it) {
             return it.title + "$" + it.url
         }).join("#") : [zp, yg].map(function(it) {
