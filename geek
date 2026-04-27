@@ -2,7 +2,15 @@
 "spider": "",
   "wallpaper": "https://bing.img.run/uhd.php",
   "lives": [
-
+    {
+      "name": "🐅昭昭TV",
+      "type": 0,
+      "url": "http://iptv.kuaidou.tv:13000/api/v1/box/iptv/r8-map-id-9425e08ce844e60f71118cafed4af8e72d3ebc3253951fb2ec72afed8d82e478",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    }
   ],
   "sites": [
 
