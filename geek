@@ -1,12 +1,24 @@
 {
-"spider": "https://mpimg.cn/down.php/f2d196f8d411313f00000f24e257b6e6.jar",
+"spider": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar",
   "wallpaper": "https://bing.img.run/uhd.php",
   "lives": [
 
   ],
   "sites": [
 
-
+   {
+      "key": "星空",
+      "name": "🍿星空┃4K",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+     "ext": {
+        "url": "https://xk9.xkgzs.xyz",
+        "dataKey": "106jkcdnkldzckjk",
+        "dataIv": "106jkcdnkldzckjk"
+      }
+    },
     {
       "key": "瓜子影视",
       "name": "🌀瓜子┃3K",
