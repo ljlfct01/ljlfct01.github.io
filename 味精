@@ -1,27 +1,7 @@
 {
 
   "sites": [
-      {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "藤藤-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/qq2.js"
-    },
-    {
-      "key": "guoguo",
-      "name": "芒芒-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/mg.js"
-    },
-    {
-      "key": "哔哩视频",
-      "name": "哔哩-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/bili.js"
-    },
+
     {
       "key": "4K影视",
       "name": "🏆观影┃app",
@@ -1291,41 +1271,7 @@
  
   ],
   "parses": [
-    {
-      "name": "WEB解析",
-      "type": 0,
-      "url": ""
-    },
-    {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
-     {
-      "name": "腾讯4k",
-      "type": 1,
-      "url": "https://fanghu.52xiaobai.cn/qq4k/qq4k.php?url="
-    },
-   {
-      "name": "芒果4k",
-      "type": 1,
-      "url": "https://fanghu.52xiaobai.cn/mg4k/mg4k.php?url="
-    },
-     {
-      "name": "腾讯芒果4k",
-      "type": 1,
-      "url": "https://129jx.aidianying.sbs/api/?key=5873617593D0C2H&url="
-    },
-     {
-      "name": "腾讯芒果哔哩4k",
-      "type": 1,
-      "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
-    }
+
   ],
   "flags": [
     "youku",
