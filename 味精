@@ -1272,68 +1272,39 @@
   ],
   "parses": [
     {
-      "name": "👉玉弟👈",
-      "type": 1,
-      "url": "http://shenmijex.vip.cpolar.cn/公开/玉弟哥哥.php?url="
+      "name": "WEB解析",
+      "type": 0,
+      "url": ""
     },
     {
-      "name": "👉九齿👈",
-      "type": 1,
-      "url": "http://shenmijex.vip.cpolar.cn/公开/九齿钉耙.php?url="
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
     },
     {
-      "name": "👉定海👈",
-      "type": 1,
-      "url": "http://shenmijex.vip.cpolar.cn/公开/定海神针.php?url="
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
     },
-    {
-      "name": "👉取经👈",
+     {
+      "name": "腾讯4k",
       "type": 1,
-      "url": "http://shenmijex.vip.cpolar.cn/公开/取经师徒.php?url="
+      "url": "https://fanghu.52xiaobai.cn/qq4k/qq4k.php?url="
     },
-    {
-      "name": "👉测试解析👈",
-      "type": "1",
-      "url": "http://1.94.244.214:8889/geturl?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "👉测试解析👈",
+   {
+      "name": "芒果4k",
       "type": 1,
-      "url": "http://php.xuan666.icu/高兴/api8.php?url=",
-      "ext": {
-        "flag": [
-          "味精4K",
-          "mgtv",
-          "qq"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
+      "url": "https://fanghu.52xiaobai.cn/mg4k/mg4k.php?url="
+    },
+     {
+      "name": "腾讯芒果4k",
+      "type": 1,
+      "url": "https://129jx.aidianying.sbs/api/?key=5873617593D0C2H&url="
+    },
+     {
+      "name": "腾讯芒果哔哩4k",
+      "type": 1,
+      "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
     }
   ],
   "flags": [
@@ -1885,7 +1856,7 @@
       "logo": "https://11.112114.xyz/logo/{name}.png"
     }
   ],
-  "notice": "",
+  "notice": "欢迎使用老三影视",
   "spider": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar",
   "wallpaper": "无",
   "doh": [
