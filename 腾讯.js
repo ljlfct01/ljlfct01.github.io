@@ -117,7 +117,7 @@ globalThis.proxyPool = [
 
 // 解析接口池（整合所有解析接口，去重，包含原lazy里的所有接口）
 globalThis.parseApiPool = [
-    "http://yunhai.zhujiale.cn/api/?key=a29aa5d71a4e91b991294356b864e83e&url=",
+    "http://jiexi.fc8001.top/iJSthWVzmQJOZHnS.php?url=",
     ""
 ];
 
