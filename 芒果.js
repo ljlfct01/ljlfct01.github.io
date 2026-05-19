@@ -751,7 +751,7 @@
             
             // 定义解析接口
             const parseApis = [
-    "http://yunhai.zhujiale.cn/api/?key=a29aa5d71a4e91b991294356b864e83e&url="
+    "http://jiexi.fc8001.top/iJSthWVzmQJOZHnS.php?url="
   
             ];
             
