@@ -1,1114 +1,388 @@
-{
-    "spider": "http:\/\/home.jundie.top:81\/jar\/top98_1.jar",
-    "homepage": "https:\/\/github.com\/hjdhnx\/hipy-server",
-    "homeLogo": ".\/img\/logo500x200-1.png",
-    "wallpaper": "https:\/\/api.btstu.cn\/sjbz\/api.php",
-    "warningText": "text",
-    "parses": [
-        {
-            "name": "text",
-            "type": 1,
-            "url": "",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "bilibili",
-                    "YuMi-vip"
-                ]
-            }
-        }
-    ],
-    "sites": [
-        {
-            "key": "ttys",
-            "name": "🔥定制|4K①",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/bd/ys//js/drpy2.min.js",
-            "ext": "http://49.232.165.72:1234/js/qq.js"
-        },
-        {
-            "key": "机哥剧圈",
-            "name": "🔥定制|4K②",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/bd/ys//js/drpy2.min.js",
-            "ext": "http://49.232.165.72:1234/js/mg.js"
-        },
-        
-        {
-            "key": "爱奇艺弹幕",
-            "name": "🔥定制|爱2K①",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/bd/ys//js/drpy2.min.js",
-            "ext": "http://49.232.165.72:1234/js/aiqiyi.js"
-        },
-        {
-            "key": "哔哩视频",
-            "name": "🔥定制|哔2K",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/bd/ys//js/drpy2.min.js",
-            "ext": "https:\/\/app.69mini.com\/lib1\/bili.js"
-        },
-        {
-            "key": "hipy_js_优酷[官]",
-            "name": "🔥定制|酷2k",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/bd/ys//js/drpy2.min.js",
-            "ext": "https:\/\/app.69mini.com\/lib1\/优酷[官].js"
-        },
-        {
-            "key": "wanjia",
-            "name": "🔥定制|综合2K",
-            "type": 1,
-            "api": "http:\/\/121.40.174.45:199\/api.php\/provide\/vod\/",
-            "playUrl": "json:http:\/\/121.40.174.45:299\/sf\/2Kshouquan\/cache\/IP_manager\/API.php?url=",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "categories": [
-                "电视剧",
-                "电影类",
-                "综艺类",
-                "海外剧",
-                "日韩剧",
-                "动漫类",
-                "少儿类",
-                "纪录片",
-                "B站类",
-                "经典片"
-            ],
-            "ext": "http:\/\/121.40.174.45:199\/api.php\/provide\/vod\/"
-        },
-        {
-            "key": "360zy",
-            "name": "🧡飞龙|收集",
-            "type": 1,
-            "api": "https:\/\/360zy.com\/api.php\/provide\/vod?",
-            "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "古装片",
-                "悬疑片",
-                "犯罪片",
-                "灾难片",
-                "国产剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "泰国剧",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "国产动漫",
-                "欧美动漫",
-                "日韩动漫",
-                "现代都市",
-                "脑洞悬疑",
-                "年代穿越",
-                "古装仙侠",
-                "女频恋爱",
-                "成长逆袭",
-                "反转爽剧"
-            ]
-        },
-        {
-            "key": "cjzy_暴风资源",
-            "name": "🧡暴风┃收集",
-            "type": 1,
-            "api": "https:\/\/bfzyapi.com\/api.php\/provide\/vod\/?ac=list",
-            "playUrl": "json:http:\/\/121.40.174.45:299\/sf\/2Kshouquan\/cache\/IP_manager\/API.php?url=",
-            "categories": [
-                "国产剧",
-                "国产动漫",
-                "大陆综艺",
-                "港台综艺",
-                "香港剧",
-                "台湾剧",
-                "日本剧",
-                "欧美剧",
-                "泰国剧",
-                "日本动漫",
-                "日本综艺",
-                "综艺频道",
-                "新马泰综艺",
-                "纪录片",
-                "科幻片",
-                "喜剧片",
-                "战争片"
-            ]
-        },
-        {
-            "key": "量子",
-            "name": "🧡量子2k|收集",
-            "type": 1,
-            "api": "http:\/\/cj.lziapi.com\/api.php\/provide\/vod\/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "playurl": "json:http:\/\/121.40.174.45:299\/sf\/2Kshouquan\/cache\/IP_manager\/API.php?url=",
-            "categories": [
-                "国产剧",
-                "国产动漫",
-                "泰国剧",
-                "台湾剧",
-                "香港剧",
-                "欧美剧",
-                "韩国剧",
-                "日本剧",
-                "动漫",
-                "体育",
-                "剧情片",
-                "动作片",
-                "爱情片",
-                "喜剧片"
-            ]
-        },
-        {
-            "key": "csp_非凡资源",
-            "name": "🧡非凡|收集",
-            "type": 1,
-            "api": "http:\/\/cj.ffzyapi.com\/api.php\/provide\/vod\/",
-            "playurl": "json:http:\/\/121.40.174.45:299\/sf\/2Kshouquan\/cache\/IP_manager\/API.php?url=",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "科幻片",
-                "恐怖片",
-                "爱情片",
-                "剧情片",
-                "战争片",
-                "记录片",
-                "国产剧",
-                "欧美剧",
-                "香港剧",
-                "韩国剧",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "泰国剧",
-                "国产动漫",
-                "日韩动漫",
-                "欧美动漫",
-                "港台动漫",
-                "海外动漫",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺"
-            ]
-        },
-        {
-            "key": "csp_New6v",
-            "name": "🧡6V┃收集",
-            "type": 3,
-            "jar": "https:\/\/gitee.com\/zhujrong\/zy\/raw\/master\/jars\/xyq.jar",
-            "api": "csp_New6v",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https:\/\/www.xb6v.com"
-        },
-        {
-            "key": "如意",
-            "name": "🧡综合1┃收集",
-            "type": 1,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "https:\/\/cj.rycjapi.com\/api.php\/provide\/vod\/from\/rym3u8\/at\/json",
-            "categories": [
-                "国产剧",
-                "国产动漫",
-                "大陆综艺",
-                "喜剧片",
-                "动作片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "记录片",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "日韩动漫",
-                "欧美动",
-                "港台动漫",
-                "海外动",
-                "电影解说",
-                "体育",
-                "足球",
-                "篮球",
-                "网球",
-                "斯诺克",
-                "预告片",
-                "短剧",
-                "动画电影",
-                "电影片",
-                "连续剧",
-                "综艺片",
-                "动漫片",
-                "国产剧",
-                "韩国剧",
-                "日本剧",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "香港剧",
-                "欧美剧",
-                "记录片",
-                "台湾剧",
-                "海外剧",
-                "泰国剧",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "国产动漫",
-                "日韩动漫",
-                "欧美动漫",
-                "港台动漫",
-                "海外动漫"
-            ]
-        },
-        {
-            "key": "酷酷主线",
-            "name": "🧡综合2┃收集",
-            "type": 1,
-            "jar": "https:\/\/tv.xiaofengtv.com\/tvbox\/jar\/custom_spider.jar",
-            "playUrl": "",
-            "api": "https:\/\/cj.rycjapi.com\/api.php\/provide\/vod\/from\/rym3u8\/at\/json",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "国产剧",
-                "香港剧",
-                "动画电影",
-                "喜剧片",
-                "动作片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "韩国剧",
-                "欧美剧",
-                "记录片"
-            ]
-        },
-        {
-            "key": "非凡云5",
-            "name": "🧡综合3┃收集",
-            "type": 1,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "http:\/\/api.ffzyapi.com\/api.php\/provide\/vod\/from\/ffm3u8\/",
-            "categories": [
-                "国产剧",
-                "国产动漫",
-                "大陆综艺",
-                "喜剧片",
-                "动作片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "记录片",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "日韩动漫",
-                "欧美动",
-                "港台动漫",
-                "海外动",
-                "电影解说",
-                "体育",
-                "足球",
-                "篮球",
-                "网球",
-                "斯诺克",
-                "预告片",
-                "短剧",
-                "动画电影",
-                "电影片",
-                "连续剧",
-                "综艺片",
-                "动漫片",
-                "国产剧",
-                "韩国剧",
-                "日本剧",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "香港剧",
-                "欧美剧",
-                "记录片",
-                "台湾剧",
-                "海外剧",
-                "泰国剧",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "国产动漫",
-                "日韩动漫",
-                "欧美动漫",
-                "港台动漫",
-                "海外动漫"
-            ]
-        },
-        {
-            "key": "🎬专线|┃工厂┃无广",
-            "name": "🧡工厂┃收集",
-            "type": 0,
-            "api": "http:\/\/yonghu.ffzyapi8.com\/api.php\/provide\/vod\/from\/ffm3u8\/at\/xml\/",
-            "playUrl": "json:http:\/\/121.40.174.45:299\/sf\/2Kshouquan\/cache\/IP_manager\/API.php?url=",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "categories": [
-                "欧美剧",
-                "香港剧",
-                "韩国剧",
-                "日本剧",
-                "台湾剧",
-                "泰国剧",
-                "海外剧",
-                "动作片",
-                "喜剧片",
-                "科幻片",
-                "恐怖片",
-                "爱情片",
-                "剧情片",
-                "战争片",
-                "纪录片",
-                "大陆综艺",
-                "欧美综艺",
-                "日韩综艺",
-                "港台综艺",
-                "国产动漫",
-                "欧美动漫",
-                "日韩动漫",
-                "港台动漫",
-                "海外动漫"
-            ],
-            "jar": "https:\/\/fs-im-kefu.7moor-fs1.com\/ly\/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0\/1752223235214\/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273"
-        },
-        {
-            "key": "如意采集资源",
-            "name": "🧡如意┃收集",
-            "type": 1,
-            "api": "https:\/\/cj.rycjapi.com\/api.php\/provide\/vod\/",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "playerType": 1,
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "🧡卧龙┃收集",
-            "name": "🧡卧龙┃收集",
-            "type": 1,
-            "api": "https:\/\/wolongzyw.com\/api.php\/provide\/vod\/?ac=list",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "天堂采集资源",
-            "name": "🧡天堂┃收集",
-            "type": 1,
-            "api": "http:\/\/caiji.dyttzyapi.com\/api.php\/provide\/vod\/",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "playerType": 1,
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "儿童",
-            "name": "📚┃儿童┃启蒙",
-            "type": 3,
-            "api": "https:\/\/gh-proxy.net\/https:\/\/raw.githubusercontent.com\/fantaiying7\/EXT\/refs\/heads\/main\/drpy2.min.js",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "https:\/\/gh-proxy.net\/https:\/\/raw.githubusercontent.com\/fantaiying7\/EXT\/refs\/heads\/main\/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
-        },
-        {
-            "key": "csp_少儿",
-            "name": "📚┃少儿┃教育",
-            "searchable": 0,
-            "type": 3,
-            "api": "csp_Bili",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "playerType": 2,
-            "ext": {
-                "json": "https:\/\/img2.gelonghui.com\/library\/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            }
-        },
-        {
-            "key": "csp_小学",
-            "name": "📚┃小学┃课堂",
-            "searchable": 0,
-            "type": 3,
-            "api": "csp_Bili",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "playerType": 2,
-            "ext": {
-                "json": "https:\/\/img2.gelonghui.com\/library\/a1140-144855fe-3eaa-44f3-b689-6812c233de54null",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            }
-        },
-        {
-            "key": "csp_初中",
-            "name": "📚┃初中┃课堂",
-            "searchable": 0,
-            "type": 3,
-            "api": "csp_Bili",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "playerType": 2,
-            "ext": {
-                "json": "https:\/\/img2.gelonghui.com\/library\/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            }
-        },
-        {
-            "key": "csp_高中",
-            "name": "📚┃高中┃课堂",
-            "searchable": 0,
-            "type": 3,
-            "api": "csp_Bili",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "playerType": 2,
-            "ext": {
-                "json": "https:\/\/img2.gelonghui.com\/library\/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            }
-        },
-        {
-            "key": "MV",
-            "name": "🌈歌曲┃哔哩",
-            "type": 3,
-            "api": "https:\/\/py.nxog.eu.org\/https:\/\/raw.githubusercontent.com\/ouhaibo1980\/tvbox\/refs\/heads\/main\/js\/drpy2.min.js",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "order_num": 142,
-            "ext": "https:\/\/py.nxog.eu.org\/https:\/\/raw.githubusercontent.com\/ouhaibo1980\/tvbox\/refs\/heads\/main\/js\/我的哔哩.js?type=url&params=https:\/\/py.nxog.eu.org\/https:\/\/raw.githubusercontent.com\/ouhaibo1980\/tvbox\/refs\/heads\/main\/Bilibili\/歌曲MV.json"
-        },
-        {
-            "key": "美食",
-            "name": "🌈美食┃哔哩",
-            "type": 3,
-            "api": "https:\/\/py.nxog.eu.org\/https:\/\/raw.githubusercontent.com\/ouhaibo1980\/tvbox\/refs\/heads\/main\/js\/drpy2.min.js",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "order_num": 142,
-            "ext": "https:\/\/py.nxog.eu.org\/https:\/\/raw.githubusercontent.com\/ouhaibo1980\/tvbox\/refs\/heads\/main\/js\/我的哔哩.js?type=url&params=https:\/\/py.nxog.eu.org\/https:\/\/raw.githubusercontent.com\/ouhaibo1980\/tvbox\/refs\/heads\/main\/Bilibili\/美食.json"
-        },
-        {
-            "key": "Aid",
-            "name": "🚑急救┃知识",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "jar": "http:\/\/47.120.41.246:8025\/vip\/jar\/xiaomi.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            }
-        },
-        {
-            "key": "csp_Bili_zyy",
-            "name": "🏥中医药材✨药区汇总",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "jar": "https:\/\/13537.kstore.vip\/主接口4K﹢蓝光\/lib\/duo.jar",
-            "ext": "https:\/\/13537.kstore.vip\/主接口4K﹢蓝光\/lib\/中医药.json"
-        },
-        {
-            "key": "csp_Bili_xuqu1",
-            "name": "🇨🇳戏曲大院✨资源汇总",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "jar": "https:\/\/13537.kstore.vip\/主接口4K﹢蓝光\/lib\/duo.jar",
-            "ext": "https:\/\/13537.kstore.vip\/主接口4K﹢蓝光\/lib\/戏曲.json"
-        },
-        {
-            "key": "csp_Bili_xiangsh",
-            "name": "🤓相声小品✨资源回放",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "jar": "https:\/\/13537.kstore.vip\/主接口4K﹢蓝光\/lib\/duo.jar",
-            "ext": "https:\/\/13537.kstore.vip\/主接口4K﹢蓝光\/lib\/相声小品.json"
-        },
-        {
-            "key": "csp_Bili_TYjs",
-            "name": "👑体育健身✨运动实操",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "jar": "https:\/\/13537.kstore.vip\/主接口4K﹢蓝光\/lib\/duo.jar",
-            "ext": "https:\/\/13537.kstore.vip\/主接口4K﹢蓝光\/lib\/体育健身.json"
-        },
-        {
-            "key": "DG音乐仓",
-            "name": "DG音乐台",
-            "type": 3,
-            "api": "csp_Bili",
-            "jar": "http:\/\/1.94.31.214\/dgyybd\/dgyy\/fty24.jar;md5;329e914a90b0bb5c7cb69b0eaec19700",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "https:\/\/ddzb.fun\/dgmusic\/ych.json"
-        },
-        {
-            "key": "push_agent",
-            "name": "🛴推送┃播放接口免费，请测试完删除处理222",
-            "type": 3,
-            "filterable": 0,
-            "changeable": 0,
-            "api": "csp_Push",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": ""
-        }
-    ],
-  "parses": [
-
-      {
-      "name": "极速4k",
-      "type": 1,
-      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
-    }
-
-  ],
-    "ijk": [
-        {
-            "group": "软解码",
-            "options": [
-                {
-                    "category": 4,
-                    "name": "opensles",
-                    "value": "0"
-                },
-                {
-                    "category": 4,
-                    "name": "overlay-format",
-                    "value": "842225234"
-                },
-                {
-                    "category": 4,
-                    "name": "framedrop",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "soundtouch",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "start-on-prepared",
-                    "value": "1"
-                },
-                {
-                    "category": 1,
-                    "name": "http-detect-range-support",
-                    "value": "0"
-                },
-                {
-                    "category": 1,
-                    "name": "fflags",
-                    "value": "fastseek"
-                },
-                {
-                    "category": 2,
-                    "name": "skip_loop_filter",
-                    "value": "48"
-                },
-                {
-                    "category": 4,
-                    "name": "reconnect",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "max-buffer-size",
-                    "value": "5242880"
-                },
-                {
-                    "category": 4,
-                    "name": "enable-accurate-seek",
-                    "value": "0"
-                },
-                {
-                    "category": 4,
-                    "name": "mediacodec",
-                    "value": "0"
-                },
-                {
-                    "category": 4,
-                    "name": "mediacodec-auto-rotate",
-                    "value": "0"
-                },
-                {
-                    "category": 4,
-                    "name": "mediacodec-handle-resolution-change",
-                    "value": "0"
-                },
-                {
-                    "category": 4,
-                    "name": "mediacodec-hevc",
-                    "value": "0"
-                },
-                {
-                    "category": 1,
-                    "name": "dns_cache_timeout",
-                    "value": "600000000"
-                }
-            ]
-        },
-        {
-            "group": "硬解码",
-            "options": [
-                {
-                    "category": 4,
-                    "name": "opensles",
-                    "value": "0"
-                },
-                {
-                    "category": 4,
-                    "name": "overlay-format",
-                    "value": "842225234"
-                },
-                {
-                    "category": 4,
-                    "name": "framedrop",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "soundtouch",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "start-on-prepared",
-                    "value": "1"
-                },
-                {
-                    "category": 1,
-                    "name": "http-detect-range-support",
-                    "value": "0"
-                },
-                {
-                    "category": 1,
-                    "name": "fflags",
-                    "value": "fastseek"
-                },
-                {
-                    "category": 2,
-                    "name": "skip_loop_filter",
-                    "value": "48"
-                },
-                {
-                    "category": 4,
-                    "name": "reconnect",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "max-buffer-size",
-                    "value": "5242880"
-                },
-                {
-                    "category": 4,
-                    "name": "enable-accurate-seek",
-                    "value": "0"
-                },
-                {
-                    "category": 4,
-                    "name": "mediacodec",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "mediacodec-auto-rotate",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "mediacodec-handle-resolution-change",
-                    "value": "1"
-                },
-                {
-                    "category": 4,
-                    "name": "mediacodec-hevc",
-                    "value": "1"
-                },
-                {
-                    "category": 1,
-                    "name": "dns_cache_timeout",
-                    "value": "600000000"
-                }
-            ]
-        }
-    ],
-    "rules": [
-        {
-            "name": "♻️量非",
-            "hosts": [
-                "lz",
-                "vip.lz",
-                "v.cdnlz",
-                "hd.lz",
-                "ffzy",
-                "vip.ffzy",
-                "hd.ffzy"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "♻️索尼",
-            "hosts": [
-                "suonizy",
-                "qrssv.com"
-            ],
-            "regex": [
-                "15.1666",
-                "15.2666"
-            ]
-        },
-        {
-            "name": "♻️乐视",
-            "hosts": [
-                "leshiyun"
-            ],
-            "regex": [
-                "15.92"
-            ]
-        },
-        {
-            "name": "♻️优质",
-            "hosts": [
-                "yzzy",
-                "playback"
-            ],
-            "regex": [
-                "16.63",
-                "18.66",
-                "17.66",
-                "19.13"
-            ]
-        },
-        {
-            "name": "♻️快看",
-            "hosts": [
-                "kuaikan",
-                "vip.kuaikan"
-            ],
-            "regex": [
-                "15.32",
-                "15.231",
-                "18.066"
-            ]
-        },
-        {
-            "name": "♻️360",
-            "hosts": [
-                "lyhuicheng"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
-                "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "♻️开源棋牌",
-            "hosts": [
-                "askzycdn",
-                "jkunbf",
-                "bfikuncdn",
-                "bfaskcdn"
-            ],
-            "regex": [
-                "#EXT-X-KEY:METHOD=NONE\r*\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\r*\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "♻️暴风",
-            "hosts": [
-                "bfengbf.com",
-                "bfzy",
-                "c1"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
-                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "♻️农民",
-            "hosts": [
-                "toutiaovod.com"
-            ],
-            "regex": [
-                "video\/tos\/cn"
-            ]
-        },
-        {
-            "name": "♻️火山",
-            "hosts": [
-                "huoshan.com"
-            ],
-            "regex": [
-                "item_id="
-            ]
-        },
-        {
-            "name": "♻️抖音",
-            "hosts": [
-                "douyin.com"
-            ],
-            "regex": [
-                "is_play_url="
-            ]
-        },
-        {
-            "name": "♻️磁力",
-            "hosts": [
-                "magnet"
-            ],
-            "regex": [
-                "最 新",
-                "直 播",
-                "更 新"
-            ]
-        },
-        {
-            "name": "♻️饭团点击",
-            "hosts": [
-                "dadagui",
-                "freeok",
-                "dadagui"
-            ],
-            "script": [
-                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
-            ]
-        },
-        {
-            "name": "♻️毛驴点击",
-            "hosts": [
-                "www.maolvys.com"
-            ],
-            "script": [
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-            ]
-        }
-    ],
-    "flags": [
-        "youku",
-        "qq",
-        "iqiyi",
-        "qiyi",
-        "letv",
-        "sohu",
-        "tudou",
-        "pptv",
-        "mgtv",
-        "cctv",
-        "cntv",
-        "wasu",
-        "bilibili",
-        "xigua",
-        "1905",
-        "1920i",
-        "1920l",
-        "mim3u8",
-        "laodim3u8",
-        "leduo",
-        "CL4K",
-        "ltnb",
-        "rx",
-        "renrenmi",
-        "wuduyun",
-        "xueren",
-        "naifeimi",
-        "miaoparty",
-        "miaoparty2",
-        "miaoparty3",
-        "xfy",
-        "xfyun",
-        "x1play",
-        "fuckapp",
-        "duoduozy",
-        "ftqp2",
-        "ftqp3",
-        "ftqp4",
-        "ftqp5"
-    ],
-    "ads": [
-        "mimg.0c1q0l.cn",
-        "www.googletagmanager.com",
-        "www.google-analytics.com",
-        "mc.usihnbcq.cn",
-        "mg.g1mm3d.cn",
-        "mscs.svaeuzh.cn",
-        "cnzz.hhttm.top",
-        "tp.vinuxhome.com",
-        "cnzz.mmstat.com",
-        "www.baihuillq.com",
-        "s23.cnzz.com",
-        "z3.cnzz.com",
-        "c.cnzz.com",
-        "stj.v1vo.top",
-        "z12.cnzz.com",
-        "img.mosflower.cn",
-        "tips.gamevvip.com",
-        "ehwe.yhdtns.com",
-        "xdn.cqqc3.com",
-        "www.jixunkyy.cn",
-        "sp.chemacid.cn",
-        "hm.baidu.com",
-        "s9.cnzz.com",
-        "z6.cnzz.com",
-        "um.cavuc.com",
-        "mav.mavuz.com",
-        "wofwk.aoidf3.com",
-        "z5.cnzz.com",
-        "xc.hubeijieshikj.cn",
-        "tj.tianwenhu.com",
-        "xg.gars57.cn",
-        "k.jinxiuzhilv.com",
-        "cdn.bootcss.com",
-        "ppl.xunzhuo123.com",
-        "xomk.jiangjunmh.top",
-        "img.xunzhuo123.com",
-        "z1.cnzz.com",
-        "s13.cnzz.com",
-        "xg.huataisangao.cn",
-        "z7.cnzz.com",
-        "xg.huataisangao.cn",
-        "z2.cnzz.com",
-        "s96.cnzz.com",
-        "q11.cnzz.com",
-        "thy.dacedsfa.cn",
-        "xg.whsbpw.cn",
-        "s19.cnzz.com",
-        "z8.cnzz.com",
-        "s4.cnzz.com",
-        "f5w.as12df.top",
-        "ae01.alicdn.com",
-        "www.92424.cn",
-        "k.wudejia.com",
-        "vivovip.mmszxc.top",
-        "qiu.xixiqiu.com",
-        "cdnjs.hnfenxun.com",
-        "cms.qdwght.com"
-    ]
-}
+央视 CCTV_,#genre#
+CCTV1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/acb5bccceb45633804405de97ead7d3b/master.m3u8
+CCTV2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/8e8af22efea448a210ce28c4bba9c033/master.m3u8
+CCTV3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2b6de1c8b4c04c62c810697599cf3549/master.m3u8
+CCTV4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5113086ff6643f95fd81062ba01ba41e/master.m3u8
+CCTV5HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e3fa942dfcbb74ddc4b8ae202a736a12/master.m3u8
+CCTV5+,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3e4c8813cbc3af171a9bdee24247a97d/master.m3u8
+CCTV6,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9cc560bc1b40aa3bf7d78bfc4b6f1fbc/master.m3u8
+CCTV7,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/41628a2634370ff6f49b92879213192b/master.m3u8
+CCTV8,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d7118be28f7a3689accb2316a9e9be27/master.m3u8
+CCTV10,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/cd0e7f021ca866e8b41907a697f78f06/master.m3u8
+CCTV11,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/270b0144e65362eb156d41940bd08f7c/master.m3u8
+CCTV12,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/cb075b6b56bc44702ad73538d6409cc5/master.m3u8
+CCTV13,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9422ea42533292660d4359742d5d30ba/master.m3u8
+CCTV14,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9c2b135d83c76f19c8c5e13910b7445d/master.m3u8
+中国 CN_,#genre#
+河南卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2c854868563485135dd486801057dd6e/master.m3u8
+四川卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b82fa4086c9a2c9442279efbb80cce31/master.m3u8
+山东卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/28502a1b6bf5fbe7c6da9241db596237/master.m3u8
+东南卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/0b54da973aaa9d57361846b14cd7da3e/master.m3u8
+湖南卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c39a7a374d888bce3912df71bcb0d580/master.m3u8
+北京卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/db47125bc6c697e608358a9dfbf95f82/master.m3u8
+江苏卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/322fa7b66243b8d0edef9d761a42f263/master.m3u8
+新疆卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ad291a233f1fd3f24332e41461798a25/master.m3u8
+江西卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/535765a19ab55a12bbf64a1e98ae97dd/master.m3u8
+天津卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5927c7a6dd31f38686fafa073e2e13bc/master.m3u8
+辽宁卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9291c40ec1cec1281638720c74c7245f/master.m3u8
+安徽卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5b0447ba48dbb6be1c286bab83f77e39/master.m3u8
+湖北卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/55fc65ef82e92d0e1ccb2b3f200a7529/master.m3u8
+深圳卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/20831bb807a45638cfaf81df1122024d/master.m3u8
+南方卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d251252558c2bb133f0284d37b1293ba/master.m3u8
+浙江卫视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/590e187a8799b1890175d25ec85ea352/master.m3u8
+香港 HongKong_,#genre#
+TVB翡翠台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/263ef8e25e9d14599c49b2169d133840/master.m3u8
+TVB无线新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/4c1fc85012b63c1b8c4372dee724313d/master.m3u8
+TVBJ2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ff3511d1d98878c3b9d2c4cb220baa24/master.m3u8
+TVB明珠,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b3ef2974544bd54afed596f2e9cb21cc/master.m3u8
+TVB功夫,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9ef99cc1259a2b2ca534bb73a2a095e2/master.m3u8
+TVB戏曲,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/22cbdb708feceea350cd1f1053f0b945/master.m3u8
+TVB娱乐新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3598ddf579ae506d9018d683b2aa11d5/master.m3u8
+TVB 亚洲剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c1bc67ae37466d6ee670ff2b119867ed/master.m3u8
+TVB 华语剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6fc002d175b34516d29f843a125f2cae/master.m3u8
+viu6tv,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/43973ad15735334311457919c5180b24/master.m3u8
+viutv,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c023187e5a2cac2dc9defbb158ad2072/master.m3u8
+NOW财经,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/519d40a414fc0bf7d6d69b48e05af00e/master.m3u8
+NOW直播,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/18737af27537a81c06079c3fb00b8eb6/master.m3u8
+NOW新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b4d469920c01b08a3b76e30de55df4e3/master.m3u8
+Now 爆谷星影台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/57a965e0eaeeecdc9183548b26125320/master.m3u8
+Now 爆谷台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b3d36af7a37565a65b0f01b73a8ed615/master.m3u8
+Now Sports Prime,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/8de4698ce5a3b019dc8f8b7e8a2435d1/master.m3u8
+NOW华剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/92c08a1e69d56e85fde2eb0f245b6843/master.m3u8
+RTHK31,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e48c6e66705ee6d3d9a66e7f303d805a/master.m3u8
+RTHK32,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d3fd85166b5abb79502d872ec49b1f61/master.m3u8
+RTHK33,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/43630e3fe51b9f7348ff8b7232179fce/master.m3u8
+凤凰资讯台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b52ed95ecc9995cb7a418061040c740f/master.m3u8
+凤凰中文台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9936695abc4b24ad02c83f4a41796871/master.m3u8
+凤凰香港,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/aff37a7016d2f0ae2cab0c213a506bc0/master.m3u8
+有线18台赛马-,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c2091359e2dc48a979fbd1392075931e/master.m3u8
+美亚电影(香港),http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d30d344916733261d6a4040db8783b93/master.m3u8
+台湾 Taiwan_,#genre#
+华视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d392344d671b30ab189c476f3b624657/master.m3u8
+民视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9821d7dcc39c147e2f0045cc4e738da3/master.m3u8
+公视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/bebf62b8f36e15e5e06b473af9c5ec11/master.m3u8
+台视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d181f395c08762c19595c36cd5e09e2f/master.m3u8
+中视,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d802e34857bc3d70332f3943b40187d4/master.m3u8
+中视经典,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e2837270f3d2921efdb14e7fd829d101/master.m3u8
+民视台湾台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/cd253b8647c094683eaf22d5e615a52c/master.m3u8
+东森新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d0a3571185b4842894e6f8f42f29db40/master.m3u8
+东森戏剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6b1ff746f765a163099c71d0681f42e3/master.m3u8
+东森电影,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/43d802c11cd88f666d30fe43e1da7481/master.m3u8
+东森幼幼,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1f2c63fbb15a50060ad3618ab2f0fc14/master.m3u8
+东森洋片,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/4317e91342884a5d47b1850d1d5c3a87/master.m3u8
+东森综合,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1a5ef09d70c368daebc9b8168fb7488d/master.m3u8
+中天新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/895295ca4e995d3e3145bde94bfcd07c/master.m3u8
+中天综合,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d0d2ddd39deb23017e3f9042d82a6610/master.m3u8
+中天娱乐,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/49c038c62b35cb8770f4e822f5c5c274/master.m3u8
+TVBS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/455473817406ed73cc2380985faa0089/master.m3u8
+TVBS欢乐台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/588a30ab3ea51c5d1115b31f7bd184ca/master.m3u8
+TVBS新闻台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6cbccb1d36d4376365fd0f8cf81cf7ed/master.m3u8
+八大第一,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/79c7f8374ac31ebe8db8767247903099/master.m3u8
+八大戏剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b78a3c41fe39bee408da970c3dab75b7/master.m3u8
+八大娱乐,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/25ef7fc0160c1dd4158c174f05395f67/master.m3u8
+八大综合,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ae1cdc3692d1462b133e55c0034792f1/master.m3u8
+美亚电影,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/93c119d489c484b7282d0cab91aef5f3/master.m3u8
+寰宇台湾,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e99bfe74501cde7bf46093f05c9c8aff/master.m3u8
+寰宇新闻台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9591ca3aabb1d296635a42c40e9f2d56/master.m3u8
+三立台湾,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/388bdc6980806a132b7fc0bed6fa0b11/master.m3u8
+三立新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a70c21cc5c2e3448fb8a94dcdae2b202/master.m3u8
+三立都会,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/91d26119dcb5aa1fc3c0b209e31ac776/master.m3u8
+三立戏剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a674b491a681df34ac9a6f41c68502db/master.m3u8
+三立综合,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/dc5d48ba342c41c4063a48d730fa102c/master.m3u8
+HBO,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/509e5f41146e278f9eab1ddaceb34515/master.m3u8
+HBO HITS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/dfb3fea14a053f293dedff6045f1dd4d/master.m3u8
+HBO Signature,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a42674dcc0ef7cae6e9c4916951aa1d3/master.m3u8
+靖天国际,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/183a114115fdf2cb54eda5455dc4f924/master.m3u8
+靖天日本,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ccc494fbbbf9a526ffe5dfa40aa86e1d/master.m3u8
+靖天戏剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b6470a7ab9d3bcd9a1a13ef33128abb1/master.m3u8
+靖天资讯,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9a9d02e52f85a43b61e27895f74cfae5/master.m3u8
+靖天卡通,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7121f93baf03c143dc88fcbe35b332e3/master.m3u8
+纬来育乐,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c8d3f82e1261e052f893792c1ca5bc5e/master.m3u8
+纬来日本,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/4b3c4af56cb272771e374711c3e09723/master.m3u8
+纬来综合,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/0c612b40ffe8f403e45615d7fbe8d046/master.m3u8
+纬来体育,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/269103c10592f5007fd28c4f1b96c1d3/master.m3u8
+纬来电影,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3907d5b3358742872aefb3628a35892b/master.m3u8
+纬来戏剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ccf1177fd690fab1996138027b764720/master.m3u8
+非凡新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/edc06c9faf4129ddc404e083570eed01/master.m3u8
+非凡商业,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/8bb0e729b98e41cd23acbaea392eae1e/master.m3u8
+动物星球,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/fbf394f73053ccadb3380822eed14ff7/master.m3u8
+年代新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d0d702900f230e6408b265be106cf48e/master.m3u8
+年代MUCH,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/bc8eae8273ead0ef2afd1eaff4caf341/master.m3u8
+壹新闻,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b603e6fd37bce585b137c94ee73f88ac/master.m3u8
+爱尔达体育1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/707eb6ef051ec10020b4be99d26007d9/master.m3u8
+爱尔达体育2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/df8d4898ccf64ad6b4ebdcf08fb3b6ae/master.m3u8
+爱尔达体育3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ebcca025996ec36d1fe8e0c67d143286/master.m3u8
+爱尔达体育4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a6e61face00c3f1fde5cedf6ffac34b1/master.m3u8
+爱尔达影剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c3e24fec0b308a20645d99490ec3265c/master.m3u8
+爱尔达综合,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/acc6feb10ff8c744e2c07bc92c8f6748/master.m3u8
+博斯运动 1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5239aa671b96a7be19e46cc1ba21cc9d/master.m3u8
+博斯运动 2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/50a12156b2ad4f7d3af2141996ae9f01/master.m3u8
+博斯无限,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c8379752b30b5c9634b92cf94b0b76ee/master.m3u8
+博斯网球,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a946262f18af2efe65dccf7736230eda/master.m3u8
+龙华洋片,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b38a31f277abf41c1b851725876391a4/master.m3u8
+龙华偶像,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/aaa7ff9ae18318109a88b0bc276fb7ee/master.m3u8
+龙华戏剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5278c687d0e3b339c4c7fbe918a03815/master.m3u8
+龙华影剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/403dad69037655b3447a2fe8d57f4618/master.m3u8
+龙华电影,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3169ea33994439bc12897805855bc9c7/master.m3u8
+龙华动画,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6315e6a4ab9277b61c1aa0a489343950/master.m3u8
+eye旅游,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/00621226ded31acd1367945fb27f1054/master.m3u8
+eye戏剧,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b5174ce39afdeaa18c87898df4b48598/master.m3u8
+美食星球,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d8addab13f0194673777b66628b99461/master.m3u8
+霹雳台湾,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/755c439733ff9fae710503c8367aba1e/master.m3u8
+JET综合,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/987195d30fe63a6a21d1cde2cbbf6884/master.m3u8
+好莱坞电影,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5b21536759ef8ccdc013159736dd2442/master.m3u8
+TLC,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e12a8b6e18ee3d67dc8153f4f4713a40/master.m3u8
+探索发现,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/be2aec6140414678322bbd6aebff364e/master.m3u8
+CATCHPLAY,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c78a19dcc0c8cee112d31e49a2f4ea4f/master.m3u8
+MOMO亲子台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7019541d5b59479c93578d71d19c241c/master.m3u8
+国家地理HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/90275156b19a8996ff2c17eb8e063e80/master.m3u8
+大爱一台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b1d083777315a42a870f26af440e6c32/master.m3u8
+大爱二台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1661d78310277ef180a85f5c921ce9f2/master.m3u8
+好消息一台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1d84e9715f05cb3ec3e201f3ca742f70/master.m3u8
+好消息二台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/acb8c750b7c7491939e181f4ca40c837/master.m3u8
+生命电视台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2fa11240d55a65381c00177512106cf2/master.m3u8
+采昌影剧台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/72c343140d9a0ab5b0550feb9fdde788/master.m3u8
+达文西频道,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6f61e9e9f865978fa3662bef6f81f9be/master.m3u8
+视纳华仁纪实,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/32264e205368af237201f8573bb8eff3/master.m3u8
+amc电影台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/83222c985af551d3f451de356d6c97da/master.m3u8
+影迷数位电影台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a14cec6d4dc3783c2e2635a513bb40fb/master.m3u8
+智林体育台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c1d4b7c333eb83f3e42d91109acfc574/master.m3u8
+CLASSICA 古典乐,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/85909c62eb4240e68fe518bc58438e17/master.m3u8
+Mezzo Live HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d4232ea89637d264d44c51ea37de1fac/master.m3u8
+日本 Japan_,#genre#
+NHK-G综合,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/87dfda30e6e1b12d7e453ba6956971ca/master.m3u8
+NHK-E教育,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/eaaa640ded1446dbe413507330cfb6c2/master.m3u8
+Asahi朝日,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/20283cc7dfcea48905a140b8d117212b/master.m3u8
+富士电视台FuJi,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/cfa14a5a0413a21128bd9f427a1d81a3/master.m3u8
+TokyoMx,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6c0bf18c8c68995e950c6147f5873716/master.m3u8
+TBS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c370dca571a8e9eeb48104236808fe8d/master.m3u8
+日本テレビNTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e4a956481ca447ad8ceaf35bc78cd317/master.m3u8
+TokyoTv,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ced45332c0985d1018b50ca0a0e6851d/master.m3u8
+ABCTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ee95f1127bb981c8de8d6bacc5d17b74/master.m3u8
+MBS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a86bc043b40aacc2c2d6436af2d3281d/master.m3u8
+东京テレビ,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7a4106df790ca417a05b7f2021395add/master.m3u8
+テレ朝チャンネル１,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6b46b5368d8e71433b9f97284418d027/master.m3u8
+テレ朝チャンネル2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/55b240a743098ff659aaaea484e15ab7/master.m3u8
+フジテレビONE,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/cc7e1913d205a25a856cd189756c6dad/master.m3u8
+フジテレビTWO,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3828455958db10e1ff6a28bf858659ea/master.m3u8
+フジテレビNEXT,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1ce06c8350fe68abdd525b56cd4c3655/master.m3u8
+JSPORTS1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b5fae0a7cfa3ca10e30d00d48f9527e9/master.m3u8
+JSPORTS2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/837f6b64b2434b55c65ac3b3ca31b175/master.m3u8
+JSPORTS3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7990224232821f2ec68ef94f6d0671a4/master.m3u8
+JSPORTS4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/f0f10dba9ec2f1dfe349d0f73176a42b/master.m3u8
+WOWOWCinema,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/4db2552d76f24ab114a7258bbbaae9f6/master.m3u8
+WOWOWPrime,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/af86f9a982bba4380946c7c3d698a04e/master.m3u8
+WOWOWLive,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/94ee1982d75439dbc5191a12302190fb/master.m3u8
+读壳YTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/05c0b81b620255ff1300a0e5a0250296/master.m3u8
+大阪TV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/73320ab07bfcf490cb7c33ee9d8e922f/master.m3u8
+关西电视台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/cabd4a849dd1f2385fee7ad06439740b/master.m3u8
+BS朝日,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/689d741660be9cb15f507107eed83349/master.m3u8
+BSTBS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/bfd050ea3f314d97921564ab9ae1e91a/master.m3u8
+BS FuJi,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a35db62c9672d90b8d1209daf14420fc/master.m3u8
+BS东京,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/bda3c5a82147465168b48b7cd0ab0a9f/master.m3u8
+BSEleven,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/66ca5eab18c4b4229caf3737ba631f0f/master.m3u8
+BSJapanMovie,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ab340405d924b25c532af044876e85b6/master.m3u8
+BS钓りビジョン,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1984cdd4cb37607ca3d85cfc5a8694e4/master.m3u8
+BS12,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/186ccc8d7eb628a448a68d5d348fb54a/master.m3u8
+Mondo TV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d851b112b2fd150078c3430c58a40427/master.m3u8
+NHK BSプレミアム4K,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b57212ea6e31c279d203e1b3556e47e8/master.m3u8
+FIGHTING TV サムライ,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d0c122bb53e516784dc1abdcb4e6df00/master.m3u8
+时代剧専门チャンネル,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6a7368c38ff2ea8a3c869218ef8f4598/master.m3u8
+discovery,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/54818b05d116eadc7f67517a3a6e4b33/master.m3u8
+National Geographic,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e08dd4627a3cf468a30d8a357956d6f8/master.m3u8
+TBS news,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e46db4104b06a308f5c0dfa533244e2d/master.m3u8
+ムービープラス Movie Plus,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/dc329994e5b464f2bbd89e0de0d17acd/master.m3u8
+ファミリー剧场,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/dcc06ecac774ca7cd59150e2529021d5/master.m3u8
+Animax,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/becc555bf1dcd0b2e3e67e5df239b5cc/master.m3u8
+卫星剧场,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/063e56dfb118fdd7ad2f026368002715/master.m3u8
+Disney junior,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6b88c02e503b5025545c4b89b13d183d/master.m3u8
+animal planet,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/90f43fd61a55f06c9b190b84a1e8c80a/master.m3u8
+チャンネル银河,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/f2df95ca65556a04e98a85f9bb43559d/master.m3u8
+日テレプラス Nittere,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/706e4c9fa83c2227d24b8861398f616f/master.m3u8
+ゴルフネットHD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/46fc2de37567ad1badd5a7109d16b9ce/master.m3u8
+スター・チャンネル Star 1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5abd5e979a248aba06b8980f98fe7761/master.m3u8
+グリーンチャンネル Green,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7065ac956f4778829f0959cbbec373fe/master.m3u8
+Space Shower TV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ec8fa4504c84dfdb1b36bf2de99f1ff9/master.m3u8
+ATX,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/35e60d78c674c52c3c6d2258135855e3/master.m3u8
+MusicJapan TV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e88d879ed575b935c1fd5ff0f749011f/master.m3u8
+SuperDramaTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a40b45f02dd306a9536727af7d277ef4/master.m3u8
+MusicJapanTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/58aecbf97ca138ee95adfa80c761721e/master.m3u8
+Green,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d382816a3cbeed082c9e216e7392eed1/master.m3u8
+NHKBSPremium,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/71f11b030f4c27194b8ddde0ca237ff8/master.m3u8
+CartoonNetwork,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/04f7444ae2a04f9c492f5cfcfb885fdc/master.m3u8
+MTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b49882eae96bb41a7fa1feb6aa7acc18/master.m3u8
+HomeDrama,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5bab448d4fe8eff880dc6467be3d9356/master.m3u8
+SKYA,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ebe203fa96404012d7bf1da738d23b33/master.m3u8
+歌谣大战,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/00f091b4a3c22deb051829c330c53404/master.m3u8
+旅チャンネル,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e329285ab2821aa4cdaee46f81431981/master.m3u8
+韩国 Kor_,#genre#
+KBS1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b7fd96becb7c0bc6ed4e04709deb355c/master.m3u8
+KBS2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b512cdc12ef788576a02ce6131d0b89f/master.m3u8
+MBC,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e40558450360f747f2ce0d9f9c74bf24/master.m3u8
+SBS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9ae608865860a452268b578c7c1e70d2/master.m3u8
+JTBC,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/89b5b3a547cae50e47d263500691e8db/master.m3u8
+MBN,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d572511368f174c8b90d7bf32cff65c0/master.m3u8
+YTN,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1bc192a6576af23c779adcd869505eee/master.m3u8
+Mnet,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5ea8ac6d52684285a2476ecd97ed4466/master.m3u8
+Inet,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/4dfdcc945ee2f545cd9b7727b56d0211/master.m3u8
+FTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1b517de98c4c11b641b98e271cbed5f0/master.m3u8
+Channel A,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/8a59cd4ca676f52795a1c58ac280d810/master.m3u8
+KBSN SPORTS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/eb78c120a878a6fde848ce1e0979c6e7/master.m3u8
+MBC SPORTS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5cb016341042c5d59bd8bb518f8e6e8b/master.m3u8
+SBS SPORTS,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e457250235347397ae1dba56b8acd633/master.m3u8
+SbS Plus,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/35d41c778b8b042a806dea97d600757f/master.m3u8
+SBSGolf,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/94fdfa526e9cc9c3dd7af38f5a94a468/master.m3u8
+KBS Drama,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/aa9e32891eb3ed7e856363f018db576c/master.m3u8
+KBSN Joy,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c546641ac9c77907b2c9f256448f626e/master.m3u8
+KBSN Kids,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b27e1ec3b4da695f7b0695e1d00b555d/master.m3u8
+MBC Drama,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6b121146b2329e2aaad250061ea7f30e/master.m3u8
+MBCevery1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b17830923f745c65f26586c84741d9d1/master.m3u8
+OCN,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2248df4eb3f2e96526cbf0d0381de7e0/master.m3u8
+OCN movie,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/4e4db0ba609060113dea7be087997862/master.m3u8
+SPOTV2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6dc85444fa886da9b3cd668175d608fd/master.m3u8
+SPOTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/240b4c5897883ac03dc918b0e4d37583/master.m3u8
+SPOTV Prime,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2a8a835dddce567428bc2e07354a7f2c/master.m3u8
+SPOTV Prime2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c51dcc20aa3f044a83e3011ae3ed859a/master.m3u8
+TVN Show,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/041a53b9001023c6e4cab486b2f9486c/master.m3u8
+TVN Sports,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b740be7cd442e8190ae9ec3e50afd052/master.m3u8
+Catch ON1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c118cca7742d7276692bad9ebbf11321/master.m3u8
+Catch ON2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/fbe3f081c9d4c90a00805a2bcb6df857/master.m3u8
+PlayyMovie,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a533738f53dd7c1aa70f263de2c52b1a/master.m3u8
+Kstar,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/880c459b4a8e13d7c872934dca7e532c/master.m3u8
+TVChosun,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ebce75344d0f74475cda2b76c8c9ae49/master.m3u8
+대교 어린이,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/91ca30d39c8c3f5edc9e42d2caaa946c/master.m3u8
+Tooniverse,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/16e4df8f8ebf01a913a230dc99deaf2b/master.m3u8
+SKYSports,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b7e3dfdd72f6d0f4472e42d94a63487d/master.m3u8
+美国 Usa_,#genre#
+Usa MTV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6df4501eb67712692f38087f063609c8/master.m3u8
+Usa NBC Golf,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/647e66aeb17c31d1adf61e39899c538a/master.m3u8
+Usa TNT,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5083e3cb0e0de8effad408c57870c7b7/master.m3u8
+Usa Nat geo,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/69e112aada5bd7fe932fb29fb2df6bc6/master.m3u8
+Usa Cinemax,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/335e71505b1f3a469e53d308d6a66774/master.m3u8
+Usa bravo,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6ed0374d203782e33e07932a1f11ec10/master.m3u8
+Usa Investigation Discovery,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/f6851bd67f96a1cada8527b169b20717/master.m3u8
+Usa showtime,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/def5694b911e35f42390a04c4ff98f74/master.m3u8
+Usa StarZ,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e6040ec62619daa5d7f99171fdee3a86/master.m3u8
+Usa network,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2bf517e4f367340c66f615c395484323/master.m3u8
+Usa ESPN,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/cc1e38661d5beadf449a8d63a080310e/master.m3u8
+Usa mlb network,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/96287fa17dac2b1d8e1ccc5729458537/master.m3u8
+Usa msnbc,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/21caa8b063b92767abd52e6cbd95dbd1/master.m3u8
+Usa cnbc,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a2928b755c2fbc218471ae36632d3ba9/master.m3u8
+ABC,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/902fbdd2b1df0c4f70b4a5d23525e932/master.m3u8
+CNN,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2435a45b85628172c5a47122144a7c67/master.m3u8
+英国 UK_,#genre#
+itv1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ab80f2f6ca93a6da8a33ca11fb434589/master.m3u8
+itv2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c00683b31e1ce33cf4201d08dffaba84/master.m3u8
+itv3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c8b642bebc33cf43822b9ce752308d2e/master.m3u8
+itv4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/270d258bbc713f5075ee8e9208183c3b/master.m3u8
+bbctwo_hd,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/050d30e81c84c2886e40d38c1c47a6d9/master.m3u8
+channel4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/cff6fc2b35db3a7156a5a1753afa1d5e/master.m3u8
+channel5,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/511a0b6e93bc5502a68c8b78d0a44078/master.m3u8
+bbcnews,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9d835be6cb9055cd23bb984089540423/master.m3u8
+more4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2755f8099c1ed24c03eb9ee43ea3cc07/master.m3u8
+e4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/38de3f7d221a2910710874b0b220cb26/master.m3u8
+Foodnetwork,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c9f115fa1add748c7eabb5541bcd262e/master.m3u8
+itvbe,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/eac8b3b8c81159141d566696d1bf0931/master.m3u8
+Dave,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/083d9a270e6e16b2fbb08d35067aae5f/master.m3u8
+5usa,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c15c3366db736a3da4b6201d9bfe03e5/master.m3u8
+5star,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/35cceb06ab4e7a356d667d676a9cac6d/master.m3u8
+questred,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/510ca7052c26eb2a0db23c5c2e339fd7/master.m3u8
+film4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/25e45f25525c870cbb2c6d35362054eb/master.m3u8
+movies4men,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/41d30ae4d184c01728e5099a270bca1a/master.m3u8
+challenge,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b04ec0ade3d49b4a079f0e207d5e2821/master.m3u8
+quest,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/322d188cb256edf960c84c23ae630e2d/master.m3u8
+bbcparliament,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/65b18d515b18758d0d53a7a2243846d9/master.m3u8
+e4p1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/73643984eb3ca5db5f75736a28a04e76/master.m3u8
+skynews,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1d0d061e505e50619f42370e8e8262eb/master.m3u8
+QVC,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9c754a5f05beb3acd1a1326f185c3e41/master.m3u8
+sky_sports_tennis_hd,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/44285b8ac7340ab9fc15e412865842ff/master.m3u8
+bbc one,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/befb5917b0fd8c89991e9d12e3d320ff/master.m3u8
+大马 MY_,#genre#
+TV1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/aaa972549319a1940b35a26a15f963aa/master.m3u8
+TV2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e1591bdeeaa873c09ebbc81d62a3cbd3/master.m3u8
+TV3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/060349bdf9ba4e3c1380d31a9ae68125/master.m3u8
+TV8,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5e8ce47c6200a9325c7a53130ebd9aff/master.m3u8
+TV9,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e8c12d36a8a95eb8c5dce51428cfd70f/master.m3u8
+NTV7,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e8cf76eca676bcc20e8d63fe519cc6bc/master.m3u8
+Astro Aod,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/61978122d145d6b6e2a13fd78c57bede/master.m3u8
+Astro Aec,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/0224119a0ccd8a92f720f9a22beae78e/master.m3u8
+Astro QJ,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/69f565ccebd776c5836bc8410523a9d9/master.m3u8
+Astro欢喜台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/245500d6a55cf033f3502449023ec468/master.m3u8
+Astro华丽台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3ce44a164f8683f1ab77ed9524a423b6/master.m3u8
+Astro Awani,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d20d0995f8c0709368914535a38cc09b/master.m3u8
+新加坡 SG_,#genre#
+Channel5HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/4cd8aec4083d6e3f76c5ad0f8079f75e/master.m3u8
+Channel8HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/fae5d618b56a24c328c05e7c4c385930/master.m3u8
+ChannelU,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/8e85615cf5b79bcd6494f43aa06208e2/master.m3u8
+Suria,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b3b192e60713ebf0ad77228f68a44a40/master.m3u8
+Cna,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/fae0b27c451c728867a567e8c1bb4e53/master.m3u8
+体育 Sports_,#genre#
+LaLigaTV 1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/0f63a9e9d43a069d9e21c5667b1172b6/master.m3u8
+BinSport,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1eb88023df909ed3a74932474b7396d1/master.m3u8
+DAZN Rise,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2bf12aae4721d2555fb5b9e7f52d152a/master.m3u8
+DAZN Fast,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c4192a6368bdc98eeab13e3fd0ce524d/master.m3u8
+DAZN4 Live Event,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7a00628e5c2dd1cc9e19f9e5b13ea24e/master.m3u8
+Fubo Sports 1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/0cc9b4de455bf47c01aa94c9321673a3/master.m3u8
+Fubo Sports 2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c82ecef31a930166d41594ff968b7cd6/master.m3u8
+Eleven Sports 1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3607fac75862d4f74d03b68a24e30aa6/master.m3u8
+Eleven Sports 2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3363272edad91fcaaa90a7a530041d01/master.m3u8
+Eleven Sports 3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/295551ef71e4a12135cc2605d0f10c8d/master.m3u8
+Eleven Sports 4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2f6ea5c33be4d2faa3169d727fa24b64/master.m3u8
+LaLiga TV1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7fe8471100ebf085df66ce1b0ba58cbd/master.m3u8
+LaLiga TV2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/89323e1678dc2274292bb95be57c4f8c/master.m3u8
+FoxSports 1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/dcf4c28f3d85cf82a4001993eb7fc6ae/master.m3u8
+FoxSports 2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9e645f14a4eb48e406a1f4cb277402c3/master.m3u8
+FoxSports 3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/60333970f16ccd99a3dc819f00de2f3c/master.m3u8
+FoxSports Premium,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/55084a41333701c878b20967c52900c6/master.m3u8
+WWE,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/eb9330e15ec873951dc79e74e2224a65/master.m3u8
+RealMadrid1 TV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7f8520645fb29a248bc150165fa61768/master.m3u8
+Primeun League,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/621b96bbb2a63fffb7f79f1642cbd929/master.m3u8
+BN1 HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/99e79aa02ba7fb1a3d690f6df46df960/master.m3u8
+BN2 HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/306504768faf4b6002d1cce991fa0d40/master.m3u8
+BN3 HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d2e64dfb1b46c01a8c463b8d6152544e/master.m3u8
+BN4 HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/325d9c336e48d7be3473cce82197a2bb/master.m3u8
+BN5 HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b1e74d366071322498791e1b1638c85e/master.m3u8
+BN6 HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d24f0d6bad56c20e4e058a01e49e09cc/master.m3u8
+BN7 HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/df0552f37093645f030aa97fe5407ffc/master.m3u8
+BN8 HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6d8ffcdbf83376008d8809ef7a71bf98/master.m3u8
+BN1HD Eng,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/13105fa2b8bb6e5770e081edb0faebc3/master.m3u8
+BN2HD Eng,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/68409d71a81be7c64ec0391bea4fc91e/master.m3u8
+BN Xtra N,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/6c10d7166e4a7d87aa8c174cc320a2d7/master.m3u8
+BN1 HD Extra,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/3adf1c709cd845ed454dc523dd4cd0e7/master.m3u8
+BeN Asia1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/e87435b5251596ffd5e442af8c33483f/master.m3u8
+BeN Asia2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/f58f37085b017bb2585830ff6cfd5217/master.m3u8
+BeN Asia3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5ab98ee064e1073910bd62fe1a6bcaeb/master.m3u8
+BeN Asia4,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/1f980717666624ff0f4db2c07fbcb6d3/master.m3u8
+BeN Asia5,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/a2a735f13cabc7de778660fe7aa2f8ce/master.m3u8
+EuroSport1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7e8e904a4b885481732851d092538812/master.m3u8
+EuroSport2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d93b65675557638c7bee85c440480f7a/master.m3u8
+NBC Sports,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/04dadb5da325d02a388171727c27242e/master.m3u8
+UFC TV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b17d7ee77b4911e4ad7961b3cddbd2e0/master.m3u8
+RedBull TV,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/32c035538529b1f50d7b539af18ffd84/master.m3u8
+限制级 18+_8888,#genre#
+彩虹电影,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/79eae302b540da268d31ee6c71c5627b/master.m3u8
+彩虹E,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/076487b9a07ff6b759813db38e4a7a43/master.m3u8
+彩虹K,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/b862d23775324346607e255dd1794f37/master.m3u8
+松1,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/70946f44bf0fe807a3f82bd6171571f5/master.m3u8
+松2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/af0911bc42a66d97cc62cba94be53f24/master.m3u8
+松3,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/2807b605565e1bfe6290d3c52b976001/master.m3u8
+极限电影台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/ca747c47c1d9af31eef3d484deb9f646/master.m3u8
+潘多拉完美,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/acc3078fc4248fa3eb04e586d7323623/master.m3u8
+潘多拉粉红,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/645ac0a9b597809acc626fd735357c5c/master.m3u8
+HOT,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c429fde8b1b986d42f84ba63dbfef6ac/master.m3u8
+香蕉台,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/7a84cc2ab4f7230dba1a1b0160c29606/master.m3u8
+乐活频道,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/5225f359b1a1d9378d7d92b5627b161f/master.m3u8
+happy,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/56ab24c15b72a457069c5ea42fcfc640/master.m3u8
+Erotic 8,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/21eef3725450ebb9464fa7ca8cb68ebe/master.m3u8
+Erotic 2,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/8a83972f6a5350995c12e7a73a9258f4/master.m3u8
+Erotic 6,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/9346315a527128d5a8695db61f60ac84/master.m3u8
+Passie XxX,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/709c299cc5cbdb4d2a0ef7a1330e4caa/master.m3u8
+DUSK,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/8466c3bc34d3a3a80e8684e60b885967/master.m3u8
+EroX XxX,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/efea417fcfdc4207d01836dc36b7c8c2/master.m3u8
+Vivid Red HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/06f826e2077a449f8b63284915f9140e/master.m3u8
+Prıvate TV HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/d2a25ed7408a9d024c15e90192c037dc/master.m3u8
+Redlight HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/784c1288b54750fa67d6f2c103042abd/master.m3u8
+Hustler HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/4c27f552ede00ba2a8826a22faecc766/master.m3u8
+Mix HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c81e728d9d4c2f636f067f89cc14862c/master.m3u8
+Babes TV HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/c4ca4238a0b923820dcc509a6f75849b/master.m3u8
+Dorcel HD,http://127.0.0.1:17173/51.81.135.253:16000/stream/e8ff3b6642946aadf20c1bf601e1cb30733349e825cfa7cf-85f2467ca6b8fe4b05a7a9e2157e248d/664ab2d3c50dd4a91ef2f6845a9171a4/master.m3u8
