@@ -47,6 +47,33 @@
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
     {
+      "key": "acfun",
+      "name": "A站｜4K(JX)",
+      "type": 1,
+      "api": "https://nm.4688888.xyz/vod/acfun.php/provide/vod/",
+      "searchable": 1,
+      "playUrl": "json:https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
+      "changeable": 1
+    },
+    {
+      "key": "migu_tv",
+      "name": "咪咕｜4K(JX)",
+      "type": 1,
+      "api": "https://nm.4688888.xyz/vod/migu/migu_tv.php/provide/vod",
+      "searchable": 1,
+      "playUrl": "json:https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
+      "changeable": 1
+    },
+    {
+      "key": "rr",
+      "name": "人人｜4K(JX)",
+      "type": 1,
+      "api": "https://nm.4688888.xyz/vod/rr.php/provide/vod/",
+      "searchable": 1,
+      "playUrl": "json:https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
+      "changeable": 1
+    },
+    {
       "key": "瓜子影视",
       "name": "🍓瓜子影视",
       "type": 3,
