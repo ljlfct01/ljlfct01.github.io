@@ -107,45 +107,6 @@
         "token": "19179cb266ab9438"
       }
     }, 
-
-    {
-      "key": "爱奇艺弹幕",
-      "name": "🔥爱奇艺",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/bd/ys//js/drpy2.min.js",
-      "ext": "http://49.232.165.72:1234/js/aiqiyi.js"
-    },
-
-    {
-      "key": "hipy_js_优酷[官]",
-      "name": "🔥优酷",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/main/bd/ys//js/drpy2.min.js",
-      "ext": "https://app.69mini.com/lib1/优酷[官].js"
-    },
-    {
-      "key": "wanjia",
-      "name": "🔥综合",
-      "type": 1,
-      "api": "http://121.40.174.45:199/api.php/provide/vod/",
-      "playUrl": "json:http://121.40.174.45:299/sf/2Kshouquan/cache/IP_manager/API.php?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
-        "电视剧",
-        "电影类",
-        "综艺类",
-        "海外剧",
-        "日韩剧",
-        "动漫类",
-        "少儿类",
-        "纪录片",
-        "B站类",
-        "经典片"
-      ],
-      "ext": "http://121.40.174.45:199/api.php/provide/vod/"
-    },
     {
       "key": "360zy",
       "name": "🧡飞龙|收集",
@@ -741,11 +702,42 @@
       "type": 3,
       "url": "Web"
     },
-      {
+   {
       "name": "极速4k",
       "type": 1,
-      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
+      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
     }
+
 
   ],
   "doh": [],
