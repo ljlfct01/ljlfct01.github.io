@@ -61,56 +61,7 @@
     }
   ],
   "sites": [
-    {
-      "key": "版本信息",
-      "name": "🌹天神｜小屋(点这里或首页或主页可切换站源)",
-      "type": 3,
-      "api": "csp_Market",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/天神小屋.png"
-    },
-    {
-      "key": "配置中心",
-      "name": "🌐配置中心｜5.26版",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "name": "🚀豆瓣｜嗷呜弹幕｜搜索自启",
-      "key": "GoConfig",
-      "type": 3,
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/awdm1.png",
-      "api": "csp_GoConfigAmns",
-      "indexs": 1,
-      "searchable": 1,
-      "filterable": 0,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/douban.png"
-    },
-    {
-      "key": "IY音乐台",
-      "name": "📻IY音乐台｜爱上音乐",
-      "type": 3,
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/awdm2.png",
-      "api": "csp_BiliAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": {
-        "cookie": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png",
-        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/iyyy.png"
-      }
-    },
+
     {
       "key": "spider_2054142081324027906",
       "name": "❤木偶｜4K测试",
