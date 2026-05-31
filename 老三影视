@@ -3,6 +3,7 @@
   "wallpaper": "https://wp.upx8.com/api.php",
   "logo": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/logo.png",
   "warningText": "天神IY：资源来自网络，无盈利纯搬运分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
+  "notice": "欢迎使用老三4k",
   "lives": [
 
     {
@@ -61,6 +62,28 @@
     }
   ],
   "sites": [
+
+    {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "❤藤藤-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E8%AE%AF.js"
+    },
+    {
+      "key": "guoguo",
+      "name": "❤芒芒-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C.js"
+    },
+    {
+      "key": "哔哩视频",
+      "name": "❤哔哩-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/bili.js"
+    },
 
     {
       "key": "spider_2054142081324027906",
@@ -147,32 +170,18 @@
       "playable": 1
     },
     {
-      "key": "藤藤",
-      "name": "❤小腾｜4K测试",
+      "key": "IY音乐台",
+      "name": "📻IY音乐台｜爱上音乐",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png"
-    },
-    {
-      "key": "茫茫",
-      "name": "❤小芒｜4K测试",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"
-    },
-    {
-      "key": "小哩弹幕",
-      "name": "❤小哩｜4K测试",
-      "type": 3,
-      "api": "csp_Bilimd",
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/bl.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/iy.png",
+      "api": "csp_BiliAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
       "ext": {
-        "cookie": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png"
-      },
-      "timeout": 10
+        "cookie": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png",
+        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/iyyy.png"
+      }
     },
     {
       "key": "首发",
@@ -258,13 +267,6 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/8j.py"
     },
     {
-      "key": "皮皮虾",
-      "name": "♨️皮虾｜4K线路",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/ppx.py",
-      "ext": "http://154.94.224.98:8762"
-    },
-    {
       "key": "橘汁",
       "name": "♨️橘汁｜4K线路",
       "type": 3,
@@ -295,22 +297,6 @@
         "url": "https://cms140.yhg.one/",
         "dataKey": "bM7iC9eA3oZ1nB7z",
         "dataIv": "bM7iC9eA3oZ1nB7z"
-      }
-    },
-    {
-      "name": "♨️追忆｜4K线路",
-      "key": "NewNoxZy",
-      "type": 3,
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/awdm1.png",
-      "api": "csp_NewNoxAmns",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "name": "",
-        "password": "",
-        "data": "2e4a288565eb2ea7fcb9caa81e70fa9b13ee58fa569055a61c8e99e0e685e59b23bfd2fede0c6909ed737ef5f8bf1ed059ee1222b4ed5608fdb3706b6c8b03f092e28a96fdc785c29b10433294465a2940ec80382950c7fd32775455e18dddb20ce680df1032820b7f3e36b58835e26cf64143caed9d3491f302adae503007d049243be56681fd3328c76f44393b3f01872abe86be7f6190a3b012ac28cbfb5ca81b45b5d85cf76347547bd3edfde4eb54261cda45b8469e2bef40d2dfc63d6f5846256de2fdc4e2c2e0a0c1dd0cd784a121243dec0d49869b58bd4981be8c8a91023bfd90b66c37b0737ebba03d687fe0591d04b13f0aa6349da1e19e9c63f7a4a9e2b7104a6f1f9fea405ad9ac442eee315614cbdc7d9993f2405a9b14e11bb723f647b1e53451455c9b06b92da28b99d0d78025530768f8b98a587b13d932deaa3a25ac670a480d9ef95739b906d82367c45073c173192def0094c5545f162dadfa913f8b8dbc9412a5a1e81dff5d87023dab868cad1567d7770d419a4516152e76b5ce64b02db8db4f14f31fa78d6395b13964d32b61d870e4b93ef9a6738e68eed155c04566d890b92f2483cddcb3a10a5a39cbcbaa8cb230d3c7bea675702fae59d1c40d38d018d51811380870ee19ab41832c4ae8ea796edb352960d7335f7d15e965d0646625fcf9a6e5bc73aef33a15e1754876dec8416cac8f3d61be3beef7d824e2bbc452650bc1b46eafcc08c5d0ad2f1a103da76a9b35fb3e49bd61ec071b62929463b5b2a996ce2b1185128b50131ae94df5b99a46818e35676e3516fc385bb79391408b6052faf4a3420cad490918578ec32096a8ee0d29f97abd2095df6652eebad317fc686328e96c6d7e033bc1fdd5e39b419cd70cef73464c0b12cb1cf1d5b971ce6eba951b601086e1b7f8752a197f05e54fc12cca6c2e1fb3a9487ad012b5d3c1d8e5f5567ece1ab5393c89d30ab7bb00dcfd85756f3e1f95182bfb44b872672e7dda06b7b54cb4526caa57ef5bdd821924a47df0a5b43166cb955ea1f5ecc94fd22d9975dff9d911dca745f14daf3924f3febd6e673e8769354c2a08e054f490d0fdddcdd413b4408a9f16cfb4c42a269d3fbb9c3ce0e1508cd7ec5eae94202ed5e71d9fa4dc18cd4e3b6942c0cbd871a5d8fcac6d8e620cc4ef65b08b533c6cf34e881d96e30933bd60417fafe2a92adbf7374ae852d63985ff05e9ed44b4284b43ba5ee0322fe4b790ee3c191fe490d075c17bb71a6e06ba802e2241c7d82fed2e019764004c7beda63722b92cad9ab0e60fc77288028d30bc9fd3a24c762e7daa8f455e97e8982e64c123f19cc0c1b670d13b614e3c94ee56f00688d37214b4c064d0bafcb93af5f0551158557c54b21e222ac12b552373a2f5e44d"
       }
     },
     {
@@ -427,6 +413,17 @@
         "api": 2,
         "ua": "okhttp/3.10.0"
       }
+    },
+    {
+      "key": "spider_2054142162412507137",
+      "name": "♨️巴卜｜4K线路",
+      "type": 4,
+      "api": "http://115.191.55.109:7023/api/tvbox/source/2054142162412507137?token=phcB9KDg6dzm8lNH5uG67q5BXdf0X3dR",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "playable": 1
     },
     {
       "key": "盘它",
@@ -610,16 +607,23 @@
       "key": "雄鹰",
       "name": "🌀雄鹰｜1920",
       "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/get.js",
       "ext": {
-        "site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt",
-        "dataKey": "ca94b06ca359d80e",
-        "dataIv": "ca94b06ca359d80e",
-        "init": "initV120",
+        "host": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt",
+        "key": "ca94b06ca359d80e",
+        "init": "V120",
+        "api": 2,
         "ua": "okhttp/3.10.0"
-      }
+      },
+      "categories": [
+        "动漫",
+        "电视剧",
+        "电影",
+        "综艺",
+        "短剧",
+        "少儿",
+        "纪录片"
+      ]
     },
     {
       "key": "热播影视",
@@ -660,6 +664,20 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/小爱.png"
+    },
+    {
+      "key": "小哩弹幕",
+      "name": "🌀小哩｜1920",
+      "type": 3,
+      "api": "csp_Bilimd",
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/bl.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cookie": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png"
+      },
+      "timeout": 10
     },
     {
       "key": "小哩",
@@ -1588,88 +1606,53 @@
   ],
   "parses": [
     {
-      "name": "聚合",
+      "name": "WEB解析",
+      "type": 0,
+      "url": ""
+    },
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
       "type": 3,
       "url": "Web"
     },
-    {
-      "name": "虾米",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
+   {
+      "name": "极速4k",
+      "type": 1,
+      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
       "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "云解",
-      "type": 0,
-      "url": "https://yparse.ik9.cc/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "咸鱼",
-      "type": 0,
-      "url": "https://jx.xymp4.cc/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "淘片",
-      "type": 0,
-      "url": "https://jx.yparse.com/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "冰豆",
-      "type": 0,
-      "url": "https://bd.jx.cn/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "七七",
-      "type": 0,
-      "url": "https://jx.77flv.cc/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "盘古",
-      "type": 0,
-      "url": "https://www.playm3u8.cn/jiexi.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "夜幕",
-      "type": 0,
-      "url": "https://yemu.xyz/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
       }
     }
   ],
