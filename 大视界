@@ -12,7 +12,20 @@
     }
   ],
   "sites": [
- 
+     {
+      "key": "设置",
+      "name": "网弹|设置",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;abafbb31035bdef52102b26f9b2f3565",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
+    },
     {
       "key": "mg",
       "name": "主·Mg4K-50帧",
@@ -215,6 +228,11 @@
     "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
   ],
   "parses": [
+    {
+      "name": "自定：请先设置",
+      "type": 1,
+      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getuserjx&url="
+    },
     {
       "name": "4K极速",
       "type": 1,
