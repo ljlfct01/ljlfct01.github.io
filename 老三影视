@@ -76,13 +76,20 @@
         "ratio": 1.618
       }
     },
-    {
-      "key": "mg",
-      "name": "青苹果4K②",
-      "playerType": 2,
+            {
+      "key": "腾讯弹幕",
+      "name": "👑 腾讯┃SVIP",
+      "searchable": 1,
       "type": 3,
-      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/主线3.js"
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://yp2.mftv.top/js/tx.js"
+    },
+      {
+      "key": "芒果视频",
+      "name": "👑 芒果┃SVIP",
+      "type": 3,
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://yp2.mftv.top/js/mg.js"
     },
     {
       "key": "hipy_js_腾云驾雾[官]",
@@ -1641,20 +1648,11 @@
       "type": 3,
       "url": "Web"
     },
-    {
-      "name": "自定：请先设置",
-      "type": 1,
-      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getuserjx&url="
-    },
-    {
-      "name": "晴天4K Q1026038872",
-      "type": 1,
-      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=hubanjiexi&url="
-    },
+
    {
       "name": "极速4k",
       "type": 1,
-      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url=",
+      "url": "http://jiexi.fc8001.top/LuNkZNrQVaVzYhqV.php?url=",
       "ext": {
         "flag": [
           "qq",
