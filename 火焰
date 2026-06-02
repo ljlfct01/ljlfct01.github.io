@@ -129,40 +129,24 @@
     }
   ],
   "parses": [
-    {
-      "name": "WEB解析",
-      "type": 0,
-      "url": ""
-    },
+
     {
       "name": "Json聚合",
       "type": 3,
       "url": "Demo"
     },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
+
   {
       "name": "极速4k",
       "type": 0,
-      "url": "http://114.66.29.121:91//api/index?parsesId=23&appid=10006&videoUrl=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
+      "url": "http://114.66.29.121:91//api/index?parsesId=23&appid=10006&videoUrl="
+    
     },
     {
       "name": "极速4k1",
       "type": 0,
-      "url": "http://miyao1.wk57.top/iJKHhGGigLJGiH.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
+      "url": "http://miyao1.wk57.top/iJKHhGGigLJGiH.php?url="
+  
     }
 
   ],
