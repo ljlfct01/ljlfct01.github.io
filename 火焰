@@ -26,90 +26,7 @@
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
       "ext": "https://app.69mini.com/lib1/bili.js"
     },
-    {
-      "key": "spider_2054142081324027906",
-      "name": "❤木偶｜4K测试",
-      "type": 4,
-      "api": "http://115.191.55.109:7023/api/tvbox/source/2054142081324027906?token=phcB9KDg6dzm8lNH5uG67q5BXdf0X3dR",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "playable": 1,
-      "categories": [
-        "木偶动漫",
-        "木偶剧集",
-        "木偶电影",
-        "木偶综艺",
-        "木偶纪录片"
-      ]
-    },
-    {
-      "key": "spider_2054142090224340992",
-      "name": "❤至臻｜4K测试",
-      "type": 4,
-      "api": "http://115.191.55.109:7023/api/tvbox/source/2054142090224340992?token=phcB9KDg6dzm8lNH5uG67q5BXdf0X3dR",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "playable": 1
-    },
-    {
-      "key": "spider_2054142081324027905",
-      "name": "❤玩偶｜4K测试",
-      "type": 4,
-      "api": "http://115.191.55.109:7023/api/tvbox/source/2054142081324027905?token=phcB9KDg6dzm8lNH5uG67q5BXdf0X3dR",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "playable": 1
-    },
-    {
-      "key": "spider_2054142076416692224",
-      "name": "❤二小｜4K测试",
-      "type": 4,
-      "api": "http://115.191.55.109:7023/api/tvbox/source/2054142076416692224?token=phcB9KDg6dzm8lNH5uG67q5BXdf0X3dR",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "playable": 1
-    },
-    {
-      "key": "spider_2054142089293205504",
-      "name": "❤虎斑｜4K测试",
-      "type": 4,
-      "api": "http://115.191.55.109:7023/api/tvbox/source/2054142089293205504?token=phcB9KDg6dzm8lNH5uG67q5BXdf0X3dR",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "playable": 1
-    },
-    {
-      "key": "spider_2054142078383820801",
-      "name": "❤多多｜4K测试",
-      "type": 4,
-      "api": "http://115.191.55.109:7023/api/tvbox/source/2054142078383820801?token=phcB9KDg6dzm8lNH5uG67q5BXdf0X3dR",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "playable": 1
-    },
-    {
-      "key": "spider_2054142081324027904",
-      "name": "❤聚合｜4K测试",
-      "type": 4,
-      "api": "http://115.191.55.109:7023/api/tvbox/source/2054142081324027904?token=phcB9KDg6dzm8lNH5uG67q5BXdf0X3dR",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "playable": 1
-    },
+
     {
       "key": "jp",
       "name": "备·金牌",
@@ -212,24 +129,43 @@
     }
   ],
   "parses": [
-    {
-      "name": "WEB解析",
-      "type": 0,
-      "url": ""
-    },
-    {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
-
    {
       "name": "极速4k",
+      "type": 1,
+      "url": "http://114.66.29.121:92//api/index?parsesId=23&appid=10006&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    },
+   {
+      "name": "极速4k1",
       "type": 1,
       "url": "http://miyao1.wk57.top/iJKHhGGigLJGiH.php?url=",
       "ext": {
