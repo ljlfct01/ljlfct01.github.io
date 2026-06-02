@@ -1,18 +1,32 @@
-[
-  {
-    "name": "推荐",
-    "list": [
-
-
-
-      {
-        "name": "缘起【天神IY】",
-        "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/IY-CPU/IY/main/缘起【天神IY】.zip",
-        "icon": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/源.png",
-        "version": "2026.05.28版"
-      }
-
-
-    ]
-  }
-]
+{
+  "urls": [
+    { 
+      "url":"https://gitee.com/cpu-iy/iy/raw/master/天神IY.json", 
+      "name": "天神IY测试专用1" 
+    },
+    { 
+      "url":"https://d.kstore.dev/download/14505/天神IY.json", 
+      "name": "天神IY测试专用2" 
+    },
+    { 
+      "url":"http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/天神IY.json", 
+      "name": "天神IY测试备用1" 
+    },
+    { 
+      "url":"https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/天神IY.json", 
+      "name": "天神IY测试备用2" 
+    },
+    { 
+      "url":"https://wget.la/https://raw.githubusercontent.com/IY-CPU/IY/main/天神IY.json", 
+      "name": "天神IY测试备用3" 
+    },    
+    { 
+      "url":"https://d.kstore.dev/download/14505/iy2.json", 
+      "name": "❤在线库" 
+    },
+    {
+      "url":"clan://localhost/f", 
+      "name": "❤本地库【ff】" 
+    }
+  ]
+}
