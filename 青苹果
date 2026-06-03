@@ -3,23 +3,15 @@
   "sites": [
     {
       "key": "qq",
-      "name": "青苹果4K①",
+      "name": "主·Qq4K-60帧",
       "playerType": 2,
       "type": 3,
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
       "ext": "https://app.69mini.com/js/主线1.js"
     },
     {
-      "key": "mg",
-      "name": "青苹果4K②",
-      "playerType": 2,
-      "type": 3,
-      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/主线3.js"
-    },
-    {
       "key": "JD",
-      "name": "青苹果4K③",
+      "name": "主·New4K-60帧",
       "type": 3,
       "api": "csp_AppYsV2",
       "jar": "https://app.69mini.com/tvbox/nb.jpg",
@@ -30,8 +22,16 @@
       "ext": "https://qp.69mini.com/api.php/app/"
     },
     {
+      "key": "mg",
+      "name": "主·Mg4K-50帧",
+      "playerType": 2,
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/主线3.js"
+    },
+    {
       "key": "bl",
-      "name": "青苹果4K④",
+      "name": "主·Bl4K-60帧",
       "playerType": "2",
       "type": 3,
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
@@ -39,7 +39,7 @@
     },
     {
       "key": "qiyi",
-      "name": "青苹果2K①",
+      "name": "主·Qy2K",
       "playerType": 1,
       "type": 3,
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
@@ -47,7 +47,7 @@
     },
     {
       "key": "yk",
-      "name": "青苹果2K②",
+      "name": "主·Yk2K",
       "playerType": "1",
       "type": 3,
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
@@ -55,7 +55,7 @@
     },
     {
       "key": "华数",
-      "name": "青苹果2K③",
+      "name": "主·Hs2K",
       "type": 3,
       "api": "csp_AppYsV2",
       "jar": "https://app.69mini.com/tvbox/nb.jpg",
@@ -67,7 +67,7 @@
     },
     {
       "key": "4kvm",
-      "name": "青苹果备·4K",
+      "name": "备·4Kvm",
       "type": 3,
       "api": "csp_AppYsV2",
       "jar": "https://app.69mini.com/tvbox/nb.jpg",
@@ -79,7 +79,7 @@
     },
     {
       "key": "rr",
-      "name": "青苹果·人人",
+      "name": "备·人人",
       "type": 3,
       "api": "csp_AppYsV2",
       "jar": "https://app.69mini.com/tvbox/nb.jpg",
@@ -91,7 +91,7 @@
     },
     {
       "key": "4kvm",
-      "name": "青苹果·4Kvm",
+      "name": "备·4Kvm",
       "type": 3,
       "api": "csp_AppYsV2",
       "jar": "https://app.69mini.com/tvbox/nb.jpg",
@@ -103,7 +103,7 @@
     },
     {
       "key": "jp",
-      "name": "青苹果·金牌",
+      "name": "备·金牌",
       "type": 3,
       "api": "csp_AppYsV2",
       "jar": "https://app.69mini.com/tvbox/nb.jpg",
@@ -115,7 +115,7 @@
     },
     {
       "key": "无广告",
-      "name": "青苹果·NB",
+      "name": "备·NB",
       "type": 3,
       "api": "csp_AppYsV2",
       "jar": "https://app.69mini.com/tvbox/nb.jpg",
@@ -127,7 +127,7 @@
     },
     {
       "key": "天堂",
-      "name": "青苹果·天堂",
+      "name": "备·天堂",
       "type": 3,
       "api": "csp_AppYsV2",
       "jar": "https://app.69mini.com/tvbox/nb.jpg",
@@ -139,7 +139,7 @@
     },
     {
       "key": "小米玩",
-      "name": "青苹果·网盘1",
+      "name": "免·网盘1",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
@@ -147,7 +147,7 @@
     },
     {
       "key": "飞碟木偶",
-      "name": "青苹果·网盘2",
+      "name": "免·网盘2",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
@@ -155,7 +155,7 @@
     },
     {
       "key": "至臻木偶2",
-      "name": "青苹果·网盘3",
+      "name": "免·网盘3",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
@@ -163,7 +163,7 @@
     },
     {
       "key": "至臻闪电",
-      "name": "青苹果·网盘4",
+      "name": "免·网盘4",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
@@ -171,7 +171,7 @@
     },
     {
       "key": "至臻阿里",
-      "name": "青苹果·网盘5",
+      "name": "免·网盘5",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
@@ -179,7 +179,7 @@
     },
     {
       "key": "小虎玩",
-      "name": "青苹果·网盘6",
+      "name": "免·网盘6",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "https://mpimg.cn/down.php/b4b695cf12db5356b2bf50afbccb7452.jar",
@@ -187,7 +187,7 @@
     },
     {
       "key": "哥哥玩",
-      "name": "青苹果·网盘7",
+      "name": "免·网盘7",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
@@ -195,7 +195,7 @@
     },
     {
       "key": "push_agent",
-      "name": "青苹果NB解析",
+      "name": "NB解析",
       "type": 3,
       "api": "csp_Push",
       "playerType": "1",
@@ -205,9 +205,9 @@
   "parses": [
 
    {
-      "name": "青苹果解析",
+      "name": "极速",
       "type": 1,
-      "url": "https://u6.69mzf.cn//api/index?parsesId=3&appid=10006&videoUrl=",
+      "url": "http://1.14.134.157//api/index?parsesId=1&appid=10002&videoUrl=",
       "ext": {
         "flag": [
           "qq",
@@ -240,9 +240,9 @@
       }
     },
    {
-      "name": "青苹果解析2",
+      "name": "极速2",
       "type": 1,
-      "url": "https://u6.69mzf.cn//api/index?parsesId=2&appid=10006&videoUrl=",
+      "url": "http://154.8.225.238:9991//api/index?parsesId=13&appid=10000&videoUrl=",
       "ext": {
         "flag": [
           "qq",
@@ -274,43 +274,9 @@
         ]
       }
     },
+
    {
-      "name": "青苹果解析3",
-      "type": 1,
-      "url": "https://u6.69mzf.cn//api/index?parsesId=1&appid=10006&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
-    },
-   {
-      "name": "青苹果解析4",
+      "name": "极速3",
       "type": 1,
       "url": "http://miyao1.wk57.top/iJKHhGGigLJGiH.php?url=",
       "ext": {
