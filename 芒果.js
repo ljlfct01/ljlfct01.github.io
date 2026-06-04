@@ -751,7 +751,7 @@
             
             // 定义解析接口
             const parseApis = [
-    "https://fanghu.52xiaobai.cn/mg4k/mg4k.php?url="
+    "https://niubi.69mini.com/jsonapi/?url="
   
             ];
             
