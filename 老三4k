@@ -60,62 +60,7 @@
     }
   ],
   "sites": [
-    {
-      "key": "mihdr",
-      "name": "Pan - 1 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliV2xvWkhJakl5TnRhV2hrY2c9PQ=="
-    },
-    {
-      "key": "ouge",
-      "name": "Pan - 2 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliM1ZuWlNNakkyOTFaMlU9"
-    },
-    {
-      "key": "libo",
-      "name": "Pan - 3 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliR2xpYnlNakkyeHBZbTg9"
-    },
-    {
-      "key": "xiaoer",
-      "name": "Pan - 4 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTllR2xoYjJWeUl5TWplR2xoYjJWeQ=="
-    },
-    {
-      "key": "labi",
-      "name": "Pan - 5 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVNNakkyeGhZbWs9"
-    },
-    {
-      "key": "yanshi1",
-      "name": "Pan - 6 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
-    {
-      "key": "zhizhen",
-      "name": "Pan - 7 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    },
+
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
@@ -137,69 +82,20 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
-            {
-      "key": "腾讯弹幕",
-      "name": "👑 腾讯┃SVIP",
+     {
+      "key": "JD",
+      "name": "主·New4K-60帧",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
+      "playerType": 2,
       "searchable": 1,
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://yp2.mftv.top/js/tx.js"
+      "quickSearch": 1,
+      "filterable": 1,
+    "playUrl": "json:https://jiexi.jdyx.pro/api/?key=c87681c93d5e430cacd351f00e831aa5&url=JD-",
+      "ext": "https://qp.69mini.com/api.php/app/"
     },
-      {
-      "key": "芒果视频",
-      "name": "👑 芒果┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://yp2.mftv.top/js/mg.js"
-    },
-    {
-      "key": "飞碟木偶",
-      "name": "青苹果·网盘2",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
-      "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEWXZZWEJwTWk1d2FIQS9jMmwwWlQxdGRXOTFJeU1qYlhWdmRRPT0="
-    },
-    {
-      "key": "至臻木偶2",
-      "name": "青苹果·网盘3",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
-      "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdGIyZG5NaU1qSTIxdloyY3k="
-    },
-    {
-      "key": "至臻闪电",
-      "name": "青苹果·网盘4",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
-      "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxemFHRnVaR2xoYmlNakkzTm9ZVzVrYVdGdQ=="
-    },
-    {
-      "key": "至臻阿里",
-      "name": "青苹果·网盘5",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
-      "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdGFXaGtjaU1qSTIxcGFHUnk="
-    },
-    {
-      "key": "小虎玩",
-      "name": "青苹果·网盘6",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "https://mpimg.cn/down.php/b4b695cf12db5356b2bf50afbccb7452.jar",
-      "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxb2RXSmhiaU1qSTJKMVltRnU="
-    },
-    {
-      "key": "哥哥玩",
-      "name": "青苹果·网盘7",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
-      "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdmRXZGxJeU1qYjNWblpRPT0="
-    },
+
     {
       "key": "瓜子影视",
       "name": "🍓瓜子影视",
