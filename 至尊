@@ -126,7 +126,7 @@
 
          {
             "key": "cms2",
-            "name": "📢🌈极影4k原画",
+            "name": "推荐┃4k",
             "type": 3,
             "api": "csp_AppYsV2",
             "jar":"https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
@@ -153,51 +153,24 @@
       "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
       "ext": "http://yp2.mftv.top/js/mg.js"
     },
-
-        {
-            "key": "lvdou",
-            "name": "Pan | 来自全能（已停）",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://210.16.170.113:8999/api.php/app/"
-        },
     {
-      "key": "👑 火狐 | T4",
-      "name": "🚀 火狐 | T4",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "key": "哔哩视频",
+      "name": "哔哩-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/bili.js"
+    },
+     {
+      "key": "JD",
+      "name": "主·New4K-60帧",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "悬疑片",
-        "犯罪片",
-        "奇幻片",
-        "记录片",
-        "动画片",
-        "内地剧",
-        "香港剧",
-        "台湾剧",
-        "日剧",
-        "韩剧",
-        "欧美剧",
-        "马泰剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "中国动漫",
-        "日本动漫",
-        "欧美动漫"
-      ]
+     "ext": "https://qp.69mini.com/api.php/app/"
     }
 
 
