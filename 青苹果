@@ -11,17 +11,7 @@
       "filterable": 1,
       "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
     },
-         {
-            "key": "cms2",
-            "name": "推荐┃4k",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "jar":"https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://8.mftv.top/api.php/app/"
-        },
+
     {
       "key": "qq",
       "name": "主·Qq4K-60帧",
@@ -213,8 +203,17 @@
       "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
       "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdmRXZGxJeU1qYjNWblpRPT0="
+    },
+    {
+      "key": "极影",
+      "name": "免·网盘8",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/jy.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
     }
-
   ],
   "parses": [
 
