@@ -3,6 +3,16 @@
   "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
   "warningText": "欢迎使用火焰TV，祝您观影愉快",
   "lives": [
+
+    {
+      "name": "4K线路",
+      "type": 0,
+      "url": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites": [
     {
       "key": "新腾极4k",
       "name": "幽灵4k真4k-💥🔥好用",
@@ -23,14 +33,15 @@
       "ext": "http://8.148.229.212:802/新you灵4k/lib/幽灵4kMG.js"
     },
     {
-      "name": "4K线路",
-      "type": 0,
-      "url": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ],
-  "sites": [
+      "key": "爱营",
+      "name": "❤梦┃4K",
+      "type": 3,
+      "jar": "https://lz.qaiu.top/parser?url=https://wwbsd.lanzouu.com/iUGFg3oxz9ch&pwd=5dxa",
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+      "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt|nzEqOgYk3QzHuEP8|V122|okhttp/3.10.0"
+    },
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
