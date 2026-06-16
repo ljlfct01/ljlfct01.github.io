@@ -70,20 +70,7 @@
       "filterable": 1,
       "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
     },
-    {
-      "key": "hipy_js_优酷[官]",
-      "name": "优优-（臻彩视界2K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/优酷[官].js"
-    },
-    {
-      "key": "奇珍异兽",
-      "name": "奇奇-（臻彩视界2K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/爱奇艺扩展太多要自己修复.js"
-    },
+
     {
       "key": "瓜子",
       "name": "瓜子｜1080",
@@ -105,15 +92,7 @@
         "url": "http://v.rbotv.cn"
       }
     },
-    {
-      "key": "瓜子影视",
-      "name": "🍉瓜子┃备用维护",
-      "type": 1,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
 
     {
       "key": "金牌影视2",
@@ -323,21 +302,13 @@
   ],
   "parses": [
   
+ 
      {
-      "name": "4k直连1",
-      "type": 1,
-      "url": "http://miyao1.wk57.top/iJKHhGGigLJGiH666p.php?url="
-    },
-     {
-      "name": "4k直连2",
+      "name": "4k直连",
       "type": 1,
       "url": "https://jiexi.jdyx.pro/api/?key=c87681c93d5e430cacd351f00e831aa5&url="
     },
-     {
-      "name": "4k直连3",
-      "type": 1,
-      "url": "http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl="
-    }
+
   ],
   "flags": [
     "youku",
