@@ -24,6 +24,44 @@
       }
     },
     {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "藤藤-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E8%AE%AF.js"
+    },
+
+    {
+      "key": "guoguo",
+      "name": "芒芒-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C.js"
+    },
+
+    {
+      "key": "JD",
+      "name": "主·New4K-60帧",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://app.69mini.com/tvbox/nb.jpg",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://qp.69mini.com/api.php/app/"
+    },
+    {
+      "key": "极影",
+      "name": "❤极影｜4K测试",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/jy.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
+    },
+    {
       "key": "咕噜99",
       "name": "🫳┃3840",
       "type": 3,
@@ -807,47 +845,13 @@
     }
   ],
   "parses": [
+ 
     {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
-    {
-      "name": "至尊影视",
+      "name": "JD",
       "type": 1,
-      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=hubanjiexi&url="
-    },
-    {
-      "name": "至",
-      "type": 1,
-      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getuserjx&url="
-    },
-    {
-      "name": "尊",
-      "type": 1,
-      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=hubanjiexi1&url="
-    },
-    {
-      "name": "影",
-      "type": 1,
-      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getAbjx&url="
-    },
-    {
-      "name": "视",
-      "type": 1,
-      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getXmflvjx&url=",
-      "ext": {
-        "header": {
-          "Accept": "*/*",
-          "Origin": "https://jx.xmflv.com"
-        }
-      }
+      "url": "https://jiexi.jdyx.pro/api/?key=c87681c93d5e430cacd351f00e831aa5&url="
     }
+
   ],
   "flags": [
     "youku",
