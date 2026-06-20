@@ -6,23 +6,12 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "青苹果影视",
+      "name": "豆瓣影视",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
-    {
-      "key": "配置中心",
-      "name": "❤配置｜中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
+
 
     {
       "key": "hipy_js_腾云驾雾[官]",
@@ -667,64 +656,7 @@
       "ext": "https://jihulab.com/ymz1231/json/-/raw/main/兔小贝2.json",
       "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/ymz.jar"
     },
-    {
-      "key": "夸快夸快",
-      "name": "💿夸克盘01┃3840",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://ogkk.nxog.eu.org",
-          "https://ogkk.nxog.fun",
-          "https://woog.歌.de5.net"
-        ]
-      }
-    },
-    {
-      "key": "虎斑",
-      "name": "💿百度盘02┃3840",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "http://103.45.162.207:20720"
-        ]
-      }
-    },
-    {
-      "key": "阿里云盘",
-      "name": "☁️阿里盘03｜3840",
-      "type": 3,
-      "api": "csp_PanAli",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "UC网盘",
-      "name": "🌐UC盘04｜3480",
-      "type": 3,
-      "api": "csp_PanUC",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
+
     {
       "key": "csp_Music",
       "name": "🎵MUSIC┃音乐",
@@ -838,11 +770,6 @@
   ],
   "parses": [
 
-    {
-      "name": "JD",
-      "type": 1,
-      "url": "https://u6.69mzf.cn//api/index?parsesId=3&appid=10006&videoUrl="
-    }
 
   ],
   "flags": [
