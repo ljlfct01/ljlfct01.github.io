@@ -751,8 +751,8 @@
             
             // 定义解析接口
             const parseApis = [
-    "https://niubi.69mini.com/jsonapi/?url="
-  
+    "https://niubi.69mini.com/jsonapi/?url=",
+    "http://jiexi.fc8001.top/GswHCTkjDZybiWZy.php?url="
             ];
             
             let playUrl = videoUrl; // 默认使用原始地址
