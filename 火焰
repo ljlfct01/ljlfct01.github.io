@@ -13,23 +13,29 @@
     }
   ],
   "sites": [
-    {
-      "key": "qq",
-      "name": "青苹果4K①",
-      "playerType": 2,
+   {
+      "key": "云腾酷酷",
+      "name": "️🛡️腾🛡️4k",
       "type": 3,
-      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/主线1.js"
+      "searchable": 1,
+      "quicksearch": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "api": "http://45.125.44.89:8866/asdasd/drpy_libs/drpy2.min.js",
+      "ext": "http://45.125.44.89:8866/asdasd/lib/主线1.js"
     },
     {
-      "key": "mg",
-      "name": "青苹果4K②",
-      "playerType": 2,
+      "key": "芒果自家4k1",
+      "name": "️芒🛡️4k",
       "type": 3,
-      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/主线3.js"
+      "api": "http://45.125.44.89:8866/asdasd/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quicksearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://45.125.44.89:8866/asdasd/lib/主线3.js"
     },
-
     {
       "key": "极影",
       "name": "❤极影｜4K",
