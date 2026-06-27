@@ -888,9 +888,28 @@
     "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
   ],
   "parses": [
-
      {
       "name": "4k",
+      "type": 1,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=1&appid=10006&videoUrl="
+    },
+     {
+      "name": "4k2",
+      "type": 1,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=2&appid=10006&videoUrl="
+    },
+     {
+      "name": "4k3",
+      "type": 1,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=3&appid=10006&videoUrl="
+    },
+     {
+      "name": "4k4",
+      "type": 1,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=4&appid=10006&videoUrl="
+    },
+     {
+      "name": "4k5",
       "type": 1,
       "url": "http://ui.fanhuays.top:8020/api/index?parsesId=5&appid=10006&videoUrl="
     }
