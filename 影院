@@ -16,50 +16,37 @@
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/qq2.js"
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/qq2.js"
     },
     {
       "key": "哔哩视频",
       "name": "哔哩-（臻彩视界4K）",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/bili.js"
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/bili.js"
     },
     {
       "key": "guoguo",
       "name": "芒芒-（臻彩视界4K）",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/mg.js"
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/mg.js"
     },
-    {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "藤藤-（臻彩视界4K）",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/qq2.js"
-    },
-    {
-      "key": "哔哩视频",
-      "name": "哔哩-（臻彩视界4K）",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/哔哩.js"
-    },
+
     {
       "key": "hipy_js_优酷[官]",
       "name": "优优-（臻彩视界2K）",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷[官].js"
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/优酷[官].js"
     },
     {
       "key": "奇珍异兽",
       "name": "奇奇-（臻彩视界2K）",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/爱奇艺扩展太多要自己修复.js"
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/爱奇艺扩展太多要自己修复.js"
     },
     {
       "key": "瓜子",
@@ -69,29 +56,7 @@
       "jar": "http://183.136.134.152:250/lib/spider.jar",
       "api": "csp_Gz360"
     },
-    {
-      "key": "五大采集平台",
-      "name": "📢欢迎来到弹幕TV",
-      "type": 1,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": "http://39.105.18.5:5565/api.php/app/"
-    },
-    {
-      "key": "热播影视",
-      "name": "🔥热剧┃2K（维护）",
-      "type": 1,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "url": "http://v.rbotv.cn"
-      }
-    },
+
     {
       "key": "瓜子影视",
       "name": "🍉瓜子┃备用维护",
@@ -101,27 +66,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "蓝光",
-      "name": "综合（臻彩视界维护）",
-      "type": 2,
-      "api": "http://XXXXXXXXXXX",
-      "playUrl": "json:http://xy.183933.xyz/xiayede.php?key=hy1966&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫",
-        "少儿",
-        "短剧",
-        "学堂",
-        "其他综艺",
-        "纪录片"
-      ]
-    },
+
     {
       "key": "金牌影视2",
       "name": "🥇金牌┃1080P",
