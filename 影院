@@ -373,6 +373,20 @@
   ],
   "lives": [
     {
+      "name": "4K线路",
+      "type": 0,
+      "url": "https://gh-proxy.com//https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "哦了tv",
+      "type": 0,
+      "url": "http://wangziduoqing.com/yuan/zb.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "📺 平台直播",
       "type": 0,
       "url": "http://lzzlj.xyys.site/tvbox/live.txt",
@@ -383,7 +397,11 @@
       "timeout": 10
     }
   ],
-  "parses": [],
+  "parses": [     {
+      "name": "4k",
+      "type": 1,
+      "url": "http://jiexi.fc8001.top/lAlSskJKlXMPiham.php?url="
+    }],
   "ijk": [
     {
       "group": "软解码",
