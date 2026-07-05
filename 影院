@@ -397,11 +397,23 @@
       "timeout": 10
     }
   ],
-  "parses": [     {
+  "parses": [     
+{
       "name": "4k",
       "type": 1,
-      "url": "http://154.8.225.238:9991//api/index?parsesId=4&appid=10000&videoUrl="
-    }],
+      "url": "http://154.8.225.238:9991//api/index?parsesId=13&appid=10000&videoUrl="
+    },
+{
+      "name": "4k1",
+      "type": 1,
+      "url": "http://42.193.100.50:23000//api/index?parsesId=2&appid=10006&videoUrl="
+    },
+{
+      "name": "4k2",
+      "type": 1,
+      "url": "http://43.138.212.149:6542/api/index?parsesId=1&appid=10001&videoUrl="
+    }
+],
   "ijk": [
     {
       "group": "软解码",
