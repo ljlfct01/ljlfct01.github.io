@@ -1,6 +1,14 @@
 {
   "spider": "http://109.244.56.3:8000/56d0b667615145949789418bff9f22a5-no-go-proxy.jar",
   "sites": [
+
+    {
+      "key": "guoguo",
+      "name": "芒芒-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "http://183.136.134.152:250/lib/mg.js"
+    },
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
@@ -14,13 +22,6 @@
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
-    },
-    {
-      "key": "guoguo",
-      "name": "芒芒-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/mg.js"
     },
     {
       "key": "顾我99",
