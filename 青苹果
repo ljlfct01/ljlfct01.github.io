@@ -360,17 +360,8 @@
       "url": "http://wangziduoqing.com/yuan/zb.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "📺 平台直播",
-      "type": 0,
-      "url": "http://cms.quiciptv.com:9090/xml/live/2.xml",
-      "epg": "http://tvapius.chenfengtv.com/api/diyp.php?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png",
-      "ua": "okHttp/Mod-1.5.0.0",
-      "playerType": 2,
-      "timeout": 10
     }
+
   ],
   "parses": [  
  {
