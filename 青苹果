@@ -347,17 +347,19 @@
     }
   ],
   "lives": [
-    {
-      "name": "乘风破浪",
-      "type": 0,
-      "url": "https://cnb.cool/fgvss/dszb1/-/git/raw/main/zbtv30.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
+
     {
       "name": "4K线路",
       "type": 0,
       "url": "https://gh.bugdey.us.kg/http://raw.githubusercontent.com/yihad168/tv/refs/heads/main/live.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "乘风破浪",
+      "type": 0,
+      "url": "https://cnb.cool/fgvss/dszb1/-/git/raw/main/zbtv30.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
