@@ -5,12 +5,7 @@
   "wallpaper": "https://api.btstu.cn/sjbz/api.php",
   "warningText": "text",
   "parses": [
-    {
-      "name": "极速",
-      "type": 1,
-      "url": "http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl="
-  
-    }
+
   ],
   "lives": [
 
@@ -62,19 +57,20 @@
   ],
   "sites": [
     {
-      "key": "ttys",
-      "name": "🔥腾腾|4K",
-      "type": 3,
-      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-      "ext": "http://49.232.165.72:1234/js/qq.js"
-    },
-    {
       "key": "机哥剧圈",
       "name": "🔥茫茫|4K",
       "type": 3,
       "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
       "ext": "http://49.232.165.72:1234/js/mg.js"
     },
+    {
+      "key": "ttys",
+      "name": "🔥腾腾|4K",
+      "type": 3,
+      "api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+      "ext": "http://49.232.165.72:1234/js/qq.js"
+    },
+
     {
       "key": "爱奇艺弹幕",
       "name": "🔥奇奇|爱2K",
