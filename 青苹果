@@ -272,14 +272,83 @@
 "doh": [
      
 ],
-  "parses": [
+    "parses": [ 
+		{
+            "name": "盘古",
+            "type": 0,
+            "url": "http://ui.fanhuays.top:8020/api/index?parsesId=1&appid=10006&videoUrl=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+		{
+           "name": "789解析1",
+           "type": 0,
+           "url": "http://ui.fanhuays.top:8020/api/index?parsesId=2&appid=10006&videoUrl="
+        },
+		{
+           "name": "789解析2",
+           "type": 0,
+           "url": "http://ui.fanhuays.top:8020/api/index?parsesId=3&appid=10006&videoUrl="
+        },
+		{
+            "name": "虾米解析",
+            "type": 0,
+            "url": "http://ui.fanhuays.top:8020/api/index?parsesId=4&appid=10006&videoUrl="
+        },
+		{
+            "name": "淘片解析",
+            "type": 0,
+            "url": "http://ui.fanhuays.top:8020/api/index?parsesId=5&appid=10006&videoUrl="
+        },
      {
-      "name": "光速4k",
-      "type": 1,
-      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=20&appid=10006&videoUrl="
-    }
-
-  ],
+      "name": "解析1",
+      "type": 0,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=6&appid=10006&videoUrl="
+    },
+    {
+      "name": "解析2",
+      "type": 0,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=7&appid=10006&videoUrl="
+    },
+    {
+      "name": "解析3",
+      "type": 0,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=8&appid=10006&videoUrl="
+    },
+		
+	{
+      "name": "解析4",
+      "type": 0,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=9&appid=10006&videoUrl="
+    },
+    {
+      "name": "解析5",
+      "type": 0,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=10&appid=10006&videoUrl="
+    },
+      {
+      "name": "解析6",
+      "type": 0,
+      "url": "http://ui.fanhuays.top:8020/api/index?parsesId=11&appid=10006&videoUrl="
+        },
+		{
+            "name": "冰豆",
+            "type": 0,
+            "url": "http://ui.fanhuays.top:8020/api/index?parsesId=12&appid=10006&videoUrl="
+        },
+        {
+			"name":"爱酷",
+			"type":0,
+			"url":"http://ui.fanhuays.top:8020/api/index?parsesId=13&appid=10006&videoUrl="
+		},
+        {"name":"云解析","type":0,"url":"http://ui.fanhuays.top:8020/api/index?parsesId=14&appid=10006&videoUrl=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"777","type":0,"url":"http://ui.fanhuays.top:8020/api/index?parsesId=15&appid=10006&videoUrl=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"-剖云-","type":0,"url":"http://ui.fanhuays.top:8020/api/index?parsesId=16&appid=10006&videoUrl=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"-全看-","type":0,"url":"http://ui.fanhuays.top:8020/api/index?parsesId=17&appid=10006&videoUrl=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}
+       ],
 
  
   "hosts": [
