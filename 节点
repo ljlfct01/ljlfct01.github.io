@@ -76,26 +76,7 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-  - name: 一号节点-VMess
-    type: vmess
-    server: tz1.gal.cab
-    port: 41970
-    uuid: b1fc1989-a79e-47bb-b1c5-5f3a379fc3ba
-    alterId: 0
-    network: tcp
-    tls: false
 
-  - name: 二号节点-VMess
-    type: vmess
-    server: tz2.gal.cab
-    port: 37759
-    uuid: c4e67626-da31-4168-a35e-0fe3c0b30d80
-    alterId: 0
-    network: tcp
-    tls: false
-
-
-  
   - name: 美国1
     server: usport1-cdn-route.couldflare-cdn.com
     port: 443
