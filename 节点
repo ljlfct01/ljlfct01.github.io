@@ -128,3 +128,18 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
+  - name: "🇺🇸 秘密隧道㊙️ SS"
+    type: ss
+    server: 45.207.207.25
+    port: 443
+    cipher: aes-256-gcm
+    password: "gj1+XKulKV0nmw6IThckOkkJh5DSM7+C"
+    udp: true
+  - name: "🇺🇸 秘密隧道㊙️ HY2"
+    type: hysteria2
+    server: 45.207.207.25
+    port: 8443
+    password: "gVYmzcZ1loF1rdnXpZzscUv12gi0yMr9"
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
