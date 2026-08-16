@@ -143,3 +143,795 @@ proxies:
     sni: www.bing.com
     skip-cert-verify: true
     udp: true
+  -
+    name: HK-1
+    type: vless
+    server: hk1-r.link-t7.com
+    port: 10126
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: HK-2
+    type: vless
+    server: hk2-r.link-t7.com
+    port: 10127
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: HK-3
+    type: vless
+    server: hk3-r.link-t7.com
+    port: 10128
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: HK-4
+    type: vless
+    server: hk4-r.link-t7.com
+    port: 10129
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: HK-5
+    type: vless
+    server: hk5-r.link-t7.com
+    port: 10130
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: HK-6
+    type: vless
+    server: hk6-r.link-t7.com
+    port: 10136
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: HK2-HY2
+    type: hysteria2
+    server: hk2.dexlos.com
+    ports: 20200-20399
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: hk2.dexlos.com
+  -
+    name: HK3-HY2
+    type: hysteria2
+    server: hk3.dexlos.com
+    ports: 20400-20599
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: hk3.dexlos.com
+  -
+    name: HK4-HY2
+    type: hysteria2
+    server: hk4.dexlos.com
+    ports: 20600-20799
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: hk4.dexlos.com
+  -
+    name: HK5-HY2
+    type: hysteria2
+    server: hk5.dexlos.com
+    ports: 20800-20999
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: hk5.dexlos.com
+  -
+    name: JP-1
+    type: vless
+    server: jp1-r.link-t7.com
+    port: 10031
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: JP-2
+    type: vless
+    server: jp2-r.link-t7.com
+    port: 10032
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: JP-3
+    type: vless
+    server: jp3-r.link-t7.com
+    port: 10033
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: JP-4
+    type: vless
+    server: jp4-r.link-t7.com
+    port: 10034
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: JP-5
+    type: vless
+    server: jp5-r.link-t7.com
+    port: 10035
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: JP-6
+    type: vless
+    server: jp6-r.link-t7.com
+    port: 10036
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: JP1-HY2
+    type: hysteria2
+    server: jp1.dexlos.com
+    ports: 20000-20199
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: jp1.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: JP2-HY2
+    type: hysteria2
+    server: jp2.dexlos.com
+    ports: 20200-20399
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: jp2.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: JP3-HY2
+    type: hysteria2
+    server: jp3.dexlos.com
+    ports: 20400-20599
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: jp3.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: JP4-HY2
+    type: hysteria2
+    server: jp4.dexlos.com
+    ports: 20600-20799
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: jp4.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: JP5-HY2
+    type: hysteria2
+    server: jp5.dexlos.com
+    ports: 20800-20999
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: jp5.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: JP9-HY2
+    type: hysteria2
+    server: jp9.dexlos.com
+    ports: 21600-21799
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: jp9.dexlos.com
+  -
+    name: JP10-HY2
+    type: hysteria2
+    server: jp10.dexlos.com
+    ports: 21800-21999
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: jp10.dexlos.com
+  -
+    name: KR-1
+    type: vless
+    server: kr1-r.link-t7.com
+    port: 10046
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: KR-2
+    type: vless
+    server: kr2-r.link-t7.com
+    port: 10047
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: KR-3
+    type: vless
+    server: kr3-r.link-t7.com
+    port: 10048
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: KR-4
+    type: vless
+    server: kr4-r.link-t7.com
+    port: 10049
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: KR-5
+    type: vless
+    server: kr5-r.link-t7.com
+    port: 10050
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: SG-1
+    type: vless
+    server: sg1-r.link-t7.com
+    port: 10036
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: SG-2
+    type: vless
+    server: sg2-r.link-t7.com
+    port: 10037
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: SG-3
+    type: vless
+    server: sg3-r.link-t7.com
+    port: 10038
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: d1.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: update
+  -
+    name: SG4-HY2
+    type: hysteria2
+    server: sg4.dexlos.com
+    ports: 20600-20799
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: sg4.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: SG5-HY2
+    type: hysteria2
+    server: sg5.dexlos.com
+    ports: 20800-20999
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: sg5.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: TW-1
+    type: tuic
+    server: tw1.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw1.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-2
+    type: tuic
+    server: tw2.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw2.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-3
+    type: tuic
+    server: tw3.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw3.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-4
+    type: tuic
+    server: tw4.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw4.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-5
+    type: tuic
+    server: tw5.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw5.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-6
+    type: tuic
+    server: tw6.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw6.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-7
+    type: tuic
+    server: tw7.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw7.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-8
+    type: tuic
+    server: tw8.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw8.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-9
+    type: tuic
+    server: tw9.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw9.dexlos.com
+    alpn:
+      - h3
+  -
+    name: TW-10
+    type: tuic
+    server: tw10.dexlos.com
+    port: 8080
+    version: 5
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    skip-cert-verify: false
+    sni: tw10.dexlos.com
+    alpn:
+      - h3
+  -
+    name: US-1TCP
+    type: vless
+    server: us1-r.link-t7.com
+    port: 10238
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: US-2TCP
+    type: vless
+    server: us2-r.link-t7.com
+    port: 10239
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: US-3TCP
+    type: vless
+    server: us3-r.link-t7.com
+    port: 10240
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: US-4TCP
+    type: vless
+    server: us4-r.link-t7.com
+    port: 10241
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: US-5TCP
+    type: vless
+    server: us5-r.link-t7.com
+    port: 10242
+    uuid: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    packet-encoding: xudp
+    cipher: auto
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    network: grpc
+    grpc-opts:
+      grpc-service-name: movie
+  -
+    name: US1-HY2
+    type: hysteria2
+    server: us1.dexlos.com
+    ports: 20000-20199
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: us1.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: US2-HY2
+    type: hysteria2
+    server: us2.dexlos.com
+    ports: 20200-20399
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: us2.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: US3-HY2
+    type: hysteria2
+    server: us3.dexlos.com
+    ports: 20400-20599
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: us3.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: US4-HY2
+    type: hysteria2
+    server: us4.dexlos.com
+    ports: 20600-20799
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: us4.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: US5-HY2
+    type: hysteria2
+    server: us5.dexlos.com
+    ports: 20800-20999
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: us5.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+  -
+    name: US6-HY2
+    type: hysteria2
+    server: us6.dexlos.com
+    ports: 21000-21199
+    password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+    udp: true
+    skip-cert-verify: false
+    sni: us6.dexlos.com
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
