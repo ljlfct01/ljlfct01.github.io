@@ -197,7 +197,17 @@
       "api": "http://111.231.104.229:5578/Emby5/Emby5.php?ck=1f0dbc3c&filter=true"
     },
 
-    
+             {
+            "key": "cms2",
+            "name": "推荐┃4k1",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "jar":"https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://111.231.104.229:5578/Emby5/Emby5.php?ck=1f0dbc3c&filter=true"
+        },
             {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
