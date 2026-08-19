@@ -18,335 +18,48 @@
             "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
         },
     {
-      "key": "哔哩视频",
-      "name": "哔哩-（臻彩视界4K）",
+      "key": "4k-av",
+      "name": "踏天苍穹4k❤️电信",
       "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/bili.js"
-    },
-
-    {
-      "key": "顾我99",
-      "name": "顾我┃3840",
-      "type": 3,
-      "jar": "https://gitee.com/li-shengkai/qh/raw/master/wyxs.php",
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://117.50.200.113:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "040f9b1bc5e942569b5c3e63943306ab",
-        "versionName": "4.3.1",
-        "name": "顾我追剧",
-        "package": "com.guwozhuijux.app",
-        "buildNumber": "2001",
-        "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
-      }
-    },
-    {
-      "key": "橘汁",
-      "name": "❤筑┃4K",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/kai.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.lxf.snzlcgtzxyx",
-        "host": "",
-        "site": "https://gitee.com/li-shengkai/qh/raw/master/lib/app.txt",
-        "version": "3.0.2.1",
-        "decrypt": "1"
-      }
-    },
-    {
-      "key": "顾我99",
-      "name": "🫳┃3840",
-      "type": 3,
-      "jar": "https://gitee.com/li-shengkai/qh/raw/master/wyxs.php",
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://117.50.200.113:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "040f9b1bc5e942569b5c3e63943306ab",
-        "versionName": "4.3.1",
-        "name": "顾我追剧",
-        "package": "com.guwozhuijux.app",
-        "buildNumber": "2001",
-        "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
-      }
-    },
-    {
-      "key": "csp_Gz360",
-      "name": "❤光┃4K",
-      "type": 3,
-      "timeout": 12,
-      "searchable": 1,
-      "quickSearch": 0,
-      "api": "csp_Gz360",
-      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "裤佬雄鹰影视",
-      "name": "❤影┃4K",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/kai.jar",
-      "ext": {
-        "host": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/xly.txt",
-        "key": "ca94b06ca359d80e",
-        "init": "V120",
-        "api": 2,
-        "ua": "okhttp/3.10.0"
-      },
-      "categories": [
-        "动漫",
-        "电视剧",
-        "电影",
-        "综艺",
-        "短剧",
-        "少儿",
-        "纪录片"
-      ]
-    },
-    {
-      "key": "橘汁",
-      "name": "❤筑┃4K",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/kai.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.lxf.snzlcgtzxyx",
-        "host": "",
-        "site": "https://gitee.com/li-shengkai/qh/raw/master/lib/app.txt",
-        "version": "3.0.2.1",
-        "decrypt": "1"
-      }
-    },
-    {
-      "key": "爱营",
-      "name": "❤梦┃4K",
-      "type": 3,
-      "jar": "https://lz.qaiu.top/parser?url=https://wwbsd.lanzouu.com/iUGFg3oxz9ch&pwd=5dxa",
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt|nzEqOgYk3QzHuEP8|V122|okhttp/3.10.0"
-    },
-    {
-      "key": "华谊",
-      "name": "❤至┃4K",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/kai.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "华谊",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
-        "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.muyue.tool",
-        "host": "",
-        "site": "https://vip.123pan.cn/1851089669/oss/az5.txt",
-        "version": "1.0.0.4",
-        "decrypt": "1"
-      }
-    },
-    {
-      "key": "无极99",
-      "name": "❤尊┃4K",
-      "type": 3,
-      "api": "csp_App99",
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/kai.jar",
-      "ext": {
-        "host": "http://111.170.140.70:19987/app/bn",
-        "LoginPath": "/app/log",
-        "version": "",
-        "appkey": "c403317c2a2946659b0bcbabdd5de43a",
-        "versionName": "1.0.1",
-        "name": "无极影视",
-        "package": "com.wujiys.app",
-        "buildNumber": "2001",
-        "buildSignature": "A0859BDC35AD3E81D4051E2A4678C77C62773EDB3423DDF1DEFF94CB331D398E"
-      }
-    },
-    {
-      "key": "3QQQ",
-      "name": "❤悦┃4K",
-      "type": 3,
-      "timeout": 15,
-      "api": "csp_App3Q",
-      "ext": "https://asd123sx23xdacsx.top",
-      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "橙子99",
-      "name": "❤享┃4K",
-      "type": 3,
-      "api": "csp_App99",
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/kai.jar",
-      "ext": {
-        "host": "http://113.31.180.218:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "6e8f3764a0644f3686ab5cdd57bcdf48",
-        "versionName": "4.3.1",
-        "name": "小橙子",
-        "package": "com.xchengzix.app",
-        "buildNumber": "2001",
-        "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
-      }
-    },
-    {
-      "key": "九灵移动",
-      "name": "❤时┃4K",
-      "type": 3,
-      "jar": "https://fastlink.cokey.xyz/f/1LmEH5/yunY.jar",
-      "api": "csp_YDjisu",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "剧圈99",
-      "name": "❤光┃4K",
-      "type": 3,
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/xiaosa0515%20.jar",
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://124.221.3.182:19987/app/bn",
-        "appkey": "d1f0c269eab74d93821fffc9befdbbba",
-        "versionName": "1.2.0",
-        "name": "剧圈圈",
-        "package": "com.qingtangxiaozhuan.xyz",
-        "buildNumber": "2002",
-        "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
-      }
-    },
-    {
-      "key": "薯条",
-      "name": "🫴┃3840",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/kai.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "薯条影视",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "A1VACZJWDKRZY1P3MFV0DDRAZ3F3PT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.st.standroid",
-        "host": "",
-        "site": "https://gitee.com/li-shengkai/qh/raw/master/lib/app_dyttandroid.txt",
-        "version": "5.0.0.1",
-        "decrypt": "0"
-      }
-    },
-    {
-      "key": "麦田",
-      "name": "🔥麦田┃影视",
-      "type": 3,
-      "api": "csp_AppV6",
-      "ext": "http://172.247.227.203:25321/mtys.php",
-      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "csp_Wwys",
-      "name": "🔥农民┃影视",
-      "type": 3,
-      "api": "csp_Wwys",
-      "ext": "https://vip.wwgz.cn:5200",
-      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "柠檬",
-      "name": "🔥柠檬┃影视",
-      "type": 3,
-      "api": "csp_Nmvod",
-      "playerType": 2,
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-    },
-    {
-      "key": "聚合短剧",
-      "name": "✨┃聚合┃短剧",
-      "jar": "http://183.131.83.37:40782/mob/spider.jar",
-      "type": 3,
-      "api": "https://yydsys.top/duo/js/聚合短剧.js"
-    },
-    {
-      "key": "csp_Kugou",
-      "name": "🎵酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "jar": "https://gitee.com/tianwikeji/jar/raw/master/Yoursmile.jar",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      }
-    },
-    {
-      "key": "戏曲多多",
-      "name": "🎭戏曲｜多多",
-      "type": 3,
-      "api": "csp_AppLY",
-      "jar": "https://gitee.com/zhang-xinhai58/my/raw/master/kai.jar",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "csp_XYQHiker_兔小贝",
-      "name": "🌀🐰少儿",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/兔小贝.json",
-      "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/ymz.jar"
-    },
-    {
-      "key": "csp_XYQHiker_兔小贝2",
-      "name": "🌀🐰少儿",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/兔小贝2.json",
-      "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/ymz.jar"
-    },
-    {
-      "key": "B站自家4k1",
-      "name": "️🛡主线5🛡️4k",
-      "type": 3,
-      "api": "http://45.125.44.89:8866/asdasd/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quicksearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "http://45.125.44.89:8866/asdasd/lib/哔哩影视[官].js"
-    }
+      "api": "http://8.148.229.212:802/4k踏天s2/lib/21.py"
+},
+ {"key":"www.lzizy6.com","name":"☀量子|资源🎦","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","动画片","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","短剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺","足球","篮球","网球","斯诺克","电影解说","演员"]},
+{"key":"www.rytv.tv","name":"☀如意|资源🎦","type":1,"api":"https://cj.rycjapi.com/api.php/provide/vod","searchable":1,"changeable":1,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","动画电影","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","短剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","足球","篮球","网球","斯诺克"]},
+{"key":"360zy.com","name":"☀360|资源🎦","type":1,"api":"https://360zyzz.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","惊悚片","家庭篇","古装片","历史片","悬疑片","犯罪片","灾难片","纪录片","短片","动画片","西部片","国产剧","香港剧","韩国剧","欧美剧","台湾剧","泰国剧","大陆综艺","港台综艺","日韩综艺","国产动漫","欧美动漫","日韩动漫","NBA","足球","篮球","现代都市","年代穿越","古装仙侠","女频恋爱","成长逆袭"]},
+{"key":"360zy5.com","name":"☀360|资源🎬","type":1,"api":"https://360zyzz.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","惊悚片","家庭篇","古装片","历史片","悬疑片","犯罪片","灾难片","纪录片","短片","动画片","西部片","国产剧","香港剧","韩国剧","欧美剧","台湾剧","泰国剧","大陆综艺","港台综艺","日韩综艺","国产动漫","欧美动漫","日韩动漫","NBA","足球","篮球","现代都市","年代穿越","古装仙侠","女频恋爱","成长逆袭"]},
+{"key":"www.jisuzy.com","name":"☀极速|资源🎦","type":1,"api":"https://jszyapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["恐怖片","动画片","剧情片","战争片","动作片","爱情片","喜剧片","科幻片","记录片","灾难片","悬疑片","犯罪片","奇幻片","日剧","马泰剧","内地剧","欧美剧","香港剧","韩剧","台湾剧","中国动漫","日本动漫","欧美动漫","大陆综艺","日韩综艺","港台综艺","欧美综艺","足球","篮球","台球","其他赛事","短剧"]},
+{"key":"www.jdcmad.com","name":"☀柚子|资源🎦","type":0,"api":"https://api.yzzy-api.com/inc/api.php","searchable":1,"quickSearch":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","动画片","纪录片","国产剧","香港剧","韩国剧","欧美剧","台湾剧","日本剧","泰剧","其它剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","其它动漫","爽文短剧","女频恋爱","反转爽剧","古装仙侠","年代穿越","脑洞悬疑","现代都市"]},
+{"key":"www.jacloud.xyz","name":"☀建安|资源🎦","type":1,"api":"http://154.219.117.232:9981/jacloudapi.php/provide/vod/?ac=list","searchable":1,"changeable":1,"categories":["动作","喜剧","爱情","科幻","恐怖","剧情","战争","惊悚","犯罪","冒险","悬疑","武侠","奇幻","国产剧","港台剧","欧美剧","日韩剧","综艺","动漫"]},
+{"key":"tyyszy.com","name":"☀天涯|资源🎦","type":1,"api":"https://tyyszyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","动画片","国产剧","欧美剧","韩国剧","日本剧","港台剧","台湾剧","泰国剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","女频恋爱","反转突剧","古装仙侠","年代穿越","脑洞悬疑","现代都市"]},
+{"key":"wujinzy.com","name":"☀无尽|资源🎦","type":1,"api":"https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","悬疑片","动画片","犯罪片","奇幻片","邵氏电影","Netflix电影","国产剧","香港剧","台湾剧","美国剧","韩国剧","日本剧","海外则","泰剧","Netflix自制剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","演唱会","儿童儿歌","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","篮球","足球","有声动漫","女频恋爱","反转爽剧","脑同悬疑","年代穿越","古装仙侠","现代都市","擦边短剧","漫剧"]},
+{"key":"jinyingzy.com","name":"☀金鹰|资源🎦","type":1,"api":"https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json/","searchable":1,"changeable":1,"categories":["恐怖片","动画片","剧情片","战争片","动作片","记录片","爱情片","喜剧片","科幻片","韩剧","日剧","马泰剧","内地剧","欧美剧","香港剧","台湾剧","中国动漫","日本动漫","欧美动漫","综艺","短剧","足球","篮球","台球","其他赛事"]},
+{"key":"jinyingzy1.com","name":"☀金鹰2|资源🎦","type":1,"api":"https://jyzyapi.com/provide/vod/","searchable":1,"changeable":1,"categories":["恐怖片","动画片","剧情片","战争片","动作片","记录片","爱情片","喜剧片","科幻片","韩剧","日剧","马泰剧","内地剧","欧美剧","香港剧","台湾剧","中国动漫","日本动漫","欧美动漫","综艺","短剧","足球","篮球","台球","其他赛事"]},
+{"key":"bdzybf4.com","name":"☀百度|资源🎦","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","动画电影","大陆剧","欧美剧","韩剧","日剧","港澳剧","台湾剧","泰剧","其他剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"]},
+{"key":"mtzy.me","name":"☀茅台|资源🎦","type":1,"api":"https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/","searchable":1,"changeable":1,"categories":["动作片","爱情片","喜剧片","科幻片","恐怖片","剧情片","战争片","惊悚片","纪录片","动漫电影","国产剧","香港剧","韩剧","欧美剧","日本剧","泰国剧","台湾剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","演唱会","国产动漫","日本动漫","欧美动漫","海外动漫","重生民国","穿越现代","反转爽剧","言情总裁","现代都市","古装仙侠","悬疑烧脑","篮球","足球","网球","斯诺克","LPL"]},
+{"key":"hongniuziyuan.com","name":"☀红牛|资源🎦","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/at/josn/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","动漫电影","国产剧","港澳剧","日剧","欧美剧","台湾剧","泰剧","韩剧","足球","篮球","台球","其他赛事","综艺","动漫","短剧"]},
+{"key":"hongniuzy2.com","name":"☀红牛2|资源🎦","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","幻片","恐怖片","剧情片","战争片","动漫电影","国产剧","港澳剧","日剧","欧美剧","台湾剧","泰剧","韩剧","足球","篮球","台球","其他赛事","综艺","动漫","短剧"]},
+{"key":"sdzyapi.com","name":"☀闪电|资源🎦","type":1,"api":"http://sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories":["国产剧","短剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","动作片","日本剧","泰剧","国产综艺","港台综艺","欧美综艺","日韩综艺","国产动漫","港台动漫","日韩动漫"]},
+{"key":"lovedan.net","name":"☀艾旦|资源🎦","type":1,"api":"https://lovedan.net/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","犯罪片","战争片","动画电影","剧情片","纪录片","影视解说","网络电影","海外剧","短剧","国产剧","港台剧","日韩剧","欧美剧","日韩综艺","港台综艺","欧美综艺","大陆综艺","其他综艺","国产动漫","日韩动漫","欧美动漫","海外动漫","央视","卫视"]},
+{"key":"cj.xinlangzy.com","name":"☀新浪|资源🎦","type":1,"api":"https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn","searchable":1,"changeable":1,"categories":["动作片","爱情片","科幻片","战争片","剧情片","恐怖片","喜剧片","动画片","大陆剧","港澳剧","台湾剧","欧美剧","韩剧","日剧","奉剧","动漫","综艺","纪录片","短剧","足球","篮球","台球","其他赛事"]},
+{"key":"yayazy.com","name":"☀鸭鸭|资源🎦","type":1,"api":"https://cj.yayazy.net/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","纪录片","战争片","动画片","邵氏电影","Netflix电影","4K电影","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","Netflix自制剧","演唱会","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","有声动漫","女频恋爱","反转爽剧","古装仙侠","年代穿越","脑洞悬疑","现代都市","擦边短剧","漫剧","篮球","足球"]},
+{"key":"haohuazy.com","name":"☀豪华|资源🎦","type":1,"api":"https://hhzyapi.com/api.php/provide/vod","searchable":1,"changeable":1,"categories":["恐怖片","动画片","剧情片","战争片","动作片","记录片","爱情片","喜剧片","科幻片","灾难片","悬疑片","犯罪片","奇幻片","日剧","马泰剧","内地剧","欧美剧","香港剧","韩剧","台湾剧","中国动漫","日本动漫","欧美动漫","大陆综艺","日韩综艺","港台综艺","欧美综艺","短剧","足球","篮球","台球","其他赛事"]},
+{"key":"bfzy5.tv","name":"☀暴风|资源🎦","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["纪录片","战争片","剧情片","爱情片","科幻片","恐怖片","喜剧片","动作片","动画片","海外剧","泰国剧","香港剧","韩国剧","台湾剧","日本剧","欧美剧","国产剧","日韩动漫","欧美动漫","港台动漫","海外动漫","国产动漫","欧美综艺","大陆综艺","港台综艺","日韩综艺","重生民国","穿越年代","现代言情","反转爽文","女恋总裁","闪婚离婚","都市脑洞","古装仙侠"]},
+{"key":"yingjuziyuan.com","name":"☀影剧|资源🎦","type":1,"api":"https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/","searchable":1,"changeable":1,"categories":["动作片","爱情片","喜剧片","科幻片","恐怖片","剧情片","战争片","惊悚片","纪录片","动漫电影","国产剧","香港剧","韩剧","欧美剧","日本剧","泰国剧","台湾剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","演唱会","国产动漫","日本动漫","欧美动漫","海外动漫","重生民国","穿越现代","反转爽剧","言情总裁","现代都市","古装仙侠","悬疑烧脑"]},
+{"key":"guangsuapi.com","name":"☀光速|资源🎦","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","剧情片","恐怖片","战争片","大陆剧","欧美剧","港澳剧","韩剧","动漫电影","日剧","台湾剧","泰剧","记录片","综艺","动漫","体育赛事","短剧"]},
+{"key":"huyazy.com","name":"☀虎牙|资源🎦","type":1,"api":"https://www.huyaapi.com/api.php/provide/vod/at/json","searchable":1,"changeable":1,"categories":["恐怖片","动画片","剧情片","战争片","动作片","记录片","爱情片","科幻片","日剧","马泰剧","内地剧","欧美剧","香港剧","韩剧","台湾剧","中国动漫","日本动漫","欧美动漫","综艺","短剧"]},
+{"key":"www.789jiexi.com","name":"☀789|资源🎦","type":1,"api":"https://www.caiji.cyou/api.php/provide/vod/at/json/","searchable":1,"changeable":1,"categories":["动作片","惊悚片","悬疑片","爱情片","喜剧片","其他片","犯罪片","剧情片","国产剧","港台剧","欧美剧","其他剧","综艺","动漫","bilibili","动画片"]},
+{"key":"dyttzyw.tv","name":"☀天堂|资源🎦","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","动画片","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","短剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
+{"key":"maoyanzy.com","name":"☀猫眼|资源🎦","type":1,"api":"https://api.maoyanapi.top/api.php/provide/vod","searchable":1,"changeable":1,"categories":["动作片","国产剧","香港剧","西部片","奇幻片","喜剧片","爱情片","科幻片","恐怖片","剧情片","韩国剧","欧美剧","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","里番动漫","国产动漫","欧美动漫","日韩动漫","足球","篮球","NBA","短剧现代都市","短剧脑洞悬疑","短剧年代穿越","短剧古装仙侠","短剧反转爽剧","短剧"]},
+{"key":"dbzy.tv","name":"☀豆瓣|资源🎦","type":1,"api":"https://caiji.dbzy5.com/api.php/provide/vod/at/josn/","searchable":1,"changeable":1,"categories":["纪录片","动作片","爱情片","喜剧片","科幻片","恐怖片","剧情片","战争片","动漫电影","惊悚片","国产剧","香港剧","欧美剧","韩剧","泰国剧","日本剧","台湾剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","演唱会","国产动漫","日本动漫","欧美动漫","海外动漫","篮球","足球","网球","斯诺克","LPL","重生民国","穿越现代","反转爽剧","言情总裁","现代都市","古装仙侠","悬冠烧脑"]},
+{"key":"www.subozy.com","name":"☀速播|资源🎦","type":1,"api":"https://subocj.com/api.php/provide/vod","searchable":1,"changeable":1,"categories":["动作片","爱情片","科幻片","战争片","剧情片","恐怖片","喜剧片","动漫电影","大陆剧","港澳剧","台湾剧","韩剧","美剧","日剧","泰剧","中国动漫","日本动漫","欧美动漫","综艺","纪录片","短剧"]},
+{"key":"moduzy9.com","name":"☀魔都|资源🎦","type":1,"api":"https://www.mdzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","惊悚片","家庭片","古装片","历史片","悬疑片","犯罪片","灾难片","记录片","短片","国产剧","香港剧","韩国剧","欧美剧","台湾剧","日本剧","海外剧","泰国剧","短剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","动漫电影","里番动漫"]},
+{"key":"seacms.org","name":"☀花旗|资源🎦","type":1,"api":"http://www.seacms.org/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"categories":["动作片","悬疑片","动画片","剧情片","纪录片","喜剧片","战争片","恐怖片","科幻片","爱情片","韩国剧","欧美剧","泰国剧","其他剧","大陆剧","香港剧","台湾剧","日本剧","综艺","动漫","短剧","番剧"]},
+{"key":"wsyzy.cc","name":"☀无水印|资源🎦","type":1,"api":"https://api.wsyzy.net/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"categories":["邵氏电影","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","动画片","4K电影","Netfix电影","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","Netnix自制剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","演唱会","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","有声动漫","女频恋爱","反转爽剧","古装仙侠","年代穿越","脑洞悬疑","现代都市","擦边短剧","漫剧"]},
+{"key":"api.niuniuzy.me","name":"☀牛牛|资源🎦","type":1,"api":"https://api.niuniuzy.me/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","纪录片","战争片","动画片","邵氏电影","Netflix电影","4K电影","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","Netflix自制剧","演唱会","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","有声动漫","女频恋爱","反转爽剧","古装仙侠","年代穿越","脑洞悬疑","现代都市","擦边短剧","漫剧","影视解说","篮球","足球"]},
+{"key":"zuidazy.me","name":"☀最大|资源🎦","type":1,"api":"http://zuidazy.me/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","动画片","4K电影","邵氏电影","Netflix电影","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","演唱会","更新HD","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","有声动漫","女频恋爱","反转爽剧","古装仙侠","年代穿越","脑同悬疑","现代都市","擦边短剧","漫剧"]},
+{"key":"okzyw.cc","name":"☀OK|资源🎦","type":1,"api":"https://api.okzyw.net/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","纪录片","战争片","动画片","邵氏电影","Netflix电影","4K电影","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","Netflix自制剧","演唱会","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","有声动漫","女频恋爱","反转爽剧","古装仙侠","年代穿越","脑洞悬疑","现代都市","擦边短剧","漫剧","影视解说","篮球","足球"]},
+{"key":"zy.jinchancaiji.com","name":"☀金蝉|资源🎦","type":1,"api":"http://zy.jinchancaiji.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["电影","电视剧","综艺","动漫","少儿","纪录片","短剧"]},
+{"key":"caiji.kuaichezy.org","name":"☀快车|资源🎦","type":1,"api":"https://caiji.kuaichezy.org/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","纪录片","战争片","动画片","部氏电影","Netflix电影","4K电影","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","Netflix自制剧","演唱会","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"]}
   ],
   "lives": [
     {
