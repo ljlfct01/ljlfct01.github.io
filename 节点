@@ -128,5 +128,15 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-  
+  - name: '🇭🇰 V301U-1X-BGP-HK-NF'
+    type: ssr
+    server: qcg8fhp6y6v9wn.cache872671.com
+    port: 1301
+    cipher: chacha20-ietf
+    password: MAYING
+    protocol: auth_aes128_md5
+    protocol-param: '30538:aa112211'
+    obfs: plain
+    obfs-param: ''
+ 
 
