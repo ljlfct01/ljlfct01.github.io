@@ -18,11 +18,43 @@
             "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
         },
     {
-      "key": "4k-av",
-      "name": "踏天苍穹4k❤️电信",
-      "type": 3,
-      "api": "http://8.148.229.212:802/4k踏天s2/lib/21.py"
-}
+      "key": "wanou_sites",
+      "name": "网盘4K直连",
+      "type": 4,
+      "api": "http://103.236.70.249:63548/video/wanou_sites",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "header": {
+        "token": "f230bee7d9f4486c"
+      }
+    },
+      {
+      "key": "mogg",
+      "name": "木偶仅搜索",
+      "type": 4,
+      "api": "http://103.236.70.249:63548/video/mogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "header": {
+        "token": "f230bee7d9f4486c"
+      }
+    },
+
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 4,
+      "api": "http://61.147.247.43:53468/video/push_agent",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0,
+      "header": {
+        "token": "f230bee7d9f4486c"
+      }
+    }
 
   ],
   "lives": [
