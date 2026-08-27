@@ -17,30 +17,44 @@
             "api": "https://raw.giteeusercontent.com/huotv/111/raw/master/drpy_libs/drpy2.min.js",
             "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
         },
+  {
+      "key": "腾讯",
+      "name": "阿在🐧【腾讯视频】",
+            "type": 3,
+         "jar": "http://47.96.82.41:5188/svip/svip.jar",
+            "api": "http://47.96.82.41:5188/svip/js/drpy2.min.js",
+            "ext": "http://47.96.82.41:5188/svip/js/腾讯视频.js"
+        },
     {
-      "key": "wanou_sites",
-      "name": "网盘4K直连",
-      "type": 4,
-      "api": "http://103.236.70.249:63548/video/wanou_sites",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "header": {
-        "token": "f230bee7d9f4486c"
-      }
-    },
-       {
-      "key": "live",
-      "name": "live",
-      "type": 4,
-      "api": "https://mpimg.cn/text.php?hash=2ab84e1c671dc9e646da29bef14d1621",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "header": {
-        "token": "f230bee7d9f4486c"
-      }
-    } 
+      "key": "guoguo",
+      "name": "阿在🥭【芒果视频】",
+            "type": 3,
+         "jar": "http://47.96.82.41:5188/svip/svip.jar",
+            "api": "http://47.96.82.41:5188/svip/js/drpy2.min.js",
+            "ext": "http://47.96.82.41:5188/svip/js/芒果视频.js"
+        },
+    {
+      "key": "奇异果",
+      "name": "阿在👾【奇艺视频】",
+            "type": 3,
+         "jar": "http://47.96.82.41:5188/svip/svip.jar",
+            "api": "http://47.96.82.41:5188/svip/js/drpy2.min.js",
+            "ext": "http://47.96.82.41:5188/svip/js/爱奇艺.js"
+        },
+    {
+      "key": "优酷视频",
+      "name": "阿在🚴【优酷视频】",
+            "type": 3,
+         "jar": "http://47.96.82.41:5188/svip/svip.jar",
+            "api": "http://47.96.82.41:5188/svip/js/drpy2.min.js",
+            "ext": "http://47.96.82.41:5188/svip/js/优酷视频.js"
+        },
+        {            
+       "key": "企鹅直播",            
+       "name": "阿在🐧【企鹅直播】",            
+"type": 3,"api": "csp_XPath","style": {  "type": "rect",  "ratio": 1.597},"searchable": 0,"quickSearch": 0,"changeable": 0,
+"jar":"https://www.netpan.cn/down.php/3d161697458ecbcd2651a749db761ba1.jar;md5;3d161697458ecbcd2651a749db761ba1",
+"ext": "https://www.netpan.cn/down.php/0f0e0e20e9a270eacaf812b8900eced9.json" }
 
   ],
   "lives": [
