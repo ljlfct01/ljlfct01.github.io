@@ -1,15 +1,159 @@
 {
   "spider": "http://109.244.56.3:8000/56d0b667615145949789418bff9f22a5-no-go-proxy.jar",
   "sites": [
-{
-            "key": "腾讯6弹幕",
-            "name": "📢🌈腾腾",
-            "searchable": 1,
-            "type": 3,
-            "api": "https://raw.giteeusercontent.com/huotv/111/raw/master/drpy_libs/drpy2.min.js",
-            "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
-        }
-
+    {
+      "name": "⭐夏天┃秒播",
+      "key": "NewGrV2",
+      "type": 3,
+      "api": "csp_NewGrV2Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "NewGrV2"
+    },
+    {
+      "name": "⭐韩剧┃秒播",
+      "key": "Hxq",
+      "type": 3,
+      "api": "csp_HxqAmns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "name": "⭐瓜子┃秒播",
+      "key": "Guazi",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "Guazi"
+    },
+    {
+      "name": "📦①线┃秒播",
+      "key": "AppV7Fz",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Fz"
+    },
+    {
+      "name": "📦②线┃秒播",
+      "key": "AppV7Xy",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Xy"
+    },
+    {
+      "name": "📦③线┃秒播",
+      "key": "AppV7Zjdr",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Zjdr"
+    },
+    {
+      "name": "📦④线┃秒播",
+      "key": "AppV7Xyz",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Xyz"
+    },
+    {
+      "name": "📦⑤线┃秒播",
+      "key": "AppV7Xnm",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Xnm"
+    },
+    {
+      "name": "📦⑥线┃秒播",
+      "key": "AppV7Mtq",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Mtq"
+    },
+    {
+      "name": "📦⑦线┃秒播",
+      "key": "AppV7Llq",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Llq"
+    },
+    {
+      "name": "📦⑧线┃秒播",
+      "key": "AppV7Xsz",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Xsz"
+    },
+    {
+      "name": "📦⑨线┃秒播",
+      "key": "AppV7Xhr",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Xhr"
+    },
+    {
+      "name": "📦师兄┃秒播",
+      "key": "AppV7Dsx",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV7Dsx"
+    },
+    {
+      "name": "📦特狗┃秒播",
+      "key": "AppV6Tg",
+      "type": 3,
+      "api": "csp_AppV6Amns",
+      "jar": "https://nos.netease.com/ysf/bbf42fe09621015de1fef36dac2e4e80.png;md5;5b8862d1137cc2473444afba6d5884f3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "AppV6Tg"
+    }
 
   ],
   "lives": [
