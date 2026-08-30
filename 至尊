@@ -35,6 +35,15 @@
       "key": "wanou_sites",
       "name": "网盘直连",
       "type": 4,
+      "api": "http://kk.mftv.top/api.php?site=huban",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+   },
+    {
+      "key": "wanou_sites",
+      "name": "网盘直连1",
+      "type": 4,
       "api": "http://111.231.104.229:5578/Emby7/Emby7.php?ck=2aabe366&filter=true",
       "searchable": 1,
       "quickSearch": 1,
