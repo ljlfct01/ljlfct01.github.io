@@ -32,14 +32,13 @@
       "ext": "http://8.mftv.top/api.php/app/"
     },
     {
-      "key": "wanou_sites3",
-      "name": "网盘直连",
-      "type": 4,
-      "api": "http://kk.mftv.top/api.php?site=huban",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-   },
+      "key": "哥哥玩",
+      "name": "📢🌈哥哥4K",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
+      "ext": "http://kk.mftv.top/api.php?site=huban"
+    },
     {
       "key": "wanou_sites",
       "name": "网盘直连1",
