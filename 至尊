@@ -32,20 +32,14 @@
       "ext": "http://8.mftv.top/api.php/app/"
     },
     {
-      "key": "盘3",
-      "name": "免扫网盘",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "http://yp2.mftv.top/jar/og/jar.jar",
-      "ext": "http://111.231.104.229:5578/Emby5/Emby5.php?ck=eddbd55a&filter=true"
-    },
-    {
-      "key": "哥哥玩",
-      "name": "📢🌈哥哥4K",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
-      "ext": "eyJhcmVhIjoiIiwieWVhciI6IiIsImxldHRlciI6IiIsInNvcnQiOiIiLCJjbGFzcyI6IiIsImNhdGVnb3J5SWQiOiI0NCJ9"
+      "key": "wanou_sites",
+      "name": "网盘4K直连",
+      "type": 4,
+      "api": "http://111.231.104.229:5578/Emby5/Emby5.php?ck=9fdc84f3&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+      
     },
     {
       "key": "hipy_js_腾云驾雾[官]",
