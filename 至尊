@@ -34,9 +34,11 @@
     {
       "key": "哥哥玩",
       "name": "📢🌈哥哥4K",
-      "type": 3,
-      "api": "http://kk.mftv.top/api.php?site=huban"
-     
+      "type": 4,
+      "api": "http://kk.mftv.top/api.php?site=huban",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "wanou_sites",
