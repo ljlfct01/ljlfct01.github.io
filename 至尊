@@ -33,14 +33,22 @@
     },
     {
       "key": "wanou_sites",
+      "name": "网盘直连",
+      "type": 4,
+      "api": "http://111.231.104.229:5578/Emby7/Emby7.php?ck=2aabe366&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+   },
+    {
+      "key": "wanou_sites2",
       "name": "网盘4K直连",
       "type": 4,
       "api": "http://111.231.104.229:5578/Emby5/Emby5.php?ck=9fdc84f3&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-      
-    },
+   },
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
