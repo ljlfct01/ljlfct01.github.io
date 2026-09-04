@@ -25,7 +25,28 @@
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
-    },    {
+   },
+    {
+      "key": "影影1",
+      "name": "影影4k1",
+      "type": 4,
+      "api": "http://sf4.mftv.top/cs/ythy%E8%A7%82%E5%BD%B1.php?filter=true",
+     "jar": "http://yp2.mftv.top/jar/og/jar.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "影影2",
+      "name": "影影4k2",
+      "type": 4,
+      "api": "http://sf4.mftv.top/gy/ythy%E8%A7%82%E5%BD%B1.php?filter=true",
+     "jar": "http://yp2.mftv.top/jar/og/jar.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
       "key": "依依1",
       "name": "依依4k1",
       "type": 4,
@@ -42,55 +63,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-   },
-    {
-      "key": "备用1",
-      "name": "备用4k1",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTlhSFZpWVc0akl5Tm9kV0poYmc9PQ=="
-      },
-    {
-      "key": "备用2",
-      "name": "备用4k2",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVNNakkyeGhZbWs9"
-      },
-    {
-      "key": "备用3",
-      "name": "备用4k3",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTljMmhoZVdGdVp5TWpJM05vWVhsaGJtYz0="
-      },
-    {
-      "key": "备用4",
-      "name": "备用4k4",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliM1ZuWlNNakkyOTFaMlU9"
-      },
-    {
-      "key": "备用5",
-      "name": "备用4k5",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTlaWEo0YVdGdkl5TWpaWEo0YVdGdg=="
-      },
-    {
-      "key": "备用6",
-      "name": "备用4k6",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliWFZ2ZFNNakkyMTFiM1U9"
-      }  
+   }
+  
   ],
   "lives": [
     {
