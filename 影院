@@ -1,13 +1,20 @@
 {    "spider": "",
     "sites": [
-        {
-            "key": "导航┃豆瓣",
-            "name": "导航┃豆瓣",
-            "type": 3,
-            "indexs": 1,
-            "api": "csp_Douban",
-            "ext": "http://cdn.huanxizm.com/newTvhome/image/eced6e9a8bbfc2d85908adfd3be87410.jpg"
-        },
+           {
+      "key": "腾讯弹幕",
+      "name": "👑 腾讯┃SVIP",
+      "searchable": 1,
+      "type": 3,
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://yp2.mftv.top/js/tx.js"
+    },
+      {
+      "key": "芒果视频",
+      "name": "👑 芒果┃SVIP",
+      "type": 3,
+      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
+      "ext": "http://yp2.mftv.top/js/mg.js"
+    },
 
     {
       "key": "备用1",
@@ -61,37 +68,13 @@
    
     ],
     "parses": [
-        {
-            "name": "解析聚合",
-            "type": 3,
-            "url": "Demo"
-        },
-        {
-            "name": "Json轮询",
-            "type": 2,
-            "url": "Sequence"
-        },
-        {
-            "name": "老三",
-            "type": 1,
-            "url": "http://tvv.tw/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb"
-        },
-        {
-            "name": "getSBSjx",
-            "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getSBSjx&url="
-        },
-        {
-            "name": "XM",
-            "type": 1,
-            "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getXmflvjx&url=",
-            "ext": {
-                "header": {
-                    "Accept": "*/*",
-                    "Origin": "https://jx.xmflv.com"
-                }
-            }
-        }
+    
+   {
+      "name": "光速4k",
+      "type": 1,
+      "url": "https://aaa.69mini.com/api/index?parsesId=661&appid=76960&videoUrl="
+    }
+   
     ],
     "lives": [
 	    {
