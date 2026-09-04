@@ -3,6 +3,14 @@
   "logo": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oEb9EAiMhR67DA00fZCpIXMigA8LAkAI9enDAD~tplv-dy-aweme-images-v2:3000:3000:q75.webp?biz_tag=aweme_images&from=327834062&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1727452800&x-signature=Q6AiH8FOO86OfzLFvuUZpJbsV4s%3D",
   "wallpaper": "https://bing.img.run/uhd.php",
   "sites": [
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "导航|万事顺遂",
+      "type": 3,
+      "api": "csp_Douban",
+      "jar": "http://121.205.88.174:25252/仅供测试/custom_spider.jar;md5;94853819c2821c2de34a4a64b07dfaa2",
+      "ext": "http://121.205.88.174:25252/仅供测试/lib/douban.json"
+    },
             {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
