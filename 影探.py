@@ -47,10 +47,10 @@ class Spider(Spider):
     # ============ 4K 解析引擎挂载表 ============
     # (tag, 显示名, 文件路径)  —— 播放 id 形如 tag@@线路码@@引擎剧集id
     ENGINES = [
-        ('dd', '多多4K', 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl='),
-        ('jxf', '剧下饭4K', 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl='),
-        ('zn', '真不错4K', 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl='),
-        ('xy', '星影', 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl='),
+        ('dd', '多多4K', 'http://125.208.22.184:6019/api/index?parsesId=550266&appid=10000&videoUrl='),
+        ('jxf', '剧下饭4K', 'http://125.208.22.184:6019/api/index?parsesId=550266&appid=10000&videoUrl='),
+        ('zn', '真不错4K', 'http://125.208.22.184:6019/api/index?parsesId=550266&appid=10000&videoUrl='),
+        ('xy', '星影', 'http://125.208.22.184:6019/api/index?parsesId=550266&appid=10000&videoUrl='),
     ]
 
     def init(self, extend=''):
