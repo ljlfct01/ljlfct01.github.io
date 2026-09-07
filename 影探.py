@@ -32,16 +32,16 @@ class Spider(Spider):
         'host': 'https://cms.lyyytv.cn',
         'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
         'RawPlayUrl': 0,
-        'parse_api': 'https://mk1080p.top/zzbh.php?url='
+        'parse_api': 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl='
     }
 
     # 内置 Web 解析（2026-08-30 实测均可出流，官方线路轮询使用）
     WEB_PARSES = [
-        'https://jx.xmflv.com/?url=',
-        'https://www.playm3u8.cn/jiexi.php?url=',
-        'https://bd.jx.cn/?url=',
-        'https://jx.77flv.cc/?url=',
-        'https://jx.xymp4.cc/?url=',
+        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
+        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
+        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
+        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
+        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
     ]
 
     # ============ 4K 解析引擎挂载表 ============
