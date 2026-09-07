@@ -3,128 +3,16 @@
   "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
   "warningText": "欢迎使用火焰TV，祝您观影愉快",
   "sites": [
-   {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "藤藤-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/qq2.js"
-    },
+
     {
       "key": "cms",
       "name": "影探4k",
       "type": 3,
-      "api": "http://cccimg.com/down.php/8cfc0e2827d8832bde7ca99420471027.py",
+      "api": "http://tvv.tw/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E5%BD%B1%E6%8E%A2.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-   },
-
-      {
-      "key": "guoguo",
-      "name": "芒芒-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/mg.js"
-    },
-    {
-      "key": "哔哩视频",
-      "name": "哔哩-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "http://183.136.134.152:250/lib/bili.js"
-   },
-    {
-      "key": "影影1",
-      "name": "影影4k1",
-      "type": 3,
-      "api": "http://sf4.mftv.top/cs/ythy%E8%A7%82%E5%BD%B1.php?filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "影影2",
-      "name": "影影4k2",
-      "type": 4,
-      "api": "http://sf4.mftv.top/gy/ythy%E8%A7%82%E5%BD%B1.php?filter=true",
-     "jar": "http://yp2.mftv.top/jar/og/jar.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "4k-av",
-      "name": "踏天苍穹4k❤️电信",
-      "type": 3,
-      "api": "http://8.148.229.212:802/4k踏天s2/lib/21.py"
-},
-{
-      "key": "依依1",
-      "name": "依依4k1",
-      "type": 3,
-      "api": "http://cccimg.com/down.php/8cfc0e2827d8832bde7ca99420471027.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-   },
-    {
-      "key": "依依2",
-      "name": "依依4k2",
-      "type": 4,
-      "api": "http://111.231.104.229:5578/Emby5/Emby5.php?ck=1369adbb&filter=true",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-   },
-      {
-      "key": "备用1",
-      "name": "备用4k1",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTlhSFZpWVc0akl5Tm9kV0poYmc9PQ=="
-      },
-    {
-      "key": "备用2",
-      "name": "备用4k2",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVNNakkyeGhZbWs9"
-      },
-    {
-      "key": "备用3",
-      "name": "备用4k3",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTljMmhoZVdGdVp5TWpJM05vWVhsaGJtYz0="
-      },
-    {
-      "key": "备用4",
-      "name": "备用4k4",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliM1ZuWlNNakkyOTFaMlU9"
-      },
-    {
-      "key": "备用5",
-      "name": "备用4k5",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTlaWEo0YVdGdkl5TWpaWEo0YVdGdg=="
-      },
-    {
-      "key": "备用6",
-      "name": "备用4k6",
-      "type": 3,
-      "api": "csp_ZC4K",
-     "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliWFZ2ZFNNakkyMTFiM1U9"
-      }
+   }
 
   ],
   "lives": [
