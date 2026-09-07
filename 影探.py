@@ -32,25 +32,25 @@ class Spider(Spider):
         'host': 'https://cms.lyyytv.cn',
         'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
         'RawPlayUrl': 0,
-        'parse_api': 'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url='
+        'parse_api': 'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl='
     }
 
     # 内置 Web 解析（2026-08-30 实测均可出流，官方线路轮询使用）
     WEB_PARSES = [
-        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
-        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
-        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
-        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
-        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
+        'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl=',
+        'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl=',
+        'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl=',
+        'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl=',
+        'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl=',
     ]
 
     # ============ 4K 解析引擎挂载表 ============
     # (tag, 显示名, 文件路径)  —— 播放 id 形如 tag@@线路码@@引擎剧集id
     ENGINES = [
-        ('dd', '多多4K', 'http://114.66.29.121:91/api/index?parsesId=23&appid=10006&videoUrl='),
-        ('jxf', '剧下饭4K', 'http://114.66.29.121:91/api/index?parsesId=23&appid=10006&videoUrl='),
-        ('zn', '真不错4K', 'http://114.66.29.121:91/api/index?parsesId=23&appid=10006&videoUrl='),
-        ('xy', '星影', 'http://114.66.29.121:91/api/index?parsesId=23&appid=10006&videoUrl='),
+        ('dd', '多多4K', 'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl='),
+        ('jxf', '剧下饭4K', 'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl='),
+        ('zn', '真不错4K', 'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl='),
+        ('xy', '星影', 'http://zz2.mftv.top/api/index?parsesId=3&appid=10006&videoUrl='),
     ]
 
     def init(self, extend=''):
