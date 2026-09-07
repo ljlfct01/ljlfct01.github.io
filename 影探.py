@@ -32,16 +32,16 @@ class Spider(Spider):
         'host': 'https://cms.lyyytv.cn',
         'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
         'RawPlayUrl': 0,
-        'parse_api': 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl='
+        'parse_api': 'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url='
     }
 
     # 内置 Web 解析（2026-08-30 实测均可出流，官方线路轮询使用）
     WEB_PARSES = [
-        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
-        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
-        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
-        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
-        'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=',
+        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
+        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
+        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
+        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
+        'http://jiexi.fc8001.top/tJYtHAIRQdMaWdKF.php?url=',
     ]
 
     # ============ 4K 解析引擎挂载表 ============
