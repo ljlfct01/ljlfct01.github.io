@@ -1,5 +1,25 @@
 {    "spider": "",
     "sites": [
+    {
+      "key": "影影1",
+      "name": "影影4k1",
+      "type": 4,
+      "api": "http://sf4.mftv.top/cs/ythy%E8%A7%82%E5%BD%B1.php?filter=true",
+     "jar": "http://yp2.mftv.top/jar/og/jar.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "影影2",
+      "name": "影影4k2",
+      "type": 4,
+      "api": "http://sf4.mftv.top/gy/ythy%E8%A7%82%E5%BD%B1.php?filter=true",
+     "jar": "http://yp2.mftv.top/jar/og/jar.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
      {
       "key": "腾讯6弹幕",
       "name": "📢🌈腾腾",
@@ -64,26 +84,7 @@
       "filterable": 1,
       "timeout": 60
     },
-    {
-      "key": "影影1",
-      "name": "影影4k1",
-      "type": 4,
-      "api": "http://sf4.mftv.top/cs/ythy%E8%A7%82%E5%BD%B1.php?filter=true",
-     "jar": "http://yp2.mftv.top/jar/og/jar.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "影影2",
-      "name": "影影4k2",
-      "type": 4,
-      "api": "http://sf4.mftv.top/gy/ythy%E8%A7%82%E5%BD%B1.php?filter=true",
-     "jar": "http://yp2.mftv.top/jar/og/jar.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "全",
       "name": "📢🔥全",
@@ -102,7 +103,7 @@
       {
       "name": "光速4k",
       "type": 1,
-      "url": "http://103.236.94.69:666/api/index?parsesId=3&appid=10000&videoUrl="
+      "url": "http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl="
     }
  
    
