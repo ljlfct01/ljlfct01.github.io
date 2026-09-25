@@ -88,14 +88,22 @@
       "filterable": 1
     },
     {
-      "key": "影影1",
-      "name": "影影4k1",
-      "type": 4,
-      "api": "http://114.66.26.5:8686/api/ranking/getRankingList?type=total&limit=8",
-     "jar": "http://210.16.170.113:6699/uploads/tvbox/jar/spider2.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "key": "网盘虎斑",
+      "name": "虎斑|4k网盘",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "jar": "http://43.248.128.118:25252/仅供测试/custom_spider.jar;md5;b67face36a403eecb061aca15ce337cc",
+      "ext": {
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
+        "dutoken": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/lib/bdqiyiT.txt",
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/lib/yiT.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
+        "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
+        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
+        "site": "http://38.76.197.172:16969/"
+      }
     },
 
     {
