@@ -3,12 +3,14 @@
   "logo": "http://103.236.94.69:12/dong.gif",
   "sites": [
     {
-      "key": "腾讯6弹幕",
-      "name": "📢🌈腾腾",
-      "searchable": 1,
+      "key": "影探",
+      "name": "影探4k",
       "type": 3,
-      "api": "https://raw.giteeusercontent.com/huotv/111/raw/master/drpy_libs/drpy2.min.js",
-      "ext": "http://tvv.tw/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E8%AE%AF.js"
+      "api": "http://tvv.tw/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E5%BD%B1%E6%8E%A2.py",
+  
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
  
   ],
