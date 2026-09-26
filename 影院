@@ -1,5 +1,5 @@
 {
-  "spider": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961",
+  "spider": "http://43.248.128.118:25252/仅供测试/custom_spider.jar;md5;b67face36a403eecb061aca15ce337cc",
   "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
   "warningText": "欢迎使用火焰TV，祝您观影愉快",
   "lives": [
@@ -55,151 +55,102 @@
       "quickSearch": 1,
       "filterable": 1
     },
-   {
-      "name": "💥玩偶┃4K",
-      "key": "woWogg",
+    {
+      "key": "网盘虎斑",
+      "name": "虎斑|4k网盘",
       "type": 3,
-      "api": "csp_WoggAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
+      "playerType": 2,
+      "api": "csp_Mogg",
       "ext": {
-        "woWogg",
         "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
         "dutoken": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/lib/bdqiyiT.txt",
         "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
         "token": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/lib/yiT.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
         "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
-        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt"
-        
+        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
+        "site": "http://38.76.197.172:16969/"
       }
     },
     {
-      "name": "💥木偶┃4K",
-      "key": "moWobg",
+      "key": "傻样",
+      "name": "傻样|4k网盘",
       "type": 3,
-      "api": "csp_WobgAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "moWobg"
-    },
-   {
-      "key": "真不错",
-      "name": "真不错4k",
-      "type": 3,
-      "api": "https://www.panurl.cn/down.php/4995a44400e87ae694d6d71e00124c1c.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "http://38.76.197.172:12521/"
+      }
     },
     {
-      "name": "☁️花卷┃4K",
-      "key": "PanHj",
+      "key": "玩偶哥哥",
+      "name": "玩偶|4k网盘",
       "type": 3,
-      "api": "csp_PanHjAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "PanHj"
+      "playerType": 2,
+      "api": "csp_Wogg",
+      "ext": {
+        "site": "https://wogg.xxooo.cf/"
+      }
     },
     {
-      "name": "☁️闪电┃4K",
-      "key": "yxWobg",
+      "key": "P123",
+      "name": "木偶|4k网盘",
       "type": 3,
-      "api": "csp_WobgAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "yxWobg"
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "http://123.666291.xyz/"
+      }
     },
     {
-      "name": "☁️多多┃4K",
-      "key": "ddWobg",
+      "key": "至臻",
+      "name": "至臻|4k网盘",
       "type": 3,
-      "api": "csp_WobgAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "ddWobg"
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "https://mihdr.top/"
+      }
     },
     {
-      "name": "☁️虎斑┃4K",
-      "key": "hbWobg",
+      "key": "多多",
+      "name": "多多|4k网盘",
       "type": 3,
-      "api": "csp_WobgAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "hbWobg"
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "https://tv.yydsys.top/"
+      }
     },
     {
-      "name": "☁️Sed┃4K",
-      "key": "SeedHub",
+      "key": "ou多",
+      "name": "讴歌|4k网盘",
       "type": 3,
-      "api": "csp_SeedHubAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "SeedHub"
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "https://woog.nxog.eu.org/"
+      }
     },
     {
-      "name": "☁️观影┃4K",
-      "key": "Gying",
+      "key": "米",
+      "name": "小米|4k网盘",
       "type": 3,
-      "api": "csp_GyingAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "Gying"
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "http://xiaomi666.fun"
+      }
     },
     {
-      "name": "☁️七味┃4K",
-      "key": "Qiwei",
+      "key": "二小",
+      "name": "二小|4k网盘",
       "type": 3,
-      "api": "csp_QiweiAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "Qiwei"
-    },
-    {
-      "name": "☁️原盘┃4K",
-      "key": "Zhinan",
-      "type": 3,
-      "api": "csp_ZhinanAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "Zhinan"
-    },
-    {
-      "name": "☁️逸动┃4K",
-      "key": "SheQuyd",
-      "type": 3,
-      "api": "csp_SheQuydAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "☁️123┃4K",
-      "key": "SheQu123",
-      "type": 3,
-      "api": "csp_SheQu123Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "☁️蜗牛┃4K",
-      "key": "SheQuwon",
-      "type": 3,
-      "api": "csp_SheQuwonAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "playerType": 2,
+      "api": "csp_Mogg",
+      "ext": {
+        "site": "https://xhww.net"
+      }
     }
 
 
