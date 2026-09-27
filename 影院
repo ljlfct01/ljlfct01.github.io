@@ -152,6 +152,93 @@
       }
     },
     {
+      "key": "木偶网盘",
+      "name": "📀木偶┃网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/jar/yunhb.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "http://www.mogg.top/",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "📀玩偶┃网盘",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/jar/yunhb.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "wogg": true,
+        "danmu": true
+      },
+      "timeout": 30
+    },
+    {
+      "key": "至臻网盘",
+      "name": "📀至臻┃网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "https://mihdr.top",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "奥秘网盘",
+      "name": "📀奥秘┃网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "https://vip.omii.top/",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "蜡笔网盘",
+      "name": "📀蜡笔┃网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "http://labipan.com/",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
       "key": "二小",
       "name": "二小|4k网盘",
       "type": 3,
