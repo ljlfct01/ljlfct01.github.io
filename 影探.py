@@ -32,25 +32,25 @@ class Spider(Spider):
         'host': 'https://cms.lyyytv.cn',
         'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
         'RawPlayUrl': 0,
-        'parse_api': 'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url='
+        'parse_api': 'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl='
     }
 
     # 内置 Web 解析（2026-08-30 实测均可出流，官方线路轮询使用）
     WEB_PARSES = [
-        'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url=',
-        'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url=',
-        'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url=',
-        'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url=',
-        'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url=',
+        'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl=',
+        'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl=',
+        'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl=',
+        'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl=',
+        'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl=',
     ]
 
     # ============ 4K 解析引擎挂载表 ============
     # (tag, 显示名, 文件路径)  —— 播放 id 形如 tag@@线路码@@引擎剧集id
     ENGINES = [
-        ('dd', '多多4K', 'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url='),
-        ('jxf', '剧下饭4K', 'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url='),
-        ('zn', '真不错4K', 'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url='),
-        ('xy', '星影', 'https://vip1.123jx.vip/api/?key=f60311e9bc7c1eac9dcaf5e336647b65&url='),
+        ('dd', '多多4K', 'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl='),
+        ('jxf', '剧下饭4K', 'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl='),
+        ('zn', '真不错4K', 'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl='),
+        ('xy', '星影', 'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl='),
     ]
 
 
