@@ -152,17 +152,21 @@
       }
     },
     {
-      "key": "木偶网盘",
-      "name": "📀木偶┃网盘",
+      "key": "闪电",
+      "name": "🌐闪电｜4K自扫",
       "type": 3,
-      "api": "csp_Mogg",
-      "jar": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/jar/yunhb.jar",
-
+      "api": "csp_PanWebShare",
+     "jar": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/jar/yunhb.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
       "ext": {
-       
-        "site": "http://www.mogg.top/"
-      
-      },
+        "site": [
+          "http://shandian.blog"
+        ]
+      }
+    },
       "timeout": 25
     },
     {
