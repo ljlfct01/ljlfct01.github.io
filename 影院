@@ -30,13 +30,15 @@
 ],
   "sites": [
     {
-      "key": "豆瓣1",
-      "name": "📢公告📢测试专用 ",
+      "key": "Doubana",
+      "name": "🐮【更新日期:20260911】🐮",
       "type": 3,
-      "api": "csp_Notice",
-      "searchable": 1,
-      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/f3b31497ca266ea4f8a89c88e9385f48.jpg;md5;ff4f99fad585f4935fcaa06e3092e44a",
-      "ext": "http://a.u9c.cn/6bwkmX"
+      "api": "csp_DoubanGuard",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
     },
     {
       "key": "腾讯6弹幕",
