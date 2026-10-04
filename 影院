@@ -29,23 +29,30 @@
 
 ],
   "sites": [
-
-
- 
-   {
+{
       "key": "qq",
-      "name": "主·QQ4K",
-    
+      "name": "🍅腾腾TV",
+      "playerType": 2,
       "type": 3,
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/qq.js"
+      "ext": "https://app.69mini.com/js/主线1.js"
     },
-    {
+  {
       "key": "mg",
-      "name": "🔥茫茫|4K②",
+      "name": "🍅果果TV",
+      "playerType": 2,
       "type": 3,
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/mg.js"
+      "ext": "https://app.69mini.com/js/主线3.js"
+    },
+
+    {
+      "key": "bl",
+      "name": "🍅哔哔TV",
+      "playerType": "2",
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/lib1/bili.js"
     },
      {
       "key": "聚合",
