@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
+  "spider": "https://gitee.com/zhouyadong7033/box/raw/master/JS/xiaosa0728.jar",
   "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
   "warningText": "欢迎使用火焰TV，祝您观影愉快",
   "lives": [
@@ -11,56 +11,61 @@
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
     }
   ],
-  "parses": [
- {
-      "name": "光速4k",
-      "type": 1,
-      "url": "http://114.66.29.121:91/api/index?parsesId=23&appid=10006&videoUrl="
-    }
-
-
-
-],
   "sites": [
-
     {
       "key": "腾讯6弹幕",
-      "name": "📢🌈腾腾",
+      "name": "📢🌈腾腾臻彩4K002",
       "searchable": 1,
       "type": 3,
-      "api": "https://raw.giteeusercontent.com/huotv/111/raw/master/drpy_libs/drpy2.min.js",
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
+      "api": "https://yadong1.fy.takin.cc/json/drpy2.min.js",
+      "ext": "http://114.66.29.121:92/99/drpy_libs/txext.js"
     },
     {
-      "key": "茫茫",
-      "name": "📢🌈开心果4K",
+      "key": "芒果视频",
+      "name": "无果┃无意",
       "type": 3,
-      "searchable": 1,
-      "api": "https://raw.giteeusercontent.com/huotv/111/raw/master/drpy_libs/drpy2.min.js",
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
+      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
+      "ext": "https://yc.wya6.cn/zhwj/js/芒果视频.js"
     },
     {
-      "key": "全",
-      "name": "📢🔥全",
-      "type": 4,
-      "api": "http://116.62.133.86:56688/%E9%87%87%E9%9B%86/cai.php?filter=true",
-     "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
+      "key": "无意哔哩",
+      "name": "哔哩┃无意",
+      "type": 3,
+      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "https://yp.wya6.cn/nbwj/哔哩视频.js"
     },
     {
-      "key": "聚合",
-      "name": "📢🌈聚合4K",
+      "key": "爱奇艺",
+      "name": "奇艺┃无意",
       "type": 3,
-      "api": "https://sk.69mzf.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/jh.js"
+      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
+      "ext": "https://yc.wya6.cn/zhwj/js/爱奇艺.js"
+    },
+    {
+      "key": "优酷视频",
+      "name": "优酷┃无意",
+      "type": 3,
+      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
+      "ext": "https://yc.wya6.cn/zhwj/js/优酷视频.js"
+    },
+    {
+      "key": "CAIJI采",
+      "name": "📢🔥全",
+      "type": 4,
+      "api": "http://116.62.133.86:56688/%E9%87%87%E9%9B%86/cai.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
     },
     {
       "key": "哥哥玩",
       "name": "📢🌈哥哥4K",
       "type": 3,
-      "api": "csp_appys",
+      "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
       "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdmRXZGxJeU1qYjNWblpRPT0="
     },
@@ -72,55 +77,15 @@
       "jar": "https://mpimg.cn/down.php/b4b695cf12db5356b2bf50afbccb7452.jar",
       "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdGFXaGtjaU1qSTIxcGFHUnk="
     },
-   {
-      "key": "真不错",
-      "name": "真不错4k",
+    {
+      "key": "瓜子影视",
+      "name": "🌻瓜子git",
       "type": 3,
-      "api": "https://www.panurl.cn/down.php/4995a44400e87ae694d6d71e00124c1c.py",
+      "api": "https://api.gitcode.com/api/v5/repos/u010088229/jar/raw/%E7%93%9C%E5%AD%90001.py?ref=main",
       "searchable": 1,
+      "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "影探",
-      "name": "影探4k",
-      "type": 3,
-      "api": "http://111.170.151.121:9578/appz.php?url=http://127.0.0/api.php/app/nav?token=q88iCMddNZirbvjO",
-  
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "影影1",
-      "name": "影影4k1",
-      "type": 3,
-      
-      "jar": "http://210.16.170.113:6699/uploads/tvbox/jar/spider2.jar",
-      "api": "http://111.170.151.121:9978/api/jar/config/%E8%8A%92%E6%9E%9C?spider_key=q88iCMddNZirbvjO"
-    },
-    {
-      "key": "影影2",
-      "name": "影影4k2",
-      "type": 3,
-       "api": "http://125.208.22.184:6019/api/ranking/getRankingList?type=total&limit=8",
-     "ext": "http://111.170.151.121:9978/api/jar/config/%E8%8A%92%E6%9E%9C?spider_key=q88iCMddNZirbvjO"
-    
-     
-    },
-    {
-      "name": "⭐瓜子|秒播",
-      "key": "Guazi",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "jar": "https://zl.wpscdn.cn/2026/07/11/space_img/64dea739-dfa3-4797-b25a-68c47f222e0a.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "sites": "",
-        "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
-      }
     },
     {
       "key": "热播影视",
@@ -133,6 +98,14 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       }
+    },
+    {
+      "key": "至臻木偶2",
+      "name": "📢🌈哥哥4K",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "https://mpimg.cn/down.php/b4b695cf12db5356b2bf50afbccb7452.jar",
+      "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdGIyZG5NaU1qSTIxdloyY3k="
     },
     {
       "key": "看球",
@@ -322,6 +295,12 @@
     }
   ],
   "doh": [],
+{
+      "name": "光速4k",
+      "type": 1,
+      "url": "http://114.66.29.121:91/api/index?parsesId=23&appid=10006&videoUrl="
+    }
+
   "hosts": [
     "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
     "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
