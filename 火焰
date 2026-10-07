@@ -14,39 +14,34 @@
   "sites": [
  
  
-     {
-      "key": "ik4k影院",
-      "name": "🐬[追剧]ik4k影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/ik4k影院.py"
-    },
-
-
-
     {
       "key": "腾讯6弹幕",
-      "name": "📢🌈腾腾臻彩4K002",
+      "name": "📢🌈腾腾",
       "searchable": 1,
       "type": 3,
-      "api": "https://yadong1.fy.takin.cc/json/drpy2.min.js",
-      "ext": "http://114.66.29.121:92/99/drpy_libs/txext.js"
+      "api": "https://raw.giteeusercontent.com/huotv/111/raw/master/drpy_libs/drpy2.min.js",
+      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
     },
     {
-      "key": "芒果视频",
-      "name": "无果┃无意",
+      "key": "聚合",
+      "name": "📢🌈聚合4K",
       "type": 3,
-      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
-      "ext": "https://yc.wya6.cn/zhwj/js/芒果视频.js"
+      "api": "https://sk.69mzf.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/jh.js"
     },
-    {
-      "key": "无意哔哩",
-      "name": "哔哩┃无意",
+      {
+      "key": "芒果弹幕",
+      "name": "🔥蓝光4k‑至臻4K",
       "type": 3,
-      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://yp.wya6.cn/nbwj/哔哩视频.js"
+      "api": "http://103.236.94.69:12/lib/drpy2.min.js",
+      "ext": "http://103.236.94.69:12/lib/mg.js"
+    },
+     {
+      "key": "哔哩视频",
+      "name": "🔥主线｜臻彩4K",
+      "type": 3,
+      "api": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/lib1/bili.js"
     },
     {
       "key": "网盘虎斑",
