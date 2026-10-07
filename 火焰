@@ -1,70 +1,42 @@
-{
+ {
   "spider": "https://gitee.com/zhouyadong7033/box/raw/master/JS/xiaosa0728.jar",
   "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
   "warningText": "欢迎使用火焰TV，祝您观影愉快",
-  "lives": [
-    {
-      "name": "develop202",
-      "type": 0,
-      "url": "http://114.66.29.121:8888/down/EjMztmvzlVmy.txt",
-      "playerType": 2,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-    }
+    "lives": [
+      
+      
+          {"name":"develop202","type":0,"url":"http://114.66.29.121:8888/down/EjMztmvzlVmy.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"}
   ],
+  
   "sites": [
  
- 
+        
+        
+
+{
+            "key": "腾讯6弹幕",
+            "name": "📢🌈腾腾臻彩4K002",
+            "searchable": 1,
+            "type": 3,
+            "api": "https://yadong1.fy.takin.cc/json/drpy2.min.js",
+            "ext": "http://114.66.29.121:92/99/drpy_libs/txext.js"
+        },
     {
-      "key": "腾讯6弹幕",
-      "name": "📢🌈腾腾",
+      "key": "芒果视频",
+      "name": "无果┃无意",
+      "type": 3,
+      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
+      "ext": "https://yc.wya6.cn/zhwj/js/芒果视频.js"
+    },
+    {
+      "key": "无意哔哩",
+      "name": "哔哩┃无意",
+      "type": 3,
+      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
       "searchable": 1,
-      "type": 3,
-      "api": "https://raw.giteeusercontent.com/huotv/111/raw/master/drpy_libs/drpy2.min.js",
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
-    },
-    {
-      "key": "聚合",
-      "name": "📢🌈聚合4K",
-      "type": 3,
-      "api": "https://sk.69mzf.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/jh.js"
-    },
-      {
-      "key": "芒果弹幕",
-      "name": "🔥蓝光4k‑至臻4K",
-      "type": 3,
-      "api": "http://103.236.94.69:12/lib/drpy2.min.js",
-      "ext": "http://103.236.94.69:12/lib/mg.js"
-    },
-     {
-      "key": "哔哩视频",
-      "name": "🔥主线｜臻彩4K",
-      "type": 3,
-      "api": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/lib1/bili.js"
-    },
-    {
-      "key": "网盘虎斑",
-      "name": "虎斑|4k网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "jar": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/jar/yunhb.jar",
-      "ext": {
-       
-        "site": "http://38.76.197.172:16969/"
-      }
-    },
-    {
-      "key": "网盘",
-      "name": "4k|网盘",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_Mogg",
-      "jar": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/jar/yunhb.jar",
-      "ext": {
-        "site": "https://woog.nxog.eu.org/"
-      }
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yp.wya6.cn/nbwj/哔哩视频.js"
     },
     {
       "key": "爱奇艺",
@@ -80,25 +52,29 @@
       "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
       "ext": "https://yc.wya6.cn/zhwj/js/优酷视频.js"
     },
+    
     {
-      "key": "CAIJI采",
-      "name": "📢🔥全",
-      "type": 4,
-      "api": "http://116.62.133.86:56688/%E9%87%87%E9%9B%86/cai.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": ""
-    },
-    {
+  "key": "CAIJI采",
+  "name": "📢🔥全",
+  "type": 4,
+  "api": "http://116.62.133.86:56688/%E9%87%87%E9%9B%86/cai.php",
+ "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": ""
+},
+
+      {
       "key": "哥哥玩",
       "name": "📢🌈哥哥4K",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "https://gitee.com/zhouyadong7033/box/raw/master/JS/ZC4KK.jar",
       "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdmRXZGxJeU1qYjNWblpRPT0="
-    },
-    {
+ },
+
+
+          {
       "key": "至臻阿里",
       "name": "📢🌈哥哥4K",
       "type": 3,
@@ -106,7 +82,8 @@
       "jar": "https://mpimg.cn/down.php/b4b695cf12db5356b2bf50afbccb7452.jar",
       "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdGFXaGtjaU1qSTIxcGFHUnk="
     },
-    {
+ 
+{
       "key": "瓜子影视",
       "name": "🌻瓜子git",
       "type": 3,
@@ -115,7 +92,9 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
+
+},
+    
     {
       "key": "热播影视",
       "name": "🔥热剧┃1080P",
@@ -128,7 +107,11 @@
         "url": "http://v.rbotv.cn"
       }
     },
-    {
+
+
+
+    
+              {
       "key": "至臻木偶2",
       "name": "📢🌈哥哥4K",
       "type": 3,
@@ -136,19 +119,11 @@
       "jar": "https://mpimg.cn/down.php/b4b695cf12db5356b2bf50afbccb7452.jar",
       "ext": "YUhSMGNEb3ZMekV4Tmk0Mk1pNHhNek11T0RZNk5UWTJPREV2VkRRdlZEVXZZWEJwTWk1d2FIQS9jMmwwWlQxdGIyZG5NaU1qSTIxdloyY3k="
     },
-    {
-      "key": "看球",
-      "name": "⚾┃看球┃直播",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "gridview": 3,
-      "style": {
-        "type": "list"
-      }
-    },
+
+ 
+
+{"key":"看球","name":"⚾┃看球┃直播","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"changeable":0,"gridview":3,"style":{"type":"list"}},
+
     {
       "key": "88看球",
       "name": "88｜看球",
@@ -159,6 +134,7 @@
         "type": "list"
       }
     },
+
     {
       "key": "少儿教育",
       "name": "少儿｜教育",
@@ -241,6 +217,7 @@
       },
       "gridview": "0-0-4.1"
     },
+
     {
       "key": "相声",
       "name": "📻相声┃BPQ",
@@ -276,7 +253,7 @@
         "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
       }
     },
-    {
+        {
       "key": "兴趣培养",
       "name": "儿童兴趣培养",
       "type": 3,
@@ -322,8 +299,14 @@
         "分类": "袁阔成$ykc#单田芳$stf#田连元$tly#刘兰芳$llf#连丽如$llr#张少佐$zsz#田战义$tzy"
       }
     }
+
+
   ],
-  "doh": [],
+
+"doh": [
+     
+],
+
   "parses": [
  {
       "name": "光速4k",
@@ -334,7 +317,7 @@
 
 
 ],
-
+ 
   "hosts": [
     "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
     "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
