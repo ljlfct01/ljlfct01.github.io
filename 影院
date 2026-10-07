@@ -44,14 +44,16 @@
       "ext": "https://app.69mini.com/js/jh.js"
     },
     {
-      "key": "影影2",
-      "name": "影影4k2",
-      "type": 4,
-      "api": "http://111.170.151.121:9578/appz.php?url=http://127.0.0/api.php/app/nav?token=2a11bcda858f403abdcdc00591e63863",
-     "jar": "http://210.16.170.113:6699/uploads/tvbox/jar/spider2.jar",
+      "key": "cms",
+      "name": "推荐4k",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://app.lyyytv.cn/custom_spider.jar",
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "http://cms.lyyytv.cn/api.php/app/"
     }
 
 
