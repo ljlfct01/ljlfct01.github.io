@@ -84,10 +84,16 @@
       "name": "虎斑|4k网盘",
       "type": 3,
       "playerType": 2,
-      "api": "csp_Mogg",
-      "jar": "http://101.201.171.207:6767/%E6%9A%97%E9%BB%914kqijiA6/jar/yunhb.jar",
+      "api": "csp_MoggCAT",
+      "jar": "http://43.248.128.118:25252/仅供测试/custom_spider.jar;md5;bd9c4d777bdf0dad2c1889b5f8b2f8d1",
       "ext": {
-       
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
+        "dutoken": "http://103.236.77.248:36245/video/wanou_sites?flag=baidu&play=",
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://103.236.77.248:36245/video/wanou_sites?flag=quark&play=",
+        "cookie": "http://103.236.77.248:36245/video/wanou_sites?flag=quark&play=",
+        "uccookie": "http://103.236.77.248:36245/video/wanou_sites?flag=uc&play=",
+        "tuctoken": "http://103.236.77.248:36245/video/wanou_sites?flag=uc&play=",
         "site": "http://38.76.197.172:16969/"
       }
     },
