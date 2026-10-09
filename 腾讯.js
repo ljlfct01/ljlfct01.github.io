@@ -1026,11 +1026,11 @@ var rule = {
             log("解析片名海报等基础信息发生错误:" + e.message)
         }
         if (/get_playsource/.test(input)) {
-            eval(html);
+            QZOutputJson = JSON.parse(html.slice(html.indexOf('{')));
             let indexList = QZOutputJson.PlaylistItem.indexList;
             indexList.forEach(function(it) {
                 let dataUrl = "https://s.video.qq.com/get_playsource?id=" + sourceId + "&plat=2&type=4&data_type=3&range=" + it + "&video_type=10&plname=qq&otype=json";
-                eval(requestWithProxy(dataUrl, {}));
+                let _d = requestWithProxy(dataUrl, {}); QZOutputJson = JSON.parse(_d.slice(_d.indexOf('{')));
                 let vdata = QZOutputJson.PlaylistItem.videoPlayList;
                 vdata.forEach(function(item) {
                     d.push({
@@ -1060,7 +1060,7 @@ var rule = {
                 video_list.forEach(function(it, idex) {
                     let o_url = "https://union.video.qq.com/fcgi-bin/data?otype=json&tid=1804&appid=20001238&appkey=6c03bbe9658448a4&union_platform=1&idlist=" + it.join(",");
                     let o_html = requestWithProxy(o_url, {});
-                    eval(o_html);
+                    QZOutputJson = JSON.parse(o_html.slice(o_html.indexOf('{')));
                     QZOutputJson.results.forEach(function(it1) {
                         it1 = it1.fields;
                         let url = "https://v.qq.com/x/cover/" + cid + "/" + it1.vid + ".html";
