@@ -45,15 +45,17 @@
       "ext": "https://app.69mini.com/js/qq.js"
     },
     {
-      "key": "依依2",
-      "name": "依依4k2",
+      "key": "wanou_sites",
+      "name": "主线路-换源更换备用线路",
       "type": 4,
-      "api": "http://cms.lyyytv.cn/api.php/app/nav?token=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE",
+      "api": "http://cms.lyyytv.cn/api.php/app/nav?token=",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
-   }
-
+      "filterable": 1,
+      "header": {
+        "token": "AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE"
+      }
+    }
 
 
 
