@@ -30,7 +30,7 @@ class Spider(Spider):
 
     FIXED_CONFIG = {
         'host': 'https://cms.lyyytv.cn',
-        'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
+        'cmskey': 'AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa',
         'RawPlayUrl': 0,
         'parse_api': ''
     }
