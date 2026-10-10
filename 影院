@@ -226,13 +226,20 @@
   "lives": [
     {
       "name": "直播",
+      "url": "https://myds.momo.xx.kg/playlist.php?format=txt&auth=6f6821898135d974",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "直播2",
       "url": "http://38.75.136.137:88/api/tvlist.php",
       "type": 0,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
    {
-      "name": "直播1",
+      "name": "直播3",
       "url": "http://43.249.195.13:10213/llll1llll.txt",
       "type": 0,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
