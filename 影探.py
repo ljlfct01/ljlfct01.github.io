@@ -17,7 +17,7 @@ class Spider(Spider):
         'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
         'RawPlayUrl': 0,
         # ldmax 鍐呯疆瑙ｆ瀽鎺ュ彛
-        'parse_api': 'http://4kzj.lyyytv.cn/api/index?parsesId=11&appid=10001&videoUrl='
+        'parse_api': ''
     }
 
     def init(self, extend=''):
