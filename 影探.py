@@ -9,15 +9,15 @@ sys.path.append('..')
 
 class Spider(Spider):
     headers = {'User-Agent': 'okhttp/4.12.0'}
-    # 瑙ｆ瀽鎺ュ彛璇锋眰澶�(涓� PHP 绔竴鑷�)
+    # 解析接口请求头(与 PHP 端一致)
     parse_headers = {'User-Agent': 'okhttp-okgo/jeasonlzy'}
 
     FIXED_CONFIG = {
         'host': 'http://cms.lyyytv.cn',
         'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
         'RawPlayUrl': 0,
-        # ldmax 鍐呯疆瑙ｆ瀽鎺ュ彛
-        'parse_api': 'http://4kzj.lyyytv.cn/api/index?parsesId=11&appid=10001&videoUrl='
+        # ldmax 内置解析接口
+        'parse_api': 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10001&videoUrl='
     }
 
     def init(self, extend=''):
@@ -31,11 +31,11 @@ class Spider(Spider):
             self.raw_play_url = 0
 
     def ldmax_decrypt(self, encrypted_base64, depth=0):
-        # 瀵瑰簲 PHP 鐨� LdmaxDecryptor::decrypt,閫掑綊瑙ｅ瘑 ldmax.cooom 鍔犲瘑閾炬帴
+        # 对应 PHP 的 LdmaxDecryptor::decrypt,递归解密 ldmax.cooom 加密链接
         if depth > 5:
             return None
-        # 涓ユ牸 base64 瑙ｇ爜(瀵瑰簲 PHP base64_decode 绗簩鍙� true),
-        # 闈炴硶 base64(濡傛槑鏂嘦RL)鐩存帴鍘熸牱杩斿洖
+        # 严格 base64 解码(对应 PHP base64_decode 第二参 true),
+        # 非法 base64(如明文URL)直接原样返回
         cleaned = re.sub(r'\s+', '', encrypted_base64)
         try:
             decoded = base64.b64decode(cleaned, validate=True).decode('utf-8', errors='ignore')
@@ -68,7 +68,7 @@ class Spider(Spider):
         return result
 
     def ldmax_parse(self, video_url):
-        # 瀵瑰簲 PHP 涓绘祦绋�:瑙ｅ瘑 -> 璋冪敤瑙ｆ瀽鎺ュ彛 -> 浜屾瑙ｅ瘑
+        # 对应 PHP 主流程:解密 -> 调用解析接口 -> 二次解密
         decrypted = self.ldmax_decrypt(video_url)
         if not decrypted or not re.match(r'^https?://', decrypted):
             return None
@@ -122,7 +122,7 @@ class Spider(Spider):
         return {"class": classes, "filters": filters}
 
     def categoryContent(self, tid, pg, filter, extend):
-        # 鏋勫缓URL鏌ヨ鍙傛暟
+        # 构建URL查询参数
         query_params = [
             f"tid={tid}",
             f"pg={pg}",
@@ -169,21 +169,21 @@ class Spider(Spider):
         return {'list': [data]}
 
     def playerContent(self, flag, video_id, vipFlags):
-        # 绉婚櫎URL涓殑鐧惧垎鍙风紪鐮侊紙濡� %26 %20 绛夛級锛岀洿鎺ュ垹闄よ€岄潪瑙ｇ爜
-        # 渚�: 04.鍥�%26绮�.mp4 鈫� 04.鍥界菠.mp4
+        # 移除URL中的百分号编码（如 %26 %20 等），直接删除而非解码
+        # 例: 04.国%26粤.mp4 → 04.国粤.mp4
         video_id = re.sub(r'%[0-9A-Fa-f]{2}', '', video_id)
-        # 闇€瑕佸唴缃В鏋愮殑鎯呭喌:
-        # 1. 闈炴槑鏂嘦RL(base64瀵嗘枃绛�)
-        # 2. 鏈珯鍩熷悕URL(lyyytv.cn 浼洿閾�,闇€缁� parse_api 浜屾瑙ｆ瀽鎵嶈兘鎷垮埌鐪熷疄鎾斁鍦板潃)
+        # 需要内置解析的情况:
+        # 1. 非明文URL(base64密文等)
+        # 2. 本站域名URL(lyyytv.cn 伪直链,需经 parse_api 二次解析才能拿到真实播放地址)
         is_plain_url = video_id.startswith(('http://', 'https://'))
         if (not is_plain_url) or (is_plain_url and 'lyyytv.cn' in video_id):
             parsed = self.ldmax_parse(video_id)
             if parsed:
                 return {'jx': 0, 'parse': 0, 'playUrl': '', 'url': parsed['url'], 'header': self.headers}
-        # 鐪熸鐨勭洿閾�(mp4/m3u8 绛�)鐩存帴鎾斁
+        # 真正的直链(mp4/m3u8 等)直接播放
         if self.check_paly_url(video_id):
             return {'jx': 0, 'parse': 0, 'playUrl': '', 'url': video_id, 'header': self.headers}
-        # 鍏朵粬鎯呭喌浜ょ粰 tvbox 澶栫疆瑙ｆ瀽
+        # 其他情况交给 tvbox 外置解析
         return {'jx': 1, 'playUrl': '', 'parse': 0, 'url': video_id, 'header': self.headers}
 
     def lvdou(self, text):
