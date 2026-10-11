@@ -170,6 +170,61 @@
       "ext": ""
     },
     {
+      "key": "wanou_sites",
+      "name": "主线路-换源更换备用线路",
+      "type": 4,
+      "api": "http://103.236.77.248:36245/video/wanou_sites",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "header": {
+        "token": "57c04171f9d2f903"
+      }
+    },
+    
+    {
+      "key": "wanou_sites1",
+      "name": "备用线路",
+      "type": 4,
+      "api": "http://103.236.77.205:35246/video/wanou_sites",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "header": {
+        "token": "0e5b643ffc5ef558"
+      }
+    },
+
+        
+      
+      {
+      "key": "mogg",
+      "name": "主线木偶仅搜索",
+      "type": 4,
+      "api": "http://103.236.77.248:36245/video/mogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "header": {
+        "token": "ae02bc3756eaf024"
+      }
+    },
+     
+     {
+      "key": "mogg1",
+      "name": "备用木偶仅搜索",
+      "type": 4,
+      "api": "http://103.236.77.205:34216/video/mogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "header": {
+        "token": "0e5b643ffc5ef558"
+      }
+    },
+     
+
+    {
       "key": "✨飞碟木偶",
       "name": "免·网盘2",
       "type": 3,
