@@ -4,6 +4,18 @@
   "logo": "https://13935.kstore.space/b/logo.gif",
   "sites": [
     {
+      "key": "wanou_sites",
+      "name": "主线路-换源更换备用线路",
+      "type": 4,
+      "api": "http://103.236.77.205:35246/video/wanou_sites?t=site_ouge",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "header": {
+        "token": "57c04171f9d2f903"
+      }
+    },
+    {
               "key": "fgd",
       "name": "希尔👑4K①",
       "playerType": "2",
