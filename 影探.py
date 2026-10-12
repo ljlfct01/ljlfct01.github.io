@@ -31,7 +31,7 @@ class Spider(Spider):
             self.raw_play_url = 0
 
     def ldmax_decrypt(self, encrypted_base64, depth=0):
-        # 对应 PHP 的 LdmaxDecryptor::decrypt,递归解密 ldmax.cooom 加密链接
+        # 对应 PHP 的 LdmaxDecryptor::decrypt,递归解密 6max.con 加密链接
         if depth > 5:
             return None
         # 严格 base64 解码(对应 PHP base64_decode 第二参 true),
@@ -42,9 +42,9 @@ class Spider(Spider):
         except Exception:
             return encrypted_base64
         url = re.sub(r'\s+', '', decoded)
-        if 'ldmax.cooom' not in url:
+        if '6max.con' not in url:
             return url
-        path = re.sub(r'https?://ldmax\.cooom/', '', url)
+        path = re.sub(r'https?://6max\.con/', '', url)
         if len(path) < 16:
             return None
         key = path[:16][::-1].encode('utf-8')
@@ -64,12 +64,12 @@ class Spider(Spider):
                 decrypted = decrypted[:-pad]
         result = decrypted.decode('utf-8', errors='ignore').strip()
         if 'ldmax.cooom' in result:
-            return self.ldmax_decrypt(base64.b64encode(result.encode('utf-8')).decode('utf-8'), depth + 1)
+            return self.6max_decrypt(base64.b64encode(result.encode('utf-8')).decode('utf-8'), depth + 1)
         return result
 
     def ldmax_parse(self, video_url):
         # 对应 PHP 主流程:解密 -> 调用解析接口 -> 二次解密
-        decrypted = self.ldmax_decrypt(video_url)
+        decrypted = self.6max_decrypt(video_url)
         if not decrypted or not re.match(r'^https?://', decrypted):
             return None
         try:
@@ -79,7 +79,7 @@ class Spider(Spider):
             return None
         if not resp or resp.get('code') != 200 or not resp.get('url'):
             return None
-        final_url = self.ldmax_decrypt(resp['url'])
+        final_url = self.6max_decrypt(resp['url'])
         if final_url and re.match(r'^https?://', final_url):
             return {'url': final_url, 'type': resp.get('type', 'video')}
         return None
@@ -177,7 +177,7 @@ class Spider(Spider):
         # 2. 本站域名URL(lyyytv.cn 伪直链,需经 parse_api 二次解析才能拿到真实播放地址)
         is_plain_url = video_id.startswith(('http://', 'https://'))
         if (not is_plain_url) or (is_plain_url and 'lyyytv.cn' in video_id):
-            parsed = self.ldmax_parse(video_id)
+            parsed = self.6max_parse(video_id)
             if parsed:
                 return {'jx': 0, 'parse': 0, 'playUrl': '', 'url': parsed['url'], 'header': self.headers}
         # 真正的直链(mp4/m3u8 等)直接播放
