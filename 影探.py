@@ -16,7 +16,7 @@ class Spider(Spider):
         'host': 'http://cms.lyyytv.cn',
         'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
         'RawPlayUrl': 0,
-        # ldmax 内置解析接口
+        # 6max 内置解析接口
         'parse_api': 'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl='
     }
 
