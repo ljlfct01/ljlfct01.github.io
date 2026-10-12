@@ -17,7 +17,7 @@ class Spider(Spider):
         'cmskey': 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy',
         'RawPlayUrl': 0,
         # ldmax 内置解析接口
-        'parse_api': 'http://114.66.26.5:8686/api/index?parsesId=3&appid=10000&videoUrl='
+        'parse_api': 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10001&videoUrl='
     }
 
     def init(self, extend=''):
@@ -63,7 +63,7 @@ class Spider(Spider):
             if 0 < pad <= 16:
                 decrypted = decrypted[:-pad]
         result = decrypted.decode('utf-8', errors='ignore').strip()
-        if 'ldmax.cooom' in result:
+        if '6max.con' in result:
             return self.6max_decrypt(base64.b64encode(result.encode('utf-8')).decode('utf-8'), depth + 1)
         return result
 
