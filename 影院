@@ -329,6 +329,13 @@
   ],
   "lives": [
      {
+      "name": "jackTV",
+      "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+     {
       "name": "直播",
       "url": "https://myds.momo.xx.kg/playlist.php?format=txt&auth=6f6821898135d974",
       "type": 0,
