@@ -27,6 +27,16 @@
     }
   ],
   "sites": [
+     {
+            "key": "影探影视",
+            "name": "影探",
+            "type": 3,
+            "api": "http://cccimg.com/down.php/8cfc0e2827d8832bde7ca99420471027.py",
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
     {
       "key": "qq",
       "name": "主·QQ4K",
