@@ -31,7 +31,7 @@ class Spider(Spider):
             self.raw_play_url = 0
 
     def ldmax_decrypt(self, encrypted_base64, depth=0):
-        # 对应 PHP 的 LdmaxDecryptor::decrypt,递归解密 6max.con 加密链接
+        # 对应 PHP 的 6maxDecryptor::decrypt,递归解密 6max.con 加密链接
         if depth > 5:
             return None
         # 严格 base64 解码(对应 PHP base64_decode 第二参 true),
@@ -67,7 +67,7 @@ class Spider(Spider):
             return self.6max_decrypt(base64.b64encode(result.encode('utf-8')).decode('utf-8'), depth + 1)
         return result
 
-    def ldmax_parse(self, video_url):
+    def 6max_parse(self, video_url):
         # 对应 PHP 主流程:解密 -> 调用解析接口 -> 二次解密
         decrypted = self.6max_decrypt(video_url)
         if not decrypted or not re.match(r'^https?://', decrypted):
