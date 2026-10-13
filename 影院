@@ -15,6 +15,16 @@
       "filterable": 1,
       "ext": "http://cms.lyyytv.cn/api.php/app/"
     },
+    {
+      "key": "影影1",
+      "name": "影影4k1",
+      "type": 4,
+      "api": "http://cms.lyyytv.cn/api.php/app/nav?token=",
+     "jar": "http://app.lyyytv.cn/custom_spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
 
     {
       "key": "fgd",
