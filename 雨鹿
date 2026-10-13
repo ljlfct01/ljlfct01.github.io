@@ -77,16 +77,17 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "影探",
-      "name": "影探4k",
-      "type": 3,
-      "api": "http://cccimg.com/down.php/8cfc0e2827d8832bde7ca99420471027.py",
-  
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+      {
+            "key": "影探影视",
+            "name": "影探",
+            "type": 3,
+            "api": "http://cccimg.com/down.php/8cfc0e2827d8832bde7ca99420471027.py",
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+
     {
       "key": "影影1",
       "name": "影影4k1",
