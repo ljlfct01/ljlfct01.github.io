@@ -3,7 +3,19 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "https://13935.kstore.space/b/logo.gif",
   "sites": [
-  
+      {
+      "key": "cms",
+      "name": "推荐4k",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://app.lyyytv.cn/custom_spider.jar",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cms.lyyytv.cn/api.php/app/"
+    },
+
     {
       "key": "fgd",
       "name": "希尔👑4K①",
