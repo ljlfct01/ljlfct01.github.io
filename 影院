@@ -3,7 +3,20 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "https://13935.kstore.space/b/logo.gif",
   "sites": [
-   
+       {
+      "key": "设置",
+      "name": "网弹|设置",
+      "type": 3,
+      "api": "csp_ConfigCAT",
+      "jar": "http://103.236.85.3:25252/仅供测试/custom_spider.jar;md5;3cb6cb488ddfc0dfe8ec69d5015aef72",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
+    },
 
     {
       "key": "fgd",
