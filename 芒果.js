@@ -1,21 +1,27 @@
-   var rule = {
+var rule = {
     title: '百忙无果[官]',
     host: 'https://pianku.api.%6d%67%74%76.com',
     homeUrl: '',
+    // searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/pc/search/v1?q=**&pn=fypage&pc=10',
+    // 新版接口搜索变成v2并且加了验证，蛋疼
+    // searchUrl: 'https://mobileso.bz.mgtv.com/pc/search/v2?allowedRC=1&src=mgtv&did=cf03b959-6945-4cb6-bcb3-88762459354d&timestamp=2024-06-21T15%3A52%3A55Z&signVersion=1&signNonce=8dae67a1fafc4bda984ec8deb47666ad&q=**&pn=fypage&pc=10&corr=1&_support=10000000&signature=4e27fddcd2a1a66d6c1764ed6b74bab7',
+    // 用手机的吧，搞不定这个
     searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/msite/search/v2?q=**&pn=fypage&pc=10',
     detailUrl: 'https://pcweb.api.mgtv.com/episode/list?page=1&size=50&video_id=fyid',
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
     multi: 1,
+    // 分类链接fypage参数支持1个()表达式
+    // https://www.mgtv.com/lib/3?lastp=list_index&kind=a1&year=all&chargeInfo=a1&sort=c2
     url: '/rider/list/pcweb/v3?platform=pcweb&channelId=fyclass&pn=fypage&pc=80&hudong=1&_support=10000000&kind=a1&area=a1',
     filter_url: 'year={{fl.year or "all"}}&sort={{fl.sort or "all"}}&chargeInfo={{fl.chargeInfo or "all"}}',
     headers: {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    class_name: '臻彩4K⚡电影&臻彩4K⚡电视剧&臻彩4K⚡综艺&臻彩4K⚡动漫&臻彩4K⚡纪录片&臻彩4K⚡教育&臻彩4K⚡少儿',
-    class_url: '3&2&1&50&51&115&10',
+    class_name: 'SVIP-4K✈️电视剧&SVIP-4K✈️电影&SVIP-4K✈️综艺&SVIP-4K✈️动漫&SVIP-4K✈️纪录片&SVIP-4K✈️教育&SVIP-4K✈️少儿',
+    class_url: '2&3&1&50&51&115&10',
     filter: {
         "1": [{
             "key": "chargeInfo",
@@ -55,12 +61,11 @@
             "value": [{
                 "n": "全部",
                 "v": "all"
-            }, 
-               {
+            }, {
                 "n": "2026",
                 "v": "2026"
-            }, 
-            {
+            }, {
+
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -166,12 +171,11 @@
             "value": [{
                 "n": "全部",
                 "v": "all"
-            }, 
-               {
+            }, {
                 "n": "2026",
                 "v": "2026"
-            }, 
-            {
+            }, {
+
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -277,12 +281,11 @@
             "value": [{
                 "n": "全部",
                 "v": "all"
-            },
-               {
+            }, {
                 "n": "2026",
                 "v": "2026"
-            }, 
-             {
+            }, {
+
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -388,12 +391,11 @@
             "value": [{
                 "n": "全部",
                 "v": "all"
-            }, 
-               {
+            }, {
                 "n": "2026",
                 "v": "2026"
-            }, 
-            {
+  
+            }, {
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -499,12 +501,11 @@
             "value": [{
                 "n": "全部",
                 "v": "all"
-            },
-               {
+            }, {
                 "n": "2026",
                 "v": "2026"
-            }, 
-             {
+  
+            }, {
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -610,16 +611,14 @@
             "value": [{
                 "n": "全部",
                 "v": "all"
-            },
-               {
+            }, {
                 "n": "2026",
                 "v": "2026"
-            },  
-            {
+  
+            }, {
                 "n": "2025",
                 "v": "2025"
-            }, 
-            {
+            }, {
                 "n": "2024",
                 "v": "2024"
             }, {
@@ -689,166 +688,45 @@
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let videoUrl = input.split("?")[0];
-            
-            // 动态生成百万IP池
-            function generateMillionIPs() {
-                const ipPool = [];
-                
-                // 生成A类地址段 (1.0.0.0 - 126.255.255.255)
-                for (let a = 1; a <= 126; a++) {
-                    if (a === 10 || a === 127) continue; // 跳过私有地址和回环
-                    for (let b = 0; b <= 255; b++) {
-                        // 每个A类段随机选择部分B类地址
-                        if (Math.random() < 0.1) { // 10%的概率选择该B段
-                            for (let c = 0; c <= 255; c++) {
-                                // 每个B类段随机选择部分C类地址
-                                if (Math.random() < 0.01) { // 1%的概率选择该C段
-                                    const ip = `${a}.${b}.${c}.${Math.floor(Math.random() * 254) + 1}`;
-                                    const port = [80, 8080, 3128, 443, 8443][Math.floor(Math.random() * 5)];
-                                    ipPool.push(`http://${ip}:${port}`);
-                                }
-                            }
-                        }
-                    }
+            let api = "http://sspa8.top:8100/api/?key=jidinghe666888&url=" + input.split("?")[0];
+            console.log(api);
+            let response = fetch(api, {
+                method: 'get',
+                headers: {
+                    'User-Agent': 'okhttp/3.14.9',
+                    'Content-Type': 'application/x-www-form-urlencoded'
                 }
-                
-                // 生成B类地址段 (128.0.0.0 - 191.255.255.255)
-                for (let a = 128; a <= 191; a++) {
-                    for (let b = 0; b <= 255; b++) {
-                        if (a === 172 && b >= 16 && b <= 31) continue; // 跳过私有地址
-                        if (Math.random() < 0.05) { // 5%的概率选择该B段
-                            for (let c = 0; c <= 255; c++) {
-                                if (Math.random() < 0.005) { // 0.5%的概率选择该C段
-                                    const ip = `${a}.${b}.${c}.${Math.floor(Math.random() * 254) + 1}`;
-                                    const port = [80, 8080, 3128, 443, 8443][Math.floor(Math.random() * 5)];
-                                    ipPool.push(`http://${ip}:${port}`);
-                                }
-                            }
-                        }
-                    }
-                }
-
-                // 生成C类地址段 (192.0.0.0 - 223.255.255.255)
-                for (let a = 192; a <= 223; a++) {
-                    for (let b = 0; b <= 255; b++) {
-                        if (a === 192 && b === 168) continue; // 跳过私有地址
-                        if (a === 198 && b >= 18 && b <= 19) continue; // 跳过测试地址
-                        if (Math.random() < 0.02) { // 2%的概率选择该B段
-                            for (let c = 0; c <= 255; c++) {
-                                if (Math.random() < 0.002) { // 0.2%的概率选择该C段
-                                    const ip = `${a}.${b}.${c}.${Math.floor(Math.random() * 254) + 1}`;
-                                    const port = [80, 8080, 3128, 443, 8443][Math.floor(Math.random() * 5)];
-                                    ipPool.push(`http://${ip}:${port}`);
-                                }
-                            }
-                        }
-                    }
-                }
-                
-                return ipPool;
+            });
+            let bata = JSON.parse(response);
+            if (bata.url.includes("mgtv")) {
+                input = {
+                    parse: 0,
+                    url: bata.url,
+                    jx: 0,
+                    danmaku: "" + input.split("?")[0]
+                };
+            } else {
+                input = {
+                    parse: 0,
+                    url: input.split("?")[0],
+                    jx: 1,
+                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                };
             }
-            
-            // 定义解析接口
-            const parseApis = [
-    "https://niubi.69mini.com/jsonapi/?url=",
-    "http://jiexi.fc8001.top/GswHCTkjDZybiWZy.php?url="
-            ];
-            
-            let playUrl = videoUrl; // 默认使用原始地址
-            let found = false;
-            
-            // 轮询尝试解析接口
-            for (let api of parseApis) {
-                try {
-                    // 动态生成随机IP（每次都是全新的IP）
-                    const randomA = Math.floor(Math.random() * 223) + 1;
-                    let randomB = Math.floor(Math.random() * 256);
-                    let randomC = Math.floor(Math.random() * 256);
-                    let randomD = Math.floor(Math.random() * 254) + 1;
-                    
-                    // 避免私有地址和特殊地址
-                    if (randomA === 10 || 
-                        (randomA === 172 && randomB >= 16 && randomB <= 31) ||
-                        (randomA === 192 && randomB === 168) ||
-                        randomA === 127) {
-                        randomA = 8; // 回退到可用的公共地址
-                    }
-                    
-                    const randomPort = [80, 8080, 3128, 443, 8443][Math.floor(Math.random() * 5)];
-                    const randomProxy = `http://${randomA}.${randomB}.${randomC}.${randomD}:${randomPort}`;
-                    const proxyIp = `${randomA}.${randomB}.${randomC}.${randomD}`;
-                    
-                    // 生成随机User-Agent
-                    const userAgents = [
-                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
-                        'Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1'
-                    ];
-                    const randomUserAgent = userAgents[Math.floor(Math.random() * userAgents.length)];
-                    
-                    let fullApi = api + encodeURIComponent(videoUrl);
-                    let response = fetch(fullApi, {
-                        method: 'GET',
-                        headers: {
-                            'User-Agent': randomUserAgent,
-                            'X-Forwarded-For': proxyIp,
-                            'X-Real-IP': proxyIp,
-                            'CF-Connecting-IP': proxyIp,
-                            'Client-IP': proxyIp,
-                            'X-Forwarded-Host': proxyIp,
-                            'Forwarded': `for=${proxyIp}`,
-                            'Referer': 'https://www.mgtv.com/',
-                            'Accept': 'application/json, text/plain, */*',
-                            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'
-                        },
-                        timeout: 10000
-                    });
-                    
-                    let data = JSON.parse(response);
-                    if (data.url && data.url.trim()) {
-                        // 检查是否是被屏蔽的地址
-                        if (data.url.trim().startsWith("https://d.feiliupan.com/t/112641693848702976/IP使用次数超限，请加群签到.mp4") ||
-                            data.url.trim().startsWith("https://web.wya6.com/d/super/zhuimi/qfad.mp4") ||
-                            data.url.trim().startsWith("https://web.wya6.com/d/super/zhuimi/Anomaly.mp4")) {
-                            // 跳过被屏蔽地址，继续尝试其他解析接口
-                            continue;
-                        }
-                        playUrl = data.url;
-                        found = true;
-                        break; // 成功获取播放地址，跳出循环
-                    }
-                } catch (e) {
-                    // 当前接口失败，尝试下一个
-                    continue;
-                }
-            }
-            
-            // 最终检查地址是否被屏蔽
-            if (playUrl.startsWith("https://web.wya6.com/d/super/zhuimi/qfad.mp4") ||
-                playUrl.startsWith("https://web.wya6.com/d/super/zhuimi/Anomaly.mp4")) {
-                playUrl = videoUrl; // 回退到原始视频地址
-            }
-            
+        } catch {
             input = {
                 parse: 0,
-                url: playUrl,
-                jx: found ? 0 : 1,
-                danmaku: "" + videoUrl
-            };
-        } catch (e) {
-            // 所有解析失败时使用原始地址
-            let videoUrl = input.split("?")[0];
-            input = {
-                parse: 0,
-                url: videoUrl,
+                url: input.split("?")[0],
                 jx: 1,
-                danmaku: "" + videoUrl
+                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
             };
         }
     }),
+    // 手动调用解析请求json的url,此lazy不方便
+    // lazy:'js:print(input);fetch_params.headers["user-agent"]=MOBILE_UA;let html=request(input);let rurl=html.match(/window\\.open\\(\'(.*?)\',/)[1];rurl=urlDeal(rurl);input={parse:1,url:rurl};',
+    // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级: 'json:data.hitDocs;title;img;updateInfo||rightCorner.text;playPartId',
+    // 一级:'json:data.hitDocs;title;img;updateInfo;playPartId',
     二级: $js.toString(() => {
         fetch_params.headers.Referer = "https://www.mgtv.com";
         fetch_params.headers["User-Agent"] = MOBILE_UA;
@@ -947,12 +825,13 @@
         } else {
             print(input + "暂无片源")
         }
-        VOD.vod_play_from = "老三4K";
+        VOD.vod_play_from = "mgtv";
         VOD.vod_play_url = d.map(function(it) {
             return it.title + "$" + it.url
         }).join("#");
         setResult(d);
     }),
+
     搜索: $js.toString(() => {
         fetch_params.headers.Referer = "https://www.mgtv.com";
         fetch_params.headers["User-Agent"] = MOBILE_UA;
