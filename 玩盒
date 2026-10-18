@@ -1,11 +1,11 @@
-{  "spider":"https://8960.kstore.space/lib/mi260903.png",
+{  "spider":"",
   
    "spider":"https://xn--b99b-wn6lw489o.v.nxog.top/m/jar?id=index;md5;678e6aa8cd76dad3bf565c8d98238bce",
    "logo": "https://8960.kstore.space/lib/ys.gif",
    "warningText":"⚠️请勿商用.禁止售卖.侵权联系删除⚠️",
    "sites": [
    
-   {"key": "豆豆","name":"🅱【4K完盒影视】免费观看禁止贩卖","type": 3,"jar":"./lib/xiaosa.jar","api": "csp_Douban","searchable": 0}, 
+   {"key": "豆豆","name":"🅱【4K完盒影视】免费观看禁止贩卖","type": 3,"jar":"https://8960.kstore.space/lib/xiaosa.jar","api": "csp_Douban","searchable": 0}, 
        {
             "key": "白鸭",
             "name": "🅱【4K完盒影视】免费观看禁止贩卖",
@@ -60,7 +60,7 @@
             "filterable": 1
         },
     
-     api相同，留着参考,对应ycZY的drpy.min.js
+    
    {"key": "新腾4k","name": "臻彩","type": 3,"api": "http://wang.qijiyun.vip/yun2k/drpy_libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 1,"ext": "./js/tx-1.js"},
    {"key": "芒弹","name": "原画","type": 3,"api": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/drpy_libs/drpy2.min.js","ext": "https://nas-b84f2.any168.net/lib/4KMG.js"},
      
@@ -83,7 +83,7 @@
       "order_num": 0,
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享双人.js"
     },
-     {"key": "移动4K","name": "盘他","type": 3,"jar": "./lib/og2688.png","api":"csp_Yidong4K","searchable": 1,"quickSearch": 1, "filterable": 1,"timeout": 60},
+     {"key": "移动4K","name": "盘他","type": 3,"jar": "https://8960.kstore.space/lib/og2688.png","api":"csp_Yidong4K","searchable": 1,"quickSearch": 1, "filterable": 1,"timeout": 60},
       {
       "key": "山木",
       "name": "山木",
@@ -115,7 +115,7 @@
       "key": "一起影视",
       "name": "一起",
       "type": 3,
-      "jar":"./lib/xiaosa.jar",
+      "jar":"https://8960.kstore.space/lib/xiaosa.jar",
       "api": "csp_AppYQK",
       "searchable": 1,
       "quickSearch": 1,
@@ -307,12 +307,12 @@
   
    
    
-      //{"key": "爱看","name": "剧下","type": 3,"jar":"./lib/mi260820.png",  "api": "csp_AiKan","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://43.248.117.123:4680"},
-//{"key": "泥巴影视","name": "泥泥","type": 3,"api": "http://wang.qijiyun.vip/yun2k/drpy_libs/drpy2.min.js","ext": "./lib/泥泥视频.js"},
+      //{"key": "爱看","name": "剧下","type": 3,"jar":"https://8960.kstore.space/lib/mi260820.png",  "api": "csp_AiKan","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://43.248.117.123:4680"},
+//{"key": "泥巴影视","name": "泥泥","type": 3,"api": "http://wang.qijiyun.vip/yun2k/drpy_libs/drpy2.min.js","ext": "https://8960.kstore.space/lib/泥泥视频.js"},
    
-   {"key": "T云播","name": "云云","type": 3,"jar":"./lib/mi260820.png", "api": "csp_YunZhenXiang","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"index_url": "https://ss.trgfd.cn/cache/index/com.huohuavideo.app.json","key_api": "https://www.tangsan.fun/zx.php"}}, 
-   {"key": "独播","name": "独播","type": 3,"jar": "./lib/dbk.jar","api": "csp_Duboku"},
- {"key": "kanju","name": "云视","type": 3,"searchable": 0,"quickSearch": 0,"filterable": 0,"api":"./lib/AppToV5.py", "ext": "http://110.42.35.214:1112" },
+   {"key": "T云播","name": "云云","type": 3,"jar":"https://8960.kstore.space/lib/mi260820.png", "api": "csp_YunZhenXiang","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"index_url": "https://ss.trgfd.cn/cache/index/com.huohuavideo.app.json","key_api": "https://www.tangsan.fun/zx.php"}}, 
+   {"key": "独播","name": "独播","type": 3,"jar": "https://8960.kstore.space/lib/dbk.jar","api": "csp_Duboku"},
+ {"key": "kanju","name": "云视","type": 3,"searchable": 0,"quickSearch": 0,"filterable": 0,"api":"https://8960.kstore.space/lib/AppToV5.py", "ext": "http://110.42.35.214:1112" },
   
  {"key":"wencai","name":"文彩","type":3,"jar":"https://yc.wya6.cn/pz/wyjk.php;md5;a38ceb9f12db72a08e5441a1947e829a","api":"csp_WenCai","searchable": 1,"ext":"https://www.tjrongze.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.jiabaide.cn"},
   {"key": "百姓","name": "百姓","type": 3,"api": "csp_Wwys", "searchable": 1,"filterable": 1,"changeable": 1,"jar":"https://yc.wya6.cn/pz/wyjk.php;md5;a38ceb9f12db72a08e5441a1947e829a","ext": "https://vip.wwgz.cn:5200"},
