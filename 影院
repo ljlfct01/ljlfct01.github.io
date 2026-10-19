@@ -3,7 +3,24 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "https://13935.kstore.space/b/logo.gif",
   "sites": [
-  
+    {
+      "key": "fgd",
+      "name": "希尔👑4K①",
+      "playerType": "2",
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/jh.js"
+    },
+      {
+      "key": "CAIJI采",
+      "name": "📢🔥全",
+      "type": 4,
+      "api": "http://116.62.133.86:56688/%E9%87%87%E9%9B%86/cai.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
       {
             "key": "聚盘影视",
             "name": "聚盘",
@@ -58,8 +75,17 @@
       "type": 3,
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
       "ext": "https://app.69mini.com/js/mg.js"
+    },
+   {
+      "key": "无意哔哩",
+      "name": "哔哩┃无意",
+      "type": 3,
+      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yp.wya6.cn/nbwj/哔哩视频.js"
     }
-
   ],
   "lives": [
 
