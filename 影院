@@ -3,11 +3,19 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "https://13935.kstore.space/b/logo.gif",
   "sites": [
-
-
-      {
+         {
             "key": "影探影视",
             "name": "影探",
+            "type": 3,
+            "api": "https://fastlink.cokey.xyz/f/PkWZt1/影探.py",
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+      {
+            "key": "聚盘影视",
+            "name": "聚盘",
             "type": 3,
             "api": "http://103.236.73.178:40782/mob/lib/%E8%81%9A%E5%90%88.py",
             "timeout": 10,
@@ -33,9 +41,23 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }
-
- 
+        },
+    {
+      "key": "qq",
+      "name": "腾讯🍋4K",
+      "playerType": 2,
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/qq.js"
+    },
+    {
+      "key": "mg",
+      "name": "芒果🍋4K",
+      "playerType": 2,
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/mg.js"
+    }
 
   ],
   "lives": [
@@ -58,16 +80,46 @@
   ],
   "parses": [
     {
-      "name": "自定",
-      "type": 1,
-      "url": "http://4kzj.lyyytv.cn/api/index?parsesId=11&appid=10001&videoUrl="
-    },
-    {
       "name": "自定：请先设置",
       "type": 1,
-      "url": "http://jiexi.fc8001.top/QdmDeQSTpxSyDwgn.php?url="
+      "url": "http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl="
 
     }
 
+  ],
+  "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩"
   ]
 }
