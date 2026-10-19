@@ -61,20 +61,7 @@
 
   ],
   "lives": [
-     {
-      "name": "jackTV",
-      "url": "https://mpimg.cn/down.php/0f382a3d3ee915993b5fd68912bf3cb9.py",
-      "type": 0,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-     {
-      "name": "直播",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
-      "type": 0,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
     {
       "name": "直播2",
       "url": "http://38.75.136.137:88/api/tvlist.php",
