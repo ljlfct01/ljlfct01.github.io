@@ -1,0 +1,138 @@
+mixed-port: 7897
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: strict
+dns:
+  enable: true
+  listen: "127.0.0.1:5335"
+  use-system-hosts: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: [180.76.76.76, 182.254.118.118, 8.8.8.8, 180.184.2.2]
+  nameserver: [180.76.76.76, 119.29.29.29, 180.184.1.1, 223.5.5.5, 8.8.8.8, "https://223.6.6.6/dns-query#h3=true", "https://dns.alidns.com/dns-query", "https://cloudflare-dns.com/dns-query", "https://doh.pub/dns-query"]
+  fallback: ["https://dns.quad9.net/dns-query", "https://dns.alidns.com/dns-query", "https://doh.pub/dns-query", "https://public.dns.iij.jp/dns-query", "https://101.101.101.101/dns-query", "https://208.67.220.220/dns-query", "tls://8.8.4.4", "tls://1.0.0.1:853", "https://cloudflare-dns.com/dns-query", "https://dns.google/dns-query"]
+  fallback-filter:
+    geoip: true
+    ipcidr: [240.0.0.0/4, 0.0.0.0/32, 127.0.0.1/32]
+    domain: ["+.google.com", "+.facebook.com", "+.twitter.com", "+.youtube.com", "+.xn--ngstr-lra8j.com", "+.google.cn", "+.googleapis.cn", "+.googleapis.com", "+.gvt1.com"]
+  fake-ip-filter: ["*.lan", "stun.*.*.*", "stun.*.*", time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, ntp.aliyun.com, ntp1.aliyun.com, ntp2.aliyun.com, ntp3.aliyun.com, ntp4.aliyun.com, ntp5.aliyun.com, ntp6.aliyun.com, ntp7.aliyun.com, time1.aliyun.com, time2.aliyun.com, time3.aliyun.com, time4.aliyun.com, time5.aliyun.com, time6.aliyun.com, time7.aliyun.com, "*.time.edu.cn", time1.apple.com, time2.apple.com, time3.apple.com, time4.apple.com, time5.apple.com, time6.apple.com, time7.apple.com, time1.google.com, time2.google.com, time3.google.com, time4.google.com, music.163.com, "*.music.163.com", "*.126.net", musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, "*.kuwo.cn", api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, "*.y.qq.com", streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, "*.xiami.com", "*.music.migu.cn", music.migu.cn, "*.msftconnecttest.com", "*.msftncsi.com", localhost.ptlogin2.qq.com, "*.*.*.srv.nintendo.net", "*.*.stun.playstation.net", "xbox.*.*.microsoft.com", "*.ipv6.microsoft.com", "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
+profile:
+  store-selected: true
+  store-fake-ip: false
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    QUIC:
+      ports: [443, 8443]
+
+proxies:
+  - {name: "🇯🇵 日本A2|国际优化", type: vless, server: xz-il1li1il11li.mlintogaainy.com, port: 25008, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: TtbRTkqYvPswzhL6GWz9XOTeo1MV461ucC5jwX55AjA, short-id: 729922c8ca14, _spider-x: /}}
+  - {name: "🇹🇼 台湾03", type: vless, server: tpv-3lk.ysmebetoms.com, port: 46973, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: ODErao--6a6rTo7IuWGKKLxs-n80W8JdfE6EoPNfNzU, short-id: efdcedb83891, _spider-x: /}}
+  - {name: "🇹🇼 台湾02", type: vless, server: tei-2ck.ysmebetoms.com, port: 46972, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: mdFOsw2uk1y6eaGdQ1nB0S2aBAA858FyiQw7Z76ttHM, short-id: 1ce4dbdc, _spider-x: /}}
+  - {name: "🇹🇼 台湾01", type: vless, server: tdf-1my.ysmebetoms.com, port: 46171, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: 5758v-EKXwA9jw28T4551ipunuxyUFGqz36KB2POthA, short-id: d61e9f34cf, _spider-x: /}}
+  - {name: "🇭🇰 香港原生-x15", type: vless, server: hkt1-sdrg.ysmebetoms.com, port: 21951, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: 4FCme68cAEZHNzjxE6kvnJLZjUpDsqtD3wBdnPqM8V0, short-id: "974371", _spider-x: /}}
+  - {name: "🇯🇵 日本A4|国际优化", type: vless, server: xz-il1li1il11li.mlintogaainy.com, port: 25010, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: 2Y5fuhfLFA6rbfKulWAqBUijXa_59-KNMK6N4deZD1k, short-id: 44ca0b94ba7617ed, _spider-x: /}}
+  - {name: "🇯🇵 日本A1|国际优化", type: vless, server: xz-il1li1il11li.mlintogaainy.com, port: 25003, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: bDpZ4SXjY-qONFjlx5AwPW4MHWNWs9e_QruWZeEedG0, short-id: ae2509, _spider-x: /}}
+  - {name: "🇸🇬 新加坡01", type: vless, server: sgh-1gm.ysmebetoms.com, port: 45971, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: cikphJ_WqotntxvQsvwUIeSU3wGcgvVhW_9sPrhA_EM, short-id: cdfbd3768c0434ff, _spider-x: /}}
+  - {name: "🇹🇼 台湾原生x15", type: vless, server: tys-ldc.ysmebetoms.com, port: 46271, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: SKypxJn7zBb2Ur7WkevpKbTyyi1vBCCh55nehZikbCY, short-id: 2909ad1e2e, _spider-x: /}}
+  - {name: "🇸🇬 新加坡02", type: vless, server: spf-2dfj.ysmebetoms.com, port: 45972, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: 4NCOGK86v9sL9Nbo0KQdYnDvGxQ3YUuPhgoKsbOr8mM, short-id: 222fe32d, _spider-x: /}}
+  - {name: "🇸🇬 新加坡03", type: vless, server: slb-3yds.ysmebetoms.com, port: 45973, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: NrcZZmi2zvDp7Ds3PxSUXFcis6CsUkIrrKrdgA3YxhM, short-id: "90", _spider-x: /}}
+  - {name: "🇯🇵 日本A5|国际优化", type: vless, server: xz-il1li1il11li.mlintogaainy.com, port: 25011, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: ju_ZUqKcmTnEwEpapbXVKwb-Bv8ZzvhANr1jGENvzSk, short-id: d580e2, _spider-x: /}}
+  - {name: "🇯🇵 日本A3|国际优化", type: vless, server: xz-il1li1il11li.mlintogaainy.com, port: 25009, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: qtBm4_T_q2BlZLJjPi3HJc8XveGqoPkUrnQjyIoj7jE, short-id: 170a7cecc89a, _spider-x: /}}
+  - {name: "🇯🇵 日本01", type: vless, server: jrtn-1djjg.ysmebetoms.com, port: 39971, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: 4KaySzMg1NxWXoM40aEi_6luuW4T3DiHFZ-fkzjB1CQ, short-id: 4ea46805f42b31, _spider-x: /}}
+  - {name: "🇯🇵 日本03", type: vless, server: jogv-3qmx.ysmebetoms.com, port: 39973, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: BthAym3KJlUQJ3qT9YQYWi0cznTT8X7odbGUkbXFb0w, short-id: "5397", _spider-x: /}}
+  - {name: "🇯🇵 日本02", type: vless, server: jlgn-2kud.ysmebetoms.com, port: 39972, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: zXAlgQpme1fakdT254uny94G2uPfrKdD9U1KwoZnlCM, short-id: ea0b7ef1ec50, _spider-x: /}}
+  - {name: "🇹🇼 台湾原生A1|国际优化", type: vless, server: xz-il1li1il11li.mlintogaainy.com, port: 25015, uuid: 6cb394f6-2215-47d4-9e21-4021c8a20942, encryption: none, tls: true, servername: deltaforce.garena.com, client-fingerprint: chrome, network: tcp, flow: xtls-rprx-vision, udp: true, reality-opts: {public-key: FR4oxxQLPIroU30iUXTN5IUkEyvf67uyZZ87mSwAuFE, short-id: fe92f259f71a, _spider-x: /}}
+  - {name: "us-dc-家宽", type: socks5, server: 163.123.201.161, port: 5946, username: wuncokup, password: omkav7hodmor, udp: true, dialer-proxy: "🔗 US家宽中转"}
+  - {name: "🇺🇸 美国-美国加州C", server: 23.224.30.75, port: 30008, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.11199982.xyz, network: ws, ws-opts: {path: /path/172910173003}}
+  - {name: "🇹🇼 台湾-中国台湾", server: 61.216.171.33, port: 30001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.47040149.xyz, network: ws, ws-opts: {path: /path/172910173003}}
+  - {name: "🇭🇰 香港-中国香港C", server: 118.107.245.20, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.89925597.xyz, network: ws, ws-opts: {path: /path/172910173003}}
+  - {name: "🇯🇵 日本-★日本东京A★年付专线", server: 104.233.161.201, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.43744121.xyz, network: ws, ws-opts: {path: /path/172910173003}}
+  - {name: "🇯🇵 日本-日本大阪B", server: 137.220.142.183, port: 46666, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.45534865.xyz, network: ws, ws-opts: {path: /path/172910173003}}
+  - {name: "4g专用-移动专线A", server: 103.181.164.237, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "4g专用-移动专线B", server: 103.181.164.145, port: 52252, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 中国-中国安徽A", server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 中国-联通一区(山东)", server: 47.105.62.65, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 中国-联通二区(北京)", server: 39.97.231.134, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 中国-电信四区(浙江)", server: 121.199.163.86, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 中国-联通三区(河北)", server: 47.92.84.25, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 中国-教育网专区(安徽)", server: 112.132.215.14, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 中国-联通四区(上海)", server: 47.100.87.160, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 中国-电信六区(湖南)", server: 120.210.205.59, port: 52002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: select
+    proxies: ["⚡ 自动选择", DIRECT, REJECT, "🇯🇵 日本-日本大阪B","🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+  - name: "⚡ 自动选择"
+    type: url-test
+    proxies: ["🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: false
+  - name: "🔗 US家宽中转"
+    type: select
+    proxies: ["🇯🇵 日本A2|国际优化"]
+  - name: "🛑 广告拦截"
+    type: select
+    proxies: [REJECT, DIRECT, "🚀 节点选择"]
+  - name: "🤖 AI 服务"
+    type: select
+    proxies: ["🚀 节点选择", "⚡ 自动选择", DIRECT, REJECT, "🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+  - name: "✨ Gemini"
+    type: select
+    proxies: ["🚀 节点选择", "⚡ 自动选择", DIRECT, REJECT, "🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+  - name: "🔍 谷歌服务"
+    type: select
+    proxies: ["🚀 节点选择", "⚡ 自动选择", DIRECT, REJECT, "🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+  - name: "🏠 私有网络"
+    type: select
+    proxies: [DIRECT, REJECT, "🚀 节点选择", "⚡ 自动选择", "🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+  - name: "🔒 国内服务"
+    type: select
+    proxies: [DIRECT, REJECT, "🚀 节点选择", "⚡ 自动选择", "🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+  - name: "🌍 非中国"
+    type: select
+    proxies: ["🚀 节点选择", "⚡ 自动选择", DIRECT, REJECT, "🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+  - name: "🐟 漏网之鱼"
+    type: select
+    proxies: ["🚀 节点选择", "⚡ 自动选择", DIRECT, REJECT, "🇯🇵 日本A2|国际优化", "🇹🇼 台湾03", "🇹🇼 台湾02", "🇹🇼 台湾01", "🇭🇰 香港原生-x15", "🇯🇵 日本A4|国际优化", "🇯🇵 日本A1|国际优化", "🇸🇬 新加坡01", "🇹🇼 台湾原生x15", "🇸🇬 新加坡02", "🇸🇬 新加坡03", "🇯🇵 日本A5|国际优化", "🇯🇵 日本A3|国际优化", "🇯🇵 日本01", "🇯🇵 日本03", "🇯🇵 日本02", "🇹🇼 台湾原生A1|国际优化", us-dc-家宽]
+
+rule-providers:
+  category-ads-all: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ads-all.mrs", path: ./ruleset/category-ads-all.mrs, interval: 86400, format: mrs}
+  private: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/private.mrs", path: ./ruleset/private.mrs, interval: 86400, format: mrs}
+  private-ip: {type: http, behavior: ipcidr, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/private.mrs", path: ./ruleset/private-ip.mrs, interval: 86400, format: mrs}
+  geolocation-cn: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/geolocation-cn.mrs", path: ./ruleset/geolocation-cn.mrs, interval: 86400, format: mrs}
+  cn-ip: {type: http, behavior: ipcidr, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/cn.mrs", path: ./ruleset/cn-ip.mrs, interval: 86400, format: mrs}
+  geolocation-!cn: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/geolocation-!cn.mrs", path: "./ruleset/geolocation-!cn.mrs", interval: 86400, format: mrs}
+  openai: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/openai.mrs", path: ./ruleset/openai.mrs, interval: 86400, format: mrs}
+  anthropic: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/anthropic.mrs", path: ./ruleset/anthropic.mrs, interval: 86400, format: mrs}
+  category-ai-chat-!cn: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-chat-!cn.mrs", path: "./ruleset/category-ai-chat-!cn.mrs", interval: 86400, format: mrs}
+  google-gemini: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google-gemini.mrs", path: ./ruleset/google-gemini.mrs, interval: 86400, format: mrs}
+  google: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs", path: ./ruleset/google.mrs, interval: 86400, format: mrs}
+  google-ip: {type: http, behavior: ipcidr, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs", path: ./ruleset/google-ip.mrs, interval: 86400, format: mrs}
+  cn: {type: http, behavior: domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/cn.mrs", path: ./ruleset/cn.mrs, interval: 86400, format: mrs}
+
+rules:
+  - RULE-SET,category-ads-all,🛑 广告拦截
+  - RULE-SET,private,🏠 私有网络
+  - RULE-SET,private-ip,🏠 私有网络,no-resolve
+  - RULE-SET,google-gemini,✨ Gemini
+  - RULE-SET,openai,🤖 AI 服务
+  - RULE-SET,anthropic,🤖 AI 服务
+  - RULE-SET,category-ai-chat-!cn,🤖 AI 服务
+  - RULE-SET,geolocation-cn,🔒 国内服务
+  - RULE-SET,cn-ip,🔒 国内服务,no-resolve
+  - RULE-SET,google,🔍 谷歌服务
+  - RULE-SET,google-ip,🔍 谷歌服务,no-resolve
+  - RULE-SET,geolocation-!cn,🌍 非中国
+  - RULE-SET,cn,🔒 国内服务
+  - MATCH,🐟 漏网之鱼
