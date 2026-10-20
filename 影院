@@ -107,11 +107,15 @@
   ],
   "parses": [
     {
-      "name": "Web聚合",
+      "name": "解析聚合",
       "type": 3,
-      "url": "Web"
+      "url": "Demo"
     },
-
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
     {
       "name": "自定",
       "type": 1,
