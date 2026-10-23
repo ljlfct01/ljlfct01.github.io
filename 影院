@@ -119,7 +119,11 @@
 
   ],
   "parses": [
-
+    {
+      "name": "轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
     {
       "name": "自定",
       "type": 1,
