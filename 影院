@@ -102,6 +102,13 @@
   ],
   "lives": [
     {
+      "name": "live",
+      "url": "http://tvv.tw/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "htv",
       "url": "https://www.lequxiang.com.cn/down.php/2f90a172a617b5d720d629695d44ed39.txt",
       "type": 0,
