@@ -5,6 +5,22 @@
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
     {
+      "key": "qq",
+      "name": "腾讯🍋4K",
+      "playerType": 2,
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/qq.js"
+    },
+    {
+      "key": "mg",
+      "name": "芒果🍋4K",
+      "playerType": 2,
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/mg.js"
+    },
+    {
       "name": "🔥豆瓣┃推荐",
       "key": "Douban",
       "type": 3,
