@@ -101,7 +101,13 @@
      {"key": "4k5","name": "zhibo5","type": 3,"api": "https://pan.szfx.top/down.php/12cb6d9dafbf1303bf9408edc1b108e6.py"}
   ],
   "lives": [
-
+    {
+      "name": "htv",
+      "url": "https://www.lequxiang.com.cn/down.php/2f90a172a617b5d720d629695d44ed39.txt",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "直播2",
       "url": "http://38.75.136.137:88/api/tvlist.php",
