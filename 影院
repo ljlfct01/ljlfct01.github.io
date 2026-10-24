@@ -4,6 +4,20 @@
   "logo": "https://13935.kstore.space/b/logo.gif",
   "sites": [
     {
+      "key": "设置",
+      "name": "网弹|设置",
+      "type": 3,
+      "api": "csp_ConfigCAT",
+      "api": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;0ac3913718d1e3f7fbfbc6a518d0ee8e",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
+    },
+    {
       "key": "fgd",
       "name": "希尔👑4K①",
       "playerType": "2",
@@ -138,15 +152,11 @@
       "url": "Sequence"
     },
     {
-      "name": "自定",
+      "name": "自定：请先设置",
       "type": 1,
-      "url": "http://4kzj.lyyytv.cn/api/index?parsesId=11&appid=10001&videoUrl="
-    },
-    {
-      "name": "自定1",
-      "type": 1,
-      "url": "https://niubi.69mini.com/api/?key=0a93b8f6303b79f7be0465c30d305c44&url="
+      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getuserjx&url="
     }
+
   ],
   "flags": [
     "youku",
