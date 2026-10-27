@@ -232,11 +232,13 @@
      {"key": "4k5","name": "zhibo5","type": 3,"api": "https://pan.szfx.top/down.php/12cb6d9dafbf1303bf9408edc1b108e6.py"}
   ],
   "lives": [
+ 
     {
       "name": "live",
       "url": "http://tvv.tw/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
+      "playerType": 3,
       "type": 0,
-      "ua": "okHttp/Mod-1.5.0.0",
+      "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -250,6 +252,7 @@
     {
       "name": "直播2",
       "url": "http://38.75.136.137:88/api/tvlist.php",
+      "playerType": 3,
       "type": 0,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -257,8 +260,9 @@
    {
       "name": "直播3",
       "url": "http://lzzlj.xyys.site/simple-play1.php?mode=play1;id=b654513ab752f7a72e6445fcb756a74f;token=s95yF93zdQagdsZXDU4Fghj7vPQPj1VC",
+      "playerType": 3,
       "type": 0,
-      "ua": "okHttp/Mod-1.5.0.0",
+      "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
