@@ -3,27 +3,11 @@
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
-
-      {
-            "key": "聚盘影视",
-            "name": "聚盘",
-            "type": 3,
-            "api": "http://103.236.73.178:40782/mob/lib/%E8%81%9A%E5%90%88.py",
-            "timeout": 10,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-      {
-            "key": "懂帝影视",
-            "name": "懂帝",
-            "type": 3,
-            "api": "http://103.236.73.178:40782/mob/lib/%E6%87%82%E7%89%87%E5%B8%9D.py",
-            "timeout": 10,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
+     {
+      "name": "影探影视",
+      "url": "http://4kzj.lyyytv.cn/api/index/store?id=2&appid=10001"
+    },
+    
          {
             "key": "星耀4K",
             "name": "星影",
@@ -32,18 +16,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-
-         {
-            "key": "影探影视",
-            "name": "影探",
-            "type": 3,
-            "api": "https://fastlink.cokey.xyz/f/PkWZt1/影探.py",
-            "timeout": 10,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
         }
+
+ 
 
   ],
   "lives": [
