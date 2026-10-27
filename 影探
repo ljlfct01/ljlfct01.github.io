@@ -1,89 +1,14 @@
 {
-  "spider": "https://file.icve.com.cn/file_doc/997/227/F9538F89E13ADF0CFBCA7909AE555AB6.png;md5;f9538f89e13adf0cfbca7909ae555ab6",
-  "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
-  "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
-  "sites": [
+  "urls": [
+
      {
       "name": "影探影视",
       "url": "http://4kzj.lyyytv.cn/api/index/store?id=2&appid=10001"
-    },
-    
-         {
-            "key": "星耀4K",
-            "name": "星影",
-            "type": 4,
-            "api": "http://8.134.205.252:39466/pz/sx4k.php/api.php/provide/vod/?ac=list",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        }
+    }
+
+   
+  
 
  
-
-  ],
-  "lives": [
-
-
-    {
-      "name": "直播",
-      "url": "http://38.75.136.137:88/api/tvlist.php",
-      "type": 0,
-      "ua": "okHttp/Mod-1.5.0.0",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-   {
-      "name": "直播2",
-      "url": "http://lzzlj.xyys.site/simple-play1.php?mode=play1;id=b654513ab752f7a72e6445fcb756a74f;token=s95yF93zdQagdsZXDU4Fghj7vPQPj1VC",
-      "type": 0,
-      "ua": "okHttp/Mod-1.5.0.0",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-
-  ],
-  "parses": [
-
-    {
-      "name": "自定",
-      "type": 1,
-      "url": "http://4kzj.lyyytv.cn/api/index?parsesId=11&appid=10001&videoUrl="
-    }
-
-  ],
-  "flags": [
-    "youku",
-    "优酷",
-    "优 酷",
-    "优酷视频",
-    "qq",
-    "腾讯",
-    "腾 讯",
-    "腾讯视频",
-    "iqiyi",
-    "qiyi",
-    "奇艺",
-    "爱奇艺",
-    "爱 奇 艺",
-    "m1905",
-    "xigua",
-    "letv",
-    "leshi",
-    "乐视",
-    "乐 视",
-    "sohu",
-    "搜狐",
-    "搜 狐",
-    "搜狐视频",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "芒果",
-    "imgo",
-    "芒果TV",
-    "芒 果 T V",
-    "bilibili",
-    "哔 哩",
-    "哔 哩 哔 哩"
   ]
 }
