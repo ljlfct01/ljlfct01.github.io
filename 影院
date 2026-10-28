@@ -4,18 +4,15 @@
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
     {
-      "key": "设置",
-      "name": "网弹|设置",
+      "name": "🔥豆瓣┃推荐",
+      "key": "Douban",
       "type": 3,
-      "api": "csp_ConfigCAT",
-      "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;0ac3913718d1e3f7fbfbc6a518d0ee8e",
+      "api": "csp_DoubanAmns",
+      "indexs": 1,
       "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
+      "quickSearch": 0,
+      "changeable": 1,
+      "ext": "Douban"
     },
     {
       "key": "fgd",
