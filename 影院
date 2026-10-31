@@ -197,13 +197,9 @@
 
   ],
   "parses": [
-    {
-      "name": "轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
+
      {
-      "name": "自定：请先设置",
+      "name": "自定",
       "type": 1,
       "url": "http://140.210.14.201:2026/api/index?parsesId=3&appid=10000&videoUrl="
     }
