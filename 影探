@@ -3,17 +3,35 @@
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
-
-      {
-            "key": "聚盘影视",
-            "name": "聚盘",
+         {
+            "key": "影探影视",
+            "name": "影探",
             "type": 3,
-            "api": "http://103.236.73.178:40782/mob/lib/%E8%81%9A%E5%90%88.py",
+            "api": "https://gh-proxy.com//https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E5%BD%B1%E6%8E%A2.py",
             "timeout": 10,
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0
         },
+    {
+      "key": "fgd",
+      "name": "希尔👑4K①",
+      "playerType": "2",
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/jh.js"
+    },
+      {
+      "key": "CAIJI采",
+      "name": "📢🔥全",
+      "type": 4,
+      "api": "http://116.62.133.86:56688/%E9%87%87%E9%9B%86/cai.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+
       {
             "key": "懂帝影视",
             "name": "懂帝",
@@ -33,17 +51,71 @@
             "quickSearch": 1,
             "filterable": 1
         },
+   
+    {
+      "key": "qq",
+      "name": "主·QQ4K",
+      "playerType": 2,
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/qq.js"
+    },
+    {
+      "key": "mg",
+      "name": "🔥茫茫|4K②",
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/mg.js"
+    },
 
-         {
-            "key": "影探影视",
-            "name": "影探",
-            "type": 3,
-            "api": "https://gh-proxy.com//https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E5%BD%B1%E6%8E%A2.py",
-            "timeout": 10,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        }
+
+
+    {
+      "key": "bl",
+      "name": "❤小哩｜4K测试",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/bl.py"
+    },
+      {
+      "key": "蜡笔",
+      "name": "📢🌈蜡笔4K",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "http://140.210.14.201:666/ZC4K.jar",
+      "ext": "YUhSMGNEb3ZMekUxTmk0eU16TXVNakk0TGpJek16b3hPREE0TWk5aGNHa3ZZWEJwTG5Cb2NEOXphWFJsUFd4aFltaz0="
+ },
+      {
+      "key": "玩偶",
+      "name": "📢🌈玩偶4K",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "http://140.210.14.201:666/ZC4K.jar",
+      "ext": "YUhSMGNEb3ZMekUxTmk0eU16TXVNakk0TGpJek16b3hPREE0TWk5aGNHa3ZZWEJwTG5Cb2NEOXphWFJsUFhkdloyYz0="
+ },
+      {
+      "key": "木偶",
+      "name": "📢🌈木偶4K",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "http://140.210.14.201:666/ZC4K.jar",
+      "ext": "YUhSMGNEb3ZMekUxTmk0eU16TXVNakk0TGpJek16b3hPREE0TWk5aGNHa3ZZWEJwTG5Cb2NEOXphWFJsUFcxdloyYz0="
+ },
+      {
+      "key": "至臻",
+      "name": "📢🌈至臻4K",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "http://140.210.14.201:666/ZC4K.jar",
+      "ext": "YUhSMGNEb3ZMekUxTmk0eU16TXVNakk0TGpJek16b3hPREE0TWk5aGNHa3ZZWEJwTG5Cb2NEOXphWFJsUFhwb2FYcG9aVzQ9"
+ },
+      {
+      "key": "欧歌",
+      "name": "📢🌈欧歌4K",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "http://140.210.14.201:666/ZC4K.jar",
+      "ext": "YUhSMGNEb3ZMekUxTmk0eU16TXVNakk0TGpJek16b3hPREE0TWk5aGNHa3ZZWEJwTG5Cb2NEOXphWFJsUFc5MVoyVT0="
+ }
 
   ],
   "lives": [
@@ -88,7 +160,7 @@
     {
       "name": "影探",
       "type": 1,
-      "url": "http://fys.lyyytv.cn/api/index?parsesId=6&appid=10001&videoUrl="
+      "url": "http://140.210.14.201:2026/api/index?parsesId=2&appid=10000&videoUrl="
     }
 
   ],
