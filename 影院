@@ -1,27 +1,21 @@
 {
-  "spider": "https://file.icve.com.cn/file_doc/997/227/F9538F89E13ADF0CFBCA7909AE555AB6.png;md5;f9538f89e13adf0cfbca7909ae555ab6",
+  "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;85c7c57a5a3bffc7888a0c8424780a6b",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
+
     {
-      "name": "🔥豆瓣┃推荐",
-      "key": "Douban",
+      "key": "设置",
+      "name": "网弹|设置",
       "type": 3,
-      "api": "csp_DoubanAmns",
-      "indexs": 1,
+      "api": "csp_ConfigCAT",
       "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1,
-      "ext": "Douban"
-    },
-    {
-      "name": "⚙️配置┃中心",
-      "key": "MyConfig",
-      "type": 3,
-      "api": "csp_AAConfigAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
     },
     {
       "key": "fgd",
@@ -198,24 +192,9 @@
   ],
   "parses": [
     {
-      "name": "光速",
+      "name": "自定",
       "type": 1,
-      "url": "http://140.210.14.201:2026/api/index?parsesId=3&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "bilibili",
-          "YuMi-vip"
-        ]
-      }
+      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getuserjx&url="
     }
  
 
