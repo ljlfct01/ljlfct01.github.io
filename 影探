@@ -3,16 +3,16 @@
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
-      {
-            "key": "影探",
-            "name": "影视",
+        {
+            "key": "影探影视",
+            "name": "影探",
             "type": 3,
+            "api": "https://8960.kstore.space/py/yt%E6%96%B0.py",    #https://fastlink.cokey.xyz/f/PkWZt1/影探.py
+            "timeout": 10,
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "api": "https://8960.kstore.space/py/yt新.py"
-        }, 
+            "quickSearch": 0,
+            "changeable": 0
+        },
          {
             "key": "影探影视",
             "name": "影探",
