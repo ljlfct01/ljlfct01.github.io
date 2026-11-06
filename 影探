@@ -31,17 +31,41 @@
       "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
       "ext": "https://app.69mini.com/js/jh.js"
     },
-      {
-      "key": "CAIJI采",
-      "name": "📢🔥全",
+    {
+      "key": "qq",
+      "name": "腾讯🍋4K",
+      "playerType": 2,
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/qq.js"
+    },
+    {
+      "key": "mg",
+      "name": "芒果🍋4K",
+      "playerType": 2,
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/js/mg.js"
+    },
+    {
+      "key": "盘7",
+      "name": "免·4K网盘1",
       "type": 4,
+      "playerType": 2,
       "api": "http://116.62.133.86:56688/%E9%87%87%E9%9B%86/cai.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": ""
     },
-
+    {
+      "key": "bl",
+      "name": "🍋哔哩4K",
+      "playerType": "2",
+      "type": 3,
+      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
+      "ext": "https://app.69mini.com/lib1/bili.js"
+    },
       {
             "key": "懂帝影视",
             "name": "懂帝",
@@ -62,32 +86,7 @@
             "filterable": 1
         },
    
-    {
-      "key": "qq",
-      "name": "主·QQ4K",
-      "playerType": 2,
-      "type": 3,
-      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/qq.js"
-    },
-    {
-      "key": "mg",
-      "name": "🔥茫茫|4K②",
-      "type": 3,
-      "api": "https://aaa.69mini.com/store/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/js/mg.js"
-    },
 
-    {
-      "key": "无意哔哩",
-      "name": "哔哩┃无意",
-      "type": 3,
-      "api": "https://yc.wya6.cn/zhwj/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://yp.wya6.cn/nbwj/哔哩视频.js"
-    },
       {
       "key": "蜡笔",
       "name": "📢🌈蜡笔4K",
