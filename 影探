@@ -1,5 +1,5 @@
 {
-  "spider": "https://file.icve.com.cn/file_doc/997/227/F9538F89E13ADF0CFBCA7909AE555AB6.png;md5;f9538f89e13adf0cfbca7909ae555ab6",
+  "spider": "https://pan.szfx.top/down.php/6f8adba17fef4c1019adbdf4171ed398.jar;md5;4134902ca1e3ba9a6dd9c5b34a3a7c03",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
@@ -86,7 +86,356 @@
             "quickSearch": 1,
             "filterable": 1
         },
-   
+     {
+      "key": "cy_douban",
+      "name": "初忆┃豆瓣推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "group": "推荐",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_fourkmp",
+      "name": "初忆┃4KMP",
+      "type": 3,
+      "api": "csp_FourKMP",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_sikv4k",
+      "name": "初忆┃4K影视",
+      "type": 3,
+      "api": "csp_SiKv4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_fengye4k",
+      "name": "初忆┃枫叶4K",
+      "type": 3,
+      "api": "csp_FengYe4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_gulu",
+      "name": "初忆┃咕噜4K",
+      "type": 3,
+      "api": "csp_Gulu",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_hetun",
+      "name": "初忆┃河豚4K",
+      "type": 3,
+      "api": "csp_Hetun",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_juxiafan",
+      "name": "初忆┃剧下饭4K",
+      "type": 3,
+      "api": "csp_JuXiaFan",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_piandi",
+      "name": "初忆┃片帝4K",
+      "type": 3,
+      "api": "csp_Piandi",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_shanzha4k",
+      "name": "初忆┃山楂4K",
+      "type": 3,
+      "api": "csp_ShanZha4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_yingtan",
+      "name": "初忆┃影探4K",
+      "type": 3,
+      "api": "csp_Yingtan",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_yidong4k",
+      "name": "初忆┃移动4K",
+      "type": 3,
+      "api": "csp_Yidong4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_kishuto",
+      "name": "初忆┃聚合",
+      "type": 3,
+      "api": "csp_Kishuto",
+      "group": "聚合工具",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_pansearch",
+      "name": "初忆┃网盘",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "group": "聚合工具",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_daishu",
+      "name": "初忆┃袋鼠影视",
+      "type": 3,
+      "api": "csp_DaiShu",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_dbku",
+      "name": "初忆┃独播库",
+      "type": 3,
+      "api": "csp_Dbku",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_duoduo",
+      "name": "初忆┃多多影视",
+      "type": 3,
+      "api": "csp_DuoDuo",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_fdzy",
+      "name": "初忆┃饭搭子",
+      "type": 3,
+      "api": "csp_FanDaZi",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_gz",
+      "name": "初忆┃瓜子影视",
+      "type": 3,
+      "api": "csp_GZ",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_huayi",
+      "name": "初忆┃华谊影视",
+      "type": 3,
+      "api": "csp_HuaYi",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_jianpian",
+      "name": "初忆┃荐片",
+      "type": 3,
+      "api": "csp_JianPian",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_jbd",
+      "name": "初忆┃金牌影院",
+      "type": 3,
+      "api": "csp_JBD",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_juzhi",
+      "name": "初忆┃橘汁影视",
+      "type": 3,
+      "api": "csp_JuZhi",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_luoxue",
+      "name": "初忆┃洛雪TV",
+      "type": 3,
+      "api": "csp_LuoXueTV",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_nongmin",
+      "name": "初忆┃农民影视",
+      "type": 3,
+      "api": "csp_NongMin",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_rejutv",
+      "name": "初忆┃热剧TV",
+      "type": 3,
+      "api": "csp_ReJuTV",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_saohuo",
+      "name": "初忆┃骚火影视",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "group": "综合影视",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "cy_tegou",
+      "name": "初忆┃特狗影视",
+      "type": 3,
+      "api": "csp_Tegou",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_yunbo",
+      "name": "初忆┃TVB云播",
+      "type": 3,
+      "api": "csp_Yunbo",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_wangfei",
+      "name": "初忆┃网飞TV",
+      "type": 3,
+      "api": "csp_WfTV",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_yingxiang",
+      "name": "初忆┃映像星球",
+      "type": 3,
+      "api": "csp_YingXiang",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_zjdr",
+      "name": "初忆┃追剧达人",
+      "type": 3,
+      "api": "csp_Zjdr",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_zhuiying",
+      "name": "初忆┃追影",
+      "type": 3,
+      "api": "csp_ZhuiYing",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_xpg",
+      "name": "初忆┃小苹果",
+      "type": 3,
+      "api": "csp_Xpg",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_hongguo",
+      "name": "初忆┃红果短剧",
+      "type": 3,
+      "api": "csp_HongGuo",
+      "group": "短剧",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_dmbs",
+      "name": "初忆┃动漫巴士",
+      "type": 3,
+      "api": "csp_DongManBaShi",
+      "group": "动漫",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }, 
 
       {
       "key": "蜡笔",
@@ -189,8 +538,28 @@
       "name": "影探",
       "type": 1,
       "url": "http://140.210.14.201:2026/api/index?parsesId=2&appid=10000&videoUrl="
-    }
-
+    },
+    {
+      "name": "4K解析",
+      "type": "1",
+      "url": "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=gKZXJs5f&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇异",
+          "iqiyi",
+          "youku",
+          "优酷",
+          "bilibili",
+          "哔哩哔哩",
+          "yk",
+          "mgtv",
+          "芒果"
+        ]
+      }
   ],
   "flags": [
     "youku",
