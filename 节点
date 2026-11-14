@@ -128,6 +128,13 @@ proxies:
     skip-cert-verify: false
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     password: exaxgqkKkd0TAMrCxeonWg==
-
+  - name: "rocket-112.49.65.212"
+    type: trojan
+    server: 112.49.65.212
+    port: 18000
+    password: "3b985d60-e252-4935-8e03-06afeb1144c9"
+    sni: www.biliimg.com
+    skip-cert-verify: true
+    udp: true
  
 
