@@ -75,18 +75,7 @@
             "quickSearch": 0,
             "changeable": 0
         },
-		{
-			"api": "http://gktv.cc:88/140.250.232.11.json",
-			"ext": {
-				"thread": "10"
-			},
-			"filterable": 1,
-			"key": "py_失效",
-			"name": "失效",
-			"quickSearch": 1,
-			"searchable": 1,
-			"type": 3
-		},
+
 
     {
       "key": "qq",
@@ -175,7 +164,7 @@
       "type": 3,
       "api": "https://pan.szfx.top/down.php/5fd409fd0c36c3266814af80c330de4f.py"
     },
-     {"key": "4k-av","name": "zhibo","type": 3,"api": "https://pan.szfx.top/down.php/5fd409fd0c36c3266814af80c330de4f.py"},
+     {"key": "4k-av","name": "zhibo","type": 3,"api": "http://gktv.cc:88/140.250.232.11.json"},
      {"key": "set","name": "set","type": 3,"api": "https://pan.szfx.top/down.php/f4f66396d0f07967266664a5d42e30aa.py"},
      {"key": "scan","name": "seting","type": 3,"api": "https://pan.szfx.top/down.php/d41211cab0012d74d2494899ee83dfda.py"},
      {"key": "4k3","name": "黄豆","type": 3,"api": "https://nas-b84f2.any168.net/py/zhibo3新.py"},    
