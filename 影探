@@ -86,16 +86,18 @@
             "quickSearch": 1,
             "filterable": 1
         },
-      {
-            "key": "Rip",
-            "name": "Rip",
-            "type": 3,
-            "api": "https://mpimg.cn/down.php/454977725436c3f249a0b454692cfe94.py",
-            "timeout": 10,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
+    {
+      "key": "极影",
+      "name": "极致 | 4K",
+      "type": 3,
+      "api": "http://191.40.47.125:5656/js/极影.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playable": 1,
+      "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
+    },
      {
       "key": "cy_douban",
       "name": "初忆┃豆瓣推荐",
