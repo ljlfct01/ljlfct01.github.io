@@ -1102,7 +1102,7 @@ class YT4K(object):
     CMS_KEY = 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy'
     PARSE_API = 'http://fys.lyyytv.cn/api/index?appid=10001&videoUrl='
     PARSE_ID_WEB = 6      # 网页线路（腾讯/爱奇艺/芒果/优酷/B站…）
-    PARSE_ID_4K = 8       # 4K 直链（ym4kjx 等，站点本身 404，需换链）
+    PARSE_ID_4K = 9       # 4K 直链（ym4kjx 等，站点本身 404，需换链）
     HEADERS = {'User-Agent': 'okhttp/4.12.0'}
     PARSE_HEADERS = {'User-Agent': 'okhttp/4.12.0', 'Accept-Encoding': 'identity'}
 
